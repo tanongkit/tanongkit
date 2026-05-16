@@ -1,5 +1,245 @@
 [
   {
+    "tx_id": "20260517-0235",
+    "last_update": "2026-05-17 02:35:58",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "Heavy selling in major sectors (TECH, INDUS, PETRO) outweighs Financial gains.",
+      "player_stance": "SELL",
+      "stance_reason": "Fully invested in DELTA nearing MSCI event; market weakness and fading momentum support profit-taking.",
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "SELL",
+          "conf": 9,
+          "now": 319.0,
+          "entry": 314.54,
+          "tp": 350.0,
+          "vs": "Rank dropped 38->19, Rt < 1.5. Momentum is fading.",
+          "why": "Secure profit before MSCI \"sell on fact\" catalyst ends."
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 7.65,
+          "entry": 7.65,
+          "tp": 8.6,
+          "vs": "Rank 44, RSI 69, explosive Rt 6.25x, BDI strong.",
+          "why": "Strongest momentum signal (Rt) aligned with hot BDI futures."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 7,
+          "now": 24.5,
+          "entry": 24.5,
+          "tp": 27.0,
+          "vs": "Rank 32, RSI 66, Rt > 2x, consistent upward momentum.",
+          "why": "Clear \"Step Up\" chart with strong RSI and Rt signals."
+        },
+        {
+          "sym": "HANA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 31.5,
+          "entry": 32.0,
+          "tp": 35.0,
+          "vs": "Rank 17, RSI 67, good setup but Rt low (0.9x).",
+          "why": "V-shape pattern needs volume confirmation (Rt > 1.5x) to enter."
+        },
+        {
+          "sym": "WHA",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 4.68,
+          "entry": 4.7,
+          "tp": 5.0,
+          "vs": "Rank 23, RSI 69, strong Rt 2.2x, but S7 weak.",
+          "why": "Strong momentum (Rt) but needs short-term trend confirmation (S7+)."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "PETRO -3.6%, PKG -4.65%, ETRON -4.52%, TECH -3.11%, INDUS -3.12%",
+      "player_stance": "WAIT",
+      "stance_reason": "Port DELTA-only at 314.54. Wait for TP 350 or 29 May MSCI exit. No valid entry signals.",
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "conf": 9,
+          "now": 319.0,
+          "entry": 314.54,
+          "tp": 350.0,
+          "vs": "MSCI +1600M 29 May catalyst",
+          "why": "13 days to MSCI effective date"
+        },
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 7.65,
+          "entry": 7.8,
+          "tp": 9.5,
+          "vs": "BDI RSI 87 strong play",
+          "why": "S7 -1.4% wait S7 positive flip"
+        },
+        {
+          "sym": "CBG",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 41.0,
+          "entry": 42.0,
+          "tp": 48.0,
+          "vs": "Step Up rank 32 strong",
+          "why": "Rt 0.9x wait Rt 1.5x signal"
+        },
+        {
+          "sym": "COM7",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 24.5,
+          "entry": 25.0,
+          "tp": 29.0,
+          "vs": "Rank 32 step up consumer",
+          "why": "Rt 2.3x but S7 +4.4% wait"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 32.25,
+          "entry": 33.0,
+          "tp": 38.0,
+          "vs": "ELEC rank 17.85 V-Shape DNA",
+          "why": "Rt 1.29x wait Rt 1.5x breakout"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "20260517-0227",
+    "last_update": "2026-05-17 02:27:51",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "Key high-value sectors (TECH, INDUS, RESOURC) show significant weakness despite some green shoots.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong momentum breakouts (high Rt & d1) in specific large-caps override broad market weakness.",
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.65,
+          "entry": 7.7,
+          "tp": 8.5,
+          "vs": "Rank 44, massive daily momentum (rt 6.25x), RSI 69.",
+          "why": "Strong BDI commodity tailwind and S7 override rule met."
+        },
+        {
+          "sym": "CRC",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Rank jumped to 34, huge momentum (rt 6.9x, d1 +7.3%).",
+          "why": "Strong technical breakout signals a new upward trend."
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 8,
+          "now": 20.5,
+          "entry": 20.6,
+          "tp": 22.5,
+          "vs": "Rank exploded to 33, massive volume spike (rt 7.2x).",
+          "why": "Powerful breakout on extreme volume, signaling strong buying interest."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 8,
+          "now": 24.5,
+          "entry": 24.6,
+          "tp": 27.0,
+          "vs": "Rank 32, strong momentum (rt 2.3x), RSI 65 sweet spot.",
+          "why": "Good Q1 results plus strong technical entry signal met."
+        },
+        {
+          "sym": "CPALL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 46.25,
+          "entry": 46.5,
+          "tp": 49.5,
+          "vs": "Rank jumped to 29, strong momentum (rt 5.9x), RSI 65.",
+          "why": "Clear technical breakout for a market leader, signaling rotation."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "INDUS -3.12%, PETRO -3.6%, PKG -4.65%, ETRON -4.52% drag SET",
+      "player_stance": "WAIT",
+      "stance_reason": "Top sectors bleeding, DELTA -1.7% S7 signal weakening, wait for S7 confirmation before re-entry",
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 319.0,
+          "entry": 310.0,
+          "tp": 350.0,
+          "vs": "S7 turning negative",
+          "why": "Volume spike but price weak, S7 confirmation needed"
+        },
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 7.65,
+          "entry": 7.8,
+          "tp": 8.5,
+          "vs": "BDI RSI 90",
+          "why": "S7 still negative, wait for S7 flip"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 32.25,
+          "entry": 33.0,
+          "tp": 36.0,
+          "vs": "ELEC V-Shape",
+          "why": "Rt 1.29 low, wait Rt > 1.5x"
+        },
+        {
+          "sym": "HANA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 31.5,
+          "entry": 32.0,
+          "tp": 35.0,
+          "vs": "ELEC play",
+          "why": "Rt 0.92 weak, wait confirmation"
+        },
+        {
+          "sym": "CBG",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 41.0,
+          "entry": 42.0,
+          "tp": 45.0,
+          "vs": "Consumer Step Up",
+          "why": "Rt 0.92 too low, need Rt > 1.5x"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260517-0142",
     "last_update": "2026-05-17 01:42:20",
     "gemini": {
