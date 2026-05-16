@@ -1,5 +1,211 @@
 [
   {
+    "tx_id": "20260517-0644",
+    "last_update": "2026-05-17 06:44:24",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Financials up but offset by heavy selling in ETRON, PETRO, and TECH sectors.",
+      "player_stance": "HOLD",
+      "stance_reason": "Fully invested in DELTA, riding the MSCI catalyst. Awaiting signal or TP/Stop to free up cash.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 319.0,
+          "reason": "Price >310, MSCI catalyst active."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.65,
+          "entry": 7.65,
+          "tp": 8.8,
+          "vs": "BDI RSI 90 🔥",
+          "why": "Rt 6.25x, V-Shape DNA, BDI strong."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "GUNKUL",
+          "score": 91.65,
+          "why": "Highest rank, strong momentum, Rt>1.5."
+        },
+        {
+          "sym": "PSL",
+          "score": 44.08,
+          "why": "Explosive Rt 6.25x, strong rank jump."
+        },
+        {
+          "sym": "M",
+          "score": 33.44,
+          "why": "Explosive Rt 7.24x, strong rank."
+        },
+        {
+          "sym": "COM7",
+          "score": 32.11,
+          "why": "Strong Rt 2.3x and rank score."
+        },
+        {
+          "sym": "WHA",
+          "score": 23.36,
+          "why": "Strong Rt 2.2x and rank score."
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "OSP",
+          "score": -9.44,
+          "why": "Negative rank, weak momentum."
+        },
+        {
+          "sym": "MTC",
+          "score": -2.07,
+          "why": "Negative rank, low Rt."
+        },
+        {
+          "sym": "HMPRO",
+          "score": 2.74,
+          "why": "Low rank despite high Rt."
+        },
+        {
+          "sym": "CENTEL",
+          "score": 3.98,
+          "why": "Low rank, low Rt."
+        },
+        {
+          "sym": "KTB",
+          "score": 11.71,
+          "why": "Low rank and low Rt."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "PETRO -3.6% PKG -4.65% ETRON -4.52% INDUS -3.12% TECH -3.11%",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA +11,600B hold above 310. TP partial if 305-310 break. MSCI 13 days left.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 319.0,
+          "reason": "Above 310 TP1 350 29May"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 7.65,
+          "entry": 7.8,
+          "tp": 9.5,
+          "vs": "S7 -1.4% wait S7+",
+          "why": "BDI RSI90 Rt6.25x but S7 negative"
+        },
+        {
+          "sym": "HANA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 31.5,
+          "entry": 32.5,
+          "tp": 38.0,
+          "vs": "Rt 0.92x wait 1.5x",
+          "why": "ELEC V-Shape S7+2.5% Rt low"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 32.25,
+          "entry": 33.0,
+          "tp": 38.0,
+          "vs": "Rt 1.29x wait 1.5x",
+          "why": "ELEC V-Shape S7+1.2% Rt improving"
+        },
+        {
+          "sym": "COM7",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 24.5,
+          "entry": 25.0,
+          "tp": 29.0,
+          "vs": "Rt 2.34x but S7+4.4%",
+          "why": "Step Up Rt strong S7 positive"
+        },
+        {
+          "sym": "CBG",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 41.0,
+          "entry": 42.0,
+          "tp": 48.0,
+          "vs": "Rt 0.92x wait 1.5x",
+          "why": "Step Up S7+1.2% Rt low"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "GUNKUL",
+          "score": 91.65,
+          "why": "Solar RSI84 RG97 S7+40% Rt1.58x"
+        },
+        {
+          "sym": "SCGP",
+          "score": 47.94,
+          "why": "PKG RSI68 RG94 S7+20.9% strong"
+        },
+        {
+          "sym": "STA",
+          "score": 49.01,
+          "why": "RUBBER RSI73 RG98 S7+22% momentum"
+        },
+        {
+          "sym": "PSL",
+          "score": 44.08,
+          "why": "BDI play RSI69 Rt6.25x S7-1.4% wait"
+        },
+        {
+          "sym": "STECON",
+          "score": 35.37,
+          "why": "Const RSI60 RG88 S7+15.5% volatile"
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "PTG",
+          "score": -25.77,
+          "why": "Oil retail RSI30 S7-10.2% weak"
+        },
+        {
+          "sym": "IND",
+          "score": -31.97,
+          "why": "Industry RSI25 RG5 S7-12.7% collapse"
+        },
+        {
+          "sym": "UBE",
+          "score": -26.85,
+          "why": "AGRO RSI37 RG35 S7-10.8% down"
+        },
+        {
+          "sym": "PLUS",
+          "score": -14.05,
+          "why": "Food RSI35 S7-4.7% M-8.3% weak"
+        },
+        {
+          "sym": "BTG",
+          "score": -17.08,
+          "why": "Food RSI36 S7-7.3% M-14.4% down"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260517-0311",
     "last_update": "2026-05-17 03:11:20",
     "gemini": {
