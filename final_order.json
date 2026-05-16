@@ -1,5 +1,30 @@
 {
-  "execution_time": "2026-05-17 02:46:10",
-  "ref_tx_id": "20260517-0244",
-  "orders": []
+  "execution_time": "2026-05-17 03:12:50",
+  "ref_tx_id": "20260517-0311",
+  "orders": [
+    {
+      "symbol": "PSL",
+      "action": "BUY",
+      "price": 7.65,
+      "sources": [
+        "gemini"
+      ]
+    },
+    {
+      "symbol": "WHA",
+      "action": "BUY",
+      "price": 4.68,
+      "sources": [
+        "gemini"
+      ]
+    },
+    {
+      "symbol": "COM7",
+      "action": "BUY",
+      "price": 24.5,
+      "sources": [
+        "gemini"
+      ]
+    }
+  ]
 }

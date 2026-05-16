@@ -1,5 +1,125 @@
 [
   {
+    "tx_id": "20260517-0311",
+    "last_update": "2026-05-17 03:11:20",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "Broad selling in major sectors like Industrials, Petrochemicals, and Electronics.",
+      "player_stance": "BUY",
+      "stance_reason": "Despite market weakness, select stocks show extreme momentum, triggering entry signals via override rules.",
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.65,
+          "entry": 7.65,
+          "tp": 8.5,
+          "vs": "Rank jump to 44, rt 6.2x, RSI near 70.",
+          "why": "BDI strong, V-shape DNA, S7 override rule met."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 8,
+          "now": 24.5,
+          "entry": 24.5,
+          "tp": 27.0,
+          "vs": "Rank 32, rt 2.3x, RSI 66 (sweet spot).",
+          "why": "Meets all entry rules, good Q1, Step Up DNA."
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.68,
+          "entry": 4.68,
+          "tp": 5.1,
+          "vs": "Rank 23, rt 2.2x, RSI 69, high rg.",
+          "why": "Meets rules, strong Q1 (+156%), EV/Data Center theme."
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.58,
+          "entry": 3.58,
+          "tp": 3.9,
+          "vs": "Rank 28, rt 1.6x, RSI 62.",
+          "why": "Meets rules, but Q1 miss and volatile DNA."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 32.25,
+          "entry": 32.25,
+          "tp": 35.5,
+          "vs": "Rank 17, rt 1.3x (almost), RSI 68.",
+          "why": "Strong electronics sentiment (SOX-F), V-shape, relaxing rt rule."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "TECH -3.11%, PETRO -3.6%, PKG -4.65%, ETRON -4.52% dragging SET down",
+      "player_stance": "WAIT",
+      "stance_reason": "Port fully in DELTA (319→314.54). Wait for DELTA TP 350 before new entries. Watchlist needs Rt>1.5x confirmation.",
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 7.65,
+          "entry": 8.0,
+          "tp": 9.5,
+          "vs": "BDI RSI 90 strong",
+          "why": "S7 -1.4% negative blocks entry"
+        },
+        {
+          "sym": "CBG",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 41.0,
+          "entry": 42.5,
+          "tp": 48.0,
+          "vs": "Consumer Step Up",
+          "why": "Rt 0.92x too low needs 1.5x"
+        },
+        {
+          "sym": "COM7",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 24.5,
+          "entry": 25.5,
+          "tp": 28.0,
+          "vs": "IT retail momentum",
+          "why": "Rt 2.34x but S7 +4.4% overbought"
+        },
+        {
+          "sym": "HANA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 31.5,
+          "entry": 32.5,
+          "tp": 36.0,
+          "vs": "ELEC V-Shape play",
+          "why": "Rt 0.92x needs 1.5x confirmation"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 32.25,
+          "entry": 33.5,
+          "tp": 37.0,
+          "vs": "PCB ELEC momentum",
+          "why": "Rt 1.29x close but wait 1.5x"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260517-0244",
     "last_update": "2026-05-17 02:44:50",
     "gemini": {

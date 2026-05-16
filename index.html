@@ -659,6 +659,65 @@
   }
   .tl-divider::before { content:''; width:6px; height:1px; background:var(--border); }
 
+
+  /* ── CONSENSUS WIDGET ── */
+  .consensus-wrap { margin-bottom: 16px; }
+  .consensus-title {
+    font-family: var(--font-mono); font-size: 9px; font-weight: 500;
+    color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase;
+    margin-bottom: 8px; padding-bottom: 5px;
+    border-bottom: 1px solid var(--border);
+    display: flex; justify-content: space-between;
+  }
+  .consensus-card {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin-bottom: 6px;
+    position: relative; overflow: hidden;
+  }
+  .consensus-card::before {
+    content: ''; position: absolute;
+    left: 0; top: 0; bottom: 0; width: 3px;
+  }
+  .cc-head {
+    display: flex; align-items: center;
+    justify-content: space-between; margin-bottom: 4px;
+  }
+  .cc-sym {
+    font-family: var(--font-mono); font-size: 13px;
+    font-weight: 500; color: var(--text);
+  }
+  .cc-score {
+    font-family: var(--font-mono); font-size: 10px;
+    font-weight: 500; padding: 1px 6px;
+    border-radius: 3px;
+  }
+  .cc-bars {
+    display: flex; gap: 2px; margin-bottom: 4px;
+  }
+  .cc-bar-slot {
+    flex: 1; height: 4px; border-radius: 2px;
+    background: var(--border);
+    position: relative;
+  }
+  .cc-bar-fill {
+    position: absolute; top: 0; left: 0; bottom: 0;
+    border-radius: 2px;
+  }
+  .cc-meta {
+    display: flex; gap: 6px; flex-wrap: wrap;
+    font-family: var(--font-mono); font-size: 9px;
+    color: var(--muted);
+  }
+  .cc-badge {
+    padding: 1px 5px; border-radius: 2px;
+    font-size: 9px; font-weight: 500;
+    font-family: var(--font-mono);
+  }
+  .cc-appear { color: var(--muted); font-size: 9px; }
+
 </style>
 </head>
 <body>
@@ -882,6 +941,7 @@ const eData = {};
 <!-- AI SIDEBAR -->
 <div class="ai-sidebar">
   <div class="sb-title">ai decisions <span class="sb-last-update" id="tlLastUpdate"></span></div>
+  <div class="consensus-wrap" id="consensusWrap"></div>
   <div class="ai-timeline" id="aiTimeline">
     <div class="tl-empty">Loading...</div>
   </div>
@@ -1828,9 +1888,9 @@ renderSectorBreakdown();
 
 
 /* __ DATA INJECTION POINT __ */
-// built: 2026-05-17 02:46:12
-const AI_DECISION = [{"tx_id": "20260517-0244", "last_update": "2026-05-17 02:44:50", "gemini": {"market_sentiment": "BEARISH", "sentiment_reason": "Heavy selling in ETRON/TECH/PETRO outweighs gains, indicating risk-off rotation.", "player_stance": "BUY", "stance_reason": "Market is rotating, not crashing. Individual stocks with strong momentum (high Rt) exist despite sector weakness.", "picks": [{"sym": "PSL", "action": "BUY", "conf": 9, "now": 7.65, "entry": 7.7, "tp": 8.55, "vs": "Rank 44, Rt 6.25x, huge momentum jump.", "why": "BDI-F extremely strong; massive fund flow."}, {"sym": "COM7", "action": "BUY", "conf": 8, "now": 24.5, "entry": 24.7, "tp": 26.5, "vs": "Rank 32, Rt 2.3x, consistent uptrend.", "why": "Good Q1 earnings, strong momentum signal."}, {"sym": "WHA", "action": "BUY", "conf": 8, "now": 4.68, "entry": 4.7, "tp": 5.15, "vs": "Rank 23, Rt 2.2x, strong uptrend.", "why": "Stellar Q1 earnings (+156%), EV/DC theme."}, {"sym": "M", "action": "BUY", "conf": 7, "now": 20.5, "entry": 20.7, "tp": 22.1, "vs": "Rank 33, Rt 7.2x, extreme volume spike.", "why": "Massive momentum but fundamentals are weak."}, {"sym": "HMPRO", "action": "BUY", "conf": 6, "now": 6.0, "entry": 6.05, "tp": 6.5, "vs": "Rank 2.7, Rt 2.3x, weak trend.", "why": "Passes S7 override rule; short-term momentum."}]}, "claude": {"market_sentiment": "BEARISH", "sentiment_reason": "TECH -3.11%, PETRO -3.6%, PKG -4.65%, ETRON -4.52%, major sectors red", "player_stance": "WAIT", "stance_reason": "Port full in DELTA (817.8K). DELTA TP 350 still active. No slot for new entry until TP.", "picks": [{"sym": "DELTA", "action": "HOLD", "conf": 9, "now": 319.0, "entry": 314.54, "tp": 350.0, "vs": "Port 2,600 shares. MSCI +1,600M catalyst active.", "why": "Hold to TP 350 or 29 May."}, {"sym": "PSL", "action": "WATCH", "conf": 7, "now": 7.65, "entry": 7.5, "tp": 8.5, "vs": "BDI RSI 87. Rank 44. Rt 6.3x spike.", "why": "Wait S7 turn positive first."}, {"sym": "CBG", "action": "WATCH", "conf": 6, "now": 41.0, "entry": 40.5, "tp": 44.0, "vs": "Rank 32. Step Up DNA. Rt only 0.9x.", "why": "Rt too low. Need 1.5x+."}, {"sym": "COM7", "action": "WATCH", "conf": 6, "now": 24.5, "entry": 24.3, "tp": 26.5, "vs": "Rank 32. Step Up. Rt 2.3x but S7 +4.4%.", "why": "Wait Rt confirm or pullback entry."}, {"sym": "WHA", "action": "WATCH", "conf": 5, "now": 4.68, "entry": 4.6, "tp": 5.0, "vs": "Rank 23. Rt 2.2x but S7 -2.3%.", "why": "Wait S7 turn positive first."}]}}, {"tx_id": "20260517-0235", "last_update": "2026-05-17 02:35:58", "gemini": {"market_sentiment": "BEARISH", "sentiment_reason": "Heavy selling in major sectors (TECH, INDUS, PETRO) outweighs Financial gains.", "player_stance": "SELL", "stance_reason": "Fully invested in DELTA nearing MSCI event; market weakness and fading momentum support profit-taking.", "picks": [{"sym": "DELTA", "action": "SELL", "conf": 9, "now": 319.0, "entry": 314.54, "tp": 350.0, "vs": "Rank dropped 38->19, Rt < 1.5. Momentum is fading.", "why": "Secure profit before MSCI \"sell on fact\" catalyst ends."}, {"sym": "PSL", "action": "BUY", "conf": 8, "now": 7.65, "entry": 7.65, "tp": 8.6, "vs": "Rank 44, RSI 69, explosive Rt 6.25x, BDI strong.", "why": "Strongest momentum signal (Rt) aligned with hot BDI futures."}, {"sym": "COM7", "action": "BUY", "conf": 7, "now": 24.5, "entry": 24.5, "tp": 27.0, "vs": "Rank 32, RSI 66, Rt > 2x, consistent upward momentum.", "why": "Clear \"Step Up\" chart with strong RSI and Rt signals."}, {"sym": "HANA", "action": "WAIT", "conf": 6, "now": 31.5, "entry": 32.0, "tp": 35.0, "vs": "Rank 17, RSI 67, good setup but Rt low (0.9x).", "why": "V-shape pattern needs volume confirmation (Rt > 1.5x) to enter."}, {"sym": "WHA", "action": "WAIT", "conf": 7, "now": 4.68, "entry": 4.7, "tp": 5.0, "vs": "Rank 23, RSI 69, strong Rt 2.2x, but S7 weak.", "why": "Strong momentum (Rt) but needs short-term trend confirmation (S7+)."}]}, "claude": {"market_sentiment": "BEARISH", "sentiment_reason": "PETRO -3.6%, PKG -4.65%, ETRON -4.52%, TECH -3.11%, INDUS -3.12%", "player_stance": "WAIT", "stance_reason": "Port DELTA-only at 314.54. Wait for TP 350 or 29 May MSCI exit. No valid entry signals.", "picks": [{"sym": "DELTA", "action": "HOLD", "conf": 9, "now": 319.0, "entry": 314.54, "tp": 350.0, "vs": "MSCI +1600M 29 May catalyst", "why": "13 days to MSCI effective date"}, {"sym": "PSL", "action": "WAIT", "conf": 7, "now": 7.65, "entry": 7.8, "tp": 9.5, "vs": "BDI RSI 87 strong play", "why": "S7 -1.4% wait S7 positive flip"}, {"sym": "CBG", "action": "WAIT", "conf": 6, "now": 41.0, "entry": 42.0, "tp": 48.0, "vs": "Step Up rank 32 strong", "why": "Rt 0.9x wait Rt 1.5x signal"}, {"sym": "COM7", "action": "WAIT", "conf": 6, "now": 24.5, "entry": 25.0, "tp": 29.0, "vs": "Rank 32 step up consumer", "why": "Rt 2.3x but S7 +4.4% wait"}, {"sym": "KCE", "action": "WAIT", "conf": 5, "now": 32.25, "entry": 33.0, "tp": 38.0, "vs": "ELEC rank 17.85 V-Shape DNA", "why": "Rt 1.29x wait Rt 1.5x breakout"}]}}, {"tx_id": "20260517-0227", "last_update": "2026-05-17 02:27:51", "gemini": {"market_sentiment": "BEARISH", "sentiment_reason": "Key high-value sectors (TECH, INDUS, RESOURC) show significant weakness despite some green shoots.", "player_stance": "BUY", "stance_reason": "Strong momentum breakouts (high Rt & d1) in specific large-caps override broad market weakness.", "picks": [{"sym": "PSL", "action": "BUY", "conf": 9, "now": 7.65, "entry": 7.7, "tp": 8.5, "vs": "Rank 44, massive daily momentum (rt 6.25x), RSI 69.", "why": "Strong BDI commodity tailwind and S7 override rule met."}, {"sym": "CRC", "action": "BUY", "conf": 8, "now": 0.0, "entry": 0.0, "tp": 0.0, "vs": "Rank jumped to 34, huge momentum (rt 6.9x, d1 +7.3%).", "why": "Strong technical breakout signals a new upward trend."}, {"sym": "M", "action": "BUY", "conf": 8, "now": 20.5, "entry": 20.6, "tp": 22.5, "vs": "Rank exploded to 33, massive volume spike (rt 7.2x).", "why": "Powerful breakout on extreme volume, signaling strong buying interest."}, {"sym": "COM7", "action": "BUY", "conf": 8, "now": 24.5, "entry": 24.6, "tp": 27.0, "vs": "Rank 32, strong momentum (rt 2.3x), RSI 65 sweet spot.", "why": "Good Q1 results plus strong technical entry signal met."}, {"sym": "CPALL", "action": "BUY", "conf": 7, "now": 46.25, "entry": 46.5, "tp": 49.5, "vs": "Rank jumped to 29, strong momentum (rt 5.9x), RSI 65.", "why": "Clear technical breakout for a market leader, signaling rotation."}]}, "claude": {"market_sentiment": "BEARISH", "sentiment_reason": "INDUS -3.12%, PETRO -3.6%, PKG -4.65%, ETRON -4.52% drag SET", "player_stance": "WAIT", "stance_reason": "Top sectors bleeding, DELTA -1.7% S7 signal weakening, wait for S7 confirmation before re-entry", "picks": [{"sym": "DELTA", "action": "WAIT", "conf": 7, "now": 319.0, "entry": 310.0, "tp": 350.0, "vs": "S7 turning negative", "why": "Volume spike but price weak, S7 confirmation needed"}, {"sym": "PSL", "action": "WAIT", "conf": 6, "now": 7.65, "entry": 7.8, "tp": 8.5, "vs": "BDI RSI 90", "why": "S7 still negative, wait for S7 flip"}, {"sym": "KCE", "action": "WAIT", "conf": 6, "now": 32.25, "entry": 33.0, "tp": 36.0, "vs": "ELEC V-Shape", "why": "Rt 1.29 low, wait Rt > 1.5x"}, {"sym": "HANA", "action": "WAIT", "conf": 5, "now": 31.5, "entry": 32.0, "tp": 35.0, "vs": "ELEC play", "why": "Rt 0.92 weak, wait confirmation"}, {"sym": "CBG", "action": "WAIT", "conf": 5, "now": 41.0, "entry": 42.0, "tp": 45.0, "vs": "Consumer Step Up", "why": "Rt 0.92 too low, need Rt > 1.5x"}]}}, {"tx_id": "20260517-0142", "last_update": "2026-05-17 01:42:20", "gemini": {"market_sentiment": "BEARISH", "sentiment_reason": "Heavyweight sectors ETRON, INDUS, RESOURC are down sharply, outweighing financial sector gains.", "player_stance": "WAIT", "stance_reason": "Broad market weakness and no high-conviction stocks on watchlist meet all strict entry criteria.", "picks": [{"sym": "PSL", "action": "BUY", "conf": 9, "now": 7.65, "entry": 7.7, "tp": 8.5, "vs": "Rank 44, rt 6.25x, RSI 69. Huge momentum spike.", "why": "BDI-F strong, S7 override rule passed, powerful daily momentum."}, {"sym": "COM7", "action": "BUY", "conf": 8, "now": 24.5, "entry": 24.6, "tp": 26.5, "vs": "Rank 32, rt 2.34x, RSI 66. Healthy momentum in sweet spot.", "why": "Passed all rules, strong rank, good consumer momentum play."}, {"sym": "WHA", "action": "BUY", "conf": 8, "now": 4.68, "entry": 4.7, "tp": 5.1, "vs": "Rank 23, rt 2.21x, RSI 69. Good breakout with volume.", "why": "Strong earnings catalyst (+156%), EV/Data Center theme, rules passed."}, {"sym": "EPG", "action": "BUY", "conf": 7, "now": 3.58, "entry": 3.6, "tp": 3.9, "vs": "Rank 28, rt 1.63x, RSI 62. Just passed rt rule.", "why": "Meets minimum entry criteria, consistent rank, a less volatile pick."}, {"sym": "M", "action": "BUY", "conf": 6, "now": 20.5, "entry": 20.6, "tp": 22.2, "vs": "Rank 33, rt 7.24x, RSI 74. Exploded from low base.", "why": "Massive volume and price surge, short-term momentum trading opportunity."}]}, "claude": {"market_sentiment": "BEARISH", "sentiment_reason": "PETRO -3.6%, PKG -4.65%, ETRON -4.52%, INDUS -3.12%, TECH -3.11% dominate red", "player_stance": "WAIT", "stance_reason": "DELTA only green 7.4B val; all Universe in red/low Rt; pre-MSCI profit-taking; await S7 confirmation", "picks": [{"sym": "DELTA", "action": "WAIT", "conf": 7, "now": 319.0, "entry": 310.0, "tp": 350.0, "vs": "Only 1.4x Rt weak", "why": "Hold TP 350 near; no add red day"}, {"sym": "PSL", "action": "WAIT", "conf": 6, "now": 7.65, "entry": 7.2, "tp": 8.5, "vs": "6.25x Rt but S7 -1.4%", "why": "BDI RSI 90 wait S7 flip positive"}, {"sym": "CBG", "action": "WAIT", "conf": 5, "now": 41.0, "entry": 39.0, "tp": 45.0, "vs": "0.92x Rt too low", "why": "RSI 67 good need Rt 1.5x confirm"}, {"sym": "COM7", "action": "WAIT", "conf": 5, "now": 24.5, "entry": 23.5, "tp": 27.0, "vs": "2.34x Rt but vol drop", "why": "S7 +4.4% wait sector tech stabilize first"}, {"sym": "KCE", "action": "WAIT", "conf": 4, "now": 32.25, "entry": 31.0, "tp": 36.0, "vs": "1.29x Rt insufficient entry", "why": "ELEC -4.52% sector wait ETRON reverse positive"}]}}, {"last_update": "2026-05-17 01:16:04", "gemini": {"market_sentiment": "BEARISH", "sentiment_reason": "Widespread sell-off in key sectors like ETRON, TECH, PETRO.", "player_stance": "BUY", "stance_reason": "Selectively entering strong momentum stocks despite weak market per plan.", "picks": [{"sym": "PSL", "action": "BUY", "conf": 9, "now": 7.65, "entry": 7.6, "tp": 8.8, "vs": "High rank/RSI, massive Rt (6.25x) signals momentum breakout.", "why": "Top watchlist priority, strong BDI-F, passes S7 override rule."}, {"sym": "M", "action": "BUY", "conf": 8, "now": 20.5, "entry": 20.5, "tp": 22.5, "vs": "Rank jumped, huge Rt (7.2x) and D1 (+8.9%).", "why": "Exceptional daily momentum signalling strong institutional buy day."}, {"sym": "COM7", "action": "BUY", "conf": 8, "now": 24.5, "entry": 24.5, "tp": 27.0, "vs": "Strong rank, sweet spot RSI, high Rt (2.34x).", "why": "Clear entry signal per rules, strong Q1 earnings catalyst."}, {"sym": "WHA", "action": "BUY", "conf": 7, "now": 4.68, "entry": 4.6, "tp": 5.15, "vs": "Good rank, strong Rt (2.21x) despite weak sector.", "why": "EV/Data center theme, strong Q1 earnings, passes S7 override."}, {"sym": "KTB", "action": "BUY", "conf": 6, "now": 34.25, "entry": 34.0, "tp": 36.5, "vs": "Rank jumped, good RSI, Rt (1.44x) nearly at threshold.", "why": "Momentum in a strong sector (BANK), passes S7 override."}]}, "claude": {"market_sentiment": "BEARISH", "sentiment_reason": "PETRO -3.6%, PKG -4.65%, ETRON -4.52%, INDUS -3.12%, TECH -3.11%", "player_stance": "WAIT", "stance_reason": "DELTA volume 7.38B exceptional but sector weakness; wait for PSL S7 flip or slot open", "picks": [{"sym": "DELTA", "action": "HOLD", "conf": 9, "now": 319.0, "entry": 314.54, "tp": 350.0, "vs": "MSCI+ATH+ELEC", "why": "Pre-MSCI rally; TP before 29 May"}, {"sym": "PSL", "action": "WAIT", "conf": 7, "now": 7.65, "entry": 7.8, "tp": 9.2, "vs": "BDI RSI 90", "why": "S7 -1.4% blocks; wait flip positive"}, {"sym": "HANA", "action": "WAIT", "conf": 6, "now": 31.5, "entry": 32.0, "tp": 37.0, "vs": "ELEC V-Shape", "why": "Rt 0.9 low; wait Rt>1.5"}, {"sym": "KCE", "action": "WAIT", "conf": 6, "now": 32.25, "entry": 33.0, "tp": 38.0, "vs": "PCB ELEC", "why": "Rt 1.29 borderline; wait 1.5+"}, {"sym": "CBG", "action": "WAIT", "conf": 5, "now": 41.0, "entry": 42.0, "tp": 48.0, "vs": "Consumer Step", "why": "Rt 0.92 low; wait Rt>1.5"}]}}];
-const FINAL_ORDER = {"execution_time": "2026-05-17 02:46:10", "ref_tx_id": "20260517-0244", "orders": []};
+// built: 2026-05-17 03:12:52
+const AI_DECISION = [{"tx_id": "20260517-0311", "last_update": "2026-05-17 03:11:20", "gemini": {"market_sentiment": "BEARISH", "sentiment_reason": "Broad selling in major sectors like Industrials, Petrochemicals, and Electronics.", "player_stance": "BUY", "stance_reason": "Despite market weakness, select stocks show extreme momentum, triggering entry signals via override rules.", "picks": [{"sym": "PSL", "action": "BUY", "conf": 9, "now": 7.65, "entry": 7.65, "tp": 8.5, "vs": "Rank jump to 44, rt 6.2x, RSI near 70.", "why": "BDI strong, V-shape DNA, S7 override rule met."}, {"sym": "COM7", "action": "BUY", "conf": 8, "now": 24.5, "entry": 24.5, "tp": 27.0, "vs": "Rank 32, rt 2.3x, RSI 66 (sweet spot).", "why": "Meets all entry rules, good Q1, Step Up DNA."}, {"sym": "WHA", "action": "BUY", "conf": 8, "now": 4.68, "entry": 4.68, "tp": 5.1, "vs": "Rank 23, rt 2.2x, RSI 69, high rg.", "why": "Meets rules, strong Q1 (+156%), EV/Data Center theme."}, {"sym": "EPG", "action": "BUY", "conf": 7, "now": 3.58, "entry": 3.58, "tp": 3.9, "vs": "Rank 28, rt 1.6x, RSI 62.", "why": "Meets rules, but Q1 miss and volatile DNA."}, {"sym": "KCE", "action": "BUY", "conf": 7, "now": 32.25, "entry": 32.25, "tp": 35.5, "vs": "Rank 17, rt 1.3x (almost), RSI 68.", "why": "Strong electronics sentiment (SOX-F), V-shape, relaxing rt rule."}]}, "claude": {"market_sentiment": "BEARISH", "sentiment_reason": "TECH -3.11%, PETRO -3.6%, PKG -4.65%, ETRON -4.52% dragging SET down", "player_stance": "WAIT", "stance_reason": "Port fully in DELTA (319→314.54). Wait for DELTA TP 350 before new entries. Watchlist needs Rt>1.5x confirmation.", "picks": [{"sym": "PSL", "action": "WAIT", "conf": 7, "now": 7.65, "entry": 8.0, "tp": 9.5, "vs": "BDI RSI 90 strong", "why": "S7 -1.4% negative blocks entry"}, {"sym": "CBG", "action": "WAIT", "conf": 6, "now": 41.0, "entry": 42.5, "tp": 48.0, "vs": "Consumer Step Up", "why": "Rt 0.92x too low needs 1.5x"}, {"sym": "COM7", "action": "WAIT", "conf": 6, "now": 24.5, "entry": 25.5, "tp": 28.0, "vs": "IT retail momentum", "why": "Rt 2.34x but S7 +4.4% overbought"}, {"sym": "HANA", "action": "WAIT", "conf": 5, "now": 31.5, "entry": 32.5, "tp": 36.0, "vs": "ELEC V-Shape play", "why": "Rt 0.92x needs 1.5x confirmation"}, {"sym": "KCE", "action": "WAIT", "conf": 5, "now": 32.25, "entry": 33.5, "tp": 37.0, "vs": "PCB ELEC momentum", "why": "Rt 1.29x close but wait 1.5x"}]}}, {"tx_id": "20260517-0244", "last_update": "2026-05-17 02:44:50", "gemini": {"market_sentiment": "BEARISH", "sentiment_reason": "Heavy selling in ETRON/TECH/PETRO outweighs gains, indicating risk-off rotation.", "player_stance": "BUY", "stance_reason": "Market is rotating, not crashing. Individual stocks with strong momentum (high Rt) exist despite sector weakness.", "picks": [{"sym": "PSL", "action": "BUY", "conf": 9, "now": 7.65, "entry": 7.7, "tp": 8.55, "vs": "Rank 44, Rt 6.25x, huge momentum jump.", "why": "BDI-F extremely strong; massive fund flow."}, {"sym": "COM7", "action": "BUY", "conf": 8, "now": 24.5, "entry": 24.7, "tp": 26.5, "vs": "Rank 32, Rt 2.3x, consistent uptrend.", "why": "Good Q1 earnings, strong momentum signal."}, {"sym": "WHA", "action": "BUY", "conf": 8, "now": 4.68, "entry": 4.7, "tp": 5.15, "vs": "Rank 23, Rt 2.2x, strong uptrend.", "why": "Stellar Q1 earnings (+156%), EV/DC theme."}, {"sym": "M", "action": "BUY", "conf": 7, "now": 20.5, "entry": 20.7, "tp": 22.1, "vs": "Rank 33, Rt 7.2x, extreme volume spike.", "why": "Massive momentum but fundamentals are weak."}, {"sym": "HMPRO", "action": "BUY", "conf": 6, "now": 6.0, "entry": 6.05, "tp": 6.5, "vs": "Rank 2.7, Rt 2.3x, weak trend.", "why": "Passes S7 override rule; short-term momentum."}]}, "claude": {"market_sentiment": "BEARISH", "sentiment_reason": "TECH -3.11%, PETRO -3.6%, PKG -4.65%, ETRON -4.52%, major sectors red", "player_stance": "WAIT", "stance_reason": "Port full in DELTA (817.8K). DELTA TP 350 still active. No slot for new entry until TP.", "picks": [{"sym": "DELTA", "action": "HOLD", "conf": 9, "now": 319.0, "entry": 314.54, "tp": 350.0, "vs": "Port 2,600 shares. MSCI +1,600M catalyst active.", "why": "Hold to TP 350 or 29 May."}, {"sym": "PSL", "action": "WATCH", "conf": 7, "now": 7.65, "entry": 7.5, "tp": 8.5, "vs": "BDI RSI 87. Rank 44. Rt 6.3x spike.", "why": "Wait S7 turn positive first."}, {"sym": "CBG", "action": "WATCH", "conf": 6, "now": 41.0, "entry": 40.5, "tp": 44.0, "vs": "Rank 32. Step Up DNA. Rt only 0.9x.", "why": "Rt too low. Need 1.5x+."}, {"sym": "COM7", "action": "WATCH", "conf": 6, "now": 24.5, "entry": 24.3, "tp": 26.5, "vs": "Rank 32. Step Up. Rt 2.3x but S7 +4.4%.", "why": "Wait Rt confirm or pullback entry."}, {"sym": "WHA", "action": "WATCH", "conf": 5, "now": 4.68, "entry": 4.6, "tp": 5.0, "vs": "Rank 23. Rt 2.2x but S7 -2.3%.", "why": "Wait S7 turn positive first."}]}}, {"tx_id": "20260517-0235", "last_update": "2026-05-17 02:35:58", "gemini": {"market_sentiment": "BEARISH", "sentiment_reason": "Heavy selling in major sectors (TECH, INDUS, PETRO) outweighs Financial gains.", "player_stance": "SELL", "stance_reason": "Fully invested in DELTA nearing MSCI event; market weakness and fading momentum support profit-taking.", "picks": [{"sym": "DELTA", "action": "SELL", "conf": 9, "now": 319.0, "entry": 314.54, "tp": 350.0, "vs": "Rank dropped 38->19, Rt < 1.5. Momentum is fading.", "why": "Secure profit before MSCI \"sell on fact\" catalyst ends."}, {"sym": "PSL", "action": "BUY", "conf": 8, "now": 7.65, "entry": 7.65, "tp": 8.6, "vs": "Rank 44, RSI 69, explosive Rt 6.25x, BDI strong.", "why": "Strongest momentum signal (Rt) aligned with hot BDI futures."}, {"sym": "COM7", "action": "BUY", "conf": 7, "now": 24.5, "entry": 24.5, "tp": 27.0, "vs": "Rank 32, RSI 66, Rt > 2x, consistent upward momentum.", "why": "Clear \"Step Up\" chart with strong RSI and Rt signals."}, {"sym": "HANA", "action": "WAIT", "conf": 6, "now": 31.5, "entry": 32.0, "tp": 35.0, "vs": "Rank 17, RSI 67, good setup but Rt low (0.9x).", "why": "V-shape pattern needs volume confirmation (Rt > 1.5x) to enter."}, {"sym": "WHA", "action": "WAIT", "conf": 7, "now": 4.68, "entry": 4.7, "tp": 5.0, "vs": "Rank 23, RSI 69, strong Rt 2.2x, but S7 weak.", "why": "Strong momentum (Rt) but needs short-term trend confirmation (S7+)."}]}, "claude": {"market_sentiment": "BEARISH", "sentiment_reason": "PETRO -3.6%, PKG -4.65%, ETRON -4.52%, TECH -3.11%, INDUS -3.12%", "player_stance": "WAIT", "stance_reason": "Port DELTA-only at 314.54. Wait for TP 350 or 29 May MSCI exit. No valid entry signals.", "picks": [{"sym": "DELTA", "action": "HOLD", "conf": 9, "now": 319.0, "entry": 314.54, "tp": 350.0, "vs": "MSCI +1600M 29 May catalyst", "why": "13 days to MSCI effective date"}, {"sym": "PSL", "action": "WAIT", "conf": 7, "now": 7.65, "entry": 7.8, "tp": 9.5, "vs": "BDI RSI 87 strong play", "why": "S7 -1.4% wait S7 positive flip"}, {"sym": "CBG", "action": "WAIT", "conf": 6, "now": 41.0, "entry": 42.0, "tp": 48.0, "vs": "Step Up rank 32 strong", "why": "Rt 0.9x wait Rt 1.5x signal"}, {"sym": "COM7", "action": "WAIT", "conf": 6, "now": 24.5, "entry": 25.0, "tp": 29.0, "vs": "Rank 32 step up consumer", "why": "Rt 2.3x but S7 +4.4% wait"}, {"sym": "KCE", "action": "WAIT", "conf": 5, "now": 32.25, "entry": 33.0, "tp": 38.0, "vs": "ELEC rank 17.85 V-Shape DNA", "why": "Rt 1.29x wait Rt 1.5x breakout"}]}}, {"tx_id": "20260517-0227", "last_update": "2026-05-17 02:27:51", "gemini": {"market_sentiment": "BEARISH", "sentiment_reason": "Key high-value sectors (TECH, INDUS, RESOURC) show significant weakness despite some green shoots.", "player_stance": "BUY", "stance_reason": "Strong momentum breakouts (high Rt & d1) in specific large-caps override broad market weakness.", "picks": [{"sym": "PSL", "action": "BUY", "conf": 9, "now": 7.65, "entry": 7.7, "tp": 8.5, "vs": "Rank 44, massive daily momentum (rt 6.25x), RSI 69.", "why": "Strong BDI commodity tailwind and S7 override rule met."}, {"sym": "CRC", "action": "BUY", "conf": 8, "now": 0.0, "entry": 0.0, "tp": 0.0, "vs": "Rank jumped to 34, huge momentum (rt 6.9x, d1 +7.3%).", "why": "Strong technical breakout signals a new upward trend."}, {"sym": "M", "action": "BUY", "conf": 8, "now": 20.5, "entry": 20.6, "tp": 22.5, "vs": "Rank exploded to 33, massive volume spike (rt 7.2x).", "why": "Powerful breakout on extreme volume, signaling strong buying interest."}, {"sym": "COM7", "action": "BUY", "conf": 8, "now": 24.5, "entry": 24.6, "tp": 27.0, "vs": "Rank 32, strong momentum (rt 2.3x), RSI 65 sweet spot.", "why": "Good Q1 results plus strong technical entry signal met."}, {"sym": "CPALL", "action": "BUY", "conf": 7, "now": 46.25, "entry": 46.5, "tp": 49.5, "vs": "Rank jumped to 29, strong momentum (rt 5.9x), RSI 65.", "why": "Clear technical breakout for a market leader, signaling rotation."}]}, "claude": {"market_sentiment": "BEARISH", "sentiment_reason": "INDUS -3.12%, PETRO -3.6%, PKG -4.65%, ETRON -4.52% drag SET", "player_stance": "WAIT", "stance_reason": "Top sectors bleeding, DELTA -1.7% S7 signal weakening, wait for S7 confirmation before re-entry", "picks": [{"sym": "DELTA", "action": "WAIT", "conf": 7, "now": 319.0, "entry": 310.0, "tp": 350.0, "vs": "S7 turning negative", "why": "Volume spike but price weak, S7 confirmation needed"}, {"sym": "PSL", "action": "WAIT", "conf": 6, "now": 7.65, "entry": 7.8, "tp": 8.5, "vs": "BDI RSI 90", "why": "S7 still negative, wait for S7 flip"}, {"sym": "KCE", "action": "WAIT", "conf": 6, "now": 32.25, "entry": 33.0, "tp": 36.0, "vs": "ELEC V-Shape", "why": "Rt 1.29 low, wait Rt > 1.5x"}, {"sym": "HANA", "action": "WAIT", "conf": 5, "now": 31.5, "entry": 32.0, "tp": 35.0, "vs": "ELEC play", "why": "Rt 0.92 weak, wait confirmation"}, {"sym": "CBG", "action": "WAIT", "conf": 5, "now": 41.0, "entry": 42.0, "tp": 45.0, "vs": "Consumer Step Up", "why": "Rt 0.92 too low, need Rt > 1.5x"}]}}, {"tx_id": "20260517-0142", "last_update": "2026-05-17 01:42:20", "gemini": {"market_sentiment": "BEARISH", "sentiment_reason": "Heavyweight sectors ETRON, INDUS, RESOURC are down sharply, outweighing financial sector gains.", "player_stance": "WAIT", "stance_reason": "Broad market weakness and no high-conviction stocks on watchlist meet all strict entry criteria.", "picks": [{"sym": "PSL", "action": "BUY", "conf": 9, "now": 7.65, "entry": 7.7, "tp": 8.5, "vs": "Rank 44, rt 6.25x, RSI 69. Huge momentum spike.", "why": "BDI-F strong, S7 override rule passed, powerful daily momentum."}, {"sym": "COM7", "action": "BUY", "conf": 8, "now": 24.5, "entry": 24.6, "tp": 26.5, "vs": "Rank 32, rt 2.34x, RSI 66. Healthy momentum in sweet spot.", "why": "Passed all rules, strong rank, good consumer momentum play."}, {"sym": "WHA", "action": "BUY", "conf": 8, "now": 4.68, "entry": 4.7, "tp": 5.1, "vs": "Rank 23, rt 2.21x, RSI 69. Good breakout with volume.", "why": "Strong earnings catalyst (+156%), EV/Data Center theme, rules passed."}, {"sym": "EPG", "action": "BUY", "conf": 7, "now": 3.58, "entry": 3.6, "tp": 3.9, "vs": "Rank 28, rt 1.63x, RSI 62. Just passed rt rule.", "why": "Meets minimum entry criteria, consistent rank, a less volatile pick."}, {"sym": "M", "action": "BUY", "conf": 6, "now": 20.5, "entry": 20.6, "tp": 22.2, "vs": "Rank 33, rt 7.24x, RSI 74. Exploded from low base.", "why": "Massive volume and price surge, short-term momentum trading opportunity."}]}, "claude": {"market_sentiment": "BEARISH", "sentiment_reason": "PETRO -3.6%, PKG -4.65%, ETRON -4.52%, INDUS -3.12%, TECH -3.11% dominate red", "player_stance": "WAIT", "stance_reason": "DELTA only green 7.4B val; all Universe in red/low Rt; pre-MSCI profit-taking; await S7 confirmation", "picks": [{"sym": "DELTA", "action": "WAIT", "conf": 7, "now": 319.0, "entry": 310.0, "tp": 350.0, "vs": "Only 1.4x Rt weak", "why": "Hold TP 350 near; no add red day"}, {"sym": "PSL", "action": "WAIT", "conf": 6, "now": 7.65, "entry": 7.2, "tp": 8.5, "vs": "6.25x Rt but S7 -1.4%", "why": "BDI RSI 90 wait S7 flip positive"}, {"sym": "CBG", "action": "WAIT", "conf": 5, "now": 41.0, "entry": 39.0, "tp": 45.0, "vs": "0.92x Rt too low", "why": "RSI 67 good need Rt 1.5x confirm"}, {"sym": "COM7", "action": "WAIT", "conf": 5, "now": 24.5, "entry": 23.5, "tp": 27.0, "vs": "2.34x Rt but vol drop", "why": "S7 +4.4% wait sector tech stabilize first"}, {"sym": "KCE", "action": "WAIT", "conf": 4, "now": 32.25, "entry": 31.0, "tp": 36.0, "vs": "1.29x Rt insufficient entry", "why": "ELEC -4.52% sector wait ETRON reverse positive"}]}}, {"last_update": "2026-05-17 01:16:04", "gemini": {"market_sentiment": "BEARISH", "sentiment_reason": "Widespread sell-off in key sectors like ETRON, TECH, PETRO.", "player_stance": "BUY", "stance_reason": "Selectively entering strong momentum stocks despite weak market per plan.", "picks": [{"sym": "PSL", "action": "BUY", "conf": 9, "now": 7.65, "entry": 7.6, "tp": 8.8, "vs": "High rank/RSI, massive Rt (6.25x) signals momentum breakout.", "why": "Top watchlist priority, strong BDI-F, passes S7 override rule."}, {"sym": "M", "action": "BUY", "conf": 8, "now": 20.5, "entry": 20.5, "tp": 22.5, "vs": "Rank jumped, huge Rt (7.2x) and D1 (+8.9%).", "why": "Exceptional daily momentum signalling strong institutional buy day."}, {"sym": "COM7", "action": "BUY", "conf": 8, "now": 24.5, "entry": 24.5, "tp": 27.0, "vs": "Strong rank, sweet spot RSI, high Rt (2.34x).", "why": "Clear entry signal per rules, strong Q1 earnings catalyst."}, {"sym": "WHA", "action": "BUY", "conf": 7, "now": 4.68, "entry": 4.6, "tp": 5.15, "vs": "Good rank, strong Rt (2.21x) despite weak sector.", "why": "EV/Data center theme, strong Q1 earnings, passes S7 override."}, {"sym": "KTB", "action": "BUY", "conf": 6, "now": 34.25, "entry": 34.0, "tp": 36.5, "vs": "Rank jumped, good RSI, Rt (1.44x) nearly at threshold.", "why": "Momentum in a strong sector (BANK), passes S7 override."}]}, "claude": {"market_sentiment": "BEARISH", "sentiment_reason": "PETRO -3.6%, PKG -4.65%, ETRON -4.52%, INDUS -3.12%, TECH -3.11%", "player_stance": "WAIT", "stance_reason": "DELTA volume 7.38B exceptional but sector weakness; wait for PSL S7 flip or slot open", "picks": [{"sym": "DELTA", "action": "HOLD", "conf": 9, "now": 319.0, "entry": 314.54, "tp": 350.0, "vs": "MSCI+ATH+ELEC", "why": "Pre-MSCI rally; TP before 29 May"}, {"sym": "PSL", "action": "WAIT", "conf": 7, "now": 7.65, "entry": 7.8, "tp": 9.2, "vs": "BDI RSI 90", "why": "S7 -1.4% blocks; wait flip positive"}, {"sym": "HANA", "action": "WAIT", "conf": 6, "now": 31.5, "entry": 32.0, "tp": 37.0, "vs": "ELEC V-Shape", "why": "Rt 0.9 low; wait Rt>1.5"}, {"sym": "KCE", "action": "WAIT", "conf": 6, "now": 32.25, "entry": 33.0, "tp": 38.0, "vs": "PCB ELEC", "why": "Rt 1.29 borderline; wait 1.5+"}, {"sym": "CBG", "action": "WAIT", "conf": 5, "now": 41.0, "entry": 42.0, "tp": 48.0, "vs": "Consumer Step", "why": "Rt 0.92 low; wait Rt>1.5"}]}}];
+const FINAL_ORDER = {"execution_time": "2026-05-17 03:12:50", "ref_tx_id": "20260517-0311", "orders": [{"symbol": "PSL", "action": "BUY", "price": 7.65, "sources": ["gemini"]}, {"symbol": "WHA", "action": "BUY", "price": 4.68, "sources": ["gemini"]}, {"symbol": "COM7", "action": "BUY", "price": 24.5, "sources": ["gemini"]}]};
 
 /* ── AI DECISION TIMELINE ── */
 (function(){
@@ -1939,6 +1999,193 @@ const FINAL_ORDER = {"execution_time": "2026-05-17 02:46:10", "ref_tx_id": "2026
     </div>`;
   }
 
+
+/* ── CONSENSUS ANALYSIS ── */
+function buildConsensus(entries){
+  if(!entries || !entries.length) return;
+  const container = document.getElementById('consensusWrap');
+  if(!container) return;
+
+  // รวม picks จากทุก tx ทุก advisor
+  
+  // ── Market sentiment weight ──────────────────────────────
+  let bullCount = 0, bearCount = 0, neutCount = 0;
+  let stanceScore = 0, stanceTotal = 0;
+  entries.forEach(e => {
+    ['gemini','claude'].forEach(src => {
+      const d = e[src]; if(!d) return;
+      const sent = (d.market_sentiment||'').toUpperCase();
+      if(sent==='BULLISH') bullCount++;
+      else if(sent==='BEARISH') bearCount++;
+      else neutCount++;
+      const stance = (d.player_stance||'').toUpperCase();
+      if(stance==='BUY') { stanceScore+=1; stanceTotal++; }
+      else if(stance==='SELL') { stanceScore-=1; stanceTotal++; }
+      else stanceTotal++;
+    });
+  });
+  const totalSent      = bullCount + bearCount + neutCount || 1;
+  const bearRatio      = bearCount / totalSent;
+  const bullRatio      = bullCount / totalSent;
+  const sentMultiplier = Math.max(0.3, Math.min(1.5, 1.0 - bearRatio*0.7 + bullRatio*0.5));
+  const avgStance      = stanceTotal > 0 ? stanceScore/stanceTotal : 0;
+  const stanceMultiplier = Math.max(0.4, Math.min(1.3, 1.0 + avgStance*0.3));
+  const marketWeight   = sentMultiplier * stanceMultiplier;
+
+  // ── Claude primary, Gemini support ─────────────────────────
+  const symMap = {};
+
+  entries.forEach(entry => {
+    const claudeData = entry['claude'];
+    const geminiData = entry['gemini'];
+    if(!claudeData?.picks) return;
+
+    claudeData.picks.forEach(p => {
+      const sym    = p.sym || p.symbol;
+      const action = (p.action||'').toUpperCase();
+      const conf   = p.conf ?? p.confidence ?? 5;
+      const ep     = p.entry ?? p.price_entry ?? 0;
+      if(!sym) return;
+
+      const gPick   = (geminiData?.picks||[]).find(g => (g.sym||g.symbol) === sym);
+      const gAction = gPick ? (gPick.action||'').toUpperCase() : null;
+      const gConf   = gPick ? (gPick.conf ?? gPick.confidence ?? 0) : 0;
+      const agree   = action === 'BUY' && gAction === 'BUY';
+
+      if(!symMap[sym]) symMap[sym] = {
+        claudeBuyCount:0, claudeWaitCount:0, claudeHoldCount:0,
+        agreeCount:0, supportCount:0,
+        confs:[], gConfs:[], prices:[], txCount:0
+      };
+      if(action === 'BUY')  symMap[sym].claudeBuyCount++;
+      else if(action==='WAIT'||action==='WATCH') symMap[sym].claudeWaitCount++;
+      else if(action==='HOLD') symMap[sym].claudeHoldCount++;
+      if(agree)  symMap[sym].agreeCount++;
+      if(gPick)  symMap[sym].supportCount++;
+      symMap[sym].confs.push(+conf);
+      if(gConf > 0) symMap[sym].gConfs.push(+gConf);
+      symMap[sym].prices.push(+ep);
+      symMap[sym].txCount++;
+    });
+  });
+
+  // คำนวณ consensus score weighted by market condition
+  const scored = Object.entries(symMap).map(([sym, d]) => {
+    const total    = d.claudeBuyCount + d.claudeWaitCount + d.claudeHoldCount || 1;
+    const avgConf  = d.confs.reduce((a,b)=>a+b,0) / (d.confs.length||1);
+    const avgGConf = d.gConfs.reduce((a,b)=>a+b,0) / (d.gConfs.length||1);
+    const avgPrice = d.prices.filter(p=>p>0).reduce((a,b)=>a+b,0) /
+                     (d.prices.filter(p=>p>0).length||1);
+
+    // base: Claude BUY rate × avg conf
+    const claudeBase = (d.claudeBuyCount / total) * avgConf;
+    // agree bonus: ทุก tx ที่ Gemini agree → +20% per agree
+    const agreeBonus = d.agreeCount > 0
+      ? (d.agreeCount / d.txCount) * avgGConf * 0.4 : 0;
+    // support bonus: Gemini แค่พูดถึง (ไม่ agree) → +5%
+    const supportBonus = (d.supportCount - d.agreeCount) > 0 ? 0.5 : 0;
+
+    const rawScore = claudeBase + agreeBonus + supportBonus;
+    const score    = rawScore * marketWeight;
+    const buyRate  = d.claudeBuyCount / total;
+
+    return {
+      sym, score, rawScore, avgConf, avgGConf, buyRate,
+      claudeBuyCount: d.claudeBuyCount,
+      claudeWaitCount: d.claudeWaitCount,
+      claudeHoldCount: d.claudeHoldCount,
+      agreeCount: d.agreeCount,
+      supportCount: d.supportCount,
+      txCount: d.txCount,
+      avgPrice,
+      // label agreement level
+      agreement: d.agreeCount > 0 ? 'BOTH' : d.supportCount > 0 ? 'CLAUDE+' : 'CLAUDE'
+    };
+  })
+  // เฉพาะที่ Claude BUY อย่างน้อย 1 ครั้ง
+  .filter(d => d.claudeBuyCount > 0);
+
+  // เรียง score สูงสุด top 8
+  scored.sort((a,b) => b.score - a.score);
+  const top = scored.slice(0, 8);
+
+  const maxScore = top[0]?.score || 1;
+
+  function scoreColor(s, maxS){
+    const r = s / maxS;
+    return r >= 0.75 ? '#00d68f' : r >= 0.5 ? '#84cc16' : r >= 0.3 ? '#f59e0b' : '#6b7280';
+  }
+  function buyBg(r){
+    return r >= 0.7 ? 'rgba(0,214,143,0.15)' : r >= 0.4 ? 'rgba(132,204,22,0.1)' : 'rgba(107,114,128,0.1)';
+  }
+
+  // market mood banner
+  const moodColor = bearRatio > 0.6 ? '#ff4d6a' : bearRatio > 0.4 ? '#f59e0b'
+                  : bullRatio > 0.5 ? '#00d68f' : '#6b7280';
+  const moodLabel = bearRatio > 0.6 ? 'BEARISH' : bearRatio > 0.4 ? 'CAUTION'
+                  : bullRatio > 0.5 ? 'BULLISH' : 'NEUTRAL';
+  const moodIcon  = bearRatio > 0.6 ? '▼' : bearRatio > 0.4 ? '◆' : bullRatio > 0.5 ? '▲' : '●';
+  const wLabel    = Math.round(marketWeight * 100);
+
+  let html = `<div style="
+    padding:7px 10px; border-radius:5px; margin-bottom:10px;
+    background:${moodColor}18; border:1px solid ${moodColor}44;
+    font-family:var(--font-mono); font-size:10px;
+    display:flex; align-items:center; justify-content:space-between;
+  ">
+    <span style="color:${moodColor};font-weight:500">${moodIcon} ${moodLabel}</span>
+    <span style="color:var(--muted);font-size:9px">
+      weight ${wLabel}% &nbsp;|&nbsp;
+      ${bullCount}B ${neutCount}N ${bearCount}Be
+    </span>
+  </div>
+  <div class="consensus-title">
+    <span>top consensus picks</span>
+    <span style="color:var(--muted);font-weight:400">${entries.length} rounds</span>
+  </div>`;
+
+  top.forEach(d => {
+    const sc  = scoreColor(d.score, maxScore);
+    const bar = Math.round((d.score / maxScore) * 100);
+    const txBar = entries.length > 0
+      ? Math.round((d.txCount / entries.length) * 100) : 0;
+
+    // action distribution dots
+    const buyDots  = '●'.repeat(d.buyCount);
+    const waitDots = '○'.repeat(d.waitCount);
+    const holdDots = '◐'.repeat(d.holdCount);
+
+    html += `<div class="consensus-card" style="border-left-color:${sc}">
+      <div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:${sc}"></div>
+      <div class="cc-head">
+        <span class="cc-sym">${d.sym}</span>
+        <span class="cc-score" style="background:${buyBg(d.buyRate)};color:${sc}">
+          ${d.agreement === 'BOTH' ? '🤝 BOTH' : d.agreement === 'CLAUDE+' ? '🟠+' : '🟠'}
+        </span>
+      </div>
+      <div class="cc-bars">
+        <div class="cc-bar-slot" title="consensus score">
+          <div class="cc-bar-fill" style="width:${bar}%;background:${sc}"></div>
+        </div>
+        <div class="cc-bar-slot" title="appeared in % of rounds" style="opacity:0.5">
+          <div class="cc-bar-fill" style="width:${txBar}%;background:var(--muted)"></div>
+        </div>
+      </div>
+      <div class="cc-meta">
+        <span style="color:${sc}">C:${d.avgConf.toFixed(1)}</span>
+        ${d.avgGConf>0?`<span style="color:var(--muted)">G:${d.avgGConf.toFixed(1)}</span>`:''}
+        <span>entry ~${d.avgPrice > 0 ? d.avgPrice.toFixed(2) : '—'}</span>
+        <span>${d.agreeCount}/${d.txCount} agree</span>
+        <span style="color:var(--muted);margin-left:auto">→ <span style="color:${sc}">${d.score.toFixed(1)}</span></span>
+        <span style="color:var(--green);letter-spacing:-1px">${buyDots}</span>
+        <span style="color:var(--muted);letter-spacing:-1px">${waitDots}</span>
+      </div>
+    </div>`;
+  });
+
+  container.innerHTML = html;
+}
+
   function renderTimeline(){
     const container = document.getElementById('aiTimeline');
     if(!container) return;
@@ -1961,6 +2208,7 @@ const FINAL_ORDER = {"execution_time": "2026-05-17 02:46:10", "ref_tx_id": "2026
       ordersByTx[orderFile.ref_tx_id] = orderFile.orders;
     }
 
+    buildConsensus(entries);
     container.innerHTML = entries.map((entry, i) => {
       const orders = ordersByTx[entry.tx_id] || [];
       return buildEntry(entry, orders, i === 0);
