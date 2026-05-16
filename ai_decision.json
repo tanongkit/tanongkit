@@ -1,5 +1,125 @@
 [
   {
+    "tx_id": "20260517-0244",
+    "last_update": "2026-05-17 02:44:50",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "Heavy selling in ETRON/TECH/PETRO outweighs gains, indicating risk-off rotation.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is rotating, not crashing. Individual stocks with strong momentum (high Rt) exist despite sector weakness.",
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.65,
+          "entry": 7.7,
+          "tp": 8.55,
+          "vs": "Rank 44, Rt 6.25x, huge momentum jump.",
+          "why": "BDI-F extremely strong; massive fund flow."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 8,
+          "now": 24.5,
+          "entry": 24.7,
+          "tp": 26.5,
+          "vs": "Rank 32, Rt 2.3x, consistent uptrend.",
+          "why": "Good Q1 earnings, strong momentum signal."
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.68,
+          "entry": 4.7,
+          "tp": 5.15,
+          "vs": "Rank 23, Rt 2.2x, strong uptrend.",
+          "why": "Stellar Q1 earnings (+156%), EV/DC theme."
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 7,
+          "now": 20.5,
+          "entry": 20.7,
+          "tp": 22.1,
+          "vs": "Rank 33, Rt 7.2x, extreme volume spike.",
+          "why": "Massive momentum but fundamentals are weak."
+        },
+        {
+          "sym": "HMPRO",
+          "action": "BUY",
+          "conf": 6,
+          "now": 6.0,
+          "entry": 6.05,
+          "tp": 6.5,
+          "vs": "Rank 2.7, Rt 2.3x, weak trend.",
+          "why": "Passes S7 override rule; short-term momentum."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "TECH -3.11%, PETRO -3.6%, PKG -4.65%, ETRON -4.52%, major sectors red",
+      "player_stance": "WAIT",
+      "stance_reason": "Port full in DELTA (817.8K). DELTA TP 350 still active. No slot for new entry until TP.",
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "conf": 9,
+          "now": 319.0,
+          "entry": 314.54,
+          "tp": 350.0,
+          "vs": "Port 2,600 shares. MSCI +1,600M catalyst active.",
+          "why": "Hold to TP 350 or 29 May."
+        },
+        {
+          "sym": "PSL",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 7.65,
+          "entry": 7.5,
+          "tp": 8.5,
+          "vs": "BDI RSI 87. Rank 44. Rt 6.3x spike.",
+          "why": "Wait S7 turn positive first."
+        },
+        {
+          "sym": "CBG",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 41.0,
+          "entry": 40.5,
+          "tp": 44.0,
+          "vs": "Rank 32. Step Up DNA. Rt only 0.9x.",
+          "why": "Rt too low. Need 1.5x+."
+        },
+        {
+          "sym": "COM7",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 24.5,
+          "entry": 24.3,
+          "tp": 26.5,
+          "vs": "Rank 32. Step Up. Rt 2.3x but S7 +4.4%.",
+          "why": "Wait Rt confirm or pullback entry."
+        },
+        {
+          "sym": "WHA",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 4.68,
+          "entry": 4.6,
+          "tp": 5.0,
+          "vs": "Rank 23. Rt 2.2x but S7 -2.3%.",
+          "why": "Wait S7 turn positive first."
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260517-0235",
     "last_update": "2026-05-17 02:35:58",
     "gemini": {
