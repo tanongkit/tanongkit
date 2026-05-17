@@ -1,5 +1,200 @@
 [
   {
+    "tx_id": "20260518-0004",
+    "last_update": "2026-05-18 00:04:56",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "Broad selling in key sectors; ETRON index down -4.52%, weighing on market.",
+      "player_stance": "HOLD",
+      "stance_reason": "Fully invested in DELTA. Managing position amid sector weakness before considering new entries.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 319.0,
+          "reason": "Price >310, MSCI catalyst active."
+        }
+      ],
+      "picks": [],
+      "top5": [
+        {
+          "sym": "HANA",
+          "score": 187.53,
+          "why": "Highest rank_score and rt (3.3x)."
+        },
+        {
+          "sym": "SCGP",
+          "score": 154.86,
+          "why": "High rank_score and strong rt (2.7x)."
+        },
+        {
+          "sym": "KTB",
+          "score": 125.27,
+          "why": "High rank, strong rt, positive bank sector flow."
+        },
+        {
+          "sym": "COM7",
+          "score": 123.69,
+          "why": "Passes entry rules, strong momentum and rt."
+        },
+        {
+          "sym": "PSL",
+          "score": 98.46,
+          "why": "Strong rt and very bullish BDI catalyst."
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "EPG",
+          "score": 32.2,
+          "why": "Low rank_score and weak rt (0.97x)."
+        },
+        {
+          "sym": "MTC",
+          "score": 47.49,
+          "why": "Low rank, rg, weak rt, and RSI."
+        },
+        {
+          "sym": "CENTEL",
+          "score": 49.97,
+          "why": "Low rank_score and very weak rt (0.85x)."
+        },
+        {
+          "sym": "HMPRO",
+          "score": 52.49,
+          "why": "Weak rank, rt, RSI, and rg."
+        },
+        {
+          "sym": "ERW",
+          "score": 58.3,
+          "why": "Weak rt (0.65x) and volatile swing DNA."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "INDUS-3.12% PETRO-3.6% PKG-4.65% ETRON-4.52% TECH-3.11% heavy sectors down",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA 319 hold above 310 Vol normal MSCI 29May 11days remain TP350/360/370 not hit",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 319.0,
+          "reason": "Above 310 Vol normal MSCI play"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 7.65,
+          "entry": 7.8,
+          "tp": 9.2,
+          "vs": "S7-1.4% wait S7+",
+          "why": "BDI RSI90 fire Rt1.6x but S7 negative"
+        },
+        {
+          "sym": "HANA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 31.5,
+          "entry": 32.5,
+          "tp": 37.0,
+          "vs": "Rt3.3x but S7-2.3%",
+          "why": "ELEC V-Shape Rt high but S7 negative"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 32.25,
+          "entry": 33.0,
+          "tp": 38.0,
+          "vs": "Rt1.15x wait Rt1.5x+",
+          "why": "ELEC V-Shape S7+7.5% but Rt low"
+        },
+        {
+          "sym": "CBG",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 41.0,
+          "entry": 42.0,
+          "tp": 48.0,
+          "vs": "Rt0.52x wait Rt1.5x+",
+          "why": "Step Up S7+15.5% strong but Rt low"
+        },
+        {
+          "sym": "WHA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 4.68,
+          "entry": 4.75,
+          "tp": 5.5,
+          "vs": "Rt1.14x S7-2.3% wait",
+          "why": "Step Up S7 negative wait S7 positive"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "AMATA",
+          "score": 9.2,
+          "why": "RG97 RSI69 S7+10.5% Rt3.6x fire catalyst Data"
+        },
+        {
+          "sym": "EASTW",
+          "score": 8.8,
+          "why": "RG98 RSI73 S7+31% Rt3.7x fire Utility"
+        },
+        {
+          "sym": "HANA",
+          "score": 8.5,
+          "why": "Rt3.3x ELEC MSCI play but S7-2.3% negative"
+        },
+        {
+          "sym": "DELTA",
+          "score": 8.2,
+          "why": "MSCI 29May TP350/360/370 not hit hold above 310"
+        },
+        {
+          "sym": "KTB",
+          "score": 8.0,
+          "why": "Bank RG95 RSI69 S7+5.4% Rt1.9x strong"
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "IND",
+          "score": 1.2,
+          "why": "RG5 RSI25 S7-12% downtrend avoid Universe"
+        },
+        {
+          "sym": "PLUS",
+          "score": 1.5,
+          "why": "RG14 RSI34 S7-3.2% downtrend avoid Universe"
+        },
+        {
+          "sym": "PTG",
+          "score": 1.8,
+          "why": "RG27 RSI27 S7-10.4% downtrend avoid Universe"
+        },
+        {
+          "sym": "UBE",
+          "score": 2.0,
+          "why": "RG33 RSI36 S7-11% downtrend avoid Universe"
+        },
+        {
+          "sym": "BTG",
+          "score": 2.3,
+          "why": "RG51 RSI36 S7-8.6% downtrend avoid Universe"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260517-2355",
     "last_update": "2026-05-17 23:55:18",
     "gemini": {
