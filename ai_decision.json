@@ -1,5 +1,160 @@
 [
   {
+    "tx_id": "20260517-2355",
+    "last_update": "2026-05-17 23:55:18",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Broad sector sell-off (ETRON -4.52%) despite some bullish commodity and US tech futures.",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA position is held above 310 support with MSCI catalyst still active. No cash for new entries.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 319.0,
+          "reason": "Above 310 support, MSCI catalyst active."
+        }
+      ],
+      "picks": [],
+      "top5": [
+        {
+          "sym": "GUNKUL",
+          "score": 55.34,
+          "why": "Highest rank_score, very strong momentum."
+        },
+        {
+          "sym": "PSL",
+          "score": 35.54,
+          "why": "High score, strong momentum, bullish BDI."
+        },
+        {
+          "sym": "CBG",
+          "score": 34.77,
+          "why": "High score, strong RSI and momentum."
+        },
+        {
+          "sym": "COM7",
+          "score": 33.21,
+          "why": "High score, consistent positive momentum."
+        },
+        {
+          "sym": "STECON",
+          "score": 28.27,
+          "why": "High score, strong 14-day momentum."
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "MTC",
+          "score": -4.1,
+          "why": "Negative score, weak RSI and momentum."
+        },
+        {
+          "sym": "HMPRO",
+          "score": -1.94,
+          "why": "Negative score, weak momentum signals."
+        },
+        {
+          "sym": "HANA",
+          "score": -1.12,
+          "why": "Negative score, sharp daily drop (d1 -10.6%)."
+        },
+        {
+          "sym": "SCGP",
+          "score": -0.82,
+          "why": "Negative score, sharp daily drop (d1 -6.7%)."
+        },
+        {
+          "sym": "OSP",
+          "score": 1.3,
+          "why": "Low rank_score, poor momentum."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "PETRO -3.6% TECH -3.1% INDUS -3.12% SET negative broad sectors",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA holding but risk high foreign sell -729M S7 worsening 13 days to MSCI",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 319.0,
+          "reason": "Above 310 TP1 350 intact MSCI deadline"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 7.65,
+          "entry": 7.8,
+          "tp": 9.5,
+          "vs": "BDI RSI 89 fire",
+          "why": "S7 -1.4% negative wait S7 positive"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "EASTW",
+          "score": 74.85,
+          "why": "RG 98 RSI 73 S7 +31%"
+        },
+        {
+          "sym": "GUNKUL",
+          "score": 55.34,
+          "why": "RG 94 RSI 79 S7 +24%"
+        },
+        {
+          "sym": "PSL",
+          "score": 35.54,
+          "why": "BDI RSI 89 RG 75 S7 -1.4%"
+        },
+        {
+          "sym": "CBG",
+          "score": 34.77,
+          "why": "RG 54 RSI 66 S7 +15.5%"
+        },
+        {
+          "sym": "COM7",
+          "score": 33.21,
+          "why": "RG 95 RSI 66 S7 +13.4%"
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "IND",
+          "score": -28.76,
+          "why": "RG 5 RSI 25 S7 -12%"
+        },
+        {
+          "sym": "UBE",
+          "score": -25.51,
+          "why": "RG 33 RSI 36 S7 -11%"
+        },
+        {
+          "sym": "PTG",
+          "score": -24.3,
+          "why": "RG 27 RSI 27 S7 -10%"
+        },
+        {
+          "sym": "BTG",
+          "score": -19.34,
+          "why": "RG 51 RSI 36 S7 -9%"
+        },
+        {
+          "sym": "TQM",
+          "score": -10.85,
+          "why": "RG 68 RSI 45 S7 -5%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260517-0707",
     "last_update": "2026-05-17 07:07:14",
     "gemini": {
