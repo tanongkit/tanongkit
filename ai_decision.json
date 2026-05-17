@@ -1,5 +1,200 @@
 [
   {
+    "tx_id": "20260518-0645",
+    "last_update": "2026-05-18 06:45:23",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "Key sectors (ETRON, PETRO, PKG) are down heavily >3-4%. Broad sell-off.",
+      "player_stance": "HOLD",
+      "stance_reason": "Fully invested in DELTA. Market sentiment is too negative for new entries.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 319.0,
+          "reason": "Price > 310 support. MSCI catalyst active."
+        }
+      ],
+      "picks": [],
+      "top5": [
+        {
+          "sym": "HANA",
+          "score": 187.53,
+          "why": "Highest rank and Rt (3.3x) but sharp intraday drop."
+        },
+        {
+          "sym": "SCGP",
+          "score": 154.86,
+          "why": "Very high rank and Rt (2.7x) but negative d1."
+        },
+        {
+          "sym": "KTB",
+          "score": 125.27,
+          "why": "High rank, high Rt (1.9x), and positive d1."
+        },
+        {
+          "sym": "COM7",
+          "score": 123.69,
+          "why": "Strong momentum, meets Rt>1.5x criteria."
+        },
+        {
+          "sym": "PSL",
+          "score": 98.46,
+          "why": "High Rt (1.6x) and strong BDI-F commodity signal."
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "EPG",
+          "score": 32.2,
+          "why": "Low rank score and weak Rt (0.9x)."
+        },
+        {
+          "sym": "MTC",
+          "score": 47.49,
+          "why": "Weak rank, very low rg (15), and RSI below 50."
+        },
+        {
+          "sym": "CENTEL",
+          "score": 49.97,
+          "why": "Weak rank, low rg (17), and RSI below 50."
+        },
+        {
+          "sym": "HMPRO",
+          "score": 52.49,
+          "why": "Low rank, low rg (25), and RSI below 50."
+        },
+        {
+          "sym": "ERW",
+          "score": 58.3,
+          "why": "Momentum fading, low Rt (0.6x) and weak d1."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Bank+Insurance up, Tech/Petro/Packaging down 3-4.5%, mixed sector flow",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA holding above 310, 10 days to MSCI deadline, Vol normal, S7 +2.9%",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 319.0,
+          "reason": "Above 310, S7+2.9%, Vol normal, hold to TP"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 7.65,
+          "entry": 7.8,
+          "tp": 8.5,
+          "vs": "BDI RSI 89 fire",
+          "why": "S7 -1.4% red, wait S7 flip green"
+        },
+        {
+          "sym": "HANA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 31.5,
+          "entry": 32.0,
+          "tp": 35.0,
+          "vs": "ELEC V-Shape DNA",
+          "why": "Rt 3.3x strong but S7 -2.3% red"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 32.25,
+          "entry": 32.5,
+          "tp": 35.0,
+          "vs": "ELEC V-Shape DNA",
+          "why": "Rt 1.15x low, wait Rt >1.5x"
+        },
+        {
+          "sym": "COM7",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 24.5,
+          "entry": 25.0,
+          "tp": 27.0,
+          "vs": "Step Up DNA",
+          "why": "Rt 1.58x but S7 +13% too hot"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 21.4,
+          "entry": 22.0,
+          "tp": 24.0,
+          "vs": "WHA substitute play",
+          "why": "Rt 3.64x extreme, RSI 69 overbought"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "AMATA",
+          "score": 238.56,
+          "why": "Rt 3.64x explosive, RG 97%, RSI 69"
+        },
+        {
+          "sym": "HANA",
+          "score": 187.53,
+          "why": "Rt 3.3x strongest ELEC, negative S7 -2.3%"
+        },
+        {
+          "sym": "EASTW",
+          "score": 159.37,
+          "why": "Rt 3.69x extreme, S7 +31%, RSI 73"
+        },
+        {
+          "sym": "SCGP",
+          "score": 154.86,
+          "why": "Rt 2.72x strong, S7 -2% red"
+        },
+        {
+          "sym": "IVL",
+          "score": 153.25,
+          "why": "Rt 2.75x strong, S7 -3.7% red"
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "IND",
+          "score": -23.15,
+          "why": "RG 5%, RSI 25, S7 -12%"
+        },
+        {
+          "sym": "UBE",
+          "score": -15.42,
+          "why": "RG 33%, RSI 36, S7 -11%"
+        },
+        {
+          "sym": "PTG",
+          "score": 4.69,
+          "why": "RSI 27, S7 -10%, volume dead"
+        },
+        {
+          "sym": "EPG",
+          "score": 32.2,
+          "why": "Rt 0.97x weak, S7 +4% but low"
+        },
+        {
+          "sym": "PLUS",
+          "score": 0.54,
+          "why": "RG 14%, RSI 34, S7 -3.2%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260518-0004",
     "last_update": "2026-05-18 00:04:56",
     "gemini": {
