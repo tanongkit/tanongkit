@@ -1,5 +1,211 @@
 [
   {
+    "tx_id": "20260517-0707",
+    "last_update": "2026-05-17 07:07:14",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "Heavy selling in key industrial/tech sectors (ETRON -4.5%, PETRO -3.6%, TECH -3.1%).",
+      "player_stance": "HOLD",
+      "stance_reason": "Portfolio is full. Holding DELTA for MSCI catalyst, weathering sector-wide sell-off. No cash for new entries.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 319.0,
+          "reason": "MSCI catalyst outweighs sector weakness."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 8,
+          "now": 34.25,
+          "entry": 34.25,
+          "tp": 37.5,
+          "vs": "KBANK, SCB",
+          "why": "Sector inflow, high Rt, strong momentum."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "HANA",
+          "score": 187.53,
+          "why": "Highest rank & Rt in universe."
+        },
+        {
+          "sym": "SCGP",
+          "score": 154.86,
+          "why": "Extremely high rank & Rt (2.7x)."
+        },
+        {
+          "sym": "KTB",
+          "score": 125.27,
+          "why": "Strong signals with sector tailwind."
+        },
+        {
+          "sym": "COM7",
+          "score": 123.69,
+          "why": "High rank, meets all entry criteria."
+        },
+        {
+          "sym": "PSL",
+          "score": 98.46,
+          "why": "Strong momentum with BDI catalyst."
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "CBG",
+          "score": 64.75,
+          "why": "Extremely low Rt (0.5x)."
+        },
+        {
+          "sym": "ITC",
+          "score": 42.98,
+          "why": "Extremely low Rt (0.5x)."
+        },
+        {
+          "sym": "ERW",
+          "score": 58.3,
+          "why": "Very low Rt (0.6x)."
+        },
+        {
+          "sym": "STECON",
+          "score": 66.39,
+          "why": "Very low Rt (0.6x)."
+        },
+        {
+          "sym": "MTC",
+          "score": 47.49,
+          "why": "Low Rt and negative momentum."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "TECH -3.11%, PETRO -3.6%, PKG -4.65%, ETRON -4.52% drag SET",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA below 314.54 cost, approaching 29-May MSCI deadline, Vol massive 7.4B normal",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 319.0,
+          "reason": "Above 310 threshold, Vol 7.4B strong, hold pre-MSCI"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 21.4,
+          "entry": 21.5,
+          "tp": 24.0,
+          "vs": "Rank 238 Rt 3.64x S7 +10.5%",
+          "why": "V-Avg 772M EV+DC play momentum peak"
+        },
+        {
+          "sym": "EASTW",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.66,
+          "entry": 3.68,
+          "tp": 4.2,
+          "vs": "Rank 159 Rt 3.69x S7 +31.1%",
+          "why": "RSI 72.5 spike Rt explosive Vol 39M"
+        },
+        {
+          "sym": "IVL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 24.4,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Rank 153 Rt 2.75x S7 -3.7%",
+          "why": "S7 negative GRM -2.08% blocks entry"
+        },
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 7.65,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Rank 98 Rt 1.61x RSI 63",
+          "why": "S7 +15% but BDI RSI 89 overbought"
+        },
+        {
+          "sym": "CBG",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 41.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Rank 65 Rt 0.52x S7 +15.5%",
+          "why": "Rt too low needs 1.5x confirmation"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "AMATA",
+          "score": 9.5,
+          "why": "Rt 3.64x S7 +10.5% RSI 68.7 momentum"
+        },
+        {
+          "sym": "EASTW",
+          "score": 9.0,
+          "why": "Rt 3.69x S7 +31.1% RSI 72.5 explosive"
+        },
+        {
+          "sym": "IVL",
+          "score": 8.5,
+          "why": "Rank 153 Rt 2.75x but S7 -3.7%"
+        },
+        {
+          "sym": "SCGP",
+          "score": 8.0,
+          "why": "Rank 155 Rt 2.72x S7 -2.1% weak"
+        },
+        {
+          "sym": "KTB",
+          "score": 7.5,
+          "why": "Rank 125 Rt 1.92x S7 +5.4% bank"
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "PTG",
+          "score": 1.0,
+          "why": "Rank 4.7 Rt 1.27x S7 -10.4% collapse"
+        },
+        {
+          "sym": "UBE",
+          "score": 1.5,
+          "why": "Rank -15.4 Rt 0.44x S7 -10.9% dead"
+        },
+        {
+          "sym": "IND",
+          "score": 2.0,
+          "why": "Rank -23.2 Rt 0.98x S7 -12% no catalyst"
+        },
+        {
+          "sym": "PLUS",
+          "score": 2.5,
+          "why": "Rank 0.5 Rt 1.60x S7 -3.2% weak"
+        },
+        {
+          "sym": "BTG",
+          "score": 3.0,
+          "why": "Rank 2.5 Rt 0.42x S7 -8.6% food weak"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260517-0644",
     "last_update": "2026-05-17 06:44:24",
     "gemini": {
