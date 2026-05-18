@@ -1,5 +1,200 @@
 [
   {
+    "tx_id": "20260518-1433",
+    "last_update": "2026-05-18 14:33:50",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "Key sectors (ENERG, BANK) are positive and global commodities/indices are strong.",
+      "player_stance": "HOLD",
+      "stance_reason": "Holding DELTA on MSCI catalyst. No new entry signals today as Rt scores are too low.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 321.0,
+          "reason": "MSCI catalyst active, price > 310 support."
+        }
+      ],
+      "picks": [],
+      "top5": [
+        {
+          "sym": "GUNKUL",
+          "score": 44.88,
+          "why": "Highest score but RSI is becoming overbought."
+        },
+        {
+          "sym": "COM7",
+          "score": 31.99,
+          "why": "Strong score and momentum, high RSI."
+        },
+        {
+          "sym": "STA",
+          "score": 31.46,
+          "why": "Strong score, supported by RUBBER-F strength."
+        },
+        {
+          "sym": "ERW",
+          "score": 28.19,
+          "why": "Good score with strong 14-day momentum."
+        },
+        {
+          "sym": "PSL",
+          "score": 24.45,
+          "why": "Good score, strong underlying BDI index."
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "MTC",
+          "score": -19.63,
+          "why": "Very low score, weak RSI, clear downtrend."
+        },
+        {
+          "sym": "SCGP",
+          "score": -9.86,
+          "why": "Negative score and negative 14-day momentum."
+        },
+        {
+          "sym": "HANA",
+          "score": -4.28,
+          "why": "Negative score, weak RSI, in a downtrend."
+        },
+        {
+          "sym": "HMPRO",
+          "score": -3.84,
+          "why": "Negative score with weak RSI and momentum."
+        },
+        {
+          "sym": "ITC",
+          "score": -2.5,
+          "why": "Negative score and negative 14-day momentum."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "BANK+COMM+ENERG up, Vol strong CPALL+DELTA+COM7",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA hold, TP 350 before 29 May MSCI deadline, 11 days left",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 321.0,
+          "reason": "Price 321>TP1 350 path, MSCI 11d left"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 7.5,
+          "entry": 8.0,
+          "tp": 9.5,
+          "vs": "BDI RSI 90 fire but S7 -1.4% negative",
+          "why": "Wait S7 flip positive then enter"
+        },
+        {
+          "sym": "COM7",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 25.25,
+          "entry": 25.5,
+          "tp": 28.0,
+          "vs": "Strong Rt 1.9x S7+4.4% but RSI 71 near overbought",
+          "why": "Wait RSI cool to 60-68 zone"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 3.46,
+          "entry": 3.5,
+          "tp": 4.0,
+          "vs": "RSI 76 overbought S7+19% but volatile swing DNA",
+          "why": "Wait pullback RSI 60-68 then enter"
+        },
+        {
+          "sym": "STA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 20.2,
+          "entry": 20.5,
+          "tp": 23.0,
+          "vs": "RSI 72 high Rt 0.9x low S7 -0.5% negative",
+          "why": "Wait Rt 1.5x + S7 positive signal"
+        },
+        {
+          "sym": "CBG",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 39.5,
+          "entry": 40.0,
+          "tp": 44.0,
+          "vs": "S7+8.2% good but Rt 0.5x too low",
+          "why": "Wait Rt 1.5x breakout confirmation"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "EASTW",
+          "score": 58.0,
+          "why": "RSI 68 S7+24.9% Rt 0.9x util play"
+        },
+        {
+          "sym": "GUNKUL",
+          "score": 44.88,
+          "why": "RSI 76 S7+19.3% solar momentum strong"
+        },
+        {
+          "sym": "COM7",
+          "score": 31.99,
+          "why": "RSI 71 S7+12.2% retail tech leader"
+        },
+        {
+          "sym": "STA",
+          "score": 31.46,
+          "why": "RSI 72 S7+12.2% rubber play strong"
+        },
+        {
+          "sym": "STGT",
+          "score": 30.75,
+          "why": "RSI 65 S7+12.5% agro momentum good"
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "UBE",
+          "score": -31.94,
+          "why": "RSI 40 S7-14.5% downtrend confirmed fail"
+        },
+        {
+          "sym": "PTG",
+          "score": -28.74,
+          "why": "RSI 25 S7-12.7% energy weak fail"
+        },
+        {
+          "sym": "IND",
+          "score": -28.77,
+          "why": "RSI 31 S7-12.4% util downtrend fail"
+        },
+        {
+          "sym": "BTG",
+          "score": -30.14,
+          "why": "RSI 33 S7-14.0% food weak fail"
+        },
+        {
+          "sym": "PLUS",
+          "score": -18.81,
+          "why": "RSI 30 S7-7.8% food downtrend fail"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260518-1403",
     "last_update": "2026-05-18 14:03:46",
     "gemini": {
