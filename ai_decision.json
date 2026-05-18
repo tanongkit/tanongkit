@@ -1,5 +1,200 @@
 [
   {
+    "tx_id": "20260518-1503",
+    "last_update": "2026-05-18 15:03:57",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Key sectors mixed; Banks/Energy up, but Tech/Electronics down, creating indecision.",
+      "player_stance": "HOLD",
+      "stance_reason": "Port is full. Main holding DELTA meets HOLD criteria despite weak daily signals.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 318.0,
+          "reason": "Price > 310, MSCI catalyst still valid."
+        }
+      ],
+      "picks": [],
+      "top5": [
+        {
+          "sym": "GUNKUL",
+          "score": 43.41,
+          "why": "Highest score, huge 1-month momentum."
+        },
+        {
+          "sym": "COM7",
+          "score": 31.94,
+          "why": "Strong score, high RSI, positive S7."
+        },
+        {
+          "sym": "STA",
+          "score": 25.32,
+          "why": "Strong score, high RSI, positive S7/S1M."
+        },
+        {
+          "sym": "STECON",
+          "score": 24.98,
+          "why": "Good score, strong positive S7 momentum."
+        },
+        {
+          "sym": "ERW",
+          "score": 22.42,
+          "why": "Good score, strong 2-week momentum."
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "MTC",
+          "score": -19.65,
+          "why": "Worst score, RSI weak, strong negative S7."
+        },
+        {
+          "sym": "SCGP",
+          "score": -10.7,
+          "why": "Negative score and S7, weak momentum."
+        },
+        {
+          "sym": "HANA",
+          "score": -7.9,
+          "why": "Negative score, RSI below 50, weak S7."
+        },
+        {
+          "sym": "HMPRO",
+          "score": -3.57,
+          "why": "Negative score, weak RSI and S7 momentum."
+        },
+        {
+          "sym": "OSP",
+          "score": -2.7,
+          "why": "Negative score, weak S7 and low RG."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "BANK+0.74% INSUR+3.61% ENERG+0.81% COMM+0.69% lead. 2122M DELTA Vol spike.",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA 318 > 314.54 cost +11600 (+1.4%). Hold until 350 TP or 29-May MSCI deadline.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 318.0,
+          "reason": "Above cost 314.54. Pre-MSCI. Vol 2122M spike."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 7.4,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "S7 -1.4% + BDI RSI90",
+          "why": "Wait S7 flip positive. BDI extreme overbought."
+        },
+        {
+          "sym": "CBG",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 39.75,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Rt 0.59x < 1.5x",
+          "why": "Step Up DNA. Wait Rt > 1.5x."
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 32.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Rt 0.38x < 1.5x",
+          "why": "ELEC V-Shape. Wait Rt > 1.5x."
+        },
+        {
+          "sym": "COM7",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 25.25,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Rt 1.15x near threshold",
+          "why": "Step Up DNA. Q1 +25%. Almost qualify."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 3.44,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Rt 0.25x too low",
+          "why": "Swing DNA. Backlog 4600M. Wait Rt spike."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "GUNKUL",
+          "score": 43.41,
+          "why": "Swing DNA. S7+18.6% RSI77.7 Vol170M spike."
+        },
+        {
+          "sym": "EASTW",
+          "score": 56.79,
+          "why": "V-Shape DNA. S7+24.2% RSI65.7 Rt1.34x strong."
+        },
+        {
+          "sym": "COM7",
+          "score": 31.94,
+          "why": "Step Up DNA. S7+12.2% RSI70.6 Rt1.15x Q1+25%."
+        },
+        {
+          "sym": "STA",
+          "score": 25.32,
+          "why": "V-Shape DNA. S7+9.4% RSI71.7 Rubber+7.98%."
+        },
+        {
+          "sym": "STECON",
+          "score": 24.98,
+          "why": "Swing DNA. S7+10.2% RSI52.7 but Rt0.29x low."
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "UBE",
+          "score": -35.38,
+          "why": "S7 -15.9% RSI37.8 Rt0.21x collapsed. AGRO weak."
+        },
+        {
+          "sym": "PTG",
+          "score": -31.29,
+          "why": "S7 -13.9% RSI23.8 Rt1.16x downtrend. Energy laggard."
+        },
+        {
+          "sym": "IND",
+          "score": -28.62,
+          "why": "S7 -12.4% RSI30.7 Rt0.11x dead. UTIL weak."
+        },
+        {
+          "sym": "BTG",
+          "score": -28.68,
+          "why": "S7 -13.6% RSI34.2 Rt0.88x FOOD collapsed."
+        },
+        {
+          "sym": "PLUS",
+          "score": -22.18,
+          "why": "S7 -9.4% RSI30.1 Rt1.42x Q1 miss. FOOD weak."
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260518-1433",
     "last_update": "2026-05-18 14:33:50",
     "gemini": {
