@@ -1,5 +1,160 @@
 [
   {
+    "tx_id": "20260518-1403",
+    "last_update": "2026-05-18 14:03:46",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Bank & Energy sectors are up, but Property, Construction, and Food are weak.",
+      "player_stance": "HOLD",
+      "stance_reason": "Fully invested in DELTA, holding for MSCI catalyst. No new entry signals (Rt < 1.5x) in Universe.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 321.0,
+          "reason": "MSCI catalyst active, price >310"
+        }
+      ],
+      "picks": [],
+      "top5": [
+        {
+          "sym": "GUNKUL",
+          "score": 45.04,
+          "why": "Highest rank, strong momentum but RSI high"
+        },
+        {
+          "sym": "COM7",
+          "score": 32.66,
+          "why": "High rank, strong momentum, RG=100"
+        },
+        {
+          "sym": "STA",
+          "score": 32.04,
+          "why": "High rank, strong momentum, rubber strong"
+        },
+        {
+          "sym": "ERW",
+          "score": 28.39,
+          "why": "High rank, solid s14 momentum"
+        },
+        {
+          "sym": "PSL",
+          "score": 24.64,
+          "why": "Good rank, linked to strong BDI-F"
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "MTC",
+          "score": -19.13,
+          "why": "Lowest rank, very low RSI, negative momentum"
+        },
+        {
+          "sym": "SCGP",
+          "score": -9.67,
+          "why": "Negative rank, weak short-term momentum"
+        },
+        {
+          "sym": "OSP",
+          "score": -4.19,
+          "why": "Negative rank, weak price action"
+        },
+        {
+          "sym": "HANA",
+          "score": -3.86,
+          "why": "Negative rank, RSI below 50"
+        },
+        {
+          "sym": "HMPRO",
+          "score": -3.24,
+          "why": "Negative rank, low RSI, weak trend"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Energy +0.57% Bank +1% offset PROPCON -0.62% TRANSPORT -0.72%",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA holding strong 321 vs TP 350, wait MSCI 29-May catalyst",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 321.0,
+          "reason": "Above 310, Vol normal, MSCI 10d away"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 7.5,
+          "entry": 7.7,
+          "tp": 8.5,
+          "vs": "BDI RSI90 strong",
+          "why": "S7 -1.4% wait flip positive Rt1.6 OK"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "EASTW",
+          "score": 58.28,
+          "why": "RG93 RSI68 S7+25% Rt0.91 Vol13M strong"
+        },
+        {
+          "sym": "GUNKUL",
+          "score": 45.04,
+          "why": "RG91 RSI76 S7+19% but Rt0.18 weak"
+        },
+        {
+          "sym": "COM7",
+          "score": 32.66,
+          "why": "RG100 RSI71 S7+12% Rt1.06 low Vol"
+        },
+        {
+          "sym": "STA",
+          "score": 32.04,
+          "why": "RG97 RSI72 S7+12% but Rt0.92 weak"
+        },
+        {
+          "sym": "STGT",
+          "score": 31.04,
+          "why": "RG92 RSI65 S7+12.5% Rt0.43 low Vol"
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "UBE",
+          "score": -31.85,
+          "why": "RG37 RSI40 S7-14% failing momentum"
+        },
+        {
+          "sym": "BTG",
+          "score": -29.75,
+          "why": "RG44 RSI33 S7-14% downtrend confirmed"
+        },
+        {
+          "sym": "PTG",
+          "score": -28.46,
+          "why": "RG22 RSI24 S7-13% broken structure"
+        },
+        {
+          "sym": "IND",
+          "score": -28.71,
+          "why": "RG9 RSI31 S7-12% avoid completely"
+        },
+        {
+          "sym": "MTC",
+          "score": -19.13,
+          "why": "RG8 RSI37 S7-9% weakening further"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260518-1133",
     "last_update": "2026-05-18 11:33:46",
     "gemini": {
