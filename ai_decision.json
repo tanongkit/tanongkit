@@ -1,5 +1,200 @@
 [
   {
+    "tx_id": "20260518-1004",
+    "last_update": "2026-05-18 10:04:27",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Key sectors TECH/ETRON are down, while PETRO/ENERG are up, showing mixed signals.",
+      "player_stance": "HOLD",
+      "stance_reason": "Port is fully invested in DELTA. Waiting for TP/Stop on current position or clear entry signals.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 315.0,
+          "reason": "Price > 310 support, MSCI catalyst remains."
+        }
+      ],
+      "picks": [],
+      "top5": [
+        {
+          "sym": "CBG",
+          "score": 61.36,
+          "why": "Highest rank score, strong momentum."
+        },
+        {
+          "sym": "COM7",
+          "score": 44.0,
+          "why": "High rank score, strong momentum."
+        },
+        {
+          "sym": "PSL",
+          "score": 37.14,
+          "why": "Strong momentum, BDI catalyst."
+        },
+        {
+          "sym": "STA",
+          "score": 31.41,
+          "why": "Good momentum, strong RSI."
+        },
+        {
+          "sym": "STECON",
+          "score": 29.14,
+          "why": "Good momentum and rank score."
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "SCGP",
+          "score": -2.08,
+          "why": "Negative rank score and momentum."
+        },
+        {
+          "sym": "MTC",
+          "score": 3.31,
+          "why": "Weak signals, negative momentum."
+        },
+        {
+          "sym": "HMPRO",
+          "score": 5.3,
+          "why": "Weak signals, negative momentum."
+        },
+        {
+          "sym": "CENTEL",
+          "score": 8.34,
+          "why": "Low rank score and weak RSI."
+        },
+        {
+          "sym": "HANA",
+          "score": 12.16,
+          "why": "Negative momentum, poor Q1 earnings."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "RESOURC +0.41% PETRO +1.37% INDUS +0.72% leading sectors strong",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA hold momentum intact, await better Rt entries, 13 days to MSCI deadline",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 315.0,
+          "reason": "Price 315 above 310 Vol normal S7 -1.7%"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 7.55,
+          "entry": 7.4,
+          "tp": 8.3,
+          "vs": "S7 -1.4% wait S7 flip",
+          "why": "BDI RSI 89 strong Rt 0.8x too low"
+        },
+        {
+          "sym": "CBG",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 40.75,
+          "entry": 40.0,
+          "tp": 44.5,
+          "vs": "Rt 0.8x wait Rt 1.5x",
+          "why": "Step Up DNA rank 61 Rt low"
+        },
+        {
+          "sym": "COM7",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 24.3,
+          "entry": 24.0,
+          "tp": 26.5,
+          "vs": "Rt 0.4x wait Rt 1.5x",
+          "why": "Step Up rank 44 S7 +4.4% Rt low"
+        },
+        {
+          "sym": "IRPC",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 1.97,
+          "entry": 1.95,
+          "tp": 2.15,
+          "vs": "GRM -7.6% wait GRM positive",
+          "why": "GRM negative blocks entry rank 35"
+        },
+        {
+          "sym": "PTTGC",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 38.75,
+          "entry": 38.5,
+          "tp": 42.0,
+          "vs": "Rt 0.9x GRM -7.6% wait GRM+",
+          "why": "PETRO rank 40 GRM negative blocks"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "EASTW",
+          "score": 81.4,
+          "why": "RG 96 RSI 73 S7 +29.7% momentum leader"
+        },
+        {
+          "sym": "PTTEP",
+          "score": 93.6,
+          "why": "Rt 68% spike rank 94 anomaly warning"
+        },
+        {
+          "sym": "CBG",
+          "score": 61.4,
+          "why": "RSI 66 S7 +14.8% Rt 22% consumer strong"
+        },
+        {
+          "sym": "AMATA",
+          "score": 57.4,
+          "why": "RG 99 RSI 69 S7 +11% utility leader"
+        },
+        {
+          "sym": "GUNKUL",
+          "score": 58.4,
+          "why": "RG 95 RSI 79 S7 +24.8% solar strong"
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "IND",
+          "score": -24.4,
+          "why": "RG 9 RSI 25 S7 -10% utility laggard"
+        },
+        {
+          "sym": "UBE",
+          "score": -23.2,
+          "why": "RG 33 RSI 36 S7 -10.9% agro weak"
+        },
+        {
+          "sym": "PTG",
+          "score": -21.2,
+          "why": "RG 25 RSI 27 S7 -11% energy weak"
+        },
+        {
+          "sym": "PLUS",
+          "score": -10.8,
+          "why": "RG 13 RSI 34 S7 -4% food weak"
+        },
+        {
+          "sym": "BTG",
+          "score": -17.0,
+          "why": "RG 52 RSI 36 S7 -8.2% food weak"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260518-0645",
     "last_update": "2026-05-18 06:45:23",
     "gemini": {
