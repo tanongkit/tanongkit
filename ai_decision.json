@@ -1,5 +1,211 @@
 [
   {
+    "tx_id": "20260518-1013",
+    "last_update": "2026-05-18 10:13:49",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Major sectors mixed; Energy/Banks up, but Tech/Services down.",
+      "player_stance": "WAIT",
+      "stance_reason": "Holding current position (DELTA), but no new entry signals meet Rt>1.5x criteria yet.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 315.0,
+          "reason": "Price>310 support, MSCI catalyst remains."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 7.55,
+          "entry": 7.55,
+          "tp": 8.3,
+          "vs": "Shipping Index (BDI) is surging.",
+          "why": "Strong BDI catalyst, high rank, V-Shape DNA."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "GUNKUL",
+          "score": 56.21,
+          "why": "Highest rank_score, but RSI near overbought."
+        },
+        {
+          "sym": "CBG",
+          "score": 34.93,
+          "why": "Very strong momentum and rank_score."
+        },
+        {
+          "sym": "PSL",
+          "score": 30.77,
+          "why": "Strong momentum, very strong BDI catalyst."
+        },
+        {
+          "sym": "COM7",
+          "score": 29.97,
+          "why": "Consistently strong momentum and good rank."
+        },
+        {
+          "sym": "STECON",
+          "score": 23.71,
+          "why": "Good momentum, positive trend."
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "HANA",
+          "score": -6.08,
+          "why": "Weakest in universe, negative momentum."
+        },
+        {
+          "sym": "SCGP",
+          "score": -4.71,
+          "why": "Momentum turned negative, rank falling."
+        },
+        {
+          "sym": "MTC",
+          "score": -4.67,
+          "why": "Consistently weak rank, low RSI."
+        },
+        {
+          "sym": "OSP",
+          "score": -2.8,
+          "why": "Momentum turned negative."
+        },
+        {
+          "sym": "HMPRO",
+          "score": -2.6,
+          "why": "Consistently weak rank and momentum."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "ENERGY+1.08% TECH-0.33% mixed sectors flat SET sentiment",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA below entry 315<319 Vol 181M normal S7+1.6% MSCI 11 days left hold",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 315.0,
+          "reason": "Below TP 350 S7+1.6% Vol normal MSCI"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 7.55,
+          "entry": 7.6,
+          "tp": 8.5,
+          "vs": "BDI RSI90 DNA V-Shape Rank31",
+          "why": "S7-1.4% FAIL must flip positive Rt1.6x"
+        },
+        {
+          "sym": "CBG",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 40.75,
+          "entry": 41.0,
+          "tp": 45.0,
+          "vs": "Rank35 RSI66 Step Up DNA",
+          "why": "Rt0.08x FAIL need Rt>1.5x S7+14.8%"
+        },
+        {
+          "sym": "COM7",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 24.3,
+          "entry": 24.5,
+          "tp": 27.0,
+          "vs": "Rank30 RSI66 Step Up DNA",
+          "why": "Rt0.04x FAIL need Rt>1.5x S7+12.5%"
+        },
+        {
+          "sym": "WHA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 4.64,
+          "entry": 4.65,
+          "tp": 5.1,
+          "vs": "Rank22 RSI69 งบ+156%",
+          "why": "Rt0.02x FAIL S7-2.3% need both positive"
+        },
+        {
+          "sym": "STA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 19.7,
+          "entry": 19.8,
+          "tp": 22.0,
+          "vs": "Rank22 RSI69 V-Shape DNA",
+          "why": "Rt0.03x FAIL S7-0.5% need both positive"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "GUNKUL",
+          "score": 56.2,
+          "why": "Rank56 RSI79 S7+24.8% Universe ELEC leader"
+        },
+        {
+          "sym": "CBG",
+          "score": 34.9,
+          "why": "Rank35 RSI66 S7+14.8% Universe consumer best"
+        },
+        {
+          "sym": "PSL",
+          "score": 30.8,
+          "why": "Rank31 RSI63 S7+13.5% BDI-play but S7-1.4%"
+        },
+        {
+          "sym": "COM7",
+          "score": 30.0,
+          "why": "Rank30 RSI66 S7+12.5% Step Up DNA"
+        },
+        {
+          "sym": "GPSC",
+          "score": 25.2,
+          "why": "Rank25 RSI62 S7+10.9% Universe ELEC stable"
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "PTG",
+          "score": -26.2,
+          "why": "Rank-26 RSI27 S7-11% fail all metrics"
+        },
+        {
+          "sym": "SCGP",
+          "score": -4.7,
+          "why": "Rank-5 RSI54 S7-2% Port Universe weak"
+        },
+        {
+          "sym": "HANA",
+          "score": -6.1,
+          "why": "Rank-6 RSI51 S7-3.1% ELEC งบ-78% weak"
+        },
+        {
+          "sym": "CCET",
+          "score": -3.5,
+          "why": "Rank-4 RSI57 S7-1.6% non-Universe weak"
+        },
+        {
+          "sym": "EPG",
+          "score": 9.4,
+          "why": "Rank9 RSI59 S7+4.1% but Rt0.005x fail"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260518-1004",
     "last_update": "2026-05-18 10:04:27",
     "gemini": {
