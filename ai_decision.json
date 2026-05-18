@@ -1,5 +1,160 @@
 [
   {
+    "tx_id": "20260518-1023",
+    "last_update": "2026-05-18 10:23:52",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Major sectors mixed; Energy/Banks up but Tech/Property down, no clear direction.",
+      "player_stance": "SELL",
+      "stance_reason": "DELTA momentum collapsed (rank 38->4, rt 3.6->0.03). Exiting near cost to free up capital for stronger plays.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "SELL_ALL",
+          "qty": 2600,
+          "price": 315.0,
+          "reason": "Momentum stall, Rt dried up."
+        }
+      ],
+      "picks": [],
+      "top5": [
+        {
+          "sym": "GUNKUL",
+          "score": 49.72,
+          "why": "Highest rank_score, strong momentum."
+        },
+        {
+          "sym": "CBG",
+          "score": 27.74,
+          "why": "Strong rank_score, RSI sweet spot."
+        },
+        {
+          "sym": "PSL",
+          "score": 26.3,
+          "why": "Strong rank_score, BDI-F leader."
+        },
+        {
+          "sym": "STA",
+          "score": 23.34,
+          "why": "Strong rank_score, RUBBER-F strong."
+        },
+        {
+          "sym": "STECON",
+          "score": 22.78,
+          "why": "Consistent high rank, strong s14."
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "MTC",
+          "score": -12.72,
+          "why": "Very weak rank_score and momentum."
+        },
+        {
+          "sym": "SCGP",
+          "score": -8.06,
+          "why": "Negative rank_score, momentum falling."
+        },
+        {
+          "sym": "HMPRO",
+          "score": -3.47,
+          "why": "Low RSI and negative rank_score."
+        },
+        {
+          "sym": "HANA",
+          "score": -2.98,
+          "why": "Negative rank_score, weak s14."
+        },
+        {
+          "sym": "IRPC",
+          "score": -2.74,
+          "why": "Negative rank_score, GRM weak."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "ENERG+0.79% RESOURC+0.79% | TECH-1.02% ETRON-1.28% mixed sectors",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA@315 holding 314.54 cost +0.46 low Vol wait TP 350 before 29May MSCI",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 315.0,
+          "reason": "Above cost S7+4.6% Vol low wait TP"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 7.55,
+          "entry": 7.7,
+          "tp": 8.5,
+          "vs": "BDI RSI90 fire",
+          "why": "S7-1.4% WAIT S7 turn positive Rt1.6x OK"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "EASTW",
+          "score": 62.62,
+          "why": "RSI72 rg96 S7+27% Rt0.07x too low WAIT"
+        },
+        {
+          "sym": "GUNKUL",
+          "score": 49.72,
+          "why": "RSI79 rg95 S7+21% Rt0.01x too low WAIT"
+        },
+        {
+          "sym": "CRC",
+          "score": 42.06,
+          "why": "Not Universe exclude from picks list"
+        },
+        {
+          "sym": "CBG",
+          "score": 27.74,
+          "why": "RSI66 rg52 S7+11.6% Rt1.01x WAIT Rt1.5x"
+        },
+        {
+          "sym": "PSL",
+          "score": 26.3,
+          "why": "RSI63 rg71 S7-1.4% BDI90 WAIT S7+"
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "UBE",
+          "score": -38.86,
+          "why": "RSI36 rg33 S7-17% avoid Universe exclude"
+        },
+        {
+          "sym": "IND",
+          "score": -28.6,
+          "why": "RSI25 rg9 S7-12% avoid Universe exclude"
+        },
+        {
+          "sym": "PTG",
+          "score": -26.22,
+          "why": "RSI27 rg25 S7-11.5% avoid Universe exclude"
+        },
+        {
+          "sym": "BTG",
+          "score": -24.81,
+          "why": "RSI36 rg50 S7-11.4% avoid Universe exclude"
+        },
+        {
+          "sym": "AAI",
+          "score": -20.87,
+          "why": "RSI46 rg6 S7-9% avoid Universe exclude"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260518-1013",
     "last_update": "2026-05-18 10:13:49",
     "gemini": {
