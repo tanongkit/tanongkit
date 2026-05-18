@@ -1,5 +1,211 @@
 [
   {
+    "tx_id": "20260518-1603",
+    "last_update": "2026-05-18 16:03:31",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Sector rotation; Banks/Energy up, but Tech/Construction down, creating mixed signals.",
+      "player_stance": "HOLD",
+      "stance_reason": "Fully invested in DELTA, awaiting MSCI catalyst. Monitoring watchlist, no cash for new positions.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 317.0,
+          "reason": "Price > 310, awaiting MSCI catalyst."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "STA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 19.7,
+          "entry": 19.7,
+          "tp": 21.7,
+          "vs": "Watchlist candidate",
+          "why": "Passes all rules: Rt>1.5x, strong RSI, RUBBER-F positive."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "GUNKUL",
+          "score": 46.91,
+          "why": "Highest rank score in Universe."
+        },
+        {
+          "sym": "COM7",
+          "score": 31.66,
+          "why": "Very strong rank and momentum."
+        },
+        {
+          "sym": "STA",
+          "score": 25.35,
+          "why": "Strong rank and Rt > 1.5x."
+        },
+        {
+          "sym": "ERW",
+          "score": 24.4,
+          "why": "High rank, tourism recovery play."
+        },
+        {
+          "sym": "STECON",
+          "score": 22.98,
+          "why": "Consistently high rank score."
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "MTC",
+          "score": -19.86,
+          "why": "Lowest rank, clear downtrend."
+        },
+        {
+          "sym": "SCGP",
+          "score": -9.64,
+          "why": "Negative rank, momentum fading."
+        },
+        {
+          "sym": "HANA",
+          "score": -8.09,
+          "why": "Negative rank, poor Q1 earnings."
+        },
+        {
+          "sym": "HMPRO",
+          "score": -3.87,
+          "why": "Negative rank, weak retail sentiment."
+        },
+        {
+          "sym": "OSP",
+          "score": -2.72,
+          "why": "Negative rank and low momentum."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "BANK+1.0% INSUR+3.55% COMM+0.84% TOUR+0.63% strong inflows",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA holding above 310 but MSCI 29May deadline 13 days away, monitor closely",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 317.0,
+          "reason": "Above 310 Vol normal watch MSCI"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 7.4,
+          "entry": 7.5,
+          "tp": 8.5,
+          "vs": "BDI RSI 90 fire",
+          "why": "S7 -1.4% wait S7 flip positive"
+        },
+        {
+          "sym": "CBG",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 40.0,
+          "entry": 41.0,
+          "tp": 45.0,
+          "vs": "Step Up S7+9.6",
+          "why": "Rt 0.68x need Rt>1.5x"
+        },
+        {
+          "sym": "COM7",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 25.25,
+          "entry": 25.5,
+          "tp": 28.0,
+          "vs": "Step Up S7+12.2",
+          "why": "Rt 1.23x need Rt>1.5x"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 32.0,
+          "entry": 32.5,
+          "tp": 36.0,
+          "vs": "V-Shape ELEC play",
+          "why": "Rt 0.41x need Rt>1.5x"
+        },
+        {
+          "sym": "WHA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 4.64,
+          "entry": 4.7,
+          "tp": 5.2,
+          "vs": "Step Up earnings+156%",
+          "why": "S7 -2.3% Rt 0.42x need both"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "EASTW",
+          "score": 56.73,
+          "why": "S7+24.2 Rt 1.49x RSI 68 near breakout"
+        },
+        {
+          "sym": "GUNKUL",
+          "score": 46.91,
+          "why": "S7+20.0 RSI 79 Backlog 4600M momentum"
+        },
+        {
+          "sym": "COM7",
+          "score": 31.66,
+          "why": "S7+12.2 RSI 69 IT retail strong"
+        },
+        {
+          "sym": "STA",
+          "score": 25.35,
+          "why": "S7+9.4 Rt 1.53x RUBBER play solid"
+        },
+        {
+          "sym": "ERW",
+          "score": 24.4,
+          "why": "S7+9.9 Tourism recovery Vol spike"
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "PTG",
+          "score": -29.86,
+          "why": "S7-13.3 RSI 23 avoid downtrend"
+        },
+        {
+          "sym": "UBE",
+          "score": -35.35,
+          "why": "S7-15.9 RSI 35 weak fundamentals"
+        },
+        {
+          "sym": "PLUS",
+          "score": -25.69,
+          "why": "S7-10.9 RSI 27 earnings collapse"
+        },
+        {
+          "sym": "BTG",
+          "score": -26.7,
+          "why": "S7-12.7 RSI 33 weak structure"
+        },
+        {
+          "sym": "MTC",
+          "score": -19.86,
+          "why": "S7-9.1 RSI 36 credit sector weak"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260518-1503",
     "last_update": "2026-05-18 15:03:57",
     "gemini": {
