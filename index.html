@@ -144,22 +144,22 @@
 
   /* ── KPI ROW ── */
   .kpi-grid {
-    display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px;
-    margin-bottom: 20px;
+    display: grid; grid-template-columns: repeat(10, 1fr); gap: 6px;
+    margin-bottom: 16px;
   }
   .kpi {
     background: var(--surface);
     border: 1px solid var(--border);
-    border-radius: 8px; padding: 14px 16px;
+    border-radius: 6px; padding: 10px 12px;
     position: relative; overflow: hidden;
   }
   .kpi::before {
     content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
     background: var(--kpi-color, var(--border2));
   }
-  .kpi-label { font-size: 10px; color: var(--muted); margin-bottom: 6px; font-family: var(--font-mono); letter-spacing: 0.05em; }
-  .kpi-val { font-family: var(--font-mono); font-size: 22px; font-weight: 500; line-height: 1; }
-  .kpi-sub { font-size: 10px; color: var(--muted); margin-top: 5px; }
+  .kpi-label { font-size: 9px; color: var(--muted); margin-bottom: 5px; font-family: var(--font-mono); letter-spacing: 0.05em; }
+  .kpi-val { font-family: var(--font-mono); font-size: 16px; font-weight: 500; line-height: 1; }
+  .kpi-sub { font-size: 9px; color: var(--muted); margin-top: 5px; line-height: 1.4; }
 
   /* ── TWO COLUMNS ── */
   .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
@@ -1137,19 +1137,18 @@ sectorRanks.sort((a,b)=>b.val-a.val);
 const best = sectorRanks[0], worst = sectorRanks[sectorRanks.length-1];
 const setVal = rawData.stocks['SET'] ? rawData.stocks['SET'][lastI] : 0;
 // ── KPI: Top 5 rank jumpers + current port ─────────────────
-(function buildKPI(){
+function buildKPI(){
   const kpiGrid = document.getElementById('kpiGrid');
   if(!kpiGrid) return;
 
   const cards = [];
   const n = rawData.dates.length;
-  const lastI = n - 1;
-  const prevI = n - 2;
 
-  // ── 1. Top 5 rank jumpers (weighted) ────────────────────
+  // ── 1. Top 10 rank jumpers (weighted) ───────────────────
   if(n >= 2){
+    const lastI = n - 1, prevI = n - 2;
     const allSyms = Object.keys(rawData.stocks).filter(s => !s.endsWith('-F'));
-    // rank today & yesterday
+
     function rankOn(di){
       return [...allSyms]
         .map(s=>({s, v: rawData.stocks[s][di] ?? -999}))
@@ -1162,7 +1161,7 @@ const setVal = rawData.stocks['SET'] ? rawData.stocks['SET'][lastI] : 0;
 
     const jumpers = allSyms
       .filter(s => {
-        const sv = rawData.stocks[s][lastI];
+        const sv   = rawData.stocks[s][lastI];
         const jump = (rPrev[s]||99) - (rToday[s]||99);
         return jump > 0 && sv > 0;
       })
@@ -1173,20 +1172,20 @@ const setVal = rawData.stocks['SET'] ? rawData.stocks['SET'][lastI] : 0;
         const sv   = rawData.stocks[s][lastI] ?? 0;
         const sp   = rawData.stocks[s][prevI]  ?? 0;
         const posW = Math.max(0, (total - rt) / total);
-        const mom  = sv - sp;
-        const comp = posW * 2.0 + (jump / total) * 1.0 + (mom / 50) * 1.0;
+        const comp = posW * 2.0 + (jump / total) * 1.0 + ((sv - sp) / 50) * 1.0;
         return { s, rt, rp, jump, sv, comp };
       })
       .sort((a,b) => b.comp - a.comp)
-      .slice(0, 5);
+      .slice(0, 10);
 
+    const jumpColors = ['#00d68f','#00d68f','#84cc16','#84cc16','#f59e0b','#f59e0b','#f59e0b','#6b7280','#6b7280','#6b7280'];
     jumpers.forEach((d, i) => {
-      const color = i === 0 ? '#00d68f' : i <= 1 ? '#84cc16' : '#f59e0b';
       cards.push({
-        label: `#${i+1} RANK JUMP`,
-        val:   d.s,
-        sub:   `#${d.rp}→#${d.rt}  +${d.jump}  score ${d.sv.toFixed(1)}`,
-        color
+        label: `#${i+1} · ${d.s}`,
+        val:   `#${d.rt}`,
+        sub:   `from #${d.rp}  +${d.jump}pts
+score ${d.sv.toFixed(1)}`,
+        color: jumpColors[i] || '#6b7280'
       });
     });
   }
@@ -1196,22 +1195,24 @@ const setVal = rawData.stocks['SET'] ? rawData.stocks['SET'][lastI] : 0;
     ? (AI_DECISION[0]?.claude?.port_action || AI_DECISION[0]?.gemini?.port_action || [])
     : [];
 
-  if(portAction.length){
-    portAction.slice(0, 2).forEach(p => {
-      const action = (p.action||'HOLD').toUpperCase();
-      const color  = action === 'HOLD' ? '#3b82f6'
-                   : action === 'SELL_ALL' ? '#ff4d6a'
-                   : action === 'SELL_PARTIAL' ? '#f59e0b' : '#6b7280';
-      const qty    = p.qty > 0 ? `${p.qty} หุ้น` : '';
-      const price  = p.price > 0 ? `@ ${p.price}` : '';
-      cards.push({
-        label: `PORT: ${p.sym}`,
-        val:   action.replace('_', ' '),
-        sub:   [qty, price, p.reason||''].filter(Boolean).join(' · ').slice(0, 40),
-        color
-      });
+  portAction.forEach(p => {
+    const action = (p.action||'HOLD').toUpperCase();
+    const color  = action === 'HOLD'         ? '#3b82f6'
+                 : action === 'SELL_ALL'      ? '#ff4d6a'
+                 : action === 'SELL_PARTIAL'  ? '#f59e0b' : '#6b7280';
+    const qty    = p.qty > 0 ? `${p.qty.toLocaleString()} หุ้น` : '';
+    const price  = p.price > 0 ? `avg ${p.price}` : '';
+    const value  = (p.qty > 0 && p.price > 0)
+                 ? `฿${(p.qty * p.price / 1000).toFixed(0)}K` : '';
+    const sub2   = [qty, price, value].filter(Boolean).join(' · ');
+    cards.push({
+      label: `PORT ${p.sym}`,
+      val:   action.replace('_', ' '),
+      sub:   sub2 + (p.reason ? `
+${p.reason.slice(0,30)}` : ''),
+      color
     });
-  }
+  });
 
   // ── Render ────────────────────────────────────────────────
   cards.forEach(k => {
@@ -1219,11 +1220,11 @@ const setVal = rawData.stocks['SET'] ? rawData.stocks['SET'][lastI] : 0;
     el.className = 'kpi';
     el.style.setProperty('--kpi-color', k.color);
     el.innerHTML = `<div class="kpi-label">${k.label}</div>
-      <div class="kpi-val" style="color:${k.color};font-size:18px">${k.val}</div>
-      <div class="kpi-sub">${k.sub}</div>`;
+      <div class="kpi-val" style="color:${k.color}">${k.val}</div>
+      <div class="kpi-sub">${k.sub.replace(/\n/g,'<br>')}</div>`;
     kpiGrid.appendChild(el);
   });
-})();
+}
 
 /* ── Sector Trend Chart ── */
 /* default = top 6 sector by avg rank วันล่าสุด (คำนวณจาก rawData) */
@@ -2105,11 +2106,11 @@ renderSectorBreakdown();
 
 
 /* __ DATA INJECTION POINT __ */
-// built: 2026-05-18 20:43:18
-const AI_DECISION = [{"tx_id": "20260518-2042", "last_update": "2026-05-18 20:42:13", "gemini": {"market_sentiment": "NEUTRAL", "sentiment_reason": "SET index flat; key sectors show mixed performance with no clear trend.", "player_stance": "HOLD", "stance_reason": "Full position in DELTA, holding above cost basis. No cash available for new entries.", "port_action": [{"sym": "DELTA", "action": "HOLD", "qty": 2600, "price": 317.0, "reason": "Above cost, MSCI catalyst active, S7 positive."}], "picks": [], "top5": [{"sym": "PRM", "score": 32.85, "why": "Massive Rt (17.95) and rank jump (+22)."}, {"sym": "EASTW", "score": 59.99, "why": "#1 rank with strong overall metrics."}, {"sym": "GUNKUL", "score": 45.49, "why": "#2 rank with strong momentum but hot RSI."}, {"sym": "STA", "score": 25.18, "why": "V-Shape DNA, meets all entry criteria."}, {"sym": "COM7", "score": 31.66, "why": "Top retail, perfect relative strength (rg=100)."}], "bot5": [{"sym": "UBE", "score": -35.33, "why": "Worst score, sharp multi-week decline."}, {"sym": "PTG", "score": -28.09, "why": "Deeply oversold (RSI 24.6), strong downtrend."}, {"sym": "BTG", "score": -26.58, "why": "Sustained negative momentum across timeframes."}, {"sym": "IND", "score": -26.28, "why": "Steep short-term decline (s7 -10.18)."}, {"sym": "PLUS", "score": -25.74, "why": "Oversold with sharp S7 drop (-12.30)."}]}, "claude": {"market_sentiment": "NEUTRAL", "sentiment_reason": "SET flat -0.01% · Mixed sectors · BANK+2.95% · FIN-2.22%", "player_stance": "HOLD", "stance_reason": "DELTA holding profit +0.78% · 11 days to MSCI 29 May · No new entry pass Rule", "port_action": [{"sym": "DELTA", "action": "HOLD", "qty": 2600, "price": 317.0, "reason": "Above cost 314.54 · S7+1.93% · MSCI play"}], "picks": [{"sym": "STA", "action": "BUY", "conf": 6, "now": 19.7, "entry": 19.8, "tp": 22.0, "vs": "Rt 1.61 close but <1.5x · S7+4.23%", "why": "RUBBER DNA · RSI 68.6 · Wait Rt>1.5x"}, {"sym": "COM7", "action": "BUY", "conf": 7, "now": 25.25, "entry": 25.5, "tp": 28.0, "vs": "Rt 1.43 · RSI 70.7 · S7+6.09%", "why": "Step Up DNA · Strong S7 · Wait Rt>1.5x"}, {"sym": "M", "action": "BUY", "conf": 6, "now": 20.5, "entry": 20.6, "tp": 22.5, "vs": "Rt 0.70 fail · RSI 70.5 · S7+9.04%", "why": "Step Up DNA · S7 strong · Rt too low"}, {"sym": "KTB", "action": "BUY", "conf": 6, "now": 34.75, "entry": 35.0, "tp": 38.0, "vs": "Rt 0.58 fail · RSI 72.3 · S7+6.11%", "why": "Bond Yield support · Rt too low · Wait"}, {"sym": "PSL", "action": "BUY", "conf": 5, "now": 7.4, "entry": 7.5, "tp": 8.2, "vs": "Rt 0.54 fail · RSI 56.9 · S7 flat", "why": "BDI 89 RSI · S7 flat · Wait Rt>1.5x"}], "top5": [{"sym": "PRM", "score": 9.2, "why": "Rank jump +22 · Rt 17.95 · RSI 63.9"}, {"sym": "PTTEP", "score": 8.8, "why": "Rank jump +25 · Rt 0.85 · BRENT+9.84%"}, {"sym": "STGT", "score": 8.5, "why": "Rank jump +13 · Rt 0.74 · S7+6.54%"}, {"sym": "AOT", "score": 8.3, "why": "Rank jump +14 · Tourism play · RSI 50.3"}, {"sym": "STA", "score": 8.1, "why": "Rank jump +6 · Rt 1.61 · RUBBER support"}], "bot5": [{"sym": "ITC", "score": 2.1, "why": "Rank drop -40 · S7-1.85% · Rt 0.66"}, {"sym": "EPG", "score": 2.3, "why": "Rank drop -27 · S7-2.76% · Rt 0.56"}, {"sym": "CPF", "score": 2.5, "why": "Rank drop -20 · S7 flat · RSI 44.6"}, {"sym": "IRPC", "score": 2.6, "why": "Rank drop -20 · GRM-5.26% · False signal"}, {"sym": "AAI", "score": 2.8, "why": "Rank drop -17 · S14-7.98% · RSI 47.8"}]}}];
+// built: 2026-05-18 21:26:26
+const AI_DECISION = [{"tx_id": "20260518-2125", "last_update": "2026-05-18 21:25:21", "gemini": {"market_sentiment": "NEUTRAL", "sentiment_reason": "Mixed sectors; BANK/RESOURC up while FIN/TECH down, SET flat.", "player_stance": "HOLD", "stance_reason": "Fully invested in DELTA. Holding for MSCI catalyst, no free cash for new entries.", "port_action": [{"sym": "DELTA", "action": "HOLD", "qty": 2600, "price": 317.0, "reason": "Above cost, S7+, MSCI catalyst active."}], "picks": [{"sym": "STA", "action": "BUY", "conf": 8, "now": 19.7, "entry": 19.7, "tp": 21.7, "vs": "PSL, KTB", "why": "Passes all rules: RSI, Rt>1.5, S7 positive."}], "top5": [{"sym": "TLI", "score": 9.5, "why": "Massive rank jump, high Rt and S7 momentum."}, {"sym": "PRM", "score": 9.2, "why": "Exceptional Rt (17.95), strong rank change, good RSI."}, {"sym": "EASTW", "score": 8.8, "why": "Rank 1, high score, meets Rt>1.5 rule."}, {"sym": "STA", "score": 8.5, "why": "Passes all entry rules, V-Shape DNA, good Rt."}, {"sym": "COM7", "score": 8.2, "why": "Strong daily and weekly momentum, solid rank."}]}, "claude": {"market_sentiment": "NEUTRAL", "sentiment_reason": "SET flat -0.01%, mixed sectors, TECH/BANK up, FOOD/PROP down", "player_stance": "HOLD", "stance_reason": "DELTA hold until 350 TP or 29-May MSCI, no new entry pass rules", "port_action": [{"sym": "DELTA", "action": "HOLD", "qty": 2600, "price": 317.0, "reason": "Above cost 314.54, S7+1.93%, 11d to MSCI"}], "picks": [], "top5": [{"sym": "TLI", "score": 8.2, "why": "Rank jump +96, Rt 2.66x, RSI 82, S7+15.58%"}, {"sym": "PRM", "score": 7.8, "why": "Rank jump +21, Rt 17.95x massive, S7+5.33%"}, {"sym": "STGT", "score": 6.5, "why": "Rank jump +12, Rt 0.74x, S7+6.54%, RSI 62"}, {"sym": "SCB", "score": 6.2, "why": "Rank jump +11, Rt 1.45x, S7+2.27%, BANK"}, {"sym": "PTTEP", "score": 5.9, "why": "Rank jump +24, Rt 0.85x, S7+3.70%, Oil"}]}}, {"tx_id": "20260518-2107", "last_update": "2026-05-18 21:07:27", "gemini": {"market_sentiment": "NEUTRAL", "sentiment_reason": "SET index is flat, but strong sector rotation into Financials/Resources is occurring.", "player_stance": "WAIT", "stance_reason": "Fully invested in DELTA. Waiting for TP/Stop signal before considering new entries.", "port_action": [{"sym": "DELTA", "action": "HOLD", "qty": 2600, "price": 317.0, "reason": "Above cost, MSCI catalyst active."}], "picks": [], "top5": [{"sym": "TLI", "score": 9.8, "why": "Massive rank jump, high Rt, overbought RSI."}, {"sym": "PRM", "score": 9.5, "why": "Large rank jump, extreme Rt value."}, {"sym": "EASTW", "score": 8.8, "why": "Stable rank 1, solid Rt, positive S7."}, {"sym": "STA", "score": 8.5, "why": "Meets entry rules (Rt > 1.5)."}, {"sym": "COM7", "score": 8.2, "why": "Perfect relative strength (RG), positive D1."}], "bot5": [{"sym": "UBE", "score": 1.1, "why": "Lowest rank, deeply negative s7/s14 momentum."}, {"sym": "PTG", "score": 1.5, "why": "Oversold RSI with strong negative momentum."}, {"sym": "BTG", "score": 1.8, "why": "Strongly negative s7 and s14 momentum."}, {"sym": "IND", "score": 2.0, "why": "Low rank and strong negative momentum."}, {"sym": "PLUS", "score": 2.2, "why": "Oversold RSI and collapsing s7/s14 momentum."}]}, "claude": {"market_sentiment": "NEUTRAL", "sentiment_reason": "SET -0.01%, TECH -0.62%, FINCIAL +0.68%, mixed sector signals", "player_stance": "HOLD", "stance_reason": "DELTA still above cost 314.54, MSCI deadline 11 days, wait TP 350 or Stop 290", "port_action": [{"sym": "DELTA", "action": "HOLD", "qty": 2600, "price": 317.0, "reason": "Above cost +6396, MSCI 11d left, S7 +1.93%"}], "picks": [{"sym": "STA", "action": "BUY", "conf": 7, "now": 19.7, "entry": 19.5, "tp": 22.0, "vs": "Rt 1.61x near 1.5x threshold, RSI 68.6", "why": "RUBBER DNA, S7 +4.23%, RSI sweet spot"}], "top5": [{"sym": "TLI", "score": 9.2, "why": "Rank jump +96, Rt 2.66x, RSI 82.1, D1 +5.50%"}, {"sym": "PRM", "score": 8.7, "why": "Rank jump +21, Rt 17.95x massive, RSI 63.9, D1 -0.56%"}, {"sym": "PTTEP", "score": 7.8, "why": "Rank jump +24, Rt 0.85x, S7 +3.70%, D1 +2.67%"}, {"sym": "AOT", "score": 7.5, "why": "Rank jump +13, Rt 0.54x, S7 +2.44%, Tourism catalyst"}, {"sym": "TH10Y-F", "score": 7.3, "why": "Rank jump +12, Bond Yield +4.23% D1, RSI 64.4"}], "bot5": [{"sym": "MTC", "score": 2.1, "why": "Rank drop -5, S7 -9.17%, RSI 36.2, D1 -4.39%"}, {"sym": "ITC", "score": 2.3, "why": "Rank drop -41, S7 -1.85%, RSI 50.8, Food weak"}, {"sym": "EPG", "score": 2.5, "why": "Rank drop -28, S7 -2.76%, RSI 55.0, Volatile swing"}, {"sym": "CPF", "score": 2.7, "why": "Rank drop -21, S7 flat, RSI 44.6, Weak sentiment"}, {"sym": "THCOM", "score": 2.8, "why": "Rank drop -11, S7 -13.85%, RSI 42.9, Stay out"}]}}];
 const FINAL_ORDER = {"execution_time": "2026-05-17 03:12:50", "ref_tx_id": "20260517-0311", "orders": [{"symbol": "PSL", "action": "BUY", "price": 7.65, "sources": ["gemini"]}, {"symbol": "WHA", "action": "BUY", "price": 4.68, "sources": ["gemini"]}, {"symbol": "COM7", "action": "BUY", "price": 24.5, "sources": ["gemini"]}]};
 const SET_SECTORS = [{"sector_code": "AGRO- เกษตรและอุตสาหกรรมอาหาร", "sector_name": "", "last": 308.51, "change": -2.16, "percent_change": -0.7, "volume_shares": 137021800, "value_thousand_baht": 1621633.28}, {"sector_code": "AGRI- ธุรกิจการเกษตร", "sector_name": "", "last": 211.08, "change": -0.5, "percent_change": -0.24, "volume_shares": 42273600, "value_thousand_baht": 451257.61}, {"sector_code": "FOOD- อาหารและเครื่องดื่ม", "sector_name": "", "last": 8521.32, "change": -64.6, "percent_change": -0.75, "volume_shares": 94748200, "value_thousand_baht": 1170375.68}, {"sector_code": "CONSUMP- สินค้าอุปโภคบริโภค", "sector_name": "", "last": 45.51, "change": 0.19, "percent_change": 0.42, "volume_shares": 23092600, "value_thousand_baht": 169642.28}, {"sector_code": "FASHION- แฟชั่น", "sector_name": "", "last": 497.51, "change": 6.84, "percent_change": 1.39, "volume_shares": 6259200, "value_thousand_baht": 80408.04}, {"sector_code": "HOME- ของใช้ในครัวเรือนและสำนักงาน", "sector_name": "", "last": 15.9, "change": 0.0, "percent_change": 0.0, "volume_shares": 7590700, "value_thousand_baht": 1317.25}, {"sector_code": "PERSON- ของใช้ส่วนตัวและเวชภัณฑ์", "sector_name": "", "last": 77.81, "change": -0.08, "percent_change": -0.1, "volume_shares": 9242700, "value_thousand_baht": 87916.99}, {"sector_code": "FINCIAL- ธุรกิจการเงิน", "sector_name": "", "last": 157.28, "change": 1.06, "percent_change": 0.68, "volume_shares": 813693500, "value_thousand_baht": 16098639.76}, {"sector_code": "BANK- ธนาคาร", "sector_name": "", "last": 505.36, "change": 4.45, "percent_change": 0.89, "volume_shares": 408269500, "value_thousand_baht": 12473901.02}, {"sector_code": "FIN- เงินทุนและหลักทรัพย์", "sector_name": "", "last": 1878.01, "change": -42.62, "percent_change": -2.22, "volume_shares": 353569100, "value_thousand_baht": 2986033.85}, {"sector_code": "INSUR- ประกันภัยและประกันชีวิต", "sector_name": "", "last": 9394.01, "change": 269.11, "percent_change": 2.95, "volume_shares": 51854900, "value_thousand_baht": 638704.89}, {"sector_code": "INDUS- สินค้าอุตสาหกรรม", "sector_name": "", "last": 66.6, "change": 0.07, "percent_change": 0.11, "volume_shares": 160890700, "value_thousand_baht": 1404466.48}, {"sector_code": "AUTO- ยานยนต์", "sector_name": "", "last": 308.85, "change": -0.27, "percent_change": -0.09, "volume_shares": 45804000, "value_thousand_baht": 85434.07}, {"sector_code": "IMM- วัสดุอุตสาหกรรมและเครื่องจักร", "sector_name": "", "last": 18.63, "change": 0.01, "percent_change": 0.05, "volume_shares": 24686800, "value_thousand_baht": 35465.49}, {"sector_code": "PAPER- กระดาษและวัสดุการพิมพ์", "sector_name": "", "last": 2123.91, "change": 14.06, "percent_change": 0.67, "volume_shares": 279400, "value_thousand_baht": 2102.55}, {"sector_code": "PETRO- ปิโตรเคมีและเคมีภัณฑ์", "sector_name": "", "last": 686.11, "change": 2.8, "percent_change": 0.41, "volume_shares": 36176100, "value_thousand_baht": 1025035.46}, {"sector_code": "PKG- บรรจุภัณฑ์", "sector_name": "", "last": 2551.3, "change": -9.21, "percent_change": -0.36, "volume_shares": 28786100, "value_thousand_baht": 219445.48}, {"sector_code": "STEEL- เหล็ก และ ผลิตภัณฑ์โลหะ", "sector_name": "", "last": 19.81, "change": -0.05, "percent_change": -0.25, "volume_shares": 25158300, "value_thousand_baht": 36983.43}, {"sector_code": "PROPCON- อสังหาริมทรัพย์และก่อสร้าง", "sector_name": "", "last": 75.36, "change": -0.33, "percent_change": -0.44, "volume_shares": 608912681, "value_thousand_baht": 3301487.95}, {"sector_code": "CONMAT- วัสดุก่อสร้าง", "sector_name": "", "last": 5630.84, "change": 18.21, "percent_change": 0.32, "volume_shares": 51137700, "value_thousand_baht": 659520.99}, {"sector_code": "PROP- พัฒนาอสังหาริมทรัพย์", "sector_name": "", "last": 163.98, "change": -1.33, "percent_change": -0.8, "volume_shares": 369096881, "value_thousand_baht": 1798223.1}, {"sector_code": "PF&REIT- กองทุนรวมอสังหาริมทรัพย์และกองทรัสต์เพื่อการลงทุนในอสังหาริมทรัพย์", "sector_name": "", "last": 137.9, "change": -0.4, "percent_change": -0.29, "volume_shares": 31993900, "value_thousand_baht": 320171.01}, {"sector_code": "CONS- บริการรับเหมาก่อสร้าง", "sector_name": "", "last": 39.61, "change": -0.58, "percent_change": -1.44, "volume_shares": 156684200, "value_thousand_baht": 523572.85}, {"sector_code": "RESOURC- ทรัพยากร", "sector_name": "", "last": 170.34, "change": 1.28, "percent_change": 0.76, "volume_shares": 988726600, "value_thousand_baht": 10429689.44}, {"sector_code": "ENERG- พลังงานและสาธารณูปโภค", "sector_name": "", "last": 19428.8, "change": 145.46, "percent_change": 0.75, "volume_shares": 988726600, "value_thousand_baht": 10429689.44}, {"sector_code": "MINE- เหมืองแร่", "sector_name": "", "last": 4.78, "change": 0.0, "percent_change": 0.0, "volume_shares": 0, "value_thousand_baht": 0.0}, {"sector_code": "SERVICE- บริการ", "sector_name": "", "last": 279.37, "change": -0.09, "percent_change": -0.03, "volume_shares": 887890826, "value_thousand_baht": 8933824.14}, {"sector_code": "COMM- พาณิชย์", "sector_name": "", "last": 20248.55, "change": 143.93, "percent_change": 0.72, "volume_shares": 241831000, "value_thousand_baht": 4210219.67}, {"sector_code": "HELTH- การแพทย์", "sector_name": "", "last": 4179.07, "change": -4.04, "percent_change": -0.1, "volume_shares": 63383000, "value_thousand_baht": 1075932.41}, {"sector_code": "MEDIA- สื่อและสิ่งพิมพ์", "sector_name": "", "last": 15.28, "change": -0.19, "percent_change": -1.23, "volume_shares": 136930600, "value_thousand_baht": 229339.92}, {"sector_code": "PROF- บริการเฉพาะกิจ", "sector_name": "", "last": 132.16, "change": 0.95, "percent_change": 0.72, "volume_shares": 46340600, "value_thousand_baht": 40918.55}, {"sector_code": "TOURISM- การท่องเที่ยวและสันทนาการ", "sector_name": "", "last": 402.88, "change": 3.63, "percent_change": 0.91, "volume_shares": 46928900, "value_thousand_baht": 556511.48}, {"sector_code": "TRANS- ขนส่งและโลจิสติกส์", "sector_name": "", "last": 209.54, "change": -1.63, "percent_change": -0.77, "volume_shares": 352476726, "value_thousand_baht": 2820902.11}, {"sector_code": "TECH- เทคโนโลยี", "sector_name": "", "last": 655.08, "change": -4.08, "percent_change": -0.62, "volume_shares": 467042900, "value_thousand_baht": 10539116.34}, {"sector_code": "ETRON- ชิ้นส่วนอิเล็กทรอนิกส์", "sector_name": "", "last": 35332.26, "change": -239.41, "percent_change": -0.67, "volume_shares": 86983000, "value_thousand_baht": 4923308.0}, {"sector_code": "ICT- เทคโนโลยีสารสนเทศและการสื่อสาร", "sector_name": "", "last": 230.19, "change": -1.16, "percent_change": -0.5, "volume_shares": 380059900, "value_thousand_baht": 5615808.34}];
-const SET_INDEX = [{"value": 1517.95, "high": 1536.79, "low": 1512.91, "change": -21.17, "pct": -1.38, "status": "ok", "timestamp": "2026-05-18 00:01:45"}, {"value": 1517.95, "high": 1536.79, "low": 1512.91, "change": -21.17, "pct": -1.38, "status": "ok", "timestamp": "2026-05-18 06:42:33"}, {"value": 1516.1, "high": 1520.39, "low": 1510.42, "change": -1.85, "pct": -0.12, "status": "ok", "timestamp": "2026-05-18 10:30:55"}, {"value": 1518.48, "high": 1521.34, "low": 1510.42, "change": 0.53, "pct": 0.03, "status": "ok", "timestamp": "2026-05-18 11:30:53"}, {"value": 1519.31, "high": 1523.19, "low": 1510.42, "change": 1.36, "pct": 0.09, "status": "ok", "timestamp": "2026-05-18 14:30:49"}, {"value": 1516.92, "high": 1523.19, "low": 1510.42, "change": -1.03, "pct": -0.07, "status": "ok", "timestamp": "2026-05-18 15:00:53"}, {"value": 1518.3, "high": 1523.19, "low": 1510.42, "change": 0.35, "pct": 0.02, "status": "ok", "timestamp": "2026-05-18 16:00:29"}, {"value": 1517.74, "high": 1523.19, "low": 1510.42, "change": -0.21, "pct": -0.01, "status": "ok", "timestamp": "2026-05-18 18:00:34"}, {"value": 1517.74, "high": 1523.19, "low": 1510.42, "change": -0.21, "pct": -0.01, "status": "ok", "timestamp": "2026-05-18 20:39:04"}];
+const SET_INDEX = [{"value": 1517.95, "high": 1536.79, "low": 1512.91, "change": -21.17, "pct": -1.38, "status": "ok", "timestamp": "2026-05-18 00:01:45"}, {"value": 1517.95, "high": 1536.79, "low": 1512.91, "change": -21.17, "pct": -1.38, "status": "ok", "timestamp": "2026-05-18 06:42:33"}, {"value": 1516.1, "high": 1520.39, "low": 1510.42, "change": -1.85, "pct": -0.12, "status": "ok", "timestamp": "2026-05-18 10:30:55"}, {"value": 1518.48, "high": 1521.34, "low": 1510.42, "change": 0.53, "pct": 0.03, "status": "ok", "timestamp": "2026-05-18 11:30:53"}, {"value": 1519.31, "high": 1523.19, "low": 1510.42, "change": 1.36, "pct": 0.09, "status": "ok", "timestamp": "2026-05-18 14:30:49"}, {"value": 1516.92, "high": 1523.19, "low": 1510.42, "change": -1.03, "pct": -0.07, "status": "ok", "timestamp": "2026-05-18 15:00:53"}, {"value": 1518.3, "high": 1523.19, "low": 1510.42, "change": 0.35, "pct": 0.02, "status": "ok", "timestamp": "2026-05-18 16:00:29"}, {"value": 1517.74, "high": 1523.19, "low": 1510.42, "change": -0.21, "pct": -0.01, "status": "ok", "timestamp": "2026-05-18 18:00:34"}, {"value": 1517.74, "high": 1523.19, "low": 1510.42, "change": -0.21, "pct": -0.01, "status": "ok", "timestamp": "2026-05-18 20:39:04"}, {"value": 1517.74, "high": 1523.19, "low": 1510.42, "change": -0.21, "pct": -0.01, "status": "ok", "timestamp": "2026-05-18 21:21:57"}];
 
 /* ── AI DECISION TIMELINE ── */
 
@@ -2150,6 +2151,19 @@ const SET_INDEX = [{"value": 1517.95, "high": 1536.79, "low": 1512.91, "change":
     if(!data) return '';
     const sc = stanceColor(data.player_stance||'');
     const mc = sentColor(data.market_sentiment||'');
+
+    // port_action
+    const portHtml = (data.port_action||[]).map(p=>{
+      const ac = p.action==='HOLD'?'#3b82f6':p.action==='SELL_ALL'?'#ff4d6a':'#f59e0b';
+      return `<div style="display:flex;align-items:center;gap:4px;padding:2px 0">
+        <span style="font-family:var(--font-mono);font-size:9px;font-weight:500;color:${ac}">${p.sym}</span>
+        <span style="font-family:var(--font-mono);font-size:8px;padding:0 4px;border-radius:2px;background:${ac}22;color:${ac}">${(p.action||'').replace('_',' ')}</span>
+        ${p.qty>0?`<span style="font-family:var(--font-mono);font-size:8px;color:var(--muted)">${p.qty.toLocaleString()}@${p.price}</span>`:''}
+        <span style="font-family:var(--font-mono);font-size:8px;color:var(--dim);margin-left:auto">${(p.reason||'').slice(0,25)}</span>
+      </div>`;
+    }).join('');
+
+    // picks
     const picks = (data.picks||[]).slice(0,5);
     const picksHtml = picks.length ? picks.map(p=>{
       const sym    = p.sym||p.symbol||'?';
@@ -2164,17 +2178,59 @@ const SET_INDEX = [{"value": 1517.95, "high": 1536.79, "low": 1512.91, "change":
         <span style="font-family:var(--font-mono);font-size:9px;color:var(--muted)">@${entry}→${tp}</span>
         <span style="font-family:var(--font-mono);font-size:8px;padding:0 4px;border-radius:2px;background:${confBg(+conf)};color:${confFg(+conf)};margin-left:auto;flex-shrink:0">${conf}</span>
       </div>
-      ${why ? `<div style="font-size:9px;color:var(--muted);padding:1px 0 3px;line-height:1.3">${why}</div>` : ''}`;
-    }).join('') : '<span style="font-family:var(--font-mono);font-size:9px;color:var(--dim)">no picks</span>';
+      ${why?`<div style="font-size:8px;color:var(--dim);padding:1px 0 2px;line-height:1.3">${why}</div>`:''}`;
+    }).join('') : '';
 
-    return `<div style="margin-bottom:6px">
-      <div style="display:flex;align-items:center;gap:5px;padding:3px 0;border-bottom:1px solid var(--border);margin-bottom:4px">
-        <span style="font-family:var(--font-mono);font-size:9px;color:var(--muted);min-width:18px">${label}</span>
+    return `<div style="margin-bottom:8px;padding-bottom:6px;border-bottom:1px solid var(--border)">
+      <div style="display:flex;align-items:center;gap:5px;margin-bottom:5px">
+        <span style="font-family:var(--font-mono);font-size:9px;color:var(--muted)">${label}</span>
         <span class="tl-stance" style="font-size:9px;padding:1px 6px;color:${sc};border-color:${sc}33;background:${sc}0d">${data.player_stance||'—'}</span>
         <span style="font-family:var(--font-mono);font-size:9px;color:${mc}">${data.market_sentiment||''}</span>
-        <span style="font-family:var(--font-mono);font-size:8px;color:var(--muted);margin-left:auto;max-width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${data.stance_reason||''}">${(data.stance_reason||'').slice(0,40)}${(data.stance_reason||'').length>40?'…':''}</span>
       </div>
+      ${data.stance_reason?`<div style="font-size:8px;color:var(--muted);margin-bottom:4px;line-height:1.3">${data.stance_reason}</div>`:''}
+      ${portHtml?`<div style="margin-bottom:4px">${portHtml}</div>`:''}
       ${picksHtml}
+    </div>`;
+  }
+
+  function renderTop10Combined(gemini, claude){
+    // merge top5 from both advisors — avg score if same sym
+    const map = {};
+    const process = (arr, src) => (arr||[]).forEach(d=>{
+      const sym = d.sym||d.symbol;
+      if(!sym) return;
+      if(!map[sym]) map[sym]={sym,scores:[],srcs:[]};
+      map[sym].scores.push(+(d.score||0));
+      map[sym].srcs.push(src);
+      if(!map[sym].why) map[sym].why = d.why||'';
+    });
+    process(gemini?.top5,'G');
+    process(claude?.top5,'C');
+
+    const sorted = Object.values(map)
+      .map(d=>({...d, avg: d.scores.reduce((a,b)=>a+b,0)/d.scores.length}))
+      .sort((a,b)=>b.avg-a.avg)
+      .slice(0,10);
+
+    if(!sorted.length) return '';
+
+    const rows = sorted.map((d,i)=>{
+      const both  = d.srcs.includes('G') && d.srcs.includes('C');
+      const badge = both
+        ? `<span style="font-size:7px;padding:0 3px;border-radius:2px;background:rgba(0,214,143,0.2);color:#00d68f">G+C</span>`
+        : `<span style="font-size:7px;padding:0 3px;border-radius:2px;background:rgba(107,114,128,0.2);color:var(--muted)">${d.srcs[0]}</span>`;
+      const col = i<3?'#00d68f':i<6?'#f59e0b':'#6b7280';
+      return `<div style="display:flex;align-items:center;gap:5px;padding:2px 0;border-bottom:1px solid rgba(255,255,255,0.03)">
+        <span style="font-family:var(--font-mono);font-size:8px;color:var(--dim);width:14px">${i+1}</span>
+        <span style="font-family:var(--font-mono);font-size:10px;font-weight:500;color:${col};min-width:46px">${d.sym}</span>
+        ${badge}
+        <span style="font-family:var(--font-mono);font-size:8px;color:var(--muted);margin-left:auto">${d.avg.toFixed(1)}</span>
+      </div>`;
+    }).join('');
+
+    return `<div style="margin-top:6px">
+      <div style="font-family:var(--font-mono);font-size:8px;color:var(--muted);margin-bottom:4px;letter-spacing:0.08em">TOP 10 COMBINED</div>
+      ${rows}
     </div>`;
   }
 
@@ -2210,8 +2266,9 @@ const SET_INDEX = [{"value": 1517.95, "high": 1536.79, "low": 1512.91, "change":
           ${isLatest?'<span style="font-family:var(--font-mono);font-size:8px;color:var(--green)">● LATEST</span>':''}
           ${txId?`<span style="font-family:var(--font-mono);font-size:8px;color:var(--dim)">#${txId}</span>`:''}
         </div>
-        ${renderAdvisor('🔵', gemini)}
-        ${renderAdvisor('🟠', claude)}
+        ${renderAdvisor('🔵 gemini', gemini)}
+        ${renderAdvisor('🟠 claude', claude)}
+        ${isLatest ? renderTop10Combined(gemini, claude) : ''}
         ${ordersHtml!=='<span class="tl-empty">no orders</span>'?`
         <div style="margin-top:4px;padding-top:4px;border-top:1px solid var(--border)">
           <span style="font-family:var(--font-mono);font-size:8px;color:var(--muted);margin-right:6px">orders</span>
@@ -2439,6 +2496,7 @@ function buildConsensus(entries){
     }).join('');
   }
 
+  buildKPI();
   renderTimeline();
   buildSetIndex();
   buildSectorFlow();

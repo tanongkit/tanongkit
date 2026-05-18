@@ -1,195 +1,256 @@
 [
   {
-    "tx_id": "20260518-2042",
-    "last_update": "2026-05-18 20:42:13",
+    "tx_id": "20260518-2125",
+    "last_update": "2026-05-18 21:25:21",
     "gemini": {
       "market_sentiment": "NEUTRAL",
-      "sentiment_reason": "SET index flat; key sectors show mixed performance with no clear trend.",
+      "sentiment_reason": "Mixed sectors; BANK/RESOURC up while FIN/TECH down, SET flat.",
       "player_stance": "HOLD",
-      "stance_reason": "Full position in DELTA, holding above cost basis. No cash available for new entries.",
+      "stance_reason": "Fully invested in DELTA. Holding for MSCI catalyst, no free cash for new entries.",
       "port_action": [
         {
           "sym": "DELTA",
           "action": "HOLD",
           "qty": 2600,
           "price": 317.0,
-          "reason": "Above cost, MSCI catalyst active, S7 positive."
-        }
-      ],
-      "picks": [],
-      "top5": [
-        {
-          "sym": "PRM",
-          "score": 32.85,
-          "why": "Massive Rt (17.95) and rank jump (+22)."
-        },
-        {
-          "sym": "EASTW",
-          "score": 59.99,
-          "why": "#1 rank with strong overall metrics."
-        },
-        {
-          "sym": "GUNKUL",
-          "score": 45.49,
-          "why": "#2 rank with strong momentum but hot RSI."
-        },
-        {
-          "sym": "STA",
-          "score": 25.18,
-          "why": "V-Shape DNA, meets all entry criteria."
-        },
-        {
-          "sym": "COM7",
-          "score": 31.66,
-          "why": "Top retail, perfect relative strength (rg=100)."
-        }
-      ],
-      "bot5": [
-        {
-          "sym": "UBE",
-          "score": -35.33,
-          "why": "Worst score, sharp multi-week decline."
-        },
-        {
-          "sym": "PTG",
-          "score": -28.09,
-          "why": "Deeply oversold (RSI 24.6), strong downtrend."
-        },
-        {
-          "sym": "BTG",
-          "score": -26.58,
-          "why": "Sustained negative momentum across timeframes."
-        },
-        {
-          "sym": "IND",
-          "score": -26.28,
-          "why": "Steep short-term decline (s7 -10.18)."
-        },
-        {
-          "sym": "PLUS",
-          "score": -25.74,
-          "why": "Oversold with sharp S7 drop (-12.30)."
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "NEUTRAL",
-      "sentiment_reason": "SET flat -0.01% · Mixed sectors · BANK+2.95% · FIN-2.22%",
-      "player_stance": "HOLD",
-      "stance_reason": "DELTA holding profit +0.78% · 11 days to MSCI 29 May · No new entry pass Rule",
-      "port_action": [
-        {
-          "sym": "DELTA",
-          "action": "HOLD",
-          "qty": 2600,
-          "price": 317.0,
-          "reason": "Above cost 314.54 · S7+1.93% · MSCI play"
+          "reason": "Above cost, S7+, MSCI catalyst active."
         }
       ],
       "picks": [
         {
           "sym": "STA",
           "action": "BUY",
-          "conf": 6,
+          "conf": 8,
           "now": 19.7,
-          "entry": 19.8,
-          "tp": 22.0,
-          "vs": "Rt 1.61 close but <1.5x · S7+4.23%",
-          "why": "RUBBER DNA · RSI 68.6 · Wait Rt>1.5x"
-        },
-        {
-          "sym": "COM7",
-          "action": "BUY",
-          "conf": 7,
-          "now": 25.25,
-          "entry": 25.5,
-          "tp": 28.0,
-          "vs": "Rt 1.43 · RSI 70.7 · S7+6.09%",
-          "why": "Step Up DNA · Strong S7 · Wait Rt>1.5x"
-        },
-        {
-          "sym": "M",
-          "action": "BUY",
-          "conf": 6,
-          "now": 20.5,
-          "entry": 20.6,
-          "tp": 22.5,
-          "vs": "Rt 0.70 fail · RSI 70.5 · S7+9.04%",
-          "why": "Step Up DNA · S7 strong · Rt too low"
-        },
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 6,
-          "now": 34.75,
-          "entry": 35.0,
-          "tp": 38.0,
-          "vs": "Rt 0.58 fail · RSI 72.3 · S7+6.11%",
-          "why": "Bond Yield support · Rt too low · Wait"
-        },
-        {
-          "sym": "PSL",
-          "action": "BUY",
-          "conf": 5,
-          "now": 7.4,
-          "entry": 7.5,
-          "tp": 8.2,
-          "vs": "Rt 0.54 fail · RSI 56.9 · S7 flat",
-          "why": "BDI 89 RSI · S7 flat · Wait Rt>1.5x"
+          "entry": 19.7,
+          "tp": 21.7,
+          "vs": "PSL, KTB",
+          "why": "Passes all rules: RSI, Rt>1.5, S7 positive."
         }
       ],
       "top5": [
         {
+          "sym": "TLI",
+          "score": 9.5,
+          "why": "Massive rank jump, high Rt and S7 momentum."
+        },
+        {
           "sym": "PRM",
           "score": 9.2,
-          "why": "Rank jump +22 · Rt 17.95 · RSI 63.9"
+          "why": "Exceptional Rt (17.95), strong rank change, good RSI."
         },
         {
-          "sym": "PTTEP",
+          "sym": "EASTW",
           "score": 8.8,
-          "why": "Rank jump +25 · Rt 0.85 · BRENT+9.84%"
-        },
-        {
-          "sym": "STGT",
-          "score": 8.5,
-          "why": "Rank jump +13 · Rt 0.74 · S7+6.54%"
-        },
-        {
-          "sym": "AOT",
-          "score": 8.3,
-          "why": "Rank jump +14 · Tourism play · RSI 50.3"
+          "why": "Rank 1, high score, meets Rt>1.5 rule."
         },
         {
           "sym": "STA",
-          "score": 8.1,
-          "why": "Rank jump +6 · Rt 1.61 · RUBBER support"
+          "score": 8.5,
+          "why": "Passes all entry rules, V-Shape DNA, good Rt."
+        },
+        {
+          "sym": "COM7",
+          "score": 8.2,
+          "why": "Strong daily and weekly momentum, solid rank."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET flat -0.01%, mixed sectors, TECH/BANK up, FOOD/PROP down",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA hold until 350 TP or 29-May MSCI, no new entry pass rules",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 317.0,
+          "reason": "Above cost 314.54, S7+1.93%, 11d to MSCI"
+        }
+      ],
+      "picks": [],
+      "top5": [
+        {
+          "sym": "TLI",
+          "score": 8.2,
+          "why": "Rank jump +96, Rt 2.66x, RSI 82, S7+15.58%"
+        },
+        {
+          "sym": "PRM",
+          "score": 7.8,
+          "why": "Rank jump +21, Rt 17.95x massive, S7+5.33%"
+        },
+        {
+          "sym": "STGT",
+          "score": 6.5,
+          "why": "Rank jump +12, Rt 0.74x, S7+6.54%, RSI 62"
+        },
+        {
+          "sym": "SCB",
+          "score": 6.2,
+          "why": "Rank jump +11, Rt 1.45x, S7+2.27%, BANK"
+        },
+        {
+          "sym": "PTTEP",
+          "score": 5.9,
+          "why": "Rank jump +24, Rt 0.85x, S7+3.70%, Oil"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "20260518-2107",
+    "last_update": "2026-05-18 21:07:27",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET index is flat, but strong sector rotation into Financials/Resources is occurring.",
+      "player_stance": "WAIT",
+      "stance_reason": "Fully invested in DELTA. Waiting for TP/Stop signal before considering new entries.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 317.0,
+          "reason": "Above cost, MSCI catalyst active."
+        }
+      ],
+      "picks": [],
+      "top5": [
+        {
+          "sym": "TLI",
+          "score": 9.8,
+          "why": "Massive rank jump, high Rt, overbought RSI."
+        },
+        {
+          "sym": "PRM",
+          "score": 9.5,
+          "why": "Large rank jump, extreme Rt value."
+        },
+        {
+          "sym": "EASTW",
+          "score": 8.8,
+          "why": "Stable rank 1, solid Rt, positive S7."
+        },
+        {
+          "sym": "STA",
+          "score": 8.5,
+          "why": "Meets entry rules (Rt > 1.5)."
+        },
+        {
+          "sym": "COM7",
+          "score": 8.2,
+          "why": "Perfect relative strength (RG), positive D1."
         }
       ],
       "bot5": [
         {
-          "sym": "ITC",
+          "sym": "UBE",
+          "score": 1.1,
+          "why": "Lowest rank, deeply negative s7/s14 momentum."
+        },
+        {
+          "sym": "PTG",
+          "score": 1.5,
+          "why": "Oversold RSI with strong negative momentum."
+        },
+        {
+          "sym": "BTG",
+          "score": 1.8,
+          "why": "Strongly negative s7 and s14 momentum."
+        },
+        {
+          "sym": "IND",
+          "score": 2.0,
+          "why": "Low rank and strong negative momentum."
+        },
+        {
+          "sym": "PLUS",
+          "score": 2.2,
+          "why": "Oversold RSI and collapsing s7/s14 momentum."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET -0.01%, TECH -0.62%, FINCIAL +0.68%, mixed sector signals",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA still above cost 314.54, MSCI deadline 11 days, wait TP 350 or Stop 290",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 317.0,
+          "reason": "Above cost +6396, MSCI 11d left, S7 +1.93%"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "STA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 19.7,
+          "entry": 19.5,
+          "tp": 22.0,
+          "vs": "Rt 1.61x near 1.5x threshold, RSI 68.6",
+          "why": "RUBBER DNA, S7 +4.23%, RSI sweet spot"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "TLI",
+          "score": 9.2,
+          "why": "Rank jump +96, Rt 2.66x, RSI 82.1, D1 +5.50%"
+        },
+        {
+          "sym": "PRM",
+          "score": 8.7,
+          "why": "Rank jump +21, Rt 17.95x massive, RSI 63.9, D1 -0.56%"
+        },
+        {
+          "sym": "PTTEP",
+          "score": 7.8,
+          "why": "Rank jump +24, Rt 0.85x, S7 +3.70%, D1 +2.67%"
+        },
+        {
+          "sym": "AOT",
+          "score": 7.5,
+          "why": "Rank jump +13, Rt 0.54x, S7 +2.44%, Tourism catalyst"
+        },
+        {
+          "sym": "TH10Y-F",
+          "score": 7.3,
+          "why": "Rank jump +12, Bond Yield +4.23% D1, RSI 64.4"
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "MTC",
           "score": 2.1,
-          "why": "Rank drop -40 · S7-1.85% · Rt 0.66"
+          "why": "Rank drop -5, S7 -9.17%, RSI 36.2, D1 -4.39%"
+        },
+        {
+          "sym": "ITC",
+          "score": 2.3,
+          "why": "Rank drop -41, S7 -1.85%, RSI 50.8, Food weak"
         },
         {
           "sym": "EPG",
-          "score": 2.3,
-          "why": "Rank drop -27 · S7-2.76% · Rt 0.56"
+          "score": 2.5,
+          "why": "Rank drop -28, S7 -2.76%, RSI 55.0, Volatile swing"
         },
         {
           "sym": "CPF",
-          "score": 2.5,
-          "why": "Rank drop -20 · S7 flat · RSI 44.6"
+          "score": 2.7,
+          "why": "Rank drop -21, S7 flat, RSI 44.6, Weak sentiment"
         },
         {
-          "sym": "IRPC",
-          "score": 2.6,
-          "why": "Rank drop -20 · GRM-5.26% · False signal"
-        },
-        {
-          "sym": "AAI",
+          "sym": "THCOM",
           "score": 2.8,
-          "why": "Rank drop -17 · S14-7.98% · RSI 47.8"
+          "why": "Rank drop -11, S7 -13.85%, RSI 42.9, Stay out"
         }
       ]
     }
