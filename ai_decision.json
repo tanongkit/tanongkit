@@ -1,5 +1,200 @@
 [
   {
+    "tx_id": "20260518-1033",
+    "last_update": "2026-05-18 10:33:53",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Energy/Petro strong, but Electronics/Property weak, creating a mixed market.",
+      "player_stance": "WAIT",
+      "stance_reason": "Holding DELTA on support. No new entry signal as intraday Rt (turnover) is too low across the board.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 315.0,
+          "reason": "Price >310 support, MSCI catalyst active."
+        }
+      ],
+      "picks": [],
+      "top5": [
+        {
+          "sym": "GUNKUL",
+          "score": 49.88,
+          "why": "Highest rank score, strong momentum."
+        },
+        {
+          "sym": "CBG",
+          "score": 27.45,
+          "why": "Strong rank and RSI in sweet spot."
+        },
+        {
+          "sym": "PSL",
+          "score": 26.34,
+          "why": "Good rank, strong BDI index correlation."
+        },
+        {
+          "sym": "STA",
+          "score": 23.32,
+          "why": "Good rank, strong RUBBER index correlation."
+        },
+        {
+          "sym": "STECON",
+          "score": 22.83,
+          "why": "Positive rank recovery with good RSI."
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "MTC",
+          "score": -12.71,
+          "why": "Lowest rank score, weak momentum."
+        },
+        {
+          "sym": "SCGP",
+          "score": -7.96,
+          "why": "Rank score is collapsing rapidly."
+        },
+        {
+          "sym": "HMPRO",
+          "score": -3.46,
+          "why": "Consistently weak rank and momentum."
+        },
+        {
+          "sym": "HANA",
+          "score": -3.13,
+          "why": "Negative rank and RSI below 50."
+        },
+        {
+          "sym": "IRPC",
+          "score": -2.86,
+          "why": "Negative rank and negative GRM signal."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "ENERG +1.05%, BANK +0.78%, PETRO +1.25% lead. RESOURC +1.05% strong.",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA +11.6K unrealized. 11 days to MSCI 29-May. Hold TP 350 or before event.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 315.0,
+          "reason": "Price 315 above cost 314.54. MSCI 11 days left."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 7.55,
+          "entry": 7.6,
+          "tp": 9.0,
+          "vs": "Rt 0.025x too low. Wait Rt>1.5x.",
+          "why": "BDI RSI 89 fire. S7 -1.4% wait flip."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 3.52,
+          "entry": 3.55,
+          "tp": 4.2,
+          "vs": "Rt 0.006x too low. S7 +19.9% strong.",
+          "why": "Rank 49.88 top. Wait Rt>1.5x confirmation."
+        },
+        {
+          "sym": "EASTW",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 3.62,
+          "entry": 3.65,
+          "tp": 4.3,
+          "vs": "Rt 0.065x low. S7 +25.5% strong.",
+          "why": "Rank 62.69 highest. Wait Rt>1.5x entry."
+        },
+        {
+          "sym": "CBG",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 40.75,
+          "entry": 41.0,
+          "tp": 47.0,
+          "vs": "Rt 0.079x too low. S7 +10.1% good.",
+          "why": "Step Up DNA. Consumer +0.62%. Wait Rt."
+        },
+        {
+          "sym": "IRPC",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 1.97,
+          "entry": 1.98,
+          "tp": 2.3,
+          "vs": "GRM -7.6% negative. S7 -2.5% bad.",
+          "why": "PETRO needs GRM+. Wait GRM flip positive."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "GUNKUL",
+          "score": 49.88,
+          "why": "Rank 49.88. S7 +19.9%. Solar EPC backlog 4,600M."
+        },
+        {
+          "sym": "EASTW",
+          "score": 62.69,
+          "why": "Rank 62.69. S7 +27.0%. Utility Vol 0.065x improving."
+        },
+        {
+          "sym": "CBG",
+          "score": 27.45,
+          "why": "Rank 27.45. S7 +10.1%. Consumer leader 47% share."
+        },
+        {
+          "sym": "PSL",
+          "score": 26.34,
+          "why": "Rank 26.34. BDI RSI 89 fire. S7 -1.4% wait."
+        },
+        {
+          "sym": "STGT",
+          "score": 25.72,
+          "why": "Rank 25.72. S7 +10.6%. Agro sector positive momentum."
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "UBE",
+          "score": -38.72,
+          "why": "Rank -38.72. S7 -17.4%. Agro weak performance continue."
+        },
+        {
+          "sym": "IND",
+          "score": -28.46,
+          "why": "Rank -28.46. S7 -12.4%. Utility sector worst performer."
+        },
+        {
+          "sym": "PTG",
+          "score": -26.22,
+          "why": "Rank -26.22. S7 -11.5%. Energy retail segment weak."
+        },
+        {
+          "sym": "BTG",
+          "score": -24.7,
+          "why": "Rank -24.7. S7 -11.4%. Food sector underperformer continues."
+        },
+        {
+          "sym": "AAI",
+          "score": -20.75,
+          "why": "Rank -20.75. S7 -9.0%. Food weak. Vol 0.005x dead."
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260518-1023",
     "last_update": "2026-05-18 10:23:52",
     "gemini": {
