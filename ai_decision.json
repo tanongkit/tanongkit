@@ -1,5 +1,210 @@
 [
   {
+    "tx_id": "20260518-1803",
+    "last_update": "2026-05-18 18:03:48",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Banks/Energy up, but countered by weak Finance/Tech/Construction sectors.",
+      "player_stance": "WAIT",
+      "stance_reason": "Fully invested in DELTA, waiting for TP/Stop to free up cash for new entry.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 317.0,
+          "reason": "MSCI catalyst active, >310 support."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "STA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 19.7,
+          "entry": 19.7,
+          "tp": 22.0,
+          "vs": "vs SET",
+          "why": "Passes all entry rules (Rt>1.5)."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "STA",
+          "score": 25.18,
+          "why": "Only universe stock with Rt > 1.5."
+        },
+        {
+          "sym": "COM7",
+          "score": 31.66,
+          "why": "Highest rank_score, Rt nearly 1.5."
+        },
+        {
+          "sym": "STECON",
+          "score": 23.04,
+          "why": "High rank_score, strong s14 momentum."
+        },
+        {
+          "sym": "CBG",
+          "score": 22.46,
+          "why": "High rank_score, decent Rt."
+        },
+        {
+          "sym": "PSL",
+          "score": 21.16,
+          "why": "Good rank_score, strong BDI catalyst."
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "MTC",
+          "score": -20.64,
+          "why": "Lowest rank_score in universe."
+        },
+        {
+          "sym": "SCGP",
+          "score": -9.63,
+          "why": "Negative rank_score, low Rt."
+        },
+        {
+          "sym": "HANA",
+          "score": -8.11,
+          "why": "Negative score, weak RSI & earnings."
+        },
+        {
+          "sym": "HMPRO",
+          "score": -5.64,
+          "why": "Negative score, weak RSI."
+        },
+        {
+          "sym": "EPG",
+          "score": -3.58,
+          "why": "Negative score, low Rt."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "BANK+TOUR up, TRANS+TECH down, SET mixed sectors",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA 317 below TP350, above Stop290, hold to 29May MSCI",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 317.0,
+          "reason": "Above Stop290, pre-MSCI window, hold"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 7.4,
+          "entry": 7.5,
+          "tp": 8.5,
+          "vs": "BDI RSI90 strong",
+          "why": "S7 -1.4% fail Rule3, wait S7+"
+        },
+        {
+          "sym": "CBG",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 40.0,
+          "entry": 44.0,
+          "vs": "Step Up DNA, rank22",
+          "why": "Rt 0.75 fail Rule2, wait Rt>1.5x"
+        },
+        {
+          "sym": "COM7",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 25.25,
+          "entry": 25.5,
+          "tp": 28.0,
+          "vs": "Step Up RSI71, rank32",
+          "why": "Rt 1.43 fail Rule2, near threshold"
+        },
+        {
+          "sym": "HANA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 30.5,
+          "entry": 31.0,
+          "tp": 34.0,
+          "vs": "ELEC V-Shape DNA",
+          "why": "Rt 0.97, S7 -2.3% both fail"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 31.75,
+          "entry": 32.0,
+          "tp": 35.0,
+          "vs": "ELEC V-Shape rank13",
+          "why": "Rt 0.48 fail Rule2, wait Rt>1.5x"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "EASTW",
+          "score": 60.0,
+          "why": "Rank60 RSI68 but Rt1.57 not Universe"
+        },
+        {
+          "sym": "GUNKUL",
+          "score": 45.5,
+          "why": "Rank45 RSI76 Universe but Rt0.57 fail"
+        },
+        {
+          "sym": "PRM",
+          "score": 32.9,
+          "why": "Rt17.9 spike but not Universe"
+        },
+        {
+          "sym": "COM7",
+          "score": 31.7,
+          "why": "Universe rank32 RSI71 Rt1.43 near"
+        },
+        {
+          "sym": "ERW",
+          "score": 26.5,
+          "why": "Universe rank26 but Rt0.47 fail"
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "PTG",
+          "score": -28.1,
+          "why": "Rank-28 RSI25 S7-12.7% avoid"
+        },
+        {
+          "sym": "UBE",
+          "score": -35.3,
+          "why": "Rank-35 RSI38 S7-15.9% avoid"
+        },
+        {
+          "sym": "PLUS",
+          "score": -25.7,
+          "why": "Universe rank-26 RSI26 S7-10.9% avoid"
+        },
+        {
+          "sym": "MTC",
+          "score": -20.6,
+          "why": "Universe rank-21 RSI36 S7-9.9% avoid"
+        },
+        {
+          "sym": "TQM",
+          "score": -18.5,
+          "why": "Rank-18 RSI45 S7-8.8% avoid"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260518-1603",
     "last_update": "2026-05-18 16:03:31",
     "gemini": {
