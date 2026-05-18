@@ -1,5 +1,200 @@
 [
   {
+    "tx_id": "20260518-1103",
+    "last_update": "2026-05-18 11:03:21",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Energy/Banks up, but Tech/ETRON down. Market-wide low relative turnover (rt).",
+      "player_stance": "HOLD",
+      "stance_reason": "Port is full with DELTA. No new entry signals (all rt < 1.5x). Holding DELTA above support.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 317.0,
+          "reason": "Above support 310, but weak rt (0.17x)."
+        }
+      ],
+      "picks": [],
+      "top5": [
+        {
+          "sym": "GUNKUL",
+          "score": 46.65,
+          "why": "Highest score, but RSI>75 and low rt."
+        },
+        {
+          "sym": "STA",
+          "score": 36.02,
+          "why": "Strong score, high RSI, RUBBER-F strong."
+        },
+        {
+          "sym": "COM7",
+          "score": 26.7,
+          "why": "Good score and RSI, but rt is low."
+        },
+        {
+          "sym": "CBG",
+          "score": 24.49,
+          "why": "Good score and RSI, but rt is low."
+        },
+        {
+          "sym": "PSL",
+          "score": 23.29,
+          "why": "Good score, strong BDI-F, but rt is low."
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "MTC",
+          "score": -17.88,
+          "why": "Weakest score and RSI, clear downtrend."
+        },
+        {
+          "sym": "SCGP",
+          "score": -8.33,
+          "why": "Negative score and fading momentum."
+        },
+        {
+          "sym": "HMPRO",
+          "score": -4.89,
+          "why": "Weak score and RSI, no interest."
+        },
+        {
+          "sym": "OSP",
+          "score": -4.04,
+          "why": "RSI below 50, negative score."
+        },
+        {
+          "sym": "IRPC",
+          "score": -3.69,
+          "why": "Negative score and weak GRM-F."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Mixed sectors: ENERG +0.97%, TECH -0.59%, ETRON -0.65%",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA holding at 317 (+0.63%), Vol normal, 11 days to MSCI deadline",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 317.0,
+          "reason": "Above 310, S7 +5.3%, 11d to MSCI"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 7.45,
+          "entry": 7.6,
+          "tp": 8.8,
+          "vs": "BDI RSI 89 but S7 -1.4%",
+          "why": "Wait S7 flip positive"
+        },
+        {
+          "sym": "CBG",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 40.25,
+          "entry": 41.0,
+          "tp": 46.0,
+          "vs": "S7 +7.3% but Rt 0.27x low",
+          "why": "Wait Rt above 1.5x"
+        },
+        {
+          "sym": "COM7",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 24.8,
+          "entry": 25.0,
+          "tp": 28.5,
+          "vs": "S7 +10.2% but Rt 0.34x low",
+          "why": "Wait Rt above 1.5x"
+        },
+        {
+          "sym": "HANA",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 31.0,
+          "entry": 32.0,
+          "tp": 36.0,
+          "vs": "ELEC V-Shape but S7 -3.1%",
+          "why": "S7 negative, Rt 0.48x low"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 32.25,
+          "entry": 33.0,
+          "tp": 37.0,
+          "vs": "ELEC V-Shape RSI 59 S7 +6.6%",
+          "why": "Rt 0.16x too low"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "GUNKUL",
+          "score": 46.65,
+          "why": "Solar EPC V-Shape RSI 78 S7 +20%"
+        },
+        {
+          "sym": "EASTW",
+          "score": 57.79,
+          "why": "Utility Rt 0.31x S7 +24.9% strong"
+        },
+        {
+          "sym": "STA",
+          "score": 36.02,
+          "why": "Rubber RSI 72 S7 +13.3% D1 +3.6%"
+        },
+        {
+          "sym": "STGT",
+          "score": 34.35,
+          "why": "Agro RSI 65 S7 +13.5% momentum"
+        },
+        {
+          "sym": "COM7",
+          "score": 26.7,
+          "why": "IT retail RSI 67 S7 +10.2%"
+        }
+      ],
+      "bot5": [
+        {
+          "sym": "UBE",
+          "score": -35.35,
+          "why": "Agro RG 35 S7 -15.9% weak"
+        },
+        {
+          "sym": "IND",
+          "score": -30.9,
+          "why": "Util RG 7 S7 -13.3% decline"
+        },
+        {
+          "sym": "PTG",
+          "score": -24.48,
+          "why": "Energy RSI 26 S7 -10.9% worst"
+        },
+        {
+          "sym": "BTG",
+          "score": -25.66,
+          "why": "Food S7 -11.8% D1 flat weak"
+        },
+        {
+          "sym": "PLUS",
+          "score": -14.93,
+          "why": "Food RG 13 S7 -6.3% poor"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260518-1033",
     "last_update": "2026-05-18 10:33:53",
     "gemini": {
