@@ -1,5 +1,298 @@
 [
   {
+    "tx_id": "20260519-2128",
+    "last_update": "2026-05-19 21:28:20",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET index flat; key sectors up but major driver ETRON down.",
+      "player_stance": "HOLD",
+      "stance_reason": "Fully invested in DELTA. No cash for new positions per portfolio rules.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "Above stop, S7+, low vol, MSCI catalyst."
+        }
+      ],
+      "picks": [],
+      "top5": [
+        {
+          "sym": "AMATA",
+          "score": 9.8,
+          "why": "Top rank, massive jump, extreme momentum."
+        },
+        {
+          "sym": "WHA",
+          "score": 9.2,
+          "why": "High rank, strong jump, passes all entry rules."
+        },
+        {
+          "sym": "OSP",
+          "score": 8.8,
+          "why": "Biggest rank jump, strong Rt, news catalyst."
+        },
+        {
+          "sym": "M",
+          "score": 8.5,
+          "why": "High rank, strong momentum, but RSI hot."
+        },
+        {
+          "sym": "MOTHER",
+          "score": 8.2,
+          "why": "Strong rank jump and Rt, good momentum."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET -0.07% mixed sectors TECH -0.61% PROPCON +0.45%",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA hold MSCI deadline 10 days WHA/OSP pass all rules ready",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7 +2.62% MSCI 10 days left"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.84,
+          "entry": 4.84,
+          "tp": 5.5,
+          "vs": "Rank #6 +15 RSI 72 Rt 2.23x S7 +6.6%",
+          "why": "EV Data Center catalyst pass Method"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 17.0,
+          "vs": "Rank #28 +32 RSI 58 Rt 2.37x S7 +4.9%",
+          "why": "คนละครึ่งหนุน 1 มิ.ย. pass Method"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 24.0,
+          "entry": 24.0,
+          "tp": 27.0,
+          "vs": "Rank #2 +15 RSI 82 Rt 4.52x D1 +11.6%",
+          "why": "S7 Override Rt>1.5x D1+ Industrial estate"
+        },
+        {
+          "sym": "M",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 21.6,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Rank #4 +6 RSI 78 Rt 2.4x S7 +15.5%",
+          "why": "RSI 78 ร้อนเกิน wait cool คนละครึ่งหนุน"
+        },
+        {
+          "sym": "COM7",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 25.25,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Rank #9 -4 RSI 71 Rt 0.62x S7 +6.5%",
+          "why": "Rt ต่ำกว่า 1.5x wait คนละครึ่งหนุน 25 พ.ค."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "AMATA",
+          "score": 9.2,
+          "why": "Rank +15 jump Rt 4.52x RSI 82 D1 +11.6%"
+        },
+        {
+          "sym": "WHA",
+          "score": 8.8,
+          "why": "Rank +15 jump Rt 2.23x S7 +6.6% Universe pass"
+        },
+        {
+          "sym": "OSP",
+          "score": 8.5,
+          "why": "Rank +32 jump Rt 2.37x S7 +4.9% คนละครึ่ง"
+        },
+        {
+          "sym": "ADVANC",
+          "score": 7.5,
+          "why": "Rank +13 jump Rt 0.56x S7 +5.4% wait Rt"
+        },
+        {
+          "sym": "MOTHER",
+          "score": 7.2,
+          "why": "Rank +20 jump Rt 3.27x D1 +4.4% wait RSI"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "20260519-2042",
+    "last_update": "2026-05-19 20:42:35",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET flat; sector rotation from TECH/ETRON to domestic PROP/CONS.",
+      "player_stance": "HOLD",
+      "stance_reason": "Full position in DELTA, monitoring MSCI catalyst. No free cash for new entries.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "Awaiting MSCI catalyst, S7 is positive."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 17.0,
+          "vs": "M, CBG",
+          "why": "Passes all rules, Q1 beat."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "AMATA",
+          "score": 9.5,
+          "why": "Top rank, extreme Rt, massive jump."
+        },
+        {
+          "sym": "WHA",
+          "score": 9.0,
+          "why": "Strong rank jump with high Rt."
+        },
+        {
+          "sym": "OSP",
+          "score": 8.8,
+          "why": "Massive rank jump (32), passes BUY rules."
+        },
+        {
+          "sym": "M",
+          "score": 8.5,
+          "why": "High rank, strong Rt, but hot RSI."
+        },
+        {
+          "sym": "MOTHER",
+          "score": 8.2,
+          "why": "Strong jump, excellent Rt and RSI."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Mixed sectors: COMM+0.45 TECH-0.61 FINCIAL+0.12 moderate volume",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA S7+2.6% holding until MSCI 29-May Vol spike Risk-off tech sector",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7+2.6% TP 350 11 days MSCI deadline"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 7,
+          "now": 21.6,
+          "entry": 21.5,
+          "tp": 23.8,
+          "vs": "Rt 2.4x S7+15.5% RSI 77.6 Step-Up DNA",
+          "why": "Override S7+ Rt>1.5x D1+5.4% COMM sector strong"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.84,
+          "entry": 4.8,
+          "tp": 5.3,
+          "vs": "Rank+15 Rt 2.23x RSI 71.8 S7+6.6%",
+          "why": "EV+DataCenter Step-Up D1+4.8% Q1+156% momentum"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 24.0,
+          "entry": 23.8,
+          "tp": 26.4,
+          "vs": "Rank+15 Rt 4.52x RSI 81.6 S7+18.2%",
+          "why": "Industrial estate hot RSI>80 risky entry"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 5,
+          "now": 4.0,
+          "entry": 3.95,
+          "tp": 4.4,
+          "vs": "Rank+9 Rt 2.54x RSI 64 S7+5.8%",
+          "why": "Small-cap volatile Rt strong but risky"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 7,
+          "now": 15.0,
+          "entry": 14.8,
+          "tp": 16.5,
+          "vs": "Rank+32 Rt 2.37x RSI 58 S7+4.9%",
+          "why": "Step-Up DNA Q1+10.1% momentum building"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "M",
+          "score": 9.2,
+          "why": "Rt 2.4x S7+15.5% RSI 77.6 COMM+0.45% universe pick"
+        },
+        {
+          "sym": "WHA",
+          "score": 9.0,
+          "why": "Rank+15 Rt 2.23x S7+6.6% EV+DataCenter catalyst strong"
+        },
+        {
+          "sym": "AMATA",
+          "score": 8.3,
+          "why": "Rank+15 Rt 4.52x S7+18.2% industrial momentum hottest"
+        },
+        {
+          "sym": "OSP",
+          "score": 8.1,
+          "why": "Rank+32 jump Rt 2.37x S7+4.9% Step-Up Q1 beat"
+        },
+        {
+          "sym": "RBF",
+          "score": 7.5,
+          "why": "Rank+9 Rt 2.54x S7+5.8% small-cap volatile play"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260519-2035",
     "last_update": "2026-05-19 20:35:55",
     "gemini": {
