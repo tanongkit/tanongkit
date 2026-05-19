@@ -1,5 +1,157 @@
 [
   {
+    "tx_id": "20260519-2148",
+    "last_update": "2026-05-19 21:48:36",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET index is flat with mixed sector performance, indicating rotation not direction.",
+      "player_stance": "WAIT",
+      "stance_reason": "Port is full (100% DELTA). Waiting for signal to rebalance or take profit.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7 positive, MSCI catalyst active, above stop."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.84,
+          "entry": 4.84,
+          "tp": 5.3,
+          "vs": "Top watchlist pick vs OSP",
+          "why": "Passes all entry rules; EV/DC theme."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "EASTW",
+          "score": 9.5,
+          "why": "Rank #1 with highest S7, high Rt."
+        },
+        {
+          "sym": "AMATA",
+          "score": 9.2,
+          "why": "Massive momentum (D1, S7, Rt); hot RSI."
+        },
+        {
+          "sym": "WHA",
+          "score": 8.8,
+          "why": "Strong jump and passes all entry rules."
+        },
+        {
+          "sym": "M",
+          "score": 8.5,
+          "why": "High rank, very strong S7 and Rt."
+        },
+        {
+          "sym": "RBF",
+          "score": 8.2,
+          "why": "Strong jump with excellent Rt, solid fundamentals."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET -0.07% mixed sectors FOOD+ TECH- SOX-4% Tourism visa headwind",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA hold S7+ 10 days to MSCI 29 May catalyst WHA/OSP full position",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7+2.6% MSCI 10 days TP 350"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.84,
+          "entry": 4.84,
+          "tp": 5.5,
+          "vs": "Rank+15 Rt2.23x S7+6.6%",
+          "why": "EV Data Center catalyst strong"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 17.0,
+          "vs": "Rank+32 Rt2.37x S7+4.9%",
+          "why": "Khon-la-khrueng benefit June start"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 24.0,
+          "entry": 24.0,
+          "tp": 27.0,
+          "vs": "Rank+15 Rt4.52x D1+11.6%",
+          "why": "Industrial estate momentum RSI 81"
+        },
+        {
+          "sym": "M",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 21.6,
+          "entry": 21.6,
+          "tp": 24.0,
+          "vs": "Rt2.4x S7+15.5% RSI78",
+          "why": "Khon-la-khrueng wait Rt RSI hot"
+        },
+        {
+          "sym": "COM7",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 25.25,
+          "entry": 25.25,
+          "tp": 28.0,
+          "vs": "Rt0.62x S7+6.5% D1 flat",
+          "why": "Khon-la-khrueng wait Rt confirm"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "AMATA",
+          "score": 9.2,
+          "why": "Rank jump+15 Rt4.52x industrial estate surge"
+        },
+        {
+          "sym": "WHA",
+          "score": 9.0,
+          "why": "Rank jump+15 Rt2.23x EV Data Center"
+        },
+        {
+          "sym": "OSP",
+          "score": 8.5,
+          "why": "Rank jump+32 Rt2.37x beverage benefit stimulus"
+        },
+        {
+          "sym": "ADVANC",
+          "score": 7.8,
+          "why": "Rank jump+13 Rt0.56x telecom S7+5.4%"
+        },
+        {
+          "sym": "RBF",
+          "score": 7.5,
+          "why": "Rank jump+9 Rt2.54x D1+2.6% S7+5.8%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260519-2128",
     "last_update": "2026-05-19 21:28:20",
     "gemini": {
