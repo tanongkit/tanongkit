@@ -1,5 +1,197 @@
 [
   {
+    "tx_id": "20260520-0213",
+    "last_update": "2026-05-20 02:13:31",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET index flat, but sectors mixed; ETRON/TECH drag while FIN/PROP rise.",
+      "player_stance": "HOLD",
+      "stance_reason": "Portfolio DELTA has active catalyst and positive S7 trend. No sell signal. Watchlist candidates not yet confirmed.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7 positive, low Rt, MSCI catalyst active."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.84,
+          "entry": 4.84,
+          "tp": 5.2,
+          "vs": "4.70",
+          "why": "All signals green, strong sector momentum."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 9,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.0,
+          "vs": "14.50",
+          "why": "All signals green, domestic spending catalyst."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 7,
+          "now": 25.25,
+          "entry": 25.5,
+          "tp": 28.0,
+          "vs": "24.50",
+          "why": "Waiting for Rt > 1.5x, domestic catalyst."
+        },
+        {
+          "sym": "CBG",
+          "action": "BUY",
+          "conf": 6,
+          "now": 40.75,
+          "entry": 41.0,
+          "tp": 44.0,
+          "vs": "40.00",
+          "why": "Waiting for Rt > 1.5x, domestic catalyst."
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 5,
+          "now": 7.5,
+          "entry": 7.5,
+          "tp": 8.2,
+          "vs": "7.20",
+          "why": "BDI momentum play, needs volume confirmation."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "AMATA",
+          "score": 9.5,
+          "why": "Massive momentum and volume, but RSI overbought."
+        },
+        {
+          "sym": "WHA",
+          "score": 9.2,
+          "why": "High momentum, fits all entry criteria perfectly."
+        },
+        {
+          "sym": "OSP",
+          "score": 9.0,
+          "why": "Huge rank jump with strong volume confirmation."
+        },
+        {
+          "sym": "ADVANC",
+          "score": 8.6,
+          "why": "Strong rank jump but lacks volume confirmation."
+        },
+        {
+          "sym": "RBF",
+          "score": 8.5,
+          "why": "Strong rank jump with high Rt and S7."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET -0.07% flat, mixed sector flow, TECH -0.61% drag",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA below TP, 10 days to MSCI, await 350 or 290 trigger",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7 +2.62% green, awaiting TP 350 or Stop 290"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.84,
+          "entry": 4.85,
+          "tp": 5.5,
+          "vs": "Rank +15, Rt 2.23x pass",
+          "why": "MSCI play, EV/DataCenter, S7 +6.6% strong"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.05,
+          "tp": 17.0,
+          "vs": "Rank +32, Rt 2.37x pass",
+          "why": "คนละครึ่ง catalyst Jun 1st, S7 +4.9% pass"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 24.0,
+          "entry": 24.1,
+          "tp": 27.0,
+          "vs": "Rank +15, Rt 4.52x pass",
+          "why": "RSI 81.6 hot but Rt+D1 strong override"
+        },
+        {
+          "sym": "M",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 21.6,
+          "entry": 22.0,
+          "tp": 25.0,
+          "vs": "RSI 77.6 overbought",
+          "why": "คนละครึ่ง Jun 1st, wait RSI cool <75"
+        },
+        {
+          "sym": "COM7",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 25.25,
+          "entry": 25.5,
+          "tp": 28.0,
+          "vs": "Rt 0.62x fail entry",
+          "why": "คนละครึ่ง catalyst, await Rt >1.5x confirmation"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "AMATA",
+          "score": 9.2,
+          "why": "Rank +15, Rt 4.52x, S7 +18.2% explosive"
+        },
+        {
+          "sym": "OSP",
+          "score": 8.8,
+          "why": "Rank +32 jump, Rt 2.37x, คนละครึ่ง play"
+        },
+        {
+          "sym": "WHA",
+          "score": 8.6,
+          "why": "Rank +15, Rt 2.23x, MSCI+EV tailwind"
+        },
+        {
+          "sym": "MOTHER",
+          "score": 7.5,
+          "why": "Rank +20, Rt 3.27x, D1 +4.4% momentum"
+        },
+        {
+          "sym": "RBF",
+          "score": 7.2,
+          "why": "Rank +9, Rt 2.54x, S7 +5.8% green"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260519-2148",
     "last_update": "2026-05-19 21:48:36",
     "gemini": {
