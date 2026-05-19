@@ -1,5 +1,197 @@
 [
   {
+    "tx_id": "20260520-0448",
+    "last_update": "2026-05-20 04:48:26",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET index is flat. Sector performance is mixed with no clear, strong direction.",
+      "player_stance": "HOLD",
+      "stance_reason": "Portfolio is full holding DELTA. Waiting for watchlist stocks to meet volume criteria before considering rotation.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7 positive, low Rt, within TP/Stop range."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.84,
+          "entry": 4.84,
+          "tp": 5.2,
+          "vs": "4.60",
+          "why": "Passes all rules, strong EV/DC catalyst."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.0,
+          "vs": "14.50",
+          "why": "Passes all rules, consumer stimulus play."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 7,
+          "now": 25.25,
+          "entry": 25.5,
+          "tp": 27.5,
+          "vs": "24.50",
+          "why": "Strong S7, stimulus catalyst, wait for Rt > 1.5x."
+        },
+        {
+          "sym": "CBG",
+          "action": "BUY",
+          "conf": 6,
+          "now": 40.75,
+          "entry": 41.0,
+          "tp": 44.0,
+          "vs": "39.50",
+          "why": "Stimulus play, good setup, wait for Rt > 1.5x."
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 7.5,
+          "entry": 7.55,
+          "tp": 8.2,
+          "vs": "7.20",
+          "why": "BDI index hot, strong S7, wait for Rt > 1.5x."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "OSP",
+          "score": 9.5,
+          "why": "Huge rank jump, high Rt, strong daily momentum."
+        },
+        {
+          "sym": "MTC",
+          "score": 9.2,
+          "why": "Major rank jump with very strong daily gain."
+        },
+        {
+          "sym": "HMPRO",
+          "score": 9.0,
+          "why": "Massive rank jump with high Rt, potential turnaround."
+        },
+        {
+          "sym": "IVL",
+          "score": 8.5,
+          "why": "Largest rank jump in top tier, positive momentum."
+        },
+        {
+          "sym": "WHA",
+          "score": 8.2,
+          "why": "Top tier stock with strong daily momentum."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET -0.07% · Mixed sectors · TECH/ETRON ลบ · FOOD/COMM บวก",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA ใต้ทุน -0.49% · S7 +2.62% ยังบวก · เหลือ 9 วัน MSCI 29 พ.ค.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7 +2.62% ยังบวก · Vol 0.72x ปกติ · เหลือ 9 วัน MSCI"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.84,
+          "entry": 4.85,
+          "tp": 5.5,
+          "vs": "Rank 2 · RSI 71.8 · Rt 2.23x · S7 +6.6% · ✅ ผ่านครบ",
+          "why": "EV+Data Center · งบ ATH +156% · MSCI sentiment"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.1,
+          "tp": 17.0,
+          "vs": "Rank 4 · RSI 58 · Rt 2.37x · S7 +4.9% · ✅ ผ่านครบ",
+          "why": "คนละครึ่งหนุน 1 มิ.ย. · เครื่องดื่มบำรุงกำลัง · งบดี"
+        },
+        {
+          "sym": "HMPRO",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 6.0,
+          "entry": 6.1,
+          "tp": 7.0,
+          "vs": "Rank 7 · RSI 46.6 · Rt 1.75x · S7 0.0% ไม่ผ่าน",
+          "why": "คนละครึ่งหนุน · รอ S7 บวก · RSI ต่ำ"
+        },
+        {
+          "sym": "IVL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 24.4,
+          "entry": 24.5,
+          "tp": 28.0,
+          "vs": "Rank 13 · RSI 49.9 · Rt 1.36x · S7 0.0% ไม่ผ่าน",
+          "why": "ไม่อยู่ Universe · รอยืนยัน S7"
+        },
+        {
+          "sym": "COM7",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 25.25,
+          "entry": 25.5,
+          "tp": 28.0,
+          "vs": "Rank 16 · RSI 70.7 · Rt 0.62x ไม่ผ่าน · S7 +6.5%",
+          "why": "คนละครึ่งหนุน · รอ Rt > 1.5x"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "WHA",
+          "score": 9.2,
+          "why": "Rank jump +4 · Rt 2.23x · RSI 71.8 · S7 +6.6% · ผ่านครบ"
+        },
+        {
+          "sym": "OSP",
+          "score": 9.0,
+          "why": "Rank jump +24 · Rt 2.37x · RSI 58 · S7 +4.9% · ผ่านครบ"
+        },
+        {
+          "sym": "HMPRO",
+          "score": 7.5,
+          "why": "Rank jump +40 · Rt 1.75x · คนละครึ่งหนุน · รอ S7"
+        },
+        {
+          "sym": "IVL",
+          "score": 7.0,
+          "why": "Rank jump +50 · Rt 1.36x · PETRO ฟื้น · ไม่อยู่ Universe"
+        },
+        {
+          "sym": "DELTA",
+          "score": 6.8,
+          "why": "Rank jump +20 · Rt 0.72x · S7 +2.62% · MSCI 9 วัน"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260520-0311",
     "last_update": "2026-05-20 03:11:06",
     "gemini": {
