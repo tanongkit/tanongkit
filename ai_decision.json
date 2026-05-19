@@ -1,5 +1,146 @@
 [
   {
+    "tx_id": "20260519-1133",
+    "last_update": "2026-05-19 11:33:43",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET index flat; mixed sectors with Tech/ETRON weak, but Financial/Property strong.",
+      "player_stance": "HOLD",
+      "stance_reason": "Fully invested in DELTA. No cash for new entries, monitoring position amid ETRON sector weakness.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 314.0,
+          "reason": "MSCI catalyst active, price is above stop loss."
+        }
+      ],
+      "picks": [],
+      "top5": [
+        {
+          "sym": "AMATA",
+          "score": 9.5,
+          "why": "Top rank, massive jump & huge daily gain."
+        },
+        {
+          "sym": "WHA",
+          "score": 9.0,
+          "why": "High rank, big jump & strong momentum."
+        },
+        {
+          "sym": "M",
+          "score": 8.5,
+          "why": "Top 5 rank with strong daily momentum."
+        },
+        {
+          "sym": "ADVANC",
+          "score": 8.0,
+          "why": "Significant jump into top 20, positive momentum."
+        },
+        {
+          "sym": "EPG",
+          "score": 7.5,
+          "why": "Largest rank jump with positive daily momentum."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET -0.07% flat, TECH -0.85%, PROPCON +0.6%, mixed sectors, low conviction",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA below TP, 10 days to MSCI, hold position, watch for TP 350 or Stop 290",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 314.0,
+          "reason": "Below TP 350, above Stop 290, S7 +2.95%"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 6,
+          "now": 21.2,
+          "entry": 21.0,
+          "tp": 24.0,
+          "vs": "Step Up DNA, RSI 73.6, S7 +13.37%",
+          "why": "Rt 0.86x fails Rule 2, wait Rt>1.5x"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.86,
+          "entry": 4.85,
+          "tp": 5.3,
+          "vs": "Rank jump +14, RSI 68.1, S7 +7.05%",
+          "why": "Rt 0.73x fails Rule 2, wait Rt>1.5x"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 23.3,
+          "entry": 23.2,
+          "tp": 25.5,
+          "vs": "Rank jump +15, RSI 75.8, Rt 1.33x",
+          "why": "S7 +14.78%, Rt 1.33x fails 1.5x threshold"
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 5,
+          "now": 7.5,
+          "entry": 7.45,
+          "tp": 8.0,
+          "vs": "BDI RSI 79.7, S7 +4.17%, BDI +1.91%",
+          "why": "Rt 0.21x fails Rule 2, wait Rt>1.5x"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 4,
+          "now": 3.52,
+          "entry": 3.5,
+          "tp": 3.8,
+          "vs": "RSI 76.7 hot, S7 +9.32%, rank 3",
+          "why": "Rt 0.09x fails Rule 2, RSI too hot"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "AMATA",
+          "score": 9.2,
+          "why": "Rank jump +15, Rt 1.33x, RSI 75.8, S7 +14.78%"
+        },
+        {
+          "sym": "WHA",
+          "score": 8.8,
+          "why": "Rank jump +14, EV/Data Center, S7 +7.05%, RSI 68.1"
+        },
+        {
+          "sym": "M",
+          "score": 8.5,
+          "why": "Rank jump +6, Step Up DNA, S7 +13.37%, RSI 73.6"
+        },
+        {
+          "sym": "CENTEL",
+          "score": 7.9,
+          "why": "Rank jump +17, Tourism, S7 +2.46%, RSI 48.1 entry"
+        },
+        {
+          "sym": "ADVANC",
+          "score": 7.6,
+          "why": "Rank jump +9, ICT sector, S7 +5.43%, RSI 64.4"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260519-1103",
     "last_update": "2026-05-19 11:03:38",
     "gemini": {
