@@ -1,5 +1,157 @@
 [
   {
+    "tx_id": "20260519-1503",
+    "last_update": "2026-05-19 15:03:42",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Mixed sectors and flat SET suggest rotation, not broad strength.",
+      "player_stance": "WAIT",
+      "stance_reason": "Fully invested in weakening DELTA; no new entry signal from watchlist or available cash.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "SELL_PARTIAL",
+          "qty": 100,
+          "price": 312.0,
+          "reason": "Price below cost, weak momentum."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.02,
+          "entry": 4.02,
+          "tp": 4.5,
+          "vs": "AMATA",
+          "why": "Meets all entry criteria (Rt, RSI)."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "RBF",
+          "score": 9.0,
+          "why": "Meets all buy rules (Rt, RSI)."
+        },
+        {
+          "sym": "MOTHER",
+          "score": 8.8,
+          "why": "Strong Rt and good RSI, meets rules."
+        },
+        {
+          "sym": "AMATA",
+          "score": 8.5,
+          "why": "Massive momentum but RSI is very overbought."
+        },
+        {
+          "sym": "WHA",
+          "score": 8.0,
+          "why": "Strong momentum but Rt is too low."
+        },
+        {
+          "sym": "M",
+          "score": 7.5,
+          "why": "Good momentum but Rt low and RSI hot."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.25%, PROPCON +0.8%, FINCIAL +0.38%, FOOD +0.79% lead",
+      "player_stance": "SELL",
+      "stance_reason": "DELTA approach 29 May MSCI deadline, S7 +2.3% still positive, TP partial before event",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "SELL_PARTIAL",
+          "qty": 1000,
+          "price": 312.0,
+          "reason": "MSCI 29 May 11 days left, lock profit"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.84,
+          "entry": 4.8,
+          "tp": 5.3,
+          "vs": "Rt 1.24x low, RSI 72 hot",
+          "why": "Rank jump +14, S7 +6.6%, D1 +4.8%"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 7,
+          "now": 21.3,
+          "entry": 21.0,
+          "tp": 23.5,
+          "vs": "Rt 1.32x low, RSI 76 hot",
+          "why": "Rank +6, S7 +13.9%, Step DNA"
+        },
+        {
+          "sym": "CBG",
+          "action": "BUY",
+          "conf": 6,
+          "now": 40.75,
+          "entry": 40.5,
+          "tp": 43.5,
+          "vs": "Rt 0.6x fail, RSI 62 ok",
+          "why": "Rank +4, S7 +1.2%, Channel Up"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.02,
+          "entry": 4.0,
+          "tp": 4.35,
+          "vs": "Rt 1.77x pass, RSI 65 ok",
+          "why": "Rank jump +11, RUBBER proxy, S7 +6.3%"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 23.8,
+          "entry": 23.5,
+          "tp": 26.0,
+          "vs": "Rt 2.45x strong but RSI 81 overbought",
+          "why": "Rank jump +16, Rt best, RSI hot"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "AMATA",
+          "score": 9.2,
+          "why": "Rank +16, Rt 2.45x, RSI 81 hot"
+        },
+        {
+          "sym": "WHA",
+          "score": 8.8,
+          "why": "Rank +14, S7 +6.6%, EV+Data catalyst"
+        },
+        {
+          "sym": "M",
+          "score": 8.5,
+          "why": "Rank +6, S7 +13.9%, Step Up DNA"
+        },
+        {
+          "sym": "RBF",
+          "score": 8.3,
+          "why": "Rank +11, Rt 1.77x, RUBBER play"
+        },
+        {
+          "sym": "ADVANC",
+          "score": 7.8,
+          "why": "Rank +9, S7 +4.9%, ICT sector lead"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260519-1433",
     "last_update": "2026-05-19 14:33:30",
     "gemini": {
