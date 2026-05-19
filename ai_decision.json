@@ -1,5 +1,197 @@
 [
   {
+    "tx_id": "20260520-0311",
+    "last_update": "2026-05-20 03:11:06",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET index flat, with mixed sector performance; domestic plays outperforming tech.",
+      "player_stance": "HOLD",
+      "stance_reason": "Port is full with DELTA, holding for MSCI catalyst. Watching WHA/OSP for entry.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7>0, within TP/Stop, MSCI catalyst active."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.84,
+          "entry": 4.84,
+          "tp": 5.2,
+          "vs": "4.60",
+          "why": "Passes all rules (RSI,Rt,S7), strong sector."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.0,
+          "vs": "14.50",
+          "why": "Passes all rules, plus domestic consumption catalyst."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 7,
+          "now": 25.25,
+          "entry": 25.5,
+          "tp": 30.0,
+          "vs": "24.00",
+          "why": "Strong S7, catalyst, waiting for volume confirmation."
+        },
+        {
+          "sym": "CBG",
+          "action": "BUY",
+          "conf": 6,
+          "now": 40.75,
+          "entry": 41.0,
+          "tp": 45.0,
+          "vs": "39.50",
+          "why": "Domestic catalyst, waiting for volume confirmation (Rt)."
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 7.5,
+          "entry": 7.6,
+          "tp": 8.5,
+          "vs": "7.20",
+          "why": "BDI index strong, waiting for volume confirmation."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "WHA",
+          "score": 9.2,
+          "why": "Strong rank jump and passes all entry rules."
+        },
+        {
+          "sym": "AMATA",
+          "score": 8.8,
+          "why": "Highest rank jump momentum, but RSI overbought."
+        },
+        {
+          "sym": "ADVANC",
+          "score": 8.5,
+          "why": "High rank, strong jump, stable momentum."
+        },
+        {
+          "sym": "OSP",
+          "score": 8.2,
+          "why": "Massive rank jump with catalyst, volume spike."
+        },
+        {
+          "sym": "MOTHER",
+          "score": 7.8,
+          "why": "Significant rank improvement with high volume (Rt)."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET -0.07% mixed sectors TECH -0.61% FOOD +0.45%",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA ใกล้ Stop ยืน S7+ รอ MSCI 29 พ.ค. เหลือ 10 วัน",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7 +2.62% ห่าง Stop 23 บาท MSCI 29 พ.ค."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.84,
+          "entry": 4.85,
+          "tp": 5.8,
+          "vs": "Universe ผ่าน Method EV Data Center",
+          "why": "RSI 71.8 Rt 2.23x S7 +6.6% งบ +156%"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.1,
+          "tp": 18.5,
+          "vs": "Universe ผ่าน Method คนละครึ่งหนุน",
+          "why": "RSI 58 Rt 2.37x S7 +4.9% ขึ้น 32 อันดับ"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 24.0,
+          "entry": 24.2,
+          "tp": 28.0,
+          "vs": "ไม่อยู่ใน Universe",
+          "why": "RSI 81.6 Rt 4.52x S7 +18.2% rank +15"
+        },
+        {
+          "sym": "M",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 21.6,
+          "entry": 22.0,
+          "tp": 25.0,
+          "vs": "RSI ร้อน 77.6 ระวัง",
+          "why": "Rt 2.4x S7 +15.5% แต่ RSI เกิน 75"
+        },
+        {
+          "sym": "KTB",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 34.5,
+          "entry": 35.0,
+          "tp": 40.0,
+          "vs": "Rt ต่ำ 0.27x ไม่ผ่าน",
+          "why": "RSI 68.3 S7 +6.2% รอ Rt > 1.5x"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "AMATA",
+          "score": 9.2,
+          "why": "Rank +15 RSI 81.6 Rt 4.52x S7 +18.2%"
+        },
+        {
+          "sym": "OSP",
+          "score": 8.8,
+          "why": "Rank +32 Universe Rt 2.37x S7 +4.9%"
+        },
+        {
+          "sym": "WHA",
+          "score": 8.5,
+          "why": "Rank +15 Universe Rt 2.23x S7 +6.6%"
+        },
+        {
+          "sym": "MOTHER",
+          "score": 7.5,
+          "why": "Rank +20 Rt 3.27x S7 +6.3%"
+        },
+        {
+          "sym": "M",
+          "score": 7.2,
+          "why": "Rank +6 Rt 2.4x S7 +15.5% RSI ร้อน"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260520-0213",
     "last_update": "2026-05-20 02:13:31",
     "gemini": {
