@@ -1,5 +1,197 @@
 [
   {
+    "tx_id": "20260520-1803",
+    "last_update": "2026-05-20 18:03:53",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET up +0.77%, driven by strong gains in ETRON, TECH, and Construction.",
+      "player_stance": "HOLD",
+      "stance_reason": "Fully invested in DELTA, monitoring key MSCI catalyst. Bullish market, waiting for clearer entry/exit signals.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 322.0,
+          "reason": "MSCI catalyst active, S7 positive, above cost."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 14.2,
+          "entry": 14.2,
+          "tp": 15.5,
+          "vs": "13.5",
+          "why": "Strong momentum, volume, leading sector."
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 34.5,
+          "entry": 34.5,
+          "tp": 38.0,
+          "vs": "32.5",
+          "why": "Massive rank jump in hot sector."
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 8,
+          "now": 6.4,
+          "entry": 6.4,
+          "tp": 7.0,
+          "vs": "6.0",
+          "why": "Highest Rt and huge rank jump."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.0,
+          "vs": "14.5",
+          "why": "Passes rules with gov stimulus catalyst."
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 32.0,
+          "entry": 32.0,
+          "tp": 34.0,
+          "vs": "30.5",
+          "why": "Signals ok but negative visa news."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "HANA",
+          "score": 9.5,
+          "why": "Massive rank jump, huge daily gain."
+        },
+        {
+          "sym": "STECON",
+          "score": 9.2,
+          "why": "Top rank, strong momentum, leading sector."
+        },
+        {
+          "sym": "CCET",
+          "score": 9.0,
+          "why": "Highest Rt, massive rank jump momentum."
+        },
+        {
+          "sym": "EASTW",
+          "score": 8.8,
+          "why": "Rank #1 with exceptional short-term momentum."
+        },
+        {
+          "sym": "DELTA",
+          "score": 8.5,
+          "why": "Good momentum, major MSCI catalyst upcoming."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.77% TECH +2.2% ETRON +3.36% ENERG +0.59%",
+      "player_stance": "SELL",
+      "stance_reason": "TP DELTA before MSCI 29 May deadline 10 days left sell now",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "SELL_ALL",
+          "qty": 2600,
+          "price": 322.0,
+          "reason": "TP 313→322 +2.87% MSCI 29May deadline"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 34.5,
+          "entry": 34.5,
+          "tp": 37.0,
+          "vs": "V-Shape +16.9% Rt 2.6x RSI 58",
+          "why": "ELEC rebound Rt 2.6x S7 +4.5%"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 6,
+          "now": 14.2,
+          "entry": 14.2,
+          "tp": 15.5,
+          "vs": "Rank jump +9 Rt 1.9x +8.4%",
+          "why": "CONS sector +3.52% Rt 1.9x momentum"
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 6,
+          "now": 6.4,
+          "entry": 6.4,
+          "tp": 7.0,
+          "vs": "Rank jump +47 Rt 3.67x +7.56%",
+          "why": "Huge rank jump Rt 3.67x D1 +7.56%"
+        },
+        {
+          "sym": "IRPC",
+          "action": "BUY",
+          "conf": 5,
+          "now": 2.04,
+          "entry": 2.04,
+          "tp": 2.2,
+          "vs": "GRM -1.8% but D1 +4.08% S7 +6.25%",
+          "why": "GRM negative fail Rule override Rt 0.45x"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 6,
+          "now": 32.5,
+          "entry": 32.5,
+          "tp": 35.0,
+          "vs": "Rank +24 Rt 0.97x D1 +4.84%",
+          "why": "PCB ELEC play Rt near 1x D1 +4.84%"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "HANA",
+          "score": 9.2,
+          "why": "Rank +56 Rt 2.6x D1 +16.9% ELEC"
+        },
+        {
+          "sym": "CCET",
+          "score": 8.8,
+          "why": "Rank +47 Rt 3.67x D1 +7.56% momentum"
+        },
+        {
+          "sym": "STECON",
+          "score": 8.5,
+          "why": "Rank +9 Rt 1.9x CONS sector +3.52%"
+        },
+        {
+          "sym": "KCE",
+          "score": 7.8,
+          "why": "Rank +24 Rt 0.97x D1 +4.84% PCB"
+        },
+        {
+          "sym": "CENTEL",
+          "score": 7.2,
+          "why": "Rank +13 Rt 1.61x but Visa negative"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260520-1603",
     "last_update": "2026-05-20 16:03:57",
     "gemini": {
