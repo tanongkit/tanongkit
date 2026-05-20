@@ -1,5 +1,258 @@
 [
   {
+    "tx_id": "20260520-2037",
+    "last_update": "2026-05-20 20:37:37",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET up, but narrow leadership from TECH/CONS; others lag.",
+      "player_stance": "HOLD",
+      "stance_reason": "Port full in DELTA, holding for MSCI catalyst. Watching for new entries.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 14.3,
+          "entry": 14.2,
+          "tp": 15.5,
+          "vs": "CONS sector +3.52%",
+          "why": "Strong momentum, sector leader today."
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 34.5,
+          "entry": 34.25,
+          "tp": 38.0,
+          "vs": "ETRON sector +3.36%",
+          "why": "Volume surge in strong ETRON sector."
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 8,
+          "now": 6.45,
+          "entry": 6.4,
+          "tp": 7.0,
+          "vs": "ETRON sector +3.36%",
+          "why": "Massive volume (Rt 3.9) and rank jump."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.1,
+          "entry": 15.0,
+          "tp": 16.5,
+          "vs": "คนละครึ่ง catalyst",
+          "why": "Clear catalyst, passes all entry rules."
+        },
+        {
+          "sym": "WHA",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 4.8,
+          "entry": 4.8,
+          "tp": 5.2,
+          "vs": "EV/Data Center theme",
+          "why": "Strong theme, wait for volume (Rt<1.5)."
+        },
+        {
+          "sym": "COM7",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 24.8,
+          "entry": 24.8,
+          "tp": 27.0,
+          "vs": "คนละครึ่ง catalyst",
+          "why": "Direct catalyst, wait for volume surge."
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 32.75,
+          "entry": 32.5,
+          "tp": 36.0,
+          "vs": "ETRON sector +3.36%",
+          "why": "Follower in ETRON theme, needs volume."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 3.48,
+          "entry": 3.46,
+          "tp": 3.8,
+          "vs": "Solar+Wind theme",
+          "why": "Resting after run, monitor for volume."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "EASTW",
+          "score": 9.8,
+          "why": "Top rank, extreme momentum (s7, s14)."
+        },
+        {
+          "sym": "AMATA",
+          "score": 9.2,
+          "why": "High RSI & strong momentum, rank #2."
+        },
+        {
+          "sym": "STECON",
+          "score": 9.1,
+          "why": "Strong daily move, big rank jump."
+        },
+        {
+          "sym": "CCET",
+          "score": 8.7,
+          "why": "Huge rank jump and trading volume."
+        },
+        {
+          "sym": "HANA",
+          "score": 8.5,
+          "why": "Massive rank jump, ETRON sector strength."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.77%, TECH +2.2%, ETRON +3.36%, CONS +3.52% leading gains",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA 313→323 +3.19% nearing TP 350, 9 days to MSCI deadline, S7 +7.67% strong",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "reason": "Price 323 up +10 from 313, nearing TP 350 (+27), S7 +7.67% strong, 9 days to MSCI 29-May, hold until TP or deadline",
+          "check_daily": "S7 turns negative or breaks 290 stop, sell immediately"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 7,
+          "now": 14.3,
+          "entry": 14.3,
+          "tp": 16.0,
+          "sector": "CONS",
+          "vs": "Rank +9 jump, Rt 2.14x strong",
+          "why": "CONS sector +3.52% best, S7 +10.85%"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 34.5,
+          "entry": 34.5,
+          "tp": 38.0,
+          "sector": "ETRON",
+          "vs": "Rank +55 mega jump, Rt 2.89x",
+          "why": "ETRON +3.36%, D1 +16.95% breakout"
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 7,
+          "now": 6.45,
+          "entry": 6.45,
+          "tp": 7.5,
+          "sector": "ETRON",
+          "vs": "Rank +48 jump, Rt 3.9x surge",
+          "why": "ETRON momentum, S7 +11.21% strong"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 31.75,
+          "entry": 32.0,
+          "tp": 35.0,
+          "sector": "TOURISM",
+          "vs": "Rank +11 but visa negatives",
+          "why": "Visa cut to 30-day hurts tourism"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 32.75,
+          "entry": 32.75,
+          "tp": 36.0,
+          "sector": "ETRON",
+          "vs": "Rank +28 jump, Rt 1.13x moderate",
+          "why": "ETRON sector leader, S7 +5.65%"
+        }
+      ],
+      "top10": [
+        {
+          "sym": "STECON",
+          "score": 9.2,
+          "sector": "CONS",
+          "why": "Rank +9, Rt 2.14x, CONS +3.52% best sector"
+        },
+        {
+          "sym": "HANA",
+          "score": 9.5,
+          "sector": "ETRON",
+          "why": "Rank +55 mega, Rt 2.89x, D1 +16.95% explosion"
+        },
+        {
+          "sym": "CCET",
+          "score": 9.0,
+          "sector": "ETRON",
+          "why": "Rank +48, Rt 3.9x highest, ETRON momentum"
+        },
+        {
+          "sym": "KCE",
+          "score": 8.3,
+          "sector": "ETRON",
+          "why": "Rank +28, ETRON +3.36%, S7 +5.65% solid"
+        },
+        {
+          "sym": "DELTA",
+          "score": 8.5,
+          "sector": "TECH",
+          "why": "Rank +15, Rt 0.94x, S7 +7.67% MSCI play"
+        },
+        {
+          "sym": "CENTEL",
+          "score": 6.5,
+          "sector": "TOURISM",
+          "why": "Rank +11 but visa cut negative tourism"
+        },
+        {
+          "sym": "IRPC",
+          "score": 7.0,
+          "sector": "PETRO",
+          "why": "Rank +12, D1 +5.1% but GRM -1.82% fails"
+        },
+        {
+          "sym": "CK",
+          "score": 7.5,
+          "sector": "PROPCON",
+          "why": "Rank +7, Rt 1.16x, D1 +2.86% recovery"
+        },
+        {
+          "sym": "GPSC",
+          "score": 7.2,
+          "sector": "ENERG",
+          "why": "Rank +3, ENERG +0.59%, stable utility"
+        },
+        {
+          "sym": "TOP",
+          "score": 6.8,
+          "sector": "PETRO",
+          "why": "Rank +4, S7 +6.15% but GRM negative"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260520-1803",
     "last_update": "2026-05-20 18:03:53",
     "gemini": {
