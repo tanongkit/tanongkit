@@ -1,5 +1,177 @@
 [
   {
+    "tx_id": "20260520-0753",
+    "last_update": "2026-05-20 07:53:48",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET index flat, mixed sectors; key tech/bank sectors down.",
+      "player_stance": "HOLD",
+      "stance_reason": "Fully invested in DELTA, awaiting MSCI catalyst. Watchlist is for potential rotation if DELTA is sold.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7+, below TP/Stop, awaiting MSCI catalyst."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 10,
+          "now": 4.84,
+          "entry": 4.84,
+          "tp": 5.2,
+          "vs": "Stop 4.60",
+          "why": "Passes all rules, strong momentum, EV theme."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 9,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.5,
+          "vs": "Stop 14.2",
+          "why": "Passes all rules, government stimulus play."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 7,
+          "now": 25.25,
+          "entry": 25.5,
+          "tp": 28.0,
+          "vs": "Wait for Rt>1.5x",
+          "why": "Stimulus play, awaiting volume confirmation."
+        },
+        {
+          "sym": "CBG",
+          "action": "BUY",
+          "conf": 6,
+          "now": 40.75,
+          "entry": 41.0,
+          "tp": 44.0,
+          "vs": "Wait for Rt>1.5x",
+          "why": "Stimulus play, needs more volume."
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 7.5,
+          "entry": 7.6,
+          "tp": 8.5,
+          "vs": "Wait for Rt>1.5x",
+          "why": "BDI very strong, awaiting volume confirmation."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "OSP",
+          "score": 9.5,
+          "why": "Huge jump into top 5 with strong momentum."
+        },
+        {
+          "sym": "HMPRO",
+          "score": 9.2,
+          "why": "Massive jump into top 10, volume picking up."
+        },
+        {
+          "sym": "LH",
+          "score": 9.0,
+          "why": "Large jump into top 10 with strong momentum."
+        },
+        {
+          "sym": "IVL",
+          "score": 8.8,
+          "why": "Highest rank jump today, showing renewed interest."
+        },
+        {
+          "sym": "THCOM",
+          "score": 8.5,
+          "why": "Big rank jump backed by 'STRONG' earnings."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET -0.07%, mixed sectors, TECH/ETRON down, FOOD/COMM up",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA approaching 29 May MSCI deadline, wait for exit signal or TP",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7 +2.62% still green, 10 days to MSCI"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.84,
+          "entry": 4.8,
+          "tp": 5.3,
+          "vs": "Rank #2, Rt 2.23x, RSI 72, S7 +6.6%",
+          "why": "EV+Data Center, passed all rules"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 9,
+          "now": 15.0,
+          "entry": 14.9,
+          "tp": 16.5,
+          "vs": "Rank #4, Rt 2.37x, RSI 58, S7 +4.9%",
+          "why": "Catalyst May25 คนละครึ่ง, strong momentum"
+        },
+        {
+          "sym": "HMPRO",
+          "action": "BUY",
+          "conf": 7,
+          "now": 6.0,
+          "entry": 5.95,
+          "tp": 6.5,
+          "vs": "Rank #7, Rt 1.75x, RSI 47, S7 0%",
+          "why": "คนละครึ่ง June1, cheap RSI, passed Rt"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "AMATA",
+          "score": 9.2,
+          "why": "Rank #1, Rt 4.52x, RSI 81.6, D1 +11.6%"
+        },
+        {
+          "sym": "WHA",
+          "score": 9.0,
+          "why": "Rank jump +4, Rt 2.23x, Universe passed all"
+        },
+        {
+          "sym": "OSP",
+          "score": 8.8,
+          "why": "Rank jump +24, Rt 2.37x, คนละครึ่ง catalyst"
+        },
+        {
+          "sym": "M",
+          "score": 8.5,
+          "why": "Rank #3, Rt 2.4x, RSI 78 hot, watch only"
+        },
+        {
+          "sym": "HMPRO",
+          "score": 8.3,
+          "why": "Rank jump +40, Rt 1.75x, คนละครึ่ง play"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260520-0448",
     "last_update": "2026-05-20 04:48:26",
     "gemini": {

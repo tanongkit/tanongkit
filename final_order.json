@@ -1,7 +1,33 @@
 {
-  "execution_time": "2026-05-20 04:49",
-  "ref_tx_id": "20260520-0448",
+  "execution_time": "2026-05-20 08:13",
+  "ref_tx_id": "20260520-0753",
   "orders": [],
-  "cash_remaining": 500000.0,
-  "positions": {}
+  "blue": {
+    "cash": 4800108.0,
+    "positions": {
+      "WHA": {
+        "qty": 41300,
+        "avg_price": 4.84,
+        "value": 199892.0,
+        "time": "2026-05-20 08:13"
+      }
+    }
+  },
+  "red": {
+    "cash": 4963656.0,
+    "positions": {
+      "WHA": {
+        "qty": 4100,
+        "avg_price": 4.84,
+        "value": 19844.0,
+        "time": "2026-05-20 08:13"
+      },
+      "OSP": {
+        "qty": 1100,
+        "avg_price": 15.0,
+        "value": 16500.0,
+        "time": "2026-05-20 08:13"
+      }
+    }
+  }
 }
