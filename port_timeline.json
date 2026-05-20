@@ -1,34 +1,28 @@
 {
-  "updated": "2026-05-20 08:13:56",
+  "updated": "2026-05-20 22:45:47",
   "blue": {
-    "cash": 4800108.0,
-    "positions": {
-      "WHA": {
-        "qty": 41300,
-        "avg_price": 4.84,
-        "value": 199892.0,
-        "time": "2026-05-20 08:13"
+    "cash": 4999678.0,
+    "positions": {},
+    "pl": [
+      {
+        "date": "2026-05-20",
+        "team": "BLUE",
+        "pl": -322.0,
+        "note": "EOD net=-322"
       }
-    },
-    "pl": []
+    ]
   },
   "red": {
-    "cash": 4963656.0,
-    "positions": {
-      "WHA": {
-        "qty": 4100,
-        "avg_price": 4.84,
-        "value": 19844.0,
-        "time": "2026-05-20 08:13"
-      },
-      "OSP": {
-        "qty": 1100,
-        "avg_price": 15.0,
-        "value": 16500.0,
-        "time": "2026-05-20 08:13"
+    "cash": 4999946.0,
+    "positions": {},
+    "pl": [
+      {
+        "date": "2026-05-20",
+        "team": "RED",
+        "pl": -54.0,
+        "note": "EOD net=-54"
       }
-    },
-    "pl": []
+    ]
   },
   "transactions": [
     {
@@ -60,6 +54,56 @@
       "price": 15.0,
       "amount": -16500.0,
       "balance_after": 4963656.0
+    },
+    {
+      "time": "2026-05-20 08:36",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "OSP",
+      "qty": 13300,
+      "price": 15.0,
+      "amount": -199500.0,
+      "balance_after": 4600608.0
+    },
+    {
+      "time": "2026-05-20 18:05",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "WHA",
+      "qty": 41300,
+      "price": 4.8,
+      "amount": 198240.0,
+      "balance_after": 4798848.0
+    },
+    {
+      "time": "2026-05-20 18:05",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "OSP",
+      "qty": 13300,
+      "price": 15.1,
+      "amount": 200830.0,
+      "balance_after": 4999678.0
+    },
+    {
+      "time": "2026-05-20 18:05",
+      "team": "RED",
+      "action": "SELL",
+      "sym": "WHA",
+      "qty": 4100,
+      "price": 4.8,
+      "amount": 19680.0,
+      "balance_after": 4983336.0
+    },
+    {
+      "time": "2026-05-20 18:05",
+      "team": "RED",
+      "action": "SELL",
+      "sym": "OSP",
+      "qty": 1100,
+      "price": 15.1,
+      "amount": 16610.0,
+      "balance_after": 4999946.0
     }
   ]
 }

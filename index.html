@@ -797,10 +797,12 @@ function buildSetIndex(){
   const range  = maxV - minV || 1;
   const W = 120, H = 28;
   const pts = hist.map((v,i) => {
-    const x = (i/(hist.length-1)) * W;
+    const x = (i / (hist.length > 1 ? hist.length-1 : 1)) * W;
     const y = H - ((v - minV)/range) * H;
     return `${x.toFixed(1)},${y.toFixed(1)}`;
   }).join(' ');
+  const lastCx = W;
+  const lastCy = (H - ((hist[hist.length-1]-minV)/range)*H).toFixed(1);
 
   el.innerHTML = `
     <div style="
@@ -824,7 +826,7 @@ function buildSetIndex(){
         <polyline points="${pts}"
           fill="none" stroke="${color}" stroke-width="1.5"
           stroke-linejoin="round" stroke-linecap="round"/>
-        <circle cx="${(hist.length-1)/(hist.length-1)*W}" cy="${(H-((hist[hist.length-1]-minV)/range)*H).toFixed(1)}"
+        <circle cx="${lastCx}" cy="${lastCy}"
           r="2.5" fill="${color}"/>
       </svg>
     </div>`;
@@ -923,7 +925,7 @@ function buildSetIndex(){
 <script src="chart_data.js"></script>
 <script>
 const REPORT_DATE = "20 พ.ค. 2569";
-const REPORT_TIME = "20:42";
+const REPORT_TIME = "21:14";
 const REPORT_MODE = "";
 
 const SECTOR_MAP = {
@@ -2135,15 +2137,15 @@ renderSectorBreakdown();
 
 
 /* __ DATA INJECTION POINT __ */
-// built: 2026-05-20 21:12:25
-const AI_DECISION = null;
-const FINAL_ORDER = {"execution_time": "2026-05-20 20:46", "ref_tx_id": "20260520-2044", "orders": []};
-const SET_SECTORS = null;
-const SET_INDEX = null;
-const COMMODITY = null;
-const PORT_TIMELINE = null;
+// built: 2026-05-20 22:46:11
+const AI_DECISION = [{"tx_id": "20260520-2229", "last_update": "2026-05-20 22:29:18", "gemini": {"market_sentiment": "BULLISH", "sentiment_reason": "SET +0.77%, with strong volume in key winning sectors like ETRON, TECH, and CONS.", "player_stance": "HOLD", "stance_reason": "Market is bullish, and the leading ETRON sector directly supports my single holding (DELTA). Riding momentum.", "port_action": [], "picks": [{"sym": "STECON", "action": "BUY", "conf": 9, "now": 14.3, "entry": 14.4, "tp": 15.8, "vs": "Rt 2.14x", "why": "Rules met, in top sector (CONS)."}, {"sym": "HANA", "action": "BUY", "conf": 9, "now": 34.5, "entry": 34.75, "tp": 38.0, "vs": "Rt 2.89x", "why": "Rules met, in strong sector (ETRON)."}, {"sym": "OSP", "action": "BUY", "conf": 8, "now": 15.1, "entry": 15.2, "tp": 16.5, "vs": "Rt 1.86x", "why": "Rules met, strong 'คนละครึ่ง' catalyst."}, {"sym": "CENTEL", "action": "BUY", "conf": 7, "now": 31.75, "entry": 32.0, "tp": 34.0, "vs": "Rt 1.79x", "why": "Rules met, TOURISM sector strong today."}, {"sym": "WHA", "action": "WATCH", "conf": 7, "now": 4.8, "entry": 4.84, "tp": 5.2, "vs": "Rt 0.49x", "why": "Strong DNA, top watchlist, wait for Rt>1.5x."}, {"sym": "COM7", "action": "WATCH", "conf": 7, "now": 24.8, "entry": 25.0, "tp": 27.0, "vs": "Rt 1.21x", "why": "'คนละครึ่ง' catalyst, wait for Rt>1.5x."}, {"sym": "KCE", "action": "WATCH", "conf": 6, "now": 32.75, "entry": 33.0, "tp": 36.0, "vs": "Rt 1.13x", "why": "Strong ETRON sector, wait for Rt>1.5x."}, {"sym": "AMATA", "action": "WATCH", "conf": 5, "now": 24.0, "entry": 23.5, "tp": 25.5, "vs": "Rt 1.18x", "why": "High momentum but RSI>80, wait for pullback."}]}, "claude": {"market_sentiment": "NEUTRAL", "sentiment_reason": "SET +0.77% mix: TECH +2.2% ETRON +3.36% strong but COMM -0.74% HELTH -0.99%", "player_stance": "HOLD", "stance_reason": "DELTA ปิด 323 ยังถือ +2.7% จากต้นทุน 314.54 แต่ต้องเฝ้า MSCI 29 พ.ค. เหลือ 9 วัน", "port_action": [{"action": "HOLD_DELTA", "reason": "ราคา 323 ยังต่ำกว่า TP 350 · S7 +7.67% ยังบวก · MSCI 29 พ.ค. เหลือ 9 วัน · ถือต่อจนเกือบวันมีผล", "confidence": 7}, {"action": "PREPARE_TP_BEFORE_29MAY", "reason": "MSCI pattern: มีผลจริง 29 พ.ค. มักเป็น spike day → TP ก่อน/วันนั้น ไม่ถือข้าม", "confidence": 9}], "picks": [{"sym": "HANA", "action": "BUY", "conf": 8, "now": 34.5, "entry": 34.5, "tp": 38.0, "sector": "ETRON", "vs": "rank 20→20 RSI 58.8 Rt 2.89x D1 +16.95% S7 +4.55%", "why": "ETRON +3.36% · V-Shape · Rt ผ่าน 1.5x"}, {"sym": "STECON", "action": "BUY", "conf": 7, "now": 14.3, "entry": 14.3, "tp": 16.0, "sector": "CONS", "vs": "rank 12→3 RSI 65.1 Rt 2.14x D1 +9.16% S7 +10.85%", "why": "CONS +3.52% sector แข็ง · Rt ผ่าน"}, {"sym": "CENTEL", "action": "WAIT", "conf": 4, "now": 31.75, "entry": 0.0, "tp": 0.0, "sector": "TOURISM", "vs": "rank 36→25 Rt 1.79x แต่ S7 +1.6% อ่อน · RSI 53.3", "why": "ครม.ยกเลิกวีซ่า 60 วัน ลบ Tourism · รอ S7 แข็งก่อน"}, {"sym": "OSP", "action": "WAIT", "conf": 5, "now": 15.1, "entry": 0.0, "tp": 0.0, "sector": "FOOD", "vs": "rank 28→30 RSI 59.6 Rt 1.86x ผ่าน แต่ S7 +7.09% D1 +0.67%", "why": "คนละครึ่งหนุนเริ่ม 1 มิ.ย. ยังไม่ถึง · รอ momentum ชัด"}, {"sym": "WHA", "action": "WAIT", "conf": 4, "now": 4.8, "entry": 0.0, "tp": 0.0, "sector": "PROPCON", "vs": "rank 6→9 RSI 68.9 Rt 0.49x ต่ำ D1 -0.83% S7 +8.11%", "why": "Rt ต่ำกว่า 1.5x · Port เต็ม · รอ slot ว่าง"}]}}, {"tx_id": "20260520-2223", "last_update": "2026-05-20 22:23:51", "gemini": {"market_sentiment": "BULLISH", "sentiment_reason": "SET Index +0.77%, led by strong gains in Tech (ETRON) and Construction sectors.", "player_stance": "HOLD", "stance_reason": "Portfolio is fully invested in DELTA, whose core MSCI catalyst remains intact while market is positive.", "port_action": [], "picks": [{"sym": "WHA", "action": "WATCH", "conf": 9, "now": 4.8, "entry": 4.8, "tp": 5.2, "vs": "S7 +6.6%", "why": "Passes all rules. EV/Data Center catalyst."}, {"sym": "OSP", "action": "WATCH", "conf": 8, "now": 15.1, "entry": 15.1, "tp": 16.5, "vs": "S7 +4.9%", "why": "Passes all rules. Stimulus catalyst."}, {"sym": "STECON", "action": "WATCH", "conf": 8, "now": 14.3, "entry": 14.3, "tp": 15.5, "vs": "S7 +10.9%", "why": "Momentum surge. High Rt. CONS sector hot."}, {"sym": "HANA", "action": "WATCH", "conf": 8, "now": 34.5, "entry": 34.5, "tp": 38.0, "vs": "S7 +4.5%", "why": "ETRON sector momentum. High Rt."}, {"sym": "COM7", "action": "WATCH", "conf": 7, "now": 24.8, "entry": 24.8, "tp": 27.0, "vs": "S7 +6.5%", "why": "Wait for Rt>1.5x. Strong stimulus catalyst."}, {"sym": "KCE", "action": "WATCH", "conf": 6, "now": 32.75, "entry": 32.75, "tp": 36.0, "vs": "S7 +5.6%", "why": "Wait for Rt>1.5x. Strong ETRON theme."}, {"sym": "PSL", "action": "WATCH", "conf": 6, "now": 7.4, "entry": 7.4, "tp": 8.0, "vs": "S7 +4.2%", "why": "Wait for Rt>1.5x. BDI shipping play."}, {"sym": "CBG", "action": "WATCH", "conf": 5, "now": 40.0, "entry": 40.0, "tp": 43.5, "vs": "S7 +1.2%", "why": "Wait for Rt>1.5x. Stimulus play."}]}, "claude": {"market_sentiment": "BULLISH", "sentiment_reason": "SET +0.77%, TECH +2.2%, ETRON +3.36%, ENERG +0.59%, CONS +3.52% strong", "player_stance": "HOLD", "stance_reason": "DELTA 313 below TP, S7 +7.7%, 9 days to MSCI, hold for upside", "port_action": [{"action": "HOLD", "sym": "DELTA", "qty": 2600, "cost": 314.54, "now": 323.0, "pnl": 21994, "reason": "S7 +7.7% strong, 9 days to MSCI 29-May, TP 350 pending, no stop breach"}], "picks": [{"sym": "DELTA", "action": "HOLD", "conf": 8, "now": 323.0, "entry": 314.54, "tp": 350.0, "sector": "TECH", "vs": "S7 +7.7% strong", "why": "MSCI 29-May catalyst, no stop breach"}, {"sym": "WHA", "action": "WAIT", "conf": 6, "now": 4.8, "entry": 4.85, "tp": 5.4, "sector": "PROPCON", "vs": "Rt 0.49 fail", "why": "Rt <1.5x, wait volume confirm"}, {"sym": "HANA", "action": "BUY", "conf": 7, "now": 34.5, "entry": 34.5, "tp": 38.5, "sector": "TECH", "vs": "Rt 2.89, D1 +16.9%", "why": "V-Shape bounce, Rt+D1 override S7"}, {"sym": "STECON", "action": "BUY", "conf": 7, "now": 14.3, "entry": 14.3, "tp": 16.0, "sector": "CONS", "vs": "Rt 2.14, S7 +10.9%", "why": "CONS sector +3.52%, rank jump +9"}, {"sym": "CENTEL", "action": "WAIT", "conf": 5, "now": 31.75, "entry": 32.0, "tp": 35.0, "sector": "SERVICE", "vs": "Visa 60-day cancel", "why": "Tourism headwind, Rt weak 1.79"}]}}];
+const FINAL_ORDER = {"execution_time": "2026-05-20 22:43", "ref_tx_id": "20260520-2229", "orders": []};
+const SET_SECTORS = [{"sector_code": "AGRO- เกษตรและอุตสาหกรรมอาหาร", "sector_name": "", "last": 309.32, "change": 0.01, "percent_change": 0.0, "volume_shares": 149450400, "value_thousand_baht": 1807146.83}, {"sector_code": "AGRI- ธุรกิจการเกษตร", "sector_name": "", "last": 207.4, "change": -0.99, "percent_change": -0.48, "volume_shares": 23690100, "value_thousand_baht": 220052.54}, {"sector_code": "FOOD- อาหารและเครื่องดื่ม", "sector_name": "", "last": 8564.93, "change": 5.2, "percent_change": 0.06, "volume_shares": 125760300, "value_thousand_baht": 1587094.29}, {"sector_code": "CONSUMP- สินค้าอุปโภคบริโภค", "sector_name": "", "last": 45.23, "change": -0.2, "percent_change": -0.44, "volume_shares": 41193000, "value_thousand_baht": 96944.51}, {"sector_code": "FASHION- แฟชั่น", "sector_name": "", "last": 494.44, "change": -6.87, "percent_change": -1.37, "volume_shares": 2398800, "value_thousand_baht": 29325.34}, {"sector_code": "HOME- ของใช้ในครัวเรือนและสำนักงาน", "sector_name": "", "last": 15.38, "change": -0.15, "percent_change": -0.97, "volume_shares": 31952800, "value_thousand_baht": 6904.56}, {"sector_code": "PERSON- ของใช้ส่วนตัวและเวชภัณฑ์", "sector_name": "", "last": 77.67, "change": 0.16, "percent_change": 0.21, "volume_shares": 6841400, "value_thousand_baht": 60714.61}, {"sector_code": "FINCIAL- ธุรกิจการเงิน", "sector_name": "", "last": 157.7, "change": 0.23, "percent_change": 0.15, "volume_shares": 581469800, "value_thousand_baht": 12902003.08}, {"sector_code": "BANK- ธนาคาร", "sector_name": "", "last": 506.26, "change": 1.59, "percent_change": 0.32, "volume_shares": 271738900, "value_thousand_baht": 10558591.88}, {"sector_code": "FIN- เงินทุนและหลักทรัพย์", "sector_name": "", "last": 1895.28, "change": -14.79, "percent_change": -0.77, "volume_shares": 291777700, "value_thousand_baht": 2166906.11}, {"sector_code": "INSUR- ประกันภัยและประกันชีวิต", "sector_name": "", "last": 9412.5, "change": -8.05, "percent_change": -0.09, "volume_shares": 17953200, "value_thousand_baht": 176505.09}, {"sector_code": "INDUS- สินค้าอุตสาหกรรม", "sector_name": "", "last": 66.63, "change": 0.31, "percent_change": 0.47, "volume_shares": 130284000, "value_thousand_baht": 1714677.43}, {"sector_code": "AUTO- ยานยนต์", "sector_name": "", "last": 308.01, "change": 0.58, "percent_change": 0.19, "volume_shares": 11240600, "value_thousand_baht": 31533.46}, {"sector_code": "IMM- วัสดุอุตสาหกรรมและเครื่องจักร", "sector_name": "", "last": 19.0, "change": 0.18, "percent_change": 0.96, "volume_shares": 9149200, "value_thousand_baht": 17974.74}, {"sector_code": "PAPER- กระดาษและวัสดุการพิมพ์", "sector_name": "", "last": 2180.18, "change": -14.06, "percent_change": -0.64, "volume_shares": 406000, "value_thousand_baht": 3151.74}, {"sector_code": "PETRO- ปิโตรเคมีและเคมีภัณฑ์", "sector_name": "", "last": 684.58, "change": 1.25, "percent_change": 0.18, "volume_shares": 43078000, "value_thousand_baht": 1313361.72}, {"sector_code": "PKG- บรรจุภัณฑ์", "sector_name": "", "last": 2560.83, "change": 33.05, "percent_change": 1.31, "volume_shares": 27879100, "value_thousand_baht": 306859.08}, {"sector_code": "STEEL- เหล็ก และ ผลิตภัณฑ์โลหะ", "sector_name": "", "last": 19.8, "change": 0.02, "percent_change": 0.1, "volume_shares": 38531100, "value_thousand_baht": 41796.68}, {"sector_code": "PROPCON- อสังหาริมทรัพย์และก่อสร้าง", "sector_name": "", "last": 76.06, "change": 0.36, "percent_change": 0.48, "volume_shares": 563425900, "value_thousand_baht": 4053279.28}, {"sector_code": "CONMAT- วัสดุก่อสร้าง", "sector_name": "", "last": 5631.29, "change": 21.21, "percent_change": 0.38, "volume_shares": 41033300, "value_thousand_baht": 832942.88}, {"sector_code": "PROP- พัฒนาอสังหาริมทรัพย์", "sector_name": "", "last": 166.81, "change": 0.67, "percent_change": 0.4, "volume_shares": 286122600, "value_thousand_baht": 1633852.38}, {"sector_code": "PF&REIT- กองทุนรวมอสังหาริมทรัพย์และกองทรัสต์เพื่อการลงทุนในอสังหาริมทรัพย์", "sector_name": "", "last": 137.02, "change": -0.13, "percent_change": -0.09, "volume_shares": 22395000, "value_thousand_baht": 216871.13}, {"sector_code": "CONS- บริการรับเหมาก่อสร้าง", "sector_name": "", "last": 41.21, "change": 1.4, "percent_change": 3.52, "volume_shares": 213875000, "value_thousand_baht": 1369612.89}, {"sector_code": "RESOURC- ทรัพยากร", "sector_name": "", "last": 171.52, "change": 1.01, "percent_change": 0.59, "volume_shares": 863975000, "value_thousand_baht": 8611062.46}, {"sector_code": "ENERG- พลังงานและสาธารณูปโภค", "sector_name": "", "last": 19563.58, "change": 115.29, "percent_change": 0.59, "volume_shares": 863975000, "value_thousand_baht": 8611062.46}, {"sector_code": "MINE- เหมืองแร่", "sector_name": "", "last": 4.78, "change": 0.0, "percent_change": 0.0, "volume_shares": 0, "value_thousand_baht": 0.0}, {"sector_code": "SERVICE- บริการ", "sector_name": "", "last": 278.58, "change": -1.61, "percent_change": -0.57, "volume_shares": 735396200, "value_thousand_baht": 9482955.03}, {"sector_code": "COMM- พาณิชย์", "sector_name": "", "last": 20189.05, "change": -150.09, "percent_change": -0.74, "volume_shares": 230436100, "value_thousand_baht": 3221792.16}, {"sector_code": "HELTH- การแพทย์", "sector_name": "", "last": 4138.01, "change": -41.32, "percent_change": -0.99, "volume_shares": 142927100, "value_thousand_baht": 3125652.21}, {"sector_code": "MEDIA- สื่อและสิ่งพิมพ์", "sector_name": "", "last": 15.16, "change": -0.06, "percent_change": -0.39, "volume_shares": 120760300, "value_thousand_baht": 225480.8}, {"sector_code": "PROF- บริการเฉพาะกิจ", "sector_name": "", "last": 133.27, "change": 0.87, "percent_change": 0.66, "volume_shares": 39574000, "value_thousand_baht": 27661.55}, {"sector_code": "TOURISM- การท่องเที่ยวและสันทนาการ", "sector_name": "", "last": 405.75, "change": 4.58, "percent_change": 1.14, "volume_shares": 70003500, "value_thousand_baht": 1137289.18}, {"sector_code": "TRANS- ขนส่งและโลจิสติกส์", "sector_name": "", "last": 209.37, "change": -1.12, "percent_change": -0.53, "volume_shares": 131695200, "value_thousand_baht": 1745079.13}, {"sector_code": "TECH- เทคโนโลยี", "sector_name": "", "last": 665.41, "change": 14.32, "percent_change": 2.2, "volume_shares": 638749700, "value_thousand_baht": 16246234.27}, {"sector_code": "ETRON- ชิ้นส่วนอิเล็กทรอนิกส์", "sector_name": "", "last": 36053.76, "change": 1170.39, "percent_change": 3.36, "volume_shares": 395432900, "value_thousand_baht": 11506862.97}, {"sector_code": "ICT- เทคโนโลยีสารสนเทศและการสื่อสาร", "sector_name": "", "last": 231.52, "change": -0.54, "percent_change": -0.23, "volume_shares": 243316800, "value_thousand_baht": 4739371.29}];
+const SET_INDEX = [{"value": 1528.43, "high": 1532.03, "low": 1516.78, "change": 11.74, "pct": 0.77, "status": "ok", "timestamp": "2026-05-20 21:13:38"}];
+const COMMODITY = {"updated": "2026-05-20 21:13:12", "data": {"GOLD": {"ticker": "GC=F", "last": 4506.2998, "pct_1d": -1.01, "pct_3d": -3.67, "history": [{"date": "2026-05-13", "close": 4697.7002}, {"date": "2026-05-14", "close": 4678.1001}, {"date": "2026-05-15", "close": 4555.7998}, {"date": "2026-05-18", "close": 4552.5}, {"date": "2026-05-19", "close": 4506.2998}]}, "OIL": {"ticker": "CL=F", "last": 107.77, "pct_1d": -0.82, "pct_3d": 6.52, "history": [{"date": "2026-05-13", "close": 101.02}, {"date": "2026-05-14", "close": 101.17}, {"date": "2026-05-15", "close": 105.42}, {"date": "2026-05-18", "close": 108.66}, {"date": "2026-05-19", "close": 107.77}]}, "US10Y": {"ticker": "^TNX", "last": 4.667, "pct_1d": 0.95, "pct_3d": 4.62, "history": [{"date": "2026-05-13", "close": 4.481}, {"date": "2026-05-14", "close": 4.461}, {"date": "2026-05-15", "close": 4.595}, {"date": "2026-05-18", "close": 4.623}, {"date": "2026-05-19", "close": 4.667}]}, "USD": {"ticker": "DX-Y.NYB", "last": 99.3, "pct_1d": 0.33, "pct_3d": 0.42, "history": [{"date": "2026-05-13", "close": 98.48}, {"date": "2026-05-14", "close": 98.88}, {"date": "2026-05-15", "close": 99.27}, {"date": "2026-05-18", "close": 98.97}, {"date": "2026-05-19", "close": 99.3}]}, "SPX": {"ticker": "^GSPC", "last": 7353.6099, "pct_1d": -0.67, "pct_3d": -1.97, "history": [{"date": "2026-05-13", "close": 7444.25}, {"date": "2026-05-14", "close": 7501.2402}, {"date": "2026-05-15", "close": 7408.5}, {"date": "2026-05-18", "close": 7403.0498}, {"date": "2026-05-19", "close": 7353.6099}]}, "BTC": {"ticker": "BTC-USD", "last": 76750.9062, "pct_1d": -0.26, "pct_3d": -1.77, "history": [{"date": "2026-05-15", "close": 79065.6797}, {"date": "2026-05-16", "close": 78131.4375}, {"date": "2026-05-17", "close": 77429.3516}, {"date": "2026-05-18", "close": 76954.1719}, {"date": "2026-05-19", "close": 76750.9062}]}}};
+const PORT_TIMELINE = {"updated": "2026-05-20 22:45:47", "blue": {"cash": 4999678.0, "positions": {}, "pl": [{"date": "2026-05-20", "team": "BLUE", "pl": -322.0, "note": "EOD net=-322"}]}, "red": {"cash": 4999946.0, "positions": {}, "pl": [{"date": "2026-05-20", "team": "RED", "pl": -54.0, "note": "EOD net=-54"}]}, "transactions": [{"time": "2026-05-20 08:13", "team": "BLUE", "action": "BUY", "sym": "WHA", "qty": 41300, "price": 4.84, "amount": -199892.0, "balance_after": 4800108.0}, {"time": "2026-05-20 08:13", "team": "RED", "action": "BUY", "sym": "WHA", "qty": 4100, "price": 4.84, "amount": -19844.0, "balance_after": 4980156.0}, {"time": "2026-05-20 08:13", "team": "RED", "action": "BUY", "sym": "OSP", "qty": 1100, "price": 15.0, "amount": -16500.0, "balance_after": 4963656.0}, {"time": "2026-05-20 08:36", "team": "BLUE", "action": "BUY", "sym": "OSP", "qty": 13300, "price": 15.0, "amount": -199500.0, "balance_after": 4600608.0}, {"time": "2026-05-20 18:05", "team": "BLUE", "action": "SELL", "sym": "WHA", "qty": 41300, "price": 4.8, "amount": 198240.0, "balance_after": 4798848.0}, {"time": "2026-05-20 18:05", "team": "BLUE", "action": "SELL", "sym": "OSP", "qty": 13300, "price": 15.1, "amount": 200830.0, "balance_after": 4999678.0}, {"time": "2026-05-20 18:05", "team": "RED", "action": "SELL", "sym": "WHA", "qty": 4100, "price": 4.8, "amount": 19680.0, "balance_after": 4983336.0}, {"time": "2026-05-20 18:05", "team": "RED", "action": "SELL", "sym": "OSP", "qty": 1100, "price": 15.1, "amount": 16610.0, "balance_after": 4999946.0}]};
 const HEARTBEAT = null;
-const PORT_PROFILE = null;
+const PORT_PROFILE = {"updated": "2026-05-20 22:10:58", "live_mode": false, "cash": null, "port_value": null, "positions": [], "executions": [{"tx_id": "20260520-0834", "time": "2026-05-20 22:10:58", "results": [{"status": "DRY_RUN", "orderId": "DRY-DALTA-1779289858", "symbol": "DALTA", "side": "Buy", "qty": 1000, "price": 320.0, "timestamp": "2026-05-20T22:10:58.580565", "sources": ["blue"]}], "ok": 1, "fail": 0}]};
 
 /* ── AI DECISION TIMELINE ── */
 
@@ -2487,7 +2489,7 @@ function initTopbar(){
   const NEUT_COL = '#6b7280';
 
   function stanceColor(s){
-    return s==='BUY'?BUY_COL:s==='SELL'?SELL_COL:WAIT_COL;
+    return s==='BUY'?BUY_COL:s==='SELL'?SELL_COL:s==='HOLD'?'#3b82f6':WAIT_COL;
   }
   function sentColor(s){
     return s==='BULLISH'?BULL_COL:s==='BEARISH'?BEAR_COL:NEUT_COL;
@@ -2517,7 +2519,7 @@ function initTopbar(){
       const entry  = p.entry??p.price_entry??p.price_now??'?';
       const tp     = p.tp??'?';
       const action = (p.action||'?').toUpperCase();
-      const ac     = stanceColor(action);
+      const ac     = action==='BUY'?'#00d68f':action==='HOLD'?'#3b82f6':action==='SELL'?'#ff4d6a':'#f59e0b';
       const why    = p.why||p.reason||'';
 
       // แสดง % change เฉพาะ entry ที่ถูก create ตอนตลาดเปิด (10:00-12:00 หรือ 14:00-16:30)
@@ -2759,7 +2761,7 @@ function buildConsensus(entries){
     const entries = _allEntries ? _allEntries.filter(e => {
       const t = (e.last_update||'').slice(11,13);
       const h = parseInt(t, 10);
-      return h >= 6 && h < 21;
+      return h >= 0 && h < 24;
     }) : null;
 
     if(!entries || !entries.length){
@@ -2866,10 +2868,12 @@ function buildSetIndex(){
   const range  = maxV - minV || 1;
   const W = 120, H = 28;
   const pts = hist.map((v,i) => {
-    const x = (i/(hist.length-1)) * W;
+    const x = (i / (hist.length > 1 ? hist.length-1 : 1)) * W;
     const y = H - ((v - minV)/range) * H;
     return `${x.toFixed(1)},${y.toFixed(1)}`;
   }).join(' ');
+  const lastCx = W;
+  const lastCy = (H - ((hist[hist.length-1]-minV)/range)*H).toFixed(1);
 
   el.innerHTML = `
     <div style="
@@ -2893,7 +2897,7 @@ function buildSetIndex(){
         <polyline points="${pts}"
           fill="none" stroke="${color}" stroke-width="1.5"
           stroke-linejoin="round" stroke-linecap="round"/>
-        <circle cx="${(hist.length-1)/(hist.length-1)*W}" cy="${(H-((hist[hist.length-1]-minV)/range)*H).toFixed(1)}"
+        <circle cx="${lastCx}" cy="${lastCy}"
           r="2.5" fill="${color}"/>
       </svg>
     </div>`;
