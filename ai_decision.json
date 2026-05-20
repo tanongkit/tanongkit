@@ -1,5 +1,104 @@
 [
   {
+    "tx_id": "20260520-1018",
+    "last_update": "2026-05-20 10:18:03",
+    "gemini": null,
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET +0.22% weak, TECH/ETRON strong but TOURISM/COMM mixed signals",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA 10d to MSCI deadline, hold TP target 350 before 29 May",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 317.0,
+          "reason": "At cost 314.54, S7+3.9%, MSCI 10d left"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.84,
+          "entry": 4.8,
+          "tp": 5.2,
+          "vs": "EV/Data Center catalyst",
+          "why": "RSI71 Rt low but S7+6.6% sustained"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 6,
+          "now": 15.1,
+          "entry": 15.0,
+          "tp": 16.5,
+          "vs": "คนละครึ่งหนุน 1 มิ.ย.",
+          "why": "RSI58 Rt low S7+5.6% rank+9"
+        },
+        {
+          "sym": "CPALL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 47.0,
+          "entry": 46.5,
+          "tp": 51.0,
+          "vs": "คนละครึ่ง 30M คน 240B",
+          "why": "Rank+8 RSI64 S7+6.8% direct beneficiary"
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 6,
+          "now": 25.0,
+          "entry": 24.8,
+          "tp": 27.0,
+          "vs": "IT retail คนละครึ่งหนุน",
+          "why": "RSI71 hot but Rt0.1 low wait"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 4,
+          "now": 31.5,
+          "entry": 31.0,
+          "tp": 33.5,
+          "vs": "Visa ลบ 60→30d headwind",
+          "why": "Rank+27 Rt0.18 but Tourism risk"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "HANA",
+          "score": 8.2,
+          "why": "Rank+58 Rt0.2 ELEC play D1+3.3%"
+        },
+        {
+          "sym": "CENTEL",
+          "score": 7.8,
+          "why": "Rank+27 Rt0.18 but Visa headwind caution"
+        },
+        {
+          "sym": "BH",
+          "score": 7.5,
+          "why": "Rank+31 Rt0.14 hospital คนละครึ่งอ้อม"
+        },
+        {
+          "sym": "DELTA",
+          "score": 7.3,
+          "why": "Rank+21 Rt0.09 MSCI 10d S7+3.9%"
+        },
+        {
+          "sym": "KCE",
+          "score": 7.0,
+          "why": "Rank+17 Rt0.05 PCB ELEC momentum"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260520-1004",
     "last_update": "2026-05-20 10:04:58",
     "gemini": {
