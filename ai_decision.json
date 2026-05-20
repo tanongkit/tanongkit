@@ -1,5 +1,167 @@
 [
   {
+    "tx_id": "20260520-0822",
+    "last_update": "2026-05-20 08:22:26",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Stimulus news offset by tourism negative and flat index.",
+      "player_stance": "HOLD",
+      "stance_reason": "Holding existing position per rules. Waiting for volume confirmation on watchlist.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7+, Rt<1.5, pre-catalyst"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.84,
+          "entry": 4.84,
+          "tp": 5.2,
+          "vs": "4.60",
+          "why": "All signals green, EV/Data Center theme."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 9,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.0,
+          "vs": "14.50",
+          "why": "All signals green, stimulus catalyst."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 7,
+          "now": 25.25,
+          "entry": 25.25,
+          "tp": 27.5,
+          "vs": "24.50",
+          "why": "Stimulus play, wait for Rt > 1.5x."
+        },
+        {
+          "sym": "CBG",
+          "action": "BUY",
+          "conf": 6,
+          "now": 40.75,
+          "entry": 40.75,
+          "tp": 44.0,
+          "vs": "39.50",
+          "why": "Stimulus play, wait for Rt > 1.5x."
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 7.5,
+          "entry": 7.5,
+          "tp": 8.2,
+          "vs": "7.20",
+          "why": "BDI play, wait for Rt > 1.5x."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "OSP",
+          "score": 9.5,
+          "why": "Top rank jumper with strong momentum."
+        },
+        {
+          "sym": "HMPRO",
+          "score": 9.0,
+          "why": "Strong rank jump, price recovery signal."
+        },
+        {
+          "sym": "LH",
+          "score": 8.5,
+          "why": "Major rank jump with solid score."
+        },
+        {
+          "sym": "IVL",
+          "score": 8.2,
+          "why": "Biggest rank jumper, momentum turning positive."
+        },
+        {
+          "sym": "CPF",
+          "score": 7.8,
+          "why": "High rank jump, showing recovery signs."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET flat, mixed sector rotation, SOX/BDI down but ELEC/FOOD holding",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA 10 days to MSCI deadline, hold until TP 350 or profit-taking signal",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7+2.6% 10 days to MSCI TP 350"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.84,
+          "entry": 4.85,
+          "tp": 5.5,
+          "vs": "Rank+4 Rt2.23x S7+6.6% RSI72",
+          "why": "EV Data Center MSCI play"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.1,
+          "tp": 17.0,
+          "vs": "Rank+24 Rt2.37x S7+4.9% คนละครึ่ง",
+          "why": "Beverage คนละครึ่ง 1Jun catalyst"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "WHA",
+          "score": 9.2,
+          "why": "Rank+4 Rt2.23x S7+6.6% EV play"
+        },
+        {
+          "sym": "OSP",
+          "score": 8.8,
+          "why": "Rank+24 Rt2.37x คนละครึ่งหนุน Jun"
+        },
+        {
+          "sym": "HMPRO",
+          "score": 7.5,
+          "why": "Rank+40 Rt1.75x คนละครึ่ง มิ.ย."
+        },
+        {
+          "sym": "LH",
+          "score": 6.8,
+          "why": "Rank+36 Rt1.83x S7 flat"
+        },
+        {
+          "sym": "DELTA",
+          "score": 8.5,
+          "why": "Rank+20 MSCI 29May 10วันเหลือ"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260520-0753",
     "last_update": "2026-05-20 07:53:48",
     "gemini": {
