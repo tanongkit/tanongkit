@@ -1,5 +1,197 @@
 [
   {
+    "tx_id": "20260520-1405",
+    "last_update": "2026-05-20 14:05:30",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index +0.81%, led by strong buying in TECH/ETRON sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is bullish, specific sectors show strong momentum, providing buying opportunities according to rules.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 324.0,
+          "reason": "S7 positive, MSCI catalyst approaching."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "MOTHER",
+          "action": "BUY",
+          "conf": 9,
+          "now": 1.22,
+          "entry": 1.22,
+          "tp": 1.35,
+          "vs": "1.15",
+          "why": "Passes all rules, Rt > 2.0x."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 32.25,
+          "entry": 32.25,
+          "tp": 35.0,
+          "vs": "30.0",
+          "why": "Huge rank jump, ETRON sector strong."
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 32.25,
+          "entry": 32.25,
+          "tp": 35.0,
+          "vs": "30.0",
+          "why": "Massive rank jump, D1 +9.3% turnaround."
+        },
+        {
+          "sym": "OSP",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 15.1,
+          "entry": 15.2,
+          "tp": 16.5,
+          "vs": "14.5",
+          "why": "Strong S7, positive catalyst pending."
+        },
+        {
+          "sym": "STECON",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 13.5,
+          "entry": 13.6,
+          "tp": 14.5,
+          "vs": "12.8",
+          "why": "Positive D1, S7 and rank jump."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "HANA",
+          "score": 9.5,
+          "why": "Biggest rank jump (+27), D1 +9.3%."
+        },
+        {
+          "sym": "KCE",
+          "score": 9.2,
+          "why": "Huge rank jump (+21), ETRON strong."
+        },
+        {
+          "sym": "AMATA",
+          "score": 9.0,
+          "why": "Rank #2, S7 +19.2%, very strong momentum."
+        },
+        {
+          "sym": "DELTA",
+          "score": 8.8,
+          "why": "Rank jump (+15), strong D1, MSCI catalyst."
+        },
+        {
+          "sym": "MOTHER",
+          "score": 8.5,
+          "why": "Rank jump (+10), Rt > 2.0x, S7 positive."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.81%, TECH +2.62%, ETRON +3.9%, RESOURC +0.42%, BANK +0.2%",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA hold until 350 TP or 29-May MSCI deadline, 10 days left, no new entry slot full",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "D1 +3.51%, S7 +8.0%, MSCI deadline 10 days left"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.82,
+          "entry": 4.82,
+          "tp": 5.3,
+          "vs": "Rt 0.28x fail, wait Rt >1.5x confirmation",
+          "why": "D1 -0.41%, S7 +8.56%, RSI 70.3, wait Rt"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.1,
+          "entry": 15.1,
+          "tp": 16.5,
+          "vs": "Rt 0.99x fail, wait Rt >1.5x confirmation",
+          "why": "D1 +0.67%, S7 +7.09%, RSI 59.6, คนละครึ่ง catalyst"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 32.25,
+          "entry": 32.25,
+          "tp": 35.0,
+          "vs": "Rt 0.44x fail, ELEC V-Shape, wait Rt confirmation",
+          "why": "Rank +21 jump, D1 +4.03%, S7 +4.03%, RSI 59"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 32.25,
+          "entry": 32.25,
+          "tp": 35.5,
+          "vs": "Rt 1.02x fail, ELEC V-Shape, wait Rt >1.5x",
+          "why": "Rank +27 jump, D1 +9.32%, Rt 1.02x, RSI 54"
+        },
+        {
+          "sym": "IRPC",
+          "action": "BUY",
+          "conf": 6,
+          "now": 2.02,
+          "entry": 2.02,
+          "tp": 2.2,
+          "vs": "GRM -5.26% fail PETRO rule, wait GRM positive",
+          "why": "Rank +10, D1 +3.06%, S7 +5.21%, GRM negative block"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "DELTA",
+          "score": 9.5,
+          "why": "Rank +15, Rt 0.48x, D1 +3.51%, S7 +8.0%, MSCI play"
+        },
+        {
+          "sym": "HANA",
+          "score": 8.8,
+          "why": "Rank +27, Rt 1.02x, D1 +9.32%, ELEC V-Shape recovery"
+        },
+        {
+          "sym": "KCE",
+          "score": 8.5,
+          "why": "Rank +21, Rt 0.44x, D1 +4.03%, S7 +4.03%, ELEC"
+        },
+        {
+          "sym": "STECON",
+          "score": 7.9,
+          "why": "Rank +6, Rt 0.47x, D1 +3.05%, S7 +4.65%, CONS momentum"
+        },
+        {
+          "sym": "CCET",
+          "score": 7.2,
+          "why": "Rank +14, Rt 0.54x, D1 +1.68%, S7 +4.31%, recovery play"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260520-1134",
     "last_update": "2026-05-20 11:34:27",
     "gemini": {
