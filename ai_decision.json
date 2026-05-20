@@ -1,5 +1,177 @@
 [
   {
+    "tx_id": "20260520-1603",
+    "last_update": "2026-05-20 16:03:57",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Index up, but gains concentrated in Tech/Construction; financials and consumer sectors lag.",
+      "player_stance": "HOLD",
+      "stance_reason": "Fully invested in DELTA, monitoring for rotation opportunity post-MSCI event.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 322.0,
+          "reason": "Above cost, S7 positive, MSCI catalyst active."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 34.0,
+          "entry": 34.0,
+          "tp": 38.0,
+          "vs": "Stop 32.0",
+          "why": "ETRON sector strong, passes all rules."
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 8,
+          "now": 14.1,
+          "entry": 14.1,
+          "tp": 15.5,
+          "vs": "Stop 13.5",
+          "why": "CONS sector leader, strong momentum."
+        },
+        {
+          "sym": "WHA",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 4.8,
+          "entry": 4.8,
+          "tp": 5.2,
+          "vs": "Stop 4.6",
+          "why": "Top watchlist, great story, wait Rt."
+        },
+        {
+          "sym": "OSP",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.0,
+          "vs": "Stop 14.5",
+          "why": "'Khon La Krueng' catalyst, wait Rt."
+        },
+        {
+          "sym": "COM7",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 24.6,
+          "entry": 24.6,
+          "tp": 26.5,
+          "vs": "Stop 23.8",
+          "why": "'Khon La Krueng' catalyst, wait Rt."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "CCET",
+          "score": 22.9,
+          "why": "Explosive volume, huge rank jump."
+        },
+        {
+          "sym": "HANA",
+          "score": 14.7,
+          "why": "ETRON leader, massive price/rank jump."
+        },
+        {
+          "sym": "STECON",
+          "score": 45.0,
+          "why": "Top rank, high score, strong sector."
+        },
+        {
+          "sym": "CENTEL",
+          "score": 16.6,
+          "why": "Strong momentum ignoring negative visa news."
+        },
+        {
+          "sym": "KCE",
+          "score": 13.0,
+          "why": "Riding ETRON wave with strong jump."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.56% TECH +2.04% CONS +3.11% ETRON +3.04% money inflow",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA nearing MSCI 29-May deadline, hold for momentum but prepare TP",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 322.0,
+          "reason": "S7 +7.3% TP 350 target 9 days left"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 7,
+          "now": 14.1,
+          "entry": 14.0,
+          "tp": 16.5,
+          "vs": "Rank jump +9 Rt 1.49x S7 +9.3%",
+          "why": "CONS sector +3.11% momentum strong"
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 7,
+          "now": 6.45,
+          "entry": 6.4,
+          "tp": 7.5,
+          "vs": "Rank jump +51 Rt 3.39x S7 +11.2%",
+          "why": "Massive rank surge high Rt"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 34.0,
+          "entry": 33.5,
+          "tp": 38.0,
+          "vs": "Rank jump +53 Rt 2.43x D1 +15.3%",
+          "why": "ELEC recovery strong D1 momentum"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "CCET",
+          "score": 9.2,
+          "why": "Rank +51 Rt 3.39x RSI 64.9 S7 +11.2%"
+        },
+        {
+          "sym": "HANA",
+          "score": 9.0,
+          "why": "Rank +53 Rt 2.43x D1 +15.3% ELEC"
+        },
+        {
+          "sym": "STECON",
+          "score": 8.5,
+          "why": "Rank +9 Rt 1.49x CONS +3.11%"
+        },
+        {
+          "sym": "DELTA",
+          "score": 8.0,
+          "why": "Rank +14 Rt 0.76x S7 +7.3% MSCI"
+        },
+        {
+          "sym": "IRPC",
+          "score": 7.0,
+          "why": "Rank +11 D1 +4.1% but GRM -5.3%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260520-1503",
     "last_update": "2026-05-20 15:03:57",
     "gemini": {
