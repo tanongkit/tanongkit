@@ -1,5 +1,146 @@
 [
   {
+    "tx_id": "20260520-1503",
+    "last_update": "2026-05-20 15:03:57",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index positive, led by strong rally in TECH/ETRON sector.",
+      "player_stance": "HOLD",
+      "stance_reason": "Portfolio DELTA performing well with active catalyst. Holding full position, watching for new entries.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 325.0,
+          "reason": "MSCI catalyst active, S7 positive, below TP."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 34.5,
+          "entry": 34.75,
+          "tp": 38.5,
+          "vs": "Stop < 32.5",
+          "why": "Passes all entry rules, strong rank jump."
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 8,
+          "now": 14.0,
+          "entry": 14.1,
+          "tp": 15.5,
+          "vs": "Stop < 13.2",
+          "why": "High momentum (D1+S7), CONS sector leader."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 7,
+          "now": 15.1,
+          "entry": 15.2,
+          "tp": 16.5,
+          "vs": "Stop < 14.5",
+          "why": "'คนละครึ่ง' catalyst, Rt near breakout level."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 32.75,
+          "entry": 33.0,
+          "tp": 36.0,
+          "vs": "Stop < 31.0",
+          "why": "ELEC theme strong, major rank jump."
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 4.8,
+          "entry": 4.84,
+          "tp": 5.2,
+          "vs": "Stop < 4.6",
+          "why": "Top watchlist, strong S7, EV/DC catalyst."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "HANA",
+          "score": 9.5,
+          "why": "Massive rank jump (+56), passes all entry rules."
+        },
+        {
+          "sym": "STECON",
+          "score": 9.0,
+          "why": "Top 5 rank, high D1/S7 momentum."
+        },
+        {
+          "sym": "KCE",
+          "score": 8.7,
+          "why": "Strong rank jump (+28) in leading ELEC sector."
+        },
+        {
+          "sym": "DELTA",
+          "score": 8.2,
+          "why": "Continued momentum (+16 rank), MSCI catalyst active."
+        },
+        {
+          "sym": "CCET",
+          "score": 8.0,
+          "why": "Significant rank jump (+21), strong ELEC theme play."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.52%, TECH +2.02%, PROPCON +0.45%, BANK +0.17% lead sectors",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA 10 days to MSCI 29 May, hold target 350 before event, no new entry full position",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7 +8.33% strong, 10 days to MSCI TP 350"
+        }
+      ],
+      "picks": [],
+      "top5": [
+        {
+          "sym": "STECON",
+          "score": 9.2,
+          "why": "Rank jump +8, Rt 1.12x, D1 +6.87%, RSI 62.5 good"
+        },
+        {
+          "sym": "HANA",
+          "score": 9.0,
+          "why": "Rank jump +56, Rt 2.0x, D1 +16.95%, ELEC momentum"
+        },
+        {
+          "sym": "CENTEL",
+          "score": 7.8,
+          "why": "Rank jump +19, Rt 1.25x, D1 +4.03% but visa negative"
+        },
+        {
+          "sym": "DELTA",
+          "score": 9.5,
+          "why": "Rank jump +16, Rt 0.69x, S7 +8.33%, MSCI catalyst"
+        },
+        {
+          "sym": "CCET",
+          "score": 7.5,
+          "why": "Rank jump +21, Rt 0.83x, D1 +3.36%, S7 +6.03%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260520-1434",
     "last_update": "2026-05-20 14:34:04",
     "gemini": {
