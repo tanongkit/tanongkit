@@ -62,29 +62,6 @@
     border: 1px solid rgba(245,158,11,0.2);
   }
   .topbar-right { display: flex; align-items: center; gap: 12px; }
-  .tb-port {
-    display: flex; align-items: center; gap: 10px;
-    font-family: var(--font-mono); font-size: 10px;
-    padding: 4px 10px; border-radius: 5px;
-    border: 1px solid var(--border);
-    background: var(--surface2);
-  }
-  .tb-port-item { display: flex; flex-direction: column; align-items: flex-end; gap: 1px; }
-  .tb-port-label { font-size: 8px; color: var(--muted); letter-spacing: 0.06em; }
-  .tb-port-val   { font-size: 11px; font-weight: 500; }
-  .tb-divider { width: 1px; height: 28px; background: var(--border); }
-  .tb-status {
-    display: flex; align-items: center; gap: 5px;
-    font-family: var(--font-mono); font-size: 10px;
-    padding: 4px 8px; border-radius: 5px;
-    border: 1px solid var(--border);
-  }
-  .tb-dot {
-    width: 7px; height: 7px; border-radius: 50%;
-    background: var(--muted); flex-shrink: 0;
-  }
-  .tb-dot.online  { background: #00d68f; box-shadow: 0 0 5px #00d68f66; }
-  .tb-dot.offline { background: #ff4d6a; }
   .ts {
     font-family: var(--font-mono); font-size: 11px; color: var(--muted);
   }
@@ -167,22 +144,26 @@
 
   /* ── KPI ROW ── */
   .kpi-grid {
-    display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px;
-    margin-bottom: 20px;
+    display: grid; grid-template-columns: repeat(11, 1fr); gap: 5px;
+    margin-bottom: 14px;
   }
   .kpi {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 8px; padding: 14px 16px;
-    position: relative; overflow: hidden;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 6px; padding: 8px 10px;
+    position: relative; overflow: hidden; min-width: 0;
   }
   .kpi::before {
     content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
     background: var(--kpi-color, var(--border2));
   }
-  .kpi-label { font-size: 10px; color: var(--muted); margin-bottom: 6px; font-family: var(--font-mono); letter-spacing: 0.05em; }
-  .kpi-val { font-family: var(--font-mono); font-size: 22px; font-weight: 500; line-height: 1; }
-  .kpi-sub { font-size: 10px; color: var(--muted); margin-top: 5px; }
+  .kpi-rank  { font-size: 8px; color: var(--dim); font-family: var(--font-mono); margin-bottom: 2px; }
+  .kpi-sym   { font-family: var(--font-mono); font-size: 14px; font-weight: 700; line-height: 1.1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .kpi-label { font-size: 9px; color: var(--muted); margin-bottom: 3px; font-family: var(--font-mono); }
+  .kpi-val   { font-family: var(--font-mono); font-size: 14px; font-weight: 600; line-height: 1; }
+  .kpi-sub   { font-size: 8px; color: var(--muted); margin-top: 3px; line-height: 1.4; }
+  @media (max-width: 1100px) { .kpi-grid { grid-template-columns: repeat(6, 1fr); } }
+  @media (max-width: 768px)  { .kpi-grid { grid-template-columns: repeat(4, 1fr); gap: 4px; } .kpi { padding: 7px 9px; } .kpi-sym { font-size: 13px; } }
+  @media (max-width: 480px)  { .kpi-grid { grid-template-columns: repeat(3, 1fr); } }
 
   /* ── TWO COLUMNS ── */
   .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
@@ -338,15 +319,12 @@
 
   /* ── TOP RANK CARDS ── */
   .top-rank-scroll {
-    display: flex; gap: 8px;
-    overflow-x: auto; padding-bottom: 6px;
-    scrollbar-width: thin; scrollbar-color: var(--dim) transparent;
+    display: flex; flex-wrap: wrap; gap: 6px;
+    padding-bottom: 4px;
   }
-  .top-rank-scroll::-webkit-scrollbar { height: 3px; }
-  .top-rank-scroll::-webkit-scrollbar-thumb { background: var(--dim); border-radius: 2px; }
 
   .top-card {
-    flex: 0 0 110px;
+    flex: 0 0 100px;
     background: var(--surface2);
     border: 1px solid var(--border);
     border-radius: 6px;
@@ -437,7 +415,7 @@
     margin-top: 4px;
   }
 
-  .sentiment-chart-wrap { position: relative; width: 100%; }
+  .sentiment-chart-wrap { position: relative; width: 100%; overflow: hidden; }
 
   .sentiment-pills {
     display: flex; flex-wrap: wrap; gap: 5px;
@@ -929,6 +907,12 @@ function buildSetIndex(){
     .sidebar-overlay.open { display: block; }
   }
 
+
+  @media (max-width: 768px) {
+    .sentiment-chart-wrap { height: 120px !important; }
+    .sentiment-chart-wrap canvas { width: 100% !important; height: 100% !important; }
+  }
+
 </style>
 </head>
 <body>
@@ -938,9 +922,9 @@ function buildSetIndex(){
      ══════════════════════════════════════════════ -->
 <script src="chart_data.js"></script>
 <script>
-const REPORT_DATE = "14 พ.ค. 2026";
-const REPORT_TIME = "20:00";
-const REPORT_MODE = "Backtest · RTN 4.5h";
+const REPORT_DATE = "20 พ.ค. 2569";
+const REPORT_TIME = "20:42";
+const REPORT_MODE = "";
 
 const SECTOR_MAP = {
   "Electronics":["KCE","CCET","DELTA","HANA"],
@@ -986,6 +970,22 @@ const cxrData = {};
 
 /* E = Earnings/Valuation — single snapshot per stock */
 const eData = {};
+
+// Populate eData + cxrData from eDataRaw (generated by convert_report.py → chart_data.js)
+if(typeof eDataRaw !== 'undefined' && eDataRaw){
+  Object.entries(eDataRaw).forEach(([sym, d]) => {
+    eData[sym] = {
+      pe:  d.pe  ?? null,
+      fpe: d.fpe ?? null,
+      gm:  d.gm  ?? null,
+      gap: d.gap ?? null,
+      last_price: d.last_price ?? null,
+    };
+    if(d.cxr14 != null || d.cxr1m != null){
+      cxrData[sym] = { cxr14: d.cxr14 ?? 0, cxr1m: d.cxr1m ?? 0 };
+    }
+  });
+}
 </script>
 <!-- ══════════════════════════════════════════════ -->
 
@@ -996,26 +996,24 @@ const eData = {};
     <div class="mode-tag" id="modeTag"></div>
   </div>
   <div class="topbar-right">
-    <!-- Port summary -->
-    <div class="tb-port" id="tbPort" style="display:none">
-      <div class="tb-port-item">
-        <div class="tb-port-label">BLUE</div>
-        <div class="tb-port-val" id="tbBlueCash" style="color:#3b82f6">—</div>
+    <div class="tb-port" id="tbPort" style="display:none;align-items:center;gap:10px;font-family:var(--font-mono);font-size:10px;padding:4px 10px;border-radius:5px;border:1px solid var(--border);background:var(--surface2)">
+      <div style="display:flex;flex-direction:column;align-items:flex-end;gap:1px">
+        <div style="font-size:8px;color:var(--muted)">BLUE</div>
+        <div id="tbBlueCash" style="font-size:11px;font-weight:500;color:#3b82f6">—</div>
       </div>
-      <div class="tb-divider"></div>
-      <div class="tb-port-item">
-        <div class="tb-port-label">RED</div>
-        <div class="tb-port-val" id="tbRedCash" style="color:#ef4444">—</div>
+      <div style="width:1px;height:28px;background:var(--border)"></div>
+      <div style="display:flex;flex-direction:column;align-items:flex-end;gap:1px">
+        <div style="font-size:8px;color:var(--muted)">RED</div>
+        <div id="tbRedCash" style="font-size:11px;font-weight:500;color:#ef4444">—</div>
       </div>
-      <div class="tb-divider"></div>
-      <div class="tb-port-item">
-        <div class="tb-port-label">P/L</div>
-        <div class="tb-port-val" id="tbPL">—</div>
+      <div style="width:1px;height:28px;background:var(--border)"></div>
+      <div style="display:flex;flex-direction:column;align-items:flex-end;gap:1px">
+        <div style="font-size:8px;color:var(--muted)">P/L</div>
+        <div id="tbPL" style="font-size:11px;font-weight:500">—</div>
       </div>
     </div>
-    <!-- Heartbeat status -->
-    <div class="tb-status" id="tbStatus">
-      <div class="tb-dot" id="tbDot"></div>
+    <div id="tbStatus" style="display:flex;align-items:center;gap:5px;font-family:var(--font-mono);font-size:10px;padding:4px 8px;border-radius:5px;border:1px solid var(--border)">
+      <div id="tbDot" style="width:7px;height:7px;border-radius:50%;background:var(--muted);flex-shrink:0"></div>
       <span id="tbStatusText" style="color:var(--muted)">—</span>
     </div>
     <div class="ts" id="tsEl"></div>
@@ -1030,6 +1028,20 @@ const eData = {};
   <div class="kpi-grid" id="kpiGrid"></div>
 
   <!-- MARKET SENTIMENT INDEX -->
+
+  <!-- GLOBAL MACRO RADAR -->
+  <div class="section-title">global macro · power chart</div>
+  <div class="panel mb-20" style="display:grid;grid-template-columns:1fr 1fr;gap:0;padding:0;overflow:hidden">
+    <!-- LEFT: radar -->
+    <div style="display:flex;align-items:center;justify-content:center;padding:20px;border-right:1px solid var(--border)">
+      <canvas id="macroRadar" width="260" height="260" aria-label="Global Macro Radar"></canvas>
+    </div>
+    <!-- RIGHT: legend + signal -->
+    <div style="padding:20px;display:flex;flex-direction:column;gap:14px">
+      <div id="macroLegend" style="display:flex;flex-direction:column;gap:7px"></div>
+      <div id="macroSignal"></div>
+    </div>
+  </div>
   <div class="section-title">market sentiment index</div>
   <div class="panel mb-20">
     <div class="sentiment-wrap">
@@ -1078,10 +1090,6 @@ const eData = {};
     <div class="weekly-scroll" id="weeklyCards"></div>
   </div>
 
-  <div class="panel mb-20">
-    <div class="panel-head"><span class="hl">sector rank · วันล่าสุด</span><span id="lastDateLabel" style="color:var(--muted);font-size:10px"></span></div>
-    <div id="rankGrid" style="display:flex;flex-wrap:wrap;gap:5px"></div>
-  </div>
 
   <!-- TOP 40 RANK CARDS -->
   <div class="section-title">top market leaders · วันล่าสุด</div>
@@ -1184,6 +1192,12 @@ const eData = {};
 
 </div><!-- end .app-shell -->
 
+<!-- PORT TIMELINE -->
+<div style="padding:20px 24px 40px;border-top:1px solid var(--border)">
+  <div class="section-title">paper trading · blue vs red</div>
+  <div id="portTimeline"></div>
+</div>
+
 <script>
 /* ── helpers ── */
 const N = rawData.dates.length;
@@ -1197,85 +1211,59 @@ function fmt(v,d=1){ return v.toFixed(d); }
 function sign(v){ return v>0?'+':''; }
 function colorClass(v){ return v>0?'pos':v<-5?'neg':'neu'; }
 
-
-/* ── Topbar: heartbeat + port summary ── */
-(function initTopbar(){
-  // Heartbeat / online status
-  const dot  = document.getElementById('tbDot');
-  const stEl = document.getElementById('tbStatusText');
-
-  const hb = (typeof HEARTBEAT !== 'undefined') ? HEARTBEAT : null;
-  if(hb && hb.updated){
-    const updTime  = new Date(hb.updated.replace(' ','T'));
-    const ageMin   = (Date.now() - updTime) / 60000;
-    const isOnline = ageMin < 5;
-    dot.classList.add(isOnline ? 'online' : 'offline');
-    const ageStr = ageMin < 1 ? 'just now'
-                 : ageMin < 60 ? `${Math.round(ageMin)}m ago`
-                 : `${Math.round(ageMin/60)}h ago`;
-    stEl.textContent = isOnline ? `online · ${ageStr}` : `offline · ${ageStr}`;
-    stEl.style.color = isOnline ? '#00d68f' : '#ff4d6a';
-  } else {
-    dot.classList.add('offline');
-    stEl.textContent = 'no heartbeat';
-    stEl.style.color = 'var(--muted)';
-  }
-
-  // Port summary from PORT_TIMELINE
-  const pt = (typeof PORT_TIMELINE !== 'undefined') ? PORT_TIMELINE : null;
-  if(pt && (pt.blue || pt.red)){
-    const tbPort = document.getElementById('tbPort');
-    tbPort.style.display = 'flex';
-
-    const blueCash = pt.blue?.cash ?? 0;
-    const redCash  = pt.red?.cash  ?? 0;
-
-    // คำนวณ P/L รวม
-    const bluePL = (pt.blue?.pl ?? []).reduce((a,p)=>a+(p.pl||0), 0);
-    const redPL  = (pt.red?.pl  ?? []).reduce((a,p)=>a+(p.pl||0), 0);
-    const totalPL = bluePL + redPL;
-
-    const fmt = v => v >= 1000000
-      ? `฿${(v/1000000).toFixed(2)}M`
-      : v >= 1000 ? `฿${(v/1000).toFixed(0)}K` : `฿${v.toFixed(0)}`;
-
-    document.getElementById('tbBlueCash').textContent = fmt(blueCash);
-    document.getElementById('tbRedCash').textContent  = fmt(redCash);
-
-    const plEl = document.getElementById('tbPL');
-    plEl.textContent = (totalPL >= 0 ? '+' : '') + fmt(Math.abs(totalPL));
-    plEl.style.color = totalPL >= 0 ? '#00d68f' : '#ff4d6a';
-  }
-})();
-
 /* ── init topbar ── */
-document.getElementById('modeTag').textContent = REPORT_MODE;
+// modeTag removed
 document.getElementById('tsEl').textContent = `${REPORT_DATE} · ${REPORT_TIME}`;
 
-/* ── KPI grid ── */
+/* ── KPI grid — Top 10 rank jumpers + port ── */
 const SECTORS = Object.keys(SECTOR_MAP);
 const lastI = N-1;
-const sectorRanks = SECTORS.map(s=>({name:s, val:+sectorAvg(s,lastI).toFixed(1)}));
-sectorRanks.sort((a,b)=>b.val-a.val);
-const best = sectorRanks[0], worst = sectorRanks[sectorRanks.length-1];
-const setVal = rawData.stocks['SET'] ? rawData.stocks['SET'][lastI] : 0;
-const kpiData = [
-  {label:'BEST SECTOR',val:best.name,sub:`rank ${sign(best.val)}${best.val}`,color:'#00d68f'},
-  {label:'WORST SECTOR',val:worst.name,sub:`rank ${sign(worst.val)}${worst.val}`,color:'#ff4d6a'},
-  {label:'SET INDEX',val:'1,479',sub:`rank ${sign(setVal)}${setVal.toFixed(1)}`,color:'#3b82f6'},
-  {label:'TOP RANK (STOCK)',val:'GUNKUL',sub:'rank +91.7 · Utilities',color:'#f59e0b'},
-  {label:'USDTHB-F',val:'32.35',sub:'rank +1.7',color:'#8b5cf6'}
-];
-const kpiGrid = document.getElementById('kpiGrid');
-kpiData.forEach(k=>{
-  const el=document.createElement('div');
-  el.className='kpi';
-  el.style.setProperty('--kpi-color',k.color);
-  el.innerHTML=`<div class="kpi-label">${k.label}</div>
-    <div class="kpi-val" style="color:${k.color}">${k.val}</div>
-    <div class="kpi-sub">${k.sub}</div>`;
-  kpiGrid.appendChild(el);
-});
+function buildKPI(){
+  const kpiGrid = document.getElementById('kpiGrid');
+  if(!kpiGrid) return;
+  const n2 = rawData.dates.length;
+  if(n2 < 2) return;
+  const li = n2-1, pi = n2-2;
+  const allSyms = Object.keys(rawData.stocks).filter(s=>!s.endsWith('-F'));
+  function rankOn(di){
+    return [...allSyms].map(s=>({s,v:rawData.stocks[s][di]??-999}))
+      .sort((a,b)=>b.v-a.v).reduce((acc,r,i)=>{acc[r.s]=i+1;return acc;},{});
+  }
+  const rT=rankOn(li), rP=rankOn(pi), tot=allSyms.length;
+  const jumpers=allSyms
+    .filter(s=>{const sv=rawData.stocks[s][li];const j=(rP[s]||99)-(rT[s]||99);return j>0&&sv>0;})
+    .map(s=>{
+      const rt=rT[s]||99,rp=rP[s]||99,j=rp-rt;
+      const sv=rawData.stocks[s][li]??0,sp=rawData.stocks[s][pi]??0;
+      const pw=Math.max(0,(tot-rt)/tot);
+      return {s,rt,rp,j,sv,comp:pw*2+(j/tot)+(sv-sp)/50};
+    }).sort((a,b)=>b.comp-a.comp).slice(0,10);
+
+  const cols=['#00d68f','#00d68f','#84cc16','#84cc16','#f59e0b','#f59e0b','#f59e0b','#6b7280','#6b7280','#6b7280'];
+  jumpers.forEach((d,i)=>{
+    const el=document.createElement('div');
+    el.className='kpi'; el.style.setProperty('--kpi-color',cols[i]);
+    el.innerHTML=`<div class="kpi-rank">#${i+1}</div>
+      <div class="kpi-sym" style="color:${cols[i]}">${d.s}</div>
+      <div class="kpi-sub">#${d.rp}→#${d.rt} +${d.j}<br>${d.sv.toFixed(1)}</div>`;
+    kpiGrid.appendChild(el);
+  });
+
+  const portAction=(typeof AI_DECISION!=='undefined'&&AI_DECISION?.length)
+    ?(AI_DECISION[0]?.claude?.port_action||AI_DECISION[0]?.gemini?.port_action||[]):[];
+  portAction.forEach(p=>{
+    const act=(p.action||'HOLD').toUpperCase();
+    const col=act==='HOLD'?'#3b82f6':act==='SELL_ALL'?'#ff4d6a':'#f59e0b';
+    const val=(p.qty>0&&p.price>0)?`฿${(p.qty*p.price/1000).toFixed(0)}K`:'';
+    const qty=p.qty>0?`${p.qty.toLocaleString()}@${p.price}`:'';
+    const el=document.createElement('div');
+    el.className='kpi'; el.style.setProperty('--kpi-color',col);
+    el.innerHTML=`<div class="kpi-rank">${act.replace('_',' ')}</div>
+      <div class="kpi-sym" style="color:${col}">${p.sym}</div>
+      <div class="kpi-sub">${qty}${val?` · ${val}`:''}<br>${(p.reason||'').slice(0,30)}</div>`;
+    kpiGrid.appendChild(el);
+  });
+}
 
 /* ── Sector Trend Chart ── */
 /* default = top 6 sector by avg rank วันล่าสุด (คำนวณจาก rawData) */
@@ -1403,32 +1391,6 @@ function renderWeekly(){
   });
 }
 
-/* ── Rank Table (compact pills) ── */
-function renderRankTable(){
-  document.getElementById('lastDateLabel').textContent = rawData.dates[lastI];
-  const rows = SECTORS.map(s=>({name:s,val:+sectorAvg(s,lastI).toFixed(1)})).sort((a,b)=>b.val-a.val);
-  const grid = document.getElementById('rankGrid');
-  grid.innerHTML = rows.map((r,i)=>{
-    const prev5 = +sectorAvg(r.name, N-6).toFixed(1);
-    const chg   = +(r.val-prev5).toFixed(1);
-    const vc    = r.val>=10?'#00d68f':r.val>=0?'#84cc16':r.val>=-5?'#f59e0b':'#ff4d6a';
-    const cc    = chg>=0?'#00d68f':'#ff4d6a';
-    const ca    = chg>=0?'▲':'▼';
-    const col   = SECTOR_COLORS[r.name];
-    return `<div style="
-      display:inline-flex;align-items:center;gap:5px;
-      padding:3px 8px 3px 6px;
-      background:var(--surface2);border:1px solid var(--border);
-      border-left:3px solid ${col};
-      border-radius:4px;font-family:var(--font-mono);">
-      <span style="font-size:8px;color:var(--muted)">${i+1}</span>
-      <span style="font-size:10px;color:var(--text)">${r.name}</span>
-      <span style="font-size:10px;font-weight:500;color:${vc}">${r.val>=0?'+':''}${r.val}</span>
-      <span style="font-size:9px;color:${cc}">${ca}${Math.abs(chg).toFixed(1)}</span>
-    </div>`;
-  }).join('');
-}
-
 /* ── Top 40 Rank Cards ── */
 function renderTopCards(){
   const allStocks = Object.keys(rawData.stocks);
@@ -1455,7 +1417,7 @@ function renderTopCards(){
   const top40 = allStocks
     .map(s=>({sym:s, val:rawData.stocks[s][lastI2], rank:rankToday[s]}))
     .sort((a,b)=>a.rank-b.rank)
-    .slice(0,40);
+;  // show all
 
   const container = document.getElementById('topRankCards');
   container.innerHTML='';
@@ -1785,7 +1747,7 @@ function renderW2(){
 /* W3 — Gap% to target */
 function renderW3(){
   const rows = Object.keys(eData)
-    .filter(s=>eData[s].gap!=null)
+    .filter(s=>eData[s].gap!=null && activeStocks.has(s))
     .map(s=>({ sym:s, gap:eData[s].gap }))
     .sort((a,b)=>b.gap-a.gap);
   const el = document.getElementById('w3Gap');
@@ -1804,7 +1766,7 @@ function renderW3(){
 /* W4 — PE/FPE Scatter */
 let chartScatter;
 function renderW4(){
-  const stocks = Object.keys(eData).filter(s=>eData[s].pe&&eData[s].fpe);
+  const stocks = Object.keys(eData).filter(s=>activeStocks.has(s)&&eData[s].pe&&eData[s].fpe);
   function stockSector(sym){
     for(const [sec,list] of Object.entries(SECTOR_MAP)) if(list.includes(sym)) return sec;
     return 'Other';
@@ -1857,7 +1819,7 @@ function renderW4(){
 /* W5 — CxR scatter: X=cxr14, Y=cxr1m */
 let chartCxr;
 function renderW5(){
-  const syms = Object.keys(cxrData);
+  const syms = Object.keys(cxrData).filter(s=>activeStocks.has(s));
   function stockSector(sym){
     for(const [sec,list] of Object.entries(SECTOR_MAP)) if(list.includes(sym)) return sec;
     return 'Other';
@@ -1940,7 +1902,7 @@ function renderW5(){
 let chartRg;
 function renderW6(){
   const lastI2 = N-1;
-  const syms = Object.keys(rgData.stocks).filter(s=>rawData.stocks[s]);
+  const syms = Object.keys(rgData.stocks).filter(s=>rawData.stocks[s] && activeStocks.has(s));
   function stockSector(sym){
     for(const [sec,list] of Object.entries(SECTOR_MAP)) if(list.includes(sym)) return sec;
     return 'Other';
@@ -2165,7 +2127,6 @@ function renderSectorBreakdown(){
 renderSentiment();
 buildSectorBtns(); renderTrend();
 renderWeekly();
-renderRankTable();
 renderTopCards();
 buildStockBtns(); renderStockChart();
 renderW1(); renderW2(); renderW3();
@@ -2174,18 +2135,344 @@ renderSectorBreakdown();
 
 
 /* __ DATA INJECTION POINT __ */
-// Replaced by build_html.py at runtime
-const AI_DECISION  = null;
-const FINAL_ORDER  = null;
-const SET_SECTORS  = null;
-const SET_INDEX    = null;
-const COMMODITY    = null;
-const PORT_TIMELINE= null;
-const HEARTBEAT    = null;
+// built: 2026-05-20 21:12:25
+const AI_DECISION = null;
+const FINAL_ORDER = {"execution_time": "2026-05-20 20:46", "ref_tx_id": "20260520-2044", "orders": []};
+const SET_SECTORS = null;
+const SET_INDEX = null;
+const COMMODITY = null;
+const PORT_TIMELINE = null;
+const HEARTBEAT = null;
 const PORT_PROFILE = null;
 
 /* ── AI DECISION TIMELINE ── */
 
+
+/* ── Global Macro Radar ── */
+function renderMacroRadar(){
+  const canvas = document.getElementById('macroRadar');
+  const legend = document.getElementById('macroLegend');
+  if(!canvas) return;
+
+  // Map: label → rawData key (ค่า rank_score ล่าสุด normalize เป็น 0-100)
+  const MACRO = [
+    { label:'GOLD',    key:'STR20-F',  color:'#f59e0b' },
+    { label:'OIL',     key:'BRENT-F',  color:'#6b7280' },
+    { label:'US10Y',   key:'TH10Y-F',  color:'#3b82f6' },
+    { label:'USD',     key:'USDTHB-F', color:'#00d68f' },
+    { label:'SPX',     key:'SOX-F',    color:'#a78bfa' },
+    { label:'BTC',     key:'ETH-F',    color:'#f97316' },
+  ];
+
+  const lastI  = rawData.dates.length - 1;
+  const prev3I = Math.max(0, lastI - 3);
+
+  function calcVal(label, key){
+    // ลอง COMMODITY ก่อน (% จริง)
+    if(typeof COMMODITY !== 'undefined' && COMMODITY?.data?.[label]){
+      return +(COMMODITY.data[label].pct_3d ?? 0);
+    }
+    // fallback: rank_score diff
+    const arr = rawData.stocks[key];
+    if(!arr) return 0;
+    return +((arr[lastI]??0) - (arr[prev3I]??0)).toFixed(1);
+  }
+
+  // normalize: -10..+10 → 0..1
+  function normalize(v){
+    return Math.max(0, Math.min(1, (v + 10) / 20));
+  }
+
+  const vals = MACRO.map(m => {
+    const raw = calcVal(m.label, m.key);
+    return { ...m, raw, norm: normalize(raw) };
+  });
+
+  const ctx = canvas.getContext('2d');
+  const W = canvas.width, H = canvas.height;
+  const cx = W/2, cy = H/2;
+  const R  = Math.min(W,H) * 0.38;
+  const n  = vals.length;
+  const step = (Math.PI * 2) / n;
+  const startAngle = -Math.PI / 2;
+
+  ctx.clearRect(0, 0, W, H);
+
+  // draw grid (5 rings)
+  for(let r=1; r<=5; r++){
+    ctx.beginPath();
+    for(let i=0; i<n; i++){
+      const a = startAngle + step * i;
+      const rr = R * r / 5;
+      i===0 ? ctx.moveTo(cx + Math.cos(a)*rr, cy + Math.sin(a)*rr)
+             : ctx.lineTo(cx + Math.cos(a)*rr, cy + Math.sin(a)*rr);
+    }
+    ctx.closePath();
+    ctx.strokeStyle = 'rgba(255,255,255,0.06)';
+    ctx.lineWidth = 1;
+    ctx.stroke();
+  }
+
+  // draw axes
+  vals.forEach((_,i) => {
+    const a = startAngle + step * i;
+    ctx.beginPath();
+    ctx.moveTo(cx, cy);
+    ctx.lineTo(cx + Math.cos(a)*R, cy + Math.sin(a)*R);
+    ctx.strokeStyle = 'rgba(255,255,255,0.08)';
+    ctx.lineWidth = 1;
+    ctx.stroke();
+  });
+
+  // draw filled polygon
+  ctx.beginPath();
+  vals.forEach((v, i) => {
+    const a = startAngle + step * i;
+    const r = R * v.norm;
+    i===0 ? ctx.moveTo(cx + Math.cos(a)*r, cy + Math.sin(a)*r)
+           : ctx.lineTo(cx + Math.cos(a)*r, cy + Math.sin(a)*r);
+  });
+  ctx.closePath();
+  ctx.fillStyle = 'rgba(0,214,143,0.12)';
+  ctx.fill();
+  ctx.strokeStyle = '#00d68f';
+  ctx.lineWidth = 1.5;
+  ctx.stroke();
+
+  // draw dots + labels
+  vals.forEach((v, i) => {
+    const a = startAngle + step * i;
+    const r = R * v.norm;
+    // dot
+    ctx.beginPath();
+    ctx.arc(cx + Math.cos(a)*r, cy + Math.sin(a)*r, 3.5, 0, Math.PI*2);
+    ctx.fillStyle = v.color;
+    ctx.fill();
+    // label
+    const lx = cx + Math.cos(a) * (R + 18);
+    const ly = cy + Math.sin(a) * (R + 18);
+    ctx.font = 'bold 10px IBM Plex Mono, monospace';
+    ctx.fillStyle = v.color;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(v.label, lx, ly);
+  });
+
+  // legend
+  if(legend){
+    legend.innerHTML = vals.map(v => {
+      const sign = v.raw >= 0 ? '+' : '';
+      const col  = v.raw >= 0 ? '#00d68f' : '#ff4d6a';
+      return `<div style="display:flex;align-items:center;gap:8px;font-family:IBM Plex Mono,monospace;font-size:11px">
+        <div style="width:10px;height:10px;border-radius:50%;background:${v.color};flex-shrink:0"></div>
+        <span style="color:var(--muted);width:44px">${v.label}</span>
+        <span style="color:${col};font-weight:500">${sign}${v.raw}%</span>
+        <span style="color:var(--dim);font-size:9px">3d</span>
+      </div>`;
+    }).join('');
+  }
+
+  // ── Signal interpretation ──────────────────────────────
+  const sig = document.getElementById('macroSignal');
+  if(sig){
+    const get = lbl => vals.find(v=>v.label===lbl)?.raw ?? 0;
+    const spx=get('SPX'), gold=get('GOLD'), oil=get('OIL');
+    const us10y=get('US10Y'), usd=get('USD'), btc=get('BTC');
+    const riskScore = spx*0.4 + oil*0.2 + btc*0.2 - gold*0.1 - usd*0.1;
+
+    // ── 1. Risk mode ─────────────────────────────────────
+    let mode, mc, impact;
+    if(riskScore > 1.5){
+      mode='RISK ON'; mc='#00d68f'; impact='เงินไหลเข้า EM · SET มักตามขึ้น';
+    } else if(riskScore < -1.5){
+      mode='RISK OFF'; mc='#ff4d6a'; impact='เงินหนีสู่ safe haven · ระวัง SET ร่วง';
+    } else {
+      mode='NEUTRAL'; mc='#f59e0b'; impact='รอสัญญาณยืนยัน';
+    }
+
+    // ── 2. Regime detection ───────────────────────────────
+    let regime, regimeColor, regimeDesc, setImpact=[];
+    if(spx > 1 && oil > 1 && gold <= 0){
+      regime='REFLATION'; regimeColor='#f59e0b';
+      regimeDesc='SPX▲ OIL▲ → growth + inflation · IRPC PTTGC';
+      setImpact=['OIL▲ → IRPC/PTTGC อาจดี','SET มักตาม SPX ขึ้น','ระวัง margin squeeze'];
+    } else if(spx > 1 && oil <= 0 && us10y < 0){
+      regime='GOLDILOCKS'; regimeColor='#00d68f';
+      regimeDesc='SPX▲ Yield▼ OIL▼ → ดีสุดสำหรับ equity';
+      setImpact=['ดีที่สุดสำหรับ equity · เข้าได้เลย','Growth stocks ดี · DELTA COM7 WHA','SET มักขึ้นตาม SPX'];
+    } else if(spx > 1 && oil > 1 && gold > 1){
+      regime='BOOM'; regimeColor='#84cc16';
+      regimeDesc='ทุก asset ขึ้น → ระวัง overheating';
+      setImpact=['ทุก asset ขึ้น · อาจ TP บางส่วน','ระวัง correction หลัง rally'];
+    } else if(oil > 1 && spx < 0 && gold <= 0){
+      regime='STAGFLATION'; regimeColor='#ff4d6a';
+      regimeDesc='OIL▲ SPX▼ GOLD▼ → inflation กดดัน · ระวัง';
+      setImpact=['เงินไม่ไหลเข้า EM · ตลาดเสี่ยง',us10y>2?'US10Y▲▲ กดดัน high-PE · ระวัง DELTA/HANA':'','IRPC/PTTGC อาจได้ OIL▲ แต่รอดู GRM','แนะนำ Cash/HOLD · รอสัญญาณกลับ'].filter(Boolean);
+    } else if(oil > 1 && spx < 0 && gold > 1){
+      regime='CRISIS HEDGE'; regimeColor='#ff4d6a';
+      regimeDesc='OIL▲ GOLD▲ SPX▼ → stagflation + fear';
+      setImpact=['อันตราย · ถือ GOLD > equity','Cut loss ถ้ายังไม่ได้ทำ','ไม่ซื้อเพิ่ม'];
+    } else if(gold > 1 && spx < 0 && oil <= 0){
+      regime='RECESSION FEAR'; regimeColor='#a78bfa';
+      regimeDesc='GOLD▲ SPX▼ OIL▼ → เงินหนีเข้า safe haven';
+      setImpact=['Safe haven ชนะ · Cash/GOLD ดีกว่า','SET มักร่วงตาม SPX','รอ bottom ก่อนเข้า'];
+    } else if(spx < 0 && gold < 0 && oil < 0){
+      regime='RISK OFF'; regimeColor='#ff4d6a';
+      regimeDesc='ทุก asset ลง → cash is king · ระวัง';
+      setImpact=['Cash is king · ไม่ซื้อ','รอ SPX stabilize ก่อน'];
+    } else {
+      regime='TRANSITION'; regimeColor='#6b7280';
+      regimeDesc='สัญญาณผสม · รอทิศทาง';
+      setImpact=['สัญญาณไม่ชัด · รอยืนยัน','ดู sector flow วันต่อวัน'];
+    }
+
+    // ── 3. Correlation alert (port holdings) ─────────────
+    // cxr จาก eDataRaw: cxr14 = 14d correlation กับ commodity
+    const portSyms = (typeof AI_DECISION!=='undefined'&&AI_DECISION?.length)
+      ? (AI_DECISION[0]?.claude?.port_action||[]).map(p=>p.sym) : [];
+
+    let corrHtml = '';
+    if(portSyms.length && typeof eDataRaw!=='undefined' && eDataRaw){
+      const corrLines = portSyms.map(sym=>{
+        const d = eDataRaw[sym];
+        if(!d) return null;
+        const cxr = d.cxr14 ?? 0;
+        // หา macro ที่ correlate มากสุด (ใช้ SOX~SPX, BRENT~OIL)
+        const macroName = Math.abs(cxr) > 5 ? (cxr > 0 ? 'SPX↑ หนุน' : 'SPX↓ กดดัน') : '';
+        if(!macroName) return null;
+        const cc = cxr > 0 ? '#00d68f' : '#ff4d6a';
+        return `<span style="font-family:var(--font-mono);font-size:9px;color:${cc}">${sym} corr=${cxr>0?'+':''}${cxr.toFixed(1)} ${macroName}</span>`;
+      }).filter(Boolean);
+      if(corrLines.length){
+        corrHtml = `<div style="margin-top:6px;padding-top:6px;border-top:1px solid var(--border)">
+          <div style="font-family:var(--font-mono);font-size:8px;color:var(--dim);margin-bottom:4px">CORRELATION ALERT</div>
+          ${corrLines.join('<br>')}
+        </div>`;
+      }
+    }
+
+    let histHtml = '';
+
+    // ── Render ────────────────────────────────────────────
+    const usdNote = usd > 1.5 ? '· USD แข็ง → กดดัน EM' : usd < -1.5 ? '· USD อ่อน → หนุน EM' : '';
+    const yldNote = us10y > 0.5 ? '· Yield ขึ้น → กดดัน growth' : us10y < -0.5 ? '· Yield ลง → หนุน growth' : '';
+
+    sig.innerHTML = `
+      <div style="border:1px solid ${mc}33;border-radius:6px;padding:10px 12px;background:${mc}08;margin-bottom:8px">
+        <div style="font-family:var(--font-mono);font-size:9px;font-weight:700;color:${mc};margin-bottom:3px">${mode}</div>
+        <div style="font-family:var(--font-mono);font-size:8px;color:var(--text)">${impact}</div>
+        ${usdNote?`<div style="font-family:var(--font-mono);font-size:8px;color:var(--muted);margin-top:2px">${usdNote}</div>`:''}
+        ${yldNote?`<div style="font-family:var(--font-mono);font-size:8px;color:var(--muted);margin-top:2px">${yldNote}</div>`:''}
+      </div>
+      <div style="border:1px solid ${regimeColor}33;border-radius:6px;padding:10px 12px;background:${regimeColor}06">
+        <div style="font-family:var(--font-mono);font-size:9px;font-weight:700;color:${regimeColor};margin-bottom:3px">${regime}</div>
+        <div style="font-family:var(--font-mono);font-size:8px;color:var(--muted);margin-bottom:4px">${regimeDesc}</div>
+        ${setImpact.length?`<div style="margin-top:5px;padding-top:5px;border-top:1px solid rgba(255,255,255,0.06)">${setImpact.map(s=>`<div style="font-family:var(--font-mono);font-size:8px;color:var(--text);margin-bottom:2px">· ${s}</div>`).join('')}</div>`:''}
+        ${corrHtml}
+      </div>`;
+  }
+}
+
+/* ── Paper Trading Timeline ── */
+function renderPortTimeline(){
+  const el = document.getElementById('portTimeline');
+  if(!el) return;
+  const d = (typeof PORT_TIMELINE !== 'undefined') ? PORT_TIMELINE : null;
+  if(!d){ el.innerHTML='<div style="font-family:var(--font-mono);font-size:10px;color:var(--muted)">ไม่มีข้อมูล port_timeline.json</div>'; return; }
+
+  const blue = d.blue ?? {};
+  const red  = d.red  ?? {};
+  const txs  = (d.transactions ?? []).slice().reverse();
+
+  function teamCard(label, t, color){
+    const cash   = t.cash ?? 0;
+    const pos    = t.positions ?? {};
+    const pl     = (t.pl ?? []).reduce((a,p)=>a+(p.pl||0), 0);
+    const posVal = Object.values(pos).reduce((a,p)=>a+(p.value||0), 0);
+    const plCol  = pl >= 0 ? '#00d68f' : '#ff4d6a';
+    const posRows = Object.entries(pos).map(([sym,p])=>
+      `<div style="display:flex;gap:8px;padding:3px 0;border-bottom:1px solid rgba(255,255,255,0.04)">
+        <span style="color:var(--text);font-weight:600;width:48px;font-family:var(--font-mono);font-size:9px">${sym}</span>
+        <span style="color:var(--muted);font-family:var(--font-mono);font-size:8px">${p.qty}@${p.avg_price}</span>
+        <span style="color:#3b82f6;font-family:var(--font-mono);font-size:8px;margin-left:auto">฿${(p.value||0).toLocaleString('en',{maximumFractionDigits:0})}</span>
+      </div>`).join('') || '<div style="font-family:var(--font-mono);font-size:8px;color:var(--dim)">no positions</div>';
+    return `<div style="background:var(--surface2);border:1px solid ${color}33;border-radius:8px;padding:12px 14px">
+      <div style="font-family:var(--font-mono);font-size:10px;font-weight:700;color:${color};margin-bottom:8px">${label}</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-bottom:10px">
+        <div><div style="font-family:var(--font-mono);font-size:7px;color:var(--muted)">CASH</div>
+          <div style="font-family:var(--font-mono);font-size:12px;font-weight:600">฿${cash.toLocaleString('en',{maximumFractionDigits:0})}</div></div>
+        <div><div style="font-family:var(--font-mono);font-size:7px;color:var(--muted)">PORT</div>
+          <div style="font-family:var(--font-mono);font-size:12px;font-weight:600;color:#3b82f6">฿${posVal.toLocaleString('en',{maximumFractionDigits:0})}</div></div>
+        <div><div style="font-family:var(--font-mono);font-size:7px;color:var(--muted)">P/L</div>
+          <div style="font-family:var(--font-mono);font-size:12px;font-weight:600;color:${plCol}">${pl>=0?'+':''}฿${Math.abs(pl).toLocaleString('en',{maximumFractionDigits:0})}</div></div>
+      </div>
+      ${posRows}
+    </div>`;
+  }
+
+  let html = `<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px">
+    ${teamCard('🔵 BLUE (Gemini)', blue, '#3b82f6')}
+    ${teamCard('🔴 RED (Claude)',  red,  '#ef4444')}
+  </div>`;
+
+  // transaction log
+  html += `<div style="font-family:var(--font-mono);font-size:9px">
+    <div style="color:var(--muted);margin-bottom:6px;letter-spacing:0.08em">TRANSACTION LOG</div>`;
+
+  txs.slice(0,30).forEach(t=>{
+    const isBuy  = t.action==='BUY';
+    const isBlue = t.team==='BLUE';
+    const ac = isBuy ? '#00d68f' : '#ff4d6a';
+    const tc = isBlue ? '#3b82f6' : '#ef4444';
+    html += `<div style="display:flex;gap:8px;padding:4px 0;border-bottom:1px solid rgba(255,255,255,0.03);align-items:center">
+      <span style="color:var(--dim);width:80px;flex-shrink:0">${(t.time||'').slice(11,16)}</span>
+      <span style="color:${tc};width:36px;flex-shrink:0;font-size:8px">${t.team}</span>
+      <span style="color:${ac};font-weight:600;width:32px">${t.action}</span>
+      <span style="color:var(--text);font-weight:500;width:48px">${t.sym}</span>
+      <span style="color:var(--muted)">${t.qty}@${t.price}</span>
+      <span style="color:${t.amount<0?'#ff4d6a':'#00d68f'};margin-left:auto">${t.amount>=0?'+':''}${(t.amount||0).toFixed(0)}</span>
+      <span style="color:var(--dim);font-size:8px">฿${(t.balance_after||0).toLocaleString('en',{maximumFractionDigits:0})}</span>
+    </div>`;
+  });
+
+  html += '</div>';
+  el.innerHTML = html;
+}
+
+
+function initTopbar(){
+  const dot  = document.getElementById('tbDot');
+  const stEl = document.getElementById('tbStatusText');
+  const hb   = (typeof HEARTBEAT !== 'undefined') ? HEARTBEAT : null;
+  if(hb && hb.updated){
+    const updTime = new Date(hb.updated.replace(' ','T'));
+    const ageMin  = (Date.now() - updTime) / 60000;
+    const isOnline = ageMin < 5;
+    dot.style.background = isOnline ? '#00d68f' : '#ff4d6a';
+    if(isOnline) dot.style.boxShadow = '0 0 5px #00d68f66';
+    const ageStr = ageMin < 1 ? 'just now' : ageMin < 60 ? `${Math.round(ageMin)}m ago` : `${Math.round(ageMin/60)}h ago`;
+    stEl.textContent = isOnline ? `online · ${ageStr}` : `offline · ${ageStr}`;
+    stEl.style.color  = isOnline ? '#00d68f' : '#ff4d6a';
+  } else {
+    dot.style.background = '#ff4d6a';
+    stEl.textContent = 'no heartbeat';
+  }
+  const pt = (typeof PORT_TIMELINE !== 'undefined') ? PORT_TIMELINE : null;
+  if(pt && (pt.blue || pt.red)){
+    const tbPort = document.getElementById('tbPort');
+    if(tbPort) tbPort.style.display = 'flex';
+    const blueCash = pt.blue?.cash ?? 0;
+    const redCash  = pt.red?.cash  ?? 0;
+    const bluePL   = (pt.blue?.pl ?? []).reduce((a,p)=>a+(p.pl||0), 0);
+    const redPL    = (pt.red?.pl  ?? []).reduce((a,p)=>a+(p.pl||0), 0);
+    const totalPL  = bluePL + redPL;
+    const fmt = v => v>=1000000 ? `฿${(v/1000000).toFixed(2)}M` : v>=1000 ? `฿${(v/1000).toFixed(0)}K` : `฿${v.toFixed(0)}`;
+    const el = document.getElementById('tbBlueCash'); if(el) el.textContent = fmt(blueCash);
+    const er = document.getElementById('tbRedCash');  if(er) er.textContent = fmt(redCash);
+    const ep = document.getElementById('tbPL');
+    if(ep){ ep.textContent = (totalPL>=0?'+':'')+fmt(Math.abs(totalPL)); ep.style.color = totalPL>=0?'#00d68f':'#ff4d6a'; }
+  }
+}
 
 (function(){
   // ข้อมูลถูก inject โดย build script — ถ้ายังไม่มีให้เป็น null
@@ -2219,7 +2506,7 @@ const PORT_PROFILE = null;
     return m ? m[1]+':'+m[2] : ts;
   }
 
-  function renderAdvisor(label, data){
+  function renderAdvisor(label, data, entryTime){
     if(!data) return '';
     const sc = stanceColor(data.player_stance||'');
     const mc = sentColor(data.market_sentiment||'');
@@ -2232,9 +2519,32 @@ const PORT_PROFILE = null;
       const action = (p.action||'?').toUpperCase();
       const ac     = stanceColor(action);
       const why    = p.why||p.reason||'';
+
+      // แสดง % change เฉพาะ entry ที่ถูก create ตอนตลาดเปิด (10:00-12:00 หรือ 14:00-16:30)
+      const curPrice = (typeof eDataRaw!=='undefined' && eDataRaw?.[sym]?.last_price)
+                     || null;
+      let pnlHtml = '';
+      if(curPrice && +entry > 0){
+        // เวลาที่ record นี้ถูกสร้าง
+        const recTime  = entryTime || '';
+        const recHour  = parseInt(recTime.slice(11,13)||'0', 10);
+        const recMin   = parseInt(recTime.slice(14,16)||'0', 10);
+        const recHM    = recHour * 60 + recMin;
+        // ตลาดเปิด: 10:00-12:00 (600-720) หรือ 14:00-16:30 (840-990)
+        const createdDuringMarket = (recHM >= 600 && recHM <= 720) || (recHM >= 840 && recHM <= 990);
+
+        if(createdDuringMarket){
+          const pct = ((curPrice - +entry) / +entry) * 100;
+          const pc  = pct >= 0 ? '#00d68f' : '#ff4d6a';
+          const pa  = pct >= 0 ? '▲' : '▼';
+          pnlHtml = `<span style="font-family:var(--font-mono);font-size:9px;color:${pc};margin-left:4px">${pa}${Math.abs(pct).toFixed(1)}%</span>`;
+        }
+      }
+
       return `<div style="display:flex;align-items:baseline;gap:4px;padding:2px 0;border-bottom:1px solid rgba(255,255,255,0.03)">
         <span style="font-family:var(--font-mono);font-size:10px;font-weight:500;color:${ac};min-width:44px">${sym}</span>
         <span style="font-family:var(--font-mono);font-size:9px;color:var(--muted)">@${entry}→${tp}</span>
+        ${pnlHtml}
         <span style="font-family:var(--font-mono);font-size:8px;padding:0 4px;border-radius:2px;background:${confBg(+conf)};color:${confFg(+conf)};margin-left:auto;flex-shrink:0">${conf}</span>
       </div>
       ${why ? `<div style="font-size:9px;color:var(--muted);padding:1px 0 3px;line-height:1.3">${why}</div>` : ''}`;
@@ -2283,8 +2593,8 @@ const PORT_PROFILE = null;
           ${isLatest?'<span style="font-family:var(--font-mono);font-size:8px;color:var(--green)">● LATEST</span>':''}
           ${txId?`<span style="font-family:var(--font-mono);font-size:8px;color:var(--dim)">#${txId}</span>`:''}
         </div>
-        ${renderAdvisor('🔵', gemini)}
-        ${renderAdvisor('🟠', claude)}
+        ${renderAdvisor('🔵', gemini, decision.last_update)}
+        ${renderAdvisor('🟠', claude, decision.last_update)}
         ${ordersHtml!=='<span class="tl-empty">no orders</span>'?`
         <div style="margin-top:4px;padding-top:4px;border-top:1px solid var(--border)">
           <span style="font-family:var(--font-mono);font-size:8px;color:var(--muted);margin-right:6px">orders</span>
@@ -2444,7 +2754,13 @@ function buildConsensus(entries){
     if(!container) return;
 
     // AI_DECISION เป็น array (ล่าสุดอยู่ index 0)
-    const entries = Array.isArray(decision) ? decision : (decision ? [decision] : null);
+    const _allEntries = Array.isArray(decision) ? decision : (decision ? [decision] : null);
+    // แสดงเฉพาะ record ที่ create ระหว่าง 06:00-21:00
+    const entries = _allEntries ? _allEntries.filter(e => {
+      const t = (e.last_update||'').slice(11,13);
+      const h = parseInt(t, 10);
+      return h >= 6 && h < 21;
+    }) : null;
 
     if(!entries || !entries.length){
       container.innerHTML = '<div class="tl-empty" style="padding:20px 0">ไม่พบข้อมูล — รัน build_html.py เพื่อ inject ai_decision.json</div>';
@@ -2462,13 +2778,64 @@ function buildConsensus(entries){
     }
 
     buildConsensus(entries);
-    container.innerHTML = entries.map((entry, i) => {
+    let lastDate = null;
+    const parts = [];
+    entries.forEach((entry, i) => {
+      const entryDate = (entry.last_update||'').slice(0,10);
+      if(entryDate !== lastDate){
+        // แปลงวันที่เป็น Thai
+        const dt = new Date(entryDate);
+        const thaiMonths = ['ม.ค.','ก.พ.','มี.ค.','เม.ย.','พ.ค.','มิ.ย.','ก.ค.','ส.ค.','ก.ย.','ต.ค.','พ.ย.','ธ.ค.'];
+        const dateLabel = entryDate ? `${dt.getDate()} ${thaiMonths[dt.getMonth()]} ${dt.getFullYear()+543}` : entryDate;
+        parts.push(`<div style="
+          display:flex;align-items:center;gap:8px;
+          margin:12px 0 8px;
+          font-family:var(--font-mono);font-size:9px;color:var(--muted);
+        ">
+          <div style="flex:1;height:1px;background:var(--border)"></div>
+          <span style="white-space:nowrap;padding:0 4px">${dateLabel}</span>
+          <div style="flex:1;height:1px;background:var(--border)"></div>
+        </div>`);
+        lastDate = entryDate;
+      }
       const orders = ordersByTx[entry.tx_id] || [];
-      return buildEntry(entry, orders, i === 0);
-    }).join('');
+      parts.push(buildEntry(entry, orders, i === 0));
+    });
+    container.innerHTML = parts.join('');
   }
 
+  // Update activeStocks with jumpers + AI picks after AI_DECISION ready
+  (function(){
+    const ds = new Set();
+    if(rawData.dates.length >= 2){
+      const li=rawData.dates.length-1, pi=li-1;
+      const allSyms=Object.keys(rawData.stocks).filter(s=>!s.endsWith('-F'));
+      function rOn(di){return [...allSyms].map(s=>({s,v:rawData.stocks[s][di]??-999})).sort((a,b)=>b.v-a.v).reduce((acc,r,i)=>{acc[r.s]=i+1;return acc;},{});}
+      const rT=rOn(li),rP=rOn(pi),tot=allSyms.length;
+      allSyms.filter(s=>{const sv=rawData.stocks[s][li];const j=(rP[s]||99)-(rT[s]||99);return j>0&&sv>0;})
+        .map(s=>{const rt=rT[s]||99,rp=rP[s]||99,j=rp-rt,sv=rawData.stocks[s][li]??0,sp=rawData.stocks[s][pi]??0;return {s,comp:Math.max(0,(tot-rt)/tot)*2+(j/tot)+(sv-sp)/50};})
+        .sort((a,b)=>b.comp-a.comp).slice(0,5).forEach(d=>ds.add(d.s));
+    }
+    const latest = (typeof AI_DECISION!=='undefined'&&AI_DECISION?.length) ? AI_DECISION[0] : null;
+    [latest?.claude, latest?.gemini].forEach(src=>{
+      (src?.picks||[]).forEach(p=>{ const sym=p.sym||p.symbol; if(sym&&ds.size<8) ds.add(sym); });
+    });
+    if(ds.size>0){
+      activeStocks=ds;
+      // sync card + chart
+      document.querySelectorAll('.top-card').forEach(c=>{
+        c.classList.toggle('active', activeStocks.has(c.dataset.sym));
+      });
+      buildStockBtns();
+      renderStockChart();
+      renderW3(); renderW4(); renderW5(); renderW6();
+    }
+  })();
+  initTopbar();
+  renderMacroRadar();
+  buildKPI();
   renderTimeline();
+  renderPortTimeline();
   buildSetIndex();
   buildSectorFlow();
 })();
@@ -2622,6 +2989,7 @@ document.addEventListener('DOMContentLoaded', function(){
   });
   if(overlay) overlay.addEventListener('click', closeSidebar);
 });
+
+
 </script>
 </body>
-</html>

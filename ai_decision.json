@@ -1,5 +1,258 @@
 [
   {
+    "tx_id": "20260520-2044",
+    "last_update": "2026-05-20 20:44:57",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index up +0.77%, driven by strong buying in TECH and ETRON sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Bullish market, clear rotation into strong sectors, and actionable watchlist candidates meeting entry criteria.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 34.5,
+          "entry": 34.25,
+          "tp": 38.5,
+          "vs": "ETRON sector leader",
+          "why": "Massive rank jump (+55) with very strong volume."
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 14.3,
+          "entry": 14.2,
+          "tp": 15.5,
+          "vs": "CONS sector leader",
+          "why": "All rules met, strong momentum into top 3."
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 8,
+          "now": 6.45,
+          "entry": 6.4,
+          "tp": 7.0,
+          "vs": "High momentum ETRON",
+          "why": "Huge rank jump (+48) with extreme buying volume."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.1,
+          "entry": 15.0,
+          "tp": 16.5,
+          "vs": "Stimulus beneficiary",
+          "why": "All rules met with positive 'คนละครึ่ง' catalyst."
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.8,
+          "entry": 4.78,
+          "tp": 5.2,
+          "vs": "EV/Data Center play",
+          "why": "Top qualitative watchlist, wait for volume (Rt)."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 7,
+          "now": 24.8,
+          "entry": 24.7,
+          "tp": 27.0,
+          "vs": "Retail stimulus play",
+          "why": "Strong 'คนละครึ่ง' catalyst, wait for volume (Rt)."
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 323.0,
+          "entry": 320.0,
+          "tp": 350.0,
+          "vs": "MSCI rebalance play",
+          "why": "Main event-driven trade, monitor for pre-event TP."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 6,
+          "now": 32.75,
+          "entry": 32.5,
+          "tp": 35.5,
+          "vs": "ETRON sector momentum",
+          "why": "Strong rank jump, but needs volume confirmation."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "HANA",
+          "score": 9.5,
+          "why": "Massive rank jump (+55) with strong confirmation volume."
+        },
+        {
+          "sym": "CCET",
+          "score": 9.2,
+          "why": "Huge rank jump (+48) with extreme buying volume (Rt 3.9x)."
+        },
+        {
+          "sym": "STECON",
+          "score": 8.8,
+          "why": "Jumped into top 3 with high volume, sector leading."
+        },
+        {
+          "sym": "KCE",
+          "score": 8.5,
+          "why": "Significant rank jump (+28), strong ETRON sector momentum."
+        },
+        {
+          "sym": "DELTA",
+          "score": 8.2,
+          "why": "Jumped on MSCI catalyst story, strong weekly momentum."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.77% TECH +2.2% ETRON +3.36% CONS +3.52% ENERG +0.59% PROPCON +0.48%",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA hold to TP 350 before 29 May MSCI deadline, full position no cash for entry",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "reason": "313.00 below avg 314.54 but S7 +7.67% still strong, 10 days to MSCI 29 May, TP 350 target",
+          "plan": "TP partial at 350 or if breaks 305-310 with high Vol before 29 May MSCI effective date"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.8,
+          "entry": 4.85,
+          "tp": 5.5,
+          "sector": "PROPCON",
+          "vs": "Rt 0.49x fail Rule 2",
+          "why": "EV+Data center catalyst but Rt too low wait"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 7,
+          "now": 15.1,
+          "entry": 15.2,
+          "tp": 17.5,
+          "sector": "FOOD",
+          "vs": "Rt 1.86x S7 +7.09%",
+          "why": "คนละครึ่ง phase 2 benefit but Rt borderline wait"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 8,
+          "now": 14.3,
+          "entry": 14.5,
+          "tp": 16.5,
+          "sector": "CONS",
+          "vs": "Rank jump +9 Rt 2.14x",
+          "why": "CONS sector +3.52% strong momentum Rt pass"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 34.5,
+          "entry": 35.0,
+          "tp": 38.0,
+          "sector": "ETRON",
+          "vs": "Rank jump +55 Rt 2.89x",
+          "why": "ETRON +3.36% huge jump D1 +16.95% but RSI 58.8"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 32.75,
+          "entry": 33.0,
+          "tp": 36.0,
+          "sector": "ETRON",
+          "vs": "Rank jump +28 Rt 1.13x",
+          "why": "ETRON surge D1 +5.65% S7 +5.65% but Rt marginal"
+        }
+      ],
+      "top10": [
+        {
+          "sym": "STECON",
+          "score": 9.2,
+          "sector": "CONS",
+          "why": "Rank +9 jump Rt 2.14x RSI 65.1 CONS sector +3.52%"
+        },
+        {
+          "sym": "HANA",
+          "score": 9.0,
+          "sector": "ETRON",
+          "why": "Rank +55 mega jump Rt 2.89x D1 +16.95% ETRON +3.36%"
+        },
+        {
+          "sym": "KCE",
+          "score": 8.1,
+          "sector": "ETRON",
+          "why": "Rank +28 jump Rt 1.13x D1 +5.65% ETRON surge"
+        },
+        {
+          "sym": "CCET",
+          "score": 7.8,
+          "sector": "ETRON",
+          "why": "Rank +48 jump Rt 3.9x D1 +8.40% S7 +11.21%"
+        },
+        {
+          "sym": "DELTA",
+          "score": 7.5,
+          "sector": "ETRON",
+          "why": "Rank +15 jump Rt 0.94x S7 +7.67% MSCI catalyst"
+        },
+        {
+          "sym": "IRPC",
+          "score": 6.8,
+          "sector": "PETRO",
+          "why": "Rank +12 jump D1 +5.10% S7 +7.29% but GRM -5.26%"
+        },
+        {
+          "sym": "CENTEL",
+          "score": 6.5,
+          "sector": "TOURISM",
+          "why": "Rank +11 jump Rt 1.79x but visa policy negative"
+        },
+        {
+          "sym": "CK",
+          "score": 6.2,
+          "sector": "PROPCON",
+          "why": "Rank +7 jump Rt 1.16x D1 +2.86% PROPCON +0.48%"
+        },
+        {
+          "sym": "SALMON-F",
+          "score": 5.5,
+          "sector": "COMMODITY",
+          "why": "Rank +13 jump D1 +3.66% but S7 -12.39% negative"
+        },
+        {
+          "sym": "GPSC",
+          "score": 5.2,
+          "sector": "ENERG",
+          "why": "Rank +3 jump ENERG +0.59% D1 +0.65% S7 +0.65%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260520-2037",
     "last_update": "2026-05-20 20:37:37",
     "gemini": {
