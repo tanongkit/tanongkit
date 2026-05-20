@@ -1,5 +1,197 @@
 [
   {
+    "tx_id": "20260520-1134",
+    "last_update": "2026-05-20 11:34:27",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET index up strongly, led by key TECH (+3.85%) and Construction (+2.89%) sectors.",
+      "player_stance": "HOLD",
+      "stance_reason": "Portfolio position (DELTA) is performing well with an active catalyst; waiting for high-volume signals for new entries.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 324.0,
+          "reason": "MSCI catalyst active, S7 positive, price rising."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "MOTHER",
+          "action": "BUY",
+          "conf": 9,
+          "now": 1.22,
+          "entry": 1.23,
+          "tp": 1.35,
+          "vs": "Market",
+          "why": "Passes all entry rules (RSI, Rt > 1.5, S7+)"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 32.25,
+          "entry": 32.5,
+          "tp": 36.0,
+          "vs": "ETRON Sector",
+          "why": "Hot sector, huge rank jump, strong D1 momentum."
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 8,
+          "now": 13.5,
+          "entry": 13.6,
+          "tp": 14.5,
+          "vs": "CONS Sector",
+          "why": "Hot sector, strong D1, very high rank score."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 7,
+          "now": 15.1,
+          "entry": 15.2,
+          "tp": 16.5,
+          "vs": "Market",
+          "why": "'คนละครึ่ง' catalyst, strong S7, good Q1 results."
+        },
+        {
+          "sym": "TRUE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 14.6,
+          "entry": 14.7,
+          "tp": 16.0,
+          "vs": "ICT Sector",
+          "why": "'STRONG' ER rating, positive S7 and rank change."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "MOTHER",
+          "score": 9.5,
+          "why": "Highest Rt, strong rank score and D1 momentum."
+        },
+        {
+          "sym": "HANA",
+          "score": 9.2,
+          "why": "Massive rank jump (+33) and daily gain (+9.3%)."
+        },
+        {
+          "sym": "STECON",
+          "score": 9.0,
+          "why": "Top rank score among jumpers, strong daily gain."
+        },
+        {
+          "sym": "KCE",
+          "score": 8.8,
+          "why": "Strong rank jump (+21) and momentum in hot sector."
+        },
+        {
+          "sym": "DELTA",
+          "score": 8.7,
+          "why": "Strong rank jump (+15), MSCI catalyst, solid momentum."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.81% TECH +2.56% ETRON +3.85% CONS +2.89% strong volume",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA at 313 hold until 29 May MSCI effective or TP 350",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7 +8% MSCI 29 May TP 350"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.82,
+          "entry": 4.85,
+          "tp": 5.3,
+          "vs": "Data Center EV play",
+          "why": "S7 +8.5% Rt 0.28 but D1 -0.4"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.1,
+          "entry": 15.2,
+          "tp": 16.5,
+          "vs": "คนละครึ่ง June catalyst",
+          "why": "S7 +7% Rt 0.99 pass RSI 62"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 32.25,
+          "entry": 32.5,
+          "tp": 35.0,
+          "vs": "ELEC V-Shape +9% today",
+          "why": "Rt 1.02 D1 +9.3% rank +33"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 32.25,
+          "entry": 32.5,
+          "tp": 34.5,
+          "vs": "PCB ELEC rank +21",
+          "why": "Rt 0.44 S7 +4% D1 +4%"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 6,
+          "now": 13.5,
+          "entry": 13.6,
+          "tp": 14.8,
+          "vs": "CONS +2.89% rank +6",
+          "why": "Rt 0.47 D1 +3% S7 +4.6%"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "DELTA",
+          "score": 9.2,
+          "why": "MSCI effective 29 May S7 +8%"
+        },
+        {
+          "sym": "HANA",
+          "score": 8.8,
+          "why": "Rank +33 Rt 1.02 D1 +9.3%"
+        },
+        {
+          "sym": "KCE",
+          "score": 8.5,
+          "why": "Rank +21 S7 +4% ETRON +3.85%"
+        },
+        {
+          "sym": "OSP",
+          "score": 8.3,
+          "why": "Rank +6 Rt 0.99 คนละครึ่ง"
+        },
+        {
+          "sym": "STECON",
+          "score": 8.0,
+          "why": "Rank +6 CONS +2.89% D1 +3%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260520-1103",
     "last_update": "2026-05-20 11:03:11",
     "gemini": null,
