@@ -1,5 +1,167 @@
 [
   {
+    "tx_id": "20260520-1004",
+    "last_update": "2026-05-20 10:04:58",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET green but mixed sectors; Tech leads while Financials/Industrials lag.",
+      "player_stance": "HOLD",
+      "stance_reason": "Fully invested in DELTA. Waiting for TP/Stop or catalyst conclusion before rotating capital.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7 positive, low Rt, MSCI catalyst active."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.84,
+          "entry": 4.86,
+          "tp": 5.2,
+          "vs": "Stop 4.60",
+          "why": "All signals pass, EV/DC catalyst."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.1,
+          "tp": 16.5,
+          "vs": "Stop 14.20",
+          "why": "All signals pass, retail catalyst."
+        },
+        {
+          "sym": "COM7",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 25.25,
+          "entry": 25.5,
+          "tp": 28.0,
+          "vs": "Rt<1.5x",
+          "why": "Wait for volume, retail catalyst."
+        },
+        {
+          "sym": "CBG",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 40.75,
+          "entry": 41.0,
+          "tp": 45.0,
+          "vs": "Rt<1.5x",
+          "why": "Wait for volume, retail catalyst."
+        },
+        {
+          "sym": "PSL",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 7.5,
+          "entry": 7.6,
+          "tp": 8.2,
+          "vs": "Rt<1.5x",
+          "why": "BDI play, needs volume confirmation."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "OSP",
+          "score": 9.5,
+          "why": "Massive rank jump with high volume."
+        },
+        {
+          "sym": "HMPRO",
+          "score": 9.0,
+          "why": "Huge rank jump with strong volume."
+        },
+        {
+          "sym": "LH",
+          "score": 8.5,
+          "why": "Major rank jump, high volume turnaround."
+        },
+        {
+          "sym": "IVL",
+          "score": 8.0,
+          "why": "Biggest rank jump, momentum shifting."
+        },
+        {
+          "sym": "WHA",
+          "score": 7.5,
+          "why": "High rank, strong breakout volume."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET +0.3% TECH/TOURISM up PETRO/FASHION down mixed signals",
+      "player_stance": "HOLD",
+      "stance_reason": "Port DELTA 10d to MSCI deadline near TP350 watchlist need Rt>1.5x",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7+2.6% 10d to MSCI TP350 near"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.84,
+          "entry": 4.85,
+          "tp": 5.6,
+          "vs": "Rank+4 RSI72 Rt2.23 S7+6.6 passed",
+          "why": "EV Data Center MSCI catalyst ready"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 17.5,
+          "vs": "Rank+24 RSI58 Rt2.37 S7+4.9 passed",
+          "why": "คนละครึ่งหนุน Rt spike strong"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "WHA",
+          "score": 9.2,
+          "why": "Rank+4 Rt2.23 S7+6.6 EV catalyst"
+        },
+        {
+          "sym": "OSP",
+          "score": 9.0,
+          "why": "Rank+24 Rt2.37 คนละครึ่ง catalyst"
+        },
+        {
+          "sym": "HMPRO",
+          "score": 7.8,
+          "why": "Rank+40 Rt1.75 คนละครึ่งหนุน wait S7"
+        },
+        {
+          "sym": "DELTA",
+          "score": 7.5,
+          "why": "Rank+20 MSCI 10d deadline hold"
+        },
+        {
+          "sym": "M",
+          "score": 7.0,
+          "why": "Rank+1 Rt2.4 RSI78 hot wait"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260520-0834",
     "last_update": "2026-05-20 08:34:55",
     "gemini": {
