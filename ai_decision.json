@@ -1,5 +1,197 @@
 [
   {
+    "tx_id": "20260520-0834",
+    "last_update": "2026-05-20 08:34:55",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Sector/index data is flat; individual stock performance is mixed.",
+      "player_stance": "HOLD",
+      "stance_reason": "Port is full with DELTA, which meets HOLD criteria. Watching WHA/OSP for entry.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7 positive, low Rt, MSCI catalyst active."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 10,
+          "now": 4.84,
+          "entry": 4.84,
+          "tp": 5.2,
+          "vs": "4.60",
+          "why": "Passes all rules; strong momentum & catalyst."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 9,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.5,
+          "vs": "14.20",
+          "why": "Passes all rules; 'คนละครึ่ง' catalyst boost."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 7,
+          "now": 25.25,
+          "entry": 25.25,
+          "tp": 28.0,
+          "vs": "24.0",
+          "why": "Wait for Rt > 1.5x; 'คนละครึ่ง' catalyst."
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 6,
+          "now": 34.5,
+          "entry": 34.5,
+          "tp": 37.0,
+          "vs": "33.0",
+          "why": "Wait for Rt > 1.5x; strong S7 momentum."
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 5,
+          "now": 7.5,
+          "entry": 7.5,
+          "tp": 8.5,
+          "vs": "7.0",
+          "why": "Wait for Rt > 1.5x; BDI freight index play."
+        }
+      ],
+      "top5": [
+        {
+          "sym": "OSP",
+          "score": 9.5,
+          "why": "Massive rank jump, high Rt, strong momentum."
+        },
+        {
+          "sym": "WHA",
+          "score": 9.2,
+          "why": "Top rank, high Rt, strong daily gain."
+        },
+        {
+          "sym": "HMPRO",
+          "score": 8.8,
+          "why": "Huge rank jump (+40) into Top 10."
+        },
+        {
+          "sym": "MTC",
+          "score": 8.5,
+          "why": "Large rank jump (+30) with strong D1%."
+        },
+        {
+          "sym": "IVL",
+          "score": 8.2,
+          "why": "Biggest rank jump on list (+50)."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET flat, mixed sector, DELTA S7+ but Vol low, MSCI 9d left",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA holds, wait entry signal Universe stocks, 9d to MSCI deadline",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 313.0,
+          "reason": "S7 +2.62% · Vol Rt 0.72x low · 9d MSCI"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.84,
+          "entry": 4.84,
+          "tp": 5.3,
+          "vs": "✅ RSI71.8 Rt2.23x D1+4.8% S7+6.6% Universe",
+          "why": "EV DataCenter MSCI play"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.5,
+          "vs": "✅ RSI58 Rt2.37x D1+3.4% S7+4.9% Universe คนละครึ่ง",
+          "why": "คนละครึ่ง 1Jun catalyst strong"
+        },
+        {
+          "sym": "HMPRO",
+          "action": "BUY",
+          "conf": 6,
+          "now": 6.0,
+          "entry": 6.0,
+          "tp": 6.5,
+          "vs": "✅ Rt1.75x D1+1.7% S7 flat Universe คนละครึ่ง",
+          "why": "คนละครึ่ง 1Jun but RSI46 low"
+        },
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "conf": 7,
+          "now": 313.0,
+          "entry": 314.54,
+          "tp": 350.0,
+          "vs": "S7+2.62% MSCI 29May · Rt0.72x low Vol",
+          "why": "MSCI deadline 9d TP before"
+        },
+        {
+          "sym": "M",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 21.6,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "❌ RSI77.6 hot · Rt2.4x D1+5.4% S7+15.5% Universe",
+          "why": "RSI hot wait pullback 70"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "OSP",
+          "score": 9.2,
+          "why": "Rank+24 Rt2.37x RSI58 คนละครึ่ง catalyst"
+        },
+        {
+          "sym": "HMPRO",
+          "score": 8.8,
+          "why": "Rank+40 Rt1.75x คนละครึ่ง 1Jun strong"
+        },
+        {
+          "sym": "DELTA",
+          "score": 8.5,
+          "why": "Rank+20 S7+2.62% MSCI 9d left"
+        },
+        {
+          "sym": "PTTEP",
+          "score": 8.0,
+          "why": "Rank+24 Rt0.69x S7+1.67% oil"
+        },
+        {
+          "sym": "WHA",
+          "score": 9.5,
+          "why": "Rank+4 Rt2.23x RSI71.8 S7+6.6% EV"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260520-0822",
     "last_update": "2026-05-20 08:22:26",
     "gemini": {

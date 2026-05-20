@@ -1,15 +1,31 @@
 {
-  "execution_time": "2026-05-20 08:13",
-  "ref_tx_id": "20260520-0753",
-  "orders": [],
+  "execution_time": "2026-05-20 08:36",
+  "ref_tx_id": "20260520-0834",
+  "orders": [
+    {
+      "symbol": "OSP",
+      "action": "BUY",
+      "price": 15.0,
+      "qty": 13300,
+      "sources": [
+        "blue"
+      ]
+    }
+  ],
   "blue": {
-    "cash": 4800108.0,
+    "cash": 4600608.0,
     "positions": {
       "WHA": {
         "qty": 41300,
         "avg_price": 4.84,
         "value": 199892.0,
         "time": "2026-05-20 08:13"
+      },
+      "OSP": {
+        "qty": 13300,
+        "avg_price": 15.0,
+        "value": 199500.0,
+        "time": "2026-05-20 08:36"
       }
     }
   },
