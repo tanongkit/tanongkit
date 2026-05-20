@@ -1,5 +1,146 @@
 [
   {
+    "tx_id": "20260520-1434",
+    "last_update": "2026-05-20 14:34:04",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index positive, led by strong gains in the key TECH/ETRON sector.",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA position is profitable and performing well within the MSCI catalyst timeline. Watching for new entries.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 325.0,
+          "reason": "MSCI play valid, S7 positive"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 34.5,
+          "entry": 34.5,
+          "tp": 38.0,
+          "vs": "ETRON sector strong",
+          "why": "Passes all entry rules (Rt>1.5x)"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 8,
+          "now": 14.0,
+          "entry": 14.0,
+          "tp": 15.5,
+          "vs": "CONS sector leader",
+          "why": "Strong momentum, huge rank jump"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.1,
+          "entry": 15.1,
+          "tp": 16.5,
+          "vs": "Consumer spending",
+          "why": "Near breakout Rt, 'Konlakrueng' catalyst"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.8,
+          "entry": 4.8,
+          "tp": 5.2,
+          "vs": "EV/Data Center theme",
+          "why": "Strong S7, wait for volume confirmation"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 32.75,
+          "entry": 32.75,
+          "tp": 36.0,
+          "vs": "ETRON sector strong",
+          "why": "Big rank jump, strong momentum"
+        }
+      ],
+      "top5": [
+        {
+          "sym": "EASTW",
+          "score": 9.5,
+          "why": "Top rank, massive S7 momentum"
+        },
+        {
+          "sym": "AMATA",
+          "score": 9.1,
+          "why": "High rank, strong S7, RSI hot"
+        },
+        {
+          "sym": "STECON",
+          "score": 8.8,
+          "why": "Huge rank jump, positive D1/S7"
+        },
+        {
+          "sym": "HANA",
+          "score": 8.5,
+          "why": "Strong entry signals (Rt>1.5x)"
+        },
+        {
+          "sym": "TLI",
+          "score": 8.4,
+          "why": "Strong S7 and high RSI"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.68% · TECH +2.27% · ETRON +3.39% · PROPCON +0.52%",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA ถือครบ · ใกล้ MSCI 29 พ.ค. 9 วัน · รอ TP 350",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "qty": 2600,
+          "price": 325.0,
+          "reason": "ทุน 314.54 · +3.83% today · S7 +8.33% · ถือจนถึง TP 350"
+        }
+      ],
+      "picks": [],
+      "top5": [
+        {
+          "sym": "STECON",
+          "score": 9.2,
+          "why": "Rank +8 · Rt 1.12 · +6.87% · RSI 62.5"
+        },
+        {
+          "sym": "HANA",
+          "score": 8.8,
+          "why": "Rank +59 · Rt 2.0 · +16.95% · ELEC V-Shape"
+        },
+        {
+          "sym": "CENTEL",
+          "score": 7.5,
+          "why": "Rank +21 · Rt 1.25 · +4.03% · แต่ Visa ลบ"
+        },
+        {
+          "sym": "KCE",
+          "score": 7.3,
+          "why": "Rank +28 · Rt 0.62 · +5.65% · PCB ELEC"
+        },
+        {
+          "sym": "CCET",
+          "score": 6.8,
+          "why": "Rank +22 · Rt 0.83 · +3.36% · S7 +6.03%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260520-1405",
     "last_update": "2026-05-20 14:05:30",
     "gemini": {
