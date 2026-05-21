@@ -1,46 +1,44 @@
 {
-  "execution_time": "2026-05-21 11:05",
-  "ref_tx_id": "20260521-1104",
+  "execution_time": "2026-05-21 11:35",
+  "ref_tx_id": "20260521-1134",
   "orders": [
     {
-      "symbol": "OSP",
+      "symbol": "GUNKUL",
       "action": "BUY",
-      "price": 15.1,
-      "qty": 13200,
+      "price": 3.6,
+      "qty": 55500,
       "sources": [
         "blue"
       ]
     },
     {
       "symbol": "HANA",
-      "action": "BUY",
+      "action": "SELL",
       "price": 33.75,
-      "qty": 5900,
       "sources": [
         "red"
       ]
     }
   ],
   "blue": {
-    "cash": 4800358.0,
+    "cash": 4600558.0,
     "positions": {
       "OSP": {
         "qty": 13200,
         "avg_price": 15.1,
         "value": 199320.0,
         "time": "2026-05-21 11:05"
+      },
+      "GUNKUL": {
+        "qty": 55500,
+        "avg_price": 3.6,
+        "value": 199800.0,
+        "time": "2026-05-21 11:35"
       }
     }
   },
   "red": {
-    "cash": 4800821.0,
-    "positions": {
-      "HANA": {
-        "qty": 5900,
-        "avg_price": 33.75,
-        "value": 199125.0,
-        "time": "2026-05-21 11:05"
-      }
-    }
+    "cash": 4999946.0,
+    "positions": {}
   }
 }
