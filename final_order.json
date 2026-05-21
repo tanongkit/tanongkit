@@ -1,21 +1,12 @@
 {
-  "execution_time": "2026-05-21 14:15",
-  "ref_tx_id": "20260521-1414",
+  "execution_time": "2026-05-21 15:08",
+  "ref_tx_id": "20260521-1506",
   "orders": [
     {
-      "symbol": "WHA",
+      "symbol": "GPSC",
       "action": "BUY",
-      "price": 4.9,
-      "qty": 40800,
-      "sources": [
-        "blue"
-      ]
-    },
-    {
-      "symbol": "WHA",
-      "action": "BUY",
-      "price": 4.9,
-      "qty": 4000,
+      "price": 40.0,
+      "qty": 4900,
       "sources": [
         "red"
       ]
@@ -45,13 +36,19 @@
     }
   },
   "red": {
-    "cash": 4980346.0,
+    "cash": 4784346.0,
     "positions": {
       "WHA": {
         "qty": 4000,
         "avg_price": 4.9,
         "value": 19600.0,
         "time": "2026-05-21 14:15"
+      },
+      "GPSC": {
+        "qty": 4900,
+        "avg_price": 40.0,
+        "value": 196000.0,
+        "time": "2026-05-21 15:08"
       }
     }
   }
