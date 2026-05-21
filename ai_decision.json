@@ -1,5 +1,173 @@
 [
   {
+    "tx_id": "20260521-0848",
+    "last_update": "2026-05-21 08:48:43",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET index and sector data are flat, indicating no pre-market direction.",
+      "player_stance": "HOLD",
+      "stance_reason": "Portfolio is fully invested in DELTA, holding position based on MSCI rebalancing catalyst timeline.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 14.3,
+          "entry": 14.4,
+          "tp": 15.2,
+          "vs": "Rt 2.14x",
+          "why": "All signals green, strong rank jump."
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 9,
+          "now": 6.45,
+          "entry": 6.5,
+          "tp": 7.0,
+          "vs": "Rt 3.90x",
+          "why": "All signals green, extreme momentum."
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 34.5,
+          "entry": 34.75,
+          "tp": 37.0,
+          "vs": "Rt 2.89x",
+          "why": "V-shape DNA, passes all rules, strong D1."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.1,
+          "entry": 15.2,
+          "tp": 15.8,
+          "vs": "Rt 1.86x",
+          "why": "Passes rules, benefits from stimulus news."
+        },
+        {
+          "sym": "MOTHER",
+          "action": "BUY",
+          "conf": 7,
+          "now": 1.16,
+          "entry": 1.17,
+          "tp": 1.25,
+          "vs": "Rt 5.65x",
+          "why": "Passes rules, exceptionally high volume."
+        },
+        {
+          "sym": "EASTW",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.98,
+          "entry": 4.0,
+          "tp": 4.2,
+          "vs": "Rt 2.04x",
+          "why": "High momentum, RSI slightly overbought (76)."
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 31.75,
+          "entry": 31.75,
+          "tp": 33.0,
+          "vs": "Rt 1.79x",
+          "why": "Signals pass but negative visa news is a risk."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 5,
+          "now": 24.8,
+          "entry": 25.0,
+          "tp": 26.5,
+          "vs": "Rt 1.21x",
+          "why": "Stimulus catalyst, needs Rt confirmation."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET flat 0%, ELEC high but TOURISM/PETRO weak, mixed signals",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA hold to TP 350/360 or 29-May MSCI, no new slots, watch watchlist",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "reason": "Price 323 vs TP 350 (+8.4%), S7 +7.67% strong, Rt 0.94x low but MSCI 29-May catalyst in 8 days, hold to target or deadline",
+          "current_price": 323.0,
+          "tp": 350,
+          "stop": 290,
+          "pnl": -4004,
+          "pnl_pct": -0.49
+        }
+      ],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 7,
+          "now": 14.3,
+          "entry": 14.0,
+          "tp": 15.7,
+          "sector": "CONS",
+          "vs": "Rank 3 jump +9, Rt 2.14x strong",
+          "why": "S7 +10.85%, RSI 65, wait Rt settle"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 34.5,
+          "entry": 34.0,
+          "tp": 38.0,
+          "sector": "ETRON",
+          "vs": "Rank 20→20 jump +55, Rt 2.89x massive",
+          "why": "ELEC V-Shape, S7 +4.5%, RSI 58.8 healthy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 32.75,
+          "entry": 32.5,
+          "tp": 36.0,
+          "sector": "ETRON",
+          "vs": "Rank 23 jump +29, Rt 1.13x weak",
+          "why": "ELEC play, S7 +5.6%, wait Rt confirm"
+        },
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 6.45,
+          "entry": 6.3,
+          "tp": 7.1,
+          "sector": "ETRON",
+          "vs": "Rank 12 jump +48, Rt 3.9x explosive",
+          "why": "S7 +11.2% but NOT in Universe, skip"
+        },
+        {
+          "sym": "OSP",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 15.1,
+          "entry": 15.0,
+          "tp": 16.5,
+          "sector": "FOOD",
+          "vs": "Rank 30, Rt 1.86x, S7 +7.09%",
+          "why": "Port full, watchlist confirm catalyst Jun 1"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260520-2229",
     "last_update": "2026-05-20 22:29:18",
     "gemini": {
