@@ -1,5 +1,168 @@
 [
   {
+    "tx_id": "20260521-1019",
+    "last_update": "2026-05-21 10:19:43",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "Strong inflows into key sectors like ETRON (+1.81%) and FIN (+2.07%).",
+      "player_stance": "HOLD",
+      "stance_reason": "Portfolio is fully invested in DELTA. Holding position and monitoring watchlist for potential rotation.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 9,
+          "now": 6.55,
+          "entry": 6.55,
+          "tp": 7.05,
+          "vs": "6.30",
+          "why": "Top rank, massive Rt, strong ETRON sector momentum."
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 35.0,
+          "entry": 35.0,
+          "tp": 38.5,
+          "vs": "33.50",
+          "why": "High rank, V-Shape DNA, strong Rt, ETRON momentum."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.52,
+          "entry": 3.52,
+          "tp": 3.7,
+          "vs": "3.40",
+          "why": "Strong rank, high Rt, momentum signals pass rules."
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 8,
+          "now": 14.1,
+          "entry": 14.1,
+          "tp": 14.9,
+          "vs": "13.60",
+          "why": "Solid rank, strong Rt/S7, momentum confirmed."
+        },
+        {
+          "sym": "GPSC",
+          "action": "BUY",
+          "conf": 8,
+          "now": 39.25,
+          "entry": 39.25,
+          "tp": 42.0,
+          "vs": "37.75",
+          "why": "Top 10 rank, strong Rt, passing all rules."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 33.0,
+          "entry": 33.0,
+          "tp": 36.25,
+          "vs": "31.75",
+          "why": "Rank jump, V-Shape DNA, very high Rt."
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.82,
+          "entry": 4.82,
+          "tp": 5.15,
+          "vs": "4.62",
+          "why": "Top watchlist pick, Step-Up DNA, all signals pass."
+        },
+        {
+          "sym": "ADVANC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 365.0,
+          "entry": 365.0,
+          "tp": 382.0,
+          "vs": "350.0",
+          "why": "Strong rank climb, solid Rt/S7 signals."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "FIN +2.07%, TECH +0.99%, COMM +1.01%, SERVICE +0.86% lead sectors up",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA at 313 vs entry 314.54, S7 -1.21% weak, 8 days to MSCI deadline—hold until TP 350 or Stop 290",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "reason": "S7 weak -1.21% but Rt 18.09x high, MSCI 29 May catalyst intact, hold until TP 350 or Stop 290"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 35.0,
+          "entry": 34.5,
+          "tp": 40.0,
+          "sector": "ETRON",
+          "vs": "rank 2 +18",
+          "why": "RSI 58.8 sweet, Rt 54.6x huge, S7 0% neutral pass override"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 33.0,
+          "entry": 32.5,
+          "tp": 37.0,
+          "sector": "ETRON",
+          "vs": "rank 9 +14",
+          "why": "RSI 60.5 good, Rt 21.84x pass, S7 +2.33% weak but Rt+D1 override"
+        },
+        {
+          "sym": "GPSC",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 39.25,
+          "entry": 38.5,
+          "tp": 43.0,
+          "sector": "ENERG",
+          "vs": "rank 7 +1",
+          "why": "RSI 60.4 ok, Rt 14.05x pass, S7 +3.29% pass but ENERG -0.15%"
+        },
+        {
+          "sym": "ADVANC",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 365.0,
+          "entry": 360.0,
+          "tp": 390.0,
+          "sector": "ICT",
+          "vs": "rank 11 +4",
+          "why": "RSI 66.2 ok, Rt 14.84x pass, but S7 +2.82% weak ICT -0.12%"
+        },
+        {
+          "sym": "GULF",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 60.5,
+          "entry": 59.5,
+          "tp": 66.0,
+          "sector": "ENERG",
+          "vs": "rank 20 +9",
+          "why": "RSI 57.3 ok, Rt 10.53x pass, S7 +2.54% weak ENERG -0.15%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260521-1005",
     "last_update": "2026-05-21 10:05:36",
     "gemini": {
