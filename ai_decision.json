@@ -1,5 +1,168 @@
 [
   {
+    "tx_id": "20260521-1414",
+    "last_update": "2026-05-21 14:14:35",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Sector rotation into Finance/Tech, but overall index is flat.",
+      "player_stance": "HOLD",
+      "stance_reason": "Portfolio is full with DELTA (MSCI play). Watching for new entries once capital is free.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.9,
+          "entry": 4.88,
+          "tp": 5.2,
+          "vs": "Rt 2.01x",
+          "why": "All rules pass, EV+DC theme"
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 9,
+          "now": 6.45,
+          "entry": 6.4,
+          "tp": 6.8,
+          "vs": "Rt 2.55x",
+          "why": "All rules pass, ETRON hot"
+        },
+        {
+          "sym": "ITC",
+          "action": "BUY",
+          "conf": 8,
+          "now": 16.4,
+          "entry": 16.3,
+          "tp": 17.2,
+          "vs": "Rt 2.08x",
+          "why": "All rules pass, good earnings"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 32.5,
+          "entry": 32.25,
+          "tp": 34.5,
+          "vs": "Rt 1.51x",
+          "why": "All rules pass, ELEC theme"
+        },
+        {
+          "sym": "LH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.64,
+          "entry": 3.62,
+          "tp": 3.8,
+          "vs": "Rt 1.95x",
+          "why": "All rules pass, PROP strong"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.64,
+          "entry": 3.62,
+          "tp": 3.8,
+          "vs": "Rt 1.06x",
+          "why": "High rank, wait for Rt>1.5x"
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 7,
+          "now": 25.25,
+          "entry": 25.0,
+          "tp": 26.5,
+          "vs": "Rt 0.57x",
+          "why": "Catalyst, wait for Rt>1.5x"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 6,
+          "now": 3.66,
+          "entry": 3.64,
+          "tp": 3.82,
+          "vs": "Rt 1.47x",
+          "why": "Almost passes Rt rule"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Mixed sectors: ETRON+0.87%, COMM+0.92% up; BANK-0.22%, INSUR-1.62% down; SET flat 0%",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA -0.49% still above Stop 290; hold for MSCI 29-May (8 days left)",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "reason": "Price 313.00 vs TP1 350 (+11.8%); 8 days to MSCI deadline; S7 -1.2% weak but no stop breach"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.9,
+          "entry": 4.85,
+          "tp": 5.4,
+          "sector": "PROPCON",
+          "vs": "Rank 8, RSI 71.9, Rt 2.01x, S7 +7.5%",
+          "why": "EV+Data Center, full pass, watchlist top"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 25.25,
+          "entry": 0,
+          "tp": 0,
+          "sector": "PROPCON",
+          "vs": "Rank 2, RSI 84.2 overbought, Rt 2.56x",
+          "why": "RSI too hot >75, skip"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 3.64,
+          "entry": 0,
+          "tp": 0,
+          "sector": "ENERG",
+          "vs": "Rank 3, RSI 75.0 edge, Rt 1.06x",
+          "why": "Rt <1.5x, RSI edge hot"
+        },
+        {
+          "sym": "ITC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 16.4,
+          "entry": 16.2,
+          "tp": 18.5,
+          "sector": "FOOD",
+          "vs": "Rank 47→47, RSI 58.7, Rt 2.08x, S7 +1.9%",
+          "why": "Food Q1 beat, Rt pass, catalyst ready"
+        },
+        {
+          "sym": "MTC",
+          "action": "BUY",
+          "conf": 6,
+          "now": 28.25,
+          "entry": 27.8,
+          "tp": 31.5,
+          "sector": "FIN",
+          "vs": "Rank 48, RSI 45.8 low, Rt 1.67x, S7 -1.7%",
+          "why": "S7 Override: Rt 1.67x + D1 +1.8%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260521-1134",
     "last_update": "2026-05-21 11:34:51",
     "gemini": {
