@@ -1,5 +1,168 @@
 [
   {
+    "tx_id": "20260521-1005",
+    "last_update": "2026-05-21 10:05:36",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "ETRON/TECH/FIN sectors strong, but broader SET index is flat early session.",
+      "player_stance": "WAIT",
+      "stance_reason": "Portfolio is fully invested in DELTA. Cannot add new positions until capital is freed.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 35.0,
+          "entry": 35.0,
+          "tp": 37.0,
+          "vs": "<33.5",
+          "why": "ETRON leader, strong D1. Wait Rt>1.5x."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 9,
+          "now": 33.0,
+          "entry": 33.0,
+          "tp": 35.0,
+          "vs": "<31.5",
+          "why": "ETRON sector strong, D1+S7 green. Wait Rt>1.5x."
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 8,
+          "now": 14.1,
+          "entry": 14.1,
+          "tp": 14.8,
+          "vs": "<13.5",
+          "why": "High rank, strong D1+S7 momentum. Wait Rt>1.5x."
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.82,
+          "entry": 4.82,
+          "tp": 5.0,
+          "vs": "<4.65",
+          "why": "Top watchlist, strong S7, clear catalyst. Wait Rt>1.5x."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 7,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 15.6,
+          "vs": "<14.5",
+          "why": "คนละครึ่ง catalyst, S7 positive. Wait Rt>1.5x."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 7,
+          "now": 25.0,
+          "entry": 25.0,
+          "tp": 26.0,
+          "vs": "<24.0",
+          "why": "คนละครึ่ง catalyst, S7 positive. Wait Rt>1.5x."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 3.52,
+          "entry": 3.52,
+          "tp": 3.7,
+          "vs": "<3.35",
+          "why": "High rank, S7 positive, RSI below 75. Wait Rt>1.5x."
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 7.4,
+          "entry": 7.4,
+          "tp": 7.75,
+          "vs": "<7.15",
+          "why": "V-shape recovery DNA, S7 positive. Wait Rt>1.5x."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Mixed signals: FIN+1.53% ETRON+1.83% strong, but INDUS-0.9% PKG-0.7% weak",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA holding, 8 days to MSCI deadline; watch 305-310 support for partial exit",
+      "port_action": [
+        {
+          "action": "HOLD",
+          "sym": "DELTA",
+          "reason": "S7 +9.0% still positive, price 327 above 305 support, 8 days to May 29 MSCI"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "conf": 7,
+          "now": 327.0,
+          "entry": 314.54,
+          "tp": 350.0,
+          "sector": "TECH",
+          "vs": "MSCI +8d S7+9% stop290",
+          "why": "Hold to TP350 or May29"
+        },
+        {
+          "sym": "WHA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 4.82,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "PROPCON",
+          "vs": "RSI68.9 S7+8.6% but Rt=0",
+          "why": "Need Rt>1.5x confirmation"
+        },
+        {
+          "sym": "OSP",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 15.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "FOOD",
+          "vs": "RSI59.6 S7+6.4% but Rt=0",
+          "why": "Koonlakreung phase2 Jun1 wait"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 33.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ETRON",
+          "vs": "rank20 RSI60.5 S7+6.5% Rt=0",
+          "why": "ELEC strong but Rt missing"
+        },
+        {
+          "sym": "IRPC",
+          "action": "SKIP",
+          "conf": 2,
+          "now": 2.02,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "PETRO",
+          "vs": "RSI58.6 S7+5.2% but no GRM",
+          "why": "GRM data missing Rule4 fail"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260521-0904",
     "last_update": "2026-05-21 09:04:47",
     "gemini": {
