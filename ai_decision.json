@@ -1,5 +1,168 @@
 [
   {
+    "tx_id": "20260521-1104",
+    "last_update": "2026-05-21 11:04:44",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Flat index but strong rotation into FIN, ETRON, and SERVICE sectors.",
+      "player_stance": "HOLD",
+      "stance_reason": "Portfolio is full (DELTA). Holding for MSCI catalyst while monitoring watchlist for high-momentum entry points.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.88,
+          "entry": 4.88,
+          "tp": 5.2,
+          "vs": "4.70",
+          "why": "Passes all rules, EV/Data Center catalyst."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.1,
+          "entry": 15.1,
+          "tp": 16.0,
+          "vs": "14.50",
+          "why": "Passes all rules, domestic consumption catalyst."
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 8,
+          "now": 6.5,
+          "entry": 6.5,
+          "tp": 6.9,
+          "vs": "6.20",
+          "why": "Strong Rt (3.28x) in leading ETRON sector."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 6,
+          "now": 25.25,
+          "entry": 25.25,
+          "tp": 27.0,
+          "vs": "24.50",
+          "why": "Strong catalyst (คนละครึ่ง), waiting for Rt > 1.5x."
+        },
+        {
+          "sym": "CBG",
+          "action": "BUY",
+          "conf": 5,
+          "now": 39.75,
+          "entry": 39.75,
+          "tp": 42.0,
+          "vs": "38.50",
+          "why": "Consumption catalyst, waiting for Rt > 1.5x."
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 4,
+          "now": 33.75,
+          "entry": 33.75,
+          "tp": 36.5,
+          "vs": "32.50",
+          "why": "Speculative: very high Rt, but fails S7 rule."
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 4,
+          "now": 7.35,
+          "entry": 7.35,
+          "tp": 7.8,
+          "vs": "7.10",
+          "why": "BDI play, on watchlist, needs Rt > 1.5x."
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 4,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 36.5,
+          "vs": "34.00",
+          "why": "Bond yield catalyst, needs Rt > 1.5x."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "ETRON +0.88%, TECH +0.47% offset by INSUR -1.14%, INDUS -0.57%",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA holding pattern, wait for MSCI effect 29 May, avoid morning spike entries",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "reason": "Price 326 vs cost 314.54 (+3.6%), S7 -1.5% weak but MSCI 29 May near, hold til 29 May or 350 TP"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "conf": 7,
+          "now": 326.0,
+          "entry": 314.54,
+          "tp": 350.0,
+          "sector": "TECH",
+          "vs": "MSCI window closing 8 days",
+          "why": "Hold til 29 May deadline"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 33.75,
+          "entry": 33.5,
+          "tp": 38.0,
+          "sector": "TECH",
+          "vs": "Rt 3.07x + ETRON sector +0.88%",
+          "why": "High Rt V-Shape rebound"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 5,
+          "now": 32.5,
+          "entry": 32.3,
+          "tp": 36.0,
+          "sector": "TECH",
+          "vs": "Rt 1.45x rank jump +2",
+          "why": "PCB ELEC momentum"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 24.9,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "PROPCON",
+          "vs": "RSI 82.5 overbought trap repeat",
+          "why": "Avoid high RSI lesson"
+        },
+        {
+          "sym": "GPSC",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 38.75,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ENERG",
+          "vs": "Rt 1.03x but S7 +1.97% weak",
+          "why": "Wait S7 strengthen"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260521-1019",
     "last_update": "2026-05-21 10:19:43",
     "gemini": {

@@ -1,13 +1,46 @@
 {
-  "execution_time": "2026-05-21 10:20",
-  "ref_tx_id": "20260521-1019",
-  "orders": [],
+  "execution_time": "2026-05-21 11:05",
+  "ref_tx_id": "20260521-1104",
+  "orders": [
+    {
+      "symbol": "OSP",
+      "action": "BUY",
+      "price": 15.1,
+      "qty": 13200,
+      "sources": [
+        "blue"
+      ]
+    },
+    {
+      "symbol": "HANA",
+      "action": "BUY",
+      "price": 33.75,
+      "qty": 5900,
+      "sources": [
+        "red"
+      ]
+    }
+  ],
   "blue": {
-    "cash": 4999678.0,
-    "positions": {}
+    "cash": 4800358.0,
+    "positions": {
+      "OSP": {
+        "qty": 13200,
+        "avg_price": 15.1,
+        "value": 199320.0,
+        "time": "2026-05-21 11:05"
+      }
+    }
   },
   "red": {
-    "cash": 4999946.0,
-    "positions": {}
+    "cash": 4800821.0,
+    "positions": {
+      "HANA": {
+        "qty": 5900,
+        "avg_price": 33.75,
+        "value": 199125.0,
+        "time": "2026-05-21 11:05"
+      }
+    }
   }
 }
