@@ -1,9 +1,45 @@
 {
-  "execution_time": "2026-05-22 14:39",
-  "ref_tx_id": "20260522-1438",
-  "orders": [],
+  "execution_time": "2026-05-22 15:09",
+  "ref_tx_id": "20260522-1508",
+  "orders": [
+    {
+      "symbol": "RBF",
+      "action": "BUY",
+      "price": 4.06,
+      "qty": 49200,
+      "sources": [
+        "blue"
+      ]
+    },
+    {
+      "symbol": "KCE",
+      "action": "BUY",
+      "price": 35.0,
+      "qty": 5700,
+      "sources": [
+        "blue"
+      ]
+    },
+    {
+      "symbol": "WHA",
+      "action": "BUY",
+      "price": 4.98,
+      "qty": 40100,
+      "sources": [
+        "blue"
+      ]
+    },
+    {
+      "symbol": "EPG",
+      "action": "SELL",
+      "price": 3.8,
+      "sources": [
+        "red"
+      ]
+    }
+  ],
   "blue": {
-    "cash": 1000000.0,
+    "cash": 401050.0,
     "positions": {
       "GPSC": {
         "qty": 5000,
@@ -22,18 +58,29 @@
         "avg_price": 3.8,
         "value": 199880.0,
         "time": "2026-05-22 11:39"
+      },
+      "RBF": {
+        "qty": 49200,
+        "avg_price": 4.06,
+        "value": 199752.0,
+        "time": "2026-05-22 15:09"
+      },
+      "KCE": {
+        "qty": 5700,
+        "avg_price": 35.0,
+        "value": 199500.0,
+        "time": "2026-05-22 15:09"
+      },
+      "WHA": {
+        "qty": 40100,
+        "avg_price": 4.98,
+        "value": 199698.0,
+        "time": "2026-05-22 15:09"
       }
     }
   },
   "red": {
-    "cash": 999912.0,
-    "positions": {
-      "EPG": {
-        "qty": 5300,
-        "avg_price": 3.76,
-        "value": 19928.0,
-        "time": "2026-05-22 14:11"
-      }
-    }
+    "cash": 1020052.0,
+    "positions": {}
   }
 }

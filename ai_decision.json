@@ -1,5 +1,172 @@
 [
   {
+    "tx_id": "20260522-1508",
+    "last_update": "2026-05-22 15:08:29",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index positive, strongly led by ETRON/TECH sector rally (+2.48%).",
+      "player_stance": "HOLD",
+      "stance_reason": "Port is full with DELTA, monitoring MSCI catalyst. Watchlist prepared for when capital is free.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.98,
+          "entry": 4.98,
+          "tp": 5.3,
+          "vs": "Rt 2.28x",
+          "why": "All rules pass; Top watchlist candidate."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 9,
+          "now": 35.0,
+          "entry": 35.0,
+          "tp": 37.5,
+          "vs": "Rt 2.04x",
+          "why": "Strong momentum in surging ETRON sector."
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.06,
+          "entry": 4.06,
+          "tp": 4.3,
+          "vs": "Rt 2.57x",
+          "why": "High rank change, passes all rules."
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.8,
+          "entry": 3.8,
+          "tp": 4.05,
+          "vs": "Rt 2.24x",
+          "why": "Meets all rules with strong volume."
+        },
+        {
+          "sym": "PLUS",
+          "action": "BUY",
+          "conf": 7,
+          "now": 1.25,
+          "entry": 1.25,
+          "tp": 1.35,
+          "vs": "Rt 6.01x",
+          "why": "Extreme volume, high risk/reward signal."
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 18.4,
+          "entry": 18.4,
+          "tp": 19.3,
+          "vs": "Rt 1.64x",
+          "why": "Passes all rules, solid momentum entry."
+        },
+        {
+          "sym": "GPSC",
+          "action": "BUY",
+          "conf": 6,
+          "now": 40.0,
+          "entry": 40.0,
+          "tp": 42.5,
+          "vs": "Rt 0.72x",
+          "why": "Rule fail: Wait for Rt > 1.5x."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 5,
+          "now": 25.75,
+          "entry": 25.75,
+          "tp": 27.5,
+          "vs": "Rt 0.46x",
+          "why": "Rule fail: Wait for Rt > 1.5x; catalyst play."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET +0.46% weak, TECH +1.56% best, TOURISM -0.52% worst, mixed sector flow",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA below cost -1.54B, 10d to MSCI 29-May TP window, no new Rule-passing entries",
+      "port_action": [
+        {
+          "action": "HOLD",
+          "sym": "DELTA",
+          "qty": 2600,
+          "cost": 314.54,
+          "now": 313.0,
+          "pl": -4004,
+          "reason": "S7 -0.30% weak but Rt 0.61x low panic none, 10d to MSCI TP 350-370 window, hold until TP/Stop 290"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.98,
+          "entry": 4.98,
+          "tp": 5.5,
+          "sector": "PROPCON",
+          "vs": "Rank 4 +6, RSI 74.1 OK",
+          "why": "Rt 2.28x S7 +6.4% pass full port"
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 6,
+          "now": 7.95,
+          "entry": 7.95,
+          "tp": 9.0,
+          "sector": "TECH",
+          "vs": "Rank 1 +10, RSI 81.3 hot",
+          "why": "Rt 10.4x S7 +25% extreme but ETRON +2.48%"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 5,
+          "now": 4.06,
+          "entry": 4.06,
+          "tp": 4.5,
+          "sector": "FOOD",
+          "vs": "Rank 16 +18, RSI 67.5 OK",
+          "why": "Rt 2.57x S7 +6.8% คนละครึ่ง Jun catalyst"
+        },
+        {
+          "sym": "KTB",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 34.75,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "FINCIAL",
+          "vs": "Rank 17 +14, RSI 70.3 OK",
+          "why": "Rt 1.07x below 1.5x Rule fail"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 35.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "TECH",
+          "vs": "Rank 19 +14, RSI 65.1 OK",
+          "why": "Rt 2.04x S7 +3.7% but port full"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260522-1438",
     "last_update": "2026-05-22 14:38:24",
     "gemini": {
