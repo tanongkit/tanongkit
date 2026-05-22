@@ -1,5 +1,169 @@
 [
   {
+    "tx_id": "20260523-0010",
+    "last_update": "2026-05-23 00:10:05",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "Electronics and Industrials lead the market up, showing strong risk-on appetite.",
+      "player_stance": "HOLD",
+      "stance_reason": "Port is full with DELTA in leading sector. Monitoring watchlist for new opportunities.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.06,
+          "entry": 4.06,
+          "tp": 4.4,
+          "vs": "rt=2.9x s7=6.8%",
+          "why": "Highest RT, strong momentum signal"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 38.0,
+          "vs": "rt=2.3x s7=3.0%",
+          "why": "Leading ETRON sector, V-shape"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.4,
+          "vs": "rt=2.3x s7=6.8%",
+          "why": "Strong momentum, EV/Data center theme"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.82,
+          "entry": 3.82,
+          "tp": 4.1,
+          "vs": "rt=2.2x s7=5.5%",
+          "why": "Passes all rules, swing pattern"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 18.7,
+          "entry": 18.7,
+          "tp": 20.0,
+          "vs": "rt=1.7x s7=4.5%",
+          "why": "Passes rules, financial sector"
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 6,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 36.5,
+          "vs": "rt=1.5x s7=3.0%",
+          "why": "BANK sector, Channel Up pattern"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 35.25,
+          "entry": 35.25,
+          "tp": 38.0,
+          "vs": "rt=1.5x s7=0.0%",
+          "why": "ETRON sector, meets min criteria"
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 5,
+          "now": 25.75,
+          "entry": 25.75,
+          "tp": 28.0,
+          "vs": "rt=1.1x s7=5.1%",
+          "why": "Strong catalyst, wait for Rt > 1.5x"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.39%, ETRON +2.16%, TECH +1.18%, INSUR +0.71%, volume healthy",
+      "player_stance": "SELL",
+      "stance_reason": "DELTA -0.49%, S7 -0.60%, 6 days to MSCI, take profit now before event",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "SELL_ALL",
+          "conf": 9,
+          "reason": "S7 negative, 6 days to MSCI deadline, secure profit before event risk"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.95,
+          "entry": 7.95,
+          "tp": 9.5,
+          "sector": "ELECTRONICS",
+          "vs": "Rank 1, RT 11.76x, RSI 78.8",
+          "why": "Super pick, explosive momentum"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.8,
+          "sector": "UTIL",
+          "vs": "Rank 4, RT 2.31x, RSI 73.6, S7 +6.84%",
+          "why": "Step Up DNA, EV catalyst"
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 8,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 38.0,
+          "sector": "BANK",
+          "vs": "Rank 18, RT 1.52x, RSI 70.3, S7 +2.96%",
+          "why": "Channel Up, bond yield NIM"
+        },
+        {
+          "sym": "RBF",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 4.06,
+          "entry": 4.1,
+          "tp": 4.8,
+          "sector": "FOOD",
+          "vs": "Rank 21, RT 2.88x, RSI 66, S7 +6.84%",
+          "why": "Wait S7 confirmation stronger"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 34.75,
+          "entry": 35.0,
+          "tp": 40.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank 14, RT 2.34x, RSI 65.1, S7 +2.96%",
+          "why": "ELEC rally, wait pullback"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260522-1508",
     "last_update": "2026-05-22 15:08:29",
     "gemini": {
