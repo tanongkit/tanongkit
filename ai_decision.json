@@ -1,5 +1,171 @@
 [
   {
+    "tx_id": "20260522-1048",
+    "last_update": "2026-05-22 10:48:09",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET is slightly up (+0.29%) but key sectors like services and tourism are lagging.",
+      "player_stance": "HOLD",
+      "stance_reason": "Port is fully invested in DELTA with a clear MSCI catalyst, awaiting price/stop trigger.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "GPSC",
+          "action": "WATCH",
+          "conf": 9,
+          "now": 40.0,
+          "entry": 40.0,
+          "tp": 42.5,
+          "vs": "Energy/ELEC leader",
+          "why": "High rank, S7+, RSI good"
+        },
+        {
+          "sym": "WHA",
+          "action": "WATCH",
+          "conf": 9,
+          "now": 4.96,
+          "entry": 4.96,
+          "tp": 5.3,
+          "vs": "EV/Data Center play",
+          "why": "Strong D1/S7, RSI ok"
+        },
+        {
+          "sym": "CCET",
+          "action": "WATCH",
+          "conf": 8,
+          "now": 7.45,
+          "entry": 7.45,
+          "tp": 8.0,
+          "vs": "Top momentum ELEC",
+          "why": "Extreme D1/S7 momo"
+        },
+        {
+          "sym": "COM7",
+          "action": "WATCH",
+          "conf": 8,
+          "now": 25.5,
+          "entry": 25.5,
+          "tp": 27.5,
+          "vs": "Retail catalyst",
+          "why": "S7+, 'คนละครึ่ง' theme"
+        },
+        {
+          "sym": "STECON",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 14.1,
+          "entry": 14.1,
+          "tp": 15.0,
+          "vs": "Construction recovery",
+          "why": "High rank, D1/S7 strong"
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 3.78,
+          "entry": 3.78,
+          "tp": 4.0,
+          "vs": "Packaging momentum",
+          "why": "Strong D1/S7 momo"
+        },
+        {
+          "sym": "KTB",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 35.0,
+          "entry": 35.0,
+          "tp": 37.0,
+          "vs": "Banking sector",
+          "why": "S7+, D1+, RSI good"
+        },
+        {
+          "sym": "OSP",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 15.1,
+          "entry": 15.1,
+          "tp": 16.0,
+          "vs": "Consumer catalyst",
+          "why": "S7+, 'คนละครึ่ง' theme"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET +0.29% mixed sectors TECH +0.5% COMM -0.42% TOURISM -0.61%",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA 313→328 above TP1 350 risk, MSCI 29-May 7 days, Vol spike caution",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "SELL_PARTIAL",
+          "pct": 50,
+          "reason": "Above entry 314.54→328, MSCI 7 days left, lock profit before event",
+          "tp": 350,
+          "stop": 290
+        }
+      ],
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "conf": 7,
+          "now": 328.0,
+          "entry": 314.54,
+          "tp": 350.0,
+          "sector": "ETRON",
+          "vs": "TP1 350 near",
+          "why": "MSCI 29-May 7d left TP partial"
+        },
+        {
+          "sym": "WHA",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 4.96,
+          "entry": 5.0,
+          "tp": 5.5,
+          "sector": "PROPCON",
+          "vs": "RSI 71.4 hot",
+          "why": "Rt 0 fail Rule2 wait"
+        },
+        {
+          "sym": "OSP",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 15.1,
+          "entry": 15.5,
+          "tp": 16.5,
+          "sector": "CONSUMP",
+          "vs": "Rt 0 fail",
+          "why": "Klakrueng Jun catalyst Rt wait"
+        },
+        {
+          "sym": "GPSC",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 40.0,
+          "entry": 40.5,
+          "tp": 43.0,
+          "sector": "ENERG",
+          "vs": "Rt 0 fail",
+          "why": "Rank 5 S7 +3.2% Rt wait"
+        },
+        {
+          "sym": "STECON",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 14.1,
+          "entry": 14.5,
+          "tp": 15.5,
+          "sector": "CONS",
+          "vs": "Volatile swing",
+          "why": "Rank 6 S7 +5.2% Rt fail"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260521-1506",
     "last_update": "2026-05-21 15:06:56",
     "gemini": {

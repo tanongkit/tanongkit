@@ -1,55 +1,30 @@
 {
-  "execution_time": "2026-05-21 15:08",
-  "ref_tx_id": "20260521-1506",
+  "execution_time": "2026-05-22 10:49",
+  "ref_tx_id": "20260522-1048",
   "orders": [
     {
       "symbol": "GPSC",
       "action": "BUY",
       "price": 40.0,
-      "qty": 4900,
+      "qty": 5000,
       "sources": [
-        "red"
+        "blue"
       ]
     }
   ],
   "blue": {
-    "cash": 4400638.0,
+    "cash": 4802504.0,
     "positions": {
-      "OSP": {
-        "qty": 13200,
-        "avg_price": 15.1,
-        "value": 199320.0,
-        "time": "2026-05-21 11:05"
-      },
-      "GUNKUL": {
-        "qty": 55500,
-        "avg_price": 3.6,
-        "value": 199800.0,
-        "time": "2026-05-21 11:35"
-      },
-      "WHA": {
-        "qty": 40800,
-        "avg_price": 4.9,
-        "value": 199920.0,
-        "time": "2026-05-21 14:15"
+      "GPSC": {
+        "qty": 5000,
+        "avg_price": 40.0,
+        "value": 200000.0,
+        "time": "2026-05-22 10:49"
       }
     }
   },
   "red": {
-    "cash": 4784346.0,
-    "positions": {
-      "WHA": {
-        "qty": 4000,
-        "avg_price": 4.9,
-        "value": 19600.0,
-        "time": "2026-05-21 14:15"
-      },
-      "GPSC": {
-        "qty": 4900,
-        "avg_price": 40.0,
-        "value": 196000.0,
-        "time": "2026-05-21 15:08"
-      }
-    }
+    "cash": 5000026.0,
+    "positions": {}
   }
 }
