@@ -1,25 +1,7 @@
 {
-  "execution_time": "2026-05-22 14:11",
-  "ref_tx_id": "20260522-1410",
-  "orders": [
-    {
-      "symbol": "WHA",
-      "action": "SELL",
-      "price": 4.96,
-      "sources": [
-        "red"
-      ]
-    },
-    {
-      "symbol": "EPG",
-      "action": "BUY",
-      "price": 3.76,
-      "qty": 5300,
-      "sources": [
-        "red"
-      ]
-    }
-  ],
+  "execution_time": "2026-05-22 14:39",
+  "ref_tx_id": "20260522-1438",
+  "orders": [],
   "blue": {
     "cash": 1000000.0,
     "positions": {

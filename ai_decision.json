@@ -1,5 +1,172 @@
 [
   {
+    "tx_id": "20260522-1438",
+    "last_update": "2026-05-22 14:38:24",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET up slightly, led by strong TECH/ETRON but other major sectors are mixed.",
+      "player_stance": "HOLD",
+      "stance_reason": "Full position in DELTA with active MSCI catalyst until May 29. Market is not showing strong sell signals.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.96,
+          "entry": 4.96,
+          "tp": 5.2,
+          "vs": "2.85x",
+          "why": "Passes all rules; EV/Data Center theme"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 9,
+          "now": 34.25,
+          "entry": 34.25,
+          "tp": 36.5,
+          "vs": "2.55x",
+          "why": "Strong ETRON sector momentum (+1.86%)"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.76,
+          "entry": 3.76,
+          "tp": 3.9,
+          "vs": "2.80x",
+          "why": "Passes all rules; strong PKG sector"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 35.5,
+          "entry": 35.5,
+          "tp": 37.0,
+          "vs": "1.40x",
+          "why": "Near-miss Rt in strong ETRON sector"
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 6,
+          "now": 35.0,
+          "entry": 35.0,
+          "tp": 36.0,
+          "vs": "1.34x",
+          "why": "Near-miss Rt with positive S7"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 5,
+          "now": 4.12,
+          "entry": 4.12,
+          "tp": 4.4,
+          "vs": "3.21x",
+          "why": "Strong momentum, but not in core universe"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 5,
+          "now": 18.6,
+          "entry": 18.6,
+          "tp": 19.5,
+          "vs": "2.05x",
+          "why": "Strong momentum, but not in core universe"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 4,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 15.8,
+          "vs": "0.69x",
+          "why": "'คนละครึ่ง' catalyst, waiting for volume"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.35%, TECH +1.34%, ETRON +1.86%, FASHION +1.49%, AUTO +0.77%",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA hold until TP 350/360 or MSCI deadline 29-May. No new entry, Universe stocks failing Rt>1.5x.",
+      "port_action": [
+        {
+          "action": "HOLD",
+          "sym": "DELTA",
+          "qty": 2600,
+          "cost": 314.54,
+          "last": 313.0,
+          "pl": -4004,
+          "reason": "S7 -1.2% weak but MSCI deadline 29-May priority. TP 350/360/370 or cut 290."
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.96,
+          "entry": 4.96,
+          "tp": 5.5,
+          "sector": "PROPCON",
+          "vs": "Rt 2.85x, RSI 73.6, S7 +5.98%",
+          "why": "EV+Data center, Rt>1.5x S7+ pass"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 6,
+          "now": 3.76,
+          "entry": 3.76,
+          "tp": 4.1,
+          "sector": "INDUS",
+          "vs": "Rt 2.8x, RSI 67.1, S7 +3.87%",
+          "why": "Packaging momentum, Rt>1.5x S7+ pass"
+        },
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 8.25,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "TECH",
+          "vs": "Rank #1, Rt 12.97x, RSI 80.5",
+          "why": "RSI overbought >75 violation Rule 1"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 6,
+          "now": 34.25,
+          "entry": 34.25,
+          "tp": 37.0,
+          "sector": "TECH",
+          "vs": "Rt 2.55x, RSI 65.1, S7 +1.48%",
+          "why": "PCB ELEC recovery, Rt>1.5x S7+ pass"
+        },
+        {
+          "sym": "OSP",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 15.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "CONSUMP",
+          "vs": "Rt 0.69x, RSI 61.3, S7 +2.74%",
+          "why": "Khon La Khrueng catalyst, Rt fails <1.5x"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260522-1410",
     "last_update": "2026-05-22 14:10:44",
     "gemini": {
