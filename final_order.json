@@ -1,19 +1,27 @@
 {
-  "execution_time": "2026-05-22 11:39",
-  "ref_tx_id": "20260522-1138",
+  "execution_time": "2026-05-22 14:11",
+  "ref_tx_id": "20260522-1410",
   "orders": [
+    {
+      "symbol": "WHA",
+      "action": "SELL",
+      "price": 4.96,
+      "sources": [
+        "red"
+      ]
+    },
     {
       "symbol": "EPG",
       "action": "BUY",
-      "price": 3.8,
-      "qty": 52600,
+      "price": 3.76,
+      "qty": 5300,
       "sources": [
-        "blue"
+        "red"
       ]
     }
   ],
   "blue": {
-    "cash": 4404984.0,
+    "cash": 1000000.0,
     "positions": {
       "GPSC": {
         "qty": 5000,
@@ -36,13 +44,13 @@
     }
   },
   "red": {
-    "cash": 4980106.0,
+    "cash": 999912.0,
     "positions": {
-      "WHA": {
-        "qty": 4000,
-        "avg_price": 4.98,
-        "value": 19920.0,
-        "time": "2026-05-22 11:09"
+      "EPG": {
+        "qty": 5300,
+        "avg_price": 3.76,
+        "value": 19928.0,
+        "time": "2026-05-22 14:11"
       }
     }
   }
