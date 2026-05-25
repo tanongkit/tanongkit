@@ -1,5 +1,169 @@
 [
   {
+    "tx_id": "20260525-1705",
+    "last_update": "2026-05-25 17:05:05",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.76% with broad sector strength, led by TRANS, FIN, and TOURISM.",
+      "player_stance": "HOLD",
+      "stance_reason": "Port is full with DELTA, awaiting MSCI rebalance catalyst. Monitoring watchlist for rotation opportunities.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "WATCH",
+          "conf": 9,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.5,
+          "vs": "Step Up DNA",
+          "why": "Passes all rules, EV/Data Center catalyst"
+        },
+        {
+          "sym": "OSP",
+          "action": "WATCH",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.5,
+          "vs": "Step Up DNA",
+          "why": "Passes all rules, 'คนละครึ่ง' catalyst"
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 8,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 38.0,
+          "vs": "V-Shape DNA",
+          "why": "Strong D1 momentum (+6.9%), ELEC sector play"
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 3.82,
+          "entry": 3.82,
+          "tp": 4.1,
+          "vs": "Volatile Swing",
+          "why": "Strong signals (RSI 68.5, S7 +5.5, D1 +3.2)"
+        },
+        {
+          "sym": "STECON",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 14.2,
+          "entry": 14.2,
+          "tp": 15.5,
+          "vs": "Volatile Swing",
+          "why": "Top 10 rank, strong D1 and S7 signals"
+        },
+        {
+          "sym": "COM7",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 25.75,
+          "entry": 25.75,
+          "tp": 28.0,
+          "vs": "Step Up DNA",
+          "why": "Strong S7, 'คนละครึ่ง' catalyst, waiting for volume"
+        },
+        {
+          "sym": "KTB",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 37.0,
+          "vs": "Channel Up",
+          "why": "Good signals, conservative bank play"
+        },
+        {
+          "sym": "M",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 21.3,
+          "entry": 21.3,
+          "tp": 23.0,
+          "vs": "Step Up DNA",
+          "why": "RSI cooled to 70.9, back in range"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.76%, FOOD +1.3%, FIN +2.33%, PROPCON +0.83% strong sectors",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA 5 days to MSCI deadline, hold for passive fund buying wave",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "conf": 8,
+          "reason": "MSCI effective 29-May 4 days away, price 332 at cost 314.54, S7 -0.6% weak but D1 +1.84%, hold until 28-May or TP 350"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.95,
+          "entry": 7.95,
+          "tp": 9.5,
+          "sector": "ELECTRONICS",
+          "vs": "Rank #2 from #11, RSI 79.4 hot but D1 +17.78%",
+          "why": "ELEC momentum rocket +25.2% S7 despite RT 0"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.5,
+          "sector": "UTIL",
+          "vs": "Rank #5 from #10, RSI 74.6, D1 +2.46%",
+          "why": "EV+Data Center S7 +6.84% strong"
+        },
+        {
+          "sym": "TIDLOR",
+          "action": "BUY",
+          "conf": 7,
+          "now": 17.8,
+          "entry": 17.8,
+          "tp": 19.5,
+          "sector": "FIN",
+          "vs": "Rank #13 from #28 +15 jump, RSI 61, FIN +2.33%",
+          "why": "Financial sector tailwind S7 +5.95%"
+        },
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 7.95,
+          "entry": 7.5,
+          "tp": 9.0,
+          "sector": "ELECTRONICS",
+          "vs": "RSI 79.4 overbought wait pullback to 75",
+          "why": "RT 0 missing volume confirmation"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 34.75,
+          "entry": 33.0,
+          "tp": 38.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank #17 from #33, RSI 65.7, D1 +6.92%",
+          "why": "RT 0 wait volume confirmation"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260525-1505",
     "last_update": "2026-05-25 15:05:00",
     "gemini": {
