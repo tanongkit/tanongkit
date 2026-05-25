@@ -1,5 +1,168 @@
 [
   {
+    "tx_id": "20260525-1505",
+    "last_update": "2026-05-25 15:05:00",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index +0.78% with broad-based buying across major sectors.",
+      "player_stance": "HOLD",
+      "stance_reason": "Port is fully invested in DELTA, which has not hit TP/Stop. Awaiting MSCI catalyst.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.95,
+          "entry": 7.95,
+          "tp": 8.5,
+          "vs": "KCE,HANA,DELTA",
+          "why": "Rank #2 rocket, applying lesson"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.3,
+          "vs": "AMATA",
+          "why": "Top watchlist, EV/DC catalyst"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 37.0,
+          "vs": "CCET,HANA,DELTA",
+          "why": "Strong rank jump (+16), high d1%"
+        },
+        {
+          "sym": "TIDLOR",
+          "action": "BUY",
+          "conf": 7,
+          "now": 17.8,
+          "entry": 17.8,
+          "tp": 19.0,
+          "vs": "MTC,CREDIT",
+          "why": "Top sector momentum, big jump"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 6,
+          "now": 14.2,
+          "entry": 14.2,
+          "tp": 15.0,
+          "vs": "CK",
+          "why": "Top 10 rank, solid momentum"
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 6,
+          "now": 25.75,
+          "entry": 25.75,
+          "tp": 27.0,
+          "vs": "CPALL,HMPRO",
+          "why": "Govt stimulus catalyst, strong S7"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 5,
+          "now": 3.82,
+          "entry": 3.82,
+          "tp": 4.0,
+          "vs": "SCGP",
+          "why": "Strong daily gain, solid S7"
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 5,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 36.5,
+          "vs": "SCB,KBANK",
+          "why": "Good rank jump, safe momentum"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.78%, FOOD +0.86%, FIN +2.41%, SERVICE +1.59%, TECH +1.06% leading",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA holds but S7 flat, MSCI deadline 4 days away, await 350 TP or 290 stop",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "reason": "S7 -0.6% weak, RSI 61, price 332 vs TP 350 (4d to MSCI), watch for 305-310 exit signal"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.95,
+          "entry": 7.95,
+          "tp": 9.5,
+          "sector": "ELECTRONICS",
+          "vs": "rank #2, +9 jump",
+          "why": "RSI 79, D1 +17.8%, S7 +25.2%, ELEC sector momentum"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.75,
+          "sector": "UTIL",
+          "vs": "rank #5, +5 jump",
+          "why": "RSI 74.6, D1 +2.5%, S7 +6.8%, EV/Data catalyst"
+        },
+        {
+          "sym": "KTB",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 34.75,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "BANK",
+          "vs": "rank #22, +9 jump",
+          "why": "RSI 70, S7 +3%, Rt 0 (need 1.5x confirmation)"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 18.7,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "FIN",
+          "vs": "rank #31, +16 jump",
+          "why": "RSI 69.5, S7 +4.5%, Rt 0 (need 1.5x)"
+        },
+        {
+          "sym": "OSP",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 15.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "FOOD",
+          "vs": "rank #33, +3 jump",
+          "why": "RSI 57, S7 +2.7%, Rt 0 (need 1.5x), คนละครึ่ง Jun catalyst"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260525-1435",
     "last_update": "2026-05-25 14:35:14",
     "gemini": {

@@ -1,19 +1,27 @@
 {
-  "execution_time": "2026-05-25 14:36",
-  "ref_tx_id": "20260525-1435",
+  "execution_time": "2026-05-25 15:06",
+  "ref_tx_id": "20260525-1505",
   "orders": [
     {
-      "symbol": "CCET",
+      "symbol": "TIDLOR",
       "action": "BUY",
-      "price": 9.3,
-      "qty": 21500,
+      "price": 17.8,
+      "qty": 11200,
+      "sources": [
+        "blue"
+      ]
+    },
+    {
+      "symbol": "CCET",
+      "action": "SELL",
+      "price": 9.2,
       "sources": [
         "red"
       ]
     }
   ],
   "blue": {
-    "cash": 600580.0,
+    "cash": 401220.0,
     "positions": {
       "RBF": {
         "qty": 49200,
@@ -32,18 +40,17 @@
         "avg_price": 35.0,
         "value": 199500.0,
         "time": "2026-05-25 11:06"
+      },
+      "TIDLOR": {
+        "qty": 11200,
+        "avg_price": 17.8,
+        "value": 199360.0,
+        "time": "2026-05-25 15:06"
       }
     }
   },
   "red": {
-    "cash": 1031750.0,
-    "positions": {
-      "CCET": {
-        "qty": 21500,
-        "avg_price": 9.3,
-        "value": 199950.0,
-        "time": "2026-05-25 14:36"
-      }
-    }
+    "cash": 1229550.0,
+    "positions": {}
   }
 }
