@@ -1,5 +1,171 @@
 [
   {
+    "tx_id": "20260525-1104",
+    "last_update": "2026-05-25 11:04:54",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.9% with broad-based strength in Service, Tech, and Transport sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Bullish market with strong watchlist candidates (WHA, OSP) ready if capital is freed from current DELTA position.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.4,
+          "vs": "Top tier fundamentals, EV/DC.",
+          "why": "All signals green, market leader."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.0,
+          "vs": "Strong domestic catalyst, good Rt.",
+          "why": "Meets rules, \"คนละครึ่ง\" play."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 37.5,
+          "vs": "Leading ETRON sector, V-shape.",
+          "why": "Strong sector momentum, rank jump."
+        },
+        {
+          "sym": "TIDLOR",
+          "action": "BUY",
+          "conf": 7,
+          "now": 17.8,
+          "entry": 17.8,
+          "tp": 19.0,
+          "vs": "Leading FIN sector, big jump.",
+          "why": "Strong momentum in strong sector."
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.06,
+          "entry": 4.06,
+          "tp": 4.4,
+          "vs": "FOOD sector momentum, improving.",
+          "why": "Meets RSI/S7, good rank jump."
+        },
+        {
+          "sym": "COM7",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 25.75,
+          "entry": 25.75,
+          "tp": 27.5,
+          "vs": "\"คนละครึ่ง\" catalyst, good S7.",
+          "why": "Awaiting Rt confirmation (>1.5x)."
+        },
+        {
+          "sym": "CREDIT",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 18.7,
+          "entry": 18.7,
+          "tp": 20.0,
+          "vs": "Strong individual move, rank jump.",
+          "why": "Strong signals but BANK sector lags."
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 3.82,
+          "entry": 3.82,
+          "tp": 4.1,
+          "vs": "Good D1/S7, volatile DNA.",
+          "why": "Signals good, INDUS sector weak."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.9% TECH +1.46% ETRON +1.46% FIN +1.79% broad sector strength",
+      "player_stance": "SELL",
+      "stance_reason": "DELTA TP before MSCI 29-May deadline 4 days away price 332 near TP1 350",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "SELL_PARTIAL",
+          "qty": 1300,
+          "reason": "TP 50% before MSCI 29-May deadline lock profit +23k",
+          "now": 332.0,
+          "tp": 350.0
+        }
+      ],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.95,
+          "entry": 7.95,
+          "tp": 9.5,
+          "sector": "ELECTRONICS",
+          "vs": "Rank#2 +9 jump RT unavailable RSI79",
+          "why": "ETRON sector +1.46% D1+17.8% S7+25.2%"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.5,
+          "sector": "UTIL",
+          "vs": "Rank#5 +5 jump RT unavailable RSI75",
+          "why": "D1+2.5% S7+6.8% S14+16.7% watchlist ready"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 38.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank#17 +16 jump RT unavailable RSI66",
+          "why": "ETRON momentum D1+6.9% S7+3.0% gap+8.6%"
+        },
+        {
+          "sym": "KTB",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 34.75,
+          "entry": 35.0,
+          "tp": 37.0,
+          "sector": "BANK",
+          "vs": "Rank#22 +9 jump RT unavailable RSI70",
+          "why": "Need Rt confirm D1+0.7% S7+3.0% conservative"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 18.7,
+          "entry": 18.8,
+          "tp": 20.0,
+          "sector": "FIN",
+          "vs": "Rank#31 +16 jump RT unavailable RSI70",
+          "why": "FIN sector strong need Rt>1.5x confirm"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260525-1034",
     "last_update": "2026-05-25 10:34:46",
     "gemini": {
