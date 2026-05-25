@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260525-1034",
+    "last_update": "2026-05-25 10:34:46",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.01% with broad sector strength, led by Tech (+1.94%) and Electronics (+2.35%).",
+      "player_stance": "HOLD",
+      "stance_reason": "Port is full (DELTA). Holding for MSCI catalyst amid bullish tech sentiment. Watching for new entries.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "WATCH",
+          "conf": 9,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.5,
+          "vs": "vs Top Pick",
+          "why": "Passes all rules, strong fundamentals."
+        },
+        {
+          "sym": "OSP",
+          "action": "WATCH",
+          "conf": 9,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.0,
+          "vs": "vs คนละครึ่ง",
+          "why": "Passes all rules, 'Konlakrueng' catalyst."
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 8,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 37.5,
+          "vs": "vs ETRON hot",
+          "why": "Strong D1 momentum in hot sector."
+        },
+        {
+          "sym": "STECON",
+          "action": "WATCH",
+          "conf": 8,
+          "now": 14.2,
+          "entry": 14.2,
+          "tp": 15.0,
+          "vs": "vs Top10 Rank",
+          "why": "Top 10 rank, passes all signals."
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 3.82,
+          "entry": 3.82,
+          "tp": 4.1,
+          "vs": "vs Volatile",
+          "why": "Good D1+S7 momentum."
+        },
+        {
+          "sym": "HANA",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 35.25,
+          "entry": 35.25,
+          "tp": 38.0,
+          "vs": "vs ETRON hot",
+          "why": "V-Shape DNA in hot sector."
+        },
+        {
+          "sym": "COM7",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 25.75,
+          "entry": 25.75,
+          "tp": 27.5,
+          "vs": "vs คนละครึ่ง",
+          "why": "Wait for Rt>1.5x, has catalyst."
+        },
+        {
+          "sym": "KTB",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 36.5,
+          "vs": "vs Bank",
+          "why": "Wait for Rt>1.5x, lower priority."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.01%, TECH +1.94%, ETRON +2.35%, FIN +1.48%, COMM +1.01% lead",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA 313 holding, 4 days to MSCI 29-May, avoid new entry near event",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "reason": "313.00 at entry 314.54, S7 -0.6% weak but MSCI 29-May critical, hold until 350 TP or 29-May",
+          "tp": 350,
+          "stop": 290
+        }
+      ],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.95,
+          "entry": 7.95,
+          "tp": 9.5,
+          "sector": "ELECTRONICS",
+          "vs": "Rank #2 from #11, RSI 79.4, D1 +17.8%, S7 +25.2%",
+          "why": "Super momentum ETRON sector +2.35% leading"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.8,
+          "sector": "PROPCON",
+          "vs": "Rank #5 from #10, RSI 74.6, D1 +2.5%, S7 +6.8%",
+          "why": "EV Data Center PROP +0.99% sector"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 34.75,
+          "entry": 35.0,
+          "tp": 40.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank #17 from #33, RSI 65.7, D1 +6.9%, S7 +3.0%",
+          "why": "RT 0.0 fails Rule 2, await Rt>1.5x"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 18.7,
+          "entry": 18.8,
+          "tp": 21.5,
+          "sector": "FIN",
+          "vs": "Rank #31 from #47, RSI 69.5, D1 +2.7%, S7 +4.5%",
+          "why": "RT 0.0 fails Rule 2, FIN +1.48%"
+        },
+        {
+          "sym": "OSP",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 15.0,
+          "entry": 15.1,
+          "tp": 17.0,
+          "sector": "FOOD",
+          "vs": "Rank #33, RSI 57.0, D1 -0.7%, S7 +2.7%",
+          "why": "RT 0.0 fails, คนละครึ่ง 1-Jun potential"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260525-1014",
     "last_update": "2026-05-25 10:14:37",
     "gemini": {

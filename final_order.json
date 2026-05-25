@@ -1,20 +1,12 @@
 {
-  "execution_time": "2026-05-25 10:15",
-  "ref_tx_id": "20260525-1014",
+  "execution_time": "2026-05-25 10:35",
+  "ref_tx_id": "20260525-1034",
   "orders": [
     {
       "symbol": "CCET",
       "action": "BUY",
       "price": 8.4,
       "qty": 23800,
-      "sources": [
-        "blue"
-      ]
-    },
-    {
-      "symbol": "CCET",
-      "action": "SELL",
-      "price": 8.4,
       "sources": [
         "red"
       ]
@@ -38,7 +30,14 @@
     }
   },
   "red": {
-    "cash": 1210840.0,
-    "positions": {}
+    "cash": 1010920.0,
+    "positions": {
+      "CCET": {
+        "qty": 23800,
+        "avg_price": 8.4,
+        "value": 199920.0,
+        "time": "2026-05-25 10:35"
+      }
+    }
   }
 }
