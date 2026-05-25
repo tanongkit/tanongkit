@@ -1,5 +1,171 @@
 [
   {
+    "tx_id": "20260525-1404",
+    "last_update": "2026-05-25 14:04:50",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index up ~1% with broad-based gains, led by Finance and Service sectors.",
+      "player_stance": "HOLD",
+      "stance_reason": "Fully invested in core MSCI play (DELTA). No cash available for new entries, monitoring strong watchlist candidates.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "WATCH",
+          "conf": 9,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.5,
+          "vs": "Outperforming sector",
+          "why": "All rules pass, strong catalyst, top rank."
+        },
+        {
+          "sym": "OSP",
+          "action": "WATCH",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.0,
+          "vs": "vs benchmark, strong catalyst",
+          "why": "All rules pass, 'คนละครึ่ง' catalyst."
+        },
+        {
+          "sym": "TIDLOR",
+          "action": "WATCH",
+          "conf": 8,
+          "now": 17.8,
+          "entry": 17.8,
+          "tp": 19.0,
+          "vs": "vs sector, strong rank jump",
+          "why": "Strongest sector, RSI ok, high momentum."
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 37.0,
+          "vs": "vs DELTA, sector peer",
+          "why": "Strong ETRON sector, good RSI/S7 setup."
+        },
+        {
+          "sym": "CCET",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 7.95,
+          "entry": 8.0,
+          "tp": 8.5,
+          "vs": "Explosive momentum leader",
+          "why": "Rank #2 momentum play, but RSI is hot."
+        },
+        {
+          "sym": "AMATA",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 25.0,
+          "entry": 25.0,
+          "tp": 26.5,
+          "vs": "vs WHA, industrial peer",
+          "why": "Rank #3, but RSI is overbought."
+        },
+        {
+          "sym": "COM7",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 25.75,
+          "entry": 26.0,
+          "tp": 28.0,
+          "vs": "vs CPALL, catalyst peer",
+          "why": "Strong catalyst, good setup, needs volume."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 3.6,
+          "entry": 3.6,
+          "tp": 3.8,
+          "vs": "vs GPSC, energy peer",
+          "why": "Top 10 rank but RSI is overbought."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.96%, TECH +1.27%, SERVICE +1.5%, FIN +2.45% strong sectors",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA -0.49% near entry, 5 days to MSCI deadline, TP 350 target still valid",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "conf": 7,
+          "reason": "MSCI 29 May catalyst 5 days away, S7 -0.6% weak but D1 +1.84%, price 332 vs TP 350, hold until 28 May or TP hit",
+          "target": 350,
+          "stop": 290
+        }
+      ],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.95,
+          "entry": 7.9,
+          "tp": 9.5,
+          "sector": "ELECTRONICS",
+          "vs": "Rank #2 rocket +9 jump",
+          "why": "RSI 79 RT unknown S7 +25%"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.8,
+          "sector": "UTIL",
+          "vs": "Rank #5 +5 jump",
+          "why": "RSI 75 RT unknown S7 +6.8%"
+        },
+        {
+          "sym": "KTB",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 34.75,
+          "entry": 0,
+          "tp": 0,
+          "sector": "BANK",
+          "vs": "Rank #22 +9 jump",
+          "why": "RSI 70 RT unknown need verification"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 34.75,
+          "entry": 0,
+          "tp": 0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank #17 +16 jump",
+          "why": "RSI 66 RT unknown S7 +3%"
+        },
+        {
+          "sym": "RBF",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 4.06,
+          "entry": 0,
+          "tp": 0,
+          "sector": "FOOD",
+          "vs": "Rank #23 +11 jump",
+          "why": "RSI 66 RT unknown S7 +6.8%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260525-1135",
     "last_update": "2026-05-25 11:35:05",
     "gemini": {
