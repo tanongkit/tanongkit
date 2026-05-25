@@ -1,5 +1,173 @@
 [
   {
+    "tx_id": "20260525-1135",
+    "last_update": "2026-05-25 11:35:05",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index +0.91%, broad buying in TECH, SERVICE, and ETRON sectors.",
+      "player_stance": "HOLD",
+      "stance_reason": "Port is fully invested in DELTA, holding for MSCI catalyst. Market is bullish.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "WATCH",
+          "conf": 10,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.4,
+          "vs": "Rt 2.23x, S7+",
+          "why": "Top watchlist pick, EV/DC catalyst"
+        },
+        {
+          "sym": "OSP",
+          "action": "WATCH",
+          "conf": 9,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.0,
+          "vs": "Rt 2.37x, S7+",
+          "why": "Govt stimulus beneficiary"
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 8,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 38.0,
+          "vs": "Rank jump +16",
+          "why": "ELECTRONICS momentum, d1 +6.9%"
+        },
+        {
+          "sym": "CCET",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 7.95,
+          "entry": 7.95,
+          "tp": 8.5,
+          "vs": "d1 +17.7% rocket",
+          "why": "Rank #2, lesson learned watch"
+        },
+        {
+          "sym": "RBF",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 4.06,
+          "entry": 4.06,
+          "tp": 4.4,
+          "vs": "Rank jump +11",
+          "why": "FOOD sector strong, rules pass"
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 3.82,
+          "entry": 3.82,
+          "tp": 4.1,
+          "vs": "d1 +3.2%, S7+",
+          "why": "Momentum signals pass"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 18.7,
+          "entry": 18.7,
+          "tp": 20.0,
+          "vs": "Rank jump +16",
+          "why": "FIN sector strong, d1 +2.7%"
+        },
+        {
+          "sym": "COM7",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 25.75,
+          "entry": 25.75,
+          "tp": 27.5,
+          "vs": "Wait for Rt>1.5x",
+          "why": "Strong stimulus catalyst"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.91%, TECH +1.79%, FOOD +0.69%, FIN +2.13%, broad sector strength",
+      "player_stance": "SELL",
+      "stance_reason": "DELTA at 332 no catalyst, MSCI 29-May 4 days away, exit before event risk",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "SELL_ALL",
+          "reason": "MSCI deadline 4 days away, no Rt data suggests momentum pause, TP 350 unlikely before 29-May, secure +186 total P&L",
+          "price_now": 332.0,
+          "vs_entry": 314.54,
+          "pnl_pct": -0.49,
+          "stop": 290.0,
+          "tp": 350.0
+        }
+      ],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.95,
+          "entry": 7.95,
+          "tp": 9.5,
+          "sector": "ELECTRONICS",
+          "vs": "Rank 2, RSI 79.4, RT 0, S7 +25.2%",
+          "why": "Explosive S7, top rank momentum, ELEC sector leader"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.75,
+          "sector": "UTIL",
+          "vs": "Rank 5 +5 jump, RSI 74.6, RT 0, S7 +6.8%",
+          "why": "EV+Data Center catalyst, strong S7, prior watchlist"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 3.6,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ENERG",
+          "vs": "Rank 6, RSI 77.6 hot, RT 0, S7 +3.96%",
+          "why": "RSI too hot, wait pullback to 70"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 34.75,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank 17 +16 jump, RSI 65.7, RT 0, D1 +6.92%",
+          "why": "No Rt data, wait confirmation tomorrow"
+        },
+        {
+          "sym": "RBF",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 4.06,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "FOOD",
+          "vs": "Rank 23 +11 jump, RSI 66, RT 0, S7 +6.84%",
+          "why": "Food sector benefit delayed until June 1"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260525-1104",
     "last_update": "2026-05-25 11:04:54",
     "gemini": {
