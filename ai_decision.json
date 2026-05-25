@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260525-1014",
+    "last_update": "2026-05-25 10:14:37",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.26%, broad rally led by strong Tech/Electronics sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is bullish with strong sector rotation. Holding DELTA for MSCI catalyst, ready to rotate into new leaders.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.95,
+          "entry": 7.95,
+          "tp": 8.8,
+          "vs": "ETRON +3.09%",
+          "why": "Rank#2, +17% day, lesson learned from yesterday's miss."
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.4,
+          "vs": "PROP +1.22%",
+          "why": "Top 5 rank, positive S7/D1, EV/Data Center theme."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 38.0,
+          "vs": "ETRON +3.09%",
+          "why": "Huge rank jump (+16), strong D1, in leading sector."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 8,
+          "now": 25.75,
+          "entry": 25.75,
+          "tp": 28.0,
+          "vs": "COMM +1.05%",
+          "why": "Strong sector, solid metrics, clear 'Kon La Krueng' catalyst."
+        },
+        {
+          "sym": "MOTHER",
+          "action": "BUY",
+          "conf": 7,
+          "now": 1.21,
+          "entry": 1.21,
+          "tp": 1.35,
+          "vs": "Momentum play",
+          "why": "Massive rank jump (+25), strong D1, pure momentum signal."
+        },
+        {
+          "sym": "TIDLOR",
+          "action": "BUY",
+          "conf": 7,
+          "now": 17.8,
+          "entry": 17.8,
+          "tp": 19.0,
+          "vs": "FIN +1.37%",
+          "why": "Strong rank jump (+15) in outperforming Finance sector."
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 6,
+          "now": 14.2,
+          "entry": 14.2,
+          "tp": 15.2,
+          "vs": "CONS +1.22%",
+          "why": "Top 10 rank, solid green metrics, in strong sector."
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 6,
+          "now": 4.06,
+          "entry": 4.06,
+          "tp": 4.4,
+          "vs": "FOOD +0.68%",
+          "why": "Good rank jump (+11), strong S7 and D1 signals."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.26% TECH +2.61% ETRON +3.09% COMM +1.05% TRANS +2.01%",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA 4 days to MSCI deadline, hold for 350 TP or exit 29 May",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "reason": "313.00 close, S7 -0.6% weak but MSCI 29 May catalyst intact, hold for 350 TP or exit before deadline",
+          "tp": 350,
+          "stop": 290
+        }
+      ],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.95,
+          "entry": 7.95,
+          "tp": 9.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank #2 jump +9",
+          "why": "RSI 79 RT unavailable S7 +25% ETRON +3%"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.5,
+          "sector": "UTIL",
+          "vs": "Rank #5 jump +5",
+          "why": "RSI 75 RT unavailable S7 +6.8% EV Data"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 18.7,
+          "entry": 18.7,
+          "tp": 20.5,
+          "sector": "FIN",
+          "vs": "Rank #31 jump +16",
+          "why": "RSI 70 RT unavailable S7 +4.5% FIN +1.37%"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 38.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank #17 jump +16",
+          "why": "RSI 66 RT unavailable S7 +3% D1 +6.9%"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.06,
+          "entry": 4.06,
+          "tp": 4.5,
+          "sector": "FOOD",
+          "vs": "Rank #23 jump +11",
+          "why": "RSI 66 RT unavailable S7 +6.8% FOOD +0.68%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260525-0406",
     "last_update": "2026-05-25 04:06:10",
     "gemini": {

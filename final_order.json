@@ -1,46 +1,44 @@
 {
-  "execution_time": "2026-05-23 00:11",
-  "ref_tx_id": "20260523-0010",
+  "execution_time": "2026-05-25 10:15",
+  "ref_tx_id": "20260525-1014",
   "orders": [
     {
-      "symbol": "RBF",
+      "symbol": "CCET",
       "action": "BUY",
-      "price": 4.06,
-      "qty": 49200,
+      "price": 8.4,
+      "qty": 23800,
       "sources": [
         "blue"
       ]
     },
     {
       "symbol": "CCET",
-      "action": "BUY",
-      "price": 7.95,
-      "qty": 25100,
+      "action": "SELL",
+      "price": 8.4,
       "sources": [
         "red"
       ]
     }
   ],
   "blue": {
-    "cash": 1997798.0,
+    "cash": 800080.0,
     "positions": {
       "RBF": {
         "qty": 49200,
         "avg_price": 4.06,
         "value": 199752.0,
         "time": "2026-05-23 00:11"
+      },
+      "CCET": {
+        "qty": 23800,
+        "avg_price": 8.4,
+        "value": 199920.0,
+        "time": "2026-05-25 10:15"
       }
     }
   },
   "red": {
-    "cash": 800455.0,
-    "positions": {
-      "CCET": {
-        "qty": 25100,
-        "avg_price": 7.95,
-        "value": 199545.0,
-        "time": "2026-05-23 00:11"
-      }
-    }
+    "cash": 1210840.0,
+    "positions": {}
   }
 }
