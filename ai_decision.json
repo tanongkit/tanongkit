@@ -1,5 +1,168 @@
 [
   {
+    "tx_id": "20260525-1435",
+    "last_update": "2026-05-25 14:35:14",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.85% with broad-based gains led by strong sectors like FIN, TRANS, and ETRON.",
+      "player_stance": "HOLD",
+      "stance_reason": "Portfolio is fully invested. Holding existing position (DELTA) while monitoring top watchlist candidates for entry.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.95,
+          "entry": 7.9,
+          "tp": 8.8,
+          "vs": "DELTA",
+          "why": "Explosive momentum, rank #2"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.4,
+          "vs": "AMATA",
+          "why": "Top watchlist, strong fundamentals"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 38.0,
+          "vs": "HANA",
+          "why": "ETRON sector strength, big rank jump"
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 8,
+          "now": 25.75,
+          "entry": 25.75,
+          "tp": 28.0,
+          "vs": "CPALL",
+          "why": "'คนละครึ่ง' catalyst, solid metrics"
+        },
+        {
+          "sym": "TIDLOR",
+          "action": "BUY",
+          "conf": 7,
+          "now": 17.8,
+          "entry": 17.8,
+          "tp": 19.0,
+          "vs": "MTC",
+          "why": "Huge rank jump, strong sector"
+        },
+        {
+          "sym": "MOTHER",
+          "action": "BUY",
+          "conf": 7,
+          "now": 1.21,
+          "entry": 1.2,
+          "tp": 1.35,
+          "vs": "Small Caps",
+          "why": "Explosive rank jump, momentum"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.06,
+          "entry": 4.05,
+          "tp": 4.3,
+          "vs": "OSP",
+          "why": "Momentum recovery, good metrics"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 18.7,
+          "entry": 18.7,
+          "tp": 19.5,
+          "vs": "KTB",
+          "why": "High momentum, strong rank jump"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.85%, TECH +1.56%, FOOD +0.63%, TRANS +2.35%, strong breadth",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA below TP, 4 days to MSCI deadline, hold for catalyst event",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "reason": "Price 332 vs entry 314.54, +5.5%, 4 days to MSCI May 29, hold until 350 TP or deadline"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.95,
+          "entry": 7.95,
+          "tp": 9.5,
+          "sector": "ELECTRONICS",
+          "vs": "Rank #2, RSI 79.4 hot but momentum",
+          "why": "Rank jump +9, D1 +17.8%, S7 +25.2%"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.8,
+          "sector": "PROP",
+          "vs": "Rank #5 jump +5, RSI 74.6 acceptable",
+          "why": "D1 +2.5%, S7 +6.8%, EV Data Center"
+        },
+        {
+          "sym": "KTB",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 34.75,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "BANK",
+          "vs": "Rank #22, RSI 70.3, Rt=0 missing",
+          "why": "Need Rt>1.5x confirmation, S7 +2.96% weak"
+        },
+        {
+          "sym": "RBF",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 4.06,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "FOOD",
+          "vs": "Rank #23, RSI 66, Rt=0 missing",
+          "why": "S7 +6.8% good but Rt missing"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 18.7,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "FIN",
+          "vs": "Rank #31 jump +16, RSI 69.5, Rt=0",
+          "why": "Need Rt>1.5x, S7 +4.5% moderate"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260525-1404",
     "last_update": "2026-05-25 14:04:50",
     "gemini": {
