@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26 10:22:52",
+  "updated": "2026-05-26 10:37:36",
   "initial_cash": 1000000,
   "blue": {
     "cash": 1013725.0,
@@ -39,15 +39,8 @@
     ]
   },
   "red": {
-    "cash": 1031475.0,
-    "positions": {
-      "KCE": {
-        "qty": 5700,
-        "avg_price": 34.75,
-        "value": 198075.0,
-        "time": "2026-05-26 10:20"
-      }
-    },
+    "cash": 1229550.0,
+    "positions": {},
     "pl": [
       {
         "date": "2026-05-20",
@@ -683,6 +676,16 @@
       "price": 34.75,
       "amount": -198075.0,
       "balance_after": 1031475.0
+    },
+    {
+      "time": "2026-05-26 10:35",
+      "team": "RED",
+      "action": "SELL",
+      "sym": "KCE",
+      "qty": 5700,
+      "price": 34.75,
+      "amount": 198075.0,
+      "balance_after": 1229550.0
     }
   ]
 }
