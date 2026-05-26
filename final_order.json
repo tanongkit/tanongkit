@@ -1,29 +1,52 @@
 {
-  "execution_time": "2026-05-26 11:36",
-  "ref_tx_id": "20260526-1135",
+  "execution_time": "2026-05-26 14:06",
+  "ref_tx_id": "20260526-1404",
   "orders": [
     {
+      "symbol": "MOTHER",
+      "action": "BUY",
+      "price": 1.22,
+      "qty": 163900,
+      "sources": [
+        "blue"
+      ]
+    },
+    {
       "symbol": "WHA",
-      "action": "SELL",
+      "action": "BUY",
       "price": 5.1,
+      "qty": 39200,
       "sources": [
         "red"
       ]
     }
   ],
   "blue": {
-    "cash": 1013725.0,
+    "cash": 813767.0,
     "positions": {
       "KCE": {
         "qty": 5700,
         "avg_price": 34.75,
         "value": 198075.0,
         "time": "2026-05-26 10:20"
+      },
+      "MOTHER": {
+        "qty": 163900,
+        "avg_price": 1.22,
+        "value": 199958.0,
+        "time": "2026-05-26 14:06"
       }
     }
   },
   "red": {
-    "cash": 1229550.0,
-    "positions": {}
+    "cash": 1029630.0,
+    "positions": {
+      "WHA": {
+        "qty": 39200,
+        "avg_price": 5.1,
+        "value": 199920.0,
+        "time": "2026-05-26 14:06"
+      }
+    }
   }
 }

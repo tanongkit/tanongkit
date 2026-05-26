@@ -1,5 +1,172 @@
 [
   {
+    "tx_id": "20260526-1404",
+    "last_update": "2026-05-26 14:04:55",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index green, strong rally in large-cap ETRON (+2.55%) and BANK (+2.0%) sectors.",
+      "player_stance": "HOLD",
+      "stance_reason": "Portfolio is fully invested. Holding DELTA and watching for entry on high-conviction names if a slot opens.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 10,
+          "now": 5.0,
+          "entry": 5.05,
+          "tp": 5.35,
+          "vs": "Rank#5, RSI:74.6, S7:+6.8%",
+          "why": "Top watchlist, EV/Data Center catalyst."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 9,
+          "now": 34.75,
+          "entry": 35.0,
+          "tp": 37.5,
+          "vs": "Rank Δ+16, ETRON Sector +2.55%",
+          "why": "Strongest sector momentum, V-Shape DNA."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.1,
+          "tp": 16.0,
+          "vs": "RSI:57.0, S7:+2.7%, Watchlist #2",
+          "why": "'Khon La Krueng' stimulus catalyst."
+        },
+        {
+          "sym": "EASTW",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.98,
+          "entry": 4.0,
+          "tp": 4.2,
+          "vs": "Rank#1, S7:+24.3%, RSI:72.6",
+          "why": "Top-ranked strong momentum leader."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 6,
+          "now": 25.75,
+          "entry": 26.0,
+          "tp": 27.5,
+          "vs": "RSI:70.6, S7:+5.1%, TECH Sector +2.0%",
+          "why": "'Khon La Krueng' stimulus + strong sector."
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 5,
+          "now": 34.75,
+          "entry": 35.0,
+          "tp": 36.5,
+          "vs": "BANK Sector +2.0%, Rank Δ+9",
+          "why": "Capitalizing on strong sector rotation."
+        },
+        {
+          "sym": "TIDLOR",
+          "action": "BUY",
+          "conf": 4,
+          "now": 17.8,
+          "entry": 17.9,
+          "tp": 19.0,
+          "vs": "Rank Δ+15, S7:+5.9%",
+          "why": "Strong momentum and rank improvement."
+        },
+        {
+          "sym": "MOTHER",
+          "action": "BUY",
+          "conf": 3,
+          "now": 1.21,
+          "entry": 1.22,
+          "tp": 1.3,
+          "vs": "Rank Δ+25, D1:+4.3%",
+          "why": "Highest rank change, speculative momentum."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.52%, BANK +2.0%, TECH +2.0%, ETRON +2.55% leading",
+      "player_stance": "SELL",
+      "stance_reason": "DELTA 313 at cost 314.54, MSCI deadline 4 days away, S7 -0.6% negative",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "SELL_ALL",
+          "reason": "S7 turned negative -0.6%, MSCI 29-May 4 days away, at break-even 313",
+          "lot": 2600,
+          "avg_cost": 314.54,
+          "now": 313.0,
+          "pnl": -4004
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.5,
+          "sector": "PROP",
+          "vs": "Rank #5 ↑5, Data Center",
+          "why": "RSI 74.6 hot, S7 +6.8%, Rt missing wait"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 38.0,
+          "sector": "ETRON",
+          "vs": "Rank #17 ↑16, ETRON +2.55%",
+          "why": "RSI 65.7 ok, S7 +2.96%, Rt missing wait"
+        },
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 7.95,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ETRON",
+          "vs": "Rank #2 ↑9, ETRON leader",
+          "why": "RSI 79.4 overbought, Rt missing, S7 +25% strong"
+        },
+        {
+          "sym": "OSP",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 15.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "FOOD",
+          "vs": "Rank #33 stable, คนละครึ่ง catalyst",
+          "why": "RSI 57 ok, S7 +2.7%, Rt missing wait"
+        },
+        {
+          "sym": "KTB",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 34.75,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "BANK",
+          "vs": "Rank #22 ↑9, BANK +2.0%",
+          "why": "RSI 70.3 hot, S7 +2.96%, Rt missing"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260526-1135",
     "last_update": "2026-05-26 11:35:03",
     "gemini": {
