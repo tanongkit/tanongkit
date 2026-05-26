@@ -1,9 +1,27 @@
 {
-  "execution_time": "2026-05-26 14:36",
-  "ref_tx_id": "20260526-1435",
-  "orders": [],
+  "execution_time": "2026-05-26 15:06",
+  "ref_tx_id": "20260526-1505",
+  "orders": [
+    {
+      "symbol": "TIDLOR",
+      "action": "BUY",
+      "price": 17.8,
+      "qty": 11200,
+      "sources": [
+        "blue"
+      ]
+    },
+    {
+      "symbol": "WHA",
+      "action": "SELL",
+      "price": 5.05,
+      "sources": [
+        "red"
+      ]
+    }
+  ],
   "blue": {
-    "cash": 813767.0,
+    "cash": 614407.0,
     "positions": {
       "KCE": {
         "qty": 5700,
@@ -16,18 +34,17 @@
         "avg_price": 1.22,
         "value": 199958.0,
         "time": "2026-05-26 14:06"
+      },
+      "TIDLOR": {
+        "qty": 11200,
+        "avg_price": 17.8,
+        "value": 199360.0,
+        "time": "2026-05-26 15:06"
       }
     }
   },
   "red": {
-    "cash": 1029630.0,
-    "positions": {
-      "WHA": {
-        "qty": 39200,
-        "avg_price": 5.1,
-        "value": 199920.0,
-        "time": "2026-05-26 14:06"
-      }
-    }
+    "cash": 1227590.0,
+    "positions": {}
   }
 }
