@@ -1,7 +1,8 @@
 {
-  "updated": "2026-05-20 22:45:47",
+  "updated": "2026-05-25 17:08:07",
+  "initial_cash": 1000000,
   "blue": {
-    "cash": 4999678.0,
+    "cash": 1018584.0,
     "positions": {},
     "pl": [
       {
@@ -9,11 +10,29 @@
         "team": "BLUE",
         "pl": -322.0,
         "note": "EOD net=-322"
+      },
+      {
+        "date": "2026-05-21",
+        "team": "BLUE",
+        "pl": 2826.0,
+        "note": "EOD net=+2826"
+      },
+      {
+        "date": "2026-05-22",
+        "team": "BLUE",
+        "pl": 1080.0,
+        "note": "EOD net=+1080"
+      },
+      {
+        "date": "2026-05-25",
+        "team": "BLUE",
+        "pl": 15000.0,
+        "note": "EOD net=+15000 (patched)"
       }
     ]
   },
   "red": {
-    "cash": 4999946.0,
+    "cash": 1229550.0,
     "positions": {},
     "pl": [
       {
@@ -21,6 +40,12 @@
         "team": "RED",
         "pl": -54.0,
         "note": "EOD net=-54"
+      },
+      {
+        "date": "2026-05-21",
+        "team": "RED",
+        "pl": 80.0,
+        "note": "EOD net=+80"
       }
     ]
   },
@@ -104,6 +129,506 @@
       "price": 15.1,
       "amount": 16610.0,
       "balance_after": 4999946.0
+    },
+    {
+      "time": "2026-05-21 11:05",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "OSP",
+      "qty": 13200,
+      "price": 15.1,
+      "amount": -199320.0,
+      "balance_after": 4800358.0
+    },
+    {
+      "time": "2026-05-21 11:05",
+      "team": "RED",
+      "action": "BUY",
+      "sym": "HANA",
+      "qty": 5900,
+      "price": 33.75,
+      "amount": -199125.0,
+      "balance_after": 4800821.0
+    },
+    {
+      "time": "2026-05-21 11:35",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "GUNKUL",
+      "qty": 55500,
+      "price": 3.6,
+      "amount": -199800.0,
+      "balance_after": 4600558.0
+    },
+    {
+      "time": "2026-05-21 11:35",
+      "team": "RED",
+      "action": "SELL",
+      "sym": "HANA",
+      "qty": 5900,
+      "price": 33.75,
+      "amount": 199125.0,
+      "balance_after": 4999946.0
+    },
+    {
+      "time": "2026-05-21 14:15",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "WHA",
+      "qty": 40800,
+      "price": 4.9,
+      "amount": -199920.0,
+      "balance_after": 4400638.0
+    },
+    {
+      "time": "2026-05-21 14:15",
+      "team": "RED",
+      "action": "BUY",
+      "sym": "WHA",
+      "qty": 4000,
+      "price": 4.9,
+      "amount": -19600.0,
+      "balance_after": 4980346.0
+    },
+    {
+      "time": "2026-05-21 15:08",
+      "team": "RED",
+      "action": "BUY",
+      "sym": "GPSC",
+      "qty": 4900,
+      "price": 40.0,
+      "amount": -196000.0,
+      "balance_after": 4784346.0
+    },
+    {
+      "time": "2026-05-21 19:39",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "OSP",
+      "qty": 13200,
+      "price": 15.0,
+      "amount": 198000.0,
+      "balance_after": 4598638.0
+    },
+    {
+      "time": "2026-05-21 19:39",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "GUNKUL",
+      "qty": 55500,
+      "price": 3.66,
+      "amount": 203130.0,
+      "balance_after": 4801768.0
+    },
+    {
+      "time": "2026-05-21 19:39",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "WHA",
+      "qty": 40800,
+      "price": 4.92,
+      "amount": 200736.0,
+      "balance_after": 5002504.0
+    },
+    {
+      "time": "2026-05-21 19:39",
+      "team": "RED",
+      "action": "SELL",
+      "sym": "WHA",
+      "qty": 4000,
+      "price": 4.92,
+      "amount": 19680.0,
+      "balance_after": 4804026.0
+    },
+    {
+      "time": "2026-05-21 19:39",
+      "team": "RED",
+      "action": "SELL",
+      "sym": "GPSC",
+      "qty": 4900,
+      "price": 40.0,
+      "amount": 196000.0,
+      "balance_after": 5000026.0
+    },
+    {
+      "time": "2026-05-22 10:49",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "GPSC",
+      "qty": 5000,
+      "price": 40.0,
+      "amount": -200000.0,
+      "balance_after": 4802504.0
+    },
+    {
+      "time": "2026-05-22 11:09",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "CREDIT",
+      "qty": 10800,
+      "price": 18.3,
+      "amount": -197640.0,
+      "balance_after": 4604864.0
+    },
+    {
+      "time": "2026-05-22 11:09",
+      "team": "RED",
+      "action": "BUY",
+      "sym": "WHA",
+      "qty": 4000,
+      "price": 4.98,
+      "amount": -19920.0,
+      "balance_after": 4980106.0
+    },
+    {
+      "time": "2026-05-22 11:39",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "EPG",
+      "qty": 52600,
+      "price": 3.8,
+      "amount": -199880.0,
+      "balance_after": 4404984.0
+    },
+    {
+      "time": "2026-05-22 14:11",
+      "team": "RED",
+      "action": "SELL",
+      "sym": "WHA",
+      "qty": 4000,
+      "price": 4.96,
+      "amount": 19840.0,
+      "balance_after": 1019840.0
+    },
+    {
+      "time": "2026-05-22 14:11",
+      "team": "RED",
+      "action": "BUY",
+      "sym": "EPG",
+      "qty": 5300,
+      "price": 3.76,
+      "amount": -19928.0,
+      "balance_after": 999912.0
+    },
+    {
+      "time": "2026-05-22 15:09",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "RBF",
+      "qty": 49200,
+      "price": 4.06,
+      "amount": -199752.0,
+      "balance_after": 800248.0
+    },
+    {
+      "time": "2026-05-22 15:09",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "KCE",
+      "qty": 5700,
+      "price": 35.0,
+      "amount": -199500.0,
+      "balance_after": 600748.0
+    },
+    {
+      "time": "2026-05-22 15:09",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "WHA",
+      "qty": 40100,
+      "price": 4.98,
+      "amount": -199698.0,
+      "balance_after": 401050.0
+    },
+    {
+      "time": "2026-05-22 15:09",
+      "team": "RED",
+      "action": "SELL",
+      "sym": "EPG",
+      "qty": 5300,
+      "price": 3.8,
+      "amount": 20140.0,
+      "balance_after": 1020052.0
+    },
+    {
+      "time": "2026-05-22 17:22",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "KCE",
+      "qty": 5700,
+      "price": 35.0,
+      "amount": -199500.0,
+      "balance_after": 800500.0
+    },
+    {
+      "time": "2026-05-22 17:22",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "RBF",
+      "qty": 49200,
+      "price": 4.06,
+      "amount": -199752.0,
+      "balance_after": 600748.0
+    },
+    {
+      "time": "2026-05-22 17:22",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "WHA",
+      "qty": 40100,
+      "price": 4.98,
+      "amount": -199698.0,
+      "balance_after": 401050.0
+    },
+    {
+      "time": "2026-05-22 17:22",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "EPG",
+      "qty": 36900,
+      "price": 3.8,
+      "amount": -140220.0,
+      "balance_after": 260830.0
+    },
+    {
+      "time": "2026-05-22 17:22",
+      "team": "RED",
+      "action": "BUY",
+      "sym": "WHA",
+      "qty": 40100,
+      "price": 4.98,
+      "amount": -199698.0,
+      "balance_after": 800302.0
+    },
+    {
+      "time": "2026-05-22 17:25",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "GPSC",
+      "qty": 5000,
+      "price": 40.0,
+      "amount": 200000.0,
+      "balance_after": 460830.0
+    },
+    {
+      "time": "2026-05-22 17:25",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "CREDIT",
+      "qty": 10800,
+      "price": 18.4,
+      "amount": 198720.0,
+      "balance_after": 659550.0
+    },
+    {
+      "time": "2026-05-22 17:25",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "EPG",
+      "qty": 89500,
+      "price": 3.8,
+      "amount": 340100.0,
+      "balance_after": 999650.0
+    },
+    {
+      "time": "2026-05-22 17:25",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "RBF",
+      "qty": 98400,
+      "price": 4.06,
+      "amount": 399504.0,
+      "balance_after": 1399154.0
+    },
+    {
+      "time": "2026-05-22 17:25",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "KCE",
+      "qty": 11400,
+      "price": 35.0,
+      "amount": 399000.0,
+      "balance_after": 1798154.0
+    },
+    {
+      "time": "2026-05-22 17:25",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "WHA",
+      "qty": 80200,
+      "price": 4.98,
+      "amount": 399396.0,
+      "balance_after": 2197550.0
+    },
+    {
+      "time": "2026-05-22 17:25",
+      "team": "RED",
+      "action": "SELL",
+      "sym": "WHA",
+      "qty": 40100,
+      "price": 4.98,
+      "amount": 199698.0,
+      "balance_after": 1000000.0
+    },
+    {
+      "time": "2026-05-23 00:11",
+      "team": "RED",
+      "action": "BUY",
+      "sym": "CCET",
+      "qty": 25100,
+      "price": 7.95,
+      "amount": -199545.0,
+      "balance_after": 800455.0
+    },
+    {
+      "time": "2026-05-25 10:15",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "CCET",
+      "qty": 23800,
+      "price": 8.4,
+      "amount": -199920.0,
+      "balance_after": 800080.0
+    },
+    {
+      "time": "2026-05-25 10:15",
+      "team": "RED",
+      "action": "SELL",
+      "sym": "CCET",
+      "qty": 25100,
+      "price": 8.4,
+      "amount": 210840.0,
+      "balance_after": 1210840.0
+    },
+    {
+      "time": "2026-05-25 10:35",
+      "team": "RED",
+      "action": "BUY",
+      "sym": "CCET",
+      "qty": 23800,
+      "price": 8.4,
+      "amount": -199920.0,
+      "balance_after": 1010920.0
+    },
+    {
+      "time": "2026-05-25 11:06",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "KCE",
+      "qty": 5700,
+      "price": 35.0,
+      "amount": -199500.0,
+      "balance_after": 600580.0
+    },
+    {
+      "time": "2026-05-25 11:06",
+      "team": "RED",
+      "action": "SELL",
+      "sym": "CCET",
+      "qty": 23800,
+      "price": 8.9,
+      "amount": 211820.0,
+      "balance_after": 1222740.0
+    },
+    {
+      "time": "2026-05-25 11:36",
+      "team": "RED",
+      "action": "BUY",
+      "sym": "CCET",
+      "qty": 22400,
+      "price": 8.9,
+      "amount": -199360.0,
+      "balance_after": 1023380.0
+    },
+    {
+      "time": "2026-05-25 14:05",
+      "team": "RED",
+      "action": "SELL",
+      "sym": "CCET",
+      "qty": 22400,
+      "price": 9.3,
+      "amount": 208320.0,
+      "balance_after": 1231700.0
+    },
+    {
+      "time": "2026-05-25 14:36",
+      "team": "RED",
+      "action": "BUY",
+      "sym": "CCET",
+      "qty": 21500,
+      "price": 9.3,
+      "amount": -199950.0,
+      "balance_after": 1031750.0
+    },
+    {
+      "time": "2026-05-25 15:06",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "TIDLOR",
+      "qty": 11200,
+      "price": 17.8,
+      "amount": -199360.0,
+      "balance_after": 401220.0
+    },
+    {
+      "time": "2026-05-25 15:06",
+      "team": "RED",
+      "action": "SELL",
+      "sym": "CCET",
+      "qty": 21500,
+      "price": 9.2,
+      "amount": 197800.0,
+      "balance_after": 1229550.0
+    },
+    {
+      "time": "2026-05-25 17:06",
+      "team": "RED",
+      "action": "BUY",
+      "sym": "CCET",
+      "qty": 21800,
+      "price": 9.15,
+      "amount": -199470.0,
+      "balance_after": 1030080.0
+    },
+    {
+      "time": "2026-05-25 17:08",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "CCET",
+      "qty": 23800,
+      "price": 9.15,
+      "amount": 217770.0,
+      "balance_after": 815790.0
+    },
+    {
+      "time": "2026-05-25 17:08",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "KCE",
+      "qty": 5700,
+      "price": 34.5,
+      "amount": 196650.0,
+      "balance_after": 1012440.0
+    },
+    {
+      "time": "2026-05-25 17:08",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "TIDLOR",
+      "qty": 11200,
+      "price": 17.8,
+      "amount": 199360.0,
+      "balance_after": 1211800.0
+    },
+    {
+      "time": "2026-05-25 17:08",
+      "team": "RED",
+      "action": "SELL",
+      "sym": "CCET",
+      "qty": 21800,
+      "price": 9.15,
+      "amount": 199470.0,
+      "balance_after": 1229550.0
     }
   ]
 }
