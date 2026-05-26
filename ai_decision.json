@@ -1,5 +1,169 @@
 [
   {
+    "tx_id": "20260526-1435",
+    "last_update": "2026-05-26 14:35:07",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index is up +0.71%, led by strong buying in key sectors like ETRON, BANK, and TECH.",
+      "player_stance": "HOLD",
+      "stance_reason": "Port is full with DELTA (MSCI play). Holding position and monitoring watchlist for potential rotation.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "WATCH",
+          "conf": 9,
+          "now": 5.0,
+          "entry": 5.05,
+          "tp": 5.4,
+          "vs": "Vol-OK, Sector-OK",
+          "why": "Strong momentum in EV/Data Center theme"
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 9,
+          "now": 34.75,
+          "entry": 35.0,
+          "tp": 37.5,
+          "vs": "Vol-OK, Sector-LEAD",
+          "why": "Top momentum in strongest sector (ETRON)"
+        },
+        {
+          "sym": "OSP",
+          "action": "WATCH",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.1,
+          "tp": 15.8,
+          "vs": "Vol-OK, Sector-OK",
+          "why": "Clear stimulus beneficiary with volume"
+        },
+        {
+          "sym": "COM7",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 25.75,
+          "entry": 26.0,
+          "tp": 28.0,
+          "vs": "Vol-WAIT, Sector-LEAD",
+          "why": "Stimulus catalyst in strong TECH sector"
+        },
+        {
+          "sym": "KTB",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 34.75,
+          "entry": 35.0,
+          "tp": 37.0,
+          "vs": "Vol-WAIT, Sector-LEAD",
+          "why": "Riding strong momentum in BANK sector"
+        },
+        {
+          "sym": "CBG",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 39.5,
+          "entry": 39.75,
+          "tp": 42.0,
+          "vs": "Vol-WAIT, Sector-OK",
+          "why": "Secondary stimulus play, needs volume confirmation"
+        },
+        {
+          "sym": "SCGP",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 24.4,
+          "entry": 24.5,
+          "tp": 26.0,
+          "vs": "Vol-?, S7-negative",
+          "why": "Potential turnaround; D1 positive, needs volume"
+        },
+        {
+          "sym": "PSL",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 7.25,
+          "entry": 7.3,
+          "tp": 7.8,
+          "vs": "Vol-WAIT, Sector-FLAT",
+          "why": "BDI-linked, waiting for sector rotation/catalyst"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.71%, BANK +1.9%, TECH +1.83%, ETRON +2.57% strong momentum",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA -1.54 baht from cost 314.54, 4 days to MSCI effect 29-May, hold until TP 350",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "conf": 8,
+          "reason": "S7 -0.6% weak but D1 +1.84%, RSI 61.4, 4 days to MSCI 29-May catalyst, hold to TP 350"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 7,
+          "now": 7.95,
+          "entry": 7.9,
+          "tp": 9.0,
+          "sector": "ELECTRONICS",
+          "vs": "rank +9 to #2, ETRON +2.57%",
+          "why": "RSI 79.4 overbought, wait cooldown RSI<75"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.5,
+          "sector": "PROPCON",
+          "vs": "rank +5 to #5, D1 +2.46%",
+          "why": "RSI 74.6 near limit, Rt=0 fail Rule2"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 34.75,
+          "entry": 34.5,
+          "tp": 38.0,
+          "sector": "ELECTRONICS",
+          "vs": "rank +16 to #17, D1 +6.92%",
+          "why": "RSI 65.7 good, Rt=0 fail Rule2 wait"
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 7,
+          "now": 34.75,
+          "entry": 34.5,
+          "tp": 37.0,
+          "sector": "BANK",
+          "vs": "rank +9 to #22, BANK +1.9%",
+          "why": "RSI 70.3 ok, Rt=0 fail Rule2"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.5,
+          "sector": "FOOD",
+          "vs": "rank +3 to #33, คนละครึ่ง 1-Jun",
+          "why": "RSI 57 good, Rt=0 fail Rule2 wait"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260526-1404",
     "last_update": "2026-05-26 14:04:55",
     "gemini": {
