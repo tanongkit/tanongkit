@@ -1,5 +1,173 @@
 [
   {
+    "tx_id": "20260526-1705",
+    "last_update": "2026-05-26 17:05:09",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Key sectors BANK/ETRON up, but many sectors down, indicating rotation not broad strength.",
+      "player_stance": "HOLD",
+      "stance_reason": "Port is full holding DELTA for MSCI catalyst. Watching for new entries if a slot opens.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.4,
+          "vs": "Stronger than PROP sector",
+          "why": "All signals pass, top watchlist"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 9,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.0,
+          "vs": "Stronger than FOOD sector",
+          "why": "All signals pass, news catalyst"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 38.0,
+          "vs": "Riding strong ETRON sector",
+          "why": "Strong sector momentum, RSI/S7 pass"
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 7,
+          "now": 25.75,
+          "entry": 25.75,
+          "tp": 28.0,
+          "vs": "Awaiting volume confirmation",
+          "why": "Strong news catalyst, needs Rt>1.5x"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 7,
+          "now": 14.2,
+          "entry": 14.2,
+          "tp": 15.0,
+          "vs": "Counterplay to weak CONS sector",
+          "why": "Top 10 rank, RSI/S7 pass"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 6,
+          "now": 3.82,
+          "entry": 3.82,
+          "tp": 4.1,
+          "vs": "Outperforming weak PKG sector",
+          "why": "Passes RSI/S7, good D1 momentum"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 6,
+          "now": 21.3,
+          "entry": 21.3,
+          "tp": 23.0,
+          "vs": "Counterplay to weak COMM sector",
+          "why": "Top 10 rank, passes signals"
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 5,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 37.0,
+          "vs": "Leading strongest sector (BANK)",
+          "why": "Top sector strength, needs Rt>1.5x"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET +0.2% weak, BANK +1.78% strong but TOURISM/CONS weak",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA -0.49% near cost, hold to MSCI 29 May, no new entry signal passes rules",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "reason": "S7 -0.60% negative but MSCI deadline 29 May (3 days), price 313 vs cost 314.54, hold for catalyst"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WATCH_TP",
+          "reason": "TP1 350 target, if hit before 29 May sell immediately per Rule"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 7.95,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ELECTRONICS",
+          "vs": "rank#2 +9, RSI 79.4 overbought",
+          "why": "RSI >75 violation, wait cooldown"
+        },
+        {
+          "sym": "WHA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 5.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "UTIL",
+          "vs": "rank#5 +5, RSI 74.6 edge",
+          "why": "Port full, RSI near limit"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 34.75,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ELECTRONICS",
+          "vs": "rank#17 +16, RSI 65.7 good",
+          "why": "Rt=0 no volume confirmation needed"
+        },
+        {
+          "sym": "KTB",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 34.75,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "BANK",
+          "vs": "rank#22 +9, RSI 70.3 ok",
+          "why": "Rt=0 needs volume, S7 +2.96%"
+        },
+        {
+          "sym": "OSP",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 15.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "FOOD",
+          "vs": "rank#33 +3, RSI 57 good",
+          "why": "Rt=0, Port full, watch entry"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260526-1505",
     "last_update": "2026-05-26 15:05:03",
     "gemini": {

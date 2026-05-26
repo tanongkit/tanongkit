@@ -1,28 +1,9 @@
 {
-  "updated": "2026-05-26 15:08:02",
+  "updated": "2026-05-26 17:08:00",
   "initial_cash": 1000000,
   "blue": {
-    "cash": 614407.0,
-    "positions": {
-      "KCE": {
-        "qty": 5700,
-        "avg_price": 34.75,
-        "value": 198075.0,
-        "time": "2026-05-26 10:20"
-      },
-      "MOTHER": {
-        "qty": 163900,
-        "avg_price": 1.22,
-        "value": 199958.0,
-        "time": "2026-05-26 14:06"
-      },
-      "TIDLOR": {
-        "qty": 11200,
-        "avg_price": 17.8,
-        "value": 199360.0,
-        "time": "2026-05-26 15:06"
-      }
-    },
+    "cash": 1210161.0,
+    "positions": {},
     "pl": [
       {
         "date": "2026-05-20",
@@ -47,6 +28,12 @@
         "team": "BLUE",
         "pl": 12048.0,
         "note": "EOD net=+12048"
+      },
+      {
+        "date": "2026-05-26",
+        "team": "BLUE",
+        "pl": -1639.0,
+        "note": "EOD net=-1639"
       }
     ]
   },
@@ -757,6 +744,56 @@
       "qty": 39200,
       "price": 5.05,
       "amount": 197960.0,
+      "balance_after": 1227590.0
+    },
+    {
+      "time": "2026-05-26 17:06",
+      "team": "RED",
+      "action": "BUY",
+      "sym": "OSP",
+      "qty": 13100,
+      "price": 15.2,
+      "amount": -199120.0,
+      "balance_after": 1028470.0
+    },
+    {
+      "time": "2026-05-26 17:08",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "KCE",
+      "qty": 5700,
+      "price": 34.75,
+      "amount": 198075.0,
+      "balance_after": 812482.0
+    },
+    {
+      "time": "2026-05-26 17:08",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "MOTHER",
+      "qty": 163900,
+      "price": 1.21,
+      "amount": 198319.0,
+      "balance_after": 1010801.0
+    },
+    {
+      "time": "2026-05-26 17:08",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "TIDLOR",
+      "qty": 11200,
+      "price": 17.8,
+      "amount": 199360.0,
+      "balance_after": 1210161.0
+    },
+    {
+      "time": "2026-05-26 17:08",
+      "team": "RED",
+      "action": "SELL",
+      "sym": "OSP",
+      "qty": 13100,
+      "price": 15.2,
+      "amount": 199120.0,
       "balance_after": 1227590.0
     }
   ]
