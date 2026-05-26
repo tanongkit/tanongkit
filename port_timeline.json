@@ -1,9 +1,16 @@
 {
-  "updated": "2026-05-26 10:10:14",
+  "updated": "2026-05-26 10:22:52",
   "initial_cash": 1000000,
   "blue": {
-    "cash": 1211800.0,
-    "positions": {},
+    "cash": 1013725.0,
+    "positions": {
+      "KCE": {
+        "qty": 5700,
+        "avg_price": 34.75,
+        "value": 198075.0,
+        "time": "2026-05-26 10:20"
+      }
+    },
     "pl": [
       {
         "date": "2026-05-20",
@@ -32,8 +39,15 @@
     ]
   },
   "red": {
-    "cash": 1229550.0,
-    "positions": {},
+    "cash": 1031475.0,
+    "positions": {
+      "KCE": {
+        "qty": 5700,
+        "avg_price": 34.75,
+        "value": 198075.0,
+        "time": "2026-05-26 10:20"
+      }
+    },
     "pl": [
       {
         "date": "2026-05-20",
@@ -649,6 +663,26 @@
       "price": 9.15,
       "amount": 199470.0,
       "balance_after": 1229550.0
+    },
+    {
+      "time": "2026-05-26 10:20",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "KCE",
+      "qty": 5700,
+      "price": 34.75,
+      "amount": -198075.0,
+      "balance_after": 1013725.0
+    },
+    {
+      "time": "2026-05-26 10:20",
+      "team": "RED",
+      "action": "BUY",
+      "sym": "KCE",
+      "qty": 5700,
+      "price": 34.75,
+      "amount": -198075.0,
+      "balance_after": 1031475.0
     }
   ]
 }

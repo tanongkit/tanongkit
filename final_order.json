@@ -1,13 +1,46 @@
 {
-  "execution_time": "2026-05-26 10:08",
-  "ref_tx_id": "20260526-1007",
-  "orders": [],
+  "execution_time": "2026-05-26 10:20",
+  "ref_tx_id": "20260526-1019",
+  "orders": [
+    {
+      "symbol": "KCE",
+      "action": "BUY",
+      "price": 34.75,
+      "qty": 5700,
+      "sources": [
+        "blue"
+      ]
+    },
+    {
+      "symbol": "KCE",
+      "action": "BUY",
+      "price": 34.75,
+      "qty": 5700,
+      "sources": [
+        "red"
+      ]
+    }
+  ],
   "blue": {
-    "cash": 1211800.0,
-    "positions": {}
+    "cash": 1013725.0,
+    "positions": {
+      "KCE": {
+        "qty": 5700,
+        "avg_price": 34.75,
+        "value": 198075.0,
+        "time": "2026-05-26 10:20"
+      }
+    }
   },
   "red": {
-    "cash": 1229550.0,
-    "positions": {}
+    "cash": 1031475.0,
+    "positions": {
+      "KCE": {
+        "qty": 5700,
+        "avg_price": 34.75,
+        "value": 198075.0,
+        "time": "2026-05-26 10:20"
+      }
+    }
   }
 }
