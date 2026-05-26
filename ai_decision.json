@@ -1,5 +1,169 @@
 [
   {
+    "tx_id": "20260526-1135",
+    "last_update": "2026-05-26 11:35:03",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index green, led by strong gains in Banking (+1.73%) and Financial sectors.",
+      "player_stance": "WAIT",
+      "stance_reason": "Portfolio is fully invested. Monitoring current position (DELTA) and top watchlist candidates for potential rotation.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.5,
+          "vs": "Strong Momentum",
+          "why": "Passes all rules (RSI/Rt/S7)."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 9,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.0,
+          "vs": "News Catalyst",
+          "why": "Passes all rules, 'Kon La Krueng' stimulus."
+        },
+        {
+          "sym": "EASTW",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.98,
+          "entry": 3.98,
+          "tp": 4.2,
+          "vs": "Top Rank",
+          "why": "#1 Rank, massive S7, wait Rt."
+        },
+        {
+          "sym": "TIDLOR",
+          "action": "BUY",
+          "conf": 8,
+          "now": 17.8,
+          "entry": 17.8,
+          "tp": 19.0,
+          "vs": "Momentum",
+          "why": "High rank_change (+15), wait Rt."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 37.5,
+          "vs": "Momentum",
+          "why": "High rank_change (+16), wait Rt."
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 7,
+          "now": 14.2,
+          "entry": 14.2,
+          "tp": 15.0,
+          "vs": "Top 10",
+          "why": "Top 10 rank, strong S7, wait Rt."
+        },
+        {
+          "sym": "GPSC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 40.25,
+          "entry": 40.25,
+          "tp": 42.5,
+          "vs": "Top 10",
+          "why": "Top 10 rank, strong S7, wait Rt."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 6,
+          "now": 25.75,
+          "entry": 25.75,
+          "tp": 27.5,
+          "vs": "News Catalyst",
+          "why": "Stimulus play, wait for Rt > 1.5x."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.34%, BANK +1.73%, CONMAT +1.06%, HEALTH +0.98% lead gains",
+      "player_stance": "SELL",
+      "stance_reason": "DELTA 313→TP 350 in 3 days before MSCI 29-May deadline, take profit now",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "SELL_ALL",
+          "qty": 2600,
+          "reason": "3 days to MSCI effective, near TP 350 from 313, lock +37k profit"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.5,
+          "sector": "PROP",
+          "vs": "rank #5 up +5",
+          "why": "S7 +6.8% D1 +2.5% EV catalyst"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 38.0,
+          "sector": "ELECTRONICS",
+          "vs": "rank #17 up +16",
+          "why": "RSI 65.7 D1 +6.9% S7 +3.0%"
+        },
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 7.95,
+          "entry": 7.5,
+          "tp": 8.5,
+          "sector": "ELECTRONICS",
+          "vs": "rank #2 up +9",
+          "why": "RSI 79.4 overbought wait cooldown"
+        },
+        {
+          "sym": "KTB",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 34.75,
+          "entry": 34.0,
+          "tp": 37.0,
+          "sector": "BANK",
+          "vs": "rank #22 up +9",
+          "why": "RSI 70.3 high Rt 0 wait"
+        },
+        {
+          "sym": "OSP",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.5,
+          "sector": "FOOD",
+          "vs": "rank #33 up +3",
+          "why": "Rt 0 S7 +2.7% wait confirmation"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260526-1104",
     "last_update": "2026-05-26 11:04:46",
     "gemini": {
