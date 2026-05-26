@@ -1,5 +1,149 @@
 [
   {
+    "tx_id": "20260526-0838",
+    "last_update": "2026-05-26 08:38:56",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index up +0.76%, showing positive opening momentum.",
+      "player_stance": "HOLD",
+      "stance_reason": "Port is full with DELTA (MSCI play). Watching strong candidates for new entry.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.35,
+          "vs": "Wait Rt>1.5x",
+          "why": "Top rank, S7+, EV+DC story"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.05,
+          "vs": "Wait Rt>1.5x",
+          "why": "S7+, 'คนละครึ่ง' catalyst"
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 8,
+          "now": 25.75,
+          "entry": 25.75,
+          "tp": 27.55,
+          "vs": "Wait Rt>1.5x",
+          "why": "Strong S7, 'คนละครึ่ง' catalyst"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 7,
+          "now": 21.3,
+          "entry": 21.3,
+          "tp": 22.8,
+          "vs": "Wait Rt>1.5x",
+          "why": "Top 10 rank, S7+, RSI ok"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 7,
+          "now": 14.2,
+          "entry": 14.2,
+          "tp": 15.05,
+          "vs": "Wait Rt>1.5x",
+          "why": "Top 10 rank, strong S7"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 6,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 38.2,
+          "vs": "Wait Rt>1.5x",
+          "why": "S7+, rank_change +16 momo"
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 6,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 36.5,
+          "vs": "Wait Rt>1.5x",
+          "why": "S7+, passes all rules"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 5,
+          "now": 3.82,
+          "entry": 3.82,
+          "tp": 4.05,
+          "vs": "Wait Rt>1.5x",
+          "why": "Good S7, passes all rules"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.76% partial, ELECTRONICS/TECH strong, ELEC sector +0.0%",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA at 332, below TP 350, S7 -0.6% weak, MSCI deadline 3 days away",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "reason": "Below TP 350, S7 turned negative -0.6%, Vol low, MSCI deadline 29 May approaching",
+          "current_price": 332.0,
+          "target": 350.0,
+          "stop": 290.0
+        }
+      ],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.5,
+          "sector": "PROP",
+          "vs": "Rank 5, S7 +6.8%",
+          "why": "EV+Data Center catalyst strong"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 6,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.5,
+          "sector": "FOOD",
+          "vs": "Rank 33, S7 +2.7%",
+          "why": "Khon La Khrueng phase 2"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 34.75,
+          "entry": 35.0,
+          "tp": 38.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank 17, Rt 0.0x",
+          "why": "Rt missing, S7 +2.96% weak"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260526-0825",
     "last_update": "2026-05-26 08:25:06",
     "gemini": {
