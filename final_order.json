@@ -1,12 +1,12 @@
 {
-  "execution_time": "2026-05-26 23:51",
-  "t_ai": "2026-05-26 23:50:37",
-  "ref_tx_id": "20260526-2350",
+  "execution_time": "2026-05-27 00:07",
+  "t_ai": "2026-05-27 00:06:35",
+  "ref_tx_id": "20260527-0006",
   "orders": [
     {
-      "symbol": "THAI",
+      "symbol": "HANA",
       "action": "BUY",
-      "price": 6.6,
+      "price": 38.25,
       "qty": 100,
       "sources": [
         "blue"
@@ -14,7 +14,7 @@
     }
   ],
   "blue": {
-    "cash": 1184481.0,
+    "cash": 1180656.0,
     "positions": {
       "SCC": {
         "qty": 100,
@@ -33,6 +33,12 @@
         "avg_price": 6.6,
         "value": 660.0,
         "time": "2026-05-26 23:51"
+      },
+      "HANA": {
+        "qty": 100,
+        "avg_price": 38.25,
+        "value": 3825.0,
+        "time": "2026-05-27 00:07"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
-  "updated": "2026-05-26 23:53:52",
+  "updated": "2026-05-27 00:09:37",
   "initial_cash": 1000000,
   "blue": {
-    "cash": 1184481.0,
+    "cash": 1180656.0,
     "positions": {
       "SCC": {
         "qty": 100,
@@ -21,6 +21,12 @@
         "avg_price": 6.6,
         "value": 660.0,
         "time": "2026-05-26 23:51"
+      },
+      "HANA": {
+        "qty": 100,
+        "avg_price": 38.25,
+        "value": 3825.0,
+        "time": "2026-05-27 00:07"
       }
     },
     "pl": [
@@ -844,6 +850,16 @@
       "price": 6.6,
       "amount": -660.0,
       "balance_after": 1184481.0
+    },
+    {
+      "time": "2026-05-27 00:07",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "HANA",
+      "qty": 100,
+      "price": 38.25,
+      "amount": -3825.0,
+      "balance_after": 1180656.0
     }
   ]
 }
