@@ -1,8 +1,8 @@
 {
-  "updated": "2026-05-25 17:08:07",
+  "updated": "2026-05-26 10:10:14",
   "initial_cash": 1000000,
   "blue": {
-    "cash": 1018584.0,
+    "cash": 1211800.0,
     "positions": {},
     "pl": [
       {
@@ -26,8 +26,8 @@
       {
         "date": "2026-05-25",
         "team": "BLUE",
-        "pl": 15000.0,
-        "note": "EOD net=+15000 (patched)"
+        "pl": 12048.0,
+        "note": "EOD net=+12048"
       }
     ]
   },
@@ -472,6 +472,16 @@
     },
     {
       "time": "2026-05-23 00:11",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "RBF",
+      "qty": 49200,
+      "price": 4.06,
+      "amount": -199752.0,
+      "balance_after": 1997798.0
+    },
+    {
+      "time": "2026-05-23 00:11",
       "team": "RED",
       "action": "BUY",
       "sym": "CCET",
@@ -589,6 +599,16 @@
       "price": 9.15,
       "amount": -199470.0,
       "balance_after": 1030080.0
+    },
+    {
+      "time": "2026-05-25 17:08",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "RBF",
+      "qty": 49200,
+      "price": 4.0,
+      "amount": 196800.0,
+      "balance_after": 598020.0
     },
     {
       "time": "2026-05-25 17:08",

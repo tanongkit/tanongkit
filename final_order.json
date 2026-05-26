@@ -1,9 +1,13 @@
 {
-  "execution_time": "2026-05-26 00:42",
-  "ref_tx_id": "test-016",
+  "execution_time": "2026-05-26 10:08",
+  "ref_tx_id": "20260526-1007",
   "orders": [],
   "blue": {
-    "cash": 818832.0,
+    "cash": 1211800.0,
+    "positions": {}
+  },
+  "red": {
+    "cash": 1229550.0,
     "positions": {}
   }
 }

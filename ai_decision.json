@@ -1,5 +1,168 @@
 [
   {
+    "tx_id": "20260526-1007",
+    "last_update": "2026-05-26 10:07:14",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET index is flat and sector performance is mixed with no clear leadership.",
+      "player_stance": "HOLD",
+      "stance_reason": "Port is full with a high-conviction MSCI play (DELTA); awaiting catalyst with no strong market sell signals.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "WATCH",
+          "conf": 9,
+          "now": 5.0,
+          "entry": 5.05,
+          "tp": 5.3,
+          "vs": "Top 5 Rank, S7>6%",
+          "why": "EV/Data Center theme"
+        },
+        {
+          "sym": "OSP",
+          "action": "WATCH",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.1,
+          "tp": 15.8,
+          "vs": "Good RSI, S7 positive",
+          "why": "Govt stimulus play"
+        },
+        {
+          "sym": "EASTW",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 3.98,
+          "entry": 4.0,
+          "tp": 4.2,
+          "vs": "Rank #1, S7 >20%",
+          "why": "Top rank momentum"
+        },
+        {
+          "sym": "TIDLOR",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 17.8,
+          "entry": 17.9,
+          "tp": 18.8,
+          "vs": "Rank change +15",
+          "why": "Strong momentum surge"
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 34.75,
+          "entry": 35.0,
+          "tp": 37.0,
+          "vs": "Rank change +16",
+          "why": "ELEC sector momentum"
+        },
+        {
+          "sym": "MOTHER",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 1.21,
+          "entry": 1.22,
+          "tp": 1.3,
+          "vs": "Rank change +25",
+          "why": "Extreme rank momentum"
+        },
+        {
+          "sym": "STECON",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 14.2,
+          "entry": 14.3,
+          "tp": 15.0,
+          "vs": "Top 10 rank, S7>5%",
+          "why": "Stable Top 10 pick"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 18.7,
+          "entry": 18.8,
+          "tp": 19.8,
+          "vs": "Rank change +16",
+          "why": "Financial sector momentum"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET -0.09% flat, BANK/INSUR up, ETRON/TECH down, mixed signals",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA 313 ใต้ทุน 314.54, S7 -0.6% ลบ, 3 วันถึง MSCI, รอยืนยัน",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "reason": "S7 ลบแต่ใกล้ MSCI 29 พ.ค. รอ 1 วัน RSI 61 ปลอดภัย"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 7.95,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ELECTRONICS",
+          "vs": "RSI 79.4 ร้อนเกิน",
+          "why": "rank +9 แรง แต่ RSI >75 ไม่เข้า"
+        },
+        {
+          "sym": "WHA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 5.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "PROP",
+          "vs": "S7 +6.8% ผ่าน แต่ port เต็ม",
+          "why": "rank +5 EV catalyst แรง"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 34.75,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ELECTRONICS",
+          "vs": "rank +16 แรง RSI 65.7 ปลอดภัย",
+          "why": "รอ Rt realtime >1.5x ยืนยัน"
+        },
+        {
+          "sym": "TIDLOR",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 17.8,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "FIN",
+          "vs": "rank +15 จาก 28→13",
+          "why": "RSI 61 ดี แต่ S7 +5.9% อ่อน"
+        },
+        {
+          "sym": "OSP",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 15.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "FOOD",
+          "vs": "คนละครึ่ง 1 มิ.ย. หนุน",
+          "why": "S7 +2.7% RSI 57 รอ Rt"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260526-0838",
     "last_update": "2026-05-26 08:38:56",
     "gemini": {
