@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26 10:37:36",
+  "updated": "2026-05-26 11:07:48",
   "initial_cash": 1000000,
   "blue": {
     "cash": 1013725.0,
@@ -39,8 +39,15 @@
     ]
   },
   "red": {
-    "cash": 1229550.0,
-    "positions": {},
+    "cash": 1029630.0,
+    "positions": {
+      "WHA": {
+        "qty": 39200,
+        "avg_price": 5.1,
+        "value": 199920.0,
+        "time": "2026-05-26 11:05"
+      }
+    },
     "pl": [
       {
         "date": "2026-05-20",
@@ -686,6 +693,16 @@
       "price": 34.75,
       "amount": 198075.0,
       "balance_after": 1229550.0
+    },
+    {
+      "time": "2026-05-26 11:05",
+      "team": "RED",
+      "action": "BUY",
+      "sym": "WHA",
+      "qty": 39200,
+      "price": 5.1,
+      "amount": -199920.0,
+      "balance_after": 1029630.0
     }
   ]
 }

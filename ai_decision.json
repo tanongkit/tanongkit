@@ -1,5 +1,168 @@
 [
   {
+    "tx_id": "20260526-1104",
+    "last_update": "2026-05-26 11:04:46",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET is up slightly, but financials lead while energy/resources lag, indicating mixed participation.",
+      "player_stance": "WAIT",
+      "stance_reason": "Port is full (DELTA). Awaiting Rt > 1.5x confirmation on top candidates before rotating.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.4,
+          "vs": "Stop loss < 4.8",
+          "why": "Top 5 rank, strong S7, EV/DC catalyst."
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 9,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 37.0,
+          "vs": "Stop loss < 33.5",
+          "why": "Riding strongest sector (BANK), strong momentum."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 38.0,
+          "vs": "Stop loss < 33.0",
+          "why": "Huge rank_change +16, strong ETRON sector."
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 8,
+          "now": 25.75,
+          "entry": 25.75,
+          "tp": 28.0,
+          "vs": "Stop loss < 24.75",
+          "why": "'Khon La Khrueng' catalyst, strong S7."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 7,
+          "now": 15.0,
+          "entry": 15.0,
+          "tp": 16.2,
+          "vs": "Stop loss < 14.4",
+          "why": "'Khon La Khrueng' catalyst in strong FOOD sector."
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 6,
+          "now": 21.3,
+          "entry": 21.3,
+          "tp": 23.0,
+          "vs": "Stop loss < 20.5",
+          "why": "High rank (#7) but weak sector performance."
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 5,
+          "now": 14.2,
+          "entry": 14.2,
+          "tp": 15.2,
+          "vs": "Stop loss < 13.6",
+          "why": "Top 10 rank but in today's weakest sector."
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 5,
+          "now": 3.82,
+          "entry": 3.82,
+          "tp": 4.1,
+          "vs": "Stop loss < 3.68",
+          "why": "Good S7 and RSI but lacks strong catalyst."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET +0.36% weak, BANK/FOOD up, TOURISM/PETRO down, mixed sector flows",
+      "player_stance": "HOLD",
+      "stance_reason": "DELTA -0.49% hold until MSCI 29-May, no strong new signals, wait Rt confirmation",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "reason": "8 days to MSCI effective, price 313 vs TP1 350, S7 -0.60% weak but MSCI catalyst intact"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 7,
+          "now": 7.95,
+          "entry": 7.9,
+          "tp": 9.5,
+          "sector": "ELECTRONICS",
+          "vs": "rank +9 to #2, RSI 79.4 overbought risk",
+          "why": "Strong rank jump, wait RSI cool"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.5,
+          "sector": "PROP",
+          "vs": "rank +5 to #5, RSI 74.6 high but acceptable",
+          "why": "EV/Data catalyst, S7 +6.84% strong"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 34.75,
+          "entry": 35.0,
+          "tp": 38.0,
+          "sector": "ELECTRONICS",
+          "vs": "rank +16 to #17, RSI 65.7 OK, Rt missing",
+          "why": "Need Rt >1.5x confirmation first"
+        },
+        {
+          "sym": "OSP",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 15.0,
+          "entry": 15.2,
+          "tp": 16.5,
+          "sector": "FOOD",
+          "vs": "rank #33 too low, Rt 0.0 no volume",
+          "why": "Await คนละครึ่ง 1-Jun catalyst timing"
+        },
+        {
+          "sym": "KTB",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 34.75,
+          "entry": 35.0,
+          "tp": 37.5,
+          "sector": "BANK",
+          "vs": "rank +9 to #22, RSI 70.3 high, Rt 0.0",
+          "why": "Bank sector up but need Rt confirmation"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260526-1034",
     "last_update": "2026-05-26 10:34:51",
     "gemini": {
