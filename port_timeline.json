@@ -1,9 +1,28 @@
 {
-  "updated": "2026-05-26 17:08:00",
+  "updated": "2026-05-26 23:53:52",
   "initial_cash": 1000000,
   "blue": {
-    "cash": 1210161.0,
-    "positions": {},
+    "cash": 1184481.0,
+    "positions": {
+      "SCC": {
+        "qty": 100,
+        "avg_price": 231.0,
+        "value": 23100.0,
+        "time": "2026-05-26 22:44"
+      },
+      "CREDIT": {
+        "qty": 100,
+        "avg_price": 19.2,
+        "value": 1920.0,
+        "time": "2026-05-26 22:44"
+      },
+      "THAI": {
+        "qty": 100,
+        "avg_price": 6.6,
+        "value": 660.0,
+        "time": "2026-05-26 23:51"
+      }
+    },
     "pl": [
       {
         "date": "2026-05-20",
@@ -795,6 +814,36 @@
       "price": 15.2,
       "amount": 199120.0,
       "balance_after": 1227590.0
+    },
+    {
+      "time": "2026-05-26 22:44",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "SCC",
+      "qty": 100,
+      "price": 231.0,
+      "amount": -23100.0,
+      "balance_after": 1187061.0
+    },
+    {
+      "time": "2026-05-26 22:44",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "CREDIT",
+      "qty": 100,
+      "price": 19.2,
+      "amount": -1920.0,
+      "balance_after": 1185141.0
+    },
+    {
+      "time": "2026-05-26 23:51",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "THAI",
+      "qty": 100,
+      "price": 6.6,
+      "amount": -660.0,
+      "balance_after": 1184481.0
     }
   ]
 }

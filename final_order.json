@@ -1,23 +1,39 @@
 {
-  "execution_time": "2026-05-26 17:06",
-  "ref_tx_id": "20260526-1705",
+  "execution_time": "2026-05-26 23:51",
+  "t_ai": "2026-05-26 23:50:37",
+  "ref_tx_id": "20260526-2350",
   "orders": [
     {
-      "symbol": "OSP",
+      "symbol": "THAI",
       "action": "BUY",
-      "price": 15.2,
-      "qty": 13100,
+      "price": 6.6,
+      "qty": 100,
       "sources": [
-        "red"
+        "blue"
       ]
     }
   ],
   "blue": {
-    "cash": 1210161.0,
-    "positions": {}
-  },
-  "red": {
-    "cash": 1227590.0,
-    "positions": {}
+    "cash": 1184481.0,
+    "positions": {
+      "SCC": {
+        "qty": 100,
+        "avg_price": 231.0,
+        "value": 23100.0,
+        "time": "2026-05-26 22:44"
+      },
+      "CREDIT": {
+        "qty": 100,
+        "avg_price": 19.2,
+        "value": 1920.0,
+        "time": "2026-05-26 22:44"
+      },
+      "THAI": {
+        "qty": 100,
+        "avg_price": 6.6,
+        "value": 660.0,
+        "time": "2026-05-26 23:51"
+      }
+    }
   }
 }
