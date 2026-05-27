@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260527-1107",
+    "last_update": "2026-05-27 11:07:54",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.23% with strong buying in TECH/ETRON sector (+4.92%).",
+      "player_stance": "BUY",
+      "stance_reason": "Market has strong positive momentum with clear sector leadership, providing confidence for new entries.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 41.0,
+          "entry": 41.0,
+          "tp": 44.0,
+          "vs": "ETRON Leader",
+          "why": "Rank+7, d1+9.3%, S7+, Hot Sector",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 9,
+          "now": 37.0,
+          "entry": 37.0,
+          "tp": 39.5,
+          "vs": "ETRON Leader",
+          "why": "Rank+10, d1+7.2%, S7+, Hot Sector",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.8,
+          "entry": 3.8,
+          "tp": 4.0,
+          "vs": "High Momentum",
+          "why": "Rank+4, d1+9.2%, S7+, งบดี",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 7,
+          "now": 9.15,
+          "entry": 9.15,
+          "tp": 9.6,
+          "vs": "Rank #1 Play",
+          "why": "Rank #1, S7++, Hot Sector, Lesson Learned",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 7,
+          "now": 14.4,
+          "entry": 14.4,
+          "tp": 15.0,
+          "vs": "Momentum Burst",
+          "why": "Rank+23, d1+2.1%, S7+",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "WHA",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 5.05,
+          "entry": 5.1,
+          "tp": 5.25,
+          "vs": "Fundamental Play",
+          "why": "RSI/S7 pass but d1 weak, rank slipping",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "COM7",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 25.75,
+          "entry": 26.0,
+          "tp": 27.0,
+          "vs": "Retail Catalyst",
+          "why": "Positive rank change but d1 not >2%",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "STGT",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 11.9,
+          "entry": 12.0,
+          "tp": 12.5,
+          "vs": "Positive S7",
+          "why": "All rules pass but d1 momentum is weak",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.23%, TECH +3.4%, ETRON +4.92%, BANK +0.39%, broad sector strength",
+      "player_stance": "WAIT",
+      "stance_reason": "No stocks pass Rule 0-3: CCET/HANA/DELTA over 60฿, others fail RSI/S7/Rt combo",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 6,
+          "now": 14.4,
+          "entry": 14.2,
+          "tp": 16.8,
+          "sector": "CONS",
+          "vs": "Rank #33, RSI 60.4",
+          "why": "D1 +2.1%, S7 +9.9% recovery, volatile DNA fits"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 37.0,
+          "entry": 36.5,
+          "tp": 42.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank #9, RSI 64.5",
+          "why": "D1 +7.2%, S7 +19.4%, ETRON sector +4.92%"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 3.8,
+          "entry": 3.75,
+          "tp": 4.4,
+          "sector": "ENERG",
+          "vs": "Rank #6, RSI 68.7",
+          "why": "D1 +9.2%, S7 +9.7%, solar play energy+0.22%"
+        },
+        {
+          "sym": "HANA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 41.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank #5, RSI 65.4",
+          "why": "Price 41฿ violates Rule 0, monitor only"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 356.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank #10, RSI 62.1",
+          "why": "Price 356฿ violates Rule 0, MSCI exit 29-May"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260527-1028",
     "last_update": "2026-05-27 10:28:10",
     "gemini": {
