@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260527-1028",
+    "last_update": "2026-05-27 10:28:10",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.65% driven by a massive +6.06% surge in the ETRON sector.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong market-wide momentum and clear sector leadership in Electronics present high-probability entry signals.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 39.25,
+          "entry": 39.5,
+          "tp": 41.75,
+          "vs": "ETRON +6.06%",
+          "why": "Hot sector, D1 +4.6%, S7 +33.0% strong momentum.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 9,
+          "now": 35.75,
+          "entry": 36.0,
+          "tp": 37.75,
+          "vs": "ETRON +6.06%",
+          "why": "Hot sector, D1 +3.6%, S7 +15.3% breakout.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.56,
+          "entry": 3.58,
+          "tp": 3.74,
+          "vs": "Rank #5",
+          "why": "High rank, strong D1 +2.3%, meets all criteria.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.05,
+          "entry": 5.1,
+          "tp": 5.3,
+          "vs": "RSI:70.0",
+          "why": "Missed pick yesterday, strong DNA, S7/D1 positive.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "STGT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 12.0,
+          "entry": 12.1,
+          "tp": 12.6,
+          "vs": "Rank #6",
+          "why": "High rank, positive sector, S7 +7.1% solid trend.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "TIDLOR",
+          "action": "BUY",
+          "conf": 6,
+          "now": 18.3,
+          "entry": 18.3,
+          "tp": 19.0,
+          "vs": "S7 +12.9%",
+          "why": "High rank, strong S7 momentum, but D1 flat.",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 6,
+          "now": 22.0,
+          "entry": 22.1,
+          "tp": 22.9,
+          "vs": "Rank #4",
+          "why": "Top 5 rank, RSI 69.8 in range, but D1 weak.",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 6,
+          "now": 14.3,
+          "entry": 14.4,
+          "tp": 15.0,
+          "vs": "Rank +11",
+          "why": "Strong rank jump, S7 +9.1% momentum building.",
+          "lead_doing": "buy"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.65%, TECH +4.43%, ETRON +6.06%, financials positive, broad sector strength",
+      "player_stance": "HOLD",
+      "stance_reason": "Zero positions, MSCI deadline 2 days away, top picks fail Rule 0 or S7 negative",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.56,
+          "entry": 3.5,
+          "tp": 3.85,
+          "sector": "ENERG",
+          "vs": "Rank #5, RSI 68.7, D1 +2.3%, S7 +2.8%",
+          "why": "Solar catalyst, momentum building, S7 positive"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 39.25,
+          "entry": 38.5,
+          "tp": 42.0,
+          "sector": "ETRON",
+          "vs": "Rank #7, RSI 65.4, D1 +4.7%, S7 +33%",
+          "why": "ELEC V-Shape, strong momentum, S7 override"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 6,
+          "now": 35.75,
+          "entry": 35.0,
+          "tp": 38.5,
+          "sector": "ETRON",
+          "vs": "Rank #13, RSI 64.5, D1 +3.6%, S7 +15.3%",
+          "why": "PCB play, ETRON sector +6%, S7 positive"
+        },
+        {
+          "sym": "STECON",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 14.3,
+          "entry": 13.8,
+          "tp": 15.5,
+          "sector": "CONS",
+          "vs": "Rank #45, RSI 60.4, D1 +1.4%, S7 +9.2%",
+          "why": "Volatile swing, rank too low, wait confirmation"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 347.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ETRON",
+          "vs": "Rank #11, price 347 fails Rule 0, MSCI 29 May",
+          "why": "Price >60 rule violation, TP before MSCI"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260527-1008",
     "last_update": "2026-05-27 10:08:06",
     "gemini": {

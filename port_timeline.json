@@ -1,8 +1,8 @@
 {
-  "updated": "2026-05-27 10:11:05",
+  "updated": "2026-05-27 10:31:11",
   "initial_cash": 1000000,
   "blue": {
-    "cash": 1180158.0,
+    "cash": 1175153.0,
     "positions": {
       "SCC": {
         "qty": 100,
@@ -33,6 +33,18 @@
         "avg_price": 4.98,
         "value": 498.0,
         "time": "2026-05-27 08:40"
+      },
+      "KCE": {
+        "qty": 100,
+        "avg_price": 35.75,
+        "value": 3575.0,
+        "time": "2026-05-27 10:29"
+      },
+      "STECON": {
+        "qty": 100,
+        "avg_price": 14.3,
+        "value": 1430.0,
+        "time": "2026-05-27 10:29"
       }
     },
     "pl": [
@@ -876,6 +888,26 @@
       "price": 4.98,
       "amount": -498.0,
       "balance_after": 1180158.0
+    },
+    {
+      "time": "2026-05-27 10:29",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "KCE",
+      "qty": 100,
+      "price": 35.75,
+      "amount": -3575.0,
+      "balance_after": 1176583.0
+    },
+    {
+      "time": "2026-05-27 10:29",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "STECON",
+      "qty": 100,
+      "price": 14.3,
+      "amount": -1430.0,
+      "balance_after": 1175153.0
     }
   ]
 }

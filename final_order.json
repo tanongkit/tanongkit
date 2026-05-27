@@ -1,10 +1,29 @@
 {
-  "execution_time": "2026-05-27 10:09",
-  "t_ai": "2026-05-27 10:08:06",
-  "ref_tx_id": "20260527-1008",
-  "orders": [],
+  "execution_time": "2026-05-27 10:29",
+  "t_ai": "2026-05-27 10:28:10",
+  "ref_tx_id": "20260527-1028",
+  "orders": [
+    {
+      "symbol": "KCE",
+      "action": "BUY",
+      "price": 35.75,
+      "qty": 100,
+      "sources": [
+        "blue"
+      ]
+    },
+    {
+      "symbol": "STECON",
+      "action": "BUY",
+      "price": 14.3,
+      "qty": 100,
+      "sources": [
+        "blue"
+      ]
+    }
+  ],
   "blue": {
-    "cash": 1180158.0,
+    "cash": 1175153.0,
     "positions": {
       "SCC": {
         "qty": 100,
@@ -35,6 +54,18 @@
         "avg_price": 4.98,
         "value": 498.0,
         "time": "2026-05-27 08:40"
+      },
+      "KCE": {
+        "qty": 100,
+        "avg_price": 35.75,
+        "value": 3575.0,
+        "time": "2026-05-27 10:29"
+      },
+      "STECON": {
+        "qty": 100,
+        "avg_price": 14.3,
+        "value": 1430.0,
+        "time": "2026-05-27 10:29"
       }
     }
   }
