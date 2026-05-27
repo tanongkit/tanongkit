@@ -1,8 +1,8 @@
 {
-  "updated": "2026-05-27 11:11:05",
+  "updated": "2026-05-27 11:41:10",
   "initial_cash": 1000000,
   "blue": {
-    "cash": 1174773.0,
+    "cash": 1170703.0,
     "positions": {
       "SCC": {
         "qty": 100,
@@ -51,6 +51,18 @@
         "avg_price": 3.8,
         "value": 380.0,
         "time": "2026-05-27 11:09"
+      },
+      "PSL": {
+        "qty": 100,
+        "avg_price": 7.45,
+        "value": 745.0,
+        "time": "2026-05-27 11:39"
+      },
+      "CENTEL": {
+        "qty": 100,
+        "avg_price": 33.25,
+        "value": 3325.0,
+        "time": "2026-05-27 11:39"
       }
     },
     "pl": [
@@ -924,6 +936,26 @@
       "price": 3.8,
       "amount": -380.0,
       "balance_after": 1174773.0
+    },
+    {
+      "time": "2026-05-27 11:39",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "PSL",
+      "qty": 100,
+      "price": 7.45,
+      "amount": -745.0,
+      "balance_after": 1174028.0
+    },
+    {
+      "time": "2026-05-27 11:39",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "CENTEL",
+      "qty": 100,
+      "price": 33.25,
+      "amount": -3325.0,
+      "balance_after": 1170703.0
     }
   ]
 }

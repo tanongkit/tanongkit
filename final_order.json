@@ -1,12 +1,21 @@
 {
-  "execution_time": "2026-05-27 11:09",
-  "t_ai": "2026-05-27 11:07:54",
-  "ref_tx_id": "20260527-1107",
+  "execution_time": "2026-05-27 11:39",
+  "t_ai": "2026-05-27 11:38:11",
+  "ref_tx_id": "20260527-1138",
   "orders": [
     {
-      "symbol": "GUNKUL",
+      "symbol": "PSL",
       "action": "BUY",
-      "price": 3.8,
+      "price": 7.45,
+      "qty": 100,
+      "sources": [
+        "blue"
+      ]
+    },
+    {
+      "symbol": "CENTEL",
+      "action": "BUY",
+      "price": 33.25,
       "qty": 100,
       "sources": [
         "blue"
@@ -14,7 +23,7 @@
     }
   ],
   "blue": {
-    "cash": 1174773.0,
+    "cash": 1170703.0,
     "positions": {
       "SCC": {
         "qty": 100,
@@ -63,6 +72,18 @@
         "avg_price": 3.8,
         "value": 380.0,
         "time": "2026-05-27 11:09"
+      },
+      "PSL": {
+        "qty": 100,
+        "avg_price": 7.45,
+        "value": 745.0,
+        "time": "2026-05-27 11:39"
+      },
+      "CENTEL": {
+        "qty": 100,
+        "avg_price": 33.25,
+        "value": 3325.0,
+        "time": "2026-05-27 11:39"
       }
     }
   }
