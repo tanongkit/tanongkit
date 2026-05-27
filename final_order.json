@@ -1,12 +1,12 @@
 {
-  "execution_time": "2026-05-27 00:07",
-  "t_ai": "2026-05-27 00:06:35",
-  "ref_tx_id": "20260527-0006",
+  "execution_time": "2026-05-27 08:40",
+  "t_ai": "2026-05-27 08:39:19",
+  "ref_tx_id": "20260527-0839",
   "orders": [
     {
-      "symbol": "HANA",
+      "symbol": "TTA",
       "action": "BUY",
-      "price": 38.25,
+      "price": 4.98,
       "qty": 100,
       "sources": [
         "blue"
@@ -14,7 +14,7 @@
     }
   ],
   "blue": {
-    "cash": 1180656.0,
+    "cash": 1180158.0,
     "positions": {
       "SCC": {
         "qty": 100,
@@ -39,6 +39,12 @@
         "avg_price": 38.25,
         "value": 3825.0,
         "time": "2026-05-27 00:07"
+      },
+      "TTA": {
+        "qty": 100,
+        "avg_price": 4.98,
+        "value": 498.0,
+        "time": "2026-05-27 08:40"
       }
     }
   }

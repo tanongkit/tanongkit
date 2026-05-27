@@ -1,5 +1,448 @@
 [
   {
+    "tx_id": "20260527-0839",
+    "last_update": "2026-05-27 08:39:19",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Flat SET index but strong underlying momentum in specific stocks like Electronics.",
+      "player_stance": "BUY",
+      "stance_reason": "Lessons from missed trades demand action. Prioritizing high-rank momentum stocks and signals meeting entry rules.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 9,
+          "now": 19.2,
+          "entry": 19.2,
+          "tp": 20.5,
+          "vs": "Highest Rt (3.72x)",
+          "why": "All rules met, clear lead buy signal",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 7,
+          "now": 6.6,
+          "entry": 6.6,
+          "tp": 7.1,
+          "vs": "High Rt (1.96x), rank climbing",
+          "why": "Strong momentum, meets all rules",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 7,
+          "now": 9.15,
+          "entry": 9.15,
+          "tp": 9.8,
+          "vs": "Rank #1, extreme S7 (53.8)",
+          "why": "Lesson: Don't skip top rank momentum",
+          "lead_doing": "neutral"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 37.5,
+          "entry": 37.5,
+          "tp": 40.0,
+          "vs": "Huge rank jump (+37), strong S7",
+          "why": "Electronics sector tailwind (SOX+)",
+          "lead_doing": "neutral"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.2,
+          "vs": "Rank < 10, strong DNA",
+          "why": "Lesson: Revisit missed picks, EV theme",
+          "lead_doing": "neutral"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 5,
+          "now": 3.86,
+          "entry": 3.86,
+          "tp": 4.0,
+          "vs": "Rank < 15, RSI/S7 good",
+          "why": "Almost meets all rules, good momentum",
+          "lead_doing": "neutral"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 5,
+          "now": 34.5,
+          "entry": 34.5,
+          "tp": 36.5,
+          "vs": "V-Shape DNA, strong sector",
+          "why": "Electronics theme play, RSI healthy",
+          "lead_doing": "neutral"
+        },
+        {
+          "sym": "TTA",
+          "action": "BUY",
+          "conf": 5,
+          "now": 4.98,
+          "entry": 4.98,
+          "tp": 5.2,
+          "vs": "High Rt (1.55x) meets rule",
+          "why": "Strict rule follower, but lead selling",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET flat 0.0%, no sector data flow, pre-open wait mode",
+      "player_stance": "WAIT",
+      "stance_reason": "Pre-open 08:31, zero price movement, need 09:45+ confirmation before action",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 334.0,
+          "entry": 332.0,
+          "tp": 354.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank #15, RSI 62.1, Rt 1.06, S7 +5.36%",
+          "why": "MSCI deadline 29-May, TP before event"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 6,
+          "now": 3.86,
+          "entry": 3.84,
+          "tp": 4.1,
+          "sector": "PACKAGING",
+          "vs": "Rank #14, RSI 70.5, Rt 1.32, S7 +9.66%",
+          "why": "Rt override S7, volatile swing DNA"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 6,
+          "now": 19.2,
+          "entry": 19.0,
+          "tp": 20.5,
+          "sector": "FINANCE",
+          "vs": "Rank #24, RSI 69.5, Rt 3.72, D1 +2.67%",
+          "why": "S7 override valid, strong Rt momentum"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "20260527-0121",
+    "last_update": "2026-05-27 01:21:42",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Key sectors (Bank, Etron) strong, but most sectors down; minimal SET index gain.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market shows mixed signals with money rotating. Wait for clearer trend confirmation before aggressive buying.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 9,
+          "now": 19.2,
+          "entry": 19.1,
+          "tp": 20.5,
+          "vs": "Rt 3.72, High",
+          "why": "Rank up, extreme Rt, S7+, FINCIAL strong",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 8,
+          "now": 6.6,
+          "entry": 6.55,
+          "tp": 7.0,
+          "vs": "Rt 1.96, High",
+          "why": "Passes all entry rules (Rt, RSI, S7)",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 38.25,
+          "entry": 38.0,
+          "tp": 41.0,
+          "vs": "S7 25.4, High",
+          "why": "ETRON sector hot, massive S7, huge rank jump",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "CBG",
+          "action": "BUY",
+          "conf": 7,
+          "now": 41.0,
+          "entry": 40.75,
+          "tp": 43.0,
+          "vs": "Rt 1.37, Mid",
+          "why": "Rt near threshold, RSI/S7 ok, Step Up DNA",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.86,
+          "entry": 3.84,
+          "tp": 4.1,
+          "vs": "Rt 1.32, Mid",
+          "why": "Rt near threshold, good S7, volatile DNA",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 6,
+          "now": 34.75,
+          "entry": 34.5,
+          "tp": 37.0,
+          "vs": "S7 9.4, Mid",
+          "why": "Hot ETRON sector, good S7, V-Shape DNA",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 24.8,
+          "entry": 24.7,
+          "tp": 26.0,
+          "vs": "S7 15.3, High",
+          "why": "Top 3 rank, very strong S7, RSI hot",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "IVL",
+          "action": "BUY",
+          "conf": 5,
+          "now": 24.9,
+          "entry": 24.8,
+          "tp": 26.0,
+          "vs": "Rank Jump +40",
+          "why": "Turnaround signal with massive rank improvement",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET +0.2%, BANK +1.78% strong but CONS -2.05%, mixed sector flows",
+      "player_stance": "WAIT",
+      "stance_reason": "Top ranks fail rules: CCET RSI 85 overbought, no Rt>1.5x plays in top 10",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 19.2,
+          "entry": 19.0,
+          "tp": 21.5,
+          "sector": "FIN",
+          "vs": "Rank 24, RSI 75.2 edge high",
+          "why": "Rt 3.72x + D1 +2.67% + S7 +6.08%"
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 339.0,
+          "entry": 335.0,
+          "tp": 365.0,
+          "sector": "ETRON",
+          "vs": "Rank 15, MSCI 29 May deadline approaching",
+          "why": "Rt 1.06 + D1 +1.5% + S7 +6.94%"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 6,
+          "now": 3.86,
+          "entry": 3.8,
+          "tp": 4.2,
+          "sector": "PKG",
+          "vs": "Rank 14, RSI 68.9 under 75",
+          "why": "Rt 1.32 + S7 +9.66% volatile swing"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "20260527-0110",
+    "last_update": "2026-05-27 01:10:13",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Key sectors BANK/ETRON up, but many others down; mixed signals.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is mixed. Few stocks meet strict entry criteria; waiting for Rt confirmation is prudent.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 9,
+          "now": 6.6,
+          "entry": 6.6,
+          "tp": 7.0,
+          "vs": "High Rt Momentum",
+          "why": "Passes all entry rules perfectly."
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 8,
+          "now": 19.2,
+          "entry": 19.2,
+          "tp": 20.0,
+          "vs": "Extreme Rt Play",
+          "why": "Highest Rt, strong momentum, RSI barely over."
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 7,
+          "now": 9.15,
+          "entry": 9.15,
+          "tp": 9.5,
+          "vs": "Rank #1 Momentum",
+          "why": "Lesson says don't skip; high risk/reward."
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 38.25,
+          "entry": 38.25,
+          "tp": 40.0,
+          "vs": "ETRON Sector Play",
+          "why": "Huge rank jump, strong S7, needs Rt."
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.3,
+          "vs": "Step-Up DNA",
+          "why": "Consistently high rank, missed yesterday."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 6,
+          "now": 34.75,
+          "entry": 34.75,
+          "tp": 36.5,
+          "vs": "ETRON V-Shape",
+          "why": "Strong sector momentum, waiting on Rt."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 5,
+          "now": 3.48,
+          "entry": 3.48,
+          "tp": 3.65,
+          "vs": "Volatile Swing",
+          "why": "Top 10 rank with good setup, needs Rt."
+        },
+        {
+          "sym": "IVL",
+          "action": "BUY",
+          "conf": 5,
+          "now": 24.9,
+          "entry": 24.9,
+          "tp": 26.0,
+          "vs": "Turnaround Play",
+          "why": "Massive rank jump signals interest, needs Rt."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET +0.2%, BANK +1.78% strong, TECH +0.93%, CONS -2.05% weak",
+      "player_stance": "WAIT",
+      "stance_reason": "No universe stock passes RSI 50-75 + Rt>1.5x + S7+ rules simultaneously",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 6,
+          "now": 19.2,
+          "entry": 19.0,
+          "tp": 21.5,
+          "sector": "FIN",
+          "vs": "Rt 3.72x highest, rank #24",
+          "why": "Rt extreme but RSI 75.2 at edge"
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 339.0,
+          "entry": 335.0,
+          "tp": 365.0,
+          "sector": "ETRON",
+          "vs": "MSCI deadline 29 May, rank #15",
+          "why": "TP before MSCI event, D1+ S7+"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 5,
+          "now": 38.25,
+          "entry": 37.5,
+          "tp": 42.0,
+          "sector": "ETRON",
+          "vs": "Rank jump +37, gap 27.5%",
+          "why": "RSI 66.8 ok, Rt 0.93 low"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 6,
+          "now": 6.6,
+          "entry": 6.5,
+          "tp": 7.3,
+          "sector": "TRANS",
+          "vs": "Rank jump +28, Rt 1.96x",
+          "why": "RSI 70.5 edge, S7+ strong"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 5,
+          "now": 3.86,
+          "entry": 3.8,
+          "tp": 4.2,
+          "sector": "PKG",
+          "vs": "Rank #14, Rt 1.32x low",
+          "why": "RSI 68.9 ok, S7+ moderate"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260527-0006",
     "last_update": "2026-05-27 00:06:35",
     "gemini": {
