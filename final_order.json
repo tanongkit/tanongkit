@@ -1,19 +1,20 @@
 {
-  "execution_time": "2026-05-27 15:09",
-  "t_ai": "2026-05-27 15:08:05",
-  "ref_tx_id": "20260527-1508",
+  "execution_time": "2026-05-27 15:39",
+  "t_ai": "2026-05-27 15:38:20",
+  "ref_tx_id": "20260527-1538",
   "orders": [
     {
-      "symbol": "THAI",
-      "action": "SELL",
-      "price": 6.55,
+      "symbol": "TOP",
+      "action": "BUY",
+      "price": 47.0,
+      "qty": 100,
       "sources": [
         "blue"
       ]
     }
   ],
   "blue": {
-    "cash": 1174422.0,
+    "cash": 1169722.0,
     "positions": {
       "SCC": {
         "qty": 100,
@@ -68,6 +69,12 @@
         "avg_price": 2.86,
         "value": 286.0,
         "time": "2026-05-27 14:39"
+      },
+      "TOP": {
+        "qty": 100,
+        "avg_price": 47.0,
+        "value": 4700.0,
+        "time": "2026-05-27 15:39"
       }
     }
   }
