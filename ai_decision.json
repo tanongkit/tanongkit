@@ -1,5 +1,181 @@
 [
   {
+    "tx_id": "20260527-1628",
+    "last_update": "2026-05-27 16:28:21",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.19% with massive +3.72% inflow into electronics sector, broadening rally.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong market momentum with clear sector leadership and multiple stocks confirming entry signals.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 9,
+          "now": 36.75,
+          "entry": 36.75,
+          "tp": 39.0,
+          "vs": "ETRON sector +3.72%",
+          "why": "Top rank, high Rt, V-Shape DNA, strong sector",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 40.5,
+          "entry": 40.5,
+          "tp": 43.0,
+          "vs": "ETRON sector +3.72%",
+          "why": "Top rank, high Rt, V-Shape DNA, strong sector",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.22,
+          "entry": 4.22,
+          "tp": 4.5,
+          "vs": "FOOD sector +0.13%",
+          "why": "Massive Rt (3.58), huge rank jump",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 7,
+          "now": 22.2,
+          "entry": 22.2,
+          "tp": 23.5,
+          "vs": "COMM sector +0.13%",
+          "why": "Passed rules, Step-Up DNA, good Rt",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 7,
+          "now": 2.86,
+          "entry": 2.86,
+          "tp": 3.0,
+          "vs": "TOURISM sector +0.88%",
+          "why": "Passed rules, Volatile Swing, strong sector",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "TOP",
+          "action": "BUY",
+          "conf": 6,
+          "now": 46.25,
+          "entry": 46.25,
+          "tp": 48.0,
+          "vs": "ENERG sector +0.48%",
+          "why": "S7 override signal, turnaround potential",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 5,
+          "now": 6.65,
+          "entry": 6.65,
+          "tp": 6.9,
+          "vs": "TRANS sector +0.77%",
+          "why": "High risk; lead signal shows distribution",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 4,
+          "now": 19.1,
+          "entry": 19.1,
+          "tp": 19.5,
+          "vs": "INSUR sector +0.67%",
+          "why": "Very high risk; lead selling on negative day",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.19%, TECH +2.56%, ETRON +3.72%, BANK +0.64%, strong breadth",
+      "player_stance": "SELL",
+      "stance_reason": "DELTA near MSCI exit 29 May, EPG/GUNKUL/HANA strong momentum but overheated RSI >75",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "SELL_ALL",
+          "reason": "MSCI exit 29 May in 2 days, lock profit at 357, RSI 70.5, S7 +14.06"
+        },
+        {
+          "sym": "OSP",
+          "action": "HOLD",
+          "reason": "Rank #28, RSI 60.6, Rt 0.59 too low, S7 +1.33 weak, wait for stronger signal"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.32,
+          "tp": 4.75,
+          "sector": "PKG",
+          "vs": "Rt 10.53x explosive, D1 +11.92%, S7 +21.35%",
+          "why": "Rank #3, volatile DNA confirmed, momentum ignition"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.76,
+          "entry": 3.76,
+          "tp": 4.1,
+          "sector": "ENERG",
+          "vs": "Rt 3.03x, D1 +8.05%, S7 +8.58%",
+          "why": "Rank #4, Solar/Wind EPC, RSI 76.5 hot"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 40.5,
+          "entry": 40.5,
+          "tp": 44.0,
+          "sector": "ETRON",
+          "vs": "Rt 1.85x, D1 +8.0%, S7 +37.29% strong",
+          "why": "Rank #6, ELEC V-Shape DNA, gap +35%"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 36.75,
+          "entry": 36.75,
+          "tp": 40.0,
+          "sector": "ETRON",
+          "vs": "Rt 2.24x, D1 +6.52%, S7 +18.55%",
+          "why": "Rank #8, PCB play, ETRON sector +3.72%"
+        },
+        {
+          "sym": "EASTW",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 4.26,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ENERG",
+          "vs": "Rt 1.17x below 1.5x threshold",
+          "why": "Rank #2 but Rt miss, gap +33.96%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260527-1608",
     "last_update": "2026-05-27 16:08:37",
     "gemini": {
