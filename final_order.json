@@ -1,18 +1,8 @@
 {
-  "execution_time": "2026-05-27 08:40",
-  "t_ai": "2026-05-27 08:39:19",
-  "ref_tx_id": "20260527-0839",
-  "orders": [
-    {
-      "symbol": "TTA",
-      "action": "BUY",
-      "price": 4.98,
-      "qty": 100,
-      "sources": [
-        "blue"
-      ]
-    }
-  ],
+  "execution_time": "2026-05-27 10:09",
+  "t_ai": "2026-05-27 10:08:06",
+  "ref_tx_id": "20260527-1008",
+  "orders": [],
   "blue": {
     "cash": 1180158.0,
     "positions": {

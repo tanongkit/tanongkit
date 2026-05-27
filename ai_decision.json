@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260527-1008",
+    "last_update": "2026-05-27 10:08:06",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index is green, with strong fund flow into the leading TECH/ETRON sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Market shows clear bullish momentum and sector leadership. Favorable technical setups exist in top-ranked stocks.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 8,
+          "now": 8.95,
+          "entry": 8.95,
+          "tp": 9.5,
+          "vs": "Rank 1 momentum king",
+          "why": "Urgent lesson: Never skip top ranks. Hot sector.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.05,
+          "entry": 5.05,
+          "tp": 5.35,
+          "vs": "EV/Data Center DNA",
+          "why": "Lesson priority, strong fundamentals, passed method.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "TIDLOR",
+          "action": "BUY",
+          "conf": 7,
+          "now": 18.3,
+          "entry": 18.3,
+          "tp": 19.0,
+          "vs": "Strong S7 momentum",
+          "why": "Good rank, healthy RSI, strong FIN sector.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 7,
+          "now": 22.0,
+          "entry": 22.0,
+          "tp": 23.0,
+          "vs": "RSI cooled to sweet spot",
+          "why": "Top rank, S7 positive, setup improved.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "HANA",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 39.25,
+          "entry": 39.25,
+          "tp": 41.0,
+          "vs": "V-shape electronics",
+          "why": "Extreme S7/D1 momentum in hottest sector.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 35.75,
+          "entry": 35.75,
+          "tp": 37.5,
+          "vs": "PCB V-shape play",
+          "why": "Another strong electronics momentum play.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "STGT",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 12.0,
+          "entry": 12.0,
+          "tp": 12.5,
+          "vs": "Positive gap strength",
+          "why": "All rules pass, solid setup in HELTH sector.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "ERW",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 2.78,
+          "entry": 2.78,
+          "tp": 2.9,
+          "vs": "Rank jump momentum",
+          "why": "Technicals are improving but DNA risk remains.",
+          "lead_doing": "buy"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.61%, TECH +1.47%, ETRON +1.98%, BANK +0.33% all green",
+      "player_stance": "HOLD",
+      "stance_reason": "No clean entry: all picks fail Rule 0 (>60) or RSI >75 overbought",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 25.0,
+          "entry": 25.0,
+          "tp": 27.5,
+          "sector": "PROP",
+          "vs": "Rank #3, RSI 79 hot but S7 +16.3%",
+          "why": "Industrial estate play, momentum strong"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 5.05,
+          "entry": 5.05,
+          "tp": 5.55,
+          "sector": "PROP",
+          "vs": "Rank #9, RSI 70 acceptable, S7 +9.3%",
+          "why": "Data center catalyst, past MISSED"
+        },
+        {
+          "sym": "TIDLOR",
+          "action": "BUY",
+          "conf": 6,
+          "now": 18.3,
+          "entry": 18.3,
+          "tp": 20.1,
+          "sector": "FIN",
+          "vs": "Rank #7, RSI 64 OK, S7 +15.8%",
+          "why": "Leasing play, consumer finance momentum"
+        },
+        {
+          "sym": "STGT",
+          "action": "BUY",
+          "conf": 6,
+          "now": 12.0,
+          "entry": 12.0,
+          "tp": 13.2,
+          "sector": "AGRI",
+          "vs": "Rank #8, RSI 64 OK, S7 +5.3%",
+          "why": "Agri sector rotation, gap +9.26%"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 3.56,
+          "entry": 3.56,
+          "tp": 3.92,
+          "sector": "ENERG",
+          "vs": "Rank #10, RSI 68 warm, S7 +5.8%",
+          "why": "Solar/Wind EPC, monitor RSI creep"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260527-0839",
     "last_update": "2026-05-27 08:39:19",
     "gemini": {
