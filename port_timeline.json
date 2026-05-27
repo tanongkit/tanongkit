@@ -1,8 +1,8 @@
 {
-  "updated": "2026-05-27 15:41:28",
+  "updated": "2026-05-27 16:12:09",
   "initial_cash": 1000000,
   "blue": {
-    "cash": 1169722.0,
+    "cash": 1167682.0,
     "positions": {
       "SCC": {
         "qty": 100,
@@ -21,12 +21,6 @@
         "avg_price": 38.25,
         "value": 3825.0,
         "time": "2026-05-27 00:07"
-      },
-      "TTA": {
-        "qty": 100,
-        "avg_price": 4.98,
-        "value": 498.0,
-        "time": "2026-05-27 08:40"
       },
       "KCE": {
         "qty": 100,
@@ -63,6 +57,12 @@
         "avg_price": 47.0,
         "value": 4700.0,
         "time": "2026-05-27 15:39"
+      },
+      "COM7": {
+        "qty": 100,
+        "avg_price": 25.5,
+        "value": 2550.0,
+        "time": "2026-05-27 16:09"
       }
     },
     "pl": [
@@ -996,6 +996,26 @@
       "price": 47.0,
       "amount": -4700.0,
       "balance_after": 1169722.0
+    },
+    {
+      "time": "2026-05-27 16:09",
+      "team": "BLUE",
+      "action": "SELL",
+      "sym": "TTA",
+      "qty": 100,
+      "price": 5.1,
+      "amount": 509.99999999999994,
+      "balance_after": 1170232.0
+    },
+    {
+      "time": "2026-05-27 16:09",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "COM7",
+      "qty": 100,
+      "price": 25.5,
+      "amount": -2550.0,
+      "balance_after": 1167682.0
     }
   ]
 }

@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260527-1608",
+    "last_update": "2026-05-27 16:08:37",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.39% driven by strong buying in ETRON (+5.1%) and TECH (+3.55%) sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Broad-based rally with momentum in key sectors. Following revised rules to deploy capital on high-rank stocks.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 40.5,
+          "entry": 40.5,
+          "tp": 44.0,
+          "vs": "Electronics V-shape rally",
+          "why": "All rules pass, ETRON sector lead.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 9,
+          "now": 36.75,
+          "entry": 36.75,
+          "tp": 40.0,
+          "vs": "Electronics V-shape rally",
+          "why": "All rules pass, ETRON sector lead.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.76,
+          "entry": 3.76,
+          "tp": 4.0,
+          "vs": "Energy/EPC momentum",
+          "why": "Extreme Rt, but RSI slightly high.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 7,
+          "now": 2.86,
+          "entry": 2.86,
+          "tp": 3.1,
+          "vs": "Tourism recovery swing",
+          "why": "Strong Rt, all technical rules pass.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 6,
+          "now": 22.2,
+          "entry": 22.2,
+          "tp": 23.5,
+          "vs": "Retail consumption play",
+          "why": "Rules pass but RSI getting hot.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "TOP",
+          "action": "BUY",
+          "conf": 5,
+          "now": 46.25,
+          "entry": 46.25,
+          "tp": 48.5,
+          "vs": "Refinery S7 override",
+          "why": "Passes on override, but weak GRM.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "TTA",
+          "action": "BUY",
+          "conf": 4,
+          "now": 5.1,
+          "entry": 5.1,
+          "tp": 5.5,
+          "vs": "Shipping BDI play",
+          "why": "Rt just below 1.5 threshold.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 4,
+          "now": 25.5,
+          "entry": 25.5,
+          "tp": 27.0,
+          "vs": "IT Retail pre-momentum",
+          "why": "Catalyst strong, waiting for Rt confirmation.",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.39%, TECH +3.55%, ETRON +5.1%, BANK +0.41%, volume strong",
+      "player_stance": "SELL",
+      "stance_reason": "DELTA approaching MSCI 29 May deadline, TP before event per Rule 7, no new entries fit criteria",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 3.76,
+          "entry": 3.75,
+          "tp": 4.1,
+          "sector": "ENERG",
+          "vs": "Rank #3, +7 jump",
+          "why": "Rt 3.16x, S7 +8.58, D1 +8.05, RSI 76.8 hot"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 40.5,
+          "entry": 40.25,
+          "tp": 44.0,
+          "sector": "ETRON",
+          "vs": "Rank #4, +8 jump",
+          "why": "Rt 1.96x, S7 +37.29, ETRON sector +5.1%"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.32,
+          "entry": 4.3,
+          "tp": 4.75,
+          "sector": "PKG",
+          "vs": "Rank #6, +8 jump",
+          "why": "Rt 8.8x monster, S7 +21.35, D1 +11.92"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 36.75,
+          "entry": 36.5,
+          "tp": 40.0,
+          "sector": "ETRON",
+          "vs": "Rank #8, +11 jump",
+          "why": "Rt 2.3x, S7 +18.55, ETRON momentum continues"
+        },
+        {
+          "sym": "DELTA",
+          "action": "SELL",
+          "conf": 9,
+          "now": 357.0,
+          "entry": 0.0,
+          "tp": 370.0,
+          "sector": "ETRON",
+          "vs": "MSCI 29 May deadline",
+          "why": "TP before event per Rule 7, 10 days left"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260527-1538",
     "last_update": "2026-05-27 15:38:20",
     "gemini": {
