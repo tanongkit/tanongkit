@@ -1,20 +1,19 @@
 {
-  "execution_time": "2026-05-27 14:39",
-  "t_ai": "2026-05-27 14:38:09",
-  "ref_tx_id": "20260527-1438",
+  "execution_time": "2026-05-27 15:09",
+  "t_ai": "2026-05-27 15:08:05",
+  "ref_tx_id": "20260527-1508",
   "orders": [
     {
-      "symbol": "ERW",
-      "action": "BUY",
-      "price": 2.86,
-      "qty": 100,
+      "symbol": "THAI",
+      "action": "SELL",
+      "price": 6.55,
       "sources": [
         "blue"
       ]
     }
   ],
   "blue": {
-    "cash": 1173767.0,
+    "cash": 1174422.0,
     "positions": {
       "SCC": {
         "qty": 100,
@@ -27,12 +26,6 @@
         "avg_price": 19.2,
         "value": 1920.0,
         "time": "2026-05-26 22:44"
-      },
-      "THAI": {
-        "qty": 100,
-        "avg_price": 6.6,
-        "value": 660.0,
-        "time": "2026-05-26 23:51"
       },
       "HANA": {
         "qty": 100,
