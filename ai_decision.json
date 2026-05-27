@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260527-1408",
+    "last_update": "2026-05-27 14:08:29",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.6% with massive surge in TECH/ETRON sector (+5.51%), strong risk-on appetite.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong market momentum and multiple high-ranking stocks breaking out. Lessons learned advise capturing high-conviction plays.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 41.75,
+          "entry": 41.5,
+          "tp": 45.0,
+          "vs": "Strong volume spike",
+          "why": "ETRON leader, all rules pass",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 9,
+          "now": 37.25,
+          "entry": 37.0,
+          "tp": 40.0,
+          "vs": "High relative turnover",
+          "why": "ETRON V-shape, all rules pass",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.78,
+          "entry": 3.76,
+          "tp": 4.0,
+          "vs": "Extreme volume momentum",
+          "why": "High rank, extreme Rt (5.09)",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "TTA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.15,
+          "entry": 5.1,
+          "tp": 5.5,
+          "vs": "Clear volume entry",
+          "why": "Shipping momentum, rules pass",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 7.3,
+          "entry": 7.25,
+          "tp": 7.8,
+          "vs": "Turnaround volume",
+          "why": "BDI play, S7 Override signal",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 7,
+          "now": 2.86,
+          "entry": 2.84,
+          "tp": 3.0,
+          "vs": "Strong rotational flow",
+          "why": "Tourism recovery, Rt>2.8",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 6,
+          "now": 19.0,
+          "entry": 18.9,
+          "tp": 20.0,
+          "vs": "High turnover, price weak",
+          "why": "High Rt, but d1 negative (churn)",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 5,
+          "now": 5.1,
+          "entry": 5.05,
+          "tp": 5.4,
+          "vs": "Volume below threshold",
+          "why": "Awaiting momentum (Rt<1.5)",
+          "lead_doing": "buy"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.6%, TECH +3.9%, ETRON +5.51%, broad sector strength",
+      "player_stance": "BUY",
+      "stance_reason": "Strong momentum, rank leaders passing filters, 2 days before MSCI deadline",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 3.78,
+          "entry": 3.75,
+          "tp": 4.1,
+          "sector": "ENERG",
+          "vs": "Rank #2, Rt 5.09x, RSI 76.8, S7 +9.16%",
+          "why": "V-shape play, massive Rt explosion"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 41.75,
+          "entry": 41.5,
+          "tp": 45.0,
+          "sector": "ETRON",
+          "vs": "Rank #4, Rt 3.34x, RSI 71.6, D1 +11.33%",
+          "why": "ELEC sector leader, +8 rank jump"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 37.25,
+          "entry": 37.0,
+          "tp": 40.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank #6, Rt 3.68x, RSI 70.2, +13 rank surge",
+          "why": "PCB play, wait slight pullback"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WAIT",
+          "conf": 8,
+          "now": 358.0,
+          "entry": 355.0,
+          "tp": 380.0,
+          "sector": "ETRON",
+          "vs": "Rank #7, Rt 3.6x, MSCI deadline 29 May",
+          "why": "TP before MSCI, 2 days left"
+        },
+        {
+          "sym": "EPG",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 4.2,
+          "entry": 4.15,
+          "tp": 4.5,
+          "sector": "PKG",
+          "vs": "Rank #21, Rt 0.9x below threshold, RSI 68.9",
+          "why": "Volatile swing, Rt too low"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260527-1138",
     "last_update": "2026-05-27 11:38:11",
     "gemini": {

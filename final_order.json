@@ -1,29 +1,19 @@
 {
-  "execution_time": "2026-05-27 11:39",
-  "t_ai": "2026-05-27 11:38:11",
-  "ref_tx_id": "20260527-1138",
+  "execution_time": "2026-05-27 14:09",
+  "t_ai": "2026-05-27 14:08:29",
+  "ref_tx_id": "20260527-1408",
   "orders": [
     {
-      "symbol": "PSL",
-      "action": "BUY",
-      "price": 7.45,
-      "qty": 100,
-      "sources": [
-        "blue"
-      ]
-    },
-    {
       "symbol": "CENTEL",
-      "action": "BUY",
-      "price": 33.25,
-      "qty": 100,
+      "action": "SELL",
+      "price": 33.5,
       "sources": [
         "blue"
       ]
     }
   ],
   "blue": {
-    "cash": 1170703.0,
+    "cash": 1174053.0,
     "positions": {
       "SCC": {
         "qty": 100,
@@ -77,12 +67,6 @@
         "qty": 100,
         "avg_price": 7.45,
         "value": 745.0,
-        "time": "2026-05-27 11:39"
-      },
-      "CENTEL": {
-        "qty": 100,
-        "avg_price": 33.25,
-        "value": 3325.0,
         "time": "2026-05-27 11:39"
       }
     }
