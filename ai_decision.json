@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260527-1438",
+    "last_update": "2026-05-27 14:38:09",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET index +1.57%, driven by a massive rally in Tech/Electronics (+5.78%).",
+      "player_stance": "BUY",
+      "stance_reason": "Strong market momentum and past lessons show being too conservative misses top-ranked opportunities.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 41.75,
+          "entry": 41.75,
+          "tp": 44.0,
+          "vs": "VS ETRON +5.78%",
+          "why": "Rank#3, All rules pass, Strongest sector",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 37.25,
+          "entry": 37.25,
+          "tp": 39.0,
+          "vs": "VS ETRON +5.78%",
+          "why": "Rank#7, All rules pass, V-Shape DNA",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 7,
+          "now": 22.7,
+          "entry": 22.7,
+          "tp": 24.0,
+          "vs": "VS CONSUMP +0.41%",
+          "why": "Rank#5, All rules pass, stimulus play",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "TTA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 5.15,
+          "entry": 5.15,
+          "tp": 5.5,
+          "vs": "VS TRANS +0.59%",
+          "why": "All rules pass, strong BDI momentum",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 7.3,
+          "entry": 7.3,
+          "tp": 7.8,
+          "vs": "VS TRANS +0.59%",
+          "why": "S7 override pass, BDI play, V-Shape",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 6,
+          "now": 2.86,
+          "entry": 2.86,
+          "tp": 3.0,
+          "vs": "VS TOURISM +0.90%",
+          "why": "All rules pass, tourism visa catalyst",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 5,
+          "now": 19.0,
+          "entry": 19.0,
+          "tp": 20.0,
+          "vs": "VS FIN +0.68%",
+          "why": "All rules pass, momentum entry on dip",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 5,
+          "now": 3.78,
+          "entry": 3.78,
+          "tp": 4.0,
+          "vs": "VS ENERG +0.92%",
+          "why": "Rank#4, strong Rt, aggressive RSI (76.5)",
+          "lead_doing": "buy"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.57%, TECH +4.15%, ETRON +5.78%, strong sector rotation",
+      "player_stance": "BUY",
+      "stance_reason": "ELEC sector breakout confirmed, DELTA MSCI deadline approaching, multiple Rule-passing picks",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 41.75,
+          "entry": 41.5,
+          "tp": 46.0,
+          "sector": "ELEC",
+          "vs": "Rank #3, V-Shape DNA",
+          "why": "RSI 72.7, Rt 3.14x, S7 +41.5%"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 37.25,
+          "entry": 37.0,
+          "tp": 41.0,
+          "sector": "ELEC",
+          "vs": "Rank #7, jumped +12",
+          "why": "RSI 71.2, Rt 3.42x, S7 +20.2%"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 3.78,
+          "entry": 3.75,
+          "tp": 4.1,
+          "sector": "ENERG",
+          "vs": "Rank #4, Solar+Wind",
+          "why": "RSI 76.5 hot, Rt 4.73x strong"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 358.0,
+          "entry": 355.0,
+          "tp": 390.0,
+          "sector": "ELEC",
+          "vs": "Rank #9, MSCI 29 May",
+          "why": "TP before deadline, RSI 71.1 safe"
+        },
+        {
+          "sym": "EPG",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 4.2,
+          "entry": 4.15,
+          "tp": 4.6,
+          "sector": "PKG",
+          "vs": "Rank #8, Rt 9.68x",
+          "why": "RSI 78 hot, wait pullback"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260527-1408",
     "last_update": "2026-05-27 14:08:29",
     "gemini": {
