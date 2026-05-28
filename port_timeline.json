@@ -1,8 +1,8 @@
 {
-  "updated": "2026-05-28 10:30:25",
+  "updated": "2026-05-28 23:35:15",
   "initial_cash": 1000000,
   "blue": {
-    "cash": 1205309.0,
+    "cash": 1200684.0,
     "positions": {
       "EPG": {
         "qty": 100,
@@ -27,6 +27,12 @@
         "avg_price": 3.76,
         "value": 376.0,
         "time": "2026-05-28 10:30"
+      },
+      "TOP": {
+        "qty": 100,
+        "avg_price": 46.25,
+        "value": 4625.0,
+        "time": "2026-05-28 23:34"
       }
     },
     "pl": [
@@ -1120,6 +1126,16 @@
       "price": 3.76,
       "amount": -376.0,
       "balance_after": 1205309.0
+    },
+    {
+      "time": "2026-05-28 23:34",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "TOP",
+      "qty": 100,
+      "price": 46.25,
+      "amount": -4625.0,
+      "balance_after": 1200684.0
     }
   ]
 }

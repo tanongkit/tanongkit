@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260528-2334",
+    "last_update": "2026-05-28 23:34:51",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index up strongly (+1.13%) with broad-based sector gains.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong market momentum and multiple high-quality setups identified, correcting yesterday's system failure.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.34,
+          "tp": 4.6,
+          "vs": "RT 10.53% vs 1.13%",
+          "why": "Lesson override on RSI, extreme RT",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.22,
+          "entry": 4.24,
+          "tp": 4.45,
+          "vs": "RT 3.58% vs 1.13%",
+          "why": "Repeated missed pick, strong signals",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.76,
+          "entry": 3.78,
+          "tp": 4.0,
+          "vs": "RT 3.03% vs 1.13%",
+          "why": "Missed pick, strong RT, good earnings",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 36.75,
+          "entry": 37.0,
+          "tp": 39.75,
+          "vs": "RT 2.24% vs 1.13%",
+          "why": "Clean signals, V-Shape DNA",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 7,
+          "now": 2.86,
+          "entry": 2.88,
+          "tp": 3.04,
+          "vs": "RT 1.93% vs 1.13%",
+          "why": "Clean signals, strong sector momentum",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 40.5,
+          "entry": 40.75,
+          "tp": 43.5,
+          "vs": "RT 1.85% vs 1.13%",
+          "why": "Clean signals, V-shape DNA",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "TOP",
+          "action": "BUY",
+          "conf": 6,
+          "now": 46.25,
+          "entry": 46.5,
+          "tp": 48.5,
+          "vs": "RT 1.77% vs 1.13%",
+          "why": "S7 override, momentum confirmation",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 5,
+          "now": 22.2,
+          "entry": 22.3,
+          "tp": 23.1,
+          "vs": "RT 1.64% vs 1.13%",
+          "why": "Borderline RT, strong sector",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.13%, COMM +0.83%, CONS +1.52%, TOURISM +1.09%, broad sector strength",
+      "player_stance": "BUY",
+      "stance_reason": "High RT stocks emerging, sector rotation active, multiple Rule-passing candidates available",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.3,
+          "tp": 4.75,
+          "sector": "CONS",
+          "vs": "RT 10.53% rank #3",
+          "why": "Extreme RT override RSI 80.4"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.76,
+          "entry": 3.75,
+          "tp": 4.1,
+          "sector": "ENERG",
+          "vs": "RT 3.03% rank #4",
+          "why": "Solid RT S7 +8.58"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.22,
+          "entry": 4.2,
+          "tp": 4.6,
+          "sector": "FOOD",
+          "vs": "RT 3.58% rank #10",
+          "why": "Passed filters S7 +5.5"
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 62.75,
+          "entry": 62.5,
+          "tp": 67.0,
+          "sector": "ENERG",
+          "vs": "RT 1.75% rank #25",
+          "why": "Momentum surge S7 +3.72"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 36.75,
+          "entry": 36.5,
+          "tp": 39.5,
+          "sector": "ETRON",
+          "vs": "RT 2.24% rank #8",
+          "why": "ELEC play S7 +18.55"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260528-1506",
     "last_update": "2026-05-28 15:06:10",
     "gemini": {

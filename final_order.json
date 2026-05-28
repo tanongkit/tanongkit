@@ -1,21 +1,12 @@
 {
-  "execution_time": "2026-05-28 10:30",
-  "t_ai": "2026-05-28 10:06:31",
-  "ref_tx_id": "20260528-1006",
+  "execution_time": "2026-05-28 23:34",
+  "t_ai": "2026-05-28 23:34:51",
+  "ref_tx_id": "20260528-2334",
   "orders": [
     {
-      "symbol": "KCE",
+      "symbol": "TOP",
       "action": "BUY",
-      "price": 36.75,
-      "qty": 100,
-      "sources": [
-        "blue"
-      ]
-    },
-    {
-      "symbol": "GUNKUL",
-      "action": "BUY",
-      "price": 3.76,
+      "price": 46.25,
       "qty": 100,
       "sources": [
         "blue"
@@ -23,7 +14,7 @@
     }
   ],
   "blue": {
-    "cash": 1205309.0,
+    "cash": 1200684.0,
     "positions": {
       "EPG": {
         "qty": 100,
@@ -48,6 +39,12 @@
         "avg_price": 3.76,
         "value": 376.0,
         "time": "2026-05-28 10:30"
+      },
+      "TOP": {
+        "qty": 100,
+        "avg_price": 46.25,
+        "value": 4625.0,
+        "time": "2026-05-28 23:34"
       }
     }
   }
