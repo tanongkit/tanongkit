@@ -1,5 +1,176 @@
 [
   {
+    "tx_id": "20260529-0358",
+    "last_update": "2026-05-29 03:58:40",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET index flat with mixed sector performance; rotation into specific groups, not broad buying.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is choppy and lacks clear direction. Selectively watch stocks with strong individual momentum.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.32,
+          "tp": 4.6,
+          "vs": "CONST",
+          "why": "Extreme RT 10.53% overrides overbought RSI.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 3.76,
+          "entry": 3.76,
+          "tp": 3.9,
+          "vs": "ELEC",
+          "why": "Top rank, strong RT 3.03%, overrides borderline RSI.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.22,
+          "entry": 4.22,
+          "tp": 4.4,
+          "vs": "FOOD",
+          "why": "All rules pass. Strong RT 3.58%, previously missed.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 36.75,
+          "entry": 36.75,
+          "tp": 38.5,
+          "vs": "ELECTRONICS",
+          "why": "All rules pass. Strong RT 2.24% in momentum sector.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 40.5,
+          "entry": 40.5,
+          "tp": 42.0,
+          "vs": "ELECTRONICS",
+          "why": "All rules pass (RSI, RT, S7). Strong sector.",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 7,
+          "now": 22.2,
+          "entry": 22.2,
+          "tp": 23.0,
+          "vs": "CONSUMER",
+          "why": "All entry rules pass, good rank and momentum.",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 6,
+          "now": 2.86,
+          "entry": 2.86,
+          "tp": 3.0,
+          "vs": "TOURISM",
+          "why": "Current data (RT, S7) signals entry. Good momentum.",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 6,
+          "now": 6.65,
+          "entry": 6.65,
+          "tp": 6.85,
+          "vs": "TRANS",
+          "why": "Entry rules pass, though RT is at minimum threshold.",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Mixed sectors: CONS+1.52% COMM+0.83% but PROP-1.33% ENERG-0.69% SET-0.13%",
+      "player_stance": "WAIT",
+      "stance_reason": "MSCI deadline today - TP DELTA before close. EPG/GUNKUL hot but overbought. Wait for confirmation.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "SELL_ALL",
+          "reason": "MSCI deadline 29 May - take profit before effective date per Rule 7"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.32,
+          "entry": 4.3,
+          "tp": 4.75,
+          "sector": "CONS",
+          "vs": "RT 10.53% rank#3 momentum",
+          "why": "Extreme RT overrides RSI 80.4"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 6,
+          "now": 4.22,
+          "entry": 4.2,
+          "tp": 4.6,
+          "sector": "FOOD",
+          "vs": "RT 3.58% rank#10 RSI 67.4",
+          "why": "Klakrueng Phase 2 catalyst"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 3.76,
+          "entry": 3.7,
+          "tp": 4.1,
+          "sector": "ELEC",
+          "vs": "RT 3.03% rank#4 but RSI 76.5",
+          "why": "Wait RSI cool below 75"
+        },
+        {
+          "sym": "GULF",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 62.75,
+          "entry": 62.5,
+          "tp": 67.0,
+          "sector": "ELEC",
+          "vs": "RT 1.75% rank#25 low rank",
+          "why": "Momentum surge but low rank"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 36.75,
+          "entry": 36.5,
+          "tp": 39.5,
+          "sector": "ETRON",
+          "vs": "RT 2.24% rank#8 RSI 70.2",
+          "why": "Wait sector ETRON confirm rotation"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260529-0002",
     "last_update": "2026-05-29 00:02:06",
     "gemini": {
