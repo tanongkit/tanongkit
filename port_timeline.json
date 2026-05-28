@@ -1,9 +1,34 @@
 {
-  "updated": "2026-05-27 16:31:27",
+  "updated": "2026-05-28 10:30:25",
   "initial_cash": 1000000,
   "blue": {
-    "cash": 1210214.0,
-    "positions": {},
+    "cash": 1205309.0,
+    "positions": {
+      "EPG": {
+        "qty": 100,
+        "avg_price": 4.32,
+        "value": 432.0,
+        "time": "2026-05-28 01:38"
+      },
+      "RBF": {
+        "qty": 100,
+        "avg_price": 4.22,
+        "value": 422.0,
+        "time": "2026-05-28 02:22"
+      },
+      "KCE": {
+        "qty": 100,
+        "avg_price": 36.75,
+        "value": 3675.0,
+        "time": "2026-05-28 10:30"
+      },
+      "GUNKUL": {
+        "qty": 100,
+        "avg_price": 3.76,
+        "value": 376.0,
+        "time": "2026-05-28 10:30"
+      }
+    },
     "pl": [
       {
         "date": "2026-05-20",
@@ -973,7 +998,7 @@
       "sym": "CREDIT",
       "qty": 100,
       "price": 19.1,
-      "amount": 1910.0000000000002,
+      "amount": 1910.0,
       "balance_after": 1192492.0
     },
     {
@@ -1055,6 +1080,46 @@
       "price": 25.5,
       "amount": 2550.0,
       "balance_after": 1210214.0
+    },
+    {
+      "time": "2026-05-28 01:38",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "EPG",
+      "qty": 100,
+      "price": 4.32,
+      "amount": -432.0,
+      "balance_after": 1209782.0
+    },
+    {
+      "time": "2026-05-28 02:22",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "RBF",
+      "qty": 100,
+      "price": 4.22,
+      "amount": -422.0,
+      "balance_after": 1209360.0
+    },
+    {
+      "time": "2026-05-28 10:30",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "KCE",
+      "qty": 100,
+      "price": 36.75,
+      "amount": -3675.0,
+      "balance_after": 1205685.0
+    },
+    {
+      "time": "2026-05-28 10:30",
+      "team": "BLUE",
+      "action": "BUY",
+      "sym": "GUNKUL",
+      "qty": 100,
+      "price": 3.76,
+      "amount": -376.0,
+      "balance_after": 1205309.0
     }
   ]
 }

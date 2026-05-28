@@ -1,38 +1,11 @@
 {
-  "execution_time": "2026-05-27 16:29",
-  "t_ai": "2026-05-27 16:28:21",
-  "ref_tx_id": "20260527-1628",
+  "execution_time": "2026-05-28 10:30",
+  "t_ai": "2026-05-28 10:06:31",
+  "ref_tx_id": "20260528-1006",
   "orders": [
     {
-      "symbol": "SCC",
-      "action": "SELL",
-      "price": 229.0,
-      "qty": 100,
-      "sources": [
-        "blue"
-      ]
-    },
-    {
-      "symbol": "CREDIT",
-      "action": "SELL",
-      "price": 19.1,
-      "qty": 100,
-      "sources": [
-        "blue"
-      ]
-    },
-    {
-      "symbol": "HANA",
-      "action": "SELL",
-      "price": 40.5,
-      "qty": 100,
-      "sources": [
-        "blue"
-      ]
-    },
-    {
       "symbol": "KCE",
-      "action": "SELL",
+      "action": "BUY",
       "price": 36.75,
       "qty": 100,
       "sources": [
@@ -40,54 +13,9 @@
       ]
     },
     {
-      "symbol": "STECON",
-      "action": "SELL",
-      "price": 14.3,
-      "qty": 100,
-      "sources": [
-        "blue"
-      ]
-    },
-    {
       "symbol": "GUNKUL",
-      "action": "SELL",
+      "action": "BUY",
       "price": 3.76,
-      "qty": 100,
-      "sources": [
-        "blue"
-      ]
-    },
-    {
-      "symbol": "PSL",
-      "action": "SELL",
-      "price": 7.3,
-      "qty": 100,
-      "sources": [
-        "blue"
-      ]
-    },
-    {
-      "symbol": "ERW",
-      "action": "SELL",
-      "price": 2.86,
-      "qty": 100,
-      "sources": [
-        "blue"
-      ]
-    },
-    {
-      "symbol": "TOP",
-      "action": "SELL",
-      "price": 46.25,
-      "qty": 100,
-      "sources": [
-        "blue"
-      ]
-    },
-    {
-      "symbol": "COM7",
-      "action": "SELL",
-      "price": 25.5,
       "qty": 100,
       "sources": [
         "blue"
@@ -95,7 +23,32 @@
     }
   ],
   "blue": {
-    "cash": 1210214.0,
-    "positions": {}
+    "cash": 1205309.0,
+    "positions": {
+      "EPG": {
+        "qty": 100,
+        "avg_price": 4.32,
+        "value": 432.0,
+        "time": "2026-05-28 01:38"
+      },
+      "RBF": {
+        "qty": 100,
+        "avg_price": 4.22,
+        "value": 422.0,
+        "time": "2026-05-28 02:22"
+      },
+      "KCE": {
+        "qty": 100,
+        "avg_price": 36.75,
+        "value": 3675.0,
+        "time": "2026-05-28 10:30"
+      },
+      "GUNKUL": {
+        "qty": 100,
+        "avg_price": 3.76,
+        "value": 376.0,
+        "time": "2026-05-28 10:30"
+      }
+    }
   }
 }
