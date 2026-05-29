@@ -1,5 +1,176 @@
 [
   {
+    "tx_id": "20260529-1432",
+    "last_update": "2026-05-29 14:32:26",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET is up but key sectors like PETRO and INDUS are strongly down.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market shows mixed signals and sector rotation. Focus on individual stocks in strong sectors.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 9,
+          "now": 36.75,
+          "entry": 36.75,
+          "tp": 38.5,
+          "vs": "Outperform SET",
+          "why": "Top rank, RT>2x, strong ETRON sector",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 40.5,
+          "entry": 40.5,
+          "tp": 42.25,
+          "vs": "Outperform SET",
+          "why": "Strong RT/S7, strong ETRON sector",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.22,
+          "entry": 4.22,
+          "tp": 4.4,
+          "vs": "Outperform SET",
+          "why": "High RT, correcting past missed pick",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.32,
+          "entry": 4.32,
+          "tp": 4.5,
+          "vs": "Strong Outperform",
+          "why": "Extreme RT >10% with top 3 rank",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 8,
+          "now": 22.2,
+          "entry": 22.2,
+          "tp": 23.0,
+          "vs": "Outperform SET",
+          "why": "Good RT, strong COMM sector momentum",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.76,
+          "entry": 3.76,
+          "tp": 3.9,
+          "vs": "Outperform SET",
+          "why": "High RT, rank 4, but weak sector",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 6,
+          "now": 2.86,
+          "entry": 2.86,
+          "tp": 2.96,
+          "vs": "Outperform SET",
+          "why": "Good RT and S7, but TOUR sector weak",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 5,
+          "now": 6.65,
+          "entry": 6.65,
+          "tp": 6.85,
+          "vs": "Outperform SET",
+          "why": "Meets rules but weak d1 vs RT",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.38%, BANK/FIN/COMM/TECH sectors strong, FOOD +0.1%",
+      "player_stance": "BUY",
+      "stance_reason": "EPG RT=10.53% rank#3, HANA RT=1.85% rank#6 pass rules, MSCI deadline today exit DELTA",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "SELL_ALL",
+          "reason": "MSCI effective today - TP before deadline per Rule 7"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.32,
+          "tp": 4.75,
+          "sector": "CONST",
+          "vs": "rank#3 RT=10.53%",
+          "why": "Extreme RT overrides RSI=80.4"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 40.5,
+          "entry": 40.5,
+          "tp": 43.5,
+          "sector": "ELECTRONICS",
+          "vs": "rank#6 RT=1.85% RSI=71.2",
+          "why": "ELEC momentum S7=37.29% strong"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 3.76,
+          "entry": 3.85,
+          "tp": 4.1,
+          "sector": "ELEC",
+          "vs": "rank#4 RT=3.03% RSI=76.5",
+          "why": "Wait RSI cool <75"
+        },
+        {
+          "sym": "RBF",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 4.22,
+          "entry": 4.25,
+          "tp": 4.6,
+          "sector": "FOOD",
+          "vs": "rank#10 RT=3.58% RSI=67.4",
+          "why": "Borderline rank watch sector allocation"
+        },
+        {
+          "sym": "GULF",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 62.75,
+          "entry": 63.5,
+          "tp": 67,
+          "sector": "ELEC",
+          "vs": "rank#25 RT=1.75% low",
+          "why": "Low rank despite RT momentum"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260529-1407",
     "last_update": "2026-05-29 14:07:36",
     "gemini": {
