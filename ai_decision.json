@@ -1,5 +1,177 @@
 [
   {
+    "tx_id": "20260529-1502",
+    "last_update": "2026-05-29 15:02:30",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET index positive; broad strength in FIN, TECH, COMM sectors, offsetting PETRO weakness.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong momentum signals in key stocks, aligning with lessons learned to override some mechanical rules.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.3,
+          "tp": 4.65,
+          "vs": "RT 10.53",
+          "why": "Lesson learned: RT>8% overrides RSI.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.22,
+          "entry": 4.2,
+          "tp": 4.5,
+          "vs": "RT 3.58",
+          "why": "Missed super pick; all rules pass.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 36.75,
+          "entry": 36.5,
+          "tp": 39.0,
+          "vs": "RT 2.24",
+          "why": "All rules pass; strong ETRON sector.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 40.5,
+          "entry": 40.25,
+          "tp": 43.0,
+          "vs": "RT 1.85",
+          "why": "All rules pass; strong ETRON sector.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.76,
+          "entry": 3.74,
+          "tp": 4.0,
+          "vs": "RT 3.03",
+          "why": "Missed pick; priority watchlist.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 19.1,
+          "entry": 19.0,
+          "tp": 20.0,
+          "vs": "RT 1.68",
+          "why": "All rules pass; very strong FIN sector.",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 7,
+          "now": 22.2,
+          "entry": 22.1,
+          "tp": 23.5,
+          "vs": "RT 1.64",
+          "why": "All rules pass; consumer catalyst.",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 6,
+          "now": 6.65,
+          "entry": 6.6,
+          "tp": 7.0,
+          "vs": "RT 1.57",
+          "why": "All rules pass; momentum holding.",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.44%, BANK +0.52%, FIN +1.98%, COMM +1.13%, sectors green",
+      "player_stance": "SELL",
+      "stance_reason": "MSCI deadline 29 May TODAY - must TP DELTA before close, apply yesterday lessons on super picks",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "SELL_ALL",
+          "reason": "MSCI deadline TODAY Rule 7 - TP before event",
+          "price": 357.0
+        }
+      ],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.32,
+          "tp": 4.75,
+          "sector": "CONST",
+          "vs": "RT 10.53% rank #3",
+          "why": "Super RT overrides RSI80 lesson"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.76,
+          "entry": 3.76,
+          "tp": 4.1,
+          "sector": "ELEC",
+          "vs": "RT 3.03% rank #4",
+          "why": "Top5 solid RT lesson applied"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.22,
+          "entry": 4.22,
+          "tp": 4.6,
+          "sector": "FOOD",
+          "vs": "RT 3.58% RSI67 rank#10",
+          "why": "Missed 2 days correct entry"
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 6,
+          "now": 62.75,
+          "entry": 62.75,
+          "tp": 68.0,
+          "sector": "ELEC",
+          "vs": "RT 1.75% rank jumped +23",
+          "why": "Momentum surge S7+ D1+"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 40.5,
+          "entry": 40.5,
+          "tp": 44.0,
+          "sector": "ELECTRONICS",
+          "vs": "RT 1.85% RSI71 rank#6",
+          "why": "V-Shape DNA RT valid"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260529-1432",
     "last_update": "2026-05-29 14:32:26",
     "gemini": {
