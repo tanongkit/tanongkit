@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260529-1023",
+    "last_update": "2026-05-29 10:23:09",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET is green (+0.50%) with broad sector strength, especially in CONS, TECH, and COMM.",
+      "player_stance": "BUY",
+      "stance_reason": "Broad positive sentiment and strong money flow into key sectors. Time to find momentum leaders.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.32,
+          "tp": 4.5,
+          "vs": "CONST Sector Leader",
+          "why": "Extreme RT 10.53, rule override",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.22,
+          "entry": 4.22,
+          "tp": 4.4,
+          "vs": "FOOD Sector Momentum",
+          "why": "Strong RT 3.58, good RSI",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.76,
+          "entry": 3.76,
+          "tp": 3.9,
+          "vs": "ELEC Sector Strong",
+          "why": "Top 5 rank, RT 3.03, high RSI",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 36.75,
+          "entry": 36.75,
+          "tp": 38.5,
+          "vs": "ETRON Sector Booming",
+          "why": "Solid RT 2.24, good RSI",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 40.5,
+          "entry": 40.5,
+          "tp": 42.5,
+          "vs": "ETRON Sector Booming",
+          "why": "Good RT 1.85, good RSI",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 7,
+          "now": 2.86,
+          "entry": 2.86,
+          "tp": 3.0,
+          "vs": "Tourism momentum play",
+          "why": "Strong RT 1.93, good RSI/S7",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 6,
+          "now": 22.2,
+          "entry": 22.2,
+          "tp": 23.0,
+          "vs": "Retail sector momentum",
+          "why": "Meets all rules, RT 1.64",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "THAI",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 6.65,
+          "entry": 6.65,
+          "tp": 6.9,
+          "vs": "Airlines momentum",
+          "why": "Meets rules but lead is selling",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.5%, CONMAT +0.93%, PROPCON +0.74%, TECH +0.9%, ETRON +1.0%",
+      "player_stance": "BUY",
+      "stance_reason": "MSCI deadline 29 May, strong TECH/ELEC momentum, khanla-khrueng catalyst starting 25 May",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.32,
+          "tp": 4.75,
+          "sector": "CONST",
+          "vs": "Rank 3, RT 10.53%",
+          "why": "Extreme RT overrides RSI 80.4"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.76,
+          "entry": 3.76,
+          "tp": 4.1,
+          "sector": "ELEC",
+          "vs": "Rank 4, RT 3.03%",
+          "why": "Top 5 rank, solid momentum"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.22,
+          "entry": 4.22,
+          "tp": 4.6,
+          "sector": "FOOD",
+          "vs": "Rank 10, RT 3.58%",
+          "why": "Khanla-khrueng catalyst 25 May starts"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 40.5,
+          "entry": 40.5,
+          "tp": 44.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank 6, RT 1.85%",
+          "why": "ELEC V-Shape, RSI cooled to 71.2"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 36.75,
+          "entry": 36.75,
+          "tp": 40.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank 8, RT 2.24%",
+          "why": "PCB ELEC play, strong D1 6.52%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260529-0358",
     "last_update": "2026-05-29 03:58:40",
     "gemini": {
