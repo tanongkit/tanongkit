@@ -1,5 +1,176 @@
 [
   {
+    "tx_id": "20260529-1102",
+    "last_update": "2026-05-29 11:02:12",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET up slightly, led by TECH/CONS, but PETRO/INDUS weakness shows mixed interest.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is mixed. Yesterday's system failure requires careful manual review of candidates before committing capital.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.22,
+          "entry": 4.22,
+          "tp": 4.4,
+          "vs": "Yesterday's skip",
+          "why": "All signals green",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.32,
+          "entry": 4.32,
+          "tp": 4.6,
+          "vs": "Very high RSI",
+          "why": "Extreme RT override",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.76,
+          "entry": 3.76,
+          "tp": 3.9,
+          "vs": "Slightly high RSI",
+          "why": "Top rank, strong RT",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 36.75,
+          "entry": 36.75,
+          "tp": 38.5,
+          "vs": "Sector play",
+          "why": "ETRON momentum",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 40.5,
+          "entry": 40.5,
+          "tp": 42.0,
+          "vs": "Weak Q1 earnings",
+          "why": "ETRON momentum",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "M",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 22.2,
+          "entry": 22.2,
+          "tp": 23.0,
+          "vs": "Past weakness",
+          "why": "Borderline signals",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "ERW",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 2.86,
+          "entry": 2.86,
+          "tp": 3.0,
+          "vs": "Weak sector",
+          "why": "Data > old note",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "THAI",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 6.65,
+          "entry": 6.65,
+          "tp": 6.9,
+          "vs": "Weak sector",
+          "why": "Meets rules barely",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.39%, CONS +2.26%, TECH +1.0%, ETRON +1.29% leading sectors positive",
+      "player_stance": "SELL",
+      "stance_reason": "MSCI effective today 29-May, TP DELTA before close per Rule 7 MSCI play deadline",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "SELL_ALL",
+          "reason": "MSCI effective date today 29-May, TP before/on effective date per Rule 7, price 357 vs entry, take profit now"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.32,
+          "tp": 4.75,
+          "sector": "CONS",
+          "vs": "Rank #3, RT 10.53%",
+          "why": "Extreme RT overrides RSI80.4, CONS +2.26%"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.76,
+          "entry": 3.76,
+          "tp": 4.05,
+          "sector": "ENERG",
+          "vs": "Rank #4, RT 3.03%",
+          "why": "Top5 rank, solid RT, S7 8.58%"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.22,
+          "entry": 4.22,
+          "tp": 4.55,
+          "sector": "FOOD",
+          "vs": "Rank #10, RT 3.58%",
+          "why": "RT 3.58%, FOOD +0.26%, RSI 67.4"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 36.75,
+          "entry": 37.0,
+          "tp": 40.0,
+          "sector": "TECH",
+          "vs": "Rank #8, RT 2.24%",
+          "why": "Price >60 violates Rule 0, wait pullback"
+        },
+        {
+          "sym": "HANA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 40.5,
+          "entry": 41.0,
+          "tp": 44.0,
+          "sector": "TECH",
+          "vs": "Rank #6, RT 1.85%",
+          "why": "Price >60 violates Rule 0, ETRON +1.29%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260529-1032",
     "last_update": "2026-05-29 10:32:13",
     "gemini": {
