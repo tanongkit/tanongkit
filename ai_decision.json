@@ -1,5 +1,176 @@
 [
   {
+    "tx_id": "20260529-1202",
+    "last_update": "2026-05-29 12:02:16",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET index green (+0.66%) with strong leadership from TECH, ETRON, and FINCIAL sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Bullish market with clear sector rotation. Need to correct for yesterday's missed opportunities due to system filter issues.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.22,
+          "entry": 4.22,
+          "tp": 4.4,
+          "vs": "RT 3.58%",
+          "why": "Top momentum, missed pick",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 36.75,
+          "entry": 36.75,
+          "tp": 38.5,
+          "vs": "ETRON +1.60%",
+          "why": "Strong sector tailwind, V-shape",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 40.5,
+          "entry": 40.5,
+          "tp": 42.5,
+          "vs": "ETRON +1.60%",
+          "why": "Strong sector tailwind, V-shape",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 19.1,
+          "entry": 19.1,
+          "tp": 20.0,
+          "vs": "FIN +2.05%",
+          "why": "Riding strong sector momentum",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 6,
+          "now": 2.86,
+          "entry": 2.86,
+          "tp": 3.0,
+          "vs": "RT 1.93%",
+          "why": "Technical momentum, S7 reversed positive",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 6,
+          "now": 6.65,
+          "entry": 6.65,
+          "tp": 7.0,
+          "vs": "RT 1.57%",
+          "why": "Meets all standard rules",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 5,
+          "now": 22.2,
+          "entry": 22.2,
+          "tp": 23.3,
+          "vs": "COMM +0.84%",
+          "why": "Momentum play despite weak Q1",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "TOP",
+          "action": "BUY",
+          "conf": 5,
+          "now": 46.25,
+          "entry": 46.25,
+          "tp": 48.5,
+          "vs": "S7 Override",
+          "why": "Contrarian strength vs weak sector",
+          "lead_doing": "buy"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.66%, FOOD +0.48%, CONMAT +0.83%, ETRON +1.6%, TECH +1.35% strong",
+      "player_stance": "BUY",
+      "stance_reason": "Strong momentum stocks EPG/GUNKUL/RBF pass rules, MSCI TP deadline today for DELTA",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "SELL_ALL",
+          "reason": "MSCI deadline 29 May today, take profit before event, RSI 70.5 overbought"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.3,
+          "tp": 4.75,
+          "sector": "CONST",
+          "vs": "Extreme RT 10.53%, top 3 rank",
+          "why": "Massive momentum, S7+21% strong"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.76,
+          "entry": 3.75,
+          "tp": 4.0,
+          "sector": "ELEC",
+          "vs": "RT 3.03%, rank #4, D1+8%",
+          "why": "Strong climb, S7+8.6%"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.22,
+          "entry": 4.2,
+          "tp": 4.5,
+          "sector": "FOOD",
+          "vs": "RT 3.58%, rank #10, sector +0.48%",
+          "why": "Solid RT, S7+5.5%"
+        },
+        {
+          "sym": "GULF",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 62.75,
+          "entry": 62.0,
+          "tp": 66.0,
+          "sector": "ELEC",
+          "vs": "Rank jump +23, RT 1.75%, RSI 66.8",
+          "why": "Wait entry dip, sector check"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 19.1,
+          "entry": 18.8,
+          "tp": 20.0,
+          "sector": "BANK",
+          "vs": "RSI 72.3 high, RT 1.68%, S7+4.4%",
+          "why": "Wait RSI cool below 70"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260529-1132",
     "last_update": "2026-05-29 11:32:22",
     "gemini": {
