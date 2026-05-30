@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260530-1202",
+    "last_update": "2026-05-30 12:02:28",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET index is flat (-0.04%). Major sectors like PETRO and INDUS are down significantly.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is directionless and yesterday's trading system had critical filter failures. Verify signals before acting.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.22,
+          "entry": 4.22,
+          "tp": 4.4,
+          "vs": "Food sector weak",
+          "why": "Top 10, high Rt, good RSI, missed yesterday",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 36.75,
+          "entry": 36.75,
+          "tp": 38.5,
+          "vs": "ETRON sector flat",
+          "why": "Top 10, strong Rt+S7, V-shape DNA",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 40.5,
+          "entry": 40.5,
+          "tp": 42.5,
+          "vs": "ETRON sector flat",
+          "why": "Top 10, strong S7, V-shape DNA",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.32,
+          "entry": 4.32,
+          "tp": 4.54,
+          "vs": "PKG sector weak",
+          "why": "Extreme Rt >10%, manual override rule",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.76,
+          "entry": 3.76,
+          "tp": 3.94,
+          "vs": "ENERG sector weak",
+          "why": "Top 5 rank, strong Rt, priority watch",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 6,
+          "now": 22.2,
+          "entry": 22.2,
+          "tp": 23.0,
+          "vs": "COMM sector strong",
+          "why": "Top 10, rules met, step-up DNA",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 6,
+          "now": 2.86,
+          "entry": 2.86,
+          "tp": 3.0,
+          "vs": "TOURISM sector up",
+          "why": "S7 recovered, rules met",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 6,
+          "now": 19.1,
+          "entry": 19.1,
+          "tp": 20.0,
+          "vs": "FIN sector strong",
+          "why": "Strong sector momentum, rules met",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Mixed sectors: CONS+1.41% FIN+0.26% strong, PETRO-4.5% INDUS-2.5% weak",
+      "player_stance": "BUY",
+      "stance_reason": "EPG/GUNKUL/KCE extreme momentum with top ranks override overbought RSI, strong entry signals",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.32,
+          "tp": 4.75,
+          "sector": "CONST",
+          "vs": "RT 10.53% rank#3",
+          "why": "Extreme RT+rank override RSI80"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.76,
+          "entry": 3.76,
+          "tp": 4.1,
+          "sector": "ELEC",
+          "vs": "RT 3.03% rank#4",
+          "why": "Top5 rank solid RT"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.22,
+          "entry": 4.22,
+          "tp": 4.6,
+          "sector": "FOOD",
+          "vs": "RT 3.58% rank#10",
+          "why": "Borderline but RT strong"
+        },
+        {
+          "sym": "GULF",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 62.75,
+          "entry": 63.0,
+          "tp": 68.0,
+          "sector": "ELEC",
+          "vs": "Rank#25 low",
+          "why": "Momentum surge but low rank"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 357.0,
+          "entry": 355.0,
+          "tp": 390.0,
+          "sector": "TECH",
+          "vs": "MSCI TP 29-May deadline",
+          "why": "Exit before MSCI effective date"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260530-1132",
     "last_update": "2026-05-30 11:32:27",
     "gemini": {
