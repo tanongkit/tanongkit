@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260530-1032",
+    "last_update": "2026-05-30 10:32:19",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET flat; PETRO/INDUS weak while FIN/CONS strong, showing sector rotation.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is rotational. Selectively waiting for high-conviction setups that pass strict entry rules.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.3,
+          "tp": 4.6,
+          "vs": "Extreme RT, rank jump",
+          "why": "Rule override: RT >10%",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.22,
+          "entry": 4.2,
+          "tp": 4.4,
+          "vs": "Strong RT, rank jump",
+          "why": "Strong signals RSI+RT+S7",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.76,
+          "entry": 3.74,
+          "tp": 4.0,
+          "vs": "Top 5 rank, strong RT",
+          "why": "Rule override: Top rank",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 36.75,
+          "entry": 36.5,
+          "tp": 38.5,
+          "vs": "Strong RT, rank jump",
+          "why": "Qualifies RSI+RT+S7",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 40.5,
+          "entry": 40.25,
+          "tp": 42.5,
+          "vs": "Strong RT, rank jump",
+          "why": "Qualifies RSI+RT+S7",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 6,
+          "now": 6.65,
+          "entry": 6.65,
+          "tp": 6.9,
+          "vs": "Momentum building",
+          "why": "Qualifies RSI+RT+S7",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 6,
+          "now": 22.2,
+          "entry": 22.1,
+          "tp": 23.0,
+          "vs": "Top 10 rank momentum",
+          "why": "Qualifies RSI+RT+S7",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 5,
+          "now": 2.86,
+          "entry": 2.84,
+          "tp": 3.0,
+          "vs": "RT spike, cool RSI",
+          "why": "Qualifies RSI+RT+S7",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Mixed sector flows: COMM/HELTH up, PETRO/INDUS down. SET -0.04%.",
+      "player_stance": "WAIT",
+      "stance_reason": "Top picks RSI 67-80 (overbought). Await RSI cooldown post-MSCI deadline (1 day left).",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 4.32,
+          "entry": 4.1,
+          "tp": 4.75,
+          "sector": "CONST",
+          "vs": "RT 10.53% rank#3",
+          "why": "RSI 80.4 overbought. Wait cooldown."
+        },
+        {
+          "sym": "GULF",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 62.75,
+          "entry": 60,
+          "tp": 66,
+          "sector": "ELEC",
+          "vs": "RT 1.75% rank#25",
+          "why": "Low rank. RT borderline. Wait."
+        },
+        {
+          "sym": "RBF",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 4.22,
+          "entry": 4.0,
+          "tp": 4.5,
+          "sector": "FOOD",
+          "vs": "RT 3.58% rank#10",
+          "why": "RSI 67.4 borderline. S7 5.5 weak."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 3.76,
+          "entry": 3.6,
+          "tp": 4.0,
+          "sector": "ELEC",
+          "vs": "RT 3.03% rank#4",
+          "why": "RSI 76.5 overbought. Wait cooldown."
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 36.75,
+          "entry": 35,
+          "tp": 39,
+          "sector": "ELECTRONICS",
+          "vs": "RT 2.24% rank#8",
+          "why": "RSI 70.2 borderline. MSCI 1 day."
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260530-1003",
     "last_update": "2026-05-30 10:03:18",
     "gemini": {
