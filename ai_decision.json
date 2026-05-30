@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260530-1132",
+    "last_update": "2026-05-30 11:32:27",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Mixed sector performance; PETRO down, FIN up. SET index flat.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is choppy with sector rotation. Wait for clearer trend and focus on stock picking.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.32,
+          "entry": 4.34,
+          "tp": 4.5,
+          "vs": "Extreme momentum play",
+          "why": "RT>10% overrides RSI",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.22,
+          "entry": 4.24,
+          "tp": 4.4,
+          "vs": "Top 10 rank momentum",
+          "why": "All signals green",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.76,
+          "entry": 3.78,
+          "tp": 3.94,
+          "vs": "Top 5 rank momentum",
+          "why": "Strong RT, borderline RSI",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 36.75,
+          "entry": 37.0,
+          "tp": 38.25,
+          "vs": "V-shape ELEC leader",
+          "why": "All signals green",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 40.5,
+          "entry": 40.75,
+          "tp": 42.0,
+          "vs": "V-shape ELEC rebound",
+          "why": "All signals green",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 7,
+          "now": 2.86,
+          "entry": 2.88,
+          "tp": 3.0,
+          "vs": "Tourism sector play",
+          "why": "All signals green",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 8,
+          "now": 19.1,
+          "entry": 19.2,
+          "tp": 19.9,
+          "vs": "Strong FIN sector",
+          "why": "Sector strength, signals green",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 7,
+          "now": 22.2,
+          "entry": 22.3,
+          "tp": 23.0,
+          "vs": "Consumer retail play",
+          "why": "All signals green",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Mixed sectors: FIN/COMM up, PETRO/INDUS down, SET flat -0.04%",
+      "player_stance": "BUY",
+      "stance_reason": "Strong momentum stocks available, 10 days to MSCI deadline 29-May, port <1M allows 2 slots",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.32,
+          "tp": 4.75,
+          "sector": "CONST",
+          "vs": "Rank 3, RT 10.53%",
+          "why": "Extreme RT overrides RSI 80.4"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.76,
+          "entry": 3.76,
+          "tp": 4.05,
+          "sector": "ELEC",
+          "vs": "Rank 4, RT 3.03%",
+          "why": "Top 5 rank solid RT"
+        },
+        {
+          "sym": "RBF",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 4.22,
+          "entry": 4.22,
+          "tp": 4.5,
+          "sector": "FOOD",
+          "vs": "Rank 10, RT 3.58%",
+          "why": "Borderline rank, monitor RSI cooldown"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 36.75,
+          "entry": 36.75,
+          "tp": 40.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank 8, RT 2.24%",
+          "why": "RSI 70.2 slightly high wait"
+        },
+        {
+          "sym": "GULF",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 62.75,
+          "entry": 62.75,
+          "tp": 65.0,
+          "sector": "ELEC",
+          "vs": "Rank 25 too low",
+          "why": "Low rank despite momentum surge"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260530-1102",
     "last_update": "2026-05-30 11:02:26",
     "gemini": {
