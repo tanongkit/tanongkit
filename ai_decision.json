@@ -1,5 +1,176 @@
 [
   {
+    "tx_id": "20260530-1432",
+    "last_update": "2026-05-30 14:32:15",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET flat with significant sector rotation from Industrials/Petro to Financials/Construction.",
+      "player_stance": "WAIT",
+      "stance_reason": "Sideways market requires confirmation. Awaiting high-conviction signals after recent system misses.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.34,
+          "tp": 4.6,
+          "vs": "CONS +1.41%",
+          "why": "Lesson learned: override RSI on extreme RT>10%",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 3.76,
+          "entry": 3.78,
+          "tp": 4.0,
+          "vs": "ENERG -0.23%",
+          "why": "Lesson learned: Top 5 rank with strong RT warrants entry",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.22,
+          "entry": 4.24,
+          "tp": 4.5,
+          "vs": "FOOD -0.35%",
+          "why": "Flagged as 'Missed Super Pick', strong RT",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 40.5,
+          "entry": 40.75,
+          "tp": 43.0,
+          "vs": "ETRON -0.05%",
+          "why": "All rules pass, strong S7, V-Shape DNA",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 36.75,
+          "entry": 37.0,
+          "tp": 39.0,
+          "vs": "ETRON -0.05%",
+          "why": "All rules pass, strong S7 & RT",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 7,
+          "now": 22.2,
+          "entry": 22.3,
+          "tp": 23.5,
+          "vs": "CONSUMP -0.20%",
+          "why": "All rules pass, Step-Up DNA",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 7,
+          "now": 2.86,
+          "entry": 2.88,
+          "tp": 3.0,
+          "vs": "TOURISM +0.17%",
+          "why": "Good RT with non-overbought RSI",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 6,
+          "now": 6.65,
+          "entry": 6.7,
+          "tp": 7.0,
+          "vs": "TRANS +0.41%",
+          "why": "Rules pass, but low RT and weak D1",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Mixed sectors: FIN +1.53%, CONS +1.41% offset PETRO -4.5%, INDUS -2.5%",
+      "player_stance": "WAIT",
+      "stance_reason": "Top picks overbought RSI>75 or weak S7. MSCI deadline 29-May forces DELTA exit soon.",
+      "port_action": [
+        {
+          "sym": "DELTA",
+          "action": "SELL_ALL",
+          "reason": "MSCI deadline 29-May (1 day left), lock profit before event"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.3,
+          "tp": 4.75,
+          "sector": "CONST",
+          "vs": "Rank #3, RT 10.53%",
+          "why": "Extreme RT override RSI 80.4"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.76,
+          "entry": 3.75,
+          "tp": 4.1,
+          "sector": "ELEC",
+          "vs": "Rank #4, RT 3.03%",
+          "why": "Strong D1 8.05%, S7 8.58%"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.22,
+          "entry": 4.2,
+          "tp": 4.6,
+          "sector": "FOOD",
+          "vs": "Rank #10, RT 3.58%",
+          "why": "RT override, D1 4.98%, S7 5.5%"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 36.75,
+          "entry": 36.5,
+          "tp": 40.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank #8, RT 2.24%",
+          "why": "RSI 70.2 borderline, monitor cooldown"
+        },
+        {
+          "sym": "GULF",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 62.75,
+          "entry": 62.5,
+          "tp": 68.0,
+          "sector": "ELEC",
+          "vs": "Rank #25 too low",
+          "why": "Low rank despite RT 1.75%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260530-1407",
     "last_update": "2026-05-30 14:07:04",
     "gemini": {
