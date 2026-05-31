@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260531-1132",
+    "last_update": "2026-05-31 11:32:29",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Mixed sectors; heavy selling in PETRO balanced by gains in FIN and CONS.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is flat and rotational. Selectively entering strong momentum stocks while key sectors are weak.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.22,
+          "entry": 4.22,
+          "tp": 4.4,
+          "vs": "FOOD sector is weak",
+          "why": "Missed super pick, high RT",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 36.75,
+          "entry": 36.75,
+          "tp": 38.0,
+          "vs": "ETRON sector is flat",
+          "why": "Perfect rule match, V-Shape DNA",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 40.5,
+          "entry": 40.5,
+          "tp": 42.0,
+          "vs": "ETRON flat, Q1 miss",
+          "why": "Perfect rule match, V-Shape DNA",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 7,
+          "now": 2.86,
+          "entry": 2.86,
+          "tp": 3.0,
+          "vs": "Past negative catalyst",
+          "why": "Rule match, S7 turned positive",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 6,
+          "now": 4.32,
+          "entry": 4.32,
+          "tp": 4.5,
+          "vs": "RSI > 80, high risk",
+          "why": "Extreme RT, lesson override",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 5,
+          "now": 3.76,
+          "entry": 3.76,
+          "tp": 3.9,
+          "vs": "RSI > 75, weak sector",
+          "why": "Missed pick, strong momentum",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 5,
+          "now": 6.65,
+          "entry": 6.65,
+          "tp": 6.9,
+          "vs": "Lead indicator suggests sell",
+          "why": "Passes rules, sector is okay",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 4,
+          "now": 19.1,
+          "entry": 19.1,
+          "tp": 19.7,
+          "vs": "Lead indicator suggests sell",
+          "why": "Passes all entry rules",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET -0.04%, mixed sectors, PETRO weak -4.5%, CONS strong +1.41%",
+      "player_stance": "WAIT",
+      "stance_reason": "DELTA near MSCI deadline 29-May, await consolidation signals before new entries",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.3,
+          "tp": 4.75,
+          "sector": "CONST",
+          "vs": "Rank #3, RT 10.53%",
+          "why": "Extreme momentum overrides RSI 80.4"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.76,
+          "entry": 3.74,
+          "tp": 4.05,
+          "sector": "ELEC",
+          "vs": "Rank #4, RT 3.03%",
+          "why": "Top 5 rank solid RT"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.22,
+          "entry": 4.2,
+          "tp": 4.5,
+          "sector": "FOOD",
+          "vs": "Rank #10, RT 3.58%",
+          "why": "RT 3.58 S7 5.5 D1 4.98"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 36.75,
+          "entry": 36.5,
+          "tp": 39.5,
+          "sector": "ELECTRONICS",
+          "vs": "Rank #8, RT 2.24%",
+          "why": "Rank jump +11 strong momentum"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 40.5,
+          "entry": 40.0,
+          "tp": 43.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank #6, RT 1.85%",
+          "why": "RSI 71.2 cooler than yesterday"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260531-1102",
     "last_update": "2026-05-31 11:02:21",
     "gemini": {
