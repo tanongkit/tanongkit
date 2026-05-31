@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260531-1032",
+    "last_update": "2026-05-31 10:32:14",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Mixed sectors; strong FIN/CONS balanced by sharp PETRO drop, keeping SET flat.",
+      "player_stance": "WAIT",
+      "stance_reason": "Previous day's system filter failure and a mixed, choppy market warrant caution before opening new positions.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 10,
+          "now": 4.32,
+          "entry": 4.34,
+          "tp": 4.5,
+          "vs": "Rank 3, Volatile",
+          "why": "Extreme RT >10% overrides RSI. Key lesson learned.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 3.76,
+          "entry": 3.78,
+          "tp": 3.9,
+          "vs": "Rank 4, Volatile",
+          "why": "Top 5 momentum, RT>3%. Key lesson learned.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.22,
+          "entry": 4.24,
+          "tp": 4.4,
+          "vs": "Rank 10, Missed",
+          "why": "Strong RT>3.5%, missed 'super pick' yesterday.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 36.75,
+          "entry": 37.0,
+          "tp": 38.5,
+          "vs": "Rank 8, V-Shape",
+          "why": "ELEC V-Shape DNA, strong RT and rank jump.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 40.5,
+          "entry": 40.75,
+          "tp": 42.5,
+          "vs": "Rank 6, V-Shape",
+          "why": "ELEC V-Shape DNA, passed all entry rules.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 62.75,
+          "entry": 63.0,
+          "tp": 65.0,
+          "vs": "Rank 25, Momentum",
+          "why": "Huge rank jump (+23) with strong RT.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 7,
+          "now": 2.86,
+          "entry": 2.88,
+          "tp": 3.0,
+          "vs": "Rank 34, Swing",
+          "why": "Passes all rules with RT > 1.9x.",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 6,
+          "now": 6.65,
+          "entry": 6.7,
+          "tp": 7.0,
+          "vs": "Rank 12, Momentum",
+          "why": "Passed all rules, RT > 1.5x, solid S7.",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Mixed sectors: COMM/HELTH up, PETRO/INDUS down. SET -0.04% flat.",
+      "player_stance": "WAIT",
+      "stance_reason": "Top picks overbought or weak catalysts. MSCI deadline 29 May approaching, be cautious.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.32,
+          "entry": 4.3,
+          "tp": 4.75,
+          "sector": "CONST",
+          "vs": "Rank 3, RT 10.53% extreme momentum",
+          "why": "Super RT overrides RSI 80.4"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 3.76,
+          "entry": 3.74,
+          "tp": 4.1,
+          "sector": "ELEC",
+          "vs": "Rank 4, RT 3.03%, S7 8.58%+",
+          "why": "Solid momentum with S7 support"
+        },
+        {
+          "sym": "RBF",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 4.22,
+          "entry": 4.2,
+          "tp": 4.6,
+          "sector": "FOOD",
+          "vs": "Rank 10, RT 3.58%, RSI 67.4",
+          "why": "Borderline rank, monitor for entry"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 36.75,
+          "entry": 36.5,
+          "tp": 40.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank 8, RT 2.24%, S7 18.55%+",
+          "why": "RSI 70.2 warm, await cooldown"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 357.0,
+          "entry": 355.0,
+          "tp": 380.0,
+          "sector": "TECH",
+          "vs": "Rank 9, MSCI play 29 May deadline",
+          "why": "TP before MSCI deadline, risky hold"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260531-1003",
     "last_update": "2026-05-31 10:03:15",
     "gemini": {
