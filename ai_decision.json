@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260531-1102",
+    "last_update": "2026-05-31 11:02:21",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET index flat; major sectors like Petro down sharply while Finance rises.",
+      "player_stance": "WAIT",
+      "stance_reason": "Mixed sector rotation without clear market direction suggests a cautious, observant stance.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.32,
+          "tp": 4.6,
+          "vs": "SCGP",
+          "why": "Extreme RT 10.53% (Rule Override), top rank, strong S7.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 3.76,
+          "entry": 3.76,
+          "tp": 4.0,
+          "vs": "GPSC",
+          "why": "Top 5 rank, strong RT 3.03, RSI borderline hot.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.22,
+          "entry": 4.22,
+          "tp": 4.45,
+          "vs": "OSP",
+          "why": "Top 10 rank, strong RT 3.58, good RSI, S7 positive.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 36.75,
+          "entry": 36.75,
+          "tp": 39.0,
+          "vs": "HANA",
+          "why": "V-Shape DNA, Top 10 rank, good RT 2.24, S7 positive.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 40.5,
+          "entry": 40.5,
+          "tp": 43.0,
+          "vs": "DELTA",
+          "why": "V-Shape DNA, Top 10 rank, RT 1.85, strong S7.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 7,
+          "now": 22.2,
+          "entry": 22.2,
+          "tp": 23.5,
+          "vs": "CENTEL",
+          "why": "Top 10 rank, Step Up DNA, RT 1.64, RSI ok.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 7,
+          "now": 2.86,
+          "entry": 2.86,
+          "tp": 3.05,
+          "vs": "CENTEL",
+          "why": "Volatile DNA with good RT 1.93 & RSI 62.8.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "TOP",
+          "action": "BUY",
+          "conf": 6,
+          "now": 46.25,
+          "entry": 46.25,
+          "tp": 48.5,
+          "vs": "PTTGC",
+          "why": "S7 Override (RT 1.77 + D1 positive), RSI cool.",
+          "lead_doing": "buy"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Mixed sectors: FIN/COMM up, PETRO/INDUS down, SET flat -0.04%",
+      "player_stance": "WAIT",
+      "stance_reason": "Most picks overbought RSI>75, await cooldown or new momentum with S7+",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.3,
+          "tp": 4.75,
+          "sector": "CONST",
+          "vs": "Rank #3, RT 10.53%",
+          "why": "Extreme momentum overrides RSI 80.4"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.76,
+          "entry": 3.75,
+          "tp": 4.1,
+          "sector": "ELEC",
+          "vs": "Rank #4, RT 3.03%",
+          "why": "Top 5 rank solid RT"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.22,
+          "entry": 4.2,
+          "tp": 4.5,
+          "sector": "FOOD",
+          "vs": "Rank #10, RT 3.58%",
+          "why": "Borderline rank but RT qualifies"
+        },
+        {
+          "sym": "GULF",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 62.75,
+          "entry": 62.5,
+          "tp": 66.0,
+          "sector": "ELEC",
+          "vs": "Rank #25, RT 1.75%",
+          "why": "Low rank despite momentum surge"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 36.75,
+          "entry": 36.5,
+          "tp": 39.0,
+          "sector": "ETRON",
+          "vs": "Rank #8, RT 2.24%",
+          "why": "RSI 70.2 near limit, await confirmation"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260531-1032",
     "last_update": "2026-05-31 10:32:14",
     "gemini": {
