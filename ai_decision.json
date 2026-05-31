@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260531-1201",
+    "last_update": "2026-05-31 12:01:58",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET flat; major sectors like PETRO (-4.5%) fall while FIN (+1.5%) rises, indicating rotation.",
+      "player_stance": "WAIT",
+      "stance_reason": "Mixed market signals and EOD log showing critical filter failures advise high caution and selective entry.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.32,
+          "tp": 4.55,
+          "vs": "s7 21.3",
+          "why": "Extreme RT 10.53% overrides RSI, priority from logs",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.22,
+          "entry": 4.22,
+          "tp": 4.4,
+          "vs": "s7 5.5",
+          "why": "Strong RT 3.58%, good RSI 67.4, was missed pick",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.76,
+          "entry": 3.76,
+          "tp": 3.95,
+          "vs": "s7 8.6",
+          "why": "Top 5 rank, strong RT 3.03%, priority from logs",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 36.75,
+          "entry": 36.75,
+          "tp": 38.5,
+          "vs": "s7 18.5",
+          "why": "Meets all rules (RSI 70.2, RT 2.24), ELEC momentum",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 40.5,
+          "entry": 40.5,
+          "tp": 42.25,
+          "vs": "s7 37.3",
+          "why": "Meets all rules (RSI 71.2, RT 1.85), strong S7",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 5,
+          "now": 2.86,
+          "entry": 2.86,
+          "tp": 3.0,
+          "vs": "s7 7.5",
+          "why": "Meets all rules (RSI 62.8, RT 1.93), tourism play",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 5,
+          "now": 19.1,
+          "entry": 19.1,
+          "tp": 20.0,
+          "vs": "s7 4.4",
+          "why": "Meets all rules (RSI 72.3, RT 1.68), financial sector",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "TOP",
+          "action": "BUY",
+          "conf": 5,
+          "now": 46.25,
+          "entry": 46.25,
+          "tp": 48.0,
+          "vs": "s7 -1.6",
+          "why": "S7 override (RT 1.77, D1 pos), energy play",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET -0.04%, mixed sectors, FINCIAL +0.26%, INDUS -2.5%, PETRO -4.5%",
+      "player_stance": "WAIT",
+      "stance_reason": "Top picks high RSI 67-80, missed S7 negative filter, await cooldown or MSCI TP deadline",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.32,
+          "entry": 4.32,
+          "tp": 4.75,
+          "sector": "CONST",
+          "vs": "Rank #3, RT 10.53%",
+          "why": "Extreme RT overrides RSI 80.4"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.22,
+          "entry": 4.22,
+          "tp": 4.6,
+          "sector": "FOOD",
+          "vs": "Rank #10, RT 3.58%",
+          "why": "S7 +5.5, consistent missed pick"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 3.76,
+          "entry": 3.7,
+          "tp": 4.1,
+          "sector": "ELEC",
+          "vs": "Rank #4, RT 3.03%",
+          "why": "RSI 76.5 hot, S7 +8.58"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 36.75,
+          "entry": 36.0,
+          "tp": 40.0,
+          "sector": "ELECTRONICS",
+          "vs": "Rank #8, RT 2.24%",
+          "why": "Price >60 Rule 0 breach"
+        },
+        {
+          "sym": "GULF",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 62.75,
+          "entry": 62.0,
+          "tp": 68.0,
+          "sector": "ELEC",
+          "vs": "Rank #25, RT 1.75%",
+          "why": "Price >60, rank low borderline"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260531-1132",
     "last_update": "2026-05-31 11:32:29",
     "gemini": {
