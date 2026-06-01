@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260601-2142",
+    "last_update": "2026-06-01 21:42:41",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET index flat, but heavy selling in key sectors like PETRO and INDUS.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market shows strong sector rotation, not broad conviction. Be selective with entries.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 15.7,
+          "entry": 15.7,
+          "tp": 16.7,
+          "vs": "Rank 5, strong momentum surge",
+          "why": "CONS sector leader, all signals green.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.65,
+          "entry": 7.65,
+          "tp": 8.1,
+          "vs": "BDI play with strong D1 momentum",
+          "why": "V-Shape DNA, all rules pass, TRANS strong.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "TTA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.35,
+          "entry": 5.35,
+          "tp": 5.7,
+          "vs": "BDI play, follower to PSL",
+          "why": "Strong momentum and sector support.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.98,
+          "entry": 3.98,
+          "tp": 4.2,
+          "vs": "High rank volatile swing play",
+          "why": "Lesson learned override on high RSI.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 7,
+          "now": 26.0,
+          "entry": 26.0,
+          "tp": 27.0,
+          "vs": "'Kon La Krueng' catalyst play",
+          "why": "Meets all rules, positive sector.",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "CRC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 21.1,
+          "entry": 21.1,
+          "tp": 22.0,
+          "vs": "Top 15 rank with solid signals",
+          "why": "Meets all rules in a decent sector.",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "CPALL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 47.25,
+          "entry": 47.25,
+          "tp": 49.0,
+          "vs": "Retail play with state stimulus",
+          "why": "Passes all rules, though s7 is moderate.",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 6,
+          "now": 37.5,
+          "entry": 37.5,
+          "tp": 39.5,
+          "vs": "High rank V-Shape with strong S7",
+          "why": "Borderline D1 but high rank compensates.",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Mixed sectors: CONS +1.41%, FIN +0.26% up; PETRO -4.5%, INDUS -2.5% down",
+      "player_stance": "WAIT",
+      "stance_reason": "Top picks EPG/GUNKUL/STECON overbought RSI>79. No stocks pass RSI 50-75 + Rt>1.5x + S7+ rules",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "conf": 7,
+          "now": 353.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ETRON",
+          "vs": "Rank #8 RSI 68.7",
+          "why": "MSCI deadline 29 May approaching - prepare TP"
+        },
+        {
+          "sym": "HANA",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 37.25,
+          "entry": 37.0,
+          "tp": 41.0,
+          "sector": "ETRON",
+          "vs": "Rank #10 RSI 59.5",
+          "why": "RSI cooled S7 +7.97% but Rt=0"
+        },
+        {
+          "sym": "PSL",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 7.65,
+          "entry": 7.5,
+          "tp": 8.5,
+          "sector": "TRANS",
+          "vs": "Rank #19 RSI 63.7",
+          "why": "BDI play D1 +4.79% but Rt=0"
+        },
+        {
+          "sym": "KTB",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 34.75,
+          "entry": 34.5,
+          "tp": 37.0,
+          "sector": "BANK",
+          "vs": "Rank #27 RSI 66.4",
+          "why": "Bond yield play S7 +0.72% but Rt=0"
+        },
+        {
+          "sym": "COM7",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 26.0,
+          "entry": 25.5,
+          "tp": 28.0,
+          "sector": "COMM",
+          "vs": "Rank #17 RSI 69.0",
+          "why": "Khon La Khrueng 25 May but Rt=0"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260601-1947",
     "last_update": "2026-06-01 19:47:31",
     "gemini": {
