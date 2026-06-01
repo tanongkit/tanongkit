@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260602-0417",
+    "last_update": "2026-06-02 04:17:37",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Flat SET index with major sector rotation; financials up, petro/industrial down.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is choppy and lacks clear direction. Focus on strong sectors and individual momentum stocks.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "TTA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.35,
+          "entry": 5.35,
+          "tp": 5.6,
+          "vs": "Strong Momentum",
+          "why": "Highest qualified RT, all rules pass",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "CPALL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 47.25,
+          "entry": 47.25,
+          "tp": 49.0,
+          "vs": "Catalyst vs S7",
+          "why": "Strong RT, upcoming catalyst play",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.8,
+          "entry": 5.8,
+          "tp": 6.15,
+          "vs": "RT vs High RSI",
+          "why": "Rank 1, extreme RT override rule",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "BCH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 9.45,
+          "entry": 9.45,
+          "tp": 9.8,
+          "vs": "Strong RT, Sector Up",
+          "why": "High RT, HELTH sector breakout",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 7.65,
+          "entry": 7.65,
+          "tp": 8.0,
+          "vs": "BDI Play vs S7",
+          "why": "BDI momentum, all rules pass",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.7,
+          "entry": 15.7,
+          "tp": 16.4,
+          "vs": "Top Rank vs RT",
+          "why": "Rank 5, CONS sector strong",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 7,
+          "now": 6.7,
+          "entry": 6.7,
+          "tp": 7.0,
+          "vs": "Good RT vs Rank",
+          "why": "All rules pass, strong RT signal",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 6,
+          "now": 18.0,
+          "entry": 18.0,
+          "tp": 18.7,
+          "vs": "Sector vs Weak S7",
+          "why": "CONS sector strong, passes rules",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Mixed sectors, FINCIAL +0.26%, INDUS -2.5%, PETRO -4.5%, SET -0.04%",
+      "player_stance": "WAIT",
+      "stance_reason": "Top picks overbought RSI>75, no clean setups, awaiting cooldown or new breakouts",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 353.0,
+          "entry": 353.0,
+          "tp": 385.0,
+          "sector": "ETRON",
+          "vs": "Rank 8 RT 1.62 RSI 68.7",
+          "why": "MSCI play, near deadline, momentum intact"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 37.25,
+          "entry": 37.25,
+          "tp": 42.0,
+          "sector": "ETRON",
+          "vs": "Rank 10 RT 0.71 RSI 59.5",
+          "why": "RSI cooled, S7 positive, ELEC sector safe"
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 7.65,
+          "entry": 7.65,
+          "tp": 8.5,
+          "sector": "TRANS",
+          "vs": "Rank 17 RT 2.91 RSI 63.7",
+          "why": "BDI RSI 76.4, RT strong, S7 positive"
+        },
+        {
+          "sym": "WHA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 4.9,
+          "entry": 5.0,
+          "tp": 5.5,
+          "sector": "PROP",
+          "vs": "Rank 15 RT 0.88 RSI 60.8",
+          "why": "RT borderline 0.88, wait RT>1.5x confirmation"
+        },
+        {
+          "sym": "OSP",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 15.3,
+          "entry": 15.5,
+          "tp": 17.0,
+          "sector": "FOOD",
+          "vs": "Rank 21 RT 1.13 RSI 62.6",
+          "why": "RT weak 1.13, wait consumer stimulus kickoff"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260602-0017",
     "last_update": "2026-06-02 00:17:28",
     "gemini": {
