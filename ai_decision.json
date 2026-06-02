@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260603-0500",
+    "last_update": "2026-06-03 05:00:23",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.26% with broad-based gains led by strong sectors like CONS, PKG, ICT.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong bullish momentum and fund flow into key cyclical and industrial sectors. Favorable conditions for entry.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.0,
+          "entry": 4.0,
+          "tp": 4.2,
+          "vs": "Highest Rt (4.5x)",
+          "why": "All rules pass, extreme momentum."
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 7,
+          "now": 8.9,
+          "entry": 8.9,
+          "tp": 9.4,
+          "vs": "Top sector (CONS +4.32%)",
+          "why": "Strong Rt, good RSI, sector leader."
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 6,
+          "now": 5.9,
+          "entry": 5.9,
+          "tp": 6.25,
+          "vs": "Top sector (PKG +4.17%)",
+          "why": "Strong Rt, good RSI, sector leader."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 5,
+          "now": 6.0,
+          "entry": 6.0,
+          "tp": 6.5,
+          "vs": "V-shape pattern",
+          "why": "All rules pass, tech recovery."
+        },
+        {
+          "sym": "STECON",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 5.1,
+          "entry": 5.0,
+          "tp": 5.4,
+          "vs": "Top sector (CONS)",
+          "why": "Watch: Rt 1.4x just below 1.5x."
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 3,
+          "now": 1.7,
+          "entry": 1.65,
+          "tp": 1.8,
+          "vs": "Extreme past momentum",
+          "why": "Watch: RSI 91 too overbought."
+        },
+        {
+          "sym": "ADVANC",
+          "action": "WATCH",
+          "conf": 2,
+          "now": 3.1,
+          "entry": 3.0,
+          "tp": 3.2,
+          "vs": "High Rt (2.6x)",
+          "why": "Watch: RSI below 50 entry signal."
+        },
+        {
+          "sym": "CCET",
+          "action": "WATCH",
+          "conf": 1,
+          "now": 15.9,
+          "entry": 15.5,
+          "tp": 16.5,
+          "vs": "Highest score",
+          "why": "Watch: Fails RSI and Rt rules."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.26%, BANK +1.88%, PETRO +2.56%, PKG +4.17%, CONS +4.32% strong",
+      "player_stance": "BUY",
+      "stance_reason": "Top sectors surging, broad momentum, high volume confirms buying pressure across industrials",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 9,
+          "now": 20.5,
+          "entry": 20.5,
+          "tp": 22.5,
+          "sector": "CONS",
+          "vs": "Rt 3.1x, CONS sector +4.32%",
+          "why": "Low RSI 56, extreme momentum"
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 46.0,
+          "entry": 46.0,
+          "tp": 50.0,
+          "sector": "ENERG",
+          "vs": "Rt 4.5x, ENERG +1.66%",
+          "why": "High Rt, RSI 62 safe"
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 7,
+          "now": 33.25,
+          "entry": 33.25,
+          "tp": 36.0,
+          "sector": "PKG",
+          "vs": "Rt 2.7x, PKG +4.17%",
+          "why": "Sector leader, RSI 50 fresh"
+        },
+        {
+          "sym": "ADVANC",
+          "action": "BUY",
+          "conf": 6,
+          "now": 193.0,
+          "entry": 193.0,
+          "tp": 205.0,
+          "sector": "ICT",
+          "vs": "Rt 2.6x, ICT +2.36%",
+          "why": "Low RSI 46, tech surge"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 34.75,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ETRON",
+          "vs": "RSI 72 hot, need cooldown",
+          "why": "Wait RSI <70 re-entry"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260603-0018",
     "last_update": "2026-06-03 00:18:30",
     "gemini": {
