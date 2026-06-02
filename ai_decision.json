@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260602-1532",
+    "last_update": "2026-06-02 15:32:43",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index up +1.58% with strong, broad-based sector gains.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong market momentum and multiple stocks flashing clear entry signals.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "TTA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.35,
+          "entry": 5.35,
+          "tp": 5.65,
+          "vs": "Strong vs BDI",
+          "why": "Explosive Rt 6.73x",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 15.7,
+          "entry": 15.7,
+          "tp": 16.5,
+          "vs": "Top Sector Play",
+          "why": "Money flow to CONS",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "CPALL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 47.25,
+          "entry": 47.25,
+          "tp": 49.0,
+          "vs": "Strong vs Sector",
+          "why": "Catalyst play, Rt up",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "BCH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 9.45,
+          "entry": 9.45,
+          "tp": 9.8,
+          "vs": "Outlier in Sector",
+          "why": "Strong Rt momentum",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 7.65,
+          "entry": 7.65,
+          "tp": 8.0,
+          "vs": "Strong vs BDI",
+          "why": "V-shape Rt+S7",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 8,
+          "now": 18.0,
+          "entry": 18.0,
+          "tp": 18.7,
+          "vs": "Top Sector Play",
+          "why": "Follows sector lead",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 55.25,
+          "entry": 55.25,
+          "tp": 57.5,
+          "vs": "Leader in Trans",
+          "why": "All rules met",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 7,
+          "now": 6.7,
+          "entry": 6.7,
+          "tp": 7.0,
+          "vs": "Mid-pack in Trans",
+          "why": "Solid Rt+S7 signal",
+          "lead_doing": "buy"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.58%, BANK +1.73%, TECH +1.97%, PKG +4.14%, CONS +4.09%",
+      "player_stance": "HOLD",
+      "stance_reason": "No picks pass RSI 50-75 filter; EPG RSI=91.2 extreme overbought; await RSI cooldown",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 3.98,
+          "entry": 3.95,
+          "tp": 4.35,
+          "sector": "ELEC",
+          "vs": "RT=1.27 pass but RSI=79.6 overbought",
+          "why": "Top 5 rank, S7=11.8+, monitor RSI"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 6,
+          "now": 37.5,
+          "entry": 37.0,
+          "tp": 40.5,
+          "sector": "ELECTRONICS",
+          "vs": "RT=1.38 pass but RSI=71.9 high",
+          "why": "Rank 6, S7=15.4+, ELEC momentum"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 6,
+          "now": 4.26,
+          "entry": 4.2,
+          "tp": 4.6,
+          "sector": "FOOD",
+          "vs": "RT=1.24 fail threshold RSI=71.5 high",
+          "why": "Rank 9, S7=7.0+, watch RSI"
+        },
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "conf": 7,
+          "now": 353.0,
+          "entry": 0.0,
+          "tp": 380.0,
+          "sector": "TECH",
+          "vs": "MSCI deadline 29 May passed TP",
+          "why": "RSI=68.7 ok, RT=1.62, hold momentum"
+        },
+        {
+          "sym": "STECON",
+          "action": "SKIP",
+          "conf": 5,
+          "now": 15.7,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "CONS",
+          "vs": "RSI=71.1 high, volatile swing DNA",
+          "why": "Monitor RSI cooldown before entry"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260602-1502",
     "last_update": "2026-06-02 15:02:26",
     "gemini": {
