@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260602-1502",
+    "last_update": "2026-06-02 15:02:26",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.55% with broad-based rally led by CONS, PKG, ENERG, and TECH sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong index momentum and clear fund flow into multiple leading sectors.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "TTA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.35,
+          "entry": 5.35,
+          "tp": 5.7,
+          "vs": "Shipping/BDI",
+          "why": "Extreme RT 6.73%, all signals green.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "CPALL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 47.25,
+          "entry": 47.25,
+          "tp": 49.0,
+          "vs": "Retail/Commerce",
+          "why": "Strong RT 3.89%, core rules met.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "BCH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 9.45,
+          "entry": 9.45,
+          "tp": 10.0,
+          "vs": "Healthcare",
+          "why": "High momentum RT 3.78%, signals met.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 7.65,
+          "entry": 7.65,
+          "tp": 8.0,
+          "vs": "Shipping/BDI",
+          "why": "Strong RT 2.91%, BDI theme play.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 8,
+          "now": 6.7,
+          "entry": 6.7,
+          "tp": 7.1,
+          "vs": "Aviation/Transport",
+          "why": "All signals green, RT breakout.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 8,
+          "now": 55.25,
+          "entry": 55.25,
+          "tp": 57.5,
+          "vs": "Transport/Tourism",
+          "why": "All signals green, RT > 2%.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.7,
+          "entry": 15.7,
+          "tp": 16.5,
+          "vs": "Construction",
+          "why": "Top 5 rank, CONS sector +4.04%.",
+          "lead_doing": "sell"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.8,
+          "entry": 5.8,
+          "tp": 6.1,
+          "vs": "Packaging/Auto",
+          "why": "Rank #1, Extreme RT, lesson override.",
+          "lead_doing": "buy"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.55%, BANK +1.9%, TECH +2.16%, PETRO +3.1%, PKG +3.86%",
+      "player_stance": "BUY",
+      "stance_reason": "Strong sector rotation, top picks meet rules, 10 days before MSCI deadline",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.98,
+          "entry": 3.95,
+          "tp": 4.4,
+          "sector": "ELEC",
+          "vs": "Rank 4, RT 1.27, RSI 79.6",
+          "why": "S7+ override, ELEC sector rotation"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 7,
+          "now": 15.7,
+          "entry": 15.6,
+          "tp": 17.5,
+          "sector": "CONS",
+          "vs": "Rank 5, RT 1.78, RSI 71.1",
+          "why": "CONS +4.04%, S7+ strong momentum"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 6,
+          "now": 37.5,
+          "entry": 37.25,
+          "tp": 40.5,
+          "sector": "ETRON",
+          "vs": "Rank 6, RT 1.38, RSI 71.9",
+          "why": "ETRON +1.95%, S7+ tech rotation"
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 353.0,
+          "entry": 350.0,
+          "tp": 380.0,
+          "sector": "ETRON",
+          "vs": "Rank 8, RT 1.62, RSI 68.7",
+          "why": "MSCI 10 days left, ER STRONG"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 5,
+          "now": 4.26,
+          "entry": 4.2,
+          "tp": 4.6,
+          "sector": "FOOD",
+          "vs": "Rank 9, RT 1.24, RSI 71.5",
+          "why": "Missed twice, S7+ FOOD momentum"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260602-1432",
     "last_update": "2026-06-02 14:32:07",
     "gemini": {
