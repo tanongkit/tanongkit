@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260602-1131",
+    "last_update": "2026-06-02 11:31:51",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.2% with broad buying in ENERG, INDUS, and TECH sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Market shows strong upward momentum with significant inflows into key industrial and technology sectors.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "TTA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.35,
+          "entry": 5.4,
+          "tp": 5.75,
+          "vs": "Strong Rt",
+          "why": "Best Rt signal (6.73)",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 15.7,
+          "entry": 15.8,
+          "tp": 16.5,
+          "vs": "Hot Sector",
+          "why": "Top 5 rank, strong CONS sector",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "CPALL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 47.25,
+          "entry": 47.5,
+          "tp": 49.5,
+          "vs": "Strong Rt",
+          "why": "High Rt (3.89), catalyst play",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "BCH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 9.45,
+          "entry": 9.5,
+          "tp": 9.9,
+          "vs": "Strong Rt",
+          "why": "High Rt (3.78) with good RSI",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 7.65,
+          "entry": 7.7,
+          "tp": 8.1,
+          "vs": "Strong Rt",
+          "why": "BDI play, strong momentum",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 8,
+          "now": 18.0,
+          "entry": 18.1,
+          "tp": 19.0,
+          "vs": "Hot Sector",
+          "why": "Momentum in strong CONS sector",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 7,
+          "now": 6.7,
+          "entry": 6.75,
+          "tp": 7.1,
+          "vs": "Good Rt",
+          "why": "Good signal, meets all criteria",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 55.25,
+          "entry": 55.5,
+          "tp": 58.0,
+          "vs": "Good Rt",
+          "why": "Strong signal despite sector drag",
+          "lead_doing": "buy"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.2%, BANK +1.74%, TECH +1.55%, INDUS +2.59%, strong breadth",
+      "player_stance": "HOLD",
+      "stance_reason": "MSCI deadline 29 May approaching, TP DELTA soon. Monitor existing positions, selective add only.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 353.0,
+          "entry": 353.0,
+          "tp": 385.0,
+          "sector": "ETRON",
+          "vs": "Rank 8, RSI 68.7 cooling from overbought",
+          "why": "MSCI play, TP before 29 May deadline"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 3.98,
+          "entry": 3.98,
+          "tp": 4.5,
+          "sector": "ENERG",
+          "vs": "Rank 4, RSI 79.6 hot but Rt 1.27 S7 11.8",
+          "why": "Solar EPC momentum, manage overbought risk"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 37.5,
+          "entry": 37.5,
+          "tp": 42.0,
+          "sector": "ETRON",
+          "vs": "Rank 6, RSI 71.9 acceptable, S7 15.4 strong",
+          "why": "PCB sector aligned, Rt 1.38 confirms"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.26,
+          "entry": 4.26,
+          "tp": 4.8,
+          "sector": "FOOD",
+          "vs": "Rank 9, RSI 71.5 in range, S7 7.0",
+          "why": "Missed super pick, คนละครึ่ง catalyst"
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 7.65,
+          "entry": 7.65,
+          "tp": 8.5,
+          "sector": "TRANS",
+          "vs": "Rank 17, RSI 63.7, Rt 2.91 strong",
+          "why": "BDI RSI 76.4 supports shipping play"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260602-1101",
     "last_update": "2026-06-02 11:01:58",
     "gemini": {
