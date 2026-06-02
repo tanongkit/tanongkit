@@ -1,5 +1,168 @@
 [
   {
+    "tx_id": "20260602-1101",
+    "last_update": "2026-06-02 11:01:58",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET up ~1% with broad buying in Banking, Industrials, and Energy sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong market momentum and positive sector rotation favor entering new positions.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "TTA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.35,
+          "entry": 5.35,
+          "tp": 5.7,
+          "vs": "Strongest RT in scan",
+          "why": "RSI good, RT>6%, S7+, BDI play",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "CPALL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 47.25,
+          "entry": 47.25,
+          "tp": 49.0,
+          "vs": "Outperforming COMM sector",
+          "why": "RSI good, RT>3.5%, S7+, Catalyst",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 7.65,
+          "entry": 7.65,
+          "tp": 8.1,
+          "vs": "Peer TTA also strong",
+          "why": "RSI good, RT~3%, S7+, BDI play",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "BCH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 9.45,
+          "entry": 9.45,
+          "tp": 9.9,
+          "vs": "Strong RT in flat sector",
+          "why": "RSI good, RT>3.5%, S7+, Momentum",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 55.25,
+          "entry": 55.25,
+          "tp": 57.5,
+          "vs": "Strong vs weak TOURISM",
+          "why": "RSI good, RT>2%, S7+, Leader",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 7,
+          "now": 6.7,
+          "entry": 6.7,
+          "tp": 7.1,
+          "vs": "High beta airline",
+          "why": "RSI good, RT>2%, S7+, Turnaround play",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 7,
+          "now": 15.7,
+          "entry": 15.7,
+          "tp": 16.5,
+          "vs": "Top 5 rank",
+          "why": "RSI good, RT>1.5%, S7+, Hot sector"
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 6,
+          "now": 18.0,
+          "entry": 18.0,
+          "tp": 19.0,
+          "vs": "Peer STECON also good",
+          "why": "RSI good, RT>1.5%, S7+, Hot sector"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.99%, BANK +2.07%, PETRO +2.88%, PKG +3.92%, strong breadth",
+      "player_stance": "HOLD",
+      "stance_reason": "EPG extreme overbought RSI 91.2, most picks overheated, wait for RSI cooldown",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "HOLD",
+          "conf": 7,
+          "now": 353.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ETRON",
+          "vs": "MSCI deadline 29 May approaching",
+          "why": "TP before MSCI effect date"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 6,
+          "now": 15.7,
+          "entry": 15.9,
+          "tp": 18.5,
+          "sector": "CONS",
+          "vs": "Rank 5 RT 1.78 RSI 71.1",
+          "why": "Construction momentum S7 +12.95"
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 5,
+          "now": 62.0,
+          "entry": 62.5,
+          "tp": 68.0,
+          "sector": "ENERG",
+          "vs": "RT 3.01 rank 26 RSI 61.8",
+          "why": "Energy sector strong RT above 1.5x"
+        },
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 7.65,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "TRANS",
+          "vs": "RT 2.91 RSI 63.7 rank 17",
+          "why": "BDI RSI 76.4 near overbought"
+        },
+        {
+          "sym": "THAI",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 6.7,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "TOURISM",
+          "vs": "RT 2.21 RSI 70.7 rank 11",
+          "why": "RSI approaching 75 threshold wait"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260602-1031",
     "last_update": "2026-06-02 10:31:58",
     "gemini": {
