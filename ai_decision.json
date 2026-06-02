@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260602-1004",
+    "last_update": "2026-06-02 10:04:28",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Index slightly up, but mixed performance; Industrials/Tech lead while Services/Tourism lag.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong sector rotation into INDUS, PETRO, TECH creates clear opportunities despite overall mixed market.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.8,
+          "entry": 5.8,
+          "tp": 6.15,
+          "vs": "Rank:1 RT:7.8%",
+          "why": "Extreme RT overrides high RSI. Lesson learned applied.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "TTA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.35,
+          "entry": 5.35,
+          "tp": 5.65,
+          "vs": "Rank:14 RT:6.73%",
+          "why": "Strong momentum breakout with positive S7. BDI play.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "CPALL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 47.25,
+          "entry": 47.25,
+          "tp": 49.5,
+          "vs": "Rank:16 RT:3.89%",
+          "why": "High RT with all rules met. Retail catalyst pending.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "BCH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 9.45,
+          "entry": 9.45,
+          "tp": 9.9,
+          "vs": "Rank:35 RT:3.78%",
+          "why": "Strong RT and S7+, outperforming weak HELTH sector.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 7.65,
+          "entry": 7.65,
+          "tp": 8.0,
+          "vs": "Rank:17 RT:2.91%",
+          "why": "Solid momentum signal, S7 positive. BDI theme with TTA.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 7,
+          "now": 6.7,
+          "entry": 6.7,
+          "tp": 7.05,
+          "vs": "Rank:11 RT:2.21%",
+          "why": "Top rank with strong S7 and solid RT. All rules met.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 6,
+          "now": 55.25,
+          "entry": 55.25,
+          "tp": 58.0,
+          "vs": "Rank:23 RT:2.13%",
+          "why": "All rules met, outperforming weak transportation sector.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 6,
+          "now": 15.7,
+          "entry": 15.7,
+          "tp": 16.5,
+          "vs": "Rank:5 RT:1.78%",
+          "why": "High rank, all rules met. Consistent momentum.",
+          "lead_doing": "sell"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.4%, TECH +0.98%, BANK +0.64%, PETRO +1.77%, PKG +1.64%",
+      "player_stance": "BUY",
+      "stance_reason": "Strong momentum stocks available, sectors rotating bullish, near-term MSCI deadline favors action",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.8,
+          "entry": 5.75,
+          "tp": 6.45,
+          "sector": "PKG",
+          "vs": "Rank #1 RT 7.8x",
+          "why": "Extreme momentum overrides RSI 91"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.98,
+          "entry": 3.95,
+          "tp": 4.35,
+          "sector": "ELEC",
+          "vs": "Rank #4 RT 1.27x",
+          "why": "S7 11.8% solid pass"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 6,
+          "now": 15.7,
+          "entry": 15.6,
+          "tp": 17.2,
+          "sector": "CONS",
+          "vs": "Rank #5 RT 1.78x",
+          "why": "S7 12.9% construction momentum"
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 353.0,
+          "entry": 350.0,
+          "tp": 385.0,
+          "sector": "ETRON",
+          "vs": "Rank #8 RT 1.62x",
+          "why": "MSCI play 10 days left"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.26,
+          "entry": 4.2,
+          "tp": 4.65,
+          "sector": "FOOD",
+          "vs": "Rank #9 RT 1.24x",
+          "why": "S7 7% klkh catalyst ready"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260602-0417",
     "last_update": "2026-06-02 04:17:37",
     "gemini": {
