@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260602-1407",
+    "last_update": "2026-06-02 14:07:32",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index up +1.59% with broad buying across key sectors like INDUS, RESOURC, TECH.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong market momentum and volume flowing into multiple leading sectors create buying opportunities.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "TTA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.35,
+          "entry": 5.35,
+          "tp": 5.6,
+          "vs": "Sector TRANS +1.07%",
+          "why": "Exceptional Rt 6.73, strong S7 momentum.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "CPALL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 47.25,
+          "entry": 47.25,
+          "tp": 49.0,
+          "vs": "Sector COMM +0.19%",
+          "why": "High Rt 3.89, key retail catalyst play.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "BCH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 9.45,
+          "entry": 9.45,
+          "tp": 9.8,
+          "vs": "Sector HELTH +0.09%",
+          "why": "Strong Rt 3.78, clear momentum signals.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 7.65,
+          "entry": 7.65,
+          "tp": 8.0,
+          "vs": "Sector TRANS +1.07%",
+          "why": "High Rt 2.91, strong BDI correlation.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 7,
+          "now": 6.7,
+          "entry": 6.7,
+          "tp": 7.0,
+          "vs": "Sector TRANS +1.07%",
+          "why": "Good Rt 2.21, very strong S7 trend.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 55.25,
+          "entry": 55.25,
+          "tp": 57.5,
+          "vs": "Sector TOURISM -1.05%",
+          "why": "Strong Rt 2.13 despite lagging sector.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 6,
+          "now": 15.7,
+          "entry": 15.7,
+          "tp": 16.3,
+          "vs": "Sector CONS +3.83%",
+          "why": "Top 5 rank, strong sector, passes rules.",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 5,
+          "now": 18.0,
+          "entry": 18.0,
+          "tp": 18.6,
+          "vs": "Sector CONS +3.83%",
+          "why": "Riding very strong sector momentum.",
+          "lead_doing": "buy"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.59%, BANK +2.09%, TECH +2.21%, PETRO +3.1%, PKG +4.84% strong",
+      "player_stance": "BUY",
+      "stance_reason": "Top picks pass Method, sector rotation into BANK/TECH/PETRO, momentum intact",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.8,
+          "entry": 5.75,
+          "tp": 6.4,
+          "sector": "PKG",
+          "vs": "Rank #1 RT 7.8x",
+          "why": "Extreme momentum PKG sector +4.84%"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.98,
+          "entry": 3.95,
+          "tp": 4.35,
+          "sector": "ENERG",
+          "vs": "Rank #4 RT 1.27x",
+          "why": "RSI 79.6 but RG 98.3 S7 +11.8"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 7,
+          "now": 15.7,
+          "entry": 15.5,
+          "tp": 17.2,
+          "sector": "CONS",
+          "vs": "Rank #5 RT 1.78x",
+          "why": "CONS sector +3.83% S7 +12.9"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 37.5,
+          "entry": 37.0,
+          "tp": 40.5,
+          "sector": "ETRON",
+          "vs": "Rank #6 RT 1.38x",
+          "why": "RSI 71.9 near overbought monitor"
+        },
+        {
+          "sym": "RBF",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 4.26,
+          "entry": 4.2,
+          "tp": 4.65,
+          "sector": "FOOD",
+          "vs": "Rank #9 RT 1.24x",
+          "why": "Gap -28.52% wait stabilization"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260602-1202",
     "last_update": "2026-06-02 12:02:24",
     "gemini": {
