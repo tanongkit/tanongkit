@@ -1,5 +1,170 @@
 [
   {
+    "tx_id": "20260602-1202",
+    "last_update": "2026-06-02 12:02:24",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.45% with broad buying across major sectors like PKG, CONS, BANK.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong market momentum and multiple sectors showing inflows create good entry opportunities.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "TTA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.35,
+          "entry": 5.35,
+          "tp": 5.6,
+          "vs": "TRANS value 1,827M",
+          "why": "Highest Rt (6.73), RSI ok, S7+, BDI play",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "CPALL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 47.25,
+          "entry": 47.25,
+          "tp": 49.0,
+          "vs": "COMM value 2,380M",
+          "why": "Strong Rt (3.89), S7+, upcoming catalyst",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "BCH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 9.45,
+          "entry": 9.45,
+          "tp": 9.75,
+          "vs": "HELTH value 1,224M",
+          "why": "Strong Rt (3.78), all signals green",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 7.65,
+          "entry": 7.65,
+          "tp": 7.95,
+          "vs": "TRANS value 1,827M",
+          "why": "Solid Rt (2.91), S7+, BDI theme",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.7,
+          "entry": 15.7,
+          "tp": 16.2,
+          "vs": "CONS value 953M",
+          "why": "Top 5 rank, strong sector, all signals green",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 7,
+          "now": 6.7,
+          "entry": 6.7,
+          "tp": 6.95,
+          "vs": "TRANS value 1,827M",
+          "why": "High rank (#11), strong Rt (2.21), S7+",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 7,
+          "now": 18.0,
+          "entry": 18.0,
+          "tp": 18.5,
+          "vs": "CONS value 953M",
+          "why": "Strong sector momentum, Rt+S7 confirm entry",
+          "lead_doing": "buy"
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 6,
+          "now": 55.25,
+          "entry": 55.25,
+          "tp": 57.0,
+          "vs": "TRANS value 1,827M",
+          "why": "Good Rt (2.13), S7+, but TOURISM sector weak",
+          "lead_doing": "buy"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.45%, BANK +2.13%, PETRO +2.73%, PKG +4.10%, strong momentum",
+      "player_stance": "BUY",
+      "stance_reason": "Strong sector rotation, top picks pass Rule 0-3, MSCI deadline 29 May approaching",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.8,
+          "entry": 5.75,
+          "tp": 6.5,
+          "sector": "CONS",
+          "vs": "Rank #1 RT 7.8%",
+          "why": "Extreme RT override RSI 91"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.98,
+          "entry": 3.95,
+          "tp": 4.4,
+          "sector": "ELEC",
+          "vs": "Rank #4 RT 1.27%",
+          "why": "S7 11.8% D1 flat pass"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.7,
+          "entry": 15.5,
+          "tp": 17.5,
+          "sector": "CONS",
+          "vs": "Rank #5 RT 1.78%",
+          "why": "Volatile swing RT strong S7+"
+        },
+        {
+          "sym": "HANA",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 37.25,
+          "entry": 37.0,
+          "tp": 41.0,
+          "sector": "ETRON",
+          "vs": "Rank #10 RSI 59.5",
+          "why": "RSI cool watch gap close"
+        },
+        {
+          "sym": "RBF",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 4.26,
+          "entry": 4.2,
+          "tp": 4.7,
+          "sector": "FOOD",
+          "vs": "Rank #9 RT 1.24%",
+          "why": "Gap -28.5% wait recovery confirm"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260602-1131",
     "last_update": "2026-06-02 11:31:51",
     "gemini": {
