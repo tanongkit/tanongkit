@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260604-0338",
+    "last_update": "2026-06-04 03:38:53",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.26% with broad-based rally; CONS, PKG, PETRO, ICT sectors showing significant strength.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong market momentum with multiple stocks meeting entry criteria, correcting for yesterday's missed high-RT opportunities.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "CONS sector fade",
+          "why": "Top sector (+4.32%), high RT (3.3x), ideal RSI (71)."
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT momentum loss",
+          "why": "Highest RT (4.9x) on list, strong sector, ideal RSI (71)."
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "CONS sector fade",
+          "why": "Top sector (+4.32%), passes all rules on the edge."
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "PKG sector fade",
+          "why": "Very strong sector (+4.17%), solid RT (2.8x), good RSI (61)."
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Momentum loss",
+          "why": "Strong BANK sector (+1.88%), high RT (2.5x), good RSI (72)."
+        },
+        {
+          "sym": "ADVANC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Price >60 check",
+          "why": "Strong ICT sector (+2.36%), high RT (2.8x), good RSI (61)."
+        },
+        {
+          "sym": "TQM",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Weak sector momentum",
+          "why": "High RT (2.8x) and safe RSI (54), but sector is flat."
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Extreme RSI (92)",
+          "why": "High risk; lesson learned play on top sector (+4.17%) momentum."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.26%, BANK +1.88%, TECH +1.37%, PETRO +2.56%, PKG +4.17% strong",
+      "player_stance": "BUY",
+      "stance_reason": "Strong sector rotation, high RT stocks emerging, RSI cooling from overbought levels",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 8,
+          "now": 21.8,
+          "entry": 21.5,
+          "tp": 24.0,
+          "sector": "CONS",
+          "vs": "RT 3.3x extreme, RSI 71 acceptable",
+          "why": "Construction surge, PKG sector +4.17%"
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 56.0,
+          "entry": 55.5,
+          "tp": 62.0,
+          "sector": "ENERG",
+          "vs": "RT 4.9x massive, RSI 71",
+          "why": "Energy +1.66%, extreme momentum override"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 6,
+          "now": 60.0,
+          "entry": 59.5,
+          "tp": 66.0,
+          "sector": "ETRON",
+          "vs": "RT 1.8x, RSI 77 warm",
+          "why": "ETRON +0.96%, tech sector strong"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 6,
+          "now": 5.1,
+          "entry": 5.0,
+          "tp": 5.6,
+          "sector": "CONS",
+          "vs": "RT 1.5x meets minimum, RSI 75",
+          "why": "Construction momentum, PKG sector rally"
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 5,
+          "now": 19.8,
+          "entry": 19.5,
+          "tp": 21.5,
+          "sector": "BANK",
+          "vs": "RT 2.5x, RSI 72, price 19.8",
+          "why": "BANK sector +1.88%, bond yield benefit"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260604-0243",
     "last_update": "2026-06-04 02:43:54",
     "gemini": {
