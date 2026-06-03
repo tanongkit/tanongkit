@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260603-1501",
+    "last_update": "2026-06-03 15:01:52",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "Strong SET rally (+1.26%) with broad-based gains led by CONS (+4.32%) and PKG (+4.17%).",
+      "player_stance": "BUY",
+      "stance_reason": "Market is bullish, AI signals are BUY, and yesterday's lesson is to chase high-momentum stocks like EPG.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "CONS sector",
+          "why": "#1 Sector, ideal RSI/RT"
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "PKG sector",
+          "why": "#2 Sector, perfect RSI entry"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "High momentum",
+          "why": "EOD Lesson: RT>8% overrides RSI"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Missed pick",
+          "why": "Follow-on momentum, strong RT"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Missed super pick",
+          "why": "Solid RSI/RT stats"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ETRON sector",
+          "why": "Textbook rule fit (RSI/RT)"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ETRON sector",
+          "why": "Good RSI/RT signals"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "BANK sector",
+          "why": "Strong sector momentum play"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.26%, BANK +1.88%, CONS +4.32%, PKG +4.17%, FINCIAL +1.57% strong",
+      "player_stance": "BUY",
+      "stance_reason": "No port holdings. Strong sectors CONS/PKG/BANK confirm entry opportunity per EOD lessons",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 9,
+          "now": 23.8,
+          "entry": 23.5,
+          "tp": 26.2,
+          "sector": "CONS",
+          "vs": "CONS +4.32% leader",
+          "why": "RSI 56 ideal RT 2.8x S7+ top rank"
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 9,
+          "now": 38.25,
+          "entry": 38.0,
+          "tp": 41.5,
+          "sector": "PKG",
+          "vs": "PKG +4.17% sector surge",
+          "why": "RSI 50 perfect entry RT 2.1x S7+"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 10.3,
+          "entry": 10.2,
+          "tp": 11.8,
+          "sector": "PKG",
+          "vs": "EOD lesson extreme RT override",
+          "why": "RT 10.53% overrides RSI 80.4 per lesson"
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 8,
+          "now": 22.1,
+          "entry": 21.9,
+          "tp": 24.0,
+          "sector": "BANK",
+          "vs": "BANK +1.88% NIM benefit",
+          "why": "Bond yield high RSI 58 RT 2.0x"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 7.8,
+          "entry": 7.7,
+          "tp": 8.5,
+          "sector": "FOOD",
+          "vs": "Missed 2 days EOD alert",
+          "why": "RT 3.58 RSI 67.4 S7+ repeated miss"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260603-1432",
     "last_update": "2026-06-03 14:32:28",
     "gemini": {
