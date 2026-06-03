@@ -1,5 +1,140 @@
 [
   {
+    "tx_id": "20260603-1003",
+    "last_update": "2026-06-03 10:03:13",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.26%, broad rally led by CONS (+4.3%), PKG (+4.2%), PETRO (+2.6%).",
+      "player_stance": "BUY",
+      "stance_reason": "Strong market momentum and clear sector leaders provide multiple entry opportunities.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "CONS sector leader (+4.3%)",
+          "why": "Strongest sector flow, RSI 56 fresh"
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "PKG sector leader (+4.2%)",
+          "why": "Turnaround from S7 negative, RSI 50"
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ENERG sector strong (+1.7%)",
+          "why": "AI consensus, safe RSI, high Rt"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "INDUS sector strong (+2.5%)",
+          "why": "EV/Data Center theme, strong earnings"
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Extreme Rt >10%",
+          "why": "Test new override rule, RSI >80 high risk"
+        },
+        {
+          "sym": "KTB",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "BANK sector strong (+1.9%)",
+          "why": "Safe large-cap rotation play"
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ETRON sector positive",
+          "why": "All rules pass, wait for leadership"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ENERG momentum",
+          "why": "RSI > 75, wait for cooldown per rules"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.26%, BANK +1.88%, PETRO +2.56%, PKG +4.17%, CONS +4.32% strong gains",
+      "player_stance": "BUY",
+      "stance_reason": "Strong momentum, multiple sectors breakout, SCGP sector lead +4.17%, no port conflicts",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 9,
+          "now": 44.5,
+          "entry": 44.0,
+          "tp": 47.0,
+          "sector": "ENERG",
+          "vs": "ENERG +1.66%, high vol 1328M",
+          "why": "Rt 1.75% RSI 66.8 S7+ sector momentum strong"
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 36.75,
+          "entry": 36.5,
+          "tp": 39.0,
+          "sector": "PKG",
+          "vs": "PKG sector leader +4.17%",
+          "why": "Rt 1.5%+ RSI 50-75 PKG breakout today"
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 8,
+          "now": 18.8,
+          "entry": 18.6,
+          "tp": 20.0,
+          "sector": "PROPCON",
+          "vs": "PROPCON +1.07%, PROP +1.02%",
+          "why": "Extreme Rt RSI 56 fresh PROP momentum"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260603-0500",
     "last_update": "2026-06-03 05:00:23",
     "gemini": {
