@@ -1,5 +1,140 @@
 [
   {
+    "tx_id": "20260603-1032",
+    "last_update": "2026-06-03 10:32:10",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index +1.26% with strong buying in key cyclical sectors CONS, PKG, and BANK.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong market momentum and clear sector rotation favor opening new long positions in leading sectors.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "vs STECON",
+          "why": "#1 sector flow (CONS +4.32%), AI top pick, RSI fresh."
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "vs EPG",
+          "why": "#2 sector flow (PKG +4.17%), AI pick, turnaround."
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "vs GUNKUL",
+          "why": "Apply EOD lesson: RT>8% overrides overbought RSI."
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "vs GUNKUL",
+          "why": "AI consensus, solid ENERG momentum, safe RSI."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "vs GULF",
+          "why": "Correcting yesterday's 'wrong skip', strong momentum."
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "vs MTC",
+          "why": "Riding strong BANK sector momentum (+1.88%)."
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "vs OSP",
+          "why": "EOD flagged 'missed super pick', meets all rules."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "vs HANA",
+          "why": "Meets all rules, potential ETRON sector recovery play."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.26%, BANK +1.88%, PETRO +2.56%, PKG +4.17%, CONS +4.32% strong",
+      "player_stance": "BUY",
+      "stance_reason": "Strong sector rotation, multiple qualified picks, 26 days before MSCI deadline",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 9,
+          "now": 22.9,
+          "entry": 22.8,
+          "tp": 24.5,
+          "sector": "PROP",
+          "vs": "PROP +1.02%, extreme Rt 7.04%",
+          "why": "Fresh RSI 56, top sector flow"
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 42.75,
+          "entry": 42.5,
+          "tp": 45.0,
+          "sector": "PKG",
+          "vs": "PKG sector breakout +4.17%",
+          "why": "S7 turnaround, RSI 50 ideal"
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 53.25,
+          "entry": 53.0,
+          "tp": 56.0,
+          "sector": "ELEC",
+          "vs": "ENERG +1.66%, safe momentum",
+          "why": "RSI 66.8 safe, Rt 1.75%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260603-1003",
     "last_update": "2026-06-03 10:03:13",
     "gemini": {
