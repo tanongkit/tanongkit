@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260603-1407",
+    "last_update": "2026-06-03 14:07:15",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.26% with strong, broad-based buying across major sectors (CONS, PKG, BANK).",
+      "player_stance": "BUY",
+      "stance_reason": "Strong index breakout and clear sector rotation signal upward momentum, providing entry opportunities.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Leading sector momentum",
+          "why": "#1 Sector (CONS), ideal RSI 56"
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Strong earnings vs peers",
+          "why": "Top sector (PKG), perfect RSI 50 entry"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "High risk/reward momentum",
+          "why": "EOD Lesson: RT overrides high RSI"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Clear EV/DC catalyst",
+          "why": "Passed method, strong earnings"
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Beneficiary of high rates",
+          "why": "Strong momentum in BANK sector"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Overbought, needs caution",
+          "why": "EOD Lesson, strong sector (ENERG)"
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Govt scheme catalyst",
+          "why": "FAV stock, good earnings"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "MSCI catalyst has passed",
+          "why": "Market leader, check price rule"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.26%, PKG +4.17%, PETRO +2.56%, BANK +1.88%, INDUS +2.45% strong",
+      "player_stance": "BUY",
+      "stance_reason": "Port empty, top sectors active, EOD lesson EPG extreme RT override, CK/SCGP ideal entry",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 9,
+          "now": 19.5,
+          "entry": 19.5,
+          "tp": 21.5,
+          "sector": "CONS",
+          "vs": "CONS +4.32% leader",
+          "why": "RSI 56 ideal, RT 2.8x, S7+, sector #1"
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 9,
+          "now": 34.25,
+          "entry": 34.25,
+          "tp": 37.5,
+          "sector": "PKG",
+          "vs": "PKG +4.17% top sector",
+          "why": "RSI 50 perfect, RT 2.1x, S7 turn+"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 12.8,
+          "entry": 12.8,
+          "tp": 14.5,
+          "sector": "PKG",
+          "vs": "EOD lesson RT override",
+          "why": "RT 10.53% extreme, PKG sector leader"
+        },
+        {
+          "sym": "KTB",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 23.0,
+          "entry": 23.2,
+          "tp": 25.0,
+          "sector": "BANK",
+          "vs": "BANK +1.88% strong",
+          "why": "RSI 58, RT 1.8x, await S7 confirm"
+        },
+        {
+          "sym": "IRPC",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 3.74,
+          "entry": 3.8,
+          "tp": 4.1,
+          "sector": "PETRO",
+          "vs": "PETRO +2.56% need GRM",
+          "why": "Need GRM confirm, S7 verify first"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260603-1202",
     "last_update": "2026-06-03 12:02:08",
     "gemini": {
