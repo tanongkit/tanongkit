@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260603-1102",
+    "last_update": "2026-06-03 11:02:09",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET up >1.2% with broad sector buying led by CONS & PKG.",
+      "player_stance": "BUY",
+      "stance_reason": "Bullish market momentum. Applying EOD lesson to capture high RT stocks.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "CONS +4.32%",
+          "why": "#1 sector flow, ideal RSI."
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "PKG +4.17%",
+          "why": "#2 sector flow, turnaround."
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "INDUS +2.45%",
+          "why": "EOD Lesson: RT>8% override."
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ENERG +1.66%",
+          "why": "Meets all rules, safe RSI."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ENERG +1.66%",
+          "why": "Follow-up on missed pick."
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ETRON +0.96%",
+          "why": "Standard momentum play."
+        },
+        {
+          "sym": "RBF",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "FOOD +0.32%",
+          "why": "Strong RT, but weak sector."
+        },
+        {
+          "sym": "HANA",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ETRON +0.96%",
+          "why": "Meets rules, but earnings miss."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.26%, BANK +1.88%, CONS +4.32%, PKG +4.17%, TECH +1.37% strong",
+      "player_stance": "BUY",
+      "stance_reason": "Top sector flow CONS/PKG/BANK aligned. Apply EOD lesson: RT>8% overrides RSI.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.85,
+          "entry": 5.8,
+          "tp": 6.4,
+          "sector": "CONS",
+          "vs": "RT 10.53% top3",
+          "why": "EOD lesson: extreme RT overrides RSI80"
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 9,
+          "now": 19.9,
+          "entry": 19.8,
+          "tp": 21.5,
+          "sector": "CONS",
+          "vs": "#1 sector +4.32%",
+          "why": "Fresh RSI56 top flow"
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 38.0,
+          "entry": 37.8,
+          "tp": 40.5,
+          "sector": "PKG",
+          "vs": "PKG +4.17% #2",
+          "why": "S7 turn RSI50 ideal"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 6.45,
+          "entry": 6.4,
+          "tp": 6.9,
+          "sector": "FOOD",
+          "vs": "Missed 2 days",
+          "why": "RT 3.58% RSI67 valid"
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 54.5,
+          "entry": 54.25,
+          "tp": 57.0,
+          "sector": "ENERG",
+          "vs": "ENERG +1.66%",
+          "why": "RSI66.8 safe RT1.75%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260603-1032",
     "last_update": "2026-06-03 10:32:10",
     "gemini": {
