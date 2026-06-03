@@ -1,5 +1,140 @@
 [
   {
+    "tx_id": "20260603-1132",
+    "last_update": "2026-06-03 11:32:13",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.26% with strong, broad-based buying in major sectors like CONS, PKG, BANK.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong market momentum and clear sector leaders provide high-probability entry signals.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Market Leader",
+          "why": "Top sector CONS (+4.32%), ideal RSI 56."
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Turnaround",
+          "why": "#2 sector PKG (+4.17%), RSI 50 start."
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Momentum",
+          "why": "EOD lesson: override high RSI on extreme momentum."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Momentum",
+          "why": "Correcting yesterday's missed pick, positive ENERG sector."
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Megatrend",
+          "why": "Strong EV/Data story, positive INDUS sector (+2.45%)."
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Value/Growth",
+          "why": "Strong BANK sector (+1.88%), stable uptrend."
+        },
+        {
+          "sym": "IRPC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Commodity",
+          "why": "Strong PETRO sector play (+2.56%), proxy for GRM."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Catalyst",
+          "why": "Favorite stock with upcoming 'คนละครึ่ง' catalyst."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.26%, BANK +1.88%, PKG +4.17%, CONS +4.32%, TECH +1.37% strong",
+      "player_stance": "BUY",
+      "stance_reason": "Top sectors hot, EOD lesson: RT>8% override RSI, fresh picks pass rules",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 19.9,
+          "entry": 19.8,
+          "tp": 21.8,
+          "sector": "CONS",
+          "vs": "EOD lesson RT 10.53%",
+          "why": "Extreme RT override RSI80 rule"
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 9,
+          "now": 18.5,
+          "entry": 18.4,
+          "tp": 20.2,
+          "sector": "CONS",
+          "vs": "#1 sector flow +4.32%",
+          "why": "Fresh RSI56 CONS mega flow"
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 32.0,
+          "entry": 31.8,
+          "tp": 34.5,
+          "sector": "PKG",
+          "vs": "PKG sector +4.17%",
+          "why": "S7 turn RSI50 ideal entry"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260603-1102",
     "last_update": "2026-06-03 11:02:09",
     "gemini": {
