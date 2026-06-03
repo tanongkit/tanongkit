@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260604-0357",
+    "last_update": "2026-06-04 03:57:01",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.26% with broad-based rally; CONS, PKG, PETRO, BANK sectors strong.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong market momentum and multiple sectors show clear fund inflow, creating buying opportunities.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 10,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Extreme RT 4.9x",
+          "why": "Top RT, perfect RSI, S7 positive"
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Very high RT 3.3x",
+          "why": "Top sector, high RT, perfect RSI"
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "High RT 2.8x",
+          "why": "Strong sector, high RT, good RSI"
+        },
+        {
+          "sym": "ADVANC",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "High RT 2.8x",
+          "why": "Strong sector, high RT, good RSI"
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Solid RT 2.5x",
+          "why": "Strong sector, all rules met"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 1.5x meets rule",
+          "why": "Top sector, all rules met"
+        },
+        {
+          "sym": "TQM",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "High RT 2.8x",
+          "why": "High RT & good RSI, but weak S7"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 1.8x, recovery",
+          "why": "Meets RT rule, but borderline RSI"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.26%, BANK +1.88%, PETRO +2.56%, PKG +4.17%, broad sector strength",
+      "player_stance": "BUY",
+      "stance_reason": "Strong momentum across multiple sectors, RSI cooling on key picks, avoid overbought traps",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 9,
+          "now": 22.9,
+          "entry": 22.8,
+          "tp": 25.5,
+          "sector": "CONS",
+          "vs": "RT 3.3x top tier",
+          "why": "Construction surge, RSI 71 safe zone"
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 62.5,
+          "entry": 62.0,
+          "tp": 68.0,
+          "sector": "ENERG",
+          "vs": "RT 4.9x extreme momentum",
+          "why": "ELEC sector +1.66%, strong volume confirmation"
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 7,
+          "now": 21.5,
+          "entry": 21.3,
+          "tp": 23.5,
+          "sector": "BANK",
+          "vs": "RT 2.5x sector leader",
+          "why": "BANK +1.88%, Bond Yield play intact"
+        },
+        {
+          "sym": "ADVANC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 186.0,
+          "entry": 185.5,
+          "tp": 195.0,
+          "sector": "ICT",
+          "vs": "RT 2.8x defensive quality",
+          "why": "ICT +2.36%, RSI 61 entry zone"
+        },
+        {
+          "sym": "HANA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 26.5,
+          "entry": 27.0,
+          "tp": 29.5,
+          "sector": "ETRON",
+          "vs": "RT weak 0.5x",
+          "why": "Wait RT confirmation despite ETRON +0.96%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260604-0338",
     "last_update": "2026-06-04 03:38:53",
     "gemini": {
