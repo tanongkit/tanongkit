@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260604-1031",
+    "last_update": "2026-06-04 10:31:55",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET green, led by strong gains in heavyweight Energy/Resources sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is positive; yesterday's lessons show cost of inaction. Time to capture strong momentum signals.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EASTW",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 5.0,
+          "tp": 5.25,
+          "vs": "Strong sector flow",
+          "why": "RSI 74 in top performing ENERG sector."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 4.5,
+          "tp": 4.7,
+          "vs": "Strong sector flow",
+          "why": "Priority watch from miss, strongest sector."
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 3.2,
+          "tp": 3.4,
+          "vs": "High score momentum",
+          "why": "Top score, override high RSI for momentum."
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 42.0,
+          "tp": 43.5,
+          "vs": "Strong sector flow",
+          "why": "Strongest ENERG sector with good RSI."
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 45.0,
+          "tp": 47.0,
+          "vs": "ETRON sector play",
+          "why": "V-Shape DNA with positive sector momentum."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 48.0,
+          "tp": 50.0,
+          "vs": "ETRON sector play",
+          "why": "Borderline RSI but strong sector tailwind."
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 18.0,
+          "tp": 18.5,
+          "vs": "Stable momentum",
+          "why": "RSI 72 in buy zone, Channel Up DNA."
+        },
+        {
+          "sym": "CREDIT",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 25.0,
+          "tp": 26.0,
+          "vs": "Meets RSI rule",
+          "why": "RSI 70 in buy zone, weak sector."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.54%, ENERG +1.92%, ETRON +0.6%, TECH +0.42% strong",
+      "player_stance": "WAIT",
+      "stance_reason": "All picks fail Rule 1 RSI 50-75, EPG RSI 92 CCET RSI 84 overbought",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "SKIP",
+          "conf": 0,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "PKG",
+          "vs": "RSI 92 extreme",
+          "why": "Rule 1 fail overbought"
+        },
+        {
+          "sym": "CCET",
+          "action": "SKIP",
+          "conf": 0,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ETRON",
+          "vs": "RSI 84 extreme",
+          "why": "Rule 1 fail overbought"
+        },
+        {
+          "sym": "KCE",
+          "action": "SKIP",
+          "conf": 0,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ETRON",
+          "vs": "RSI 77 overbought",
+          "why": "Rule 1 fail RT 0.0x"
+        },
+        {
+          "sym": "CREDIT",
+          "action": "SKIP",
+          "conf": 0,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "FIN",
+          "vs": "RSI 70 borderline",
+          "why": "Rule 2 fail RT 0.0x"
+        },
+        {
+          "sym": "KTB",
+          "action": "SKIP",
+          "conf": 0,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "BANK",
+          "vs": "RSI 72 borderline",
+          "why": "Rule 2 fail RT 0.0x"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260604-1003",
     "last_update": "2026-06-04 10:03:29",
     "gemini": {
