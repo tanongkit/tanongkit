@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260604-1602",
+    "last_update": "2026-06-04 16:02:13",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "Energy, Bank, and Transport sectors led the index higher, showing strong selective buying.",
+      "player_stance": "BUY",
+      "stance_reason": "Key sectors show momentum and several stocks have strong RT signals, warranting entry despite some overbought indicators.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 9,
+          "now": 60.25,
+          "entry": 60.5,
+          "tp": 63.0,
+          "vs": "RT 5.0x",
+          "why": "Best signal match: High RT, ideal RSI, strong sector."
+        },
+        {
+          "sym": "THCOM",
+          "action": "BUY",
+          "conf": 8,
+          "now": 15.0,
+          "entry": 15.1,
+          "tp": 16.0,
+          "vs": "RT 4.5x",
+          "why": "Very high RT with good RSI in safe zone."
+        },
+        {
+          "sym": "GULF",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 41.75,
+          "entry": 42.0,
+          "tp": 44.0,
+          "vs": "RT 3.5x",
+          "why": "High RT in strongest sector; override high RSI."
+        },
+        {
+          "sym": "RBF",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 12.5,
+          "entry": 12.6,
+          "tp": 13.5,
+          "vs": "RT 3.9x",
+          "why": "Extreme momentum, missed pick yesterday; high RSI risk."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 4.16,
+          "entry": 4.18,
+          "tp": 4.4,
+          "vs": "RT 2.1x",
+          "why": "Strong sector momentum but high RSI requires caution."
+        },
+        {
+          "sym": "SCB",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 109.5,
+          "entry": 110.0,
+          "tp": 114.5,
+          "vs": "RT 4.2x",
+          "why": "Strong signals but violates Price>60 rule; monitor only."
+        },
+        {
+          "sym": "HANA",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 45.0,
+          "entry": 45.25,
+          "tp": 47.5,
+          "vs": "RT 0.6x",
+          "why": "Good RSI in positive sector, wait for RT confirmation."
+        },
+        {
+          "sym": "THAI",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 8.35,
+          "entry": 8.4,
+          "tp": 8.8,
+          "vs": "RT 0.8x",
+          "why": "In hot sector (TRANS) but needs RT to improve."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.51%, BANK +0.87%, ENERG +1.46%, TRANS +1.71%, sector rotation positive",
+      "player_stance": "WAIT",
+      "stance_reason": "Top picks RSI overheated >75, wait cooldown or new catalysts with lower RSI entries",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 24.8,
+          "entry": 24.5,
+          "tp": 27.0,
+          "sector": "ELECTRONICS",
+          "vs": "RT 0.6x weak but RSI 64 safe zone",
+          "why": "ETRON sector +0.47%, RSI coolest in ELEC plays"
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 6,
+          "now": 31.25,
+          "entry": 31.0,
+          "tp": 34.0,
+          "sector": "PKG",
+          "vs": "RT 0.9x modest, RSI 63 entry safe",
+          "why": "PKG -0.1% stable, GAP -15% recovery potential"
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 8,
+          "now": 75.5,
+          "entry": 74.0,
+          "tp": 80.0,
+          "sector": "TRANS",
+          "vs": "RT 5.0x strong, RSI 75 borderline hot",
+          "why": "TRANS +1.71% sector lead, TOURISM catalyst intact"
+        },
+        {
+          "sym": "THCOM",
+          "action": "BUY",
+          "conf": 6,
+          "now": 7.65,
+          "entry": 7.5,
+          "tp": 8.5,
+          "sector": "ICT",
+          "vs": "RT 4.5x excellent, RSI 58 cool entry",
+          "why": "ICT -0.11% but RT momentum, RSI safest entry"
+        },
+        {
+          "sym": "ERW",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 3.92,
+          "entry": 3.85,
+          "tp": 4.3,
+          "sector": "TOURISM",
+          "vs": "RT 1.1x weak, RSI 65 acceptable",
+          "why": "TOURISM -0.43% weak, need sector confirmation first"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260604-1502",
     "last_update": "2026-06-04 15:02:25",
     "gemini": {
