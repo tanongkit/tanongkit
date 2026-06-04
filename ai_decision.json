@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260604-1201",
+    "last_update": "2026-06-04 12:01:59",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET index positive, led by strong buying in Energy, Transport, and Tech sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is bullish with money flowing into key sectors. Momentum signals are present despite some overbought indicators.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "THCOM",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 5.4x",
+          "why": "RSI/Rt/S7 all pass"
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 1.8x",
+          "why": "RSI/Rt/S7 all pass"
+        },
+        {
+          "sym": "TOP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 2.2x",
+          "why": "RSI/Rt/S7 all pass"
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 4.4x",
+          "why": "Strong RT and Sector, RSI high"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 2.9x",
+          "why": "Strong RT/Sector, EOD lesson"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 3.5x",
+          "why": "High risk momentum, RSI hot"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 1.2x",
+          "why": "Strong Sector, borderline Rt/RSI"
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 1.3x",
+          "why": "Good RSI, borderline Rt"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.76%, ENERG +1.72%, TECH +0.9%, TRANS +2.27% strong momentum",
+      "player_stance": "BUY",
+      "stance_reason": "Sector rotation into TECH/TRANS, price<60 stocks passing Rule 0-3 available for entry",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "THCOM",
+          "action": "BUY",
+          "conf": 7,
+          "now": 18.3,
+          "entry": 18.0,
+          "tp": 20.5,
+          "sector": "ICT",
+          "vs": "RT 5.4x RSI 59 recovery",
+          "why": "V-Avg OK RT>1.5x S7+ confirmed"
+        },
+        {
+          "sym": "TOP",
+          "action": "BUY",
+          "conf": 6,
+          "now": 6.5,
+          "entry": 6.4,
+          "tp": 7.2,
+          "sector": "ENERG",
+          "vs": "RT 2.2x RSI 54 sector+1.72%",
+          "why": "ENERG momentum RT>1.5x S7+ pass"
+        },
+        {
+          "sym": "IRPC",
+          "action": "BUY",
+          "conf": 5,
+          "now": -3.1,
+          "entry": 3.0,
+          "tp": 3.5,
+          "sector": "ENERG",
+          "vs": "RT 2.8x RSI 49 ENERG strong",
+          "why": "Override S7 RT>1.5x ENERG+1.72%"
+        },
+        {
+          "sym": "SCGP",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 10.6,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "PKG",
+          "vs": "RT 1.3x RSI 61 weak",
+          "why": "RT below 1.5x threshold wait"
+        },
+        {
+          "sym": "CK",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 25.4,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "CONS",
+          "vs": "RT 1.8x RSI 72 sector+0.99%",
+          "why": "RSI approaching 75 ceiling wait"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260604-1132",
     "last_update": "2026-06-04 11:32:03",
     "gemini": {
