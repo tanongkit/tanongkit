@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260604-1402",
+    "last_update": "2026-06-04 14:02:25",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.85% with broad sector strength led by Energy, Transport, and Tech.",
+      "player_stance": "BUY",
+      "stance_reason": "Bullish momentum and EOD lessons favor aggressive entry on qualifying high-momentum stocks.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "THCOM",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ICT +0.40%",
+          "why": "Perfect rule fit: RSI 59, Rt 6.1x, S7+."
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "TRANS +2.58%",
+          "why": "Highest Rt 5.8x in strongest sector; momentum play."
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ENERG +2.05%",
+          "why": "Strong momentum (Rt 4.7x) in strong sector."
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "FOOD -0.10%",
+          "why": "EOD lesson override ('missed super pick'). High Rt."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ENERG +2.05%",
+          "why": "EOD lesson override ('wrong skip'). Strong Rt/Sector."
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "PKG +0.73%",
+          "why": "EOD lesson ('missed'), but extreme RSI 92 warrants caution."
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "PKG +0.73%",
+          "why": "Watchlist: Good RSI/S7, needs Rt > 1.5x to confirm."
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 3,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "CONS +0.54%",
+          "why": "Watchlist: Positive sector, but Rt is low."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.85%, ENERG +2.05%, TRANS +2.58%, TECH +0.91% strong sectors",
+      "player_stance": "SELL",
+      "stance_reason": "No holdings per PORT STATUS. RSI overheated across universe, most >75. Wait for cooldown.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 21.7,
+          "entry": 21.5,
+          "tp": 23.5,
+          "sector": "FOOD",
+          "vs": "RT 4.9x strong volume",
+          "why": "Rule pass RT>1.5x, RSI 79 borderline"
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 6,
+          "now": 52.5,
+          "entry": 52.0,
+          "tp": 56.0,
+          "sector": "ELEC",
+          "vs": "RT 4.7x ENERG sector surge",
+          "why": "S7 override RT>1.5x D1 positive"
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 6,
+          "now": 68.0,
+          "entry": 67.5,
+          "tp": 72.0,
+          "sector": "TRANS",
+          "vs": "RT 5.8x TRANS +2.58%",
+          "why": "Rule pass RT>1.5x RSI 76"
+        },
+        {
+          "sym": "THCOM",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 7.8,
+          "entry": 7.6,
+          "tp": 8.5,
+          "sector": "ICT",
+          "vs": "RT 6.1x but RSI 59",
+          "why": "RSI too low wait 60+"
+        },
+        {
+          "sym": "ERW",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 3.9,
+          "entry": 3.85,
+          "tp": 4.2,
+          "sector": "TOURISM",
+          "vs": "RT 1.4x weak momentum",
+          "why": "Visa negative lesson learned skip"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260604-1201",
     "last_update": "2026-06-04 12:01:59",
     "gemini": {
