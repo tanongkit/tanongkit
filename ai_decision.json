@@ -1,5 +1,140 @@
 [
   {
+    "tx_id": "20260604-1432",
+    "last_update": "2026-06-04 14:32:11",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "Broad-based rally (+1.01%) led by Energy, Bank, and Tech sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is strongly bullish; past lessons require capturing high-momentum plays despite some overbought signals.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 2.7x | S7 +1.74%",
+          "why": "Lesson override on high RSI; strong momentum."
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 5.4x | S7 +0.17%",
+          "why": "Repeated missed super pick; strong RT."
+        },
+        {
+          "sym": "THCOM",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 6.7x | RSI 58",
+          "why": "Passes all core rules; best RT."
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 6.2x | S7 +2.54%",
+          "why": "Very strong momentum and sector performance."
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 5.0x | S7 +1.74%",
+          "why": "Strong momentum in leading sector; low score."
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 3.4x | RSI 93",
+          "why": "High score but extremely overbought; high risk."
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Score 164.7 | RT 1.2x",
+          "why": "Speculative on top score despite weak RT."
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RSI 63 | RT 1.2x",
+          "why": "Conservative pick with safe RSI, borderline RT."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.01%, BANK +1.33%, ENERG +1.74%, TRANS +2.54% strong inflows",
+      "player_stance": "HOLD",
+      "stance_reason": "Top picks RSI 78-93 overbought, wait cooldown. No qualified new entry passing RSI 50-75 rule.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 6,
+          "now": 26.5,
+          "entry": 26.5,
+          "tp": 28.5,
+          "sector": "TRANS",
+          "vs": "RT 0.8x low, RSI 73 acceptable",
+          "why": "TRANS sector +2.54%, border momentum rising"
+        },
+        {
+          "sym": "ERW",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 3.24,
+          "entry": 3.3,
+          "tp": 3.6,
+          "sector": "TOURISM",
+          "vs": "RT 1.4x weak, RSI 65 ok",
+          "why": "Tourism flat -0.02%, visa boost pending"
+        },
+        {
+          "sym": "SCGP",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 37.0,
+          "entry": 37.5,
+          "tp": 40.0,
+          "sector": "PKG",
+          "vs": "RT 1.2x weak, RSI 63 safe",
+          "why": "PKG sector +0.75%, waiting RT confirmation"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260604-1402",
     "last_update": "2026-06-04 14:02:25",
     "gemini": {
