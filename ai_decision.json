@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260604-1132",
+    "last_update": "2026-06-04 11:32:03",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.85% with strong buying in key sectors like RESOURC, TRANS, and ETRON.",
+      "player_stance": "BUY",
+      "stance_reason": "Bullish market momentum warrants active entry. Correcting for yesterday's missed high-RT opportunities.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "THCOM",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ICT Sector",
+          "why": "Best combo: High RT 8.3x, healthy RSI 58."
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "TRANS Sector",
+          "why": "High RT 7.0x in top performing sector."
+        },
+        {
+          "sym": "SCB",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "BANK Sector",
+          "why": "High RT 6.2x with RSI in range."
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ENERG Sector",
+          "why": "High momentum RT 6.7x; caution on RSI > 75."
+        },
+        {
+          "sym": "TOP",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ENERG Sector",
+          "why": "Good RT 3.3x with safe RSI 54, strong sector."
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "CONS Sector",
+          "why": "Solid metrics, all rules pass."
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Channel Up DNA",
+          "why": "Safe choice, rules pass, predictable pattern."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ENERG Sector",
+          "why": "High risk momentum play; RT 4.4x but RSI 81."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.85%, ENERG +2.12%, TECH +1.0%, TRANS +2.42% strong",
+      "player_stance": "WAIT",
+      "stance_reason": "Top picks EPG/CCET RSI>85 overbought, GUNKUL/GULF RSI>75 high, await cooldown",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 70.0,
+          "entry": 69.5,
+          "tp": 74.0,
+          "sector": "ENERG",
+          "vs": "RT 6.7x RSI77 sector+2.12%",
+          "why": "Energy surge RT high pass"
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 6,
+          "now": 17.8,
+          "entry": 17.7,
+          "tp": 19.0,
+          "sector": "CONS",
+          "vs": "RT 2.8x RSI68 CONS+1.35%",
+          "why": "Construction momentum RSI safe zone"
+        },
+        {
+          "sym": "AOT",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 70.0,
+          "entry": 68.5,
+          "tp": 73.0,
+          "sector": "TRANS",
+          "vs": "RT 7.0x RSI71 TRANS+2.42%",
+          "why": "Price>60 Rule0 block"
+        },
+        {
+          "sym": "SCB",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 147.5,
+          "entry": 146.0,
+          "tp": 152.0,
+          "sector": "BANK",
+          "vs": "RT 6.2x RSI73 BANK+0.12%",
+          "why": "Price>60 Rule0 block"
+        },
+        {
+          "sym": "THCOM",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 7.8,
+          "entry": 7.7,
+          "tp": 8.5,
+          "sector": "ICT",
+          "vs": "RT 8.3x RSI58 ICT+0.58%",
+          "why": "Need S7 confirmation recheck"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260604-1102",
     "last_update": "2026-06-04 11:02:01",
     "gemini": {
