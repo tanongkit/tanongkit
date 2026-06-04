@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260604-1003",
+    "last_update": "2026-06-04 10:03:29",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index positive, strongly driven by high-value TECH and ETRON sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Market momentum is positive. Past lessons indicate a need to act on strong signals and not be overly conservative.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "SET",
+          "why": "Highest Rt (4.9x), good RSI, positive sector."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "HANA",
+          "why": "Strongest sector (ETRON), V-Shape DNA, good Rt."
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "STECON",
+          "why": "Extreme Rt (3.3x) overrides weak sector."
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "SET",
+          "why": "Meets all rules: good RSI/Rt, sector positive."
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "BBL",
+          "why": "High Rt (2.5x) with Bond Yield catalyst."
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "CK",
+          "why": "Meets rules on borderline, volatile DNA."
+        },
+        {
+          "sym": "ADVANC",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "TRUE",
+          "why": "Strong Rt (2.8x), though sector is lagging."
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "SET",
+          "why": "RSI too high (92), monitor for cooldown per lessons."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.38%, TECH +1.2%, ETRON +1.51%, ENERG +0.5% lead sectors",
+      "player_stance": "BUY",
+      "stance_reason": "Top momentum stocks pass entry rules, sector rotation into TECH/ELEC continues strong",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 9,
+          "now": 20.9,
+          "entry": 20.8,
+          "tp": 23.0,
+          "sector": "CONST",
+          "vs": "RT 3.3x RSI 71",
+          "why": "Top RT, construction sector lead"
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 48.0,
+          "entry": 47.5,
+          "tp": 52.0,
+          "sector": "ELEC",
+          "vs": "RT 4.9x RSI 71",
+          "why": "Extreme RT, ENERG sector +0.5%"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 55.5,
+          "entry": 55.0,
+          "tp": 60.0,
+          "sector": "ELECTRONICS",
+          "vs": "RT 1.8x RSI 77",
+          "why": "ETRON +1.51%, momentum intact"
+        },
+        {
+          "sym": "STECON",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 3.48,
+          "entry": 3.4,
+          "tp": 3.8,
+          "sector": "CONS",
+          "vs": "RT 1.5x RSI 75",
+          "why": "Volatile swing, wait RSI cool"
+        },
+        {
+          "sym": "ADVANC",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 197.0,
+          "entry": 195.0,
+          "tp": 205.0,
+          "sector": "ICT",
+          "vs": "RT 2.8x RSI 61",
+          "why": "Price >60 violates Rule 0"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260604-0357",
     "last_update": "2026-06-04 03:57:01",
     "gemini": {
