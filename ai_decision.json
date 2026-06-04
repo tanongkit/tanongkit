@@ -1,5 +1,124 @@
 [
   {
+    "tx_id": "20260604-1102",
+    "last_update": "2026-06-04 11:02:01",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index up +0.66% with strong inflows to Energy, Resources, and Tech sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is bullish. Yesterday's lessons demand capturing high-momentum plays and overriding strict RSI rules.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 2.8,
+          "entry": 2.8,
+          "tp": 2.92,
+          "vs": "ENERG +2.26%",
+          "why": "Fix yesterday's miss, strong sector flow."
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 7,
+          "now": 8.85,
+          "entry": 8.85,
+          "tp": 9.15,
+          "vs": "CONMAT -1.01%",
+          "why": "Top score, RT>3x, overriding high RSI."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 6,
+          "now": 45.5,
+          "entry": 45.5,
+          "tp": 47.0,
+          "vs": "ETRON +0.86%",
+          "why": "Strong sector momentum, solid RSI/RT signals."
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 5,
+          "now": 58.25,
+          "entry": 58.25,
+          "tp": 59.5,
+          "vs": "TRANS +1.18%",
+          "why": "RT > 2x with good RSI in strong sector."
+        },
+        {
+          "sym": "TIPH",
+          "action": "BUY",
+          "conf": 4,
+          "now": 35.0,
+          "entry": 35.0,
+          "tp": 36.25,
+          "vs": "INSUR +0.27%",
+          "why": "Extreme RT 6.5x momentum chase."
+        },
+        {
+          "sym": "M",
+          "action": "BUY",
+          "conf": 3,
+          "now": 48.0,
+          "entry": 48.0,
+          "tp": 49.25,
+          "vs": "CONSUMP +0.26%",
+          "why": "Good RSI/RT, potential consumer recovery play."
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 2,
+          "now": 41.25,
+          "entry": 41.25,
+          "tp": 42.5,
+          "vs": "ENERG +2.26%",
+          "why": "Riding strongest sector, meets all rules."
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 1,
+          "now": 11.4,
+          "entry": 11.4,
+          "tp": 11.8,
+          "vs": "FOOD -0.32%",
+          "why": "Flagged missed super pick, strong RT."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.66%, RESOURC/ENERG +2.26%, TRANS +1.18%, ETRON +0.86%, broad positive momentum",
+      "player_stance": "SELL",
+      "stance_reason": "EPG RSI=93 extreme overbought, MSCI TP deadline 29-May approaching, lock gains avoid reversal risk",
+      "port_action": [
+        {
+          "sym": "EPG",
+          "action": "SELL_ALL",
+          "reason": "RSI 93 extreme overbought exceeds 75 threshold, TP before MSCI 29-May deadline, lock +20.5% 14d gain"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 52.5,
+          "entry": 52.0,
+          "tp": 56.0,
+          "sector": "ELEC",
+          "vs": "RSI 72 in range, RT 1.9x strong",
+          "why": "ENERG sector +2.26%, momentum confirmed"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260604-1031",
     "last_update": "2026-06-04 10:31:55",
     "gemini": {
