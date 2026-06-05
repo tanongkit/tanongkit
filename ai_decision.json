@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260605-1432",
+    "last_update": "2026-06-05 14:32:03",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET down -0.76%, major sectors like ETRON/TECH are deep red.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is bearish. Following yesterday's lesson, avoid aggressive buying when SET is red and wait for clearer signals.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.35,
+          "entry": 5.3,
+          "tp": 5.65,
+          "vs": "AOT, CENTEL",
+          "why": "Top sector flow (TOURISM +2.4%) + highest RT (6.5x)."
+        },
+        {
+          "sym": "BH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 223.0,
+          "entry": 222.0,
+          "tp": 230.0,
+          "vs": "BDMS",
+          "why": "Top RT (6.6x) with strong sector flow (HELTH +1.1%)."
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 7,
+          "now": 34.25,
+          "entry": 34.0,
+          "tp": 35.5,
+          "vs": "EPG",
+          "why": "Strong sector flow (PKG +1.9%) with good RT (>2x)."
+        },
+        {
+          "sym": "BDMS",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 27.75,
+          "entry": 27.5,
+          "tp": 28.75,
+          "vs": "BH",
+          "why": "Strong RT (4.3x) in leading HELTH sector."
+        },
+        {
+          "sym": "THAI",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 11.8,
+          "entry": 11.6,
+          "tp": 12.4,
+          "vs": "AOT",
+          "why": "High RT tourism play, but already up +4.4%. Wait pullback."
+        },
+        {
+          "sym": "CBG",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 70.75,
+          "entry": 70.5,
+          "tp": 73.0,
+          "vs": "OSP",
+          "why": "Excellent RT (3.9x), but sector flow (FOOD) is weak."
+        },
+        {
+          "sym": "TAN",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 17.1,
+          "entry": 17.0,
+          "tp": 17.8,
+          "vs": "COM7",
+          "why": "Good RT (4.3x), but sector flow is only moderate."
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 8.95,
+          "entry": 8.85,
+          "tp": 9.3,
+          "vs": "SCGP",
+          "why": "Strong sector but RT is too low (1.1x). RSI high."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -0.76%, PETRO -1.63%, TECH -2.17%, ETRON -3.02%, BANK -0.17%",
+      "player_stance": "WAIT",
+      "stance_reason": "SET red day, most sectors negative, no strong RT+S7+ combo passing all rules",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 7,
+          "now": 11.5,
+          "entry": 11.5,
+          "tp": 13.2,
+          "sector": "TOURISM",
+          "vs": "RT 3.9x RSI 80 high",
+          "why": "TOURISM +2.42% RT spike S7+ D1+"
+        },
+        {
+          "sym": "ERW",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 3.16,
+          "entry": 3.2,
+          "tp": 3.5,
+          "sector": "TOURISM",
+          "vs": "RT 6.5x RSI 68 good",
+          "why": "TOURISM strong wait RSI cooldown"
+        },
+        {
+          "sym": "CBG",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 66.0,
+          "entry": 66.5,
+          "tp": 73.0,
+          "sector": "FOOD",
+          "vs": "RT 3.9x RSI 64 border",
+          "why": "FOOD +0.22% RT good wait"
+        },
+        {
+          "sym": "BH",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 216.0,
+          "entry": 218.0,
+          "tp": 240.0,
+          "sector": "HELTH",
+          "vs": "RT 6.6x RSI 65 good",
+          "why": "HELTH +1.14% RT spike wait"
+        },
+        {
+          "sym": "SCGP",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 37.0,
+          "entry": 37.25,
+          "tp": 40.5,
+          "sector": "PKG",
+          "vs": "RT 2.2x RSI 67 near",
+          "why": "PKG +1.93% RT moderate wait"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260605-1402",
     "last_update": "2026-06-05 14:02:30",
     "gemini": {
