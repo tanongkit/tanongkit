@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260605-1003",
+    "last_update": "2026-06-05 10:03:21",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Slightly red SET open with mixed sector performance; Tech weak while Tourism/Health are strong.",
+      "player_stance": "WAIT",
+      "stance_reason": "SET opened red. Awaiting clear market direction before committing, per yesterday's lessons.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Sector Lead",
+          "why": "TOURISM sector +0.88%, RT 3.9x"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Top Score",
+          "why": "RT 3.3x, FOOD+, high RSI wait for dip"
+        },
+        {
+          "sym": "SCB",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Volume Spike",
+          "why": "RT 3.3x, BANK sector positive"
+        },
+        {
+          "sym": "THCOM",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT Monster",
+          "why": "Highest RT 4.0x, but ICT sector flat"
+        },
+        {
+          "sym": "CBG",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Sector Play",
+          "why": "FOOD sector positive, RT 1.8x, RSI good"
+        },
+        {
+          "sym": "GULF",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Volume Play",
+          "why": "High RT 3.0x but ENERG sector is flat"
+        },
+        {
+          "sym": "SCGP",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Wait for Vol",
+          "why": "PKG sector strong but RT is low (1.1x)"
+        },
+        {
+          "sym": "THAI",
+          "action": "WATCH",
+          "conf": 3,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "High Risk",
+          "why": "TRANS sector is negative (-0.84%), avoid"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET -0.08% flat, mixed sectors: TOURISM+HELTH green, TECH-TRANS red",
+      "player_stance": "BUY",
+      "stance_reason": "SET neutral+volume OK, apply lesson: commit BUY stance, use RT+sector flow priority",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 9,
+          "now": 78.75,
+          "entry": 78.5,
+          "tp": 82.0,
+          "sector": "TOURISM",
+          "vs": "RT 3.9x sector +0.88%",
+          "why": "RT surge TOURISM flow lesson5 apply"
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 64.25,
+          "entry": 64.0,
+          "tp": 67.0,
+          "sector": "ENERG",
+          "vs": "RT 3.0x RSI 77 momentum",
+          "why": "RT high sector flat hold momentum"
+        },
+        {
+          "sym": "SCB",
+          "action": "BUY",
+          "conf": 7,
+          "now": 142.0,
+          "entry": 141.5,
+          "tp": 146.0,
+          "sector": "BANK",
+          "vs": "RT 3.3x BANK +0.1%",
+          "why": "RT strong sector positive safe play"
+        },
+        {
+          "sym": "CBG",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 59.0,
+          "entry": 58.5,
+          "tp": 62.0,
+          "sector": "FOOD",
+          "vs": "RT 1.8x low wait pullback",
+          "why": "FOOD +0.22% RT weak wait confirmation"
+        },
+        {
+          "sym": "THCOM",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 9.0,
+          "entry": 8.9,
+          "tp": 9.5,
+          "sector": "ICT",
+          "vs": "RT 4.0x RSI 55 low",
+          "why": "ICT +0.05% weak sector flow cautious"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260604-1602",
     "last_update": "2026-06-04 16:02:13",
     "gemini": {
@@ -5257,336 +5414,6 @@
           "sector": "TRANS",
           "vs": "Rank#18 jumped +12",
           "why": "D1+3.9% S7+9.2% RSI65.9 wait RT confirmation"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260601-2142",
-    "last_update": "2026-06-01 21:42:41",
-    "gemini": {
-      "market_sentiment": "NEUTRAL",
-      "sentiment_reason": "SET index flat, but heavy selling in key sectors like PETRO and INDUS.",
-      "player_stance": "WAIT",
-      "stance_reason": "Market shows strong sector rotation, not broad conviction. Be selective with entries.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "STECON",
-          "action": "BUY",
-          "conf": 9,
-          "now": 15.7,
-          "entry": 15.7,
-          "tp": 16.7,
-          "vs": "Rank 5, strong momentum surge",
-          "why": "CONS sector leader, all signals green.",
-          "lead_doing": "buy"
-        },
-        {
-          "sym": "PSL",
-          "action": "BUY",
-          "conf": 9,
-          "now": 7.65,
-          "entry": 7.65,
-          "tp": 8.1,
-          "vs": "BDI play with strong D1 momentum",
-          "why": "V-Shape DNA, all rules pass, TRANS strong.",
-          "lead_doing": "buy"
-        },
-        {
-          "sym": "TTA",
-          "action": "BUY",
-          "conf": 8,
-          "now": 5.35,
-          "entry": 5.35,
-          "tp": 5.7,
-          "vs": "BDI play, follower to PSL",
-          "why": "Strong momentum and sector support.",
-          "lead_doing": "buy"
-        },
-        {
-          "sym": "GUNKUL",
-          "action": "BUY",
-          "conf": 7,
-          "now": 3.98,
-          "entry": 3.98,
-          "tp": 4.2,
-          "vs": "High rank volatile swing play",
-          "why": "Lesson learned override on high RSI.",
-          "lead_doing": "buy"
-        },
-        {
-          "sym": "COM7",
-          "action": "BUY",
-          "conf": 7,
-          "now": 26.0,
-          "entry": 26.0,
-          "tp": 27.0,
-          "vs": "'Kon La Krueng' catalyst play",
-          "why": "Meets all rules, positive sector.",
-          "lead_doing": "sell"
-        },
-        {
-          "sym": "CRC",
-          "action": "BUY",
-          "conf": 7,
-          "now": 21.1,
-          "entry": 21.1,
-          "tp": 22.0,
-          "vs": "Top 15 rank with solid signals",
-          "why": "Meets all rules in a decent sector.",
-          "lead_doing": "sell"
-        },
-        {
-          "sym": "CPALL",
-          "action": "BUY",
-          "conf": 6,
-          "now": 47.25,
-          "entry": 47.25,
-          "tp": 49.0,
-          "vs": "Retail play with state stimulus",
-          "why": "Passes all rules, though s7 is moderate.",
-          "lead_doing": "sell"
-        },
-        {
-          "sym": "KCE",
-          "action": "BUY",
-          "conf": 6,
-          "now": 37.5,
-          "entry": 37.5,
-          "tp": 39.5,
-          "vs": "High rank V-Shape with strong S7",
-          "why": "Borderline D1 but high rank compensates.",
-          "lead_doing": "sell"
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "NEUTRAL",
-      "sentiment_reason": "Mixed sectors: CONS +1.41%, FIN +0.26% up; PETRO -4.5%, INDUS -2.5% down",
-      "player_stance": "WAIT",
-      "stance_reason": "Top picks EPG/GUNKUL/STECON overbought RSI>79. No stocks pass RSI 50-75 + Rt>1.5x + S7+ rules",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "DELTA",
-          "action": "HOLD",
-          "conf": 7,
-          "now": 353.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "ETRON",
-          "vs": "Rank #8 RSI 68.7",
-          "why": "MSCI deadline 29 May approaching - prepare TP"
-        },
-        {
-          "sym": "HANA",
-          "action": "WATCH",
-          "conf": 6,
-          "now": 37.25,
-          "entry": 37.0,
-          "tp": 41.0,
-          "sector": "ETRON",
-          "vs": "Rank #10 RSI 59.5",
-          "why": "RSI cooled S7 +7.97% but Rt=0"
-        },
-        {
-          "sym": "PSL",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 7.65,
-          "entry": 7.5,
-          "tp": 8.5,
-          "sector": "TRANS",
-          "vs": "Rank #19 RSI 63.7",
-          "why": "BDI play D1 +4.79% but Rt=0"
-        },
-        {
-          "sym": "KTB",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 34.75,
-          "entry": 34.5,
-          "tp": 37.0,
-          "sector": "BANK",
-          "vs": "Rank #27 RSI 66.4",
-          "why": "Bond yield play S7 +0.72% but Rt=0"
-        },
-        {
-          "sym": "COM7",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 26.0,
-          "entry": 25.5,
-          "tp": 28.0,
-          "sector": "COMM",
-          "vs": "Rank #17 RSI 69.0",
-          "why": "Khon La Khrueng 25 May but Rt=0"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260601-1947",
-    "last_update": "2026-06-01 19:47:31",
-    "gemini": {
-      "market_sentiment": "NEUTRAL",
-      "sentiment_reason": "Flat index with heavy sector rotation. PETRO down -4.5%, but FIN up +1.5%.",
-      "player_stance": "WAIT",
-      "stance_reason": "Market is choppy and system had critical filter failures yesterday. Need to confirm signals and system health.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "RBF",
-          "action": "BUY",
-          "conf": 9,
-          "now": 4.22,
-          "entry": 4.24,
-          "tp": 4.45,
-          "vs": "Rank #10",
-          "why": "Strong RT(3.58), clean RSI(67.4), S7>0",
-          "lead_doing": "buy"
-        },
-        {
-          "sym": "KCE",
-          "action": "BUY",
-          "conf": 9,
-          "now": 36.75,
-          "entry": 37.0,
-          "tp": 39.5,
-          "vs": "Rank #8",
-          "why": "Strong RT(2.24), clean RSI(70.2), S7>0",
-          "lead_doing": "buy"
-        },
-        {
-          "sym": "HANA",
-          "action": "BUY",
-          "conf": 8,
-          "now": 40.5,
-          "entry": 40.75,
-          "tp": 43.5,
-          "vs": "Rank #6",
-          "why": "Good RT(1.85), clean RSI(71.2), S7>0",
-          "lead_doing": "buy"
-        },
-        {
-          "sym": "M",
-          "action": "BUY",
-          "conf": 8,
-          "now": 22.2,
-          "entry": 22.3,
-          "tp": 23.2,
-          "vs": "Rank #7",
-          "why": "Good RT(1.64), RSI(73.2), S7>0",
-          "lead_doing": "buy"
-        },
-        {
-          "sym": "EPG",
-          "action": "BUY",
-          "conf": 7,
-          "now": 4.32,
-          "entry": 4.34,
-          "tp": 4.56,
-          "vs": "Rank #3",
-          "why": "Rule Override: Extreme RT(10.53) despite RSI>80",
-          "lead_doing": "buy"
-        },
-        {
-          "sym": "GUNKUL",
-          "action": "BUY",
-          "conf": 7,
-          "now": 3.76,
-          "entry": 3.78,
-          "tp": 3.96,
-          "vs": "Rank #4",
-          "why": "Rule Override: Strong RT(3.03) despite RSI>75",
-          "lead_doing": "buy"
-        },
-        {
-          "sym": "CREDIT",
-          "action": "BUY",
-          "conf": 6,
-          "now": 19.1,
-          "entry": 19.2,
-          "tp": 20.0,
-          "vs": "Rank #32",
-          "why": "Good RT(1.68), RSI(72.3), S7>0",
-          "lead_doing": "sell"
-        },
-        {
-          "sym": "THAI",
-          "action": "BUY",
-          "conf": 6,
-          "now": 6.65,
-          "entry": 6.7,
-          "tp": 6.95,
-          "vs": "Rank #12",
-          "why": "Meets RT(1.57), RSI(71.7), S7>0 criteria",
-          "lead_doing": "sell"
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "NEUTRAL",
-      "sentiment_reason": "Mixed sectors: CONMAT/FIN up, PETRO/INDUS down. SET flat -0.04%.",
-      "player_stance": "WAIT",
-      "stance_reason": "Top picks overbought or lack S7+. MSCI event passed. Wait for RSI cooldown.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "RBF",
-          "action": "BUY",
-          "conf": 7,
-          "now": 4.22,
-          "entry": 4.2,
-          "tp": 4.6,
-          "sector": "FOOD",
-          "vs": "Rank #10, RT 3.58x strong",
-          "why": "RSI 67 safe, S7 5.5%+, klkh catalyst"
-        },
-        {
-          "sym": "GULF",
-          "action": "BUY",
-          "conf": 6,
-          "now": 62.75,
-          "entry": 62.5,
-          "tp": 66.0,
-          "sector": "ELEC",
-          "vs": "Rank #25 jumped +23, RT 1.75x",
-          "why": "RSI 66.8 entry zone, S7 3.7%+"
-        },
-        {
-          "sym": "KCE",
-          "action": "WAIT",
-          "conf": 5,
-          "now": 36.75,
-          "entry": 36.0,
-          "tp": 39.5,
-          "sector": "ELECTRONICS",
-          "vs": "Rank #8, RT 2.24x decent",
-          "why": "RSI 70.2 borderline, watch cool"
-        },
-        {
-          "sym": "GUNKUL",
-          "action": "WAIT",
-          "conf": 5,
-          "now": 3.76,
-          "entry": 3.7,
-          "tp": 4.0,
-          "sector": "ELEC",
-          "vs": "Rank #4, RT 3.03x strong",
-          "why": "RSI 76.5 hot, need pullback"
-        },
-        {
-          "sym": "EPG",
-          "action": "WAIT",
-          "conf": 4,
-          "now": 4.32,
-          "entry": 4.2,
-          "tp": 4.7,
-          "sector": "CONST",
-          "vs": "Rank #3, RT 10.53x explosive",
-          "why": "RSI 80.4 extreme overbought wait"
         }
       ]
     }
