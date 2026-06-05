@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260605-1132",
+    "last_update": "2026-06-05 11:32:03",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Index is red, but strong money flow into Tourism, Health, and Finance sectors.",
+      "player_stance": "WAIT",
+      "stance_reason": "SET is down, requiring selective entry into sectors with clear momentum, not broad buying.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.65,
+          "entry": 5.6,
+          "tp": 5.95,
+          "vs": "Tourism sector +2.7%",
+          "why": "Top sector flow + extreme RT 10.9x"
+        },
+        {
+          "sym": "BH",
+          "action": "BUY",
+          "conf": 9,
+          "now": 245.0,
+          "entry": 244.0,
+          "tp": 252.0,
+          "vs": "Health sector +1.7%",
+          "why": "Elite RT 11.8x in strong sector"
+        },
+        {
+          "sym": "BDMS",
+          "action": "BUY",
+          "conf": 8,
+          "now": 28.75,
+          "entry": 28.5,
+          "tp": 29.75,
+          "vs": "Health sector +1.7%",
+          "why": "High RT 7.7x, safer health play"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.8,
+          "entry": 3.78,
+          "tp": 4.0,
+          "vs": "Tourism theme surge",
+          "why": "High RT 6.4x but high RSI 78, high risk"
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 7.5,
+          "entry": 7.35,
+          "tp": 7.8,
+          "vs": "Packaging sector +1.86%",
+          "why": "RSI 85 is very high, wait for pullback"
+        },
+        {
+          "sym": "RBF",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 12.0,
+          "entry": 11.8,
+          "tp": 12.5,
+          "vs": "Food sector +0.35%",
+          "why": "RSI 84 too high, RT < 1.5x, wait"
+        },
+        {
+          "sym": "WHA",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 5.2,
+          "entry": 5.15,
+          "tp": 5.4,
+          "vs": "Property sector +0.46%",
+          "why": "Good DNA, positive sector, needs RT confirmation"
+        },
+        {
+          "sym": "PLUS",
+          "action": "WATCH",
+          "conf": 2,
+          "now": 4.4,
+          "entry": 4.38,
+          "tp": 4.5,
+          "vs": "No volume",
+          "why": "Lacks all momentum signals (RT=0)"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -0.34%, TECH -1.7%, ETRON -2.41%, PETRO -1.5% leading sectors down",
+      "player_stance": "WAIT",
+      "stance_reason": "Market red, most focus stocks overbought RSI>80 or failing Rule 0, wait pullback",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 7,
+          "now": 33.75,
+          "entry": 33.5,
+          "tp": 37.0,
+          "sector": "TOURISM",
+          "vs": "RT 6.4x sector +2.7% lead",
+          "why": "Tourism leading RSI 78 safe RT high"
+        },
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 6,
+          "now": 3.86,
+          "entry": 3.85,
+          "tp": 4.2,
+          "sector": "TOURISM",
+          "vs": "RT 10.9x RSI 67 good",
+          "why": "Tourism momentum RT extreme RSI ok"
+        },
+        {
+          "sym": "BH",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 193.5,
+          "entry": 192.0,
+          "tp": 210.0,
+          "sector": "HELTH",
+          "vs": "RT 11.8x sector +1.7% strong",
+          "why": "Healthcare rally RT high wait pullback"
+        },
+        {
+          "sym": "BDMS",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 27.0,
+          "entry": 26.75,
+          "tp": 28.5,
+          "sector": "HELTH",
+          "vs": "RT 7.7x RSI 57 safe",
+          "why": "Healthcare play RT ok RSI safe"
+        },
+        {
+          "sym": "EPG",
+          "action": "WAIT",
+          "conf": 2,
+          "now": 10.4,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "PKG",
+          "vs": "RSI 85 overbought GAP +2.7%",
+          "why": "Overbought wait pullback per lesson"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260605-1101",
     "last_update": "2026-06-05 11:01:58",
     "gemini": {
