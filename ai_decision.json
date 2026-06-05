@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260605-1602",
+    "last_update": "2026-06-05 16:02:02",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET index -0.76%, dragged down by major sectors like ETRON (-3.25%) and TECH (-2.31%).",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is in a clear downtrend. Prioritizing capital preservation and waiting for stabilization before new entries.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 4.9x",
+          "why": "Top sector flow (TOURISM +3.05%) + massive RT spike."
+        },
+        {
+          "sym": "BH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 4.8x",
+          "why": "Strong sector flow (HELTH +1.38%) + massive RT spike."
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 2.9x",
+          "why": "Top sector flow (TOURISM +3.05%) + high RT."
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 1.9x",
+          "why": "Strong sector flow (PKG +2.60%) + solid RT."
+        },
+        {
+          "sym": "BCH",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 2.0x",
+          "why": "Good sector/RT but very low score. Watchlisted."
+        },
+        {
+          "sym": "BDMS",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 3.6x",
+          "why": "Strong sector/RT but score is near zero. Watchlisted."
+        },
+        {
+          "sym": "THAI",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 3.0x",
+          "why": "High RT but flat sector and RSI>80. Wait pullback."
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 1.0x",
+          "why": "RT dead, RSI>80. Wait for volume and pullback."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -0.76% TECH -2.31% ETRON -3.25% PETRO -1.67% AGRI -1.33% weak broad",
+      "player_stance": "WAIT",
+      "stance_reason": "SET red, most stocks RSI>80 overbought after rally, wait pullback per lesson 2",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 7,
+          "now": 5.05,
+          "entry": 5.05,
+          "tp": 5.45,
+          "sector": "TOURISM",
+          "vs": "RT 4.9x RSI 66 sector +3.05%",
+          "why": "Tourism sector lead RT strong RSI safe"
+        },
+        {
+          "sym": "BH",
+          "action": "BUY",
+          "conf": 7,
+          "now": 213.0,
+          "entry": 213.0,
+          "tp": 230.0,
+          "sector": "HELTH",
+          "vs": "RT 4.8x RSI 66 HELTH +1.38%",
+          "why": "Health sector up RT high RSI safe"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 67.5,
+          "entry": 68.0,
+          "tp": 73.0,
+          "sector": "TOURISM",
+          "vs": "RT 2.9x RSI 66 pullback better",
+          "why": "Wait pullback before entry tourism"
+        },
+        {
+          "sym": "THAI",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 20.6,
+          "entry": 19.5,
+          "tp": 22.0,
+          "sector": "TRANS",
+          "vs": "RT 3.0x RSI 80 overbought",
+          "why": "RSI 80 wait pullback lesson 2"
+        },
+        {
+          "sym": "SCGP",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 35.0,
+          "entry": 34.5,
+          "tp": 37.0,
+          "sector": "PKG",
+          "vs": "RT 1.9x RSI 67 PKG +2.60%",
+          "why": "Sector strong but wait better entry"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260605-1502",
     "last_update": "2026-06-05 15:02:06",
     "gemini": {
