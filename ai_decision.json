@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260605-1402",
+    "last_update": "2026-06-05 14:02:30",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET index is down, but strong money flow into specific sectors like Tourism and Healthcare.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is choppy and index is red. Be selective, focus only on sectors with clear positive flow.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Top Momentum",
+          "why": "Best Sector (+2.49%) + RT 6.1x + RSI 68"
+        },
+        {
+          "sym": "BH",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Top RT",
+          "why": "Strong Sector (+1.47%) + Highest RT 6.5x"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "vs ERW",
+          "why": "Best Sector (+2.49%) + RT 3.5x + RSI 65"
+        },
+        {
+          "sym": "BDMS",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "vs BH",
+          "why": "Strong Sector (+1.47%) + RT 4.1x + RSI 57"
+        },
+        {
+          "sym": "CBG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Good Entry",
+          "why": "Sector Flow + RT 3.9x + Low daily gain"
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Strong Sector",
+          "why": "Strong PKG Sector (+1.93%) + RT 2.1x"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "High Risk",
+          "why": "Momentum play (RT 3.8x) but very high RSI 80"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "High Score",
+          "why": "High Score but fails rules: Low RT, High RSI"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -0.43%, TECH -2.1%, ETRON -2.99%, FIN weak, limited green sectors",
+      "player_stance": "HOLD",
+      "stance_reason": "Weak market + most stocks fail RT/RSI entry rules, wait for pullback or confirmation",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 7,
+          "now": 75.75,
+          "entry": 75.5,
+          "tp": 82.0,
+          "sector": "TOURISM",
+          "vs": "RT 3.8x, RSI 80 caution",
+          "why": "TOURISM +2.49% sector leader RT high"
+        },
+        {
+          "sym": "ERW",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 4.48,
+          "entry": 4.3,
+          "tp": 4.8,
+          "sector": "TOURISM",
+          "vs": "RT 6.1x strong, RSI ok",
+          "why": "Wait pullback RSI 68 RT confirms"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 42.0,
+          "entry": 40.5,
+          "tp": 44.0,
+          "sector": "TOURISM",
+          "vs": "RT 3.5x, sector strong",
+          "why": "RSI 65 ok wait better entry"
+        },
+        {
+          "sym": "BH",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 18.4,
+          "entry": 17.8,
+          "tp": 19.5,
+          "sector": "HELTH",
+          "vs": "RT 6.5x, HELTH +1.47%",
+          "why": "Wait pullback RT very high"
+        },
+        {
+          "sym": "SCGP",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 40.25,
+          "entry": 39.5,
+          "tp": 42.5,
+          "sector": "PKG",
+          "vs": "RT 2.1x, PKG +1.93%",
+          "why": "RT borderline wait stronger confirmation"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260605-1202",
     "last_update": "2026-06-05 12:02:10",
     "gemini": {
