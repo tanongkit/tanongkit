@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260605-1031",
+    "last_update": "2026-06-05 10:31:53",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Mixed sector rotation; leaders (Tourism/Health) up, tech down, index flat.",
+      "player_stance": "WAIT",
+      "stance_reason": "SET is slightly red with strong rotation. Selectively picking sector leaders, not broad buying.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.0,
+          "entry": 5.0,
+          "tp": 5.3,
+          "vs": "TOURISM +2.4%",
+          "why": "Top sector flow + good RSI (60)"
+        },
+        {
+          "sym": "STGT",
+          "action": "BUY",
+          "conf": 8,
+          "now": 7.0,
+          "entry": 7.0,
+          "tp": 7.3,
+          "vs": "HELTH +1.97%",
+          "why": "Strong sector flow + good RSI (57)"
+        },
+        {
+          "sym": "CBG",
+          "action": "BUY",
+          "conf": 7,
+          "now": 62.5,
+          "entry": 62.5,
+          "tp": 65.0,
+          "vs": "FOOD +0.37%",
+          "why": "Positive sector + good RSI (63)"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 5.5,
+          "entry": 5.5,
+          "tp": 5.8,
+          "vs": "PROP +0.91%",
+          "why": "Strong sector (DNA pick)"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 6,
+          "now": 11.9,
+          "entry": 11.9,
+          "tp": 12.5,
+          "vs": "CONS +0.09%",
+          "why": "Good RSI (72), sector turned green"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 5,
+          "now": 23.1,
+          "entry": 22.9,
+          "tp": 24.0,
+          "vs": "PROP +0.91%",
+          "why": "Strong sector, wait pullback (RSI 79)"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 5,
+          "now": 12.9,
+          "entry": 12.7,
+          "tp": 13.4,
+          "vs": "FOOD +0.37%",
+          "why": "Sector flow, wait pullback (RSI 82)"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 4,
+          "now": 8.45,
+          "entry": 8.35,
+          "tp": 8.8,
+          "vs": "PKG +1.21%",
+          "why": "Strong sector, wait pullback (RSI 85)"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET -0.15% mild red, mixed sectors, HELTH/TOURISM strong, TECH/PETRO weak",
+      "player_stance": "WAIT",
+      "stance_reason": "Market flat, all RT=0.0 early hour, no clear momentum yet, wait for RT confirmation post-11:00",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "RBF",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 23.3,
+          "entry": 24.0,
+          "tp": 26.0,
+          "sector": "FOOD",
+          "vs": "Score 43.6, RSI 82 overbought",
+          "why": "RT not ready, RSI too high wait pullback"
+        },
+        {
+          "sym": "CBG",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 68.75,
+          "entry": 70.0,
+          "tp": 75.0,
+          "sector": "FOOD",
+          "vs": "Score 14.1, RSI 63 ok",
+          "why": "RT 0.0 early, sector FOOD +0.37% wait confirmation"
+        },
+        {
+          "sym": "ERW",
+          "action": "WAIT",
+          "conf": 2,
+          "now": 2.46,
+          "entry": 2.5,
+          "tp": 2.7,
+          "sector": "TOURISM",
+          "vs": "Score 23.9, RSI 60, TOURISM +2.4%",
+          "why": "S7 unknown, RT 0.0 early, need RT confirmation"
+        },
+        {
+          "sym": "STECON",
+          "action": "WAIT",
+          "conf": 2,
+          "now": 6.65,
+          "entry": 6.8,
+          "tp": 7.5,
+          "sector": "CONS",
+          "vs": "Score 57.5, RSI 72, GAP 52.3%",
+          "why": "RT 0.0, high gap volatility, wait RT confirmation"
+        },
+        {
+          "sym": "STGT",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 23.5,
+          "entry": 24.0,
+          "tp": 26.0,
+          "sector": "TOURISM",
+          "vs": "Score 3.9, RSI 57, TOURISM strong",
+          "why": "RT 0.0 early, sector +2.4% wait RT data"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260605-1003",
     "last_update": "2026-06-05 10:03:21",
     "gemini": {
