@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260605-1101",
+    "last_update": "2026-06-05 11:01:58",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET index is negative, but strong rotational buying into specific sectors like Tourism and Health.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is slightly red (-0.29%). Cautious stance, but preparing to buy leaders in sectors with strong fund flow.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.2,
+          "entry": 5.0,
+          "tp": 5.3,
+          "vs": "Strongest in market",
+          "why": "Top sector flow (+2.86%) + Top RT (8.3x)"
+        },
+        {
+          "sym": "BH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 2.0,
+          "entry": 228.0,
+          "tp": 235.0,
+          "vs": "Healthcare leader",
+          "why": "Strong sector flow (+1.83%) + High RT (3.3x)"
+        },
+        {
+          "sym": "CBG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 2.4,
+          "entry": 74.5,
+          "tp": 78.0,
+          "vs": "High momentum play",
+          "why": "Very high RT (3.8x) with positive sector"
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 1.1,
+          "entry": 45.25,
+          "tp": 47.0,
+          "vs": "Energy bellwether",
+          "why": "Positive sector flow + Solid RT (1.6x)"
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 18.8,
+          "tp": 19.4,
+          "vs": "Stable banking play",
+          "why": "RT breakout candidate (1.9x) despite flat sector"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 5,
+          "now": 2.9,
+          "entry": 24.3,
+          "tp": 25.5,
+          "vs": "Industrial estate play",
+          "why": "Strong sector but needs pullback (RSI 82)"
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 7.8,
+          "tp": 8.2,
+          "vs": "High score contrarian",
+          "why": "Top score, strong sector, but low RT (wait signal)"
+        },
+        {
+          "sym": "STGT",
+          "action": "BUY",
+          "conf": 4,
+          "now": 0.9,
+          "entry": 11.2,
+          "tp": 11.8,
+          "vs": "Sector laggard",
+          "why": "Laggard in very strong Health sector, rotation potential"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -0.29%, TECH -1.65%, ETRON -2.38%, PETRO -1.62% down sectors dominate",
+      "player_stance": "WAIT",
+      "stance_reason": "SET red, strong sectors limited, RT mostly weak, wait for momentum confirmation",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "ERW",
+          "action": "BUY",
+          "conf": 9,
+          "now": 3.38,
+          "entry": 3.4,
+          "tp": 3.75,
+          "sector": "TOURISM",
+          "vs": "RT 8.3x + TOURISM +2.86% sector leader",
+          "why": "RT surge + sector strongest + RSI 67 in range"
+        },
+        {
+          "sym": "CBG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 101.0,
+          "entry": 101.5,
+          "tp": 108.0,
+          "sector": "FOOD",
+          "vs": "RT 3.8x + FOOD +0.28% defensive + คนละครึ่ง",
+          "why": "RT high + RSI 66 safe + sector positive"
+        },
+        {
+          "sym": "GULF",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 51.0,
+          "entry": 51.5,
+          "tp": 56.0,
+          "sector": "ENERG",
+          "vs": "RT 1.6x ok but RSI 79 near peak",
+          "why": "Wait RSI pullback below 75 before entry"
+        },
+        {
+          "sym": "BH",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 187.0,
+          "entry": 188.0,
+          "tp": 200.0,
+          "sector": "HELTH",
+          "vs": "RT 3.3x + HELTH +1.83% but RSI 60 mid",
+          "why": "HELTH sector strong wait RT confirm >3.5x"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 39.75,
+          "entry": 40.0,
+          "tp": 43.0,
+          "sector": "PROP",
+          "vs": "RT 1.4x low + RSI 82 overbought avoid",
+          "why": "RSI too high wait pullback to 70"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260605-1031",
     "last_update": "2026-06-05 10:31:53",
     "gemini": {
