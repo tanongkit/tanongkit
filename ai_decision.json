@@ -1,5 +1,152 @@
 [
   {
+    "tx_id": "20260608-1131",
+    "last_update": "2026-06-08 11:31:52",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET down -0.52% with broad-based selling across major sectors; defensive/niche sectors are slightly up.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is red and lacks clear leadership. New lessons advise against committing on down days without strong signals.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STGT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 11.5,
+          "entry": 11.4,
+          "tp": 12.0,
+          "vs": "STA",
+          "why": "Only stock with positive sector flow (PERSON +0.98%) + RT>1.5x + RSI ok."
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 5,
+          "now": 17.0,
+          "entry": 16.9,
+          "tp": 17.4,
+          "vs": "BBL",
+          "why": "Exceptional RT 5.5x signals huge interest, overriding weak sector for a tactical play."
+        },
+        {
+          "sym": "WHA",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 5.0,
+          "entry": 4.96,
+          "tp": 5.2,
+          "vs": "AMATA",
+          "why": "Very strong RT 3.3x but sector is negative. Wait for sector to confirm."
+        },
+        {
+          "sym": "UBE",
+          "action": "WATCH",
+          "conf": 3,
+          "now": 0.88,
+          "entry": 0.87,
+          "tp": 0.92,
+          "vs": "TFG",
+          "why": "Strong RT 3.0x but RSI is too low (44) and sector is weak. Lacks momentum."
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 2,
+          "now": 7.6,
+          "entry": 7.4,
+          "tp": 7.9,
+          "vs": "SCGP",
+          "why": "RSI too high (86) and sector is weak. Per new rules, wait for pullback."
+        },
+        {
+          "sym": "SCGP",
+          "action": "WATCH",
+          "conf": 1,
+          "now": 30.25,
+          "entry": 30.0,
+          "tp": 31.5,
+          "vs": "EPG",
+          "why": "Fails RT (<1.5x) and sector is negative. No entry signal."
+        },
+        {
+          "sym": "RBF",
+          "action": "WATCH",
+          "conf": 1,
+          "now": 11.6,
+          "entry": 11.4,
+          "tp": 12.1,
+          "vs": "ITC",
+          "why": "Fails RT (<1.5x), sector is weak, and RSI is high (79). No entry signal."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -0.52% red, most sectors negative except INSUR/PERSON/CONSUMP",
+      "player_stance": "HOLD",
+      "stance_reason": "Red day but not panic sell. Hold quality positions, wait for sector/RT confirmation before new entry.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 31.0,
+          "entry": 31.0,
+          "tp": 34.0,
+          "sector": "PROPCON",
+          "vs": "RT 3.3x strong volume support",
+          "why": "Data center theme RT spike"
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 6,
+          "now": 23.1,
+          "entry": 23.1,
+          "tp": 25.0,
+          "sector": "BANK",
+          "vs": "RT 5.5x highest volume banking",
+          "why": "Bond yield play NIM expansion"
+        },
+        {
+          "sym": "STGT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 9.85,
+          "entry": 9.85,
+          "tp": 11.0,
+          "sector": "AGRO",
+          "vs": "RT 1.6x RSI 50 sweet spot",
+          "why": "5/8 checklist RT volume confirm"
+        },
+        {
+          "sym": "UBE",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 3.0,
+          "entry": 3.2,
+          "tp": 3.6,
+          "sector": "RESOURC",
+          "vs": "RT 3.0x but RSI 44 too low",
+          "why": "Wait RSI rise to 50 zone"
+        },
+        {
+          "sym": "RBF",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 6.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "FOOD",
+          "vs": "RT only 0.6x GAP -20.8% weak",
+          "why": "RT too low despite RSI 79"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260608-1101",
     "last_update": "2026-06-08 11:01:53",
     "gemini": {
