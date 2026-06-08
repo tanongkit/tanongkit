@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260608-1202",
+    "last_update": "2026-06-08 12:02:11",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET down -14 pts (-0.9%), broad-based selling across most major sectors.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is clearly bearish. Awaiting stabilization or clear reversal signals before committing capital.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "UBE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 1.18,
+          "entry": 1.18,
+          "tp": 1.25,
+          "vs": "FOOD",
+          "why": "S7 override: RT>1.5x + D1>0."
+        },
+        {
+          "sym": "KTB",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 18.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "BANK",
+          "why": "Highest RT (3.7x) but negative sector."
+        },
+        {
+          "sym": "WHA",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 5.5,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "PROP",
+          "why": "High RT (2.2x) but negative sector."
+        },
+        {
+          "sym": "SCGP",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 37.5,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "PKG",
+          "why": "Good RSI, flat sector, needs RT."
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 3,
+          "now": 8.5,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "PKG",
+          "why": "Overbought (RSI 85), needs pullback per lesson."
+        },
+        {
+          "sym": "STGT",
+          "action": "WATCH",
+          "conf": 2,
+          "now": 11.2,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "HELTH",
+          "why": "Meets RSI rule but RT/Sector weak."
+        },
+        {
+          "sym": "RBF",
+          "action": "WATCH",
+          "conf": 1,
+          "now": 15.2,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "FOOD",
+          "why": "Overbought, low RT, negative sector."
+        },
+        {
+          "sym": "OSP",
+          "action": "WATCH",
+          "conf": 3,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "FOOD",
+          "why": "DNA pick, wait for RT confirmation."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -0.9% red, most sectors down: TECH -1.07%, FINCIAL -0.72%, TOURISM -1.73%",
+      "player_stance": "WAIT",
+      "stance_reason": "SET red with broad sector weakness, early data RT not reliable, wait for 11:00+ confirmation",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 7,
+          "now": 33.75,
+          "entry": 33.5,
+          "tp": 35.5,
+          "sector": "BANK",
+          "vs": "RT 3.7x strong, RSI 68 good zone",
+          "why": "High RT + Bond Yield support NIM"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 6.75,
+          "entry": 6.7,
+          "tp": 7.2,
+          "sector": "PROP",
+          "vs": "RT 2.2x decent, sector -0.35% mild",
+          "why": "EV Data Center theme holds"
+        },
+        {
+          "sym": "UBE",
+          "action": "BUY",
+          "conf": 5,
+          "now": 3.0,
+          "entry": 2.95,
+          "tp": 3.3,
+          "sector": "INDUS",
+          "vs": "RT 2.0x + RSI 49 fresh entry",
+          "why": "Score jump +3.5% with momentum"
+        },
+        {
+          "sym": "SCGP",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 18.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "PKG",
+          "vs": "RT 0.6x weak, GAP -13.3%",
+          "why": "Wait RT improve above 1.5x"
+        },
+        {
+          "sym": "STGT",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 5.65,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "AGRO",
+          "vs": "RT 1.1x below threshold, sector -0.68%",
+          "why": "Need RT above 1.5x confirmation"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260608-1131",
     "last_update": "2026-06-08 11:31:52",
     "gemini": {
