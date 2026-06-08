@@ -1,5 +1,151 @@
 [
   {
+    "tx_id": "20260608-1031",
+    "last_update": "2026-06-08 10:31:55",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -1.0%, led by heavy selling in ETRON (-3.5%) and TECH (-2.5%) sectors.",
+      "player_stance": "WAIT",
+      "stance_reason": "Broad market sell-off. Prudent to wait for stabilization and clear RT signals before committing new capital.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Strongest Sector",
+          "why": "PERSON sector +1.09%, catalyst play"
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Positive Sector",
+          "why": "INDUS sector green, strong Q1 earnings"
+        },
+        {
+          "sym": "IRPC",
+          "action": "BUY",
+          "conf": 3,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Sector Rebound",
+          "why": "PETRO sector +0.51%, RSI 50 OK"
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 3,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Defensive Play",
+          "why": "BANK sector stable, yield benefits"
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 2,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Catalyst Watch",
+          "why": "คนละครึ่ง catalyst, but COMM sector is weak"
+        },
+        {
+          "sym": "STGT",
+          "action": "BUY",
+          "conf": 1,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Low Conviction",
+          "why": "RSI 46, but HELTH sector is negative"
+        },
+        {
+          "sym": "IRPC",
+          "action": "BUY",
+          "conf": 1,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Data Wait",
+          "why": "RSI 50, but RT 0.0x and Q1 miss"
+        },
+        {
+          "sym": "PTTEP",
+          "action": "BUY",
+          "conf": 1,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Data Wait",
+          "why": "RSI low, weak sector, RT 0.0x"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -1.0% red day, most sectors down, TECH -2.46% ETRON -3.54%",
+      "player_stance": "WAIT",
+      "stance_reason": "SET red, no stock passes RT>1.5x + S7 rule, all RT=0.0x early morning",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "UBE",
+          "action": "WAIT",
+          "conf": 2,
+          "now": 4.78,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "AGRO",
+          "vs": "RT 0.0x RSI 44 low",
+          "why": "Wait RT data S7 confirm"
+        },
+        {
+          "sym": "STGT",
+          "action": "WAIT",
+          "conf": 2,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "AGRO",
+          "vs": "RT 0.0x RSI 46 low",
+          "why": "Wait RT data S7 confirm"
+        },
+        {
+          "sym": "IRPC",
+          "action": "WAIT",
+          "conf": 1,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "PETRO",
+          "vs": "RT 0.0x score -7.3",
+          "why": "Need GRM+ and RT confirm"
+        },
+        {
+          "sym": "PTTEP",
+          "action": "WAIT",
+          "conf": 1,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ENERG",
+          "vs": "RT 0.0x RSI 43 low",
+          "why": "Wait RT data S7 confirm"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260608-1003",
     "last_update": "2026-06-08 10:03:23",
     "gemini": {
