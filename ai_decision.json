@@ -1,5 +1,142 @@
 [
   {
+    "tx_id": "20260608-1101",
+    "last_update": "2026-06-08 11:01:53",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -0.9% with widespread selling across key sectors like ETRON, TECH, and TOURISM.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is clearly bearish. Applying Lesson 1, we avoid new long positions until the trend stabilizes.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "TAN",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 17.5,
+          "tp": 18.2,
+          "vs": "Sector weakness",
+          "why": "Extreme RT 21.1x overrides"
+        },
+        {
+          "sym": "IRPC",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 1.98,
+          "tp": 2.06,
+          "vs": "Low score",
+          "why": "RT 1.8x + PETRO+ but needs GRM confirmation"
+        },
+        {
+          "sym": "TLI",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 8.55,
+          "tp": 8.8,
+          "vs": "Zero RT",
+          "why": "Strong sector (INSUR) but no volume yet"
+        },
+        {
+          "sym": "STGT",
+          "action": "WATCH",
+          "conf": 2,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Weak signals",
+          "why": "Fails RT, RSI, Sector rules"
+        },
+        {
+          "sym": "PTTEP",
+          "action": "WATCH",
+          "conf": 2,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Weak signals",
+          "why": "Fails RT, RSI, Sector rules"
+        },
+        {
+          "sym": "UBE",
+          "action": "WATCH",
+          "conf": 1,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Weak signals",
+          "why": "Fails all primary criteria"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -0.9% red, all sectors down, TECH/FOOD/TOURISM/ETRON weak",
+      "player_stance": "WAIT",
+      "stance_reason": "SET red, no strong sector flow, all picks fail Rule3 S7 negative",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "TAN",
+          "action": "WAIT",
+          "conf": 0,
+          "now": 2.7,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "FOOD",
+          "vs": "RT 21x ใจเย็น แต่ S7 ลบ",
+          "why": "Rule3 fail S7 negative"
+        },
+        {
+          "sym": "IRPC",
+          "action": "WAIT",
+          "conf": 0,
+          "now": 3.76,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "PETRO",
+          "vs": "RT 1.8x แต่ S7 ลบ",
+          "why": "Rule3 fail S7 negative GRM unclear"
+        },
+        {
+          "sym": "TLI",
+          "action": "WAIT",
+          "conf": 0,
+          "now": 5.45,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "TRANS",
+          "vs": "RT 0.0x ข้อมูลไม่พร้อม",
+          "why": "RT too low S7 negative"
+        },
+        {
+          "sym": "PTTEP",
+          "action": "WAIT",
+          "conf": 0,
+          "now": 114.5,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ENERG",
+          "vs": "ราคาแพงเกิน Rule0",
+          "why": "Rule0 block price above 60"
+        },
+        {
+          "sym": "STGT",
+          "action": "WAIT",
+          "conf": 0,
+          "now": 16.4,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "TRANS",
+          "vs": "RT 0.7x ต่ำ S7 ลบ",
+          "why": "RT below 1.5x S7 negative"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260608-1031",
     "last_update": "2026-06-08 10:31:55",
     "gemini": {
