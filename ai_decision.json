@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260608-1003",
+    "last_update": "2026-06-08 10:03:23",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET down -1.27%, widespread sell-off, tech and tourism sectors leading decline.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is in risk-off mode. Abide by Lesson #1: Do not fight the trend. Wait for stabilization.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "ERW",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 4.0x spike",
+          "why": "High RT but TOURISM weak"
+        },
+        {
+          "sym": "BH",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 3.7x spike",
+          "why": "High RT but HELTH weak"
+        },
+        {
+          "sym": "TAN",
+          "action": "WAIT",
+          "conf": 2,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 3.1x spike",
+          "why": "Wait, sector is mixed"
+        },
+        {
+          "sym": "BDMS",
+          "action": "WAIT",
+          "conf": 2,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 2.8x spike",
+          "why": "Wait, HELTH sector weak"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "WAIT",
+          "conf": 2,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 2.5x spike",
+          "why": "Wait, TOURISM sector weak"
+        },
+        {
+          "sym": "THAI",
+          "action": "WAIT",
+          "conf": 1,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 2.2x spike",
+          "why": "Wait, RSI over 80"
+        },
+        {
+          "sym": "EPG",
+          "action": "WAIT",
+          "conf": 1,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Top score",
+          "why": "Wait, RSI over 80"
+        },
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 1,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "High score",
+          "why": "AVOID, ETRON sector crash"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -1.27% strong red, most sectors negative, TECH -2.47%, ETRON -3.61%",
+      "player_stance": "WAIT",
+      "stance_reason": "Market red, high volatility. Wait for pullback confirmation before entry per past lessons.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 42.6,
+          "tp": 50.0,
+          "sector": "TRANS",
+          "vs": "RT 2.2x RSI 80 +24.9% 14d",
+          "why": "RT strong sector weak wait pullback"
+        },
+        {
+          "sym": "ERW",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 0.0,
+          "entry": 35.3,
+          "tp": 0.0,
+          "sector": "TOURISM",
+          "vs": "RT 4.0x RSI 69 tourism weak",
+          "why": "Visa negative S7 check needed"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 0.0,
+          "entry": 27.3,
+          "tp": 0.0,
+          "sector": "TOURISM",
+          "vs": "RT 2.5x RSI 66 tourism -1.71%",
+          "why": "Tourism sector down RSI acceptable"
+        },
+        {
+          "sym": "BH",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 13.5,
+          "tp": 0.0,
+          "sector": "HELTH",
+          "vs": "RT 3.7x RSI 67 health -0.76%",
+          "why": "RT strong sector weak wait"
+        },
+        {
+          "sym": "SCGP",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 0.0,
+          "entry": 27.4,
+          "tp": 0.0,
+          "sector": "PKG",
+          "vs": "RT 1.7x RSI 67 packaging -1.31%",
+          "why": "RT moderate sector negative wait"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260608-0158",
     "last_update": "2026-06-08 01:58:06",
     "gemini": {
