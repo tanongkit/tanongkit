@@ -1,5 +1,118 @@
 [
   {
+    "tx_id": "20260608-1502",
+    "last_update": "2026-06-08 15:02:16",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET down -1% with broad-based selling across most major sectors. Only few defensive sectors are green.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is red. Per lesson #1, do not force BUYs. Wait for clear signals of strength or stabilization.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 8,
+          "now": 17.7,
+          "entry": 17.6,
+          "tp": 18.4,
+          "vs": "RT 2.4x vs Sector -0.7%",
+          "why": "Extreme RT signals money inflow against sector weakness."
+        },
+        {
+          "sym": "UBE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 1.18,
+          "entry": 1.18,
+          "tp": 1.25,
+          "vs": "RT 1.6x, Price +3.5%",
+          "why": "S7 Override rule success; strong momentum despite weak sector."
+        },
+        {
+          "sym": "WHA",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 5.2,
+          "entry": 5.15,
+          "tp": 5.5,
+          "vs": "Leader DNA vs Sector",
+          "why": "Top-tier stock; watch for RT>1.5x to confirm entry."
+        },
+        {
+          "sym": "OSP",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 23.5,
+          "entry": 23.4,
+          "tp": 24.8,
+          "vs": "Good Q1 vs Sector",
+          "why": "In a rare green sector (CONSUMP). Waiting for RT confirmation."
+        },
+        {
+          "sym": "ITC",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 20.8,
+          "entry": 20.7,
+          "tp": 22.0,
+          "vs": "Q1 beat vs Sector",
+          "why": "Potential S7 Override candidate if RT and price turn up."
+        },
+        {
+          "sym": "DELTA",
+          "action": "WATCH",
+          "conf": 3,
+          "now": 84.0,
+          "entry": 83.5,
+          "tp": 90.0,
+          "vs": "MSCI vs Sector",
+          "why": "Market leader. A turn here with high RT would be significant."
+        },
+        {
+          "sym": "COM7",
+          "action": "WATCH",
+          "conf": 2,
+          "now": 23.2,
+          "entry": 23.0,
+          "tp": 24.5,
+          "vs": "Retail play vs Sector",
+          "why": "In green sector (CONSUMP) but DNA says 'wait for RT'."
+        },
+        {
+          "sym": "PSL",
+          "action": "WATCH",
+          "conf": 1,
+          "now": 9.6,
+          "entry": 9.5,
+          "tp": 10.2,
+          "vs": "BDI vs Sector",
+          "why": "Commodity play. Watch for high RT if BDI index turns up."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -0.99%, most sectors red, FINCIAL/SERVICE/TECH/RESOURC all down over 1%",
+      "player_stance": "WAIT",
+      "stance_reason": "SET red, no strong sector flow, RT weak across universe stocks, wait for confirmation",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "KTB",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 19.9,
+          "entry": 20.0,
+          "tp": 21.5,
+          "sector": "BANK",
+          "vs": "RT 2.4x strong, RSI 68 ok",
+          "why": "Rule 0 fail price>60, sector BANK -0.71% weak today"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260608-1432",
     "last_update": "2026-06-08 14:32:11",
     "gemini": {
