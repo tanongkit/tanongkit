@@ -5,11 +5,11 @@
     "rank": 1,
     "rank_prev": 1,
     "rank_change": 0,
-    "rank_score": 134.94,
+    "rank_score": 134.96,
     "rank_score_prev": 137.55,
     "rsi": 80.6,
     "rg": 81.5,
-    "rt": 0.77,
+    "rt": 0.74,
     "gap_pct": 0.89,
     "cxr14": 2.9574,
     "cxr1m": -4.9023,
@@ -80,8 +80,8 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 134.94,
-        "rt": 0.77,
+        "rank_score": 134.96,
+        "rt": 0.74,
         "rsi": 80.62
       }
     ]
@@ -92,24 +92,24 @@
     "rank": 2,
     "rank_prev": 2,
     "rank_change": 0,
-    "rank_score": 86.43,
+    "rank_score": 90.1,
     "rank_score_prev": 126.99,
-    "rsi": 61.7,
-    "rg": 67.8,
-    "rt": 0.75,
-    "gap_pct": 3.97,
+    "rsi": 62.4,
+    "rg": 69.2,
+    "rt": 0.71,
+    "gap_pct": 5.14,
     "cxr14": 6.1777,
     "cxr1m": 6.4952,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -3.7433,
-    "s7": 2.2727,
-    "s14": 39.5349,
-    "s1m": 51.2605,
+    "d1": -4.8128,
+    "s7": 1.1364,
+    "s14": 37.9845,
+    "s1m": 49.5798,
     "er": "",
     "src": "RT",
-    "last_price": 9.0,
+    "last_price": 8.9,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -167,9 +167,9 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 86.43,
-        "rt": 0.75,
-        "rsi": 61.71
+        "rank_score": 90.1,
+        "rt": 0.71,
+        "rsi": 62.39
       }
     ]
   },
@@ -179,24 +179,24 @@
     "rank": 3,
     "rank_prev": 9,
     "rank_change": 6,
-    "rank_score": 53.06,
+    "rank_score": 46.35,
     "rank_score_prev": 35.59,
-    "rsi": 84.7,
-    "rg": 99.1,
-    "rt": 0.81,
-    "gap_pct": -17.79,
+    "rsi": 83.9,
+    "rg": 91.0,
+    "rt": 1.4,
+    "gap_pct": -19.8,
     "cxr14": 1.9467,
     "cxr1m": 3.4533,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": 2.5751,
-    "s7": 12.2066,
-    "s14": 20.1005,
-    "s1m": 27.1277,
+    "d1": 2.1459,
+    "s7": 11.7371,
+    "s14": 19.598,
+    "s1m": 26.5957,
     "er": "",
     "src": "RT",
-    "last_price": 4.78,
+    "last_price": 4.76,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -254,123 +254,36 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 53.06,
-        "rt": 0.81,
-        "rsi": 84.69
-      }
-    ]
-  },
-  "THAI": {
-    "symbol": "THAI",
-    "sector": "TOUR",
-    "rank": 4,
-    "rank_prev": 5,
-    "rank_change": 1,
-    "rank_score": 33.82,
-    "rank_score_prev": 43.11,
-    "rsi": 63.1,
-    "rg": 44.2,
-    "rt": 1.4,
-    "gap_pct": -35.24,
-    "cxr14": 5.5995,
-    "cxr1m": 9.1412,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": -6.338,
-    "s7": -0.7463,
-    "s14": 11.7647,
-    "s1m": 11.7647,
-    "er": "",
-    "src": "RT",
-    "last_price": 6.65,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": 20.04,
-        "rt": 0.0,
-        "rsi": 70.51
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": 17.03,
-        "rt": 0.0,
-        "rsi": 70.51
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": 26.78,
-        "rt": 0.0,
-        "rsi": 73.73
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": 23.87,
-        "rt": 0.0,
-        "rsi": 73.73
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": 21.66,
-        "rt": 0.0,
-        "rsi": 70.74
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": 28.01,
-        "rt": 0.66,
-        "rsi": 73.09
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": 28.57,
-        "rt": 0.81,
-        "rsi": 73.25
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": 32.56,
-        "rt": 0.83,
-        "rsi": 74.44
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": 43.11,
-        "rt": 2.23,
-        "rsi": 79.7
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": 33.82,
+        "rank_score": 46.35,
         "rt": 1.4,
-        "rsi": 63.12
+        "rsi": 83.88
       }
     ]
   },
   "GUNKUL": {
     "symbol": "GUNKUL",
     "sector": "ELEC",
-    "rank": 5,
+    "rank": 4,
     "rank_prev": 10,
-    "rank_change": 5,
-    "rank_score": 32.89,
+    "rank_change": 6,
+    "rank_score": 31.75,
     "rank_score_prev": 32.49,
-    "rsi": 65.8,
-    "rg": 85.0,
-    "rt": 0.89,
-    "gap_pct": 9.04,
+    "rsi": 64.7,
+    "rg": 84.2,
+    "rt": 1.01,
+    "gap_pct": 8.47,
     "cxr14": -8.3088,
     "cxr1m": -17.0272,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -3.5176,
-    "s7": -3.5176,
-    "s14": 13.4444,
-    "s1m": 21.1002,
+    "d1": -5.0251,
+    "s7": -5.0251,
+    "s14": 11.6718,
+    "s1m": 19.208,
     "er": "",
     "src": "RT",
-    "last_price": 3.84,
+    "last_price": 3.78,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -428,23 +341,23 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 32.89,
-        "rt": 0.89,
-        "rsi": 65.77
+        "rank_score": 31.75,
+        "rt": 1.01,
+        "rsi": 64.65
       }
     ]
   },
   "PLUS": {
     "symbol": "PLUS",
     "sector": "FOOD",
-    "rank": 6,
+    "rank": 5,
     "rank_prev": 30,
-    "rank_change": 24,
-    "rank_score": 30.28,
+    "rank_change": 25,
+    "rank_score": 30.4,
     "rank_score_prev": 8.8,
     "rsi": 38.8,
     "rg": 17.1,
-    "rt": 0.2,
+    "rt": 0.29,
     "gap_pct": -49.08,
     "cxr14": -0.5743,
     "cxr1m": 0.0,
@@ -515,8 +428,8 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 30.28,
-        "rt": 0.2,
+        "rank_score": 30.4,
+        "rt": 0.29,
         "rsi": 38.84
       }
     ]
@@ -524,10 +437,10 @@
   "TIDLOR": {
     "symbol": "TIDLOR",
     "sector": "OTHER",
-    "rank": 7,
+    "rank": 6,
     "rank_prev": 11,
-    "rank_change": 4,
-    "rank_score": 28.98,
+    "rank_change": 5,
+    "rank_score": 29.06,
     "rank_score_prev": 30.43,
     "rsi": 57.8,
     "rg": 60.9,
@@ -538,13 +451,13 @@
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -1.6854,
-    "s7": -0.6246,
-    "s14": 12.9546,
-    "s1m": 6.9746,
+    "d1": -2.2472,
+    "s7": -1.1925,
+    "s14": 12.3091,
+    "s1m": 6.3634,
     "er": "",
     "src": "YF",
-    "last_price": 17.5,
+    "last_price": 17.4,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -602,105 +515,105 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 28.98,
+        "rank_score": 29.06,
         "rt": 0.0,
         "rsi": 57.84
       }
     ]
   },
-  "ERW": {
-    "symbol": "ERW",
+  "THAI": {
+    "symbol": "THAI",
     "sector": "TOUR",
-    "rank": 8,
-    "rank_prev": 8,
-    "rank_change": 0,
-    "rank_score": 26.8,
-    "rank_score_prev": 36.26,
-    "rsi": 63.9,
-    "rg": 80.1,
-    "rt": 1.11,
-    "gap_pct": -18.58,
-    "cxr14": 0.535,
-    "cxr1m": 6.718,
+    "rank": 7,
+    "rank_prev": 5,
+    "rank_change": -2,
+    "rank_score": 26.85,
+    "rank_score_prev": 43.11,
+    "rsi": 61.0,
+    "rg": 40.4,
+    "rt": 1.39,
+    "gap_pct": -36.67,
+    "cxr14": 5.5995,
+    "cxr1m": 9.1412,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -3.2895,
-    "s7": 2.7972,
-    "s14": 9.7015,
-    "s1m": 5.0,
+    "d1": -6.338,
+    "s7": -0.7463,
+    "s14": 11.7647,
+    "s1m": 11.7647,
     "er": "",
     "src": "RT",
-    "last_price": 2.94,
+    "last_price": 6.65,
     "history": [
       {
         "date": "25 พ.ค.",
-        "rank_score": 35.96,
+        "rank_score": 20.04,
         "rt": 0.0,
-        "rsi": 60.85
+        "rsi": 70.51
       },
       {
         "date": "26 พ.ค.",
-        "rank_score": 26.7,
+        "rank_score": 17.03,
         "rt": 0.0,
-        "rsi": 60.85
+        "rsi": 70.51
       },
       {
         "date": "27 พ.ค.",
-        "rank_score": 2.76,
+        "rank_score": 26.78,
         "rt": 0.0,
-        "rsi": 62.82
+        "rsi": 73.73
       },
       {
         "date": "28 พ.ค.",
-        "rank_score": 2.02,
+        "rank_score": 23.87,
         "rt": 0.0,
-        "rsi": 59.59
+        "rsi": 73.73
       },
       {
         "date": "29 พ.ค.",
-        "rank_score": -4.84,
+        "rank_score": 21.66,
         "rt": 0.0,
-        "rsi": 61.71
+        "rsi": 70.74
       },
       {
         "date": "2 มิ.ย.",
-        "rank_score": 3.81,
-        "rt": 0.62,
-        "rsi": 63.75
+        "rank_score": 28.01,
+        "rt": 0.66,
+        "rsi": 73.09
       },
       {
         "date": "3 มิ.ย.",
-        "rank_score": 14.32,
-        "rt": 1.07,
-        "rsi": 63.9
+        "rank_score": 28.57,
+        "rt": 0.81,
+        "rsi": 73.25
       },
       {
         "date": "4 มิ.ย.",
-        "rank_score": 17.61,
-        "rt": 1.2,
-        "rsi": 60.19
+        "rank_score": 32.56,
+        "rt": 0.83,
+        "rsi": 74.44
       },
       {
         "date": "5 มิ.ย.",
-        "rank_score": 36.26,
-        "rt": 3.97,
-        "rsi": 68.4
+        "rank_score": 43.11,
+        "rt": 2.23,
+        "rsi": 79.7
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 26.8,
-        "rt": 1.11,
-        "rsi": 63.9
+        "rank_score": 26.85,
+        "rt": 1.39,
+        "rsi": 61.0
       }
     ]
   },
   "SOX-F": {
     "symbol": "SOX-F",
     "sector": "OTHER",
-    "rank": 9,
+    "rank": 8,
     "rank_prev": 17,
-    "rank_change": 8,
+    "rank_change": 9,
     "rank_score": 24.24,
     "rank_score_prev": 21.11,
     "rsi": 81.0,
@@ -782,117 +695,30 @@
       }
     ]
   },
-  "AOT": {
-    "symbol": "AOT",
-    "sector": "TOUR",
-    "rank": 10,
-    "rank_prev": 15,
-    "rank_change": 5,
-    "rank_score": 23.96,
-    "rank_score_prev": 21.76,
-    "rsi": 69.9,
-    "rg": 91.9,
-    "rt": 0.73,
-    "gap_pct": 5.96,
-    "cxr14": 1.1718,
-    "cxr1m": 1.0498,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": -1.7241,
-    "s7": 3.1674,
-    "s14": 8.5714,
-    "s1m": 11.2195,
-    "er": "",
-    "src": "RT",
-    "last_price": 57.0,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": 5.15,
-        "rt": 0.0,
-        "rsi": 59.66
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": 5.24,
-        "rt": 0.0,
-        "rsi": 57.93
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": 12.18,
-        "rt": 0.0,
-        "rsi": 60.4
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": 16.0,
-        "rt": 0.0,
-        "rsi": 62.75
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": 11.96,
-        "rt": 0.0,
-        "rsi": 63.9
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": 21.69,
-        "rt": 1.72,
-        "rsi": 68.15
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": 15.91,
-        "rt": 2.24,
-        "rsi": 68.44
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": 27.38,
-        "rt": 3.91,
-        "rsi": 75.81
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": 21.76,
-        "rt": 0.72,
-        "rsi": 71.98
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": 23.96,
-        "rt": 0.73,
-        "rsi": 69.88
-      }
-    ]
-  },
   "STECON": {
     "symbol": "STECON",
     "sector": "CONST",
-    "rank": 11,
+    "rank": 9,
     "rank_prev": 3,
-    "rank_change": -8,
-    "rank_score": 23.78,
+    "rank_change": -6,
+    "rank_score": 23.85,
     "rank_score_prev": 52.93,
-    "rsi": 65.0,
+    "rsi": 63.7,
     "rg": 89.2,
-    "rt": 1.08,
+    "rt": 1.07,
     "gap_pct": 46.73,
     "cxr14": 0.0127,
     "cxr1m": -2.3618,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -3.0864,
-    "s7": 0.0,
-    "s14": 9.7902,
-    "s1m": 12.9496,
+    "d1": -3.7037,
+    "s7": -0.6369,
+    "s14": 9.0909,
+    "s1m": 12.2302,
     "er": "",
     "src": "RT",
-    "last_price": 15.7,
+    "last_price": 15.6,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -950,123 +776,123 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 23.78,
-        "rt": 1.08,
-        "rsi": 65.02
+        "rank_score": 23.85,
+        "rt": 1.07,
+        "rsi": 63.73
       }
     ]
   },
-  "GULF": {
-    "symbol": "GULF",
-    "sector": "ELEC",
-    "rank": 12,
-    "rank_prev": 14,
-    "rank_change": 2,
-    "rank_score": 22.14,
-    "rank_score_prev": 24.43,
-    "rsi": 66.4,
-    "rg": 90.3,
-    "rt": 1.58,
-    "gap_pct": -17.61,
-    "cxr14": -2.0499,
-    "cxr1m": -4.4117,
+  "ERW": {
+    "symbol": "ERW",
+    "sector": "TOUR",
+    "rank": 10,
+    "rank_prev": 8,
+    "rank_change": -2,
+    "rank_score": 23.16,
+    "rank_score_prev": 36.26,
+    "rsi": 62.3,
+    "rg": 77.0,
+    "rt": 1.02,
+    "gap_pct": -19.67,
+    "cxr14": 0.535,
+    "cxr1m": 6.718,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -2.9851,
-    "s7": 4.8387,
-    "s14": 7.8838,
-    "s1m": 8.3333,
-    "er": "STRONG",
+    "d1": -3.9474,
+    "s7": 2.0979,
+    "s14": 8.9552,
+    "s1m": 4.2857,
+    "er": "",
     "src": "RT",
-    "last_price": 65.0,
+    "last_price": 2.92,
     "history": [
       {
         "date": "25 พ.ค.",
-        "rank_score": 5.76,
+        "rank_score": 35.96,
         "rt": 0.0,
-        "rsi": 64.67
+        "rsi": 60.85
       },
       {
         "date": "26 พ.ค.",
-        "rank_score": 0.12,
+        "rank_score": 26.7,
         "rt": 0.0,
-        "rsi": 62.94
+        "rsi": 60.85
       },
       {
         "date": "27 พ.ค.",
-        "rank_score": 7.51,
+        "rank_score": 2.76,
         "rt": 0.0,
-        "rsi": 65.89
+        "rsi": 62.82
       },
       {
         "date": "28 พ.ค.",
-        "rank_score": 8.82,
+        "rank_score": 2.02,
         "rt": 0.0,
-        "rsi": 60.69
+        "rsi": 59.59
       },
       {
         "date": "29 พ.ค.",
-        "rank_score": 8.34,
+        "rank_score": -4.84,
         "rt": 0.0,
-        "rsi": 61.77
+        "rsi": 61.71
       },
       {
         "date": "2 มิ.ย.",
-        "rank_score": 28.2,
-        "rt": 3.58,
-        "rsi": 70.52
+        "rank_score": 3.81,
+        "rt": 0.62,
+        "rsi": 63.75
       },
       {
         "date": "3 มิ.ย.",
-        "rank_score": 23.24,
-        "rt": 4.92,
-        "rsi": 71.03
+        "rank_score": 14.32,
+        "rt": 1.07,
+        "rsi": 63.9
       },
       {
         "date": "4 มิ.ย.",
-        "rank_score": 30.78,
-        "rt": 2.95,
-        "rsi": 77.5
+        "rank_score": 17.61,
+        "rt": 1.2,
+        "rsi": 60.19
       },
       {
         "date": "5 มิ.ย.",
-        "rank_score": 24.43,
-        "rt": 1.34,
-        "rsi": 76.12
+        "rank_score": 36.26,
+        "rt": 3.97,
+        "rsi": 68.4
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 22.14,
-        "rt": 1.58,
-        "rsi": 66.42
+        "rank_score": 23.16,
+        "rt": 1.02,
+        "rsi": 62.3
       }
     ]
   },
   "KCE": {
     "symbol": "KCE",
     "sector": "ELECTRONICS",
-    "rank": 13,
+    "rank": 11,
     "rank_prev": 6,
-    "rank_change": -7,
-    "rank_score": 20.56,
+    "rank_change": -5,
+    "rank_score": 22.39,
     "rank_score_prev": 40.76,
-    "rsi": 54.7,
-    "rg": 79.9,
-    "rt": 1.08,
-    "gap_pct": 10.94,
+    "rsi": 56.7,
+    "rg": 80.9,
+    "rt": 1.03,
+    "gap_pct": 11.72,
     "cxr14": -0.6479,
     "cxr1m": 4.8548,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -2.7211,
-    "s7": -4.6667,
-    "s14": 9.1603,
-    "s1m": 11.7188,
+    "d1": -3.4014,
+    "s7": -5.3333,
+    "s14": 8.3969,
+    "s1m": 10.9375,
     "er": "",
     "src": "RT",
-    "last_price": 35.75,
+    "last_price": 35.5,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -1124,111 +950,24 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 20.56,
-        "rt": 1.08,
-        "rsi": 54.66
-      }
-    ]
-  },
-  "CENTEL": {
-    "symbol": "CENTEL",
-    "sector": "TOUR",
-    "rank": 14,
-    "rank_prev": 12,
-    "rank_change": -2,
-    "rank_score": 18.97,
-    "rank_score_prev": 27.9,
-    "rsi": 63.3,
-    "rg": 51.3,
-    "rt": 0.81,
-    "gap_pct": -12.18,
-    "cxr14": 1.812,
-    "cxr1m": 3.5794,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": -0.7246,
-    "s7": 1.4815,
-    "s14": 7.874,
-    "s1m": 10.4839,
-    "er": "",
-    "src": "RT",
-    "last_price": 34.25,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": 20.8,
-        "rt": 0.0,
-        "rsi": 63.62
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": 19.8,
-        "rt": 0.0,
-        "rsi": 63.62
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": 12.13,
-        "rt": 0.0,
-        "rsi": 59.16
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": 19.02,
-        "rt": 0.0,
-        "rsi": 62.03
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": 14.48,
-        "rt": 0.0,
-        "rsi": 63.41
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": 21.12,
-        "rt": 0.94,
-        "rsi": 63.41
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": 19.41,
-        "rt": 1.24,
-        "rsi": 63.41
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": 18.94,
-        "rt": 1.09,
-        "rsi": 58.12
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": 27.9,
-        "rt": 2.45,
-        "rsi": 65.94
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": 18.97,
-        "rt": 0.81,
-        "rsi": 63.3
+        "rank_score": 22.39,
+        "rt": 1.03,
+        "rsi": 56.7
       }
     ]
   },
   "SCGP": {
     "symbol": "SCGP",
     "sector": "CONST",
-    "rank": 15,
+    "rank": 12,
     "rank_prev": 13,
-    "rank_change": -2,
-    "rank_score": 18.26,
+    "rank_change": 1,
+    "rank_score": 20.8,
     "rank_score_prev": 27.8,
-    "rsi": 61.9,
-    "rg": 93.5,
-    "rt": 0.57,
-    "gap_pct": -15.0,
+    "rsi": 64.5,
+    "rg": 95.7,
+    "rt": 0.52,
+    "gap_pct": -14.17,
     "cxr14": -0.3554,
     "cxr1m": -0.0996,
     "pe": null,
@@ -1298,9 +1037,270 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 18.26,
-        "rt": 0.57,
-        "rsi": 61.91
+        "rank_score": 20.8,
+        "rt": 0.52,
+        "rsi": 64.49
+      }
+    ]
+  },
+  "AOT": {
+    "symbol": "AOT",
+    "sector": "TOUR",
+    "rank": 13,
+    "rank_prev": 15,
+    "rank_change": 2,
+    "rank_score": 20.61,
+    "rank_score_prev": 21.76,
+    "rsi": 67.9,
+    "rg": 87.0,
+    "rt": 0.71,
+    "gap_pct": 4.59,
+    "cxr14": 1.1718,
+    "cxr1m": 1.0498,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": -1.7241,
+    "s7": 3.1674,
+    "s14": 8.5714,
+    "s1m": 11.2195,
+    "er": "",
+    "src": "RT",
+    "last_price": 57.0,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": 5.15,
+        "rt": 0.0,
+        "rsi": 59.66
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": 5.24,
+        "rt": 0.0,
+        "rsi": 57.93
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": 12.18,
+        "rt": 0.0,
+        "rsi": 60.4
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": 16.0,
+        "rt": 0.0,
+        "rsi": 62.75
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": 11.96,
+        "rt": 0.0,
+        "rsi": 63.9
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": 21.69,
+        "rt": 1.72,
+        "rsi": 68.15
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": 15.91,
+        "rt": 2.24,
+        "rsi": 68.44
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": 27.38,
+        "rt": 3.91,
+        "rsi": 75.81
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": 21.76,
+        "rt": 0.72,
+        "rsi": 71.98
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": 20.61,
+        "rt": 0.71,
+        "rsi": 67.9
+      }
+    ]
+  },
+  "GULF": {
+    "symbol": "GULF",
+    "sector": "ELEC",
+    "rank": 14,
+    "rank_prev": 14,
+    "rank_change": 0,
+    "rank_score": 20.21,
+    "rank_score_prev": 24.43,
+    "rsi": 66.4,
+    "rg": 88.7,
+    "rt": 1.57,
+    "gap_pct": -18.24,
+    "cxr14": -2.0499,
+    "cxr1m": -4.4117,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": -3.3582,
+    "s7": 4.4355,
+    "s14": 7.4689,
+    "s1m": 7.9167,
+    "er": "STRONG",
+    "src": "RT",
+    "last_price": 64.75,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": 5.76,
+        "rt": 0.0,
+        "rsi": 64.67
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": 0.12,
+        "rt": 0.0,
+        "rsi": 62.94
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": 7.51,
+        "rt": 0.0,
+        "rsi": 65.89
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": 8.82,
+        "rt": 0.0,
+        "rsi": 60.69
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": 8.34,
+        "rt": 0.0,
+        "rsi": 61.77
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": 28.2,
+        "rt": 3.58,
+        "rsi": 70.52
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": 23.24,
+        "rt": 4.92,
+        "rsi": 71.03
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": 30.78,
+        "rt": 2.95,
+        "rsi": 77.5
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": 24.43,
+        "rt": 1.34,
+        "rsi": 76.12
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": 20.21,
+        "rt": 1.57,
+        "rsi": 66.42
+      }
+    ]
+  },
+  "CENTEL": {
+    "symbol": "CENTEL",
+    "sector": "TOUR",
+    "rank": 15,
+    "rank_prev": 12,
+    "rank_change": -3,
+    "rank_score": 19.01,
+    "rank_score_prev": 27.9,
+    "rsi": 63.3,
+    "rg": 51.3,
+    "rt": 0.79,
+    "gap_pct": -12.18,
+    "cxr14": 1.812,
+    "cxr1m": 3.5794,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": -1.4493,
+    "s7": 0.7407,
+    "s14": 7.0866,
+    "s1m": 9.6774,
+    "er": "",
+    "src": "RT",
+    "last_price": 34.0,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": 20.8,
+        "rt": 0.0,
+        "rsi": 63.62
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": 19.8,
+        "rt": 0.0,
+        "rsi": 63.62
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": 12.13,
+        "rt": 0.0,
+        "rsi": 59.16
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": 19.02,
+        "rt": 0.0,
+        "rsi": 62.03
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": 14.48,
+        "rt": 0.0,
+        "rsi": 63.41
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": 21.12,
+        "rt": 0.94,
+        "rsi": 63.41
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": 19.41,
+        "rt": 1.24,
+        "rsi": 63.41
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": 18.94,
+        "rt": 1.09,
+        "rsi": 58.12
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": 27.9,
+        "rt": 2.45,
+        "rsi": 65.94
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": 19.01,
+        "rt": 0.79,
+        "rsi": 63.3
       }
     ]
   },
@@ -1310,24 +1310,24 @@
     "rank": 16,
     "rank_prev": 19,
     "rank_change": 3,
-    "rank_score": 18.02,
+    "rank_score": 18.09,
     "rank_score_prev": 18.9,
     "rsi": 75.8,
     "rg": 92.0,
-    "rt": 1.08,
+    "rt": 1.07,
     "gap_pct": 3.0,
     "cxr14": 0.3528,
     "cxr1m": 6.9494,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -0.9615,
-    "s7": 5.102,
-    "s14": 7.2917,
-    "s1m": 23.7981,
+    "d1": 0.0,
+    "s7": 6.1224,
+    "s14": 8.3333,
+    "s1m": 25.0,
     "er": "-",
     "src": "RT",
-    "last_price": 25.75,
+    "last_price": 26.0,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -1385,8 +1385,8 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 18.02,
-        "rt": 1.08,
+        "rank_score": 18.09,
+        "rt": 1.07,
         "rsi": 75.77
       }
     ]
@@ -1397,7 +1397,7 @@
     "rank": 17,
     "rank_prev": 23,
     "rank_change": 6,
-    "rank_score": 16.43,
+    "rank_score": 16.51,
     "rank_score_prev": 15.64,
     "rsi": 63.5,
     "rg": 88.6,
@@ -1472,7 +1472,7 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 16.43,
+        "rank_score": 16.51,
         "rt": 0.0,
         "rsi": 63.55
       }
@@ -1484,24 +1484,24 @@
     "rank": 18,
     "rank_prev": 20,
     "rank_change": 2,
-    "rank_score": 16.08,
+    "rank_score": 16.06,
     "rank_score_prev": 17.95,
     "rsi": 54.7,
     "rg": 63.6,
-    "rt": 1.12,
+    "rt": 1.05,
     "gap_pct": -23.38,
     "cxr14": -0.8443,
     "cxr1m": 0.0,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": 0.0,
-    "s7": 2.6087,
-    "s14": 6.3063,
-    "s1m": -9.2308,
+    "d1": -0.8475,
+    "s7": 1.7391,
+    "s14": 5.4054,
+    "s1m": -10.0,
     "er": "STRONG",
     "src": "RT",
-    "last_price": 11.8,
+    "last_price": 11.7,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -1559,123 +1559,36 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 16.08,
-        "rt": 1.12,
+        "rank_score": 16.06,
+        "rt": 1.05,
         "rsi": 54.72
-      }
-    ]
-  },
-  "GPSC": {
-    "symbol": "GPSC",
-    "sector": "ELEC",
-    "rank": 19,
-    "rank_prev": 18,
-    "rank_change": -1,
-    "rank_score": 14.8,
-    "rank_score_prev": 19.65,
-    "rsi": 60.4,
-    "rg": 76.6,
-    "rt": 1.02,
-    "gap_pct": -12.93,
-    "cxr14": -2.597,
-    "cxr1m": -8.6519,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": -2.4096,
-    "s7": 0.0,
-    "s14": 5.1948,
-    "s1m": 4.5161,
-    "er": "",
-    "src": "RT",
-    "last_price": 40.5,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": 31.52,
-        "rt": 0.0,
-        "rsi": 72.4
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": 8.57,
-        "rt": 0.0,
-        "rsi": 65.32
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": 9.59,
-        "rt": 0.0,
-        "rsi": 65.32
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": 7.39,
-        "rt": 0.0,
-        "rsi": 61.82
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": 9.98,
-        "rt": 0.0,
-        "rsi": 62.89
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": 22.36,
-        "rt": 1.04,
-        "rsi": 65.98
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": 16.5,
-        "rt": 1.4,
-        "rsi": 66.19
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": 14.96,
-        "rt": 0.85,
-        "rsi": 66.19
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": 19.65,
-        "rt": 1.3,
-        "rsi": 67.4
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": 14.8,
-        "rt": 1.02,
-        "rsi": 60.43
       }
     ]
   },
   "EASTW": {
     "symbol": "EASTW",
     "sector": "UTIL",
-    "rank": 20,
+    "rank": 19,
     "rank_prev": 7,
-    "rank_change": -13,
-    "rank_score": 14.75,
+    "rank_change": -12,
+    "rank_score": 14.64,
     "rank_score_prev": 40.48,
-    "rsi": 65.0,
+    "rsi": 66.0,
     "rg": 86.7,
-    "rt": 2.17,
+    "rt": 1.91,
     "gap_pct": 32.7,
     "cxr14": 6.4429,
     "cxr1m": 13.5471,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -5.3812,
-    "s7": -0.939,
-    "s14": 6.0302,
-    "s1m": 25.5952,
+    "d1": -7.1749,
+    "s7": -2.8169,
+    "s14": 4.0201,
+    "s1m": 23.2143,
     "er": "",
     "src": "RT",
-    "last_price": 4.22,
+    "last_price": 4.14,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -1733,36 +1646,36 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 14.75,
-        "rt": 2.17,
-        "rsi": 65.05
+        "rank_score": 14.64,
+        "rt": 1.91,
+        "rsi": 66.05
       }
     ]
   },
   "DELTA": {
     "symbol": "DELTA",
     "sector": "ELECTRONICS",
-    "rank": 21,
+    "rank": 20,
     "rank_prev": 16,
-    "rank_change": -5,
-    "rank_score": 14.16,
+    "rank_change": -4,
+    "rank_score": 14.08,
     "rank_score_prev": 21.47,
-    "rsi": 55.2,
+    "rsi": 54.5,
     "rg": 87.6,
-    "rt": 1.56,
+    "rt": 1.45,
     "gap_pct": -5.83,
     "cxr14": -0.6003,
     "cxr1m": -0.0075,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -1.1662,
-    "s7": -3.966,
-    "s14": 4.9536,
-    "s1m": 9.0032,
+    "d1": -1.7493,
+    "s7": -4.5326,
+    "s14": 4.3344,
+    "s1m": 8.3601,
     "er": "STRONG",
     "src": "RT",
-    "last_price": 339.0,
+    "last_price": 337.0,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -1820,23 +1733,23 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 14.16,
-        "rt": 1.56,
-        "rsi": 55.23
+        "rank_score": 14.08,
+        "rt": 1.45,
+        "rsi": 54.52
       }
     ]
   },
   "COM7": {
     "symbol": "COM7",
     "sector": "TECH",
-    "rank": 22,
+    "rank": 21,
     "rank_prev": 22,
-    "rank_change": 0,
-    "rank_score": 13.18,
+    "rank_change": 1,
+    "rank_score": 13.68,
     "rank_score_prev": 16.27,
     "rsi": 62.5,
     "rg": 89.7,
-    "rt": 1.65,
+    "rt": 1.92,
     "gap_pct": -23.08,
     "cxr14": 0.8999,
     "cxr1m": 4.3026,
@@ -1907,110 +1820,110 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 13.18,
-        "rt": 1.65,
+        "rank_score": 13.68,
+        "rt": 1.92,
         "rsi": 62.45
       }
     ]
   },
-  "SCC": {
-    "symbol": "SCC",
-    "sector": "PETRO",
-    "rank": 23,
-    "rank_prev": 26,
-    "rank_change": 3,
-    "rank_score": 12.89,
-    "rank_score_prev": 11.08,
-    "rsi": 62.2,
-    "rg": 91.5,
-    "rt": 1.57,
-    "gap_pct": -4.84,
-    "cxr14": 0.0193,
-    "cxr1m": 0.5167,
+  "GPSC": {
+    "symbol": "GPSC",
+    "sector": "ELEC",
+    "rank": 22,
+    "rank_prev": 18,
+    "rank_change": -4,
+    "rank_score": 13.35,
+    "rank_score_prev": 19.65,
+    "rsi": 60.4,
+    "rg": 74.8,
+    "rt": 1.05,
+    "gap_pct": -13.46,
+    "cxr14": -2.597,
+    "cxr1m": -8.6519,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": 0.4274,
-    "s7": 3.5242,
-    "s14": 3.9823,
-    "s1m": 1.7316,
-    "er": "STRONG",
+    "d1": -2.4096,
+    "s7": 0.0,
+    "s14": 5.1948,
+    "s1m": 4.5161,
+    "er": "",
     "src": "RT",
-    "last_price": 235.0,
+    "last_price": 40.5,
     "history": [
       {
         "date": "25 พ.ค.",
-        "rank_score": -9.5,
+        "rank_score": 31.52,
         "rt": 0.0,
-        "rsi": 52.97
+        "rsi": 72.4
       },
       {
         "date": "26 พ.ค.",
-        "rank_score": -2.93,
+        "rank_score": 8.57,
         "rt": 0.0,
-        "rsi": 57.34
+        "rsi": 65.32
       },
       {
         "date": "27 พ.ค.",
-        "rank_score": -4.02,
+        "rank_score": 9.59,
         "rt": 0.0,
-        "rsi": 54.61
+        "rsi": 65.32
       },
       {
         "date": "28 พ.ค.",
-        "rank_score": -5.81,
+        "rank_score": 7.39,
         "rt": 0.0,
-        "rsi": 51.95
+        "rsi": 61.82
       },
       {
         "date": "29 พ.ค.",
-        "rank_score": -3.32,
+        "rank_score": 9.98,
         "rt": 0.0,
-        "rsi": 51.95
+        "rsi": 62.89
       },
       {
         "date": "2 มิ.ย.",
-        "rank_score": 0.17,
-        "rt": 1.35,
-        "rsi": 54.52
+        "rank_score": 22.36,
+        "rt": 1.04,
+        "rsi": 65.98
       },
       {
         "date": "3 มิ.ย.",
-        "rank_score": 2.48,
-        "rt": 1.78,
-        "rsi": 54.71
+        "rank_score": 16.5,
+        "rt": 1.4,
+        "rsi": 66.19
       },
       {
         "date": "4 มิ.ย.",
-        "rank_score": -0.14,
-        "rt": 1.04,
-        "rsi": 50.06
+        "rank_score": 14.96,
+        "rt": 0.85,
+        "rsi": 66.19
       },
       {
         "date": "5 มิ.ย.",
-        "rank_score": 11.08,
-        "rt": 2.04,
-        "rsi": 60.13
+        "rank_score": 19.65,
+        "rt": 1.3,
+        "rsi": 67.4
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 12.89,
-        "rt": 1.57,
-        "rsi": 62.24
+        "rank_score": 13.35,
+        "rt": 1.05,
+        "rsi": 60.43
       }
     ]
   },
   "UBE": {
     "symbol": "UBE",
     "sector": "AGRO",
-    "rank": 24,
+    "rank": 23,
     "rank_prev": 47,
-    "rank_change": 23,
-    "rank_score": 12.3,
+    "rank_change": 24,
+    "rank_score": 12.93,
     "rank_score_prev": 1.45,
-    "rsi": 49.2,
+    "rsi": 46.9,
     "rg": 36.9,
-    "rt": 1.64,
+    "rt": 3.33,
     "gap_pct": -29.76,
     "cxr14": -1.4488,
     "cxr1m": -2.8928,
@@ -2081,24 +1994,198 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 12.3,
-        "rt": 1.64,
-        "rsi": 49.22
+        "rank_score": 12.93,
+        "rt": 3.33,
+        "rsi": 46.86
+      }
+    ]
+  },
+  "CREDIT": {
+    "symbol": "CREDIT",
+    "sector": "BANK",
+    "rank": 24,
+    "rank_prev": 28,
+    "rank_change": 4,
+    "rank_score": 12.03,
+    "rank_score_prev": 10.06,
+    "rsi": 66.4,
+    "rg": 92.8,
+    "rt": 1.77,
+    "gap_pct": -35.47,
+    "cxr14": 1.6576,
+    "cxr1m": 6.9413,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": -2.0833,
+    "s7": -0.5291,
+    "s14": 3.2967,
+    "s1m": 2.1739,
+    "er": "NORMAL",
+    "src": "RT",
+    "last_price": 18.8,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": 6.78,
+        "rt": 0.0,
+        "rsi": 69.54
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": 9.27,
+        "rt": 0.0,
+        "rsi": 75.15
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": 3.73,
+        "rt": 0.0,
+        "rsi": 67.16
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": 6.78,
+        "rt": 0.0,
+        "rsi": 67.16
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": 6.34,
+        "rt": 0.0,
+        "rsi": 67.16
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": 11.81,
+        "rt": 0.53,
+        "rsi": 69.83
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": 14.9,
+        "rt": 0.81,
+        "rsi": 70.02
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": 6.22,
+        "rt": 0.99,
+        "rsi": 66.88
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": 10.06,
+        "rt": 1.52,
+        "rsi": 68.29
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": 12.03,
+        "rt": 1.77,
+        "rsi": 66.43
+      }
+    ]
+  },
+  "SCC": {
+    "symbol": "SCC",
+    "sector": "PETRO",
+    "rank": 25,
+    "rank_prev": 26,
+    "rank_change": 1,
+    "rank_score": 11.95,
+    "rank_score_prev": 11.08,
+    "rsi": 62.2,
+    "rg": 90.2,
+    "rt": 1.61,
+    "gap_pct": -5.24,
+    "cxr14": 0.0193,
+    "cxr1m": 0.5167,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": 0.4274,
+    "s7": 3.5242,
+    "s14": 3.9823,
+    "s1m": 1.7316,
+    "er": "STRONG",
+    "src": "RT",
+    "last_price": 235.0,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": -9.5,
+        "rt": 0.0,
+        "rsi": 52.97
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": -2.93,
+        "rt": 0.0,
+        "rsi": 57.34
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": -4.02,
+        "rt": 0.0,
+        "rsi": 54.61
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": -5.81,
+        "rt": 0.0,
+        "rsi": 51.95
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": -3.32,
+        "rt": 0.0,
+        "rsi": 51.95
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": 0.17,
+        "rt": 1.35,
+        "rsi": 54.52
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": 2.48,
+        "rt": 1.78,
+        "rsi": 54.71
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": -0.14,
+        "rt": 1.04,
+        "rsi": 50.06
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": 11.08,
+        "rt": 2.04,
+        "rsi": 60.13
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": 11.95,
+        "rt": 1.61,
+        "rsi": 62.24
       }
     ]
   },
   "WHA": {
     "symbol": "WHA",
     "sector": "UTIL",
-    "rank": 25,
+    "rank": 26,
     "rank_prev": 29,
-    "rank_change": 4,
-    "rank_score": 12.13,
+    "rank_change": 3,
+    "rank_score": 11.46,
     "rank_score_prev": 9.69,
     "rsi": 62.6,
-    "rg": 90.8,
-    "rt": 1.65,
-    "gap_pct": 5.04,
+    "rg": 89.9,
+    "rt": 1.82,
+    "gap_pct": 4.62,
     "cxr14": 0.1894,
     "cxr1m": 4.5256,
     "pe": null,
@@ -2168,96 +2255,9 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 12.13,
-        "rt": 1.65,
+        "rank_score": 11.46,
+        "rt": 1.82,
         "rsi": 62.65
-      }
-    ]
-  },
-  "CREDIT": {
-    "symbol": "CREDIT",
-    "sector": "BANK",
-    "rank": 26,
-    "rank_prev": 28,
-    "rank_change": 2,
-    "rank_score": 12.04,
-    "rank_score_prev": 10.06,
-    "rsi": 66.4,
-    "rg": 92.8,
-    "rt": 1.95,
-    "gap_pct": -35.47,
-    "cxr14": 1.6576,
-    "cxr1m": 6.9413,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": -0.5208,
-    "s7": 1.0582,
-    "s14": 4.9451,
-    "s1m": 3.8043,
-    "er": "NORMAL",
-    "src": "RT",
-    "last_price": 19.1,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": 6.78,
-        "rt": 0.0,
-        "rsi": 69.54
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": 9.27,
-        "rt": 0.0,
-        "rsi": 75.15
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": 3.73,
-        "rt": 0.0,
-        "rsi": 67.16
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": 6.78,
-        "rt": 0.0,
-        "rsi": 67.16
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": 6.34,
-        "rt": 0.0,
-        "rsi": 67.16
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": 11.81,
-        "rt": 0.53,
-        "rsi": 69.83
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": 14.9,
-        "rt": 0.81,
-        "rsi": 70.02
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": 6.22,
-        "rt": 0.99,
-        "rsi": 66.88
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": 10.06,
-        "rt": 1.52,
-        "rsi": 68.29
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": 12.04,
-        "rt": 1.95,
-        "rsi": 66.43
       }
     ]
   },
@@ -2267,24 +2267,24 @@
     "rank": 27,
     "rank_prev": 24,
     "rank_change": -3,
-    "rank_score": 11.41,
+    "rank_score": 11.03,
     "rank_score_prev": 14.12,
     "rsi": 57.9,
-    "rg": 70.2,
-    "rt": 1.2,
-    "gap_pct": -30.92,
+    "rg": 69.5,
+    "rt": 1.35,
+    "gap_pct": -31.11,
     "cxr14": 0.0,
     "cxr1m": 0.9703,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -2.168,
-    "s7": 0.5571,
-    "s14": 4.0346,
-    "s1m": 1.1204,
+    "d1": -2.71,
+    "s7": 0.0,
+    "s14": 3.4582,
+    "s1m": 0.5602,
     "er": "",
     "src": "RT",
-    "last_price": 180.5,
+    "last_price": 179.5,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -2342,23 +2342,110 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 11.41,
-        "rt": 1.2,
+        "rank_score": 11.03,
+        "rt": 1.35,
         "rsi": 57.93
+      }
+    ]
+  },
+  "KTB": {
+    "symbol": "KTB",
+    "sector": "BANK",
+    "rank": 28,
+    "rank_prev": 37,
+    "rank_change": 9,
+    "rank_score": 10.22,
+    "rank_score_prev": 4.91,
+    "rsi": 68.0,
+    "rg": 97.5,
+    "rt": 2.18,
+    "gap_pct": -49.29,
+    "cxr14": 0.0,
+    "cxr1m": 0.0,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": -0.7092,
+    "s7": 0.7194,
+    "s14": 1.4493,
+    "s1m": 6.8702,
+    "er": "-",
+    "src": "RT",
+    "last_price": 35.0,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": 17.96,
+        "rt": 0.0,
+        "rsi": 72.3
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": 16.95,
+        "rt": 0.0,
+        "rsi": 72.3
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": 13.1,
+        "rt": 0.0,
+        "rsi": 72.3
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": 14.18,
+        "rt": 0.0,
+        "rsi": 72.3
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": 10.29,
+        "rt": 0.0,
+        "rsi": 66.44
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": 19.7,
+        "rt": 1.8,
+        "rsi": 71.43
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": 13.24,
+        "rt": 2.46,
+        "rsi": 71.75
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": 7.39,
+        "rt": 1.25,
+        "rsi": 73.97
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": 4.91,
+        "rt": 1.26,
+        "rsi": 67.97
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": 10.22,
+        "rt": 2.18,
+        "rsi": 67.97
       }
     ]
   },
   "SCB": {
     "symbol": "SCB",
     "sector": "BANK",
-    "rank": 28,
+    "rank": 29,
     "rank_prev": 27,
-    "rank_change": -1,
-    "rank_score": 10.04,
+    "rank_change": -2,
+    "rank_score": 9.79,
     "rank_score_prev": 10.73,
-    "rsi": 66.0,
+    "rsi": 63.6,
     "rg": 87.4,
-    "rt": 1.78,
+    "rt": 1.56,
     "gap_pct": -7.33,
     "cxr14": 1.1553,
     "cxr1m": 3.2027,
@@ -2429,210 +2516,36 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 10.04,
-        "rt": 1.78,
-        "rsi": 65.96
-      }
-    ]
-  },
-  "KTB": {
-    "symbol": "KTB",
-    "sector": "BANK",
-    "rank": 29,
-    "rank_prev": 37,
-    "rank_change": 8,
-    "rank_score": 8.76,
-    "rank_score_prev": 4.91,
-    "rsi": 68.0,
-    "rg": 95.0,
-    "rt": 2.43,
-    "gap_pct": -49.64,
-    "cxr14": 0.0,
-    "cxr1m": 0.0,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": 0.7092,
-    "s7": 2.1583,
-    "s14": 2.8986,
-    "s1m": 8.3969,
-    "er": "-",
-    "src": "RT",
-    "last_price": 35.5,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": 17.96,
-        "rt": 0.0,
-        "rsi": 72.3
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": 16.95,
-        "rt": 0.0,
-        "rsi": 72.3
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": 13.1,
-        "rt": 0.0,
-        "rsi": 72.3
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": 14.18,
-        "rt": 0.0,
-        "rsi": 72.3
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": 10.29,
-        "rt": 0.0,
-        "rsi": 66.44
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": 19.7,
-        "rt": 1.8,
-        "rsi": 71.43
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": 13.24,
-        "rt": 2.46,
-        "rsi": 71.75
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": 7.39,
-        "rt": 1.25,
-        "rsi": 73.97
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": 4.91,
-        "rt": 1.26,
-        "rsi": 67.97
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": 8.76,
-        "rt": 2.43,
-        "rsi": 67.97
-      }
-    ]
-  },
-  "CK": {
-    "symbol": "CK",
-    "sector": "CONST",
-    "rank": 30,
-    "rank_prev": 21,
-    "rank_change": -9,
-    "rank_score": 6.65,
-    "rank_score_prev": 17.19,
-    "rsi": 54.0,
-    "rg": 82.4,
-    "rt": 1.01,
-    "gap_pct": -17.86,
-    "cxr14": -0.0305,
-    "cxr1m": -0.5061,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": -3.1746,
-    "s7": 1.6667,
-    "s14": 1.6667,
-    "s1m": -3.1746,
-    "er": "",
-    "src": "RT",
-    "last_price": 18.3,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": -1.26,
-        "rt": 0.0,
-        "rsi": 61.56
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": -10.8,
-        "rt": 0.0,
-        "rsi": 52.81
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": -17.4,
-        "rt": 0.0,
-        "rsi": 51.5
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": -3.93,
-        "rt": 0.0,
-        "rsi": 53.96
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": 0.73,
-        "rt": 0.0,
-        "rsi": 56.35
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": 23.23,
-        "rt": 2.33,
-        "rsi": 69.84
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": 26.45,
-        "rt": 3.29,
-        "rsi": 70.54
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": 16.62,
-        "rt": 1.84,
-        "rsi": 63.59
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": 17.19,
-        "rt": 0.49,
-        "rsi": 59.08
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": 6.65,
-        "rt": 1.01,
-        "rsi": 54.05
+        "rank_score": 9.79,
+        "rt": 1.56,
+        "rsi": 63.6
       }
     ]
   },
   "TAN": {
     "symbol": "TAN",
     "sector": "CONSUMER",
-    "rank": 31,
+    "rank": 30,
     "rank_prev": 55,
-    "rank_change": 24,
-    "rank_score": 6.29,
+    "rank_change": 25,
+    "rank_score": 6.43,
     "rank_score_prev": -0.91,
     "rsi": 52.3,
     "rg": 70.5,
-    "rt": 0.02,
+    "rt": 0.18,
     "gap_pct": -45.35,
     "cxr14": -0.9778,
     "cxr1m": -0.2314,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": 0.0,
-    "s7": 1.6216,
-    "s14": 3.2967,
-    "s1m": -5.5276,
+    "d1": 0.5319,
+    "s7": 2.1622,
+    "s14": 3.8462,
+    "s1m": -5.0251,
     "er": "",
     "src": "RT",
-    "last_price": 3.76,
+    "last_price": 3.78,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -2690,96 +2603,183 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 6.29,
-        "rt": 0.02,
+        "rank_score": 6.43,
+        "rt": 0.18,
         "rsi": 52.33
       }
     ]
   },
-  "STGT": {
-    "symbol": "STGT",
-    "sector": "AGRO",
-    "rank": 32,
-    "rank_prev": 61,
-    "rank_change": 29,
-    "rank_score": 5.92,
-    "rank_score_prev": -3.07,
-    "rsi": 52.2,
-    "rg": 83.9,
-    "rt": 1.28,
-    "gap_pct": 5.56,
-    "cxr14": -2.7539,
-    "cxr1m": -2.273,
+  "MTC": {
+    "symbol": "MTC",
+    "sector": "FINANCE",
+    "rank": 31,
+    "rank_prev": 36,
+    "rank_change": 5,
+    "rank_score": 6.37,
+    "rank_score_prev": 5.34,
+    "rsi": 44.2,
+    "rg": 15.3,
+    "rt": 1.2,
+    "gap_pct": -47.71,
+    "cxr14": 0.8147,
+    "cxr1m": 0.4315,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": 1.8018,
-    "s7": -1.7391,
-    "s14": 0.8929,
-    "s1m": 5.6075,
+    "d1": -1.7241,
+    "s7": -0.8696,
+    "s14": 2.7027,
+    "s1m": -5.0,
     "er": "",
     "src": "RT",
-    "last_price": 11.3,
+    "last_price": 28.5,
     "history": [
       {
         "date": "25 พ.ค.",
-        "rank_score": 21.5,
+        "rank_score": -4.41,
         "rt": 0.0,
-        "rsi": 67.15
+        "rsi": 49.46
       },
       {
         "date": "26 พ.ค.",
-        "rank_score": 22.96,
+        "rank_score": -11.03,
         "rt": 0.0,
-        "rsi": 64.74
+        "rsi": 47.98
       },
       {
         "date": "27 พ.ค.",
-        "rank_score": 18.83,
+        "rank_score": -13.04,
         "rt": 0.0,
-        "rsi": 62.33
+        "rsi": 47.98
       },
       {
         "date": "28 พ.ค.",
-        "rank_score": -4.88,
+        "rank_score": -8.28,
         "rt": 0.0,
-        "rsi": 62.33
+        "rsi": 47.98
       },
       {
         "date": "29 พ.ค.",
-        "rank_score": -5.4,
+        "rank_score": -6.82,
         "rt": 0.0,
-        "rsi": 57.38
+        "rsi": 47.98
       },
       {
         "date": "2 มิ.ย.",
-        "rank_score": -1.12,
-        "rt": 0.54,
-        "rsi": 62.23
+        "rank_score": -0.81,
+        "rt": 0.43,
+        "rsi": 49.99
       },
       {
         "date": "3 มิ.ย.",
-        "rank_score": 2.48,
-        "rt": 0.82,
-        "rsi": 62.56
+        "rank_score": -2.74,
+        "rt": 0.62,
+        "rsi": 50.14
       },
       {
         "date": "4 มิ.ย.",
-        "rank_score": 2.3,
-        "rt": 1.13,
-        "rsi": 57.54
+        "rank_score": -2.91,
+        "rt": 0.98,
+        "rsi": 46.02
       },
       {
         "date": "5 มิ.ย.",
-        "rank_score": -3.07,
-        "rt": 1.48,
-        "rsi": 46.46
+        "rank_score": 5.34,
+        "rt": 1.52,
+        "rsi": 48.19
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 5.92,
-        "rt": 1.28,
-        "rsi": 52.25
+        "rank_score": 6.37,
+        "rt": 1.2,
+        "rsi": 44.25
+      }
+    ]
+  },
+  "CK": {
+    "symbol": "CK",
+    "sector": "CONST",
+    "rank": 32,
+    "rank_prev": 21,
+    "rank_change": -11,
+    "rank_score": 5.65,
+    "rank_score_prev": 17.19,
+    "rsi": 54.0,
+    "rg": 81.3,
+    "rt": 1.18,
+    "gap_pct": -18.3,
+    "cxr14": -0.0305,
+    "cxr1m": -0.5061,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": -3.7037,
+    "s7": 1.1111,
+    "s14": 1.1111,
+    "s1m": -3.7037,
+    "er": "",
+    "src": "RT",
+    "last_price": 18.2,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": -1.26,
+        "rt": 0.0,
+        "rsi": 61.56
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": -10.8,
+        "rt": 0.0,
+        "rsi": 52.81
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": -17.4,
+        "rt": 0.0,
+        "rsi": 51.5
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": -3.93,
+        "rt": 0.0,
+        "rsi": 53.96
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": 0.73,
+        "rt": 0.0,
+        "rsi": 56.35
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": 23.23,
+        "rt": 2.33,
+        "rsi": 69.84
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": 26.45,
+        "rt": 3.29,
+        "rsi": 70.54
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": 16.62,
+        "rt": 1.84,
+        "rsi": 63.59
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": 17.19,
+        "rt": 0.49,
+        "rsi": 59.08
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": 5.65,
+        "rt": 1.18,
+        "rsi": 54.05
       }
     ]
   },
@@ -2876,11 +2876,11 @@
     "rank": 34,
     "rank_prev": 34,
     "rank_change": 0,
-    "rank_score": 4.9,
+    "rank_score": 4.94,
     "rank_score_prev": 5.68,
-    "rsi": 47.3,
+    "rsi": 49.6,
     "rg": 73.6,
-    "rt": 0.9,
+    "rt": 0.77,
     "gap_pct": -26.9,
     "cxr14": 0.6894,
     "cxr1m": 7.2343,
@@ -2951,96 +2951,96 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 4.9,
-        "rt": 0.9,
-        "rsi": 47.27
+        "rank_score": 4.94,
+        "rt": 0.77,
+        "rsi": 49.63
       }
     ]
   },
-  "MTC": {
-    "symbol": "MTC",
-    "sector": "FINANCE",
+  "KBANK": {
+    "symbol": "KBANK",
+    "sector": "BANK",
     "rank": 35,
-    "rank_prev": 36,
-    "rank_change": 1,
-    "rank_score": 4.33,
-    "rank_score_prev": 5.34,
-    "rsi": 44.2,
-    "rg": 13.4,
-    "rt": 1.34,
-    "gap_pct": -48.17,
-    "cxr14": 0.8147,
-    "cxr1m": 0.4315,
+    "rank_prev": 40,
+    "rank_change": 5,
+    "rank_score": 4.67,
+    "rank_score_prev": 3.21,
+    "rsi": 58.2,
+    "rg": 92.0,
+    "rt": 1.12,
+    "gap_pct": -49.75,
+    "cxr14": 0.0,
+    "cxr1m": 0.0,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -1.7241,
-    "s7": -0.8696,
-    "s14": 2.7027,
-    "s1m": -5.0,
-    "er": "",
+    "d1": -0.4975,
+    "s7": -0.4975,
+    "s14": 0.7557,
+    "s1m": 2.5641,
+    "er": "-",
     "src": "RT",
-    "last_price": 28.5,
+    "last_price": 200.0,
     "history": [
       {
         "date": "25 พ.ค.",
-        "rank_score": -4.41,
+        "rank_score": 0.05,
         "rt": 0.0,
-        "rsi": 49.46
+        "rsi": 58.55
       },
       {
         "date": "26 พ.ค.",
-        "rank_score": -11.03,
+        "rank_score": 4.33,
         "rt": 0.0,
-        "rsi": 47.98
+        "rsi": 62.83
       },
       {
         "date": "27 พ.ค.",
-        "rank_score": -13.04,
+        "rank_score": 1.75,
         "rt": 0.0,
-        "rsi": 47.98
+        "rsi": 63.83
       },
       {
         "date": "28 พ.ค.",
-        "rank_score": -8.28,
+        "rank_score": -0.78,
         "rt": 0.0,
-        "rsi": 47.98
+        "rsi": 64.85
       },
       {
         "date": "29 พ.ค.",
-        "rank_score": -6.82,
+        "rank_score": 2.22,
         "rt": 0.0,
-        "rsi": 47.98
+        "rsi": 68.67
       },
       {
         "date": "2 มิ.ย.",
-        "rank_score": -0.81,
-        "rt": 0.43,
-        "rsi": 49.99
+        "rank_score": 8.33,
+        "rt": 0.89,
+        "rsi": 73.34
       },
       {
         "date": "3 มิ.ย.",
-        "rank_score": -2.74,
-        "rt": 0.62,
-        "rsi": 50.14
+        "rank_score": 9.33,
+        "rt": 1.27,
+        "rsi": 73.65
       },
       {
         "date": "4 มิ.ย.",
-        "rank_score": -2.91,
-        "rt": 0.98,
-        "rsi": 46.02
+        "rank_score": 6.03,
+        "rt": 0.93,
+        "rsi": 69.67
       },
       {
         "date": "5 มิ.ย.",
-        "rank_score": 5.34,
-        "rt": 1.52,
-        "rsi": 48.19
+        "rank_score": 3.21,
+        "rt": 1.22,
+        "rsi": 65.32
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 4.33,
-        "rt": 1.34,
-        "rsi": 44.25
+        "rank_score": 4.67,
+        "rt": 1.12,
+        "rsi": 58.22
       }
     ]
   },
@@ -3131,30 +3131,117 @@
       }
     ]
   },
+  "STGT": {
+    "symbol": "STGT",
+    "sector": "AGRO",
+    "rank": 37,
+    "rank_prev": 61,
+    "rank_change": 24,
+    "rank_score": 3.81,
+    "rank_score_prev": -3.07,
+    "rsi": 52.2,
+    "rg": 81.9,
+    "rt": 1.26,
+    "gap_pct": 4.63,
+    "cxr14": -2.7539,
+    "cxr1m": -2.273,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": 0.9009,
+    "s7": -2.6087,
+    "s14": 0.0,
+    "s1m": 4.6729,
+    "er": "",
+    "src": "RT",
+    "last_price": 11.2,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": 21.5,
+        "rt": 0.0,
+        "rsi": 67.15
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": 22.96,
+        "rt": 0.0,
+        "rsi": 64.74
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": 18.83,
+        "rt": 0.0,
+        "rsi": 62.33
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": -4.88,
+        "rt": 0.0,
+        "rsi": 62.33
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": -5.4,
+        "rt": 0.0,
+        "rsi": 57.38
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": -1.12,
+        "rt": 0.54,
+        "rsi": 62.23
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": 2.48,
+        "rt": 0.82,
+        "rsi": 62.56
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": 2.3,
+        "rt": 1.13,
+        "rsi": 57.54
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": -3.07,
+        "rt": 1.48,
+        "rsi": 46.46
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": 3.81,
+        "rt": 1.26,
+        "rsi": 52.25
+      }
+    ]
+  },
   "HMPRO": {
     "symbol": "HMPRO",
     "sector": "HOME",
-    "rank": 37,
+    "rank": 38,
     "rank_prev": 54,
-    "rank_change": 17,
-    "rank_score": 4.05,
+    "rank_change": 16,
+    "rank_score": 3.58,
     "rank_score_prev": -0.42,
     "rsi": 46.6,
     "rg": 21.5,
-    "rt": 2.47,
+    "rt": 2.11,
     "gap_pct": -40.0,
     "cxr14": -0.0785,
     "cxr1m": -0.0469,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -0.8264,
-    "s7": -0.8264,
-    "s14": 0.8403,
-    "s1m": -0.8264,
+    "d1": -1.6529,
+    "s7": -1.6529,
+    "s14": 0.0,
+    "s1m": -1.6529,
     "er": "NOT GOOD",
     "src": "RT",
-    "last_price": 6.0,
+    "last_price": 5.95,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -3212,284 +3299,23 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 4.05,
-        "rt": 2.47,
+        "rank_score": 3.58,
+        "rt": 2.11,
         "rsi": 46.61
-      }
-    ]
-  },
-  "TQM": {
-    "symbol": "TQM",
-    "sector": "FINANCE",
-    "rank": 38,
-    "rank_prev": 32,
-    "rank_change": -6,
-    "rank_score": 3.74,
-    "rank_score_prev": 7.06,
-    "rsi": 53.8,
-    "rg": 75.9,
-    "rt": 1.28,
-    "gap_pct": -35.65,
-    "cxr14": -1.1751,
-    "cxr1m": -1.9205,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": -1.4286,
-    "s7": 2.2222,
-    "s14": 0.7299,
-    "s1m": -4.8276,
-    "er": "",
-    "src": "RT",
-    "last_price": 13.8,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": -16.24,
-        "rt": 0.0,
-        "rsi": 47.95
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": -15.98,
-        "rt": 0.0,
-        "rsi": 46.42
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": -16.36,
-        "rt": 0.0,
-        "rsi": 48.2
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": -9.8,
-        "rt": 0.0,
-        "rsi": 44.97
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": -0.28,
-        "rt": 0.0,
-        "rsi": 46.89
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": 3.91,
-        "rt": 2.05,
-        "rsi": 53.82
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": 2.18,
-        "rt": 2.81,
-        "rsi": 54.28
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": 4.42,
-        "rt": 0.95,
-        "rsi": 54.28
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": 7.06,
-        "rt": 1.26,
-        "rsi": 56.18
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": 3.74,
-        "rt": 1.28,
-        "rsi": 53.77
-      }
-    ]
-  },
-  "STA": {
-    "symbol": "STA",
-    "sector": "AGRO",
-    "rank": 39,
-    "rank_prev": 41,
-    "rank_change": 2,
-    "rank_score": 3.61,
-    "rank_score_prev": 3.01,
-    "rsi": 52.2,
-    "rg": 82.9,
-    "rt": 0.86,
-    "gap_pct": -23.79,
-    "cxr14": 0.0,
-    "cxr1m": 2.6992,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": -3.1088,
-    "s7": -2.6042,
-    "s14": -0.0,
-    "s1m": -1.0582,
-    "er": "",
-    "src": "RT",
-    "last_price": 18.7,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": -1.57,
-        "rt": 0.0,
-        "rsi": 54.13
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": 5.96,
-        "rt": 0.0,
-        "rsi": 55.22
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": -4.59,
-        "rt": 0.0,
-        "rsi": 53.84
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": -7.48,
-        "rt": 0.0,
-        "rsi": 60.24
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": -7.95,
-        "rt": 0.0,
-        "rsi": 58.78
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": -2.04,
-        "rt": 1.29,
-        "rsi": 63.54
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": -0.96,
-        "rt": 1.75,
-        "rsi": 63.86
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": -0.69,
-        "rt": 1.2,
-        "rsi": 63.86
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": 3.01,
-        "rt": 0.96,
-        "rsi": 55.34
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": 3.61,
-        "rt": 0.86,
-        "rsi": 52.22
-      }
-    ]
-  },
-  "KBANK": {
-    "symbol": "KBANK",
-    "sector": "BANK",
-    "rank": 40,
-    "rank_prev": 40,
-    "rank_change": 0,
-    "rank_score": 3.33,
-    "rank_score_prev": 3.21,
-    "rsi": 61.7,
-    "rg": 89.3,
-    "rt": 1.1,
-    "gap_pct": -50.0,
-    "cxr14": 0.0,
-    "cxr1m": 0.0,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": 0.0,
-    "s7": 0.0,
-    "s14": 1.2594,
-    "s1m": 3.0769,
-    "er": "-",
-    "src": "RT",
-    "last_price": 201.0,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": 0.05,
-        "rt": 0.0,
-        "rsi": 58.55
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": 4.33,
-        "rt": 0.0,
-        "rsi": 62.83
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": 1.75,
-        "rt": 0.0,
-        "rsi": 63.83
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": -0.78,
-        "rt": 0.0,
-        "rsi": 64.85
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": 2.22,
-        "rt": 0.0,
-        "rsi": 68.67
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": 8.33,
-        "rt": 0.89,
-        "rsi": 73.34
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": 9.33,
-        "rt": 1.27,
-        "rsi": 73.65
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": 6.03,
-        "rt": 0.93,
-        "rsi": 69.67
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": 3.21,
-        "rt": 1.22,
-        "rsi": 65.32
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": 3.33,
-        "rt": 1.1,
-        "rsi": 61.7
       }
     ]
   },
   "BCH": {
     "symbol": "BCH",
     "sector": "HEALTH",
-    "rank": 41,
+    "rank": 39,
     "rank_prev": 33,
-    "rank_change": -8,
-    "rank_score": 3.25,
+    "rank_change": -6,
+    "rank_score": 3.55,
     "rank_score_prev": 6.4,
     "rsi": 54.8,
     "rg": 20.3,
-    "rt": 0.82,
+    "rt": 0.97,
     "gap_pct": -49.73,
     "cxr14": -0.0349,
     "cxr1m": 0.051,
@@ -3560,109 +3386,22 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 3.25,
-        "rt": 0.82,
+        "rank_score": 3.55,
+        "rt": 0.97,
         "rsi": 54.83
-      }
-    ]
-  },
-  "OSP": {
-    "symbol": "OSP",
-    "sector": "FOOD",
-    "rank": 42,
-    "rank_prev": 31,
-    "rank_change": -11,
-    "rank_score": 2.78,
-    "rank_score_prev": 7.39,
-    "rsi": 56.9,
-    "rg": 38.9,
-    "rt": 0.81,
-    "gap_pct": -42.05,
-    "cxr14": 0.9394,
-    "cxr1m": 0.9691,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": -1.9355,
-    "s7": -0.6536,
-    "s14": 0.6622,
-    "s1m": 4.8276,
-    "er": "",
-    "src": "RT",
-    "last_price": 15.2,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": 10.21,
-        "rt": 0.0,
-        "rsi": 60.65
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": 9.2,
-        "rt": 0.0,
-        "rsi": 60.65
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": 7.21,
-        "rt": 0.0,
-        "rsi": 60.65
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": 11.33,
-        "rt": 0.0,
-        "rsi": 62.61
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": 14.3,
-        "rt": 0.0,
-        "rsi": 62.61
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": 17.94,
-        "rt": 0.45,
-        "rsi": 66.49
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": 13.25,
-        "rt": 0.74,
-        "rsi": 66.75
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": 5.89,
-        "rt": 0.63,
-        "rsi": 59.64
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": 7.39,
-        "rt": 1.86,
-        "rsi": 61.51
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": 2.78,
-        "rt": 0.81,
-        "rsi": 56.92
       }
     ]
   },
   "USDTHB-F": {
     "symbol": "USDTHB-F",
     "sector": "OTHER",
-    "rank": 43,
+    "rank": 40,
     "rank_prev": 42,
-    "rank_change": -1,
-    "rank_score": 2.75,
+    "rank_change": 2,
+    "rank_score": 2.77,
     "rank_score_prev": 2.2,
     "rsi": 64.8,
-    "rg": 98.6,
+    "rg": 98.8,
     "rt": 0,
     "gap_pct": -47.06,
     "cxr14": 0.0,
@@ -3734,23 +3473,110 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 2.75,
+        "rank_score": 2.77,
         "rt": 0,
         "rsi": 64.81
+      }
+    ]
+  },
+  "TQM": {
+    "symbol": "TQM",
+    "sector": "FINANCE",
+    "rank": 41,
+    "rank_prev": 32,
+    "rank_change": -9,
+    "rank_score": 2.33,
+    "rank_score_prev": 7.06,
+    "rsi": 53.8,
+    "rg": 73.8,
+    "rt": 2.06,
+    "gap_pct": -36.11,
+    "cxr14": -1.1751,
+    "cxr1m": -1.9205,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": -1.4286,
+    "s7": 2.2222,
+    "s14": 0.7299,
+    "s1m": -4.8276,
+    "er": "",
+    "src": "RT",
+    "last_price": 13.8,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": -16.24,
+        "rt": 0.0,
+        "rsi": 47.95
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": -15.98,
+        "rt": 0.0,
+        "rsi": 46.42
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": -16.36,
+        "rt": 0.0,
+        "rsi": 48.2
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": -9.8,
+        "rt": 0.0,
+        "rsi": 44.97
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": -0.28,
+        "rt": 0.0,
+        "rsi": 46.89
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": 3.91,
+        "rt": 2.05,
+        "rsi": 53.82
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": 2.18,
+        "rt": 2.81,
+        "rsi": 54.28
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": 4.42,
+        "rt": 0.95,
+        "rsi": 54.28
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": 7.06,
+        "rt": 1.26,
+        "rsi": 56.18
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": 2.33,
+        "rt": 2.06,
+        "rsi": 53.77
       }
     ]
   },
   "BDMS": {
     "symbol": "BDMS",
     "sector": "HEALTH",
-    "rank": 44,
+    "rank": 42,
     "rank_prev": 43,
-    "rank_change": -1,
-    "rank_score": 2.44,
+    "rank_change": 1,
+    "rank_score": 2.25,
     "rank_score_prev": 2.17,
-    "rsi": 49.4,
+    "rsi": 45.8,
     "rg": 30.8,
-    "rt": 1.03,
+    "rt": 0.91,
     "gap_pct": -49.73,
     "cxr14": 0.0,
     "cxr1m": 0.0,
@@ -3821,36 +3647,36 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 2.44,
-        "rt": 1.03,
-        "rsi": 49.43
+        "rank_score": 2.25,
+        "rt": 0.91,
+        "rsi": 45.77
       }
     ]
   },
   "GAS-F": {
     "symbol": "GAS-F",
     "sector": "OTHER",
-    "rank": 45,
+    "rank": 43,
     "rank_prev": 25,
-    "rank_change": -20,
-    "rank_score": 2.08,
+    "rank_change": -18,
+    "rank_score": 1.95,
     "rank_score_prev": 12.83,
     "rsi": 56.6,
-    "rg": 71.0,
+    "rg": 70.5,
     "rt": 0,
-    "gap_pct": -40.47,
+    "gap_pct": -40.53,
     "cxr14": 0.0,
     "cxr1m": 0.0,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -5.72,
-    "s7": -4.5623,
-    "s14": 0.9776,
-    "s1m": 13.1699,
+    "d1": -6.4617,
+    "s7": -5.3131,
+    "s14": 0.1833,
+    "s1m": 12.2797,
     "er": "-",
     "src": "YF",
-    "last_price": 3.1399,
+    "last_price": 3.1152,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -3908,36 +3734,123 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 2.08,
+        "rank_score": 1.95,
         "rt": 0,
         "rsi": 56.62
+      }
+    ]
+  },
+  "ITC": {
+    "symbol": "ITC",
+    "sector": "FOOD",
+    "rank": 44,
+    "rank_prev": 45,
+    "rank_change": 1,
+    "rank_score": 1.76,
+    "rank_score_prev": 1.76,
+    "rsi": 47.9,
+    "rg": 63.1,
+    "rt": 1.42,
+    "gap_pct": -19.5,
+    "cxr14": 0.2301,
+    "cxr1m": 1.3872,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": -0.6173,
+    "s7": -0.0,
+    "s14": -0.0,
+    "s1m": -0.6173,
+    "er": "STRONG",
+    "src": "RT",
+    "last_price": 16.1,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": -0.65,
+        "rt": 0.0,
+        "rsi": 56.33
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": 1.11,
+        "rt": 0.0,
+        "rsi": 56.33
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": -3.73,
+        "rt": 0.0,
+        "rsi": 52.12
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": -0.28,
+        "rt": 0.0,
+        "rsi": 53.97
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": 0.71,
+        "rt": 0.0,
+        "rsi": 51.81
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": 1.93,
+        "rt": 0.84,
+        "rsi": 55.64
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": 2.33,
+        "rt": 1.02,
+        "rsi": 55.91
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": 2.18,
+        "rt": 1.5,
+        "rsi": 55.91
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": 1.76,
+        "rt": 0.74,
+        "rsi": 53.09
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": 1.76,
+        "rt": 1.42,
+        "rsi": 47.89
       }
     ]
   },
   "CBG": {
     "symbol": "CBG",
     "sector": "FOOD",
-    "rank": 46,
+    "rank": 45,
     "rank_prev": 38,
-    "rank_change": -8,
-    "rank_score": 1.87,
+    "rank_change": -7,
+    "rank_score": 1.7,
     "rank_score_prev": 4.51,
-    "rsi": 51.2,
+    "rsi": 52.7,
     "rg": 49.2,
-    "rt": 1.29,
+    "rt": 1.13,
     "gap_pct": -37.6,
     "cxr14": 0.3332,
     "cxr1m": 3.6333,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -3.012,
-    "s7": 0.0,
-    "s14": 0.625,
-    "s1m": -0.6173,
+    "d1": -1.8072,
+    "s7": 1.2422,
+    "s14": 1.875,
+    "s1m": 0.6173,
     "er": "",
     "src": "RT",
-    "last_price": 40.25,
+    "last_price": 40.75,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -3995,18 +3908,192 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 1.87,
+        "rank_score": 1.7,
+        "rt": 1.13,
+        "rsi": 52.66
+      }
+    ]
+  },
+  "LH": {
+    "symbol": "LH",
+    "sector": "HOME",
+    "rank": 46,
+    "rank_prev": 48,
+    "rank_change": 2,
+    "rank_score": 1.52,
+    "rank_score_prev": 1.09,
+    "rsi": 49.9,
+    "rg": 30.9,
+    "rt": 1.34,
+    "gap_pct": -44.48,
+    "cxr14": -0.1662,
+    "cxr1m": -0.2226,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": -0.5495,
+    "s7": 0.5556,
+    "s14": 0.5556,
+    "s1m": 0.0,
+    "er": "",
+    "src": "RT",
+    "last_price": 3.62,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": -0.68,
+        "rt": 0.0,
+        "rsi": 56.34
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": 2.02,
+        "rt": 0.0,
+        "rsi": 53.93
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": -1.24,
+        "rt": 0.0,
+        "rsi": 51.55
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": -3.35,
+        "rt": 0.0,
+        "rsi": 47.08
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": -3.85,
+        "rt": 0.0,
+        "rsi": 44.98
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": 1.21,
+        "rt": 0.71,
+        "rsi": 49.8
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": -1.55,
+        "rt": 1.23,
+        "rsi": 50.14
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": -1.15,
+        "rt": 1.34,
+        "rsi": 52.53
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": 1.09,
+        "rt": 1.64,
+        "rsi": 49.94
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": 1.52,
+        "rt": 1.34,
+        "rsi": 49.94
+      }
+    ]
+  },
+  "STA": {
+    "symbol": "STA",
+    "sector": "AGRO",
+    "rank": 47,
+    "rank_prev": 41,
+    "rank_change": -6,
+    "rank_score": 1.2,
+    "rank_score_prev": 3.01,
+    "rsi": 52.2,
+    "rg": 80.7,
+    "rt": 0.92,
+    "gap_pct": -24.6,
+    "cxr14": 0.0,
+    "cxr1m": 2.6992,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": -2.5907,
+    "s7": -2.0833,
+    "s14": 0.5348,
+    "s1m": -0.5291,
+    "er": "",
+    "src": "RT",
+    "last_price": 18.8,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": -1.57,
+        "rt": 0.0,
+        "rsi": 54.13
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": 5.96,
+        "rt": 0.0,
+        "rsi": 55.22
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": -4.59,
+        "rt": 0.0,
+        "rsi": 53.84
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": -7.48,
+        "rt": 0.0,
+        "rsi": 60.24
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": -7.95,
+        "rt": 0.0,
+        "rsi": 58.78
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": -2.04,
         "rt": 1.29,
-        "rsi": 51.21
+        "rsi": 63.54
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": -0.96,
+        "rt": 1.75,
+        "rsi": 63.86
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": -0.69,
+        "rt": 1.2,
+        "rsi": 63.86
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": 3.01,
+        "rt": 0.96,
+        "rsi": 55.34
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": 1.2,
+        "rt": 0.92,
+        "rsi": 52.22
       }
     ]
   },
   "HPI-F": {
     "symbol": "HPI-F",
     "sector": "OTHER",
-    "rank": 47,
+    "rank": 48,
     "rank_prev": 46,
-    "rank_change": -1,
+    "rank_change": -2,
     "rank_score": 1.1,
     "rank_score_prev": 1.58,
     "rsi": 100.0,
@@ -4088,99 +4175,186 @@
       }
     ]
   },
-  "LH": {
-    "symbol": "LH",
-    "sector": "HOME",
-    "rank": 48,
-    "rank_prev": 48,
-    "rank_change": 0,
-    "rank_score": 1.08,
-    "rank_score_prev": 1.09,
-    "rsi": 47.3,
-    "rg": 30.9,
-    "rt": 1.09,
-    "gap_pct": -44.48,
-    "cxr14": -0.1662,
-    "cxr1m": -0.2226,
+  "OSP": {
+    "symbol": "OSP",
+    "sector": "FOOD",
+    "rank": 49,
+    "rank_prev": 31,
+    "rank_change": -18,
+    "rank_score": 1.09,
+    "rank_score_prev": 7.39,
+    "rsi": 56.9,
+    "rg": 36.9,
+    "rt": 0.7,
+    "gap_pct": -42.42,
+    "cxr14": 0.9394,
+    "cxr1m": 0.9691,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -0.5495,
-    "s7": 0.5556,
-    "s14": 0.5556,
-    "s1m": 0.0,
+    "d1": -1.9355,
+    "s7": -0.6536,
+    "s14": 0.6622,
+    "s1m": 4.8276,
     "er": "",
     "src": "RT",
-    "last_price": 3.62,
+    "last_price": 15.2,
     "history": [
       {
         "date": "25 พ.ค.",
-        "rank_score": -0.68,
+        "rank_score": 10.21,
         "rt": 0.0,
-        "rsi": 56.34
+        "rsi": 60.65
       },
       {
         "date": "26 พ.ค.",
-        "rank_score": 2.02,
+        "rank_score": 9.2,
         "rt": 0.0,
-        "rsi": 53.93
+        "rsi": 60.65
       },
       {
         "date": "27 พ.ค.",
-        "rank_score": -1.24,
+        "rank_score": 7.21,
         "rt": 0.0,
-        "rsi": 51.55
+        "rsi": 60.65
       },
       {
         "date": "28 พ.ค.",
-        "rank_score": -3.35,
+        "rank_score": 11.33,
         "rt": 0.0,
-        "rsi": 47.08
+        "rsi": 62.61
       },
       {
         "date": "29 พ.ค.",
-        "rank_score": -3.85,
+        "rank_score": 14.3,
         "rt": 0.0,
-        "rsi": 44.98
+        "rsi": 62.61
       },
       {
         "date": "2 มิ.ย.",
-        "rank_score": 1.21,
-        "rt": 0.71,
-        "rsi": 49.8
+        "rank_score": 17.94,
+        "rt": 0.45,
+        "rsi": 66.49
       },
       {
         "date": "3 มิ.ย.",
-        "rank_score": -1.55,
-        "rt": 1.23,
-        "rsi": 50.14
+        "rank_score": 13.25,
+        "rt": 0.74,
+        "rsi": 66.75
       },
       {
         "date": "4 มิ.ย.",
-        "rank_score": -1.15,
-        "rt": 1.34,
-        "rsi": 52.53
+        "rank_score": 5.89,
+        "rt": 0.63,
+        "rsi": 59.64
       },
       {
         "date": "5 มิ.ย.",
-        "rank_score": 1.09,
-        "rt": 1.64,
-        "rsi": 49.94
+        "rank_score": 7.39,
+        "rt": 1.86,
+        "rsi": 61.51
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": 1.08,
-        "rt": 1.09,
-        "rsi": 47.26
+        "rank_score": 1.09,
+        "rt": 0.7,
+        "rsi": 56.92
+      }
+    ]
+  },
+  "MOTHER": {
+    "symbol": "MOTHER",
+    "sector": "CONSUMER",
+    "rank": 50,
+    "rank_prev": 63,
+    "rank_change": 13,
+    "rank_score": 0.07,
+    "rank_score_prev": -3.65,
+    "rsi": 49.1,
+    "rg": 58.8,
+    "rt": 0.21,
+    "gap_pct": -10.77,
+    "cxr14": 0.935,
+    "cxr1m": 1.3539,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": -0.8547,
+    "s7": -4.1322,
+    "s14": 0.0,
+    "s1m": 4.5045,
+    "er": "",
+    "src": "RT",
+    "last_price": 1.16,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": 18.85,
+        "rt": 0.0,
+        "rsi": 65.68
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": 17.85,
+        "rt": 0.0,
+        "rsi": 65.68
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": 11.95,
+        "rt": 0.0,
+        "rsi": 57.58
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": 15.3,
+        "rt": 0.0,
+        "rsi": 61.03
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": 8.39,
+        "rt": 0.0,
+        "rsi": 62.66
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": 9.63,
+        "rt": 0.13,
+        "rsi": 57.47
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": 3.55,
+        "rt": 0.23,
+        "rsi": 57.11
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": 1.13,
+        "rt": 0.49,
+        "rsi": 52.13
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": -3.65,
+        "rt": 0.32,
+        "rsi": 54.09
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": 0.07,
+        "rt": 0.21,
+        "rsi": 49.12
       }
     ]
   },
   "PASSEN-F": {
     "symbol": "PASSEN-F",
     "sector": "OTHER",
-    "rank": 49,
+    "rank": 51,
     "rank_prev": 51,
-    "rank_change": 2,
+    "rank_change": 0,
     "rank_score": 0.0,
     "rank_score_prev": 0.0,
     "rsi": 0.0,
@@ -4262,273 +4436,186 @@
       }
     ]
   },
-  "MOTHER": {
-    "symbol": "MOTHER",
-    "sector": "CONSUMER",
-    "rank": 50,
-    "rank_prev": 63,
-    "rank_change": 13,
-    "rank_score": -0.01,
-    "rank_score_prev": -3.65,
-    "rsi": 49.1,
-    "rg": 58.8,
-    "rt": 0.22,
-    "gap_pct": -10.77,
-    "cxr14": 0.935,
-    "cxr1m": 1.3539,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": -0.8547,
-    "s7": -4.1322,
-    "s14": 0.0,
-    "s1m": 4.5045,
-    "er": "",
-    "src": "RT",
-    "last_price": 1.16,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": 18.85,
-        "rt": 0.0,
-        "rsi": 65.68
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": 17.85,
-        "rt": 0.0,
-        "rsi": 65.68
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": 11.95,
-        "rt": 0.0,
-        "rsi": 57.58
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": 15.3,
-        "rt": 0.0,
-        "rsi": 61.03
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": 8.39,
-        "rt": 0.0,
-        "rsi": 62.66
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": 9.63,
-        "rt": 0.13,
-        "rsi": 57.47
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": 3.55,
-        "rt": 0.23,
-        "rsi": 57.11
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": 1.13,
-        "rt": 0.49,
-        "rsi": 52.13
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": -3.65,
-        "rt": 0.32,
-        "rsi": 54.09
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": -0.01,
-        "rt": 0.22,
-        "rsi": 49.12
-      }
-    ]
-  },
-  "PSL": {
-    "symbol": "PSL",
-    "sector": "TRANSPORT",
-    "rank": 51,
-    "rank_prev": 65,
-    "rank_change": 14,
-    "rank_score": -0.05,
-    "rank_score_prev": -4.28,
-    "rsi": 50.0,
-    "rg": 63.9,
-    "rt": 1.67,
-    "gap_pct": -28.92,
-    "cxr14": 0.005,
-    "cxr1m": 10.227,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": -1.3699,
-    "s7": -5.8824,
-    "s14": -1.3607,
-    "s1m": -1.3607,
-    "er": "",
-    "src": "RT",
-    "last_price": 7.2,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": -0.97,
-        "rt": 0.0,
-        "rsi": 54.92
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": 1.02,
-        "rt": 0.0,
-        "rsi": 51.96
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": -2.41,
-        "rt": 0.0,
-        "rsi": 55.8
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": 3.06,
-        "rt": 0.0,
-        "rsi": 55.8
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": 17.27,
-        "rt": 0.0,
-        "rsi": 63.67
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": 10.54,
-        "rt": 0.53,
-        "rsi": 61.97
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": -3.8,
-        "rt": 0.85,
-        "rsi": 61.84
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": -9.05,
-        "rt": 1.77,
-        "rsi": 52.19
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": -4.28,
-        "rt": 0.71,
-        "rsi": 51.57
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": -0.05,
-        "rt": 1.67,
-        "rsi": 49.96
-      }
-    ]
-  },
-  "ITC": {
-    "symbol": "ITC",
-    "sector": "FOOD",
+  "HANA": {
+    "symbol": "HANA",
+    "sector": "ELECTRONICS",
     "rank": 52,
-    "rank_prev": 45,
-    "rank_change": -7,
-    "rank_score": -0.33,
-    "rank_score_prev": 1.76,
-    "rsi": 47.9,
-    "rg": 60.7,
-    "rt": 1.02,
-    "gap_pct": -20.0,
-    "cxr14": 0.2301,
-    "cxr1m": 1.3872,
+    "rank_prev": 4,
+    "rank_change": -48,
+    "rank_score": -0.48,
+    "rank_score_prev": 48.36,
+    "rsi": 48.3,
+    "rg": 71.7,
+    "rt": 0.98,
+    "gap_pct": 14.17,
+    "cxr14": 1.9759,
+    "cxr1m": 6.4216,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -0.6173,
-    "s7": -0.0,
-    "s14": -0.0,
-    "s1m": -0.6173,
-    "er": "STRONG",
+    "d1": -4.1667,
+    "s7": -7.3826,
+    "s14": 0.0,
+    "s1m": 0.0,
+    "er": "",
     "src": "RT",
-    "last_price": 16.1,
+    "last_price": 34.5,
     "history": [
       {
         "date": "25 พ.ค.",
-        "rank_score": -0.65,
+        "rank_score": 19.02,
         "rt": 0.0,
-        "rsi": 56.33
+        "rsi": 65.36
       },
       {
         "date": "26 พ.ค.",
-        "rank_score": 1.11,
+        "rank_score": 14.57,
         "rt": 0.0,
-        "rsi": 56.33
+        "rsi": 65.36
       },
       {
         "date": "27 พ.ค.",
-        "rank_score": -3.73,
+        "rank_score": 37.22,
         "rt": 0.0,
-        "rsi": 52.12
+        "rsi": 70.87
       },
       {
         "date": "28 พ.ค.",
-        "rank_score": -0.28,
+        "rank_score": 16.35,
         "rt": 0.0,
-        "rsi": 53.97
+        "rsi": 63.61
       },
       {
         "date": "29 พ.ค.",
-        "rank_score": 0.71,
+        "rank_score": 25.82,
         "rt": 0.0,
-        "rsi": 51.81
+        "rsi": 59.5
       },
       {
         "date": "2 มิ.ย.",
-        "rank_score": 1.93,
-        "rt": 0.84,
-        "rsi": 55.64
+        "rank_score": 19.89,
+        "rt": 0.3,
+        "rsi": 63.09
       },
       {
         "date": "3 มิ.ย.",
-        "rank_score": 2.33,
-        "rt": 1.02,
-        "rsi": 55.91
+        "rank_score": 24.59,
+        "rt": 0.45,
+        "rsi": 63.34
       },
       {
         "date": "4 มิ.ย.",
-        "rank_score": 2.18,
-        "rt": 1.5,
-        "rsi": 55.91
+        "rank_score": 50.24,
+        "rt": 0.57,
+        "rsi": 62.43
       },
       {
         "date": "5 มิ.ย.",
-        "rank_score": 1.76,
-        "rt": 0.74,
-        "rsi": 53.09
+        "rank_score": 48.36,
+        "rt": 0.92,
+        "rsi": 51.97
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": -0.33,
-        "rt": 1.02,
-        "rsi": 47.89
+        "rank_score": -0.48,
+        "rt": 0.98,
+        "rsi": 48.31
+      }
+    ]
+  },
+  "SC": {
+    "symbol": "SC",
+    "sector": "HOME",
+    "rank": 53,
+    "rank_prev": 60,
+    "rank_change": 7,
+    "rank_score": -0.73,
+    "rank_score_prev": -3.05,
+    "rsi": 38.0,
+    "rg": 58.9,
+    "rt": 1.54,
+    "gap_pct": -36.71,
+    "cxr14": 0.2413,
+    "cxr1m": 1.0821,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": -0.5525,
+    "s7": -1.6393,
+    "s14": -1.0989,
+    "s1m": -3.7433,
+    "er": "",
+    "src": "RT",
+    "last_price": 1.8,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": -1.68,
+        "rt": 0.0,
+        "rsi": 55.23
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": -7.47,
+        "rt": 0.0,
+        "rsi": 48.21
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": -7.35,
+        "rt": 0.0,
+        "rsi": 44.17
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": -9.39,
+        "rt": 0.0,
+        "rsi": 42.27
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": -6.17,
+        "rt": 0.0,
+        "rsi": 44.83
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": -4.65,
+        "rt": 0.86,
+        "rsi": 42.79
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": -5.01,
+        "rt": 1.22,
+        "rsi": 42.64
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": -6.1,
+        "rt": 1.51,
+        "rsi": 40.5
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": -3.05,
+        "rt": 0.73,
+        "rsi": 43.61
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": -0.73,
+        "rt": 1.54,
+        "rsi": 37.98
       }
     ]
   },
   "BDI-F": {
     "symbol": "BDI-F",
     "sector": "OTHER",
-    "rank": 53,
+    "rank": 54,
     "rank_prev": 53,
-    "rank_change": 0,
+    "rank_change": -1,
     "rank_score": -0.86,
     "rank_score_prev": -0.26,
     "rsi": 47.7,
@@ -4610,186 +4697,12 @@
       }
     ]
   },
-  "SC": {
-    "symbol": "SC",
-    "sector": "HOME",
-    "rank": 54,
-    "rank_prev": 60,
-    "rank_change": 6,
-    "rank_score": -0.87,
-    "rank_score_prev": -3.05,
-    "rsi": 38.0,
-    "rg": 58.9,
-    "rt": 1.43,
-    "gap_pct": -36.71,
-    "cxr14": 0.2413,
-    "cxr1m": 1.0821,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": 0.0,
-    "s7": -1.0929,
-    "s14": -0.5495,
-    "s1m": -3.2086,
-    "er": "",
-    "src": "RT",
-    "last_price": 1.81,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": -1.68,
-        "rt": 0.0,
-        "rsi": 55.23
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": -7.47,
-        "rt": 0.0,
-        "rsi": 48.21
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": -7.35,
-        "rt": 0.0,
-        "rsi": 44.17
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": -9.39,
-        "rt": 0.0,
-        "rsi": 42.27
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": -6.17,
-        "rt": 0.0,
-        "rsi": 44.83
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": -4.65,
-        "rt": 0.86,
-        "rsi": 42.79
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": -5.01,
-        "rt": 1.22,
-        "rsi": 42.64
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": -6.1,
-        "rt": 1.51,
-        "rsi": 40.5
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": -3.05,
-        "rt": 0.73,
-        "rsi": 43.61
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": -0.87,
-        "rt": 1.43,
-        "rsi": 37.98
-      }
-    ]
-  },
-  "M": {
-    "symbol": "M",
-    "sector": "CONSUMER",
-    "rank": 55,
-    "rank_prev": 44,
-    "rank_change": -11,
-    "rank_score": -1.24,
-    "rank_score_prev": 1.79,
-    "rsi": 57.2,
-    "rg": 59.0,
-    "rt": 0.71,
-    "gap_pct": -23.93,
-    "cxr14": 2.9874,
-    "cxr1m": 5.4166,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": -2.3041,
-    "s7": 3.4146,
-    "s14": -1.3953,
-    "s1m": 12.766,
-    "er": "",
-    "src": "RT",
-    "last_price": 21.2,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": 42.25,
-        "rt": 0.0,
-        "rsi": 77.37
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": 35.48,
-        "rt": 0.0,
-        "rsi": 69.76
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": 32.48,
-        "rt": 0.0,
-        "rsi": 66.92
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": 33.09,
-        "rt": 0.0,
-        "rsi": 66.92
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": 17.03,
-        "rt": 0.0,
-        "rsi": 52.17
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": 18.44,
-        "rt": 0.32,
-        "rsi": 57.99
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": 5.82,
-        "rt": 0.56,
-        "rsi": 58.38
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": 3.28,
-        "rt": 0.45,
-        "rsi": 56.13
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": 1.79,
-        "rt": 1.48,
-        "rsi": 61.89
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": -1.24,
-        "rt": 0.71,
-        "rsi": 57.16
-      }
-    ]
-  },
   "PP-F": {
     "symbol": "PP-F",
     "sector": "OTHER",
-    "rank": 56,
+    "rank": 55,
     "rank_prev": 52,
-    "rank_change": -4,
+    "rank_change": -3,
     "rank_score": -1.68,
     "rank_score_prev": -0.24,
     "rsi": 53.0,
@@ -4871,99 +4784,12 @@
       }
     ]
   },
-  "CPF": {
-    "symbol": "CPF",
-    "sector": "FOOD",
-    "rank": 57,
-    "rank_prev": 57,
-    "rank_change": 0,
-    "rank_score": -1.76,
-    "rank_score_prev": -2.05,
-    "rsi": 38.5,
-    "rg": 24.3,
-    "rt": 0.87,
-    "gap_pct": -45.03,
-    "cxr14": 0.4947,
-    "cxr1m": 1.2458,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": -1.0582,
-    "s7": -1.5789,
-    "s14": -1.0582,
-    "s1m": -1.5789,
-    "er": "",
-    "src": "RT",
-    "last_price": 18.7,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": -4.26,
-        "rt": 0.0,
-        "rsi": 51.28
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": -4.13,
-        "rt": 0.0,
-        "rsi": 51.28
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": -0.27,
-        "rt": 0.0,
-        "rsi": 51.28
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": -3.53,
-        "rt": 0.0,
-        "rsi": 47.3
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": -2.83,
-        "rt": 0.0,
-        "rsi": 45.4
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": 1.71,
-        "rt": 1.29,
-        "rsi": 45.4
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": -1.91,
-        "rt": 1.71,
-        "rsi": 45.4
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": -4.13,
-        "rt": 1.08,
-        "rsi": 43.23
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": -2.05,
-        "rt": 1.86,
-        "rsi": 40.81
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": -1.76,
-        "rt": 0.87,
-        "rsi": 38.49
-      }
-    ]
-  },
   "ETH-F": {
     "symbol": "ETH-F",
     "sector": "OTHER",
-    "rank": 58,
+    "rank": 56,
     "rank_prev": 58,
-    "rank_change": 0,
+    "rank_change": 2,
     "rank_score": -1.82,
     "rank_score_prev": -2.47,
     "rsi": 41.7,
@@ -5045,90 +4871,264 @@
       }
     ]
   },
-  "TOP": {
-    "symbol": "TOP",
-    "sector": "ENERGY",
-    "rank": 59,
-    "rank_prev": 62,
-    "rank_change": 3,
-    "rank_score": -3.84,
-    "rank_score_prev": -3.6,
-    "rsi": 47.8,
-    "rg": 54.1,
-    "rt": 1.39,
-    "gap_pct": 8.57,
-    "cxr14": 1.1547,
-    "cxr1m": 0.0,
+  "PSL": {
+    "symbol": "PSL",
+    "sector": "TRANSPORT",
+    "rank": 57,
+    "rank_prev": 65,
+    "rank_change": 8,
+    "rank_score": -1.85,
+    "rank_score_prev": -4.28,
+    "rsi": 48.5,
+    "rg": 62.0,
+    "rt": 1.48,
+    "gap_pct": -29.41,
+    "cxr14": 0.005,
+    "cxr1m": 10.227,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -0.5405,
-    "s7": -0.5405,
-    "s14": -3.1579,
-    "s1m": -2.6455,
+    "d1": -1.3699,
+    "s7": -5.8824,
+    "s14": -1.3607,
+    "s1m": -1.3607,
     "er": "",
     "src": "RT",
-    "last_price": 46.0,
+    "last_price": 7.2,
     "history": [
       {
         "date": "25 พ.ค.",
-        "rank_score": -5.35,
+        "rank_score": -0.97,
         "rt": 0.0,
-        "rsi": 47.16
+        "rsi": 54.92
       },
       {
         "date": "26 พ.ค.",
-        "rank_score": -5.32,
+        "rank_score": 1.02,
         "rt": 0.0,
-        "rsi": 45.03
+        "rsi": 51.96
       },
       {
         "date": "27 พ.ค.",
-        "rank_score": -5.96,
+        "rank_score": -2.41,
         "rt": 0.0,
-        "rsi": 48.78
+        "rsi": 55.8
       },
       {
         "date": "28 พ.ค.",
-        "rank_score": -6.84,
+        "rank_score": 3.06,
         "rt": 0.0,
-        "rsi": 46.5
+        "rsi": 55.8
       },
       {
         "date": "29 พ.ค.",
-        "rank_score": 3.91,
+        "rank_score": 17.27,
         "rt": 0.0,
-        "rsi": 47.81
+        "rsi": 63.67
       },
       {
         "date": "2 มิ.ย.",
-        "rank_score": 2.4,
-        "rt": 0.7,
-        "rsi": 47.81
+        "rank_score": 10.54,
+        "rt": 0.53,
+        "rsi": 61.97
       },
       {
         "date": "3 มิ.ย.",
-        "rank_score": 0.01,
-        "rt": 1.18,
-        "rsi": 47.81
+        "rank_score": -3.8,
+        "rt": 0.85,
+        "rsi": 61.84
       },
       {
         "date": "4 มิ.ย.",
-        "rank_score": 2.33,
-        "rt": 1.7,
-        "rsi": 49.36
+        "rank_score": -9.05,
+        "rt": 1.77,
+        "rsi": 52.19
       },
       {
         "date": "5 มิ.ย.",
-        "rank_score": -3.6,
-        "rt": 1.36,
-        "rsi": 47.83
+        "rank_score": -4.28,
+        "rt": 0.71,
+        "rsi": 51.57
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": -3.84,
-        "rt": 1.39,
-        "rsi": 47.83
+        "rank_score": -1.85,
+        "rt": 1.48,
+        "rsi": 48.46
+      }
+    ]
+  },
+  "M": {
+    "symbol": "M",
+    "sector": "CONSUMER",
+    "rank": 58,
+    "rank_prev": 44,
+    "rank_change": -14,
+    "rank_score": -2.31,
+    "rank_score_prev": 1.79,
+    "rsi": 56.1,
+    "rg": 57.7,
+    "rt": 0.7,
+    "gap_pct": -24.29,
+    "cxr14": 2.9874,
+    "cxr1m": 5.4166,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": -3.2258,
+    "s7": 2.439,
+    "s14": -2.3256,
+    "s1m": 11.7021,
+    "er": "",
+    "src": "RT",
+    "last_price": 21.0,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": 42.25,
+        "rt": 0.0,
+        "rsi": 77.37
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": 35.48,
+        "rt": 0.0,
+        "rsi": 69.76
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": 32.48,
+        "rt": 0.0,
+        "rsi": 66.92
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": 33.09,
+        "rt": 0.0,
+        "rsi": 66.92
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": 17.03,
+        "rt": 0.0,
+        "rsi": 52.17
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": 18.44,
+        "rt": 0.32,
+        "rsi": 57.99
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": 5.82,
+        "rt": 0.56,
+        "rsi": 58.38
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": 3.28,
+        "rt": 0.45,
+        "rsi": 56.13
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": 1.79,
+        "rt": 1.48,
+        "rsi": 61.89
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": -2.31,
+        "rt": 0.7,
+        "rsi": 56.09
+      }
+    ]
+  },
+  "CPF": {
+    "symbol": "CPF",
+    "sector": "FOOD",
+    "rank": 59,
+    "rank_prev": 57,
+    "rank_change": -2,
+    "rank_score": -2.96,
+    "rank_score_prev": -2.05,
+    "rsi": 40.6,
+    "rg": 21.7,
+    "rt": 0.86,
+    "gap_pct": -45.32,
+    "cxr14": 0.4947,
+    "cxr1m": 1.2458,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": -1.0582,
+    "s7": -1.5789,
+    "s14": -1.0582,
+    "s1m": -1.5789,
+    "er": "",
+    "src": "RT",
+    "last_price": 18.7,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": -4.26,
+        "rt": 0.0,
+        "rsi": 51.28
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": -4.13,
+        "rt": 0.0,
+        "rsi": 51.28
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": -0.27,
+        "rt": 0.0,
+        "rsi": 51.28
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": -3.53,
+        "rt": 0.0,
+        "rsi": 47.3
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": -2.83,
+        "rt": 0.0,
+        "rsi": 45.4
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": 1.71,
+        "rt": 1.29,
+        "rsi": 45.4
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": -1.91,
+        "rt": 1.71,
+        "rsi": 45.4
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": -4.13,
+        "rt": 1.08,
+        "rsi": 43.23
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": -2.05,
+        "rt": 1.86,
+        "rsi": 40.81
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": -2.96,
+        "rt": 0.86,
+        "rsi": 40.65
       }
     ]
   },
@@ -5138,11 +5138,11 @@
     "rank": 60,
     "rank_prev": 66,
     "rank_change": 6,
-    "rank_score": -3.91,
+    "rank_score": -3.96,
     "rank_score_prev": -5.47,
-    "rsi": 54.2,
+    "rsi": 52.7,
     "rg": 75.4,
-    "rt": 0.7,
+    "rt": 0.61,
     "gap_pct": -6.74,
     "cxr14": 0.05,
     "cxr1m": 0.1544,
@@ -5213,279 +5213,105 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": -3.91,
-        "rt": 0.7,
-        "rsi": 54.18
+        "rank_score": -3.96,
+        "rt": 0.61,
+        "rsi": 52.7
       }
     ]
   },
-  "AAI": {
-    "symbol": "AAI",
-    "sector": "FOOD",
+  "CPALL": {
+    "symbol": "CPALL",
+    "sector": "CONSUMER",
     "rank": 61,
-    "rank_prev": 56,
-    "rank_change": -5,
-    "rank_score": -3.95,
-    "rank_score_prev": -1.14,
-    "rsi": 50.0,
-    "rg": 18.3,
-    "rt": 0.24,
-    "gap_pct": -47.01,
-    "cxr14": 1.7435,
-    "cxr1m": 0.8474,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": -0.565,
-    "s7": -3.8251,
-    "s14": -1.676,
-    "s1m": 2.924,
-    "er": "",
-    "src": "RT",
-    "last_price": 3.52,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": 6.91,
-        "rt": 0.0,
-        "rsi": 51.59
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": 3.18,
-        "rt": 0.0,
-        "rsi": 52.97
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": 6.54,
-        "rt": 0.0,
-        "rsi": 55.69
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": 11.17,
-        "rt": 0.0,
-        "rsi": 59.47
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": 12.09,
-        "rt": 0.0,
-        "rsi": 60.68
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": 9.54,
-        "rt": 0.59,
-        "rsi": 53.78
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": 5.1,
-        "rt": 1.02,
-        "rsi": 53.32
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": 1.74,
-        "rt": 1.64,
-        "rsi": 48.56
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": -1.14,
-        "rt": 1.42,
-        "rsi": 49.95
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": -3.95,
-        "rt": 0.24,
-        "rsi": 49.95
-      }
-    ]
-  },
-  "HANA": {
-    "symbol": "HANA",
-    "sector": "ELECTRONICS",
-    "rank": 62,
-    "rank_prev": 4,
-    "rank_change": -58,
-    "rank_score": -4.03,
-    "rank_score_prev": 48.36,
-    "rsi": 46.4,
-    "rg": 69.8,
-    "rt": 1.02,
-    "gap_pct": 12.5,
-    "cxr14": 1.9759,
-    "cxr1m": 6.4216,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": -4.8611,
-    "s7": -8.0537,
-    "s14": -0.7246,
-    "s1m": -0.7246,
-    "er": "",
-    "src": "RT",
-    "last_price": 34.25,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": 19.02,
-        "rt": 0.0,
-        "rsi": 65.36
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": 14.57,
-        "rt": 0.0,
-        "rsi": 65.36
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": 37.22,
-        "rt": 0.0,
-        "rsi": 70.87
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": 16.35,
-        "rt": 0.0,
-        "rsi": 63.61
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": 25.82,
-        "rt": 0.0,
-        "rsi": 59.5
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": 19.89,
-        "rt": 0.3,
-        "rsi": 63.09
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": 24.59,
-        "rt": 0.45,
-        "rsi": 63.34
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": 50.24,
-        "rt": 0.57,
-        "rsi": 62.43
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": 48.36,
-        "rt": 0.92,
-        "rsi": 51.97
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": -4.03,
-        "rt": 1.02,
-        "rsi": 46.38
-      }
-    ]
-  },
-  "BTG": {
-    "symbol": "BTG",
-    "sector": "FOOD",
-    "rank": 63,
-    "rank_prev": 50,
-    "rank_change": -13,
-    "rank_score": -4.37,
-    "rank_score_prev": 0.47,
-    "rsi": 37.8,
-    "rg": 41.2,
-    "rt": 1.74,
-    "gap_pct": -49.74,
+    "rank_prev": 71,
+    "rank_change": 10,
+    "rank_score": -4.3,
+    "rank_score_prev": -8.44,
+    "rsi": 47.1,
+    "rg": 47.9,
+    "rt": 1.28,
+    "gap_pct": -49.72,
     "cxr14": 0.0,
     "cxr1m": 0.0,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -0.5051,
-    "s7": -1.005,
-    "s14": -2.4753,
-    "s1m": -10.0457,
+    "d1": -0.5464,
+    "s7": -3.7037,
+    "s14": -2.6738,
+    "s1m": 4.0,
     "er": "-",
     "src": "RT",
-    "last_price": 19.7,
+    "last_price": 45.5,
     "history": [
       {
         "date": "25 พ.ค.",
-        "rank_score": -27.34,
+        "rank_score": 14.61,
         "rt": 0.0,
-        "rsi": 39.75
+        "rsi": 60.09
       },
       {
         "date": "26 พ.ค.",
-        "rank_score": -22.27,
+        "rank_score": 10.92,
         "rt": 0.0,
-        "rsi": 38.96
+        "rsi": 60.09
       },
       {
         "date": "27 พ.ค.",
-        "rank_score": -19.33,
+        "rank_score": 9.06,
         "rt": 0.0,
-        "rsi": 41.46
+        "rsi": 54.13
       },
       {
         "date": "28 พ.ค.",
-        "rank_score": -19.45,
+        "rank_score": 9.54,
         "rt": 0.0,
-        "rsi": 38.89
+        "rsi": 57.18
       },
       {
         "date": "29 พ.ค.",
-        "rank_score": -12.92,
+        "rank_score": 14.38,
         "rt": 0.0,
-        "rsi": 38.04
+        "rsi": 61.33
       },
       {
         "date": "2 มิ.ย.",
-        "rank_score": -3.25,
-        "rt": 0.67,
-        "rsi": 38.04
+        "rank_score": 14.94,
+        "rt": 1.36,
+        "rsi": 57.34
       },
       {
         "date": "3 มิ.ย.",
-        "rank_score": -3.31,
-        "rt": 1.05,
-        "rsi": 38.04
+        "rank_score": 2.62,
+        "rt": 2.12,
+        "rsi": 57.05
       },
       {
         "date": "4 มิ.ย.",
-        "rank_score": -6.8,
-        "rt": 1.13,
-        "rsi": 36.08
+        "rank_score": -2.04,
+        "rt": 1.54,
+        "rsi": 51.27
       },
       {
         "date": "5 มิ.ย.",
-        "rank_score": 0.47,
-        "rt": 1.72,
-        "rsi": 37.79
+        "rank_score": -8.44,
+        "rt": 0.59,
+        "rsi": 48.97
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": -4.37,
-        "rt": 1.74,
-        "rsi": 37.79
+        "rank_score": -4.3,
+        "rt": 1.28,
+        "rsi": 47.08
       }
     ]
   },
   "TH10Y-F": {
     "symbol": "TH10Y-F",
     "sector": "OTHER",
-    "rank": 64,
+    "rank": 62,
     "rank_prev": 64,
-    "rank_change": 0,
+    "rank_change": 2,
     "rank_score": -4.49,
     "rank_score_prev": -3.72,
     "rsi": 45.7,
@@ -5567,90 +5393,264 @@
       }
     ]
   },
-  "CPALL": {
-    "symbol": "CPALL",
-    "sector": "CONSUMER",
-    "rank": 65,
-    "rank_prev": 71,
-    "rank_change": 6,
+  "BTG": {
+    "symbol": "BTG",
+    "sector": "FOOD",
+    "rank": 63,
+    "rank_prev": 50,
+    "rank_change": -13,
     "rank_score": -4.53,
-    "rank_score_prev": -8.44,
-    "rsi": 47.1,
-    "rg": 47.9,
-    "rt": 1.17,
-    "gap_pct": -49.72,
+    "rank_score_prev": 0.47,
+    "rsi": 36.6,
+    "rg": 41.2,
+    "rt": 1.55,
+    "gap_pct": -49.74,
     "cxr14": 0.0,
     "cxr1m": 0.0,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -0.5464,
-    "s7": -3.7037,
-    "s14": -2.6738,
-    "s1m": 4.0,
+    "d1": -1.0101,
+    "s7": -1.5075,
+    "s14": -2.9703,
+    "s1m": -10.5023,
     "er": "-",
     "src": "RT",
-    "last_price": 45.5,
+    "last_price": 19.6,
     "history": [
       {
         "date": "25 พ.ค.",
-        "rank_score": 14.61,
+        "rank_score": -27.34,
         "rt": 0.0,
-        "rsi": 60.09
+        "rsi": 39.75
       },
       {
         "date": "26 พ.ค.",
-        "rank_score": 10.92,
+        "rank_score": -22.27,
         "rt": 0.0,
-        "rsi": 60.09
+        "rsi": 38.96
       },
       {
         "date": "27 พ.ค.",
-        "rank_score": 9.06,
+        "rank_score": -19.33,
         "rt": 0.0,
-        "rsi": 54.13
+        "rsi": 41.46
       },
       {
         "date": "28 พ.ค.",
-        "rank_score": 9.54,
+        "rank_score": -19.45,
         "rt": 0.0,
-        "rsi": 57.18
+        "rsi": 38.89
       },
       {
         "date": "29 พ.ค.",
-        "rank_score": 14.38,
+        "rank_score": -12.92,
         "rt": 0.0,
-        "rsi": 61.33
+        "rsi": 38.04
       },
       {
         "date": "2 มิ.ย.",
-        "rank_score": 14.94,
-        "rt": 1.36,
-        "rsi": 57.34
+        "rank_score": -3.25,
+        "rt": 0.67,
+        "rsi": 38.04
       },
       {
         "date": "3 มิ.ย.",
-        "rank_score": 2.62,
-        "rt": 2.12,
-        "rsi": 57.05
+        "rank_score": -3.31,
+        "rt": 1.05,
+        "rsi": 38.04
       },
       {
         "date": "4 มิ.ย.",
-        "rank_score": -2.04,
-        "rt": 1.54,
-        "rsi": 51.27
+        "rank_score": -6.8,
+        "rt": 1.13,
+        "rsi": 36.08
       },
       {
         "date": "5 มิ.ย.",
-        "rank_score": -8.44,
-        "rt": 0.59,
-        "rsi": 48.97
+        "rank_score": 0.47,
+        "rt": 1.72,
+        "rsi": 37.79
       },
       {
         "date": "8 มิ.ย.",
         "rank_score": -4.53,
-        "rt": 1.17,
-        "rsi": 47.08
+        "rt": 1.55,
+        "rsi": 36.65
+      }
+    ]
+  },
+  "TOP": {
+    "symbol": "TOP",
+    "sector": "ENERGY",
+    "rank": 64,
+    "rank_prev": 62,
+    "rank_change": -2,
+    "rank_score": -4.68,
+    "rank_score_prev": -3.6,
+    "rsi": 47.8,
+    "rg": 53.0,
+    "rt": 1.63,
+    "gap_pct": 7.98,
+    "cxr14": 1.1547,
+    "cxr1m": 0.0,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": -0.5405,
+    "s7": -0.5405,
+    "s14": -3.1579,
+    "s1m": -2.6455,
+    "er": "",
+    "src": "RT",
+    "last_price": 46.0,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": -5.35,
+        "rt": 0.0,
+        "rsi": 47.16
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": -5.32,
+        "rt": 0.0,
+        "rsi": 45.03
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": -5.96,
+        "rt": 0.0,
+        "rsi": 48.78
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": -6.84,
+        "rt": 0.0,
+        "rsi": 46.5
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": 3.91,
+        "rt": 0.0,
+        "rsi": 47.81
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": 2.4,
+        "rt": 0.7,
+        "rsi": 47.81
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": 0.01,
+        "rt": 1.18,
+        "rsi": 47.81
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": 2.33,
+        "rt": 1.7,
+        "rsi": 49.36
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": -3.6,
+        "rt": 1.36,
+        "rsi": 47.83
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": -4.68,
+        "rt": 1.63,
+        "rsi": 47.83
+      }
+    ]
+  },
+  "AAI": {
+    "symbol": "AAI",
+    "sector": "FOOD",
+    "rank": 65,
+    "rank_prev": 56,
+    "rank_change": -9,
+    "rank_score": -5.28,
+    "rank_score_prev": -1.14,
+    "rsi": 48.2,
+    "rg": 16.6,
+    "rt": 0.22,
+    "gap_pct": -47.31,
+    "cxr14": 1.7435,
+    "cxr1m": 0.8474,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": -0.565,
+    "s7": -3.8251,
+    "s14": -1.676,
+    "s1m": 2.924,
+    "er": "",
+    "src": "RT",
+    "last_price": 3.52,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": 6.91,
+        "rt": 0.0,
+        "rsi": 51.59
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": 3.18,
+        "rt": 0.0,
+        "rsi": 52.97
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": 6.54,
+        "rt": 0.0,
+        "rsi": 55.69
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": 11.17,
+        "rt": 0.0,
+        "rsi": 59.47
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": 12.09,
+        "rt": 0.0,
+        "rsi": 60.68
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": 9.54,
+        "rt": 0.59,
+        "rsi": 53.78
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": 5.1,
+        "rt": 1.02,
+        "rsi": 53.32
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": 1.74,
+        "rt": 1.64,
+        "rsi": 48.56
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": -1.14,
+        "rt": 1.42,
+        "rsi": 49.95
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": -5.28,
+        "rt": 0.22,
+        "rsi": 48.22
       }
     ]
   },
@@ -5660,12 +5660,12 @@
     "rank": 66,
     "rank_prev": 67,
     "rank_change": 1,
-    "rank_score": -4.57,
+    "rank_score": -5.78,
     "rank_score_prev": -5.73,
-    "rsi": 50.0,
-    "rg": 76.3,
-    "rt": 2.15,
-    "gap_pct": -35.93,
+    "rsi": 46.8,
+    "rg": 73.7,
+    "rt": 1.88,
+    "gap_pct": -36.23,
     "cxr14": -0.1554,
     "cxr1m": 3.1841,
     "pe": null,
@@ -5735,105 +5735,18 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": -4.57,
-        "rt": 2.15,
-        "rsi": 50.0
-      }
-    ]
-  },
-  "TRUE": {
-    "symbol": "TRUE",
-    "sector": "TECH",
-    "rank": 67,
-    "rank_prev": 75,
-    "rank_change": 8,
-    "rank_score": -5.46,
-    "rank_score_prev": -11.15,
-    "rsi": 52.1,
-    "rg": 82.3,
-    "rt": 1.26,
-    "gap_pct": -32.04,
-    "cxr14": 0.0952,
-    "cxr1m": -0.0477,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": 0.0,
-    "s7": -0.0,
-    "s14": -4.8276,
-    "s1m": -3.2388,
-    "er": "STRONG",
-    "src": "RT",
-    "last_price": 13.8,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": 4.79,
-        "rt": 0.0,
-        "rsi": 48.18
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": -5.82,
-        "rt": 0.0,
-        "rsi": 46.23
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": -12.93,
-        "rt": 0.0,
-        "rsi": 42.54
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": -9.01,
-        "rt": 0.0,
-        "rsi": 44.91
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": -6.21,
-        "rt": 0.0,
-        "rsi": 47.25
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": -6.83,
-        "rt": 1.5,
-        "rsi": 51.68
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": -7.61,
-        "rt": 1.89,
-        "rsi": 51.99
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": -11.55,
-        "rt": 0.93,
-        "rsi": 49.59
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": -11.15,
-        "rt": 0.75,
-        "rsi": 46.92
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": -5.46,
-        "rt": 1.26,
-        "rsi": 52.13
+        "rank_score": -5.78,
+        "rt": 1.88,
+        "rsi": 46.78
       }
     ]
   },
   "GRM-F": {
     "symbol": "GRM-F",
     "sector": "OTHER",
-    "rank": 68,
+    "rank": 67,
     "rank_prev": 69,
-    "rank_change": 1,
+    "rank_change": 2,
     "rank_score": -6.61,
     "rank_score_prev": -8.38,
     "rsi": 28.2,
@@ -5912,6 +5825,93 @@
         "rank_score": -6.61,
         "rt": 0,
         "rsi": 28.16
+      }
+    ]
+  },
+  "PTTEP": {
+    "symbol": "PTTEP",
+    "sector": "ENERGY",
+    "rank": 68,
+    "rank_prev": 77,
+    "rank_change": 9,
+    "rank_score": -6.61,
+    "rank_score_prev": -13.33,
+    "rsi": 48.4,
+    "rg": 72.0,
+    "rt": 1.92,
+    "gap_pct": -24.87,
+    "cxr14": 1.0266,
+    "cxr1m": 2.9672,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": 1.3841,
+    "s7": 3.5336,
+    "s14": -4.2484,
+    "s1m": -1.3468,
+    "er": "NORMAL",
+    "src": "RT",
+    "last_price": 146.5,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": -2.66,
+        "rt": 0.0,
+        "rsi": 45.7
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": -2.31,
+        "rt": 0.0,
+        "rsi": 42.17
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": -8.96,
+        "rt": 0.0,
+        "rsi": 38.93
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": -12.7,
+        "rt": 0.0,
+        "rsi": 38.14
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": -17.72,
+        "rt": 0.0,
+        "rsi": 34.39
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": -11.68,
+        "rt": 1.42,
+        "rsi": 38.31
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": -10.15,
+        "rt": 1.88,
+        "rsi": 38.59
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": -10.2,
+        "rt": 1.29,
+        "rsi": 41.29
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": -13.33,
+        "rt": 0.54,
+        "rsi": 41.49
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": -6.61,
+        "rt": 1.92,
+        "rsi": 48.44
       }
     ]
   },
@@ -6002,18 +6002,105 @@
       }
     ]
   },
+  "KSL": {
+    "symbol": "KSL",
+    "sector": "AGRO",
+    "rank": 70,
+    "rank_prev": 70,
+    "rank_change": 0,
+    "rank_score": -7.7,
+    "rank_score_prev": -8.41,
+    "rsi": 40.8,
+    "rg": 49.7,
+    "rt": 0.74,
+    "gap_pct": -38.33,
+    "cxr14": -0.3181,
+    "cxr1m": 0.6549,
+    "pe": null,
+    "fpe": null,
+    "gm": null,
+    "d1": -0.6757,
+    "s7": -2.0,
+    "s14": -3.9216,
+    "s1m": -6.3694,
+    "er": "",
+    "src": "RT",
+    "last_price": 1.47,
+    "history": [
+      {
+        "date": "25 พ.ค.",
+        "rank_score": -8.32,
+        "rt": 0.0,
+        "rsi": 48.22
+      },
+      {
+        "date": "26 พ.ค.",
+        "rank_score": -3.74,
+        "rt": 0.0,
+        "rsi": 48.22
+      },
+      {
+        "date": "27 พ.ค.",
+        "rank_score": -8.57,
+        "rt": 0.0,
+        "rsi": 48.22
+      },
+      {
+        "date": "28 พ.ค.",
+        "rank_score": -8.01,
+        "rt": 0.0,
+        "rsi": 47.04
+      },
+      {
+        "date": "29 พ.ค.",
+        "rank_score": -11.44,
+        "rt": 0.0,
+        "rsi": 44.67
+      },
+      {
+        "date": "2 มิ.ย.",
+        "rank_score": -3.96,
+        "rt": 0.37,
+        "rsi": 47.51
+      },
+      {
+        "date": "3 มิ.ย.",
+        "rank_score": -7.94,
+        "rt": 0.73,
+        "rsi": 47.72
+      },
+      {
+        "date": "4 มิ.ย.",
+        "rank_score": -14.6,
+        "rt": 1.06,
+        "rsi": 45.05
+      },
+      {
+        "date": "5 มิ.ย.",
+        "rank_score": -8.41,
+        "rt": 0.94,
+        "rsi": 42.13
+      },
+      {
+        "date": "8 มิ.ย.",
+        "rank_score": -7.7,
+        "rt": 0.74,
+        "rsi": 40.8
+      }
+    ]
+  },
   "PTG": {
     "symbol": "PTG",
     "sector": "ENERGY",
-    "rank": 70,
+    "rank": 71,
     "rank_prev": 59,
-    "rank_change": -11,
-    "rank_score": -6.81,
+    "rank_change": -12,
+    "rank_score": -8.41,
     "rank_score_prev": -2.72,
-    "rsi": 33.6,
-    "rg": 22.0,
+    "rsi": 31.8,
+    "rg": 20.5,
     "rt": 1.37,
-    "gap_pct": -34.55,
+    "gap_pct": -35.0,
     "cxr14": -1.6555,
     "cxr1m": -4.8817,
     "pe": null,
@@ -6083,183 +6170,96 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": -6.81,
+        "rank_score": -8.41,
         "rt": 1.37,
-        "rsi": 33.57
+        "rsi": 31.81
       }
     ]
   },
-  "KSL": {
-    "symbol": "KSL",
-    "sector": "AGRO",
-    "rank": 71,
-    "rank_prev": 70,
-    "rank_change": -1,
-    "rank_score": -7.73,
-    "rank_score_prev": -8.41,
-    "rsi": 42.1,
-    "rg": 49.7,
-    "rt": 0.82,
-    "gap_pct": -38.33,
-    "cxr14": -0.3181,
-    "cxr1m": 0.6549,
+  "IVL": {
+    "symbol": "IVL",
+    "sector": "PETRO",
+    "rank": 72,
+    "rank_prev": 73,
+    "rank_change": 1,
+    "rank_score": -8.53,
+    "rank_score_prev": -9.77,
+    "rsi": 39.9,
+    "rg": 75.5,
+    "rt": 1.15,
+    "gap_pct": -21.62,
+    "cxr14": -0.6662,
+    "cxr1m": -0.4973,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": 0.0,
-    "s7": -1.3333,
-    "s14": -3.268,
-    "s1m": -5.7325,
+    "d1": -0.8621,
+    "s7": -1.2876,
+    "s14": -5.4471,
+    "s1m": -3.4772,
     "er": "",
     "src": "RT",
-    "last_price": 1.48,
+    "last_price": 23.0,
     "history": [
       {
         "date": "25 พ.ค.",
-        "rank_score": -8.32,
+        "rank_score": -8.2,
         "rt": 0.0,
-        "rsi": 48.22
+        "rsi": 52.39
       },
       {
         "date": "26 พ.ค.",
-        "rank_score": -3.74,
+        "rank_score": 5.58,
         "rt": 0.0,
-        "rsi": 48.22
+        "rsi": 52.39
       },
       {
         "date": "27 พ.ค.",
-        "rank_score": -8.57,
+        "rank_score": 2.65,
         "rt": 0.0,
-        "rsi": 48.22
+        "rsi": 50.3
       },
       {
         "date": "28 พ.ค.",
-        "rank_score": -8.01,
+        "rank_score": -2.13,
         "rt": 0.0,
-        "rsi": 47.04
+        "rsi": 50.03
       },
       {
         "date": "29 พ.ค.",
-        "rank_score": -11.44,
+        "rank_score": -9.45,
         "rt": 0.0,
-        "rsi": 44.67
+        "rsi": 40.61
       },
       {
         "date": "2 มิ.ย.",
-        "rank_score": -3.96,
-        "rt": 0.37,
-        "rsi": 47.51
+        "rank_score": -6.32,
+        "rt": 0.66,
+        "rsi": 47.05
       },
       {
         "date": "3 มิ.ย.",
-        "rank_score": -7.94,
-        "rt": 0.73,
-        "rsi": 47.72
+        "rank_score": -11.55,
+        "rt": 0.88,
+        "rsi": 47.49
       },
       {
         "date": "4 มิ.ย.",
-        "rank_score": -14.6,
-        "rt": 1.06,
-        "rsi": 45.05
+        "rank_score": -7.77,
+        "rt": 0.57,
+        "rsi": 44.7
       },
       {
         "date": "5 มิ.ย.",
-        "rank_score": -8.41,
-        "rt": 0.94,
-        "rsi": 42.13
+        "rank_score": -9.77,
+        "rt": 1.25,
+        "rsi": 40.81
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": -7.73,
-        "rt": 0.82,
-        "rsi": 42.13
-      }
-    ]
-  },
-  "PTTEP": {
-    "symbol": "PTTEP",
-    "sector": "ENERGY",
-    "rank": 72,
-    "rank_prev": 77,
-    "rank_change": 5,
-    "rank_score": -7.97,
-    "rank_score_prev": -13.33,
-    "rsi": 47.2,
-    "rg": 71.2,
-    "rt": 1.62,
-    "gap_pct": -25.13,
-    "cxr14": 1.0266,
-    "cxr1m": 2.9672,
-    "pe": null,
-    "fpe": null,
-    "gm": null,
-    "d1": 1.3841,
-    "s7": 3.5336,
-    "s14": -4.2484,
-    "s1m": -1.3468,
-    "er": "NORMAL",
-    "src": "RT",
-    "last_price": 146.5,
-    "history": [
-      {
-        "date": "25 พ.ค.",
-        "rank_score": -2.66,
-        "rt": 0.0,
-        "rsi": 45.7
-      },
-      {
-        "date": "26 พ.ค.",
-        "rank_score": -2.31,
-        "rt": 0.0,
-        "rsi": 42.17
-      },
-      {
-        "date": "27 พ.ค.",
-        "rank_score": -8.96,
-        "rt": 0.0,
-        "rsi": 38.93
-      },
-      {
-        "date": "28 พ.ค.",
-        "rank_score": -12.7,
-        "rt": 0.0,
-        "rsi": 38.14
-      },
-      {
-        "date": "29 พ.ค.",
-        "rank_score": -17.72,
-        "rt": 0.0,
-        "rsi": 34.39
-      },
-      {
-        "date": "2 มิ.ย.",
-        "rank_score": -11.68,
-        "rt": 1.42,
-        "rsi": 38.31
-      },
-      {
-        "date": "3 มิ.ย.",
-        "rank_score": -10.15,
-        "rt": 1.88,
-        "rsi": 38.59
-      },
-      {
-        "date": "4 มิ.ย.",
-        "rank_score": -10.2,
-        "rt": 1.29,
-        "rsi": 41.29
-      },
-      {
-        "date": "5 มิ.ย.",
-        "rank_score": -13.33,
-        "rt": 0.54,
-        "rsi": 41.49
-      },
-      {
-        "date": "8 มิ.ย.",
-        "rank_score": -7.97,
-        "rt": 1.62,
-        "rsi": 47.17
+        "rank_score": -8.53,
+        "rt": 1.15,
+        "rsi": 39.92
       }
     ]
   },
@@ -6350,90 +6350,90 @@
       }
     ]
   },
-  "IVL": {
-    "symbol": "IVL",
-    "sector": "PETRO",
+  "TRUE": {
+    "symbol": "TRUE",
+    "sector": "TECH",
     "rank": 74,
-    "rank_prev": 73,
-    "rank_change": -1,
-    "rank_score": -9.65,
-    "rank_score_prev": -9.77,
-    "rsi": 39.9,
-    "rg": 74.6,
-    "rt": 1.12,
-    "gap_pct": -21.96,
-    "cxr14": -0.6662,
-    "cxr1m": -0.4973,
+    "rank_prev": 75,
+    "rank_change": 1,
+    "rank_score": -8.97,
+    "rank_score_prev": -11.15,
+    "rsi": 52.1,
+    "rg": 78.2,
+    "rt": 1.11,
+    "gap_pct": -33.01,
+    "cxr14": 0.0952,
+    "cxr1m": -0.0477,
     "pe": null,
     "fpe": null,
     "gm": null,
     "d1": 0.0,
-    "s7": -0.4292,
-    "s14": -4.6249,
-    "s1m": -2.6379,
-    "er": "",
+    "s7": -0.0,
+    "s14": -4.8276,
+    "s1m": -3.2388,
+    "er": "STRONG",
     "src": "RT",
-    "last_price": 23.2,
+    "last_price": 13.8,
     "history": [
       {
         "date": "25 พ.ค.",
-        "rank_score": -8.2,
+        "rank_score": 4.79,
         "rt": 0.0,
-        "rsi": 52.39
+        "rsi": 48.18
       },
       {
         "date": "26 พ.ค.",
-        "rank_score": 5.58,
+        "rank_score": -5.82,
         "rt": 0.0,
-        "rsi": 52.39
+        "rsi": 46.23
       },
       {
         "date": "27 พ.ค.",
-        "rank_score": 2.65,
+        "rank_score": -12.93,
         "rt": 0.0,
-        "rsi": 50.3
+        "rsi": 42.54
       },
       {
         "date": "28 พ.ค.",
-        "rank_score": -2.13,
+        "rank_score": -9.01,
         "rt": 0.0,
-        "rsi": 50.03
+        "rsi": 44.91
       },
       {
         "date": "29 พ.ค.",
-        "rank_score": -9.45,
+        "rank_score": -6.21,
         "rt": 0.0,
-        "rsi": 40.61
+        "rsi": 47.25
       },
       {
         "date": "2 มิ.ย.",
-        "rank_score": -6.32,
-        "rt": 0.66,
-        "rsi": 47.05
+        "rank_score": -6.83,
+        "rt": 1.5,
+        "rsi": 51.68
       },
       {
         "date": "3 มิ.ย.",
-        "rank_score": -11.55,
-        "rt": 0.88,
-        "rsi": 47.49
+        "rank_score": -7.61,
+        "rt": 1.89,
+        "rsi": 51.99
       },
       {
         "date": "4 มิ.ย.",
-        "rank_score": -7.77,
-        "rt": 0.57,
-        "rsi": 44.7
+        "rank_score": -11.55,
+        "rt": 0.93,
+        "rsi": 49.59
       },
       {
         "date": "5 มิ.ย.",
-        "rank_score": -9.77,
-        "rt": 1.25,
-        "rsi": 40.81
+        "rank_score": -11.15,
+        "rt": 0.75,
+        "rsi": 46.92
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": -9.65,
-        "rt": 1.12,
-        "rsi": 39.92
+        "rank_score": -8.97,
+        "rt": 1.11,
+        "rsi": 52.13
       }
     ]
   },
@@ -6443,7 +6443,7 @@
     "rank": 75,
     "rank_prev": 78,
     "rank_change": 3,
-    "rank_score": -9.65,
+    "rank_score": -9.57,
     "rank_score_prev": -13.73,
     "rsi": 57.2,
     "rg": 78.2,
@@ -6454,13 +6454,13 @@
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": 0.9174,
-    "s7": -0.9009,
-    "s14": -4.3478,
-    "s1m": 10.5528,
+    "d1": 0.0,
+    "s7": -1.8018,
+    "s14": -5.2174,
+    "s1m": 9.5477,
     "er": "",
     "src": "YF",
-    "last_price": 11.0,
+    "last_price": 10.9,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -6518,7 +6518,7 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": -9.65,
+        "rank_score": -9.57,
         "rt": 0.0,
         "rsi": 57.25
       }
@@ -6530,24 +6530,24 @@
     "rank": 76,
     "rank_prev": 76,
     "rank_change": 0,
-    "rank_score": -11.19,
+    "rank_score": -10.96,
     "rank_score_prev": -12.97,
     "rsi": 44.4,
-    "rg": 65.0,
+    "rg": 65.5,
     "rt": 0,
-    "gap_pct": -30.49,
+    "gap_pct": -30.34,
     "cxr14": 0.0,
     "cxr1m": 0.0,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": 2.8158,
-    "s7": 7.0246,
-    "s14": -12.3064,
-    "s1m": -3.5339,
+    "d1": 2.7162,
+    "s7": 6.9209,
+    "s14": -12.3914,
+    "s1m": -3.6273,
     "er": "-",
     "src": "YF",
-    "last_price": 97.5208,
+    "last_price": 97.4263,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -6605,7 +6605,7 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": -11.19,
+        "rank_score": -10.96,
         "rt": 0,
         "rsi": 44.44
       }
@@ -6704,24 +6704,24 @@
     "rank": 78,
     "rank_prev": 74,
     "rank_change": -4,
-    "rank_score": -12.27,
+    "rank_score": -12.31,
     "rank_score_prev": -10.12,
-    "rsi": 37.9,
+    "rsi": 36.5,
     "rg": 74.4,
-    "rt": 1.13,
+    "rt": 1.04,
     "gap_pct": -20.67,
     "cxr14": -0.1763,
     "cxr1m": -0.1525,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -1.7857,
-    "s7": -5.1724,
-    "s14": -5.7143,
-    "s1m": -2.3669,
+    "d1": -2.381,
+    "s7": -5.7471,
+    "s14": -6.2857,
+    "s1m": -2.9586,
     "er": "",
     "src": "RT",
-    "last_price": 8.25,
+    "last_price": 8.2,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -6779,9 +6779,9 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": -12.27,
-        "rt": 1.13,
-        "rsi": 37.93
+        "rank_score": -12.31,
+        "rt": 1.04,
+        "rsi": 36.54
       }
     ]
   },
@@ -6791,24 +6791,24 @@
     "rank": 79,
     "rank_prev": 68,
     "rank_change": -11,
-    "rank_score": -16.35,
+    "rank_score": -18.75,
     "rank_score_prev": -6.47,
     "rsi": 48.1,
-    "rg": 66.6,
-    "rt": 2.1,
-    "gap_pct": 28.77,
+    "rg": 65.1,
+    "rt": 2.02,
+    "gap_pct": 27.4,
     "cxr14": 0.404,
     "cxr1m": 4.847,
     "pe": null,
     "fpe": null,
     "gm": null,
-    "d1": -2.1053,
-    "s7": 2.1978,
-    "s14": -9.7087,
-    "s1m": -6.0606,
+    "d1": -1.5789,
+    "s7": 2.7472,
+    "s14": -9.2233,
+    "s1m": -5.5556,
     "er": "",
     "src": "RT",
-    "last_price": 1.86,
+    "last_price": 1.87,
     "history": [
       {
         "date": "25 พ.ค.",
@@ -6866,8 +6866,8 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": -16.35,
-        "rt": 2.1,
+        "rank_score": -18.75,
+        "rt": 2.02,
         "rsi": 48.09
       }
     ]
@@ -6878,11 +6878,11 @@
     "rank": 80,
     "rank_prev": 80,
     "rank_change": 0,
-    "rank_score": -23.07,
+    "rank_score": -22.87,
     "rank_score_prev": -23.54,
     "rsi": 36.2,
     "rg": 67.4,
-    "rt": 0.61,
+    "rt": 0.7,
     "gap_pct": 19.72,
     "cxr14": 4.3822,
     "cxr1m": -2.8392,
@@ -6953,8 +6953,8 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": -23.07,
-        "rt": 0.61,
+        "rank_score": -22.87,
+        "rt": 0.7,
         "rsi": 36.22
       }
     ]
@@ -6965,11 +6965,11 @@
     "rank": 81,
     "rank_prev": 81,
     "rank_change": 0,
-    "rank_score": -32.78,
+    "rank_score": -32.75,
     "rank_score_prev": -32.23,
-    "rsi": 24.4,
+    "rsi": 23.4,
     "rg": 4.3,
-    "rt": 0.89,
+    "rt": 0.8,
     "gap_pct": -31.97,
     "cxr14": -2.5838,
     "cxr1m": -3.4106,
@@ -7040,9 +7040,9 @@
       },
       {
         "date": "8 มิ.ย.",
-        "rank_score": -32.78,
-        "rt": 0.89,
-        "rsi": 24.44
+        "rank_score": -32.75,
+        "rt": 0.8,
+        "rsi": 23.4
       }
     ]
   }

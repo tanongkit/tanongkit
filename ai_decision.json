@@ -1,5 +1,151 @@
 [
   {
+    "tx_id": "20260608-1602",
+    "last_update": "2026-06-08 16:02:28",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -1.18% with almost all major sectors in deep red, especially TRANS/TOURISM.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is strongly bearish. Rules and sentiment dictate waiting for stabilization before committing to new entries.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 8,
+          "now": 17.4,
+          "entry": 17.5,
+          "tp": 18.4,
+          "vs": "vs BBL",
+          "why": "RT > 2x + good RSI, S7 override applicable."
+        },
+        {
+          "sym": "UBE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 1.2,
+          "entry": 1.21,
+          "tp": 1.32,
+          "vs": "Contrarian play",
+          "why": "Highest RT (3.3x) shows strong individual momentum."
+        },
+        {
+          "sym": "STGT",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 11.2,
+          "entry": 11.4,
+          "tp": 12.0,
+          "vs": "vs STA",
+          "why": "Positive sector + good RSI, waiting for RT > 1.5x."
+        },
+        {
+          "sym": "RBF",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 11.9,
+          "entry": 11.6,
+          "tp": 12.8,
+          "vs": "Momentum test",
+          "why": "RSI overbought (84), requires pullback per new rules."
+        },
+        {
+          "sym": "WHA",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 5.1,
+          "entry": 5.2,
+          "tp": 5.5,
+          "vs": "vs AMATA",
+          "why": "Strong fundamental DNA, waiting for market rebound."
+        },
+        {
+          "sym": "COM7",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 24.5,
+          "entry": 24.8,
+          "tp": 26.5,
+          "vs": "vs CPW",
+          "why": "Strong DNA, benefits from stimulus, waiting for RT."
+        },
+        {
+          "sym": "PSL",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 9.1,
+          "entry": 9.2,
+          "tp": 10.0,
+          "vs": "BDI Index",
+          "why": "Thematic BDI play, but TRANS sector is very weak."
+        },
+        {
+          "sym": "OSP",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 22.1,
+          "entry": 22.4,
+          "tp": 23.5,
+          "vs": "vs CBG",
+          "why": "Stimulus beneficiary, but FOOD sector currently weak."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -1.18% red day, most sectors negative, FINCIAL/TECH/RESOURC/SERVICE down",
+      "player_stance": "WAIT",
+      "stance_reason": "SET red + sectors bleeding + no strong RT flow, wait for pullback confirmation",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "UBE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 7.55,
+          "entry": 7.5,
+          "tp": 8.3,
+          "sector": "INSUR",
+          "vs": "RT 3.3x strong + RSI cool 47",
+          "why": "Insurance sector +0.71% green + high RT momentum"
+        },
+        {
+          "sym": "KTB",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 24.7,
+          "entry": 24.5,
+          "tp": 26.0,
+          "sector": "BANK",
+          "vs": "RT 2.2x + RSI 68 warm",
+          "why": "BANK sector -1.21% dragging, wait pullback below 24.5"
+        },
+        {
+          "sym": "RBF",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 46.4,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "FOOD",
+          "vs": "RSI 84 overbought + RT dropped 1.4x",
+          "why": "Wait pullback from overbought, RT cooling down"
+        },
+        {
+          "sym": "STGT",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 3.8,
+          "entry": 3.7,
+          "tp": 4.1,
+          "sector": "TOURISM",
+          "vs": "RT 1.3x weak + TOURISM -2.37%",
+          "why": "Sector bleeding hard, RT below threshold, wait recovery"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260608-1502",
     "last_update": "2026-06-08 15:02:16",
     "gemini": {
