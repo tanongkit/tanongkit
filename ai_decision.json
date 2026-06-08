@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260608-1432",
+    "last_update": "2026-06-08 14:32:11",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET down -0.86% with broad-based selling across most major sectors.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is clearly negative. Avoid new long positions and wait for stabilization signals per Lesson 1.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 17.5,
+          "tp": 18.2,
+          "vs": "RT 3.0x",
+          "why": "Exceptional RT shows relative strength despite weak sector."
+        },
+        {
+          "sym": "UBE",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 1.18,
+          "tp": 1.25,
+          "vs": "RT 2.1x",
+          "why": "Strong RT momentum play, but weak sector requires caution."
+        },
+        {
+          "sym": "STGT",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 9.1,
+          "tp": 9.6,
+          "vs": "RT 1.6x",
+          "why": "Meets RT/RSI rules, but sector is negative. Wait for confirmation."
+        },
+        {
+          "sym": "RBF",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 13.0,
+          "entry": 12.7,
+          "tp": 13.8,
+          "vs": "RSI 83",
+          "why": "Overbought (+5.2%). Per Lesson 2, wait for a pullback."
+        },
+        {
+          "sym": "OSP",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 22.5,
+          "tp": 23.5,
+          "vs": "Sector +0.59%",
+          "why": "Positive sector (CONSUMP), wait for RT confirmation."
+        },
+        {
+          "sym": "COM7",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 25.0,
+          "tp": 26.5,
+          "vs": "Sector +0.59%",
+          "why": "In a strong sector, a primary candidate once RT rises > 1.5x."
+        },
+        {
+          "sym": "WHA",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 4.8,
+          "tp": 5.0,
+          "vs": "DNA play",
+          "why": "Good fundamentals, but sector (PROP/INDUS) is currently weak."
+        },
+        {
+          "sym": "DELTA",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 85.0,
+          "tp": 90.0,
+          "vs": "MSCI play",
+          "why": "Sector leader, wait for pullback as ETRON sector is weak now."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -0.86% red, 10/11 sectors down, TECH -1.09%, RESOURC -0.71% heavy drag",
+      "player_stance": "WAIT",
+      "stance_reason": "Red market, focus stocks weak - RBF RSI 83 overbought, UBE/STGT low RT, KTB RT 3x但sector負",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "KTB",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 23.8,
+          "entry": 24.0,
+          "tp": 25.5,
+          "sector": "BANK",
+          "vs": "RT 3.0x strong sector -0.66%",
+          "why": "BANK red pullback wait rebound"
+        },
+        {
+          "sym": "UBE",
+          "action": "WAIT",
+          "conf": 2,
+          "now": 4.48,
+          "entry": 4.6,
+          "tp": 4.9,
+          "sector": "AGRO",
+          "vs": "RT 2.1x AGRO -0.86% weak",
+          "why": "Sector weak RSI 49 neutral wait"
+        },
+        {
+          "sym": "STGT",
+          "action": "WAIT",
+          "conf": 2,
+          "now": 19.0,
+          "entry": 19.3,
+          "tp": 20.5,
+          "sector": "PROPCON",
+          "vs": "RT 1.6x PROPCON -0.26% flat",
+          "why": "Low momentum sector flat wait"
+        },
+        {
+          "sym": "RBF",
+          "action": "WAIT",
+          "conf": 0,
+          "now": 9.3,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "FOOD",
+          "vs": "RSI 83 overbought FOOD -0.86%",
+          "why": "RSI 83 overbought wait pullback"
+        },
+        {
+          "sym": "CASH",
+          "action": "HOLD",
+          "conf": 10,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "CASH",
+          "vs": "Market red all weak",
+          "why": "Wait sector rebound signal"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260608-1402",
     "last_update": "2026-06-08 14:02:31",
     "gemini": {
