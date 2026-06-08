@@ -1,5 +1,132 @@
 [
   {
+    "tx_id": "20260608-1402",
+    "last_update": "2026-06-08 14:02:31",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -0.79% with broad-based sector sell-off; only defensive/small sectors are green.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is clearly bearish. Following Lesson #1, avoid buying into weakness. Wait for stabilization.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "UBE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 1.9x + D1 +1.8%",
+          "why": "Passes S7 Override. Shows strong relative strength against a weak market."
+        },
+        {
+          "sym": "TLI",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "INSUR sector +1.03%",
+          "why": "Strong sector and good RSI but RT is 0.0x. Wait for RT confirmation."
+        },
+        {
+          "sym": "KTB",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "High RT 2.9x",
+          "why": "High RT is positive but negative BANK sector (-0.85%) is a major risk."
+        },
+        {
+          "sym": "STGT",
+          "action": "WATCH",
+          "conf": 3,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RSI in range (50)",
+          "why": "Fails on key metrics: Low RT (1.3x) and negative sector flow."
+        },
+        {
+          "sym": "RBF",
+          "action": "WATCH",
+          "conf": 2,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "High score",
+          "why": "Overbought (RSI 82), low RT (0.6x), and negative sector. Avoid."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -0.79% most sectors red BANK/FIN/TECH/TOURISM down RESOURC -0.78%",
+      "player_stance": "WAIT",
+      "stance_reason": "SET red sentiment bearish no strong RT+S7 combo wait pullback finish",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "KTB",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 34.5,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "BANK",
+          "vs": "RT 2.9x good RSI 71 high",
+          "why": "BANK sector -0.85% red wait pullback"
+        },
+        {
+          "sym": "UBE",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 5.8,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "RESOURC",
+          "vs": "RT 1.9x RSI 47 ok",
+          "why": "RESOURC sector -0.78% Beta -0.18 defensive"
+        },
+        {
+          "sym": "STGT",
+          "action": "WAIT",
+          "conf": 2,
+          "now": 28.5,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "AGRO",
+          "vs": "RT 1.3x low RSI 50",
+          "why": "AGRO sector -0.85% red weak momentum"
+        },
+        {
+          "sym": "RBF",
+          "action": "WAIT",
+          "conf": 0,
+          "now": 6.5,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "FOOD",
+          "vs": "RSI 82 overbought RT 0.6x",
+          "why": "RSI extreme RT dry avoid chase"
+        },
+        {
+          "sym": "TLI",
+          "action": "WAIT",
+          "conf": 0,
+          "now": 13.8,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "TRANS",
+          "vs": "RT 0.0x dry RSI 60",
+          "why": "TRANS -1.02% RT dead no entry"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260608-1202",
     "last_update": "2026-06-08 12:02:11",
     "gemini": {
