@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260610-0537",
+    "last_update": "2026-06-10 05:37:09",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.44% (>1580), broad strength, but ETRON faces SOX -6% headwind.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is strong. Follow momentum per 06-04 lesson, but be selective, avoid chasing ETRON at open.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "TIPH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "sector leader",
+          "why": "INSUR sector flow +2.4% + RT 1.7x."
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "V-Shape",
+          "why": "ETRON flow leader + RT 2.3x (Risk: SOX)."
+        },
+        {
+          "sym": "BTG",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "high beta",
+          "why": "Top RT 3.1x, AGRO sector positive."
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Volatile Swing",
+          "why": "CONS sector +0.8%, good score, wait for RT."
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "V-Shape",
+          "why": "ETRON sector play, wait for RT > 1.5x."
+        },
+        {
+          "sym": "AMATA",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "high beta",
+          "why": "RSI 81 is overbought, wait for pullback."
+        },
+        {
+          "sym": "SCC",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "high beta",
+          "why": "RT 1.6x is good but sector is weak."
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Volatile Swing",
+          "why": "Top score but weak sector flow and RT."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.44% TECH +5.26% INSUR +2.40% FOOD +0.44% broad sector green",
+      "player_stance": "BUY",
+      "stance_reason": "SET bullish sentiment up ให้ยืน BUY ทั้งวัน ไม่ flip ตาม lesson 06-04",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 103.0,
+          "entry": 102.5,
+          "tp": 115.0,
+          "sector": "ETRON",
+          "vs": "RT 2.3x RSI 67",
+          "why": "TECH +5.26% sector flow RT สูง MSCI play"
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 8,
+          "now": 25.5,
+          "entry": 25.25,
+          "tp": 28.5,
+          "sector": "ETRON",
+          "vs": "RT 0.7x RSI 65",
+          "why": "TECH +5.26% gap 7.5% ใกล้ 8% รอ pullback"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 103.0,
+          "entry": 102.0,
+          "tp": 115.0,
+          "sector": "ETRON",
+          "vs": "before 11:00 RT",
+          "why": "RT ยังไม่นิ่งก่อน 11:00 ใช้ sector นำ"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 54.5,
+          "entry": 53.5,
+          "tp": 60.0,
+          "sector": "ETRON",
+          "vs": "RT 1.1x RSI 60",
+          "why": "TECH sector แรง แต่ RT ยังต่ำ รอ"
+        },
+        {
+          "sym": "SCC",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 367.0,
+          "entry": 365.0,
+          "tp": 390.0,
+          "sector": "CONMAT",
+          "vs": "RT 1.6x RSI 60",
+          "why": "RT 1.6x ดี แต่ราคา >100 block Rule0"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260610-0412",
     "last_update": "2026-06-10 04:12:24",
     "gemini": {
