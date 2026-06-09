@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260609-1201",
+    "last_update": "2026-06-09 12:01:58",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.18%, massive rotation into Electronics (+5.46%) and Tech (+3.85%) sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "SET is strong green (+1.18%). Lessons dictate a firm BUY stance and follow the momentum.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 10,
+          "now": 88.5,
+          "entry": 88.25,
+          "tp": 92.5,
+          "vs": "RT 2.8x",
+          "why": "Top stock in strongest sector (ETRON)"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 9,
+          "now": 47.25,
+          "entry": 47.0,
+          "tp": 49.5,
+          "vs": "RT 1.8x",
+          "why": "Follows DELTA in hot ETRON sector"
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 8,
+          "now": 19.3,
+          "entry": 19.2,
+          "tp": 20.0,
+          "vs": "RT 3.3x",
+          "why": "S7 Override: Strong RT despite weak sector"
+        },
+        {
+          "sym": "BTG",
+          "action": "BUY",
+          "conf": 7,
+          "now": 20.4,
+          "entry": 20.3,
+          "tp": 21.2,
+          "vs": "RT 5.3x (Massive)",
+          "why": "Huge volume spike in positive sector"
+        },
+        {
+          "sym": "CPF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 23.1,
+          "entry": 23.0,
+          "tp": 24.0,
+          "vs": "RT 3.1x",
+          "why": "Strong RT, sector rotating into FOOD"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 24.5,
+          "entry": 24.2,
+          "tp": 25.5,
+          "vs": "RT 1.6x",
+          "why": "High RSI (79) needs pullback first"
+        },
+        {
+          "sym": "TRUE",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 8.65,
+          "entry": 8.6,
+          "tp": 8.9,
+          "vs": "RT 1.4x",
+          "why": "Borderline RT, good RSI, merits watch"
+        },
+        {
+          "sym": "UBE",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 1.07,
+          "entry": 1.06,
+          "tp": 1.12,
+          "vs": "RT 1.5x",
+          "why": "Turnaround play, but RSI still low"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.18% strong, TECH +3.85%, ETRON +5.46%, INSUR +2.57%, FOOD +0.66%",
+      "player_stance": "BUY",
+      "stance_reason": "SET green, sentiment bullish, commit per lesson 1, no flip-flop today",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 26.7,
+          "entry": 26.5,
+          "tp": 30.0,
+          "sector": "ETRON",
+          "vs": "RT 2.8x sector +5.46%",
+          "why": "ETRON leader RT high momentum"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 37.0,
+          "entry": 36.5,
+          "tp": 42.0,
+          "sector": "ETRON",
+          "vs": "RT 1.8x sector +5.46%",
+          "why": "ETRON play RSI 60 safe"
+        },
+        {
+          "sym": "KTB",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 10.2,
+          "entry": 10.0,
+          "tp": 12.0,
+          "sector": "BANK",
+          "vs": "RT 3.3x but BANK -0.36%",
+          "why": "Wait pullback sector weak"
+        },
+        {
+          "sym": "RBF",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 43.3,
+          "entry": 42.0,
+          "tp": 50.0,
+          "sector": "FOOD",
+          "vs": "RSI 82 overbought pullback",
+          "why": "Wait dip RSI too hot"
+        },
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 78.3,
+          "entry": 75.0,
+          "tp": 90.0,
+          "sector": "ETRON",
+          "vs": "RT 0.7x low GAP 5.7%",
+          "why": "RT weak wait confirm"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260609-1132",
     "last_update": "2026-06-09 11:32:21",
     "gemini": {
