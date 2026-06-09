@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260609-1602",
+    "last_update": "2026-06-09 16:02:21",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.3%, led by a massive +6.35% surge in the ETRON sector.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong market momentum confirmed. Lesson is to commit to the trend and follow money flow.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Sector King",
+          "why": "ETRON +6.35% lead, RT 2.8x, RSI 65."
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Volume Anomaly",
+          "why": "S7 Override pass, massive RT 3.0x."
+        },
+        {
+          "sym": "BTG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT Spike",
+          "why": "AGRO+ sector, highest RT 3.5x, early momentum."
+        },
+        {
+          "sym": "CPF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "AGRO Play",
+          "why": "Positive sector flow, strong RT 2.0x."
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ETRON Laggard",
+          "why": "#1 Sector but RT < 1.5x, wait for volume."
+        },
+        {
+          "sym": "AMATA",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Overbought",
+          "why": "Good RT but RSI > 80, wait for pullback."
+        },
+        {
+          "sym": "CCET",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "High Score Low RT",
+          "why": "#1 Sector but RT 0.6x, wait for rotation."
+        },
+        {
+          "sym": "SCC",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT Watch",
+          "why": "RT 1.9x but sector/D1 weak, monitor."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.3%, TECH +4.62%, ETRON +6.35%, INSUR +2.31%, AGRO +0.79%",
+      "player_stance": "BUY",
+      "stance_reason": "SET เขียวต่อเนื่อง เงินไหล TECH+ETRON แรง ใช้กฎวันที่ 06-05: bullish ให้ commit",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 29.5,
+          "entry": 29.0,
+          "tp": 33.0,
+          "sector": "ETRON",
+          "vs": "RT 2.8x แรงสุด",
+          "why": "ETRON +6.35% MSCI +1,600M งบ ATH"
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 8,
+          "now": 8.9,
+          "entry": 8.8,
+          "tp": 10.0,
+          "sector": "BANK",
+          "vs": "RT 3.0x สูง",
+          "why": "Bond yield สูง NIM ดี RT แรง"
+        },
+        {
+          "sym": "BTG",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 1.9,
+          "entry": 1.8,
+          "tp": 2.3,
+          "sector": "AGRO",
+          "vs": "RSI 44 ต่ำ",
+          "why": "RT 3.5x แรง แต่ RSI ยังไม่ถึง 50"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 15.7,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "PROP",
+          "vs": "RSI 81 ร้อน",
+          "why": "RT 1.7x ดี แต่ RSI overbought รอ pullback"
+        },
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 79.2,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "TECH",
+          "vs": "ราคาเกิน 60",
+          "why": "Rule 0 block หุ้นราคาแพง RT ต่ำ 0.6x"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260609-1502",
     "last_update": "2026-06-09 15:02:10",
     "gemini": {
