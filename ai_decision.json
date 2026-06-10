@@ -1,5 +1,169 @@
 [
   {
+    "tx_id": "20260610-2110",
+    "last_update": "2026-06-10 21:10:42",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -1.3% (-20.55 pts). Widespread sell-off across almost all sectors.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is in a clear downtrend. Awaiting signs of stabilization before committing new capital.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "BTG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Weak AGRO sector (-0.67%).",
+          "why": "Strong RT (11.8x), good RSI (54), passes S7 override."
+        },
+        {
+          "sym": "PLUS",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "High risk: gap up >5% on red day.",
+          "why": "Exceptional RT (46.4x). Wait for pullback, do not chase."
+        },
+        {
+          "sym": "SCC",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Weak CONMAT sector (-0.67%).",
+          "why": "Decent RT (2.9x), good RSI (64), passes S7 override."
+        },
+        {
+          "sym": "TRUE",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Weak ICT sector (-1.02%), low score.",
+          "why": "RT > 1.5x (2.1x), passes S7 override rule."
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 3,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Very overbought (RSI 83). High risk.",
+          "why": "Wait for significant pullback. High score, RT > 1.5x."
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 3,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Market bearish, FOOD sector weak.",
+          "why": "Past super pick on deep pullback (-3.5%). Contrarian play."
+        },
+        {
+          "sym": "WHA",
+          "action": "BUY",
+          "conf": 2,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "FAILS S7 override rule (D1 not positive).",
+          "why": "Decent RT (3.0x), good RSI (61). Not a valid entry yet."
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 2,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Weak ENERG sector (-0.8%).",
+          "why": "Sector leader on pullback. Wait for confirmation signal."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -1.3% · TECH -2.68% · ETRON -3.33% · ภาคใหญ่แดง",
+      "player_stance": "WAIT",
+      "stance_reason": "SET แดงหนัก ไม่ flip กลับ BUY · รอฟื้นสัญญาณ",
+      "port_action": [
+        {
+          "sym": "PLUS",
+          "action": "SELL_PARTIAL",
+          "reason": "gap +6.1% RT 46x RSI 59 ใกล้ overbought จ่ายกำไร 50%",
+          "check": "TP 16.80 แตะแล้ว"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "BTG",
+          "action": "BUY",
+          "conf": 7,
+          "now": 7.8,
+          "entry": 7.7,
+          "tp": 8.5,
+          "sector": "FOOD",
+          "vs": "gap -1% RT 11.8x ไม่แรง",
+          "why": "FOOD -0.65% เบา RT สูง RSI 54 ดี"
+        },
+        {
+          "sym": "PLUS",
+          "action": "HOLD",
+          "conf": 6,
+          "now": 16.1,
+          "entry": 0.0,
+          "tp": 17.5,
+          "sector": "ETRON",
+          "vs": "breakout แรง แต่ RSI ใกล้ร้อน",
+          "why": "RT 46x breakout ใหม่ รอจังหวะจ่าย"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 25.0,
+          "entry": 24.5,
+          "tp": 26.5,
+          "sector": "PROP",
+          "vs": "RSI 83 overbought",
+          "why": "รอ pullback RSI ร้อนเกิน"
+        },
+        {
+          "sym": "SCC",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 339.0,
+          "entry": 335.0,
+          "tp": 355.0,
+          "sector": "CONMAT",
+          "vs": "CONMAT -0.67% sector อ่อน",
+          "why": "รอ sector ฟื้น RT 2.9x พอใช้"
+        },
+        {
+          "sym": "TRUE",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 7.05,
+          "entry": 6.95,
+          "tp": 7.5,
+          "sector": "ICT",
+          "vs": "ICT -1.02% sector แดง",
+          "why": "รอ sector ฟื้น RSI 50 เฉย"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260610-1102",
     "last_update": "2026-06-10 11:02:29",
     "gemini": {
