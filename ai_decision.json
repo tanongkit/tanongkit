@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260610-1003",
+    "last_update": "2026-06-10 10:03:16",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET flat (-0.18%) with strong rotation into Financials/Food and out of Tech.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is rotational, not trending. Awaiting clearer direction and focusing on sectors with strong inflow.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 9,
+          "now": 18.5,
+          "entry": 18.4,
+          "tp": 19.0,
+          "vs": "KBANK",
+          "why": "Top pick: BANK sector +0.61%, RT 2.6x."
+        },
+        {
+          "sym": "TIPH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 46.0,
+          "entry": 45.75,
+          "tp": 47.5,
+          "vs": "TQM",
+          "why": "INSUR sector +0.64%, RT 1.7x, RSI good."
+        },
+        {
+          "sym": "KBANK",
+          "action": "BUY",
+          "conf": 8,
+          "now": 131.0,
+          "entry": 130.5,
+          "tp": 134.0,
+          "vs": "KTB",
+          "why": "Strong BANK sector flow + RT 2.3x."
+        },
+        {
+          "sym": "BTG",
+          "action": "BUY",
+          "conf": 7,
+          "now": 20.2,
+          "entry": 20.1,
+          "tp": 21.0,
+          "vs": "CPF",
+          "why": "FOOD sector +0.4%, huge RT 3.1x momentum."
+        },
+        {
+          "sym": "CPF",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 18.4,
+          "entry": 18.3,
+          "tp": 19.0,
+          "vs": "BTG",
+          "why": "FOOD sector flow + RT 1.8x, waiting for RSI."
+        },
+        {
+          "sym": "DELTA",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 85.5,
+          "entry": 85.0,
+          "tp": 89.0,
+          "vs": "KCE",
+          "why": "High RT 2.3x but ETRON sector is weak; a high-risk leader play."
+        },
+        {
+          "sym": "SCC",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 288.0,
+          "entry": 287.0,
+          "tp": 294.0,
+          "vs": "IVL",
+          "why": "Safe pick: Positive sector, RT 1.6x, good RSI."
+        },
+        {
+          "sym": "TQM",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 25.0,
+          "entry": 24.9,
+          "tp": 26.0,
+          "vs": "TIPH",
+          "why": "Strong INSUR sector flow, waiting for RT to confirm."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -0.18% · TECH -0.68% ETRON -0.87% leading down · BANK weak +0.61%",
+      "player_stance": "WAIT",
+      "stance_reason": "SET red · most sectors weak · early session RT unreliable · wait 11:00 confirmation",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 96.5,
+          "entry": 96.0,
+          "tp": 105.0,
+          "sector": "ETRON",
+          "vs": "RT 2.3x strong · MSCI deadline 29 May passed",
+          "why": "RT high · sector weak wait"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 5,
+          "now": 58.5,
+          "entry": 58.0,
+          "tp": 62.0,
+          "sector": "ETRON",
+          "vs": "RT 1.1x · gap -1.4% pullback okay · RSI 60",
+          "why": "ETRON weak · wait pullback"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 37.25,
+          "entry": 36.5,
+          "tp": 40.0,
+          "sector": "PROPCON",
+          "vs": "RT 1.5x · RSI 81 overbought · gap +0.9%",
+          "why": "RSI too high · wait"
+        },
+        {
+          "sym": "SCC",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 402.0,
+          "entry": 400.0,
+          "tp": 420.0,
+          "sector": "CONMAT",
+          "vs": "RT 1.6x · RSI 60 · Rule 0 block >100",
+          "why": "price >100 blocked Rule0"
+        },
+        {
+          "sym": "KTB",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 24.5,
+          "entry": 24.3,
+          "tp": 26.0,
+          "sector": "BANK",
+          "vs": "RT 2.6x strong · RSI 62 · gap -50% recovery",
+          "why": "early vol low · wait"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260610-0537",
     "last_update": "2026-06-10 05:37:09",
     "gemini": {
