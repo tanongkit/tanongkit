@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260611-0537",
+    "last_update": "2026-06-11 05:37:17",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET down -1.3% with broad-based selling. Very few sectors are green.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is in risk-off mode with heavy selling. Avoid new long positions until sentiment stabilizes.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "PLUS",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Extreme RT vs weak sector",
+          "why": "RT 15.7x is a massive volume signal."
+        },
+        {
+          "sym": "TIPH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 1.6x + green sector",
+          "why": "Meets all criteria: RT>1.5x, good RSI, S7+."
+        },
+        {
+          "sym": "CPF",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 1.6x vs weak RSI",
+          "why": "S7 override rule applies due to high RT."
+        },
+        {
+          "sym": "PRM",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT near threshold + S7+",
+          "why": "Slightly positive sector, RT improving but RSI low."
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "High RSI vs weak RT",
+          "why": "RSI > 80, a wait for pullback signal."
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Good RSI/Score vs no RT",
+          "why": "Good fundamentals but needs volume confirmation."
+        },
+        {
+          "sym": "OSP",
+          "action": "BUY",
+          "conf": 3,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Good RSI vs low RT/S7-",
+          "why": "RSI in buy zone but lacks volume and sector flow."
+        },
+        {
+          "sym": "TLI",
+          "action": "BUY",
+          "conf": 2,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Good RSI/S7+ vs zero RT",
+          "why": "Positive sector but zero RT is a major red flag."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -1.3% · TECH -2.68% · ETRON -3.33% · Most sectors red",
+      "player_stance": "WAIT",
+      "stance_reason": "SET ดิ่ง -1.3% · Sector flow แดงทั่วบอร์ด ยกเว้น INSUR/PKG/TRANS · หลีกเลี่ยงไล่ราคา",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "PLUS",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.28,
+          "entry": 4.26,
+          "tp": 4.7,
+          "sector": "ICT",
+          "vs": "RT 15.7x พุ่งสุด · RSI 53 ปลอดภัย · Service sector น้อยสุด -0.43%",
+          "why": "RT explosion · Safe RSI · Defensive sector"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 6,
+          "now": 20.6,
+          "entry": 20.5,
+          "tp": 22.5,
+          "sector": "TRANS",
+          "vs": "TRANS sector +0.04% เดียวบวก · RT ต่ำ 0.2x รอ flow · 5/8 ผ่าน checklist",
+          "why": "Sector leader TRANS · Score สูงสุด 27.8"
+        },
+        {
+          "sym": "TIPH",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 3.56,
+          "entry": 3.5,
+          "tp": 3.85,
+          "sector": "PROP",
+          "vs": "RT 1.6x พอดู · RSI 60 ดี · แต่ PROPCON -0.69% กดดัน",
+          "why": "RT ok · Sector weak wait confirmation"
+        },
+        {
+          "sym": "CPF",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 21.5,
+          "entry": 21.3,
+          "tp": 23.0,
+          "sector": "FOOD",
+          "vs": "RT 1.6x ผ่าน · FOOD sector -0.65% แดง · RSI 46 ต่ำ",
+          "why": "RT 1.6x · Sector weak · Low RSI"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 28.5,
+          "entry": 27.8,
+          "tp": 30.5,
+          "sector": "PROP",
+          "vs": "RT 1.1x ต่ำ · RSI 82 overbought · PROPCON -0.69% · gap 0% รอ pullback",
+          "why": "RSI 82 overbought · RT low · Sector weak"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260610-2110",
     "last_update": "2026-06-10 21:10:42",
     "gemini": {
