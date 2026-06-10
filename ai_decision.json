@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260610-1032",
+    "last_update": "2026-06-10 10:32:15",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET flat (-0.11%), mixed sector performance with weakness in ETRON.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market lacks clear direction. Focus on individual stocks with strong sector flow, avoiding broad market buys.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Strongest sector (PKG +1.77%)",
+          "why": "Top score, ideal RSI, leading sector."
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Positive sector (FOOD +0.17%)",
+          "why": "Good score, solid RSI, past momentum."
+        },
+        {
+          "sym": "TAN",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Strong sector (FASHION +0.55%)",
+          "why": "Low score but excellent sector momentum."
+        },
+        {
+          "sym": "AMATA",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RSI overbought (81)",
+          "why": "Wait for pullback, sector is flat."
+        },
+        {
+          "sym": "CBG",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Positive sector (FOOD +0.17%)",
+          "why": "Very low score but RSI is okay."
+        },
+        {
+          "sym": "TLI",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Positive sector (INSUR +0.17%)",
+          "why": "Very low score, good RSI."
+        },
+        {
+          "sym": "UBE",
+          "action": "WATCH",
+          "conf": 3,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Weak sector (AGRI -0.42%)",
+          "why": "Low RSI and negative sector flow."
+        },
+        {
+          "sym": "HMPRO",
+          "action": "WATCH",
+          "conf": 2,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Negative score, low RSI.",
+          "why": "Wait for clearer signals, low priority."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET -0.11% minor red, mixed sectors, PKG +1.77% strong, TECH -0.66% weak",
+      "player_stance": "WAIT",
+      "stance_reason": "10:31 early, all RT 0.0x data incomplete, gap neutral, wait 11:00+ for RT confirmation",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "WAIT",
+          "conf": 0,
+          "now": 13.4,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "PKG",
+          "vs": "RSI 74 overbought",
+          "why": "score 110 but RSI too high, wait pullback"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 6,
+          "now": 10.8,
+          "entry": 10.7,
+          "tp": 11.5,
+          "sector": "FOOD",
+          "vs": "5/8 pass, FOOD +0.17%",
+          "why": "gap +0.4% normal, sector green, RSI 69 OK"
+        },
+        {
+          "sym": "PLUS",
+          "action": "BUY",
+          "conf": 5,
+          "now": 7.15,
+          "entry": 7.1,
+          "tp": 7.6,
+          "sector": "TRANS",
+          "vs": "gap +11.3% today",
+          "why": "TRANS +0.47% sector flow, RSI 45 safe"
+        },
+        {
+          "sym": "BTG",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 9.85,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "FOOD",
+          "vs": "gap +3.5%, 1/8 only",
+          "why": "wait RT confirm after 11:00, FOOD sector positive"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 0,
+          "now": 25.25,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "PROP",
+          "vs": "RSI 81 extreme overbought",
+          "why": "gap +9% too high, avoid chasing"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260610-1003",
     "last_update": "2026-06-10 10:03:16",
     "gemini": {
