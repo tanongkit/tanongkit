@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260610-1102",
+    "last_update": "2026-06-10 11:02:29",
+    "gemini": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET down -0.58%, broad selling pressure in most sectors, especially TECH/ETRON.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is in risk-off mode with heavy selling. Best to wait for signs of stabilization.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "BTG",
+          "action": "BUY",
+          "conf": 8,
+          "now": 22.4,
+          "entry": 22.2,
+          "tp": 23.2,
+          "vs": "High RT breakout",
+          "why": "Strongest momentum (RT 9.1x) with S7 override rule."
+        },
+        {
+          "sym": "PLUS",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 5.0,
+          "entry": 4.8,
+          "tp": 5.2,
+          "vs": "Extreme gap up",
+          "why": "Excellent RT 10.3x, but gap +12% is too high to chase."
+        },
+        {
+          "sym": "TAN",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 17.5,
+          "entry": 17.5,
+          "tp": 18.2,
+          "vs": "Positive sector flow",
+          "why": "In a rare positive sector (FASHION) but RT is still weak."
+        },
+        {
+          "sym": "AMATA",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 23.1,
+          "entry": 22.8,
+          "tp": 23.8,
+          "vs": "Overbought RSI",
+          "why": "RSI > 80 and low RT signal a need for pullback."
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 8.0,
+          "entry": 8.0,
+          "tp": 8.4,
+          "vs": "Dead RT",
+          "why": "Highest score (99) and S7+, but zero RT is a major red flag."
+        },
+        {
+          "sym": "TLI",
+          "action": "WATCH",
+          "conf": 3,
+          "now": 8.65,
+          "entry": 8.6,
+          "tp": 8.9,
+          "vs": "Positive sector flow",
+          "why": "In a green sector (INSUR) but all other metrics are weak."
+        },
+        {
+          "sym": "RBF",
+          "action": "WATCH",
+          "conf": 3,
+          "now": 12.0,
+          "entry": 11.9,
+          "tp": 12.5,
+          "vs": "No momentum",
+          "why": "No RT, negative sector. Watching based on historical strength only."
+        },
+        {
+          "sym": "CBG",
+          "action": "WATCH",
+          "conf": 2,
+          "now": 65.25,
+          "entry": 65.0,
+          "tp": 67.0,
+          "vs": "Low volume",
+          "why": "No compelling signals today. Low on watchlist."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -0.58% TECH -1.49% ETRON -2.04% PETRO -1.26% majority sectors red",
+      "player_stance": "WAIT",
+      "stance_reason": "SET red sentiment bearish most stocks gap down low RT before 11:00 wait confirmation",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "BTG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.15,
+          "entry": 5.1,
+          "tp": 5.7,
+          "sector": "FOOD",
+          "vs": "RT 9.1x breakout gap +2.0%",
+          "why": "super RT FOOD sector leader"
+        },
+        {
+          "sym": "PLUS",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 3.82,
+          "entry": 3.6,
+          "tp": 4.2,
+          "sector": "FOOD",
+          "vs": "RT 10.3x gap +12.2%",
+          "why": "gap too high wait pullback"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 9.6,
+          "entry": 9.5,
+          "tp": 10.5,
+          "sector": "FOOD",
+          "vs": "RT missed 2 days RSI 70",
+          "why": "FOOD flow RT confirmed pullback"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 22.5,
+          "entry": 21.5,
+          "tp": 24.0,
+          "sector": "PROPCON",
+          "vs": "RSI 83 overbought gap +0.9%",
+          "why": "RSI too high wait pullback"
+        },
+        {
+          "sym": "EPG",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 13.4,
+          "entry": 13.2,
+          "tp": 14.5,
+          "sector": "PKG",
+          "vs": "score 99 RT 0.0x early",
+          "why": "RT not ready wait post-11:00"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260610-1032",
     "last_update": "2026-06-10 10:32:15",
     "gemini": {
