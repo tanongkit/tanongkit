@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260611-1002",
+    "last_update": "2026-06-11 10:02:54",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET green +0.46%, broad buying in BANK, ETRON, ICT, ENERG sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is bullish with strong sector flows. Per lesson, commit to BUY side and don't flip-flop.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ETRON sector +0.58%",
+          "why": "Sector leader, money inflow to ETRON, RSI 59 good."
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ENERG sector +0.56%",
+          "why": "Strong sector, good RSI 54, proven momentum stock."
+        },
+        {
+          "sym": "PLUS",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 15.7x",
+          "why": "Extreme RT signals high interest. Speculative momentum play."
+        },
+        {
+          "sym": "BTG",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 6.1x",
+          "why": "Very high RT spike. Speculative bottom fishing play."
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ETRON sector +0.58%",
+          "why": "In strong sector, good RSI. Wait for RT > 1.5x."
+        },
+        {
+          "sym": "TIPH",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "INSUR sector +0.37%",
+          "why": "RT > 1.5x, good RSI. Needs more sector strength."
+        },
+        {
+          "sym": "CCET",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ETRON sector +0.58%",
+          "why": "Follower in strong sector. Wait for RT to confirm momentum."
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Score 90.7",
+          "why": "High score but weak RT/sector. Awaiting momentum confirmation."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.46% FINCIAL +0.7% BANK +0.79% TECH +0.63% ENERG +0.56% CONMAT +0.91%",
+      "player_stance": "BUY",
+      "stance_reason": "SET เขียว sector flow บวก ใช้ Rule1: ยืน BUY ทั้งวัน ไม่ flip",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "BTG",
+          "action": "BUY",
+          "conf": 7,
+          "now": 10.0,
+          "entry": 10.0,
+          "tp": 11.5,
+          "sector": "FOOD",
+          "vs": "RT 6.1x แรงสุด",
+          "why": "RT 6.1x FOOD +0.01% gap safe"
+        },
+        {
+          "sym": "PLUS",
+          "action": "BUY",
+          "conf": 7,
+          "now": 8.4,
+          "entry": 8.4,
+          "tp": 9.2,
+          "sector": "ICT",
+          "vs": "RT 15.7x ระเบิด",
+          "why": "RT 15.7x ICT +0.77% sector แรง"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 98.0,
+          "entry": 96.0,
+          "tp": 105.0,
+          "sector": "ETRON",
+          "vs": "RT 1.3x ดี",
+          "why": "ราคา 98 ใกล้ Rule0 รอ pullback"
+        },
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 25.2,
+          "entry": 24.8,
+          "tp": 27.0,
+          "sector": "ETRON",
+          "vs": "RT 0.7x อ่อน",
+          "why": "RT ต่ำ ก่อน 11:00 ยังไม่นิ่ง"
+        },
+        {
+          "sym": "TIPH",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 0.78,
+          "entry": 0.77,
+          "tp": 0.85,
+          "sector": "PROP",
+          "vs": "RT 1.6x พอใช้",
+          "why": "PROP +0.34% RT 1.6x รอ confirm"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260611-0537",
     "last_update": "2026-06-11 05:37:17",
     "gemini": {
