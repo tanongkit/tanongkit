@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260611-2239",
+    "last_update": "2026-06-11 22:39:57",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET green (+0.56%) with strong fund flow into key sectors like PETRO, TECH, and INDUS.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is bullish and lessons dictate committing to the BUY side, avoiding flip-flops. Following momentum.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "TIPH",
+          "action": "BUY",
+          "conf": 9,
+          "now": 46.5,
+          "entry": 46.75,
+          "tp": 48.5,
+          "vs": "RT 3.6x, RSI 70, gap <2%",
+          "why": "Top RT, perfect RSI, positive sector flow."
+        },
+        {
+          "sym": "IVL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 23.1,
+          "entry": 23.2,
+          "tp": 24.5,
+          "vs": "RT 2.0x, S7 +3.31%",
+          "why": "Strong sector flow and RT outweigh low score."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.22,
+          "entry": 3.2,
+          "tp": 3.36,
+          "vs": "RT 1.5x, RSI 65",
+          "why": "Meets criteria, but wait for dip on high gap."
+        },
+        {
+          "sym": "TOP",
+          "action": "BUY",
+          "conf": 6,
+          "now": 54.0,
+          "entry": 54.25,
+          "tp": 56.0,
+          "vs": "RT 1.5x, S7 positive",
+          "why": "Momentum building in strong ENERG sector."
+        },
+        {
+          "sym": "PTTGC",
+          "action": "WATCH",
+          "conf": 8,
+          "now": 35.25,
+          "entry": 35.5,
+          "tp": 37.0,
+          "vs": "RT 1.4x, S7 +3.31%",
+          "why": "Explosive sector, watch for RT > 1.5x."
+        },
+        {
+          "sym": "TRUE",
+          "action": "WATCH",
+          "conf": 7,
+          "now": 8.4,
+          "entry": 8.45,
+          "tp": 8.7,
+          "vs": "RT 1.4x, S7 +0.96%",
+          "why": "Strong ICT sector, RT near breakout level."
+        },
+        {
+          "sym": "SCC",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 297.0,
+          "entry": 298.0,
+          "tp": 305.0,
+          "vs": "RT 1.2x, S7 +1.19%",
+          "why": "Good sector/RSI, needs volume confirmation."
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 9.9,
+          "entry": 10.0,
+          "tp": 10.5,
+          "vs": "Score 99.7, RT 0.3x",
+          "why": "Highest score, watch for volume spike."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.56%, INDUS +1.84%, PETRO +3.31%, TECH +1.55%, FIN +0.28% all green",
+      "player_stance": "BUY",
+      "stance_reason": "Bullish momentum + sector flow positive PETRO/INDUS/TECH - ยืน BUY ทั้งวัน ไม่ flip",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "TIPH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.58,
+          "entry": 3.6,
+          "tp": 3.95,
+          "sector": "FOOD",
+          "vs": "RT 3.6x สูงสุด",
+          "why": "RT เด่น+gap ต่ำ+เข้าได้"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.28,
+          "entry": 3.32,
+          "tp": 3.6,
+          "sector": "ENERG",
+          "vs": "RT 1.5x+sector เขียว",
+          "why": "gap 4.2% รอ pullback"
+        },
+        {
+          "sym": "SCC",
+          "action": "BUY",
+          "conf": 8,
+          "now": 385.0,
+          "entry": 387.0,
+          "tp": 410.0,
+          "sector": "CONMAT",
+          "vs": "RT 1.2x+CONMAT +1.19%",
+          "why": "gap ต่ำ+sector แรง"
+        },
+        {
+          "sym": "IVL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 23.2,
+          "entry": 23.5,
+          "tp": 25.0,
+          "sector": "PETRO",
+          "vs": "RT 2.0x+PETRO +3.31%",
+          "why": "RSI 45 ต่ำ รอขึ้น 50"
+        },
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 18.0,
+          "entry": 18.2,
+          "tp": 19.5,
+          "sector": "ETRON",
+          "vs": "gap +5.1%+RT 0.6x",
+          "why": "gap สูงเกิน รอ pullback"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260611-1602",
     "last_update": "2026-06-11 16:02:27",
     "gemini": {
