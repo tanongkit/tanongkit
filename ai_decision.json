@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260611-1202",
+    "last_update": "2026-06-11 12:02:14",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.93%, broad green sectors, strong flow into Petrochemicals and Industrials.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is bullish with positive sector flows. Following lesson to commit to BUY stance all day.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "TIPH",
+          "action": "BUY",
+          "conf": 9,
+          "now": 42.5,
+          "entry": 42.25,
+          "tp": 44.0,
+          "vs": "RT 8.4x >> Mkt",
+          "why": "Leader RT, INSUR flow, RSI good."
+        },
+        {
+          "sym": "IVL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 24.1,
+          "entry": 24.0,
+          "tp": 25.2,
+          "vs": "PETRO +3.66%",
+          "why": "Strongest sector, high RT momentum."
+        },
+        {
+          "sym": "TRUE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 8.65,
+          "entry": 8.6,
+          "tp": 8.9,
+          "vs": "ICT +1.58%",
+          "why": "Strong sector flow, RT > 2x, low gap."
+        },
+        {
+          "sym": "PLUS",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.1,
+          "entry": 4.08,
+          "tp": 4.3,
+          "vs": "RT 5.1x >> Mkt",
+          "why": "Explosive RT, RSI in range."
+        },
+        {
+          "sym": "SCC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 290.0,
+          "entry": 289.0,
+          "tp": 298.0,
+          "vs": "CONMAT +1.31%",
+          "why": "All signals positive, low entry gap."
+        },
+        {
+          "sym": "THCOM",
+          "action": "BUY",
+          "conf": 6,
+          "now": 12.1,
+          "entry": 12.0,
+          "tp": 12.5,
+          "vs": "ICT +1.58%",
+          "why": "Strong sector, good RT, momentum."
+        },
+        {
+          "sym": "IRPC",
+          "action": "BUY",
+          "conf": 6,
+          "now": 1.95,
+          "entry": 1.95,
+          "tp": 2.04,
+          "vs": "PETRO +3.66%",
+          "why": "Catch-up play in top sector."
+        },
+        {
+          "sym": "KSL",
+          "action": "BUY",
+          "conf": 5,
+          "now": 3.1,
+          "entry": 3.08,
+          "tp": 3.22,
+          "vs": "RT 3.1x > Mkt",
+          "why": "RT momentum play, weak score."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.93% INDUS +2.52% PETRO +3.66% TECH +1.53% CONMAT +1.31% FIN +0.91%",
+      "player_stance": "BUY",
+      "stance_reason": "SET green 1578→sectors rotate PETRO INDUS TECH strong commit BUY no flip",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "SCC",
+          "action": "BUY",
+          "conf": 9,
+          "now": 42.25,
+          "entry": 42.25,
+          "tp": 44.0,
+          "sector": "CONMAT",
+          "vs": "RT 1.6x gap 1.7%",
+          "why": "CONMAT +1.31% RT strong RSI 63 safe"
+        },
+        {
+          "sym": "IVL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 21.5,
+          "entry": 21.5,
+          "tp": 23.0,
+          "sector": "PETRO",
+          "vs": "RT 3.6x sector +3.66%",
+          "why": "PETRO leader RT 3.6x gap 4.9% momentum"
+        },
+        {
+          "sym": "TIPH",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.62,
+          "entry": 3.62,
+          "tp": 3.85,
+          "sector": "COMM",
+          "vs": "RT 8.4x gap 1.4%",
+          "why": "RT explosion 8.4x RSI 68 safe entry"
+        },
+        {
+          "sym": "SCGP",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 33.0,
+          "entry": 32.5,
+          "tp": 34.5,
+          "sector": "PKG",
+          "vs": "gap 3.0% รอ pullback",
+          "why": "PKG +1.62% but gap high wait dip"
+        },
+        {
+          "sym": "EPG",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 9.25,
+          "entry": 9.1,
+          "tp": 9.7,
+          "sector": "PKG",
+          "vs": "gap 3.7% RSI 71",
+          "why": "score 96 but gap high RSI warn"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260611-1132",
     "last_update": "2026-06-11 11:32:12",
     "gemini": {
