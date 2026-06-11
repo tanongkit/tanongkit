@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260611-1132",
+    "last_update": "2026-06-11 11:32:12",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.71%, broad-based rally led by PETRO, INDUS, ENERG, ICT.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is green and sectors are strong. Per 2026-06-04 lesson: commit to BUY stance.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "IVL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 23.7,
+          "entry": 23.6,
+          "tp": 24.5,
+          "vs": "PTTGC",
+          "why": "#1 sector (PETRO +3.1%) + massive RT (5.4x)."
+        },
+        {
+          "sym": "TIPH",
+          "action": "BUY",
+          "conf": 9,
+          "now": 45.25,
+          "entry": 45.0,
+          "tp": 47.0,
+          "vs": "BKI",
+          "why": "Explosive RT (12.8x) with ideal RSI (70)."
+        },
+        {
+          "sym": "TRUE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 8.7,
+          "entry": 8.65,
+          "tp": 9.0,
+          "vs": "ADVANC",
+          "why": "Strong ICT sector flow (+1.48%) + high RT (3.1x)."
+        },
+        {
+          "sym": "SCC",
+          "action": "BUY",
+          "conf": 8,
+          "now": 270.0,
+          "entry": 269.0,
+          "tp": 278.0,
+          "vs": "SCGP",
+          "why": "Strong CONMAT sector (+1.28%) with high RT (2.5x)."
+        },
+        {
+          "sym": "THCOM",
+          "action": "BUY",
+          "conf": 7,
+          "now": 11.8,
+          "entry": 11.7,
+          "tp": 12.3,
+          "vs": "TRUE",
+          "why": "ICT sector play with strong RT (2.5x)."
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 7,
+          "now": 34.5,
+          "entry": 34.25,
+          "tp": 35.75,
+          "vs": "SCC",
+          "why": "Strong PKG sector (+1.5%) with volume confirmation (RT 1.5x)."
+        },
+        {
+          "sym": "ADVANC",
+          "action": "BUY",
+          "conf": 6,
+          "now": 210.0,
+          "entry": 209.0,
+          "tp": 215.0,
+          "vs": "TRUE",
+          "why": "Safer ICT sector leader, RT just crossed threshold."
+        },
+        {
+          "sym": "PLUS",
+          "action": "BUY",
+          "conf": 5,
+          "now": 2.52,
+          "entry": 2.5,
+          "tp": 2.64,
+          "vs": "SIRI",
+          "why": "Speculative pure RT play (7.7x), weak sector."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.71% INDUS+2.01% PETRO+3.1% CONMAT+1.28% FIN+0.58% strong sector breadth",
+      "player_stance": "BUY",
+      "stance_reason": "SET green + sector flow positive + PETRO/INDUS/PKG momentum strong → commit BUY stance",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "SCC",
+          "action": "BUY",
+          "conf": 9,
+          "now": 465.0,
+          "entry": 465.0,
+          "tp": 485.0,
+          "sector": "CONMAT",
+          "vs": "RT 2.5x sector+3.1%",
+          "why": "PETRO+CONMAT leader RT>1.5x RSI63 pass"
+        },
+        {
+          "sym": "SCGP",
+          "action": "BUY",
+          "conf": 8,
+          "now": 44.75,
+          "entry": 44.75,
+          "tp": 46.5,
+          "sector": "PKG",
+          "vs": "RT 1.5x sector+1.5%",
+          "why": "PKG leader gap3% but RT confirm"
+        },
+        {
+          "sym": "TIPH",
+          "action": "BUY",
+          "conf": 7,
+          "now": 26.0,
+          "entry": 26.25,
+          "tp": 27.5,
+          "sector": "PETRO",
+          "vs": "RT 12.8x PETRO+3.1%",
+          "why": "extreme RT PETRO boom RSI70 ok"
+        },
+        {
+          "sym": "GULF",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 64.25,
+          "entry": 64.0,
+          "tp": 67.0,
+          "sector": "ENERG",
+          "vs": "gap+2% RT 1.6x",
+          "why": "sector+1.1% gap moderate wait pullback"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 4.02,
+          "entry": 4.0,
+          "tp": 4.2,
+          "sector": "ENERG",
+          "vs": "gap+1.6% RT 1.5x",
+          "why": "sector ok gap small RT borderline"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260611-1102",
     "last_update": "2026-06-11 11:02:03",
     "gemini": {
