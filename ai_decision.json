@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260611-1402",
+    "last_update": "2026-06-11 14:02:21",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.94%. Strong, broad-based buying. Petro, Industrials, and Tech leading the market.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is strong green. Lessons learned dictate committing to the BUY side without hesitation.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "TIPH",
+          "action": "BUY",
+          "conf": 9,
+          "now": 42.0,
+          "entry": 42.0,
+          "tp": 44.0,
+          "vs": "INSUR sector momentum",
+          "why": "Massive RT 7.1x, perfect RSI 67, and strong sector flow. Best signal."
+        },
+        {
+          "sym": "IVL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 24.2,
+          "entry": 24.2,
+          "tp": 25.0,
+          "vs": "Day's leading sector",
+          "why": "PETRO sector is leader (+3.5%). Rule override: Sector Flow > RSI. RT 3.5x."
+        },
+        {
+          "sym": "PLUS",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.8,
+          "entry": 3.8,
+          "tp": 4.0,
+          "vs": "Small cap momentum",
+          "why": "Very high RT 4.1x with good RSI 54, indicating strong interest."
+        },
+        {
+          "sym": "TRUE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 8.5,
+          "entry": 8.5,
+          "tp": 8.8,
+          "vs": "ICT sector play",
+          "why": "Meets all rules: RT 1.6x, RSI 53, strong ICT sector (+1.39%). Solid choice."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 3.0,
+          "entry": 2.98,
+          "tp": 3.1,
+          "vs": "Volatile swing play",
+          "why": "RT 1.5x and RSI 64 are good, but price is up 4.2%. Wait for minor dip."
+        },
+        {
+          "sym": "KSL",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 2.1,
+          "entry": 2.1,
+          "tp": 2.2,
+          "vs": "Recovery play in FOOD",
+          "why": "Strong RT 2.6x but RSI is still low (46). Needs more confirmation."
+        },
+        {
+          "sym": "TOP",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 55.0,
+          "entry": 55.0,
+          "tp": 56.5,
+          "vs": "Refinery rebound",
+          "why": "High RT 2.6x shows interest, but RSI is very low (40). A bottom-fishing candidate."
+        },
+        {
+          "sym": "SCC",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 295.0,
+          "entry": 295.0,
+          "tp": 300.0,
+          "vs": "Big cap laggard play",
+          "why": "RT is just below threshold (1.4x) but in strong CONMAT sector. Worth watching."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.94% PETRO +3.48% ETRON +1.79% INSUR +0.94% broad sector strength",
+      "player_stance": "BUY",
+      "stance_reason": "SET green sector flow positive apply lesson1 commit BUY no flip-flop",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "TIPH",
+          "action": "BUY",
+          "conf": 9,
+          "now": 5.3,
+          "entry": 5.3,
+          "tp": 5.8,
+          "sector": "PROPCON",
+          "vs": "RT 7.1x sector up",
+          "why": "RT extreme 7.1x PROPCON +0.6% momentum confirmed"
+        },
+        {
+          "sym": "PLUS",
+          "action": "BUY",
+          "conf": 8,
+          "now": 6.25,
+          "entry": 6.25,
+          "tp": 6.8,
+          "sector": "ICT",
+          "vs": "RT 4.1x ICT +1.39%",
+          "why": "RT 4.1x ICT sector flow strong RSI 54"
+        },
+        {
+          "sym": "IVL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 25.75,
+          "entry": 25.75,
+          "tp": 28.0,
+          "sector": "PETRO",
+          "vs": "RT 3.5x PETRO +3.48%",
+          "why": "RT 3.5x PETRO leader sector +3.48% momentum"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 2.48,
+          "entry": 2.42,
+          "tp": 2.65,
+          "sector": "ENERG",
+          "vs": "gap +3.7% RSI 64",
+          "why": "gap high 3.7% wait pullback RSI 64"
+        },
+        {
+          "sym": "TOP",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 45.5,
+          "entry": 44.5,
+          "tp": 48.0,
+          "sector": "ENERG",
+          "vs": "RT 2.6x RSI 40",
+          "why": "RT 2.6x but RSI low 40 wait confirmation"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260611-1202",
     "last_update": "2026-06-11 12:02:14",
     "gemini": {
