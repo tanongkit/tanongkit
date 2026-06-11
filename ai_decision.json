@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260611-1102",
+    "last_update": "2026-06-11 11:02:03",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.77% with broad-based buying across key sectors like PETRO, INDUS, TECH.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is bullish. Lessons dictate committing to a BUY stance on strong green days and not flip-flopping.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "TRUE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 8.75,
+          "entry": 8.75,
+          "tp": 9.0,
+          "vs": "RT 1.3x",
+          "why": "Strong ICT sector flow (+1.48%), good RSI, RT near threshold."
+        },
+        {
+          "sym": "MOTHER",
+          "action": "BUY",
+          "conf": 7,
+          "now": 11.2,
+          "entry": 11.2,
+          "tp": 11.7,
+          "vs": "RT 3.2x",
+          "why": "Pure momentum play with highest RT, following lesson to value RT."
+        },
+        {
+          "sym": "SCC",
+          "action": "BUY",
+          "conf": 6,
+          "now": 264.0,
+          "entry": 264.0,
+          "tp": 272.0,
+          "vs": "RT 1.0x",
+          "why": "Strong CONMAT sector (+1.35%) and good RSI (62). Waiting for volume."
+        },
+        {
+          "sym": "BDMS",
+          "action": "BUY",
+          "conf": 5,
+          "now": 29.25,
+          "entry": 29.25,
+          "tp": 30.0,
+          "vs": "RT 1.6x",
+          "why": "Meets RT > 1.5x rule, momentum signal despite weak sector."
+        },
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 5,
+          "now": 7.2,
+          "entry": 7.15,
+          "tp": 7.5,
+          "vs": "RT 0.1x",
+          "why": "Top score (90) + strong PKG sector (+2.16%). A bet on laggard volume."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 4,
+          "now": 44.25,
+          "entry": 44.25,
+          "tp": 45.75,
+          "vs": "RT 0.4x",
+          "why": "Decent ETRON sector (+0.9%) and good RSI (55). V-Shape DNA."
+        },
+        {
+          "sym": "KTB",
+          "action": "BUY",
+          "conf": 3,
+          "now": 19.6,
+          "entry": 19.6,
+          "tp": 20.1,
+          "vs": "RT 0.7x",
+          "why": "Decent BANK sector (+0.78%) and good RSI (59). Stable choice."
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 2,
+          "now": 12.1,
+          "entry": 12.1,
+          "tp": 12.5,
+          "vs": "RT 0.0x",
+          "why": "Good RSI (60), was a 'missed super pick' historically. Low conf."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.77% strong, FINCIAL +0.76%, INDUS +2.38%, PETRO +3.48%, CONMAT +1.35% sector flow positive",
+      "player_stance": "BUY",
+      "stance_reason": "SET green + sector flow positive + past lesson: stay BUY don't flip when bullish",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "SCC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 470.0,
+          "entry": 470.0,
+          "tp": 490.0,
+          "sector": "CONMAT",
+          "vs": "gap +1.7% ok, RT 1.0x low but sector +1.35% strong",
+          "why": "CONMAT leader, RSI 62 ok, gap<2% safe entry"
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 90.0,
+          "entry": 90.0,
+          "tp": 95.0,
+          "sector": "ETRON",
+          "vs": "RT 1.2x vol normal, MSCI +1.6B catalyst, gap +0.9%",
+          "why": "ETRON sector +0.9%, Rule0 pass, MSCI deadline 29-May"
+        },
+        {
+          "sym": "TRUE",
+          "action": "BUY",
+          "conf": 6,
+          "now": 11.4,
+          "entry": 11.4,
+          "tp": 12.0,
+          "sector": "ICT",
+          "vs": "RT 1.3x ok, RSI 50 neutral, gap +0.7% safe",
+          "why": "ICT +1.48% strong, RT>1.5x almost, gap low"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 4.9,
+          "entry": 4.85,
+          "tp": 5.2,
+          "sector": "ENERG",
+          "vs": "gap +1.6% borderline, vol 0.7x low before 11:00",
+          "why": "ENERG +0.96% ok but wait vol confirm after 11:00"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 27.25,
+          "entry": 27.0,
+          "tp": 28.5,
+          "sector": "PROP",
+          "vs": "RSI 83 overbought, gap -0.9% pullback good but RSI high",
+          "why": "Wait pullback below RSI 80, don't chase overbought"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260611-1031",
     "last_update": "2026-06-11 10:31:52",
     "gemini": {
