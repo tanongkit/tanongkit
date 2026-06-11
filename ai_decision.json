@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260611-1432",
+    "last_update": "2026-06-11 14:32:19",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.72%, led by strong buying in PETRO (+3.8%), INDUS (+2.1%), and TECH (+1.2%).",
+      "player_stance": "BUY",
+      "stance_reason": "Market is strong green. Per lessons learned, commit to a BUY stance and avoid flip-flopping.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "TIPH",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT vs Sector",
+          "why": "Massive RT 7.1x is a dominant signal."
+        },
+        {
+          "sym": "IVL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Sector Flow vs RT",
+          "why": "Leading PETRO sector (+3.8%) + very high RT (3.6x)."
+        },
+        {
+          "sym": "PLUS",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT vs RSI",
+          "why": "Exceptional RT (4.2x) with RSI in buy zone."
+        },
+        {
+          "sym": "TRUE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Sector Flow vs RT",
+          "why": "Strong ICT sector (+1.2%) with RT > 1.5x."
+        },
+        {
+          "sym": "SCC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Sector Flow vs RT",
+          "why": "Strong CONMAT sector (+1.2%) passing all rules."
+        },
+        {
+          "sym": "TOP",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT vs RSI",
+          "why": "High RT (2.5x) suggests momentum, despite low RSI."
+        },
+        {
+          "sym": "KSL",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT vs Sector",
+          "why": "High RT (2.6x) is interesting but sector is weak."
+        },
+        {
+          "sym": "ADVANC",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Sector Flow vs RT",
+          "why": "Strong ICT sector; watching for RT to cross 1.5x."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.72% INDUS +2.16% PETRO +3.86% TECH +1.24% CONMAT +1.23% สาขาหลักเขียวพร้อมกัน",
+      "player_stance": "BUY",
+      "stance_reason": "SET bullish ครบ 4 sectors ให้ commit ฝั่ง BUY ตามกฎ 2026-06-04",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "SCC",
+          "action": "BUY",
+          "conf": 9,
+          "now": 93.75,
+          "entry": 93.5,
+          "tp": 98.0,
+          "sector": "CONMAT",
+          "vs": "RT 1.5x RSI62",
+          "why": "CONMAT +1.23% RT 1.5x RSI62 gap 1.7% safe S7+"
+        },
+        {
+          "sym": "IVL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 22.0,
+          "entry": 22.0,
+          "tp": 23.5,
+          "sector": "PETRO",
+          "vs": "RT 3.6x PETRO+3.86%",
+          "why": "PETRO +3.86% RT 3.6x momentum S7- ใช้ Rule4 override"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 3.12,
+          "entry": 3.05,
+          "tp": 3.25,
+          "sector": "ENERG",
+          "vs": "gap 3.7% RT 1.7x",
+          "why": "gap 3.7% ระวังไล่ RSI ไม่มีข้อมูล รอ pullback"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 84.5,
+          "entry": 83.0,
+          "tp": 88.0,
+          "sector": "ETRON",
+          "vs": "gap 1.7% RT 1.2x",
+          "why": "TECH +1.24% แต่ gap 1.7% + RT 1.2x เข้าได้ครึ่ง"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 3,
+          "now": 26.5,
+          "entry": 25.5,
+          "tp": 27.5,
+          "sector": "PROP",
+          "vs": "RSI 83 overbought",
+          "why": "RSI 83 overbought แม้ RT 1.1x ก็รอ pullback ก่อน"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260611-1402",
     "last_update": "2026-06-11 14:02:21",
     "gemini": {
