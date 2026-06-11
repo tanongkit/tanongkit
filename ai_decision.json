@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260611-1031",
+    "last_update": "2026-06-11 10:31:52",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.82%, broad green sectors led by PETRO, TECH, INDUS.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is bullish. Lesson learned: commit to the BUY side and avoid flip-flopping on green days.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Gap <1% safe.",
+          "why": "Top score + strong INDUS flow."
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Sector leader.",
+          "why": "Strong ETRON sector momentum."
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Follows leader.",
+          "why": "Good score in strong ETRON flow."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Very low score.",
+          "why": "Pure ETRON sector momentum play."
+        },
+        {
+          "sym": "EASTW",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Low score.",
+          "why": "Positive ENERG sector flow."
+        },
+        {
+          "sym": "AMATA",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Wait pullback.",
+          "why": "RSI>80, per lesson."
+        },
+        {
+          "sym": "KTB",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Very low score.",
+          "why": "Positive BANK sector, ok RSI."
+        },
+        {
+          "sym": "THCOM",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RSI<50.",
+          "why": "Speculative bet on top ICT sector."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.82% FINCIAL +0.85% TECH +1.27% PETRO +2.02% CONMAT +1.48% strong across sectors",
+      "player_stance": "BUY",
+      "stance_reason": "SET green sentiment positive sector flow strong commit BUY no flip per 06-04 lesson",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 7,
+          "now": 27.25,
+          "entry": 27.25,
+          "tp": 29.0,
+          "sector": "ETRON",
+          "vs": "gap +1.1% moderate score 27.3 RT pending",
+          "why": "TECH +1.27% score high wait RT confirm pre-11:00"
+        },
+        {
+          "sym": "EPG",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 93.5,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "PKG",
+          "vs": "score 93.1 high but RT 0.0x RSI 69",
+          "why": "price >60 block Rule0 wait RT after 11:00"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 8.65,
+          "entry": 8.65,
+          "tp": 9.2,
+          "sector": "ETRON",
+          "vs": "gap +1.4% moderate RSI 53 healthy",
+          "why": "TECH sector lead wait RT confirm post-11:00"
+        },
+        {
+          "sym": "COM7",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 6.85,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "COMM",
+          "vs": "score 6.8 RSI 59 RT pending",
+          "why": "COMM +0.62% wait RT confirmation before entry"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 15.6,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ETRON",
+          "vs": "gap +0.6% small RT 0.0x pending",
+          "why": "TECH strong wait RT develop post-11:00 entry"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260611-1002",
     "last_update": "2026-06-11 10:02:54",
     "gemini": {
