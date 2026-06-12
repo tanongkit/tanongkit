@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260612-1202",
+    "last_update": "2026-06-12 12:02:01",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.22% with broad-based buying in key sectors (TRANS, ETRON, BANK).",
+      "player_stance": "BUY",
+      "stance_reason": "Market is strong green. Following Lesson 1: commit to the BUY side, don't flip-flop on a bullish day.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 9,
+          "now": 63.75,
+          "entry": 63.5,
+          "tp": 65.5,
+          "vs": "Volume Spike",
+          "why": "Top sector (TRANS +2.3%) + RT 2.2x. Leader play."
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 8,
+          "now": 8.8,
+          "entry": 8.8,
+          "tp": 9.2,
+          "vs": "Volume Spike",
+          "why": "Top sector (TRANS +2.3%) + RT 1.5x + small gap."
+        },
+        {
+          "sym": "GPSC",
+          "action": "BUY",
+          "conf": 8,
+          "now": 46.75,
+          "entry": 46.5,
+          "tp": 48.5,
+          "vs": "Volume Spike",
+          "why": "Highest RT 2.3x momentum play, strong volume."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 7,
+          "now": 46.25,
+          "entry": 46.0,
+          "tp": 48.0,
+          "vs": "Volume Spike",
+          "why": "Strong sector (ETRON +1.7%) + RT 1.7x."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 4.12,
+          "entry": 4.06,
+          "tp": 4.28,
+          "vs": "Breakout",
+          "why": "Gap >5%, Lesson 2 says wait for pullback."
+        },
+        {
+          "sym": "STECON",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 11.3,
+          "entry": 11.1,
+          "tp": 11.8,
+          "vs": "Breakout",
+          "why": "Top sector (CONS +2.2%) but RT still <1.5x."
+        },
+        {
+          "sym": "HANA",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 44.5,
+          "entry": 44.25,
+          "tp": 46.0,
+          "vs": "Sector Play",
+          "why": "Strong sector (ETRON +1.7%) but RT is low (1.2x)."
+        },
+        {
+          "sym": "SCB",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 112.5,
+          "entry": 112.0,
+          "tp": 115.0,
+          "vs": "Sector Play",
+          "why": "Strong sector (BANK +1.7%) but RT is borderline (1.4x)."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.22%, BANK +1.69%, FINCIAL +1.48%, TRANS +2.27%, TECH +1.59% all green",
+      "player_stance": "BUY",
+      "stance_reason": "Strong bullish day, high RT plays confirmed, sector flows positive, commit to BUY stance",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 9,
+          "now": 79.25,
+          "entry": 79.25,
+          "tp": 82.0,
+          "sector": "TRANS",
+          "vs": "RT 2.2x sector +2.27%",
+          "why": "Leader RT high gap OK"
+        },
+        {
+          "sym": "GPSC",
+          "action": "BUY",
+          "conf": 8,
+          "now": 54.0,
+          "entry": 54.0,
+          "tp": 56.5,
+          "sector": "ENERG",
+          "vs": "RT 2.3x sector +0.62%",
+          "why": "RT spike +3.8% momentum"
+        },
+        {
+          "sym": "STECON",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 4.0,
+          "entry": 3.95,
+          "tp": 4.2,
+          "sector": "CONS",
+          "vs": "RT 1.3x gap +3.8%",
+          "why": "Gap high wait pullback"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 3.18,
+          "entry": 3.15,
+          "tp": 3.35,
+          "sector": "ENERG",
+          "vs": "RT 1.5x gap +5.1%",
+          "why": "Gap >5% overbought wait"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 7,
+          "now": 20.5,
+          "entry": 20.5,
+          "tp": 21.5,
+          "sector": "TRANS",
+          "vs": "RT 1.5x sector +2.27%",
+          "why": "Transport play RT confirmed"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260612-1132",
     "last_update": "2026-06-12 11:32:07",
     "gemini": {
