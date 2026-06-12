@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260612-1432",
+    "last_update": "2026-06-12 14:32:21",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.01% with broad buying in Construction (+4.0%), Transport (+2.3%), and E-parts (+1.7%).",
+      "player_stance": "BUY",
+      "stance_reason": "Market is green with strong sector rotation. Following new lesson: commit to BUY on bullish days.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 12.5,
+          "entry": 12.5,
+          "tp": 13.2,
+          "vs": "RT 2.8x",
+          "why": "Top sector (CONS +4.0%) + strong momentum."
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 88.75,
+          "entry": 88.75,
+          "tp": 92.5,
+          "vs": "RT 2.0x",
+          "why": "ETRON flow, safe gap, MSCI theme."
+        },
+        {
+          "sym": "ADVANC",
+          "action": "BUY",
+          "conf": 8,
+          "now": 212.0,
+          "entry": 212.0,
+          "tp": 220.0,
+          "vs": "RT 1.7x",
+          "why": "ICT flow, safe gap, sector leader."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.7,
+          "entry": 4.7,
+          "tp": 4.95,
+          "vs": "RT 3.4x",
+          "why": "Exceptional RT, earnings beat momentum."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 6,
+          "now": 45.5,
+          "entry": 45.5,
+          "tp": 47.75,
+          "vs": "RT 1.6x",
+          "why": "Follows strong ETRON sector theme."
+        },
+        {
+          "sym": "GPSC",
+          "action": "BUY",
+          "conf": 5,
+          "now": 50.25,
+          "entry": 50.25,
+          "tp": 52.5,
+          "vs": "RT 2.3x",
+          "why": "High RT momentum play, but high gap."
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 4,
+          "now": 48.0,
+          "entry": 47.5,
+          "tp": 50.0,
+          "vs": "RT 1.6x",
+          "why": "ETRON flow but gap is +5%; wait pullback."
+        },
+        {
+          "sym": "PTG",
+          "action": "BUY",
+          "conf": 3,
+          "now": 8.1,
+          "entry": 8.1,
+          "tp": 8.5,
+          "vs": "RT 2.8x",
+          "why": "Speculative; very high RT but RSI is low."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.01% FINCIAL +1.41% BANK +1.71% TRANS +2.31% TECH +1.38% broad rally",
+      "player_stance": "BUY",
+      "stance_reason": "SET green sentiment bullish sector flow positive commit BUY no flip per lessons",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.74,
+          "entry": 4.7,
+          "tp": 5.2,
+          "sector": "CONS",
+          "vs": "RT 2.8x sector +4.03% momentum strong",
+          "why": "RT high sector lead pass all rules"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.5,
+          "entry": 3.48,
+          "tp": 3.85,
+          "sector": "ENERG",
+          "vs": "RT 3.4x perfect 8/8 checklist",
+          "why": "RT peak all rules pass momentum"
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 91.0,
+          "entry": 90.5,
+          "tp": 98.0,
+          "sector": "ETRON",
+          "vs": "RT 2.0x ETRON +1.71% MSCI play",
+          "why": "sector flow RT confirm MSCI catalyst"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 63.75,
+          "entry": 63.0,
+          "tp": 68.0,
+          "sector": "ETRON",
+          "vs": "RT 1.6x ETRON strong but gap +2.1%",
+          "why": "wait minor pullback RT borderline"
+        },
+        {
+          "sym": "GPSC",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 40.0,
+          "entry": 39.5,
+          "tp": 43.0,
+          "sector": "ENERG",
+          "vs": "RT 2.3x gap +4.5% RSI 58 wait",
+          "why": "gap too high wait pullback first"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260612-1402",
     "last_update": "2026-06-12 14:02:08",
     "gemini": {
