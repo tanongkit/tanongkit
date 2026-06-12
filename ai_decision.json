@@ -1,5 +1,178 @@
 [
   {
+    "tx_id": "20260612-1502",
+    "last_update": "2026-06-12 15:02:15",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET > +1% with broad-based buying in key sectors like CONS, TRANS, and TECH.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is strong. Lessons advise committing to the buy side on bullish days, following sector flow and RT.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 11.8,
+          "entry": 11.6,
+          "tp": 12.2,
+          "vs": "GAP 54.2%",
+          "why": "#1 sector (CONS) + high RT, buy on dip"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.96,
+          "entry": 4.94,
+          "tp": 5.15,
+          "vs": "GAP 15.8%",
+          "why": "Highest RT (2.7x) + perfect checklist, momentum"
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 80.0,
+          "entry": 79.75,
+          "tp": 84.0,
+          "vs": "Sector leader",
+          "why": "Strong ETRON sector, RT>1.5x, ideal entry gap"
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 8,
+          "now": 65.0,
+          "entry": 64.75,
+          "tp": 67.5,
+          "vs": "Sector leader",
+          "why": "Top sector (TRANS) + RT passes, lesson unblocked"
+        },
+        {
+          "sym": "GPSC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 46.25,
+          "entry": 46.0,
+          "tp": 47.5,
+          "vs": "RG 78%",
+          "why": "Passes RT & RSI rules, energy play"
+        },
+        {
+          "sym": "ADVANC",
+          "action": "BUY",
+          "conf": 6,
+          "now": 215.0,
+          "entry": 215.0,
+          "tp": 220.0,
+          "vs": "Low Beta",
+          "why": "Strong ICT sector, low beta, near RT breakout"
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 42.0,
+          "entry": 42.0,
+          "tp": 44.0,
+          "vs": "GAP 21.7%",
+          "why": "ETRON sector strong, RSI good, V-shape play"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 6,
+          "now": 44.75,
+          "entry": 44.5,
+          "tp": 46.5,
+          "vs": "V-Shape DNA",
+          "why": "ETRON sector strong, ideal entry gap <2%"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.02% BANK +1.64% TECH +1.63% TRANS +2.54% broad sector green",
+      "player_stance": "BUY",
+      "stance_reason": "Bullish market + strong RT plays + lesson: commit BUY stance don't flip",
+      "port_action": [
+        {
+          "sym": "EPG",
+          "action": "HOLD",
+          "reason": "Score 109 but RT only 0.6x below threshold, RSI 74 near overbought, gap +2.7% acceptable but wait RT confirmation"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "SELL_PARTIAL",
+          "reason": "RSI 69 + gap +15.8% extreme from +2.5% open, RT 2.7x strong but overbought territory, take profit partial"
+        },
+        {
+          "sym": "STECON",
+          "action": "SELL_PARTIAL",
+          "reason": "Gap +54.2% extreme from +7% open, RSI 66 + RT 2.3x but overextended, secure profit"
+        }
+      ],
+      "picks": [
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 11.6,
+          "entry": 11.5,
+          "tp": 12.4,
+          "sector": "ENERG",
+          "vs": "RT 0.7x low but sector +0.12% gap +1.6% manageable",
+          "why": "Energy sector green RT improving from 0.7x"
+        },
+        {
+          "sym": "GPSC",
+          "action": "BUY",
+          "conf": 8,
+          "now": 5.9,
+          "entry": 5.85,
+          "tp": 6.4,
+          "sector": "ENERG",
+          "vs": "RT 1.9x strong RSI 59 safe gap -12.4% pullback buy",
+          "why": "RT 1.9x + energy sector flow + pullback entry"
+        },
+        {
+          "sym": "ADVANC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 9.9,
+          "entry": 9.85,
+          "tp": 10.5,
+          "sector": "ICT",
+          "vs": "RT 1.4x weak but ICT sector +1.39% gap -5.7% pullback",
+          "why": "ICT sector leader pullback entry safe RSI"
+        },
+        {
+          "sym": "HANA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": -2.3,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "ETRON",
+          "vs": "RT 1.3x weak gap +21.7% too high RSI 53 neutral",
+          "why": "Gap too high +21.7% wait pullback ETRON +1.73%"
+        },
+        {
+          "sym": "PTG",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 2.8,
+          "entry": 0.0,
+          "tp": 0.0,
+          "sector": "COMM",
+          "vs": "RT 2.2x strong but RSI 45 low gap -33.6% underperformer",
+          "why": "RT good but RSI too low wait confirmation"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260612-1432",
     "last_update": "2026-06-12 14:32:21",
     "gemini": {
