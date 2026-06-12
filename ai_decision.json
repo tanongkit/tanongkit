@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260612-1102",
+    "last_update": "2026-06-12 11:02:03",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.8% with broad-based gains in key sectors like TRANS, CONS, BANK.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is bullish with strong sector rotation. Applying 'commit to buy' lesson from 06-04.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Strongest signals",
+          "why": "ETRON+, RT>1.5x, RSI ok, low gap"
+        },
+        {
+          "sym": "COM7",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Ideal pullback entry",
+          "why": "COMM+, RT>1.5x, RSI ok, negative gap"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "High momentum",
+          "why": "ENERG+, RT>1.5x, RSI ok, caution gap"
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Sector leader play",
+          "why": "TRANS sector #1, lesson override for low RT"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Pure sector play",
+          "why": "CONS sector #2, strong flow but RT low"
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Wait for RT",
+          "why": "ETRON strong, RT almost 1.5x"
+        },
+        {
+          "sym": "HANA",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Wait for RT",
+          "why": "ETRON strong, RT needs to increase"
+        },
+        {
+          "sym": "ADVANC",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Defensive laggard",
+          "why": "ICT sector positive but RT is low"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.8%, BANK +1.65%, SERVICE +1.47%, TRANS +2.73%, sectors green",
+      "player_stance": "BUY",
+      "stance_reason": "SET green + multiple sectors bullish + RT confirmation post-11:00, commit BUY stance",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.04,
+          "entry": 4.04,
+          "tp": 4.36,
+          "sector": "ENERG",
+          "vs": "8/8 pass",
+          "why": "RT 1.6x + RSI 67 + gap 2% ok"
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 138.0,
+          "entry": 138.0,
+          "tp": 148.0,
+          "sector": "ETRON",
+          "vs": "RT 1.8x",
+          "why": "MSCI + sector leader + RT confirmed"
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 77.5,
+          "entry": 77.5,
+          "tp": 83.0,
+          "sector": "ETRON",
+          "vs": "RT 1.4x",
+          "why": "RSI 58 + RT 1.3x + gap safe"
+        },
+        {
+          "sym": "COM7",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 28.75,
+          "entry": 27.5,
+          "tp": 30.0,
+          "sector": "COMM",
+          "vs": "pullback",
+          "why": "RT 1.5x but gap -0.9% wait dip"
+        },
+        {
+          "sym": "HANA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 35.25,
+          "entry": 34.0,
+          "tp": 37.0,
+          "sector": "ETRON",
+          "vs": "RT 1.2x",
+          "why": "gap +4.3% too high wait pullback"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260612-1032",
     "last_update": "2026-06-12 10:32:05",
     "gemini": {
