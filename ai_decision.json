@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260612-2240",
+    "last_update": "2026-06-12 22:40:29",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28% with strong, broad-based buying in key sectors: CONS, TRANS, BANK.",
+      "player_stance": "BUY",
+      "stance_reason": "Lessons learned: a green SET with positive sentiment means commit to the BUY side and don't flip-flop.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 13.2,
+          "entry": 12.9,
+          "tp": 13.8,
+          "vs": "CONS sector +4.36%",
+          "why": "Top sector, RT 2.5x, perfect checklist. Buy on pullback."
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 41.25,
+          "entry": 41.0,
+          "tp": 42.75,
+          "vs": "TOURISM sector +1.83%",
+          "why": "Strong sector flow and high RT 2.1x."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.1,
+          "entry": 4.08,
+          "tp": 4.26,
+          "vs": "RT 2.1x, 8/8 checklist",
+          "why": "Excellent RT momentum, perfect checklist score."
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 64.5,
+          "entry": 64.25,
+          "tp": 66.5,
+          "vs": "TRANS sector +3.43%",
+          "why": "Lesson override: Sector leader in top performing group."
+        },
+        {
+          "sym": "SCB",
+          "action": "BUY",
+          "conf": 7,
+          "now": 113.0,
+          "entry": 112.5,
+          "tp": 116.0,
+          "vs": "BANK sector +2.24%",
+          "why": "Strong sector momentum with a reasonable entry gap."
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 72.5,
+          "entry": 72.25,
+          "tp": 75.0,
+          "vs": "ETRON sector +1.49%",
+          "why": "Market leader in strong sector, good entry gap."
+        },
+        {
+          "sym": "PSL",
+          "action": "BUY",
+          "conf": 5,
+          "now": 9.95,
+          "entry": 9.9,
+          "tp": 10.4,
+          "vs": "TRANS sector +3.43%",
+          "why": "Riding strongest sector flow, despite weaker RT."
+        },
+        {
+          "sym": "ADVANC",
+          "action": "BUY",
+          "conf": 5,
+          "now": 214.0,
+          "entry": 213.0,
+          "tp": 220.0,
+          "vs": "ICT sector +1.62%",
+          "why": "Strong sector, borderline RT, defensive leader."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28% BANK +2.24% FIN +1.97% SERVICE +2.0% TRANS +3.43% CONS +4.36%",
+      "player_stance": "BUY",
+      "stance_reason": "ตลาด bullish ต่อเนื่อง sector หลักเขียวพร้อม ให้ commit BUY ไม่ flip-flop",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.54,
+          "entry": 4.5,
+          "tp": 5.0,
+          "sector": "CONS",
+          "vs": "RT 2.5x sector +4.36%",
+          "why": "CONS เดือด [8/8] ผ่าน"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.3,
+          "entry": 3.28,
+          "tp": 3.6,
+          "sector": "ENERG",
+          "vs": "RT 2.1x gap ไม่สูง",
+          "why": "momentum ยังดี RSI 68"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 29.25,
+          "entry": 29.0,
+          "tp": 31.5,
+          "sector": "TOURISM",
+          "vs": "TOURISM +1.83% RT 2.1x",
+          "why": "รอ pullback gap -12.8%"
+        },
+        {
+          "sym": "ADVANC",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 198.5,
+          "entry": 197.0,
+          "tp": 210.0,
+          "sector": "ICT",
+          "vs": "ICT +1.62% RT 1.3x",
+          "why": "ราคาแพง รอ dip"
+        },
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 8.85,
+          "entry": 8.7,
+          "tp": 9.5,
+          "sector": "TRANS",
+          "vs": "TRANS +3.43% RT 1.0x",
+          "why": "RT ต่ำ รอพุ่ง"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260612-1602",
     "last_update": "2026-06-12 16:02:22",
     "gemini": {
