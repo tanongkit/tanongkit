@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260612-1602",
+    "last_update": "2026-06-12 16:02:22",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.4% with strong, broad-based buying in domestic (CONS, BANK, FIN) and TECH sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is strongly bullish. Following Rule 1: 'SET เขียว + sentiment ขึ้น → ยืน BUY ทั้งวัน'.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 14.8,
+          "entry": 14.6,
+          "tp": 15.5,
+          "vs": "Sector Leader",
+          "why": "#1 Sector (CONS +4.2%) + RT 3.3x."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.16,
+          "entry": 4.14,
+          "tp": 4.3,
+          "vs": "High Momentum",
+          "why": "High RT 2.6x + Perfect 8/8 checklist."
+        },
+        {
+          "sym": "PTG",
+          "action": "BUY",
+          "conf": 6,
+          "now": 8.55,
+          "entry": 8.5,
+          "tp": 8.9,
+          "vs": "Turnaround Play",
+          "why": "High RT 2.0x confirms interest; low RSI."
+        },
+        {
+          "sym": "TTA",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 6.0,
+          "entry": 6.05,
+          "tp": 6.3,
+          "vs": "Laggard Play",
+          "why": "Strong Sector (TRANS +3.3%) + RT near breakout (1.4x)."
+        },
+        {
+          "sym": "CK",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 22.2,
+          "entry": 22.0,
+          "tp": 23.0,
+          "vs": "Secondary Play",
+          "why": "In #1 Sector (CONS) but RT is still low (1.0x)."
+        },
+        {
+          "sym": "HANA",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 48.25,
+          "entry": 48.0,
+          "tp": 50.0,
+          "vs": "Tech Play",
+          "why": "Strong Sector (ETRON +1.7%) but needs more RT (1.2x)."
+        },
+        {
+          "sym": "ADVANC",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 212.0,
+          "entry": 211.0,
+          "tp": 216.0,
+          "vs": "Defensive Growth",
+          "why": "Strong Sector (ICT +1.6%) but needs RT breakout (1.3x)."
+        },
+        {
+          "sym": "EPG",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 7.45,
+          "entry": 7.4,
+          "tp": 7.8,
+          "vs": "Score Trap",
+          "why": "High score but fails on key metrics: low RT + negative sector."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.4% BANK +2.14% FIN +2.14% TRANS +3.26% CONS +4.24% broad sectors green",
+      "player_stance": "BUY",
+      "stance_reason": "SET bullish + sector flow positive + commit BUY stance no flip-flop per lesson 2026-06-04",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.0,
+          "entry": 7.0,
+          "tp": 8.0,
+          "sector": "CONS",
+          "vs": "RT 3.3x sector +4.24%",
+          "why": "RT พุ่ง sector leader ผ่าน 8/8"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 2.5,
+          "entry": 2.5,
+          "tp": 2.7,
+          "sector": "ENERG",
+          "vs": "RT 2.6x momentum",
+          "why": "RT สูง sector +0.4% 8/8"
+        },
+        {
+          "sym": "ADVANC",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 257.0,
+          "entry": 255.0,
+          "tp": 265.0,
+          "sector": "ICT",
+          "vs": "RT 1.3x sector +1.64%",
+          "why": "gap ต่ำ RT พอใช้ wait pullback"
+        },
+        {
+          "sym": "CK",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 23.3,
+          "entry": 23.0,
+          "tp": 24.5,
+          "sector": "CONS",
+          "vs": "RT 1.0x gap +5.1%",
+          "why": "gap สูง RT ต่ำ รอ pullback"
+        },
+        {
+          "sym": "PTG",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 10.8,
+          "entry": 10.6,
+          "tp": 11.5,
+          "sector": "COMM",
+          "vs": "RT 2.0x RSI 45",
+          "why": "RT สูง แต่ RSI ต่ำ sector +1.42%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260612-1502",
     "last_update": "2026-06-12 15:02:15",
     "gemini": {
