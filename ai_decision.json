@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260612-1032",
+    "last_update": "2026-06-12 10:32:05",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.04% with strong, broad buying in key sectors like Transport (+3.0%) and Etron (+1.98%).",
+      "player_stance": "BUY",
+      "stance_reason": "Market is strongly bullish. Following Lesson #1 to commit to the BUY side and avoid flip-flopping.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ETRON sector",
+          "why": "Top sector (ETRON), market leader, good RSI."
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "TRANS sector",
+          "why": "Strongest sector flow (+3.0%), leader, lesson #5 applies."
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "TRANS sector",
+          "why": "Strongest sector flow (+3.0%), better entry gap."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ETRON sector",
+          "why": "Top sector momentum, good RSI, V-shape DNA."
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "FOOD sector",
+          "why": "Recurring momentum, solid score & RSI, reasonable gap."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ENERG sector",
+          "why": "High score, good earnings, acceptable gap."
+        },
+        {
+          "sym": "GULF",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ENERG sector",
+          "why": "Safe momentum play, good RSI, reasonable gap."
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ETRON sector",
+          "why": "Strong sector but high gap (+4.3%) and low score."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.04% BANK+1.09% TRANS+3.0% TECH+1.62% TOURISM+1.16% SERVICE+1.59% เงินไหลหนุน",
+      "player_stance": "BUY",
+      "stance_reason": "SET เขียวต่อเนื่อง sentiment บวก ยืน BUY ทั้งวัน ไม่ flip ตามบทเรียน 06-04",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.05,
+          "entry": 3.05,
+          "tp": 3.2,
+          "sector": "ENERG",
+          "vs": "gap+2.0% แต่ไม่เกิน5% เข้าได้",
+          "why": "RSI 65 พร้อม gap พอดี ENERG+0.47%"
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 74.5,
+          "entry": 74.5,
+          "tp": 78.0,
+          "sector": "TRANS",
+          "vs": "gap+2.2% TRANS+3.0% ไม่บล็อกราคาแพง",
+          "why": "sector leader RT พร้อม TOURISM+1.16%"
+        },
+        {
+          "sym": "RBF",
+          "action": "BUY",
+          "conf": 6,
+          "now": 7.15,
+          "entry": 7.15,
+          "tp": 7.5,
+          "sector": "FOOD",
+          "vs": "ผ่าน 6/8 RSI 61 FOOD+0.62%",
+          "why": "missed 2 วัน เอาคืนวันนี้"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 70.0,
+          "entry": 69.5,
+          "tp": 73.0,
+          "sector": "ETRON",
+          "vs": "gap+2.1% breakout รอ RT ยืนยัน",
+          "why": "ก่อน 11:00 RT ยังไม่นิ่ง เช้านี้ 0.0x"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 186.5,
+          "entry": 185.0,
+          "tp": 195.0,
+          "sector": "ETRON",
+          "vs": "gap+2.0% RSI 61 แต่ RT 0.0x",
+          "why": "รอ RT หลัง 11:00 ETRON+1.98% แรง"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260612-1003",
     "last_update": "2026-06-12 10:03:07",
     "gemini": {
