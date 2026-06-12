@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260612-1132",
+    "last_update": "2026-06-12 11:32:07",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.82%. Broad buying in TRANS, CONS, BANK, SERVICE, TOURISM.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is strong and broad. Lesson 1: SET green, commit to BUY side, don't flip-flop.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 9,
+          "now": 71.75,
+          "entry": 71.75,
+          "tp": 74.0,
+          "vs": "RT 3.3x, Sector +2.54%",
+          "why": "Strongest sector + highest RT. Market leader."
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 12.9,
+          "entry": 12.9,
+          "tp": 13.4,
+          "vs": "RT 1.9x, Sector +2.11%",
+          "why": "Top sector rotation play, strong momentum."
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 91.25,
+          "entry": 91.25,
+          "tp": 94.0,
+          "vs": "RT 2.9x, Gap +0.8%",
+          "why": "Strong RT, low gap, leading ETRON sector."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 8,
+          "now": 49.5,
+          "entry": 49.5,
+          "tp": 51.5,
+          "vs": "RT 2.5x, Gap +0.7%",
+          "why": "ETRON momentum with very favorable low gap."
+        },
+        {
+          "sym": "SCB",
+          "action": "BUY",
+          "conf": 8,
+          "now": 118.5,
+          "entry": 118.5,
+          "tp": 122.0,
+          "vs": "RT 2.0x, Sector +1.55%",
+          "why": "BANK sector strong, RT solid, good gap."
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 7,
+          "now": 9.3,
+          "entry": 9.3,
+          "tp": 9.65,
+          "vs": "RT 2.2x, Sector +2.54%",
+          "why": "High-beta play on strongest sector (TRANS)."
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.44,
+          "entry": 4.44,
+          "tp": 4.6,
+          "vs": "RT 2.1x, Gap +1.6%",
+          "why": "ETRON sector play with good RT and entry gap."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 4.08,
+          "entry": 4.08,
+          "tp": 4.22,
+          "vs": "RT 2.3x, Score 41.1",
+          "why": "Strong individual RT but sector is weak."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.82% BANK +1.55% TOURISM +1.5% TRANS +2.54% TECH +1.02% เงินไหลหนุน",
+      "player_stance": "BUY",
+      "stance_reason": "SET เขียว sector เขียว RT สูงหลายตัว ยืน BUY ทั้งวัน ไม่ flip",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 9,
+          "now": 87.25,
+          "entry": 87.0,
+          "tp": 91.0,
+          "sector": "TRANS",
+          "vs": "RT 3.3x สูงสุด",
+          "why": "sector leader TRANS +2.54% RT พุ่ง"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.14,
+          "entry": 3.1,
+          "tp": 3.3,
+          "sector": "CONS",
+          "vs": "RT 1.9x GAP 3.2%",
+          "why": "CONS +2.11% sector flow บวก momentum"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.32,
+          "entry": 4.3,
+          "tp": 4.5,
+          "sector": "ENERG",
+          "vs": "RT 2.3x RSI 67",
+          "why": "ENERG sector flow RT พุ่ง"
+        },
+        {
+          "sym": "GPSC",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 60.75,
+          "entry": 60.0,
+          "tp": 63.0,
+          "sector": "ENERG",
+          "vs": "RT 3.5x แต่ price>60",
+          "why": "รอ pullback หลัง RT สูง"
+        },
+        {
+          "sym": "THAI",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 25.75,
+          "entry": 25.5,
+          "tp": 27.0,
+          "sector": "TRANS",
+          "vs": "RT 2.2x TRANS แรง",
+          "why": "รอ consolidate หลัง GAP +2.2%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260612-1102",
     "last_update": "2026-06-12 11:02:03",
     "gemini": {
