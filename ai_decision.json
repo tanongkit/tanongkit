@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260612-1003",
+    "last_update": "2026-06-12 10:03:07",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.76% with strong flows into TECH (ETRON +1.97%) and TRANS (+1.40%).",
+      "player_stance": "BUY",
+      "stance_reason": "Market is clearly green. Following lesson #1: commit to the BUY side and don't flip-flop.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "TIPH",
+          "action": "BUY",
+          "conf": 9,
+          "now": 43.0,
+          "entry": 43.0,
+          "tp": 44.5,
+          "vs": "RT Play",
+          "why": "RT 3.6x is a very strong signal. Financials sector has momentum."
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 8,
+          "now": 64.0,
+          "entry": 64.25,
+          "tp": 66.0,
+          "vs": "Sector Leader",
+          "why": "TRANS sector is strong (+1.4%). Lesson #5: Don't block leaders."
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 75.25,
+          "entry": 75.5,
+          "tp": 77.5,
+          "vs": "Sector Leader",
+          "why": "ETRON is the strongest sector (+1.97%). Follow the money flow."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 4.2,
+          "entry": 4.2,
+          "tp": 4.36,
+          "vs": "Momentum",
+          "why": "Meets key rules: RT > 1.5x and RSI in range. Gap +2% is a caution."
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 45.25,
+          "entry": 45.0,
+          "tp": 46.75,
+          "vs": "Sector Follower",
+          "why": "ETRON is very strong, but wait for volume confirmation (RT)."
+        },
+        {
+          "sym": "CCET",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 2.88,
+          "entry": 2.88,
+          "tp": 3.0,
+          "vs": "Laggard Play",
+          "why": "Strong ETRON sector, but its RT (0.6x) has not confirmed yet."
+        },
+        {
+          "sym": "IVL",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 22.9,
+          "entry": 22.8,
+          "tp": 23.8,
+          "vs": "Contrarian",
+          "why": "High RT (2.0x) but sector (PETRO) is very weak (-1.6%). Risky."
+        },
+        {
+          "sym": "TRUE",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 8.5,
+          "entry": 8.5,
+          "tp": 8.7,
+          "vs": "Big Cap",
+          "why": "Good sector (ICT), but RT (1.4x) and RSI (47) are just below thresholds."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.76% · FINCIAL +0.61% · TECH +1.58% · SERVICE +0.98% sectors strong",
+      "player_stance": "BUY",
+      "stance_reason": "SET เขียว + sentiment BULLISH ให้ commit ไม่ flip-flop ตาม lesson 06-04",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 2.46,
+          "entry": 2.46,
+          "tp": 2.8,
+          "sector": "ENERG",
+          "vs": "gap +2% RT 1.5x",
+          "why": "RT 1.5x + sector +0.12% pass Rule 2"
+        },
+        {
+          "sym": "TIPH",
+          "action": "BUY",
+          "conf": 7,
+          "now": 1.46,
+          "entry": 1.46,
+          "tp": 1.65,
+          "sector": "SERVICE",
+          "vs": "RT 3.6x sector +0.98%",
+          "why": "RT 3.6x strong + SERVICE เขียว momentum"
+        },
+        {
+          "sym": "SCC",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 417.0,
+          "entry": 415.0,
+          "tp": 445.0,
+          "sector": "CONMAT",
+          "vs": "RT 1.2x sector +0.15%",
+          "why": "RT ยังไม่แรง รอ pullback หลัง 11:00"
+        },
+        {
+          "sym": "EPG",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 10.3,
+          "entry": 10.1,
+          "tp": 11.5,
+          "sector": "PKG",
+          "vs": "score 99.7 RT 0.3x",
+          "why": "RT ต่ำ gap flat รอ vol เพิ่ม"
+        },
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 4.1,
+          "entry": 4.0,
+          "tp": 4.5,
+          "sector": "ETRON",
+          "vs": "gap +8% RSI 63",
+          "why": "gap สูง รอ pullback อย่าไล่ราคา"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260611-2239",
     "last_update": "2026-06-11 22:39:57",
     "gemini": {
@@ -4084,1450 +4241,6 @@
           "sector": "TECH",
           "vs": "Focus stocks lack TECH exposure",
           "why": "TECH +2.85% but no universe picks"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260608-1602",
-    "last_update": "2026-06-08 16:02:28",
-    "gemini": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET -1.18% with almost all major sectors in deep red, especially TRANS/TOURISM.",
-      "player_stance": "WAIT",
-      "stance_reason": "Market is strongly bearish. Rules and sentiment dictate waiting for stabilization before committing to new entries.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 8,
-          "now": 17.4,
-          "entry": 17.5,
-          "tp": 18.4,
-          "vs": "vs BBL",
-          "why": "RT > 2x + good RSI, S7 override applicable."
-        },
-        {
-          "sym": "UBE",
-          "action": "BUY",
-          "conf": 7,
-          "now": 1.2,
-          "entry": 1.21,
-          "tp": 1.32,
-          "vs": "Contrarian play",
-          "why": "Highest RT (3.3x) shows strong individual momentum."
-        },
-        {
-          "sym": "STGT",
-          "action": "WATCH",
-          "conf": 6,
-          "now": 11.2,
-          "entry": 11.4,
-          "tp": 12.0,
-          "vs": "vs STA",
-          "why": "Positive sector + good RSI, waiting for RT > 1.5x."
-        },
-        {
-          "sym": "RBF",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 11.9,
-          "entry": 11.6,
-          "tp": 12.8,
-          "vs": "Momentum test",
-          "why": "RSI overbought (84), requires pullback per new rules."
-        },
-        {
-          "sym": "WHA",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 5.1,
-          "entry": 5.2,
-          "tp": 5.5,
-          "vs": "vs AMATA",
-          "why": "Strong fundamental DNA, waiting for market rebound."
-        },
-        {
-          "sym": "COM7",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 24.5,
-          "entry": 24.8,
-          "tp": 26.5,
-          "vs": "vs CPW",
-          "why": "Strong DNA, benefits from stimulus, waiting for RT."
-        },
-        {
-          "sym": "PSL",
-          "action": "WATCH",
-          "conf": 4,
-          "now": 9.1,
-          "entry": 9.2,
-          "tp": 10.0,
-          "vs": "BDI Index",
-          "why": "Thematic BDI play, but TRANS sector is very weak."
-        },
-        {
-          "sym": "OSP",
-          "action": "WATCH",
-          "conf": 4,
-          "now": 22.1,
-          "entry": 22.4,
-          "tp": 23.5,
-          "vs": "vs CBG",
-          "why": "Stimulus beneficiary, but FOOD sector currently weak."
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET -1.18% red day, most sectors negative, FINCIAL/TECH/RESOURC/SERVICE down",
-      "player_stance": "WAIT",
-      "stance_reason": "SET red + sectors bleeding + no strong RT flow, wait for pullback confirmation",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "UBE",
-          "action": "BUY",
-          "conf": 7,
-          "now": 7.55,
-          "entry": 7.5,
-          "tp": 8.3,
-          "sector": "INSUR",
-          "vs": "RT 3.3x strong + RSI cool 47",
-          "why": "Insurance sector +0.71% green + high RT momentum"
-        },
-        {
-          "sym": "KTB",
-          "action": "WAIT",
-          "conf": 5,
-          "now": 24.7,
-          "entry": 24.5,
-          "tp": 26.0,
-          "sector": "BANK",
-          "vs": "RT 2.2x + RSI 68 warm",
-          "why": "BANK sector -1.21% dragging, wait pullback below 24.5"
-        },
-        {
-          "sym": "RBF",
-          "action": "WAIT",
-          "conf": 3,
-          "now": 46.4,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "FOOD",
-          "vs": "RSI 84 overbought + RT dropped 1.4x",
-          "why": "Wait pullback from overbought, RT cooling down"
-        },
-        {
-          "sym": "STGT",
-          "action": "WAIT",
-          "conf": 4,
-          "now": 3.8,
-          "entry": 3.7,
-          "tp": 4.1,
-          "sector": "TOURISM",
-          "vs": "RT 1.3x weak + TOURISM -2.37%",
-          "why": "Sector bleeding hard, RT below threshold, wait recovery"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260608-1502",
-    "last_update": "2026-06-08 15:02:16",
-    "gemini": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET down -1% with broad-based selling across most major sectors. Only few defensive sectors are green.",
-      "player_stance": "WAIT",
-      "stance_reason": "Market is red. Per lesson #1, do not force BUYs. Wait for clear signals of strength or stabilization.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 8,
-          "now": 17.7,
-          "entry": 17.6,
-          "tp": 18.4,
-          "vs": "RT 2.4x vs Sector -0.7%",
-          "why": "Extreme RT signals money inflow against sector weakness."
-        },
-        {
-          "sym": "UBE",
-          "action": "BUY",
-          "conf": 7,
-          "now": 1.18,
-          "entry": 1.18,
-          "tp": 1.25,
-          "vs": "RT 1.6x, Price +3.5%",
-          "why": "S7 Override rule success; strong momentum despite weak sector."
-        },
-        {
-          "sym": "WHA",
-          "action": "WATCH",
-          "conf": 6,
-          "now": 5.2,
-          "entry": 5.15,
-          "tp": 5.5,
-          "vs": "Leader DNA vs Sector",
-          "why": "Top-tier stock; watch for RT>1.5x to confirm entry."
-        },
-        {
-          "sym": "OSP",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 23.5,
-          "entry": 23.4,
-          "tp": 24.8,
-          "vs": "Good Q1 vs Sector",
-          "why": "In a rare green sector (CONSUMP). Waiting for RT confirmation."
-        },
-        {
-          "sym": "ITC",
-          "action": "WATCH",
-          "conf": 4,
-          "now": 20.8,
-          "entry": 20.7,
-          "tp": 22.0,
-          "vs": "Q1 beat vs Sector",
-          "why": "Potential S7 Override candidate if RT and price turn up."
-        },
-        {
-          "sym": "DELTA",
-          "action": "WATCH",
-          "conf": 3,
-          "now": 84.0,
-          "entry": 83.5,
-          "tp": 90.0,
-          "vs": "MSCI vs Sector",
-          "why": "Market leader. A turn here with high RT would be significant."
-        },
-        {
-          "sym": "COM7",
-          "action": "WATCH",
-          "conf": 2,
-          "now": 23.2,
-          "entry": 23.0,
-          "tp": 24.5,
-          "vs": "Retail play vs Sector",
-          "why": "In green sector (CONSUMP) but DNA says 'wait for RT'."
-        },
-        {
-          "sym": "PSL",
-          "action": "WATCH",
-          "conf": 1,
-          "now": 9.6,
-          "entry": 9.5,
-          "tp": 10.2,
-          "vs": "BDI vs Sector",
-          "why": "Commodity play. Watch for high RT if BDI index turns up."
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET -0.99%, most sectors red, FINCIAL/SERVICE/TECH/RESOURC all down over 1%",
-      "player_stance": "WAIT",
-      "stance_reason": "SET red, no strong sector flow, RT weak across universe stocks, wait for confirmation",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "KTB",
-          "action": "WAIT",
-          "conf": 3,
-          "now": 19.9,
-          "entry": 20.0,
-          "tp": 21.5,
-          "sector": "BANK",
-          "vs": "RT 2.4x strong, RSI 68 ok",
-          "why": "Rule 0 fail price>60, sector BANK -0.71% weak today"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260608-1432",
-    "last_update": "2026-06-08 14:32:11",
-    "gemini": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET down -0.86% with broad-based selling across most major sectors.",
-      "player_stance": "WAIT",
-      "stance_reason": "Market is clearly negative. Avoid new long positions and wait for stabilization signals per Lesson 1.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 7,
-          "now": 0.0,
-          "entry": 17.5,
-          "tp": 18.2,
-          "vs": "RT 3.0x",
-          "why": "Exceptional RT shows relative strength despite weak sector."
-        },
-        {
-          "sym": "UBE",
-          "action": "BUY",
-          "conf": 6,
-          "now": 0.0,
-          "entry": 1.18,
-          "tp": 1.25,
-          "vs": "RT 2.1x",
-          "why": "Strong RT momentum play, but weak sector requires caution."
-        },
-        {
-          "sym": "STGT",
-          "action": "WATCH",
-          "conf": 6,
-          "now": 0.0,
-          "entry": 9.1,
-          "tp": 9.6,
-          "vs": "RT 1.6x",
-          "why": "Meets RT/RSI rules, but sector is negative. Wait for confirmation."
-        },
-        {
-          "sym": "RBF",
-          "action": "WATCH",
-          "conf": 6,
-          "now": 13.0,
-          "entry": 12.7,
-          "tp": 13.8,
-          "vs": "RSI 83",
-          "why": "Overbought (+5.2%). Per Lesson 2, wait for a pullback."
-        },
-        {
-          "sym": "OSP",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 0.0,
-          "entry": 22.5,
-          "tp": 23.5,
-          "vs": "Sector +0.59%",
-          "why": "Positive sector (CONSUMP), wait for RT confirmation."
-        },
-        {
-          "sym": "COM7",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 0.0,
-          "entry": 25.0,
-          "tp": 26.5,
-          "vs": "Sector +0.59%",
-          "why": "In a strong sector, a primary candidate once RT rises > 1.5x."
-        },
-        {
-          "sym": "WHA",
-          "action": "WATCH",
-          "conf": 4,
-          "now": 0.0,
-          "entry": 4.8,
-          "tp": 5.0,
-          "vs": "DNA play",
-          "why": "Good fundamentals, but sector (PROP/INDUS) is currently weak."
-        },
-        {
-          "sym": "DELTA",
-          "action": "WATCH",
-          "conf": 4,
-          "now": 0.0,
-          "entry": 85.0,
-          "tp": 90.0,
-          "vs": "MSCI play",
-          "why": "Sector leader, wait for pullback as ETRON sector is weak now."
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET -0.86% red, 10/11 sectors down, TECH -1.09%, RESOURC -0.71% heavy drag",
-      "player_stance": "WAIT",
-      "stance_reason": "Red market, focus stocks weak - RBF RSI 83 overbought, UBE/STGT low RT, KTB RT 3x但sector負",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "KTB",
-          "action": "WAIT",
-          "conf": 3,
-          "now": 23.8,
-          "entry": 24.0,
-          "tp": 25.5,
-          "sector": "BANK",
-          "vs": "RT 3.0x strong sector -0.66%",
-          "why": "BANK red pullback wait rebound"
-        },
-        {
-          "sym": "UBE",
-          "action": "WAIT",
-          "conf": 2,
-          "now": 4.48,
-          "entry": 4.6,
-          "tp": 4.9,
-          "sector": "AGRO",
-          "vs": "RT 2.1x AGRO -0.86% weak",
-          "why": "Sector weak RSI 49 neutral wait"
-        },
-        {
-          "sym": "STGT",
-          "action": "WAIT",
-          "conf": 2,
-          "now": 19.0,
-          "entry": 19.3,
-          "tp": 20.5,
-          "sector": "PROPCON",
-          "vs": "RT 1.6x PROPCON -0.26% flat",
-          "why": "Low momentum sector flat wait"
-        },
-        {
-          "sym": "RBF",
-          "action": "WAIT",
-          "conf": 0,
-          "now": 9.3,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "FOOD",
-          "vs": "RSI 83 overbought FOOD -0.86%",
-          "why": "RSI 83 overbought wait pullback"
-        },
-        {
-          "sym": "CASH",
-          "action": "HOLD",
-          "conf": 10,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "CASH",
-          "vs": "Market red all weak",
-          "why": "Wait sector rebound signal"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260608-1402",
-    "last_update": "2026-06-08 14:02:31",
-    "gemini": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET -0.79% with broad-based sector sell-off; only defensive/small sectors are green.",
-      "player_stance": "WAIT",
-      "stance_reason": "Market is clearly bearish. Following Lesson #1, avoid buying into weakness. Wait for stabilization.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "UBE",
-          "action": "BUY",
-          "conf": 7,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "RT 1.9x + D1 +1.8%",
-          "why": "Passes S7 Override. Shows strong relative strength against a weak market."
-        },
-        {
-          "sym": "TLI",
-          "action": "WATCH",
-          "conf": 6,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "INSUR sector +1.03%",
-          "why": "Strong sector and good RSI but RT is 0.0x. Wait for RT confirmation."
-        },
-        {
-          "sym": "KTB",
-          "action": "WATCH",
-          "conf": 4,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "High RT 2.9x",
-          "why": "High RT is positive but negative BANK sector (-0.85%) is a major risk."
-        },
-        {
-          "sym": "STGT",
-          "action": "WATCH",
-          "conf": 3,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "RSI in range (50)",
-          "why": "Fails on key metrics: Low RT (1.3x) and negative sector flow."
-        },
-        {
-          "sym": "RBF",
-          "action": "WATCH",
-          "conf": 2,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "High score",
-          "why": "Overbought (RSI 82), low RT (0.6x), and negative sector. Avoid."
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET -0.79% most sectors red BANK/FIN/TECH/TOURISM down RESOURC -0.78%",
-      "player_stance": "WAIT",
-      "stance_reason": "SET red sentiment bearish no strong RT+S7 combo wait pullback finish",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "KTB",
-          "action": "WAIT",
-          "conf": 3,
-          "now": 34.5,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "BANK",
-          "vs": "RT 2.9x good RSI 71 high",
-          "why": "BANK sector -0.85% red wait pullback"
-        },
-        {
-          "sym": "UBE",
-          "action": "WAIT",
-          "conf": 4,
-          "now": 5.8,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "RESOURC",
-          "vs": "RT 1.9x RSI 47 ok",
-          "why": "RESOURC sector -0.78% Beta -0.18 defensive"
-        },
-        {
-          "sym": "STGT",
-          "action": "WAIT",
-          "conf": 2,
-          "now": 28.5,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "AGRO",
-          "vs": "RT 1.3x low RSI 50",
-          "why": "AGRO sector -0.85% red weak momentum"
-        },
-        {
-          "sym": "RBF",
-          "action": "WAIT",
-          "conf": 0,
-          "now": 6.5,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "FOOD",
-          "vs": "RSI 82 overbought RT 0.6x",
-          "why": "RSI extreme RT dry avoid chase"
-        },
-        {
-          "sym": "TLI",
-          "action": "WAIT",
-          "conf": 0,
-          "now": 13.8,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "TRANS",
-          "vs": "RT 0.0x dry RSI 60",
-          "why": "TRANS -1.02% RT dead no entry"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260608-1202",
-    "last_update": "2026-06-08 12:02:11",
-    "gemini": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET down -14 pts (-0.9%), broad-based selling across most major sectors.",
-      "player_stance": "WAIT",
-      "stance_reason": "Market is clearly bearish. Awaiting stabilization or clear reversal signals before committing capital.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "UBE",
-          "action": "BUY",
-          "conf": 8,
-          "now": 1.18,
-          "entry": 1.18,
-          "tp": 1.25,
-          "vs": "FOOD",
-          "why": "S7 override: RT>1.5x + D1>0."
-        },
-        {
-          "sym": "KTB",
-          "action": "WATCH",
-          "conf": 6,
-          "now": 18.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "BANK",
-          "why": "Highest RT (3.7x) but negative sector."
-        },
-        {
-          "sym": "WHA",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 5.5,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "PROP",
-          "why": "High RT (2.2x) but negative sector."
-        },
-        {
-          "sym": "SCGP",
-          "action": "WATCH",
-          "conf": 4,
-          "now": 37.5,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "PKG",
-          "why": "Good RSI, flat sector, needs RT."
-        },
-        {
-          "sym": "EPG",
-          "action": "WATCH",
-          "conf": 3,
-          "now": 8.5,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "PKG",
-          "why": "Overbought (RSI 85), needs pullback per lesson."
-        },
-        {
-          "sym": "STGT",
-          "action": "WATCH",
-          "conf": 2,
-          "now": 11.2,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "HELTH",
-          "why": "Meets RSI rule but RT/Sector weak."
-        },
-        {
-          "sym": "RBF",
-          "action": "WATCH",
-          "conf": 1,
-          "now": 15.2,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "FOOD",
-          "why": "Overbought, low RT, negative sector."
-        },
-        {
-          "sym": "OSP",
-          "action": "WATCH",
-          "conf": 3,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "FOOD",
-          "why": "DNA pick, wait for RT confirmation."
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET -0.9% red, most sectors down: TECH -1.07%, FINCIAL -0.72%, TOURISM -1.73%",
-      "player_stance": "WAIT",
-      "stance_reason": "SET red with broad sector weakness, early data RT not reliable, wait for 11:00+ confirmation",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 7,
-          "now": 33.75,
-          "entry": 33.5,
-          "tp": 35.5,
-          "sector": "BANK",
-          "vs": "RT 3.7x strong, RSI 68 good zone",
-          "why": "High RT + Bond Yield support NIM"
-        },
-        {
-          "sym": "WHA",
-          "action": "BUY",
-          "conf": 6,
-          "now": 6.75,
-          "entry": 6.7,
-          "tp": 7.2,
-          "sector": "PROP",
-          "vs": "RT 2.2x decent, sector -0.35% mild",
-          "why": "EV Data Center theme holds"
-        },
-        {
-          "sym": "UBE",
-          "action": "BUY",
-          "conf": 5,
-          "now": 3.0,
-          "entry": 2.95,
-          "tp": 3.3,
-          "sector": "INDUS",
-          "vs": "RT 2.0x + RSI 49 fresh entry",
-          "why": "Score jump +3.5% with momentum"
-        },
-        {
-          "sym": "SCGP",
-          "action": "WAIT",
-          "conf": 4,
-          "now": 18.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "PKG",
-          "vs": "RT 0.6x weak, GAP -13.3%",
-          "why": "Wait RT improve above 1.5x"
-        },
-        {
-          "sym": "STGT",
-          "action": "WAIT",
-          "conf": 3,
-          "now": 5.65,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "AGRO",
-          "vs": "RT 1.1x below threshold, sector -0.68%",
-          "why": "Need RT above 1.5x confirmation"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260608-1131",
-    "last_update": "2026-06-08 11:31:52",
-    "gemini": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET down -0.52% with broad-based selling across major sectors; defensive/niche sectors are slightly up.",
-      "player_stance": "WAIT",
-      "stance_reason": "Market is red and lacks clear leadership. New lessons advise against committing on down days without strong signals.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "STGT",
-          "action": "BUY",
-          "conf": 7,
-          "now": 11.5,
-          "entry": 11.4,
-          "tp": 12.0,
-          "vs": "STA",
-          "why": "Only stock with positive sector flow (PERSON +0.98%) + RT>1.5x + RSI ok."
-        },
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 5,
-          "now": 17.0,
-          "entry": 16.9,
-          "tp": 17.4,
-          "vs": "BBL",
-          "why": "Exceptional RT 5.5x signals huge interest, overriding weak sector for a tactical play."
-        },
-        {
-          "sym": "WHA",
-          "action": "WATCH",
-          "conf": 4,
-          "now": 5.0,
-          "entry": 4.96,
-          "tp": 5.2,
-          "vs": "AMATA",
-          "why": "Very strong RT 3.3x but sector is negative. Wait for sector to confirm."
-        },
-        {
-          "sym": "UBE",
-          "action": "WATCH",
-          "conf": 3,
-          "now": 0.88,
-          "entry": 0.87,
-          "tp": 0.92,
-          "vs": "TFG",
-          "why": "Strong RT 3.0x but RSI is too low (44) and sector is weak. Lacks momentum."
-        },
-        {
-          "sym": "EPG",
-          "action": "WATCH",
-          "conf": 2,
-          "now": 7.6,
-          "entry": 7.4,
-          "tp": 7.9,
-          "vs": "SCGP",
-          "why": "RSI too high (86) and sector is weak. Per new rules, wait for pullback."
-        },
-        {
-          "sym": "SCGP",
-          "action": "WATCH",
-          "conf": 1,
-          "now": 30.25,
-          "entry": 30.0,
-          "tp": 31.5,
-          "vs": "EPG",
-          "why": "Fails RT (<1.5x) and sector is negative. No entry signal."
-        },
-        {
-          "sym": "RBF",
-          "action": "WATCH",
-          "conf": 1,
-          "now": 11.6,
-          "entry": 11.4,
-          "tp": 12.1,
-          "vs": "ITC",
-          "why": "Fails RT (<1.5x), sector is weak, and RSI is high (79). No entry signal."
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET -0.52% red, most sectors negative except INSUR/PERSON/CONSUMP",
-      "player_stance": "HOLD",
-      "stance_reason": "Red day but not panic sell. Hold quality positions, wait for sector/RT confirmation before new entry.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "WHA",
-          "action": "BUY",
-          "conf": 7,
-          "now": 31.0,
-          "entry": 31.0,
-          "tp": 34.0,
-          "sector": "PROPCON",
-          "vs": "RT 3.3x strong volume support",
-          "why": "Data center theme RT spike"
-        },
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 6,
-          "now": 23.1,
-          "entry": 23.1,
-          "tp": 25.0,
-          "sector": "BANK",
-          "vs": "RT 5.5x highest volume banking",
-          "why": "Bond yield play NIM expansion"
-        },
-        {
-          "sym": "STGT",
-          "action": "BUY",
-          "conf": 7,
-          "now": 9.85,
-          "entry": 9.85,
-          "tp": 11.0,
-          "sector": "AGRO",
-          "vs": "RT 1.6x RSI 50 sweet spot",
-          "why": "5/8 checklist RT volume confirm"
-        },
-        {
-          "sym": "UBE",
-          "action": "WAIT",
-          "conf": 5,
-          "now": 3.0,
-          "entry": 3.2,
-          "tp": 3.6,
-          "sector": "RESOURC",
-          "vs": "RT 3.0x but RSI 44 too low",
-          "why": "Wait RSI rise to 50 zone"
-        },
-        {
-          "sym": "RBF",
-          "action": "WAIT",
-          "conf": 4,
-          "now": 6.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "FOOD",
-          "vs": "RT only 0.6x GAP -20.8% weak",
-          "why": "RT too low despite RSI 79"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260608-1101",
-    "last_update": "2026-06-08 11:01:53",
-    "gemini": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET -0.9% with widespread selling across key sectors like ETRON, TECH, and TOURISM.",
-      "player_stance": "WAIT",
-      "stance_reason": "Market is clearly bearish. Applying Lesson 1, we avoid new long positions until the trend stabilizes.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "TAN",
-          "action": "BUY",
-          "conf": 8,
-          "now": 0.0,
-          "entry": 17.5,
-          "tp": 18.2,
-          "vs": "Sector weakness",
-          "why": "Extreme RT 21.1x overrides"
-        },
-        {
-          "sym": "IRPC",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 0.0,
-          "entry": 1.98,
-          "tp": 2.06,
-          "vs": "Low score",
-          "why": "RT 1.8x + PETRO+ but needs GRM confirmation"
-        },
-        {
-          "sym": "TLI",
-          "action": "WATCH",
-          "conf": 4,
-          "now": 0.0,
-          "entry": 8.55,
-          "tp": 8.8,
-          "vs": "Zero RT",
-          "why": "Strong sector (INSUR) but no volume yet"
-        },
-        {
-          "sym": "STGT",
-          "action": "WATCH",
-          "conf": 2,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Weak signals",
-          "why": "Fails RT, RSI, Sector rules"
-        },
-        {
-          "sym": "PTTEP",
-          "action": "WATCH",
-          "conf": 2,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Weak signals",
-          "why": "Fails RT, RSI, Sector rules"
-        },
-        {
-          "sym": "UBE",
-          "action": "WATCH",
-          "conf": 1,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Weak signals",
-          "why": "Fails all primary criteria"
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET -0.9% red, all sectors down, TECH/FOOD/TOURISM/ETRON weak",
-      "player_stance": "WAIT",
-      "stance_reason": "SET red, no strong sector flow, all picks fail Rule3 S7 negative",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "TAN",
-          "action": "WAIT",
-          "conf": 0,
-          "now": 2.7,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "FOOD",
-          "vs": "RT 21x ใจเย็น แต่ S7 ลบ",
-          "why": "Rule3 fail S7 negative"
-        },
-        {
-          "sym": "IRPC",
-          "action": "WAIT",
-          "conf": 0,
-          "now": 3.76,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "PETRO",
-          "vs": "RT 1.8x แต่ S7 ลบ",
-          "why": "Rule3 fail S7 negative GRM unclear"
-        },
-        {
-          "sym": "TLI",
-          "action": "WAIT",
-          "conf": 0,
-          "now": 5.45,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "TRANS",
-          "vs": "RT 0.0x ข้อมูลไม่พร้อม",
-          "why": "RT too low S7 negative"
-        },
-        {
-          "sym": "PTTEP",
-          "action": "WAIT",
-          "conf": 0,
-          "now": 114.5,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "ENERG",
-          "vs": "ราคาแพงเกิน Rule0",
-          "why": "Rule0 block price above 60"
-        },
-        {
-          "sym": "STGT",
-          "action": "WAIT",
-          "conf": 0,
-          "now": 16.4,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "TRANS",
-          "vs": "RT 0.7x ต่ำ S7 ลบ",
-          "why": "RT below 1.5x S7 negative"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260608-1031",
-    "last_update": "2026-06-08 10:31:55",
-    "gemini": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET -1.0%, led by heavy selling in ETRON (-3.5%) and TECH (-2.5%) sectors.",
-      "player_stance": "WAIT",
-      "stance_reason": "Broad market sell-off. Prudent to wait for stabilization and clear RT signals before committing new capital.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "OSP",
-          "action": "BUY",
-          "conf": 5,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Strongest Sector",
-          "why": "PERSON sector +1.09%, catalyst play"
-        },
-        {
-          "sym": "WHA",
-          "action": "BUY",
-          "conf": 4,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Positive Sector",
-          "why": "INDUS sector green, strong Q1 earnings"
-        },
-        {
-          "sym": "IRPC",
-          "action": "BUY",
-          "conf": 3,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Sector Rebound",
-          "why": "PETRO sector +0.51%, RSI 50 OK"
-        },
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 3,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Defensive Play",
-          "why": "BANK sector stable, yield benefits"
-        },
-        {
-          "sym": "COM7",
-          "action": "BUY",
-          "conf": 2,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Catalyst Watch",
-          "why": "คนละครึ่ง catalyst, but COMM sector is weak"
-        },
-        {
-          "sym": "STGT",
-          "action": "BUY",
-          "conf": 1,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Low Conviction",
-          "why": "RSI 46, but HELTH sector is negative"
-        },
-        {
-          "sym": "IRPC",
-          "action": "BUY",
-          "conf": 1,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Data Wait",
-          "why": "RSI 50, but RT 0.0x and Q1 miss"
-        },
-        {
-          "sym": "PTTEP",
-          "action": "BUY",
-          "conf": 1,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Data Wait",
-          "why": "RSI low, weak sector, RT 0.0x"
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET -1.0% red day, most sectors down, TECH -2.46% ETRON -3.54%",
-      "player_stance": "WAIT",
-      "stance_reason": "SET red, no stock passes RT>1.5x + S7 rule, all RT=0.0x early morning",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "UBE",
-          "action": "WAIT",
-          "conf": 2,
-          "now": 4.78,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "AGRO",
-          "vs": "RT 0.0x RSI 44 low",
-          "why": "Wait RT data S7 confirm"
-        },
-        {
-          "sym": "STGT",
-          "action": "WAIT",
-          "conf": 2,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "AGRO",
-          "vs": "RT 0.0x RSI 46 low",
-          "why": "Wait RT data S7 confirm"
-        },
-        {
-          "sym": "IRPC",
-          "action": "WAIT",
-          "conf": 1,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "PETRO",
-          "vs": "RT 0.0x score -7.3",
-          "why": "Need GRM+ and RT confirm"
-        },
-        {
-          "sym": "PTTEP",
-          "action": "WAIT",
-          "conf": 1,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "ENERG",
-          "vs": "RT 0.0x RSI 43 low",
-          "why": "Wait RT data S7 confirm"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260608-1003",
-    "last_update": "2026-06-08 10:03:23",
-    "gemini": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET down -1.27%, widespread sell-off, tech and tourism sectors leading decline.",
-      "player_stance": "WAIT",
-      "stance_reason": "Market is in risk-off mode. Abide by Lesson #1: Do not fight the trend. Wait for stabilization.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "ERW",
-          "action": "WAIT",
-          "conf": 3,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "RT 4.0x spike",
-          "why": "High RT but TOURISM weak"
-        },
-        {
-          "sym": "BH",
-          "action": "WAIT",
-          "conf": 3,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "RT 3.7x spike",
-          "why": "High RT but HELTH weak"
-        },
-        {
-          "sym": "TAN",
-          "action": "WAIT",
-          "conf": 2,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "RT 3.1x spike",
-          "why": "Wait, sector is mixed"
-        },
-        {
-          "sym": "BDMS",
-          "action": "WAIT",
-          "conf": 2,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "RT 2.8x spike",
-          "why": "Wait, HELTH sector weak"
-        },
-        {
-          "sym": "CENTEL",
-          "action": "WAIT",
-          "conf": 2,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "RT 2.5x spike",
-          "why": "Wait, TOURISM sector weak"
-        },
-        {
-          "sym": "THAI",
-          "action": "WAIT",
-          "conf": 1,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "RT 2.2x spike",
-          "why": "Wait, RSI over 80"
-        },
-        {
-          "sym": "EPG",
-          "action": "WAIT",
-          "conf": 1,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Top score",
-          "why": "Wait, RSI over 80"
-        },
-        {
-          "sym": "CCET",
-          "action": "WAIT",
-          "conf": 1,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "High score",
-          "why": "AVOID, ETRON sector crash"
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET -1.27% strong red, most sectors negative, TECH -2.47%, ETRON -3.61%",
-      "player_stance": "WAIT",
-      "stance_reason": "Market red, high volatility. Wait for pullback confirmation before entry per past lessons.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "THAI",
-          "action": "BUY",
-          "conf": 7,
-          "now": 0.0,
-          "entry": 42.6,
-          "tp": 50.0,
-          "sector": "TRANS",
-          "vs": "RT 2.2x RSI 80 +24.9% 14d",
-          "why": "RT strong sector weak wait pullback"
-        },
-        {
-          "sym": "ERW",
-          "action": "WAIT",
-          "conf": 3,
-          "now": 0.0,
-          "entry": 35.3,
-          "tp": 0.0,
-          "sector": "TOURISM",
-          "vs": "RT 4.0x RSI 69 tourism weak",
-          "why": "Visa negative S7 check needed"
-        },
-        {
-          "sym": "CENTEL",
-          "action": "WAIT",
-          "conf": 3,
-          "now": 0.0,
-          "entry": 27.3,
-          "tp": 0.0,
-          "sector": "TOURISM",
-          "vs": "RT 2.5x RSI 66 tourism -1.71%",
-          "why": "Tourism sector down RSI acceptable"
-        },
-        {
-          "sym": "BH",
-          "action": "WAIT",
-          "conf": 4,
-          "now": 0.0,
-          "entry": 13.5,
-          "tp": 0.0,
-          "sector": "HELTH",
-          "vs": "RT 3.7x RSI 67 health -0.76%",
-          "why": "RT strong sector weak wait"
-        },
-        {
-          "sym": "SCGP",
-          "action": "WAIT",
-          "conf": 3,
-          "now": 0.0,
-          "entry": 27.4,
-          "tp": 0.0,
-          "sector": "PKG",
-          "vs": "RT 1.7x RSI 67 packaging -1.31%",
-          "why": "RT moderate sector negative wait"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260608-0158",
-    "last_update": "2026-06-08 01:58:06",
-    "gemini": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET index down -0.76%, major outflows from ETRON and TECH sectors.",
-      "player_stance": "WAIT",
-      "stance_reason": "SET is red, new rule is to be committed BUY only on green days. Wait for stability despite sector rotation.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "ERW",
-          "action": "BUY",
-          "conf": 9,
-          "now": 5.05,
-          "entry": 5.05,
-          "tp": 5.3,
-          "vs": "RT 4.0x",
-          "why": "Top sector (TOURISM +3.12%) + Highest RT"
-        },
-        {
-          "sym": "BH",
-          "action": "BUY",
-          "conf": 8,
-          "now": 224.0,
-          "entry": 224.0,
-          "tp": 232.0,
-          "vs": "RT 3.7x",
-          "why": "HELTH sector strong (+1.52%) + High RT"
-        },
-        {
-          "sym": "CENTEL",
-          "action": "BUY",
-          "conf": 8,
-          "now": 42.25,
-          "entry": 42.25,
-          "tp": 44.0,
-          "vs": "RT 2.5x",
-          "why": "Top sector (TOURISM +3.12%) + High RT"
-        },
-        {
-          "sym": "SCC",
-          "action": "BUY",
-          "conf": 7,
-          "now": 235.0,
-          "entry": 235.0,
-          "tp": 242.0,
-          "vs": "RT 2.0x",
-          "why": "CONMAT sector strong (+2.37%) + Solid RT"
-        },
-        {
-          "sym": "BDMS",
-          "action": "BUY",
-          "conf": 6,
-          "now": 28.0,
-          "entry": 28.0,
-          "tp": 29.0,
-          "vs": "RT 2.8x",
-          "why": "HELTH sector strong (+1.52%) + Good RT"
-        },
-        {
-          "sym": "THAI",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 2.88,
-          "entry": 2.8,
-          "tp": 3.0,
-          "vs": "RT 2.2x",
-          "why": "High RT but RSI 80, wait for pullback"
-        },
-        {
-          "sym": "EPG",
-          "action": "WAIT",
-          "conf": 3,
-          "now": 7.5,
-          "entry": 7.3,
-          "tp": 7.8,
-          "vs": "RT 0.8x",
-          "why": "RSI overbought (83) and RT too low"
-        },
-        {
-          "sym": "PLUS",
-          "action": "AVOID",
-          "conf": 1,
-          "now": 3.0,
-          "entry": 3.0,
-          "tp": 3.0,
-          "vs": "RT 0.1x",
-          "why": "No volume, no momentum signals"
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BEARISH",
-      "sentiment_reason": "SET -0.76% TECH -2.7% ETRON -3.78% PETRO -1.49% outweigh TOURISM +3.12%",
-      "player_stance": "WAIT",
-      "stance_reason": "Bearish SET + tourism surge but most sectors red avoid flip-flop wait sector stability",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "ERW",
-          "action": "BUY",
-          "conf": 7,
-          "now": 3.58,
-          "entry": 3.55,
-          "tp": 3.85,
-          "sector": "TOURISM",
-          "vs": "RT 4.0x RSI 68 sector +3.12%",
-          "why": "Tourism leader RT surge sector flow"
-        },
-        {
-          "sym": "CENTEL",
-          "action": "BUY",
-          "conf": 6,
-          "now": 48.75,
-          "entry": 48.5,
-          "tp": 52.0,
-          "sector": "TOURISM",
-          "vs": "RT 2.5x RSI 66 sector +3.12%",
-          "why": "Tourism play RT strong sector green"
-        },
-        {
-          "sym": "BH",
-          "action": "BUY",
-          "conf": 6,
-          "now": 210.0,
-          "entry": 209.0,
-          "tp": 225.0,
-          "sector": "HELTH",
-          "vs": "RT 3.7x RSI 66 sector +1.52%",
-          "why": "Healthcare RT high sector positive flow"
-        },
-        {
-          "sym": "THAI",
-          "action": "WAIT",
-          "conf": 5,
-          "now": 17.7,
-          "entry": 17.5,
-          "tp": 19.5,
-          "sector": "TOURISM",
-          "vs": "RSI 80 overbought wait pullback",
-          "why": "RSI too hot wait dip entry"
-        },
-        {
-          "sym": "EPG",
-          "action": "WAIT",
-          "conf": 3,
-          "now": 11.5,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "PKG",
-          "vs": "RSI 83 extreme RT 0.8x low",
-          "why": "Overbought exhausted momentum avoid"
         }
       ]
     }
