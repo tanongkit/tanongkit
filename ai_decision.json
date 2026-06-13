@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260613-1432",
+    "last_update": "2026-06-13 14:32:24",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28% with broad buying in FINCIAL, CONS, SERVICE, and TRANS sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Following lesson to commit to BUY on a strong bullish day; SET is green with broad sector support.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "CK",
+          "why": "CONS sector leader (+4.4%), RT >2.5x"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ERW",
+          "why": "Tourism recovery, sector+RT strong"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "WHA",
+          "why": "PROP sector flow (+1.7%), RT >2.0x"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "GULF",
+          "why": "High RT momentum, Q1 earnings beat"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "KCE",
+          "why": "ETRON leader, sector strong, wait for RT>1.5x"
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "DELTA",
+          "why": "ETRON sector positive, wait for RT>1.5x"
+        },
+        {
+          "sym": "CCET",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "DELTA",
+          "why": "ETRON sector positive, wait for RT>1.5x"
+        },
+        {
+          "sym": "PTTGC",
+          "action": "AVOID",
+          "conf": 2,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "IRPC",
+          "why": "PETRO sector is top loser (-2.1%)"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28% FINCIAL +2% BANK +2.24% TRANS +3.43% CONS +4.36% broad green",
+      "player_stance": "BUY",
+      "stance_reason": "SET green sentiment bullish commit BUY ไม่ flip ตาม lesson 06-04",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.22,
+          "entry": 4.22,
+          "tp": 4.6,
+          "sector": "CONS",
+          "vs": "sector +4.36% RT 2.5x",
+          "why": "CONS leader RT 2.5x RSI 69 pass all"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.14,
+          "entry": 3.14,
+          "tp": 3.4,
+          "sector": "ENERG",
+          "vs": "RT 2.1x RSI 68",
+          "why": "momentum play RSI not overbought yet"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 6,
+          "now": 39.25,
+          "entry": 39.25,
+          "tp": 42.0,
+          "sector": "TOURISM",
+          "vs": "TOURISM +1.83% RT 2.1x",
+          "why": "sector flow positive RT strong RSI 59"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 27.5,
+          "entry": 27.75,
+          "tp": 30.0,
+          "sector": "PROP",
+          "vs": "PROP +1.67% RT 2.0x",
+          "why": "RT good wait gap settle below 27.75"
+        },
+        {
+          "sym": "PTTGC",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 50.25,
+          "entry": 50.5,
+          "tp": 53.0,
+          "sector": "PETRO",
+          "vs": "PETRO -2.14% RT 3.9x",
+          "why": "RT high sector weak wait sector turn"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260613-1402",
     "last_update": "2026-06-13 14:02:23",
     "gemini": {
