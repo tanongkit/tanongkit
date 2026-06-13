@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260613-1003",
+    "last_update": "2026-06-13 10:03:06",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET Index +1.28% with broad-based buying in key sectors (CONS, TRANS, BANK, ICT).",
+      "player_stance": "BUY",
+      "stance_reason": "Market is strongly bullish. Past lessons state: when SET is green, commit to BUY and do not hesitate.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 10,
+          "now": 13.2,
+          "entry": 13.2,
+          "tp": 14.0,
+          "vs": "รับเหมาตัวนำตลาด",
+          "why": "Sector แกร่งสุด (+4.36%) + RT 2.5x + RSI 69"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 4.1,
+          "entry": 4.1,
+          "tp": 4.3,
+          "vs": "ไฟฟ้าพลังงานสะอาด Momentum ดี",
+          "why": "RT 2.1x + RSI 68 + checklist [8/8]"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 41.25,
+          "entry": 41.25,
+          "tp": 43.0,
+          "vs": "โรงแรมรับ Fund Flow",
+          "why": "Sector TOURISM แข็งแกร่ง (+1.83%) + RT 2.1x"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 24.7,
+          "entry": 24.7,
+          "tp": 26.0,
+          "vs": "นิคมฯ เงินเข้า",
+          "why": "Sector PROP บวก + Volume/RT สูง 2.0x"
+        },
+        {
+          "sym": "CK",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 22.6,
+          "entry": 22.6,
+          "tp": 23.5,
+          "vs": "รับเหมาตัวตาม รอวิ่ง",
+          "why": "อยู่ใน Sector แกร่งสุด รอ RT ทะลุ >1.5x"
+        },
+        {
+          "sym": "AOT",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 66.75,
+          "entry": 66.75,
+          "tp": 68.5,
+          "vs": "ผู้นำกลุ่มขนส่งทางอากาศ",
+          "why": "Sector TRANS แกร่ง (+3.43%) รอ RT ตามกลุ่ม"
+        },
+        {
+          "sym": "ADVANC",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 212.0,
+          "entry": 212.0,
+          "tp": 218.0,
+          "vs": "ICT ตัวหลัก รอแรงส่ง",
+          "why": "Sector ICT บวกดี (+1.62%) รอ RT ทะลุ >1.5x"
+        },
+        {
+          "sym": "PSL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 8.7,
+          "entry": 8.7,
+          "tp": 9.2,
+          "vs": "เดินเรือ BDI Play",
+          "why": "Sector TRANS แกร่ง (+3.43%) + RSI 50 รอ RT"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28% sectors FINCIAL+2% BANK+2.24% TRANS+3.43% CONS+4.36% broad green",
+      "player_stance": "BUY",
+      "stance_reason": "Bullish SET + multiple sector green + lesson: commit BUY no flip",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 29.5,
+          "entry": 29.5,
+          "tp": 32.0,
+          "sector": "CONS",
+          "vs": "RT 2.5x sector +4.36%",
+          "why": "CONS leader RT high 8/8 pass"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.06,
+          "entry": 3.06,
+          "tp": 3.3,
+          "sector": "ENERG",
+          "vs": "RT 2.1x RSI 68 ok",
+          "why": "Energy momentum 8/8 pass RT strong"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 24.4,
+          "entry": 24.5,
+          "tp": 26.5,
+          "sector": "PROP",
+          "vs": "RT 2.0x PROP +1.67%",
+          "why": "PROP flow positive RT 2x wait 11:00"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 44.0,
+          "entry": 45.0,
+          "tp": 47.0,
+          "sector": "TOURISM",
+          "vs": "RT 2.1x but tourism weak",
+          "why": "Wait RT confirm post-11:00 visa concern"
+        },
+        {
+          "sym": "SCB",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 135.0,
+          "entry": 135.5,
+          "tp": 142.0,
+          "sector": "BANK",
+          "vs": "RT 1.3x BANK +2.24%",
+          "why": "Wait vol build BANK strong sector"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260612-2240",
     "last_update": "2026-06-12 22:40:29",
     "gemini": {
@@ -4257,1419 +4414,6 @@
           "sector": "FOOD",
           "vs": "RT 3.1x RSI 46 low",
           "why": "RT high but RSI too low"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260609-1602",
-    "last_update": "2026-06-09 16:02:21",
-    "gemini": {
-      "market_sentiment": "BULLISH",
-      "sentiment_reason": "SET +1.3%, led by a massive +6.35% surge in the ETRON sector.",
-      "player_stance": "BUY",
-      "stance_reason": "Strong market momentum confirmed. Lesson is to commit to the trend and follow money flow.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "DELTA",
-          "action": "BUY",
-          "conf": 9,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Sector King",
-          "why": "ETRON +6.35% lead, RT 2.8x, RSI 65."
-        },
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 8,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Volume Anomaly",
-          "why": "S7 Override pass, massive RT 3.0x."
-        },
-        {
-          "sym": "BTG",
-          "action": "BUY",
-          "conf": 8,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "RT Spike",
-          "why": "AGRO+ sector, highest RT 3.5x, early momentum."
-        },
-        {
-          "sym": "CPF",
-          "action": "BUY",
-          "conf": 7,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "AGRO Play",
-          "why": "Positive sector flow, strong RT 2.0x."
-        },
-        {
-          "sym": "KCE",
-          "action": "WATCH",
-          "conf": 6,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "ETRON Laggard",
-          "why": "#1 Sector but RT < 1.5x, wait for volume."
-        },
-        {
-          "sym": "AMATA",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Overbought",
-          "why": "Good RT but RSI > 80, wait for pullback."
-        },
-        {
-          "sym": "CCET",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "High Score Low RT",
-          "why": "#1 Sector but RT 0.6x, wait for rotation."
-        },
-        {
-          "sym": "SCC",
-          "action": "WATCH",
-          "conf": 4,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "RT Watch",
-          "why": "RT 1.9x but sector/D1 weak, monitor."
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BULLISH",
-      "sentiment_reason": "SET +1.3%, TECH +4.62%, ETRON +6.35%, INSUR +2.31%, AGRO +0.79%",
-      "player_stance": "BUY",
-      "stance_reason": "SET เขียวต่อเนื่อง เงินไหล TECH+ETRON แรง ใช้กฎวันที่ 06-05: bullish ให้ commit",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "DELTA",
-          "action": "BUY",
-          "conf": 9,
-          "now": 29.5,
-          "entry": 29.0,
-          "tp": 33.0,
-          "sector": "ETRON",
-          "vs": "RT 2.8x แรงสุด",
-          "why": "ETRON +6.35% MSCI +1,600M งบ ATH"
-        },
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 8,
-          "now": 8.9,
-          "entry": 8.8,
-          "tp": 10.0,
-          "sector": "BANK",
-          "vs": "RT 3.0x สูง",
-          "why": "Bond yield สูง NIM ดี RT แรง"
-        },
-        {
-          "sym": "BTG",
-          "action": "WAIT",
-          "conf": 6,
-          "now": 1.9,
-          "entry": 1.8,
-          "tp": 2.3,
-          "sector": "AGRO",
-          "vs": "RSI 44 ต่ำ",
-          "why": "RT 3.5x แรง แต่ RSI ยังไม่ถึง 50"
-        },
-        {
-          "sym": "AMATA",
-          "action": "WAIT",
-          "conf": 5,
-          "now": 15.7,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "PROP",
-          "vs": "RSI 81 ร้อน",
-          "why": "RT 1.7x ดี แต่ RSI overbought รอ pullback"
-        },
-        {
-          "sym": "CCET",
-          "action": "WAIT",
-          "conf": 7,
-          "now": 79.2,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "TECH",
-          "vs": "ราคาเกิน 60",
-          "why": "Rule 0 block หุ้นราคาแพง RT ต่ำ 0.6x"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260609-1502",
-    "last_update": "2026-06-09 15:02:10",
-    "gemini": {
-      "market_sentiment": "BULLISH",
-      "sentiment_reason": "SET +1.47%, led by massive +6.6% inflow into the ETRON sector.",
-      "player_stance": "BUY",
-      "stance_reason": "Lesson [0]: SET is strongly green with positive sentiment, so the clear strategy is to maintain a BUY stance and commit.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "DELTA",
-          "action": "BUY",
-          "conf": 9,
-          "now": 0.0,
-          "entry": 88.75,
-          "tp": 95.0,
-          "vs": "ETRON sector leader",
-          "why": "Top sector flow, RT 2.5x, RSI 65"
-        },
-        {
-          "sym": "BTG",
-          "action": "BUY",
-          "conf": 8,
-          "now": 0.0,
-          "entry": 20.7,
-          "tp": 22.0,
-          "vs": "Highest RT on list",
-          "why": "Massive RT 4.0x, AGRO sector flow"
-        },
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 8,
-          "now": 0.0,
-          "entry": 19.2,
-          "tp": 20.0,
-          "vs": "Banking high volume",
-          "why": "Very high RT 3.2x, S7 override OK"
-        },
-        {
-          "sym": "SCC",
-          "action": "BUY",
-          "conf": 7,
-          "now": 0.0,
-          "entry": 280.0,
-          "tp": 290.0,
-          "vs": "CONMAT momentum",
-          "why": "High RT 2.2x, positive sector flow"
-        },
-        {
-          "sym": "KCE",
-          "action": "BUY",
-          "conf": 7,
-          "now": 0.0,
-          "entry": 44.5,
-          "tp": 47.0,
-          "vs": "DELTA's follower",
-          "why": "Top sector play, momentum building"
-        },
-        {
-          "sym": "AMATA",
-          "action": "WATCH",
-          "conf": 6,
-          "now": 0.0,
-          "entry": 23.0,
-          "tp": 24.5,
-          "vs": "Industrial estate play",
-          "why": "Good RT 1.7x, but RSI 80 needs pullback"
-        },
-        {
-          "sym": "UBE",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 0.0,
-          "entry": 1.02,
-          "tp": 1.1,
-          "vs": "Agro/Food laggard",
-          "why": "Borderline RT 1.4x, positive sector"
-        },
-        {
-          "sym": "CCET",
-          "action": "WATCH",
-          "conf": 4,
-          "now": 0.0,
-          "entry": 4.12,
-          "tp": 4.3,
-          "vs": "ETRON laggard",
-          "why": "Strongest sector but low RT, speculative"
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BULLISH",
-      "sentiment_reason": "SET +1.47% strong, TECH +4.81%, ETRON +6.61%, INSUR +2.97% leading sectors",
-      "player_stance": "BUY",
-      "stance_reason": "Strong bullish momentum, top sectors hot, commit to BUY per 06-05 lesson no flip-flop",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "DELTA",
-          "action": "BUY",
-          "conf": 9,
-          "now": 131.0,
-          "entry": 131.0,
-          "tp": 145.0,
-          "sector": "ETRON",
-          "vs": "RT 2.5x RSI 65 sector lead",
-          "why": "ETRON +6.61% MSCI money RT strong"
-        },
-        {
-          "sym": "KCE",
-          "action": "BUY",
-          "conf": 8,
-          "now": 61.5,
-          "entry": 61.5,
-          "tp": 68.0,
-          "sector": "ETRON",
-          "vs": "RT 1.4x RSI 60 sector momentum",
-          "why": "ETRON wave RT confirmed pullback done"
-        },
-        {
-          "sym": "CCET",
-          "action": "WAIT",
-          "conf": 6,
-          "now": 4.04,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "ETRON",
-          "vs": "RT 0.5x too low wait",
-          "why": "Score high but RT weak wait confirmation"
-        },
-        {
-          "sym": "AMATA",
-          "action": "WAIT",
-          "conf": 5,
-          "now": 27.5,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "PROP",
-          "vs": "RSI 80 overbought pullback needed",
-          "why": "RT 1.7x good but RSI extreme wait"
-        },
-        {
-          "sym": "KTB",
-          "action": "WAIT",
-          "conf": 6,
-          "now": 22.9,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "BANK",
-          "vs": "RT 3.2x strong sector negative",
-          "why": "BANK -0.22% sector drag RT good wait"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260609-1432",
-    "last_update": "2026-06-09 14:32:06",
-    "gemini": {
-      "market_sentiment": "BULLISH",
-      "sentiment_reason": "SET +1.37%, driven by a massive surge in the ETRON/TECH sector.",
-      "player_stance": "BUY",
-      "stance_reason": "SET is strongly positive. The lesson is to commit to a BUY stance on bullish days.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "DELTA",
-          "action": "BUY",
-          "conf": 9,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "ETRON sector leader (+6.3%)",
-          "why": "S7+, RT>3x, RSI 64. All signals align."
-        },
-        {
-          "sym": "KCE",
-          "action": "BUY",
-          "conf": 8,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Follower in strong ETRON sector",
-          "why": "S7+, RT>1.5x, RSI ideal range."
-        },
-        {
-          "sym": "SCC",
-          "action": "BUY",
-          "conf": 7,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "CONMAT stock with high volume",
-          "why": "High RT 2.8x, good RSI, positive sector."
-        },
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 7,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Bank stock with unusual volume",
-          "why": "Massive RT 4.0x applies S7 override rule."
-        },
-        {
-          "sym": "BTG",
-          "action": "BUY",
-          "conf": 6,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Food stock, highest RT on list",
-          "why": "Highest RT 5.0x, S7+, momentum reversal play."
-        },
-        {
-          "sym": "AMATA",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Industrial estate, high RT",
-          "why": "RSI>80, up >5%. Wait for pullback per lesson."
-        },
-        {
-          "sym": "UBE",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "AGRI stock with good RT",
-          "why": "S7+, RT>1.5x but weak RSI needs confirmation."
-        },
-        {
-          "sym": "TLI",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "INSUR sector very strong (+2.3%)",
-          "why": "Strong sector, good RSI, wait for RT data (RT=0)."
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BULLISH",
-      "sentiment_reason": "SET +1.37% strong, TECH +4.55%, ETRON +6.34%, INSUR +2.35% leading surge",
-      "player_stance": "BUY",
-      "stance_reason": "SET green momentum + multiple sectors green + TECH breakout = commit BUY stance per 06-04 lesson",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "DELTA",
-          "action": "BUY",
-          "conf": 9,
-          "now": 107.0,
-          "entry": 106.0,
-          "tp": 120.0,
-          "sector": "TECH/ETRON",
-          "vs": "RT 3.1x + ETRON +6.34% sector flow",
-          "why": "MSCI play + US-China ELEC + TECH rally"
-        },
-        {
-          "sym": "KCE",
-          "action": "BUY",
-          "conf": 8,
-          "now": 75.25,
-          "entry": 74.0,
-          "tp": 82.0,
-          "sector": "TECH/ETRON",
-          "vs": "RT 1.7x + RSI 60 healthy + ETRON surge",
-          "why": "PCB ELEC V-Shape + sector momentum"
-        },
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 7,
-          "now": 23.8,
-          "entry": 23.5,
-          "tp": 26.0,
-          "sector": "BANK",
-          "vs": "RT 4.0x monster + RSI 65 good zone",
-          "why": "Bond yield play + sector leader RT"
-        },
-        {
-          "sym": "SCC",
-          "action": "WAIT",
-          "conf": 6,
-          "now": 360.0,
-          "entry": 355.0,
-          "tp": 380.0,
-          "sector": "CONMAT",
-          "vs": "RT 2.8x + RSI 61 + CONMAT sector +0.27%",
-          "why": "Rule 0 breach price >100 = wait pullback"
-        },
-        {
-          "sym": "CCET",
-          "action": "WAIT",
-          "conf": 5,
-          "now": 33.75,
-          "entry": 32.5,
-          "tp": 37.0,
-          "sector": "TECH/ETRON",
-          "vs": "RT 0.7x too low vs TECH rally + RSI 63",
-          "why": "RT not confirming despite high score wait"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260609-1401",
-    "last_update": "2026-06-09 14:01:58",
-    "gemini": {
-      "market_sentiment": "BULLISH",
-      "sentiment_reason": "SET +1.2% driven by a powerful rally in TECH/ETRON sector (+5.74%).",
-      "player_stance": "BUY",
-      "stance_reason": "Market is strongly bullish. My rules mandate a BUY stance to capture momentum and avoid flip-flopping.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "DELTA",
-          "action": "BUY",
-          "conf": 10,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "ETRON +5.74%",
-          "why": "Sector leader, RT 2.8x, perfect RSI."
-        },
-        {
-          "sym": "KCE",
-          "action": "BUY",
-          "conf": 9,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "ETRON +5.74%",
-          "why": "Strong follower, RT 1.6x, good RSI."
-        },
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 8,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "BANK -0.22%",
-          "why": "Rule 4 Override, huge RT 3.3x."
-        },
-        {
-          "sym": "BTG",
-          "action": "BUY",
-          "conf": 6,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "FOOD +0.95%",
-          "why": "Pure momentum, very high RT 4.2x."
-        },
-        {
-          "sym": "CPF",
-          "action": "BUY",
-          "conf": 6,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "FOOD +0.95%",
-          "why": "Momentum play, RT 2.6x, low RSI."
-        },
-        {
-          "sym": "AMATA",
-          "action": "BUY",
-          "conf": 4,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "PROP -0.12%",
-          "why": "Wait for pullback, RSI > 80."
-        },
-        {
-          "sym": "CCET",
-          "action": "BUY",
-          "conf": 3,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "ETRON +5.74%",
-          "why": "High score but low RT. Potential trap."
-        },
-        {
-          "sym": "TLI",
-          "action": "BUY",
-          "conf": 3,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "INSUR +2.64%",
-          "why": "Strong sector, good RSI, but RT=0."
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BULLISH",
-      "sentiment_reason": "SET +1.2% Tech +4.09% ETRON +5.74% INSUR +2.64% strong sectors leading",
-      "player_stance": "BUY",
-      "stance_reason": "Bullish market momentum, commit to green side, sector flow positive Tech/ETRON/INSUR",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "DELTA",
-          "action": "BUY",
-          "conf": 9,
-          "now": 105.5,
-          "entry": 104.0,
-          "tp": 115.0,
-          "sector": "TECH-ETRON",
-          "vs": "RT 2.8x sector +5.74%",
-          "why": "ETRON lead RT high momentum"
-        },
-        {
-          "sym": "KCE",
-          "action": "BUY",
-          "conf": 8,
-          "now": 69.0,
-          "entry": 68.0,
-          "tp": 75.0,
-          "sector": "TECH-ETRON",
-          "vs": "RT 1.6x ETRON +5.74%",
-          "why": "ETRON surge RT confirmed"
-        },
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 7,
-          "now": 22.5,
-          "entry": 22.3,
-          "tp": 24.5,
-          "sector": "BANK",
-          "vs": "RT 3.3x RSI 65",
-          "why": "RT exceptional sector neutral"
-        },
-        {
-          "sym": "CCET",
-          "action": "WAIT",
-          "conf": 6,
-          "now": 78.1,
-          "entry": 76.0,
-          "tp": 85.0,
-          "sector": "TECH",
-          "vs": "RT 0.6x weak morning",
-          "why": "Wait RT pickup post-11am"
-        },
-        {
-          "sym": "STECON",
-          "action": "WAIT",
-          "conf": 5,
-          "now": 32.5,
-          "entry": 31.5,
-          "tp": 35.0,
-          "sector": "CONS",
-          "vs": "RT 0.7x low GAP 47.7%",
-          "why": "RT weak sector flat wait"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260609-1201",
-    "last_update": "2026-06-09 12:01:58",
-    "gemini": {
-      "market_sentiment": "BULLISH",
-      "sentiment_reason": "SET +1.18%, massive rotation into Electronics (+5.46%) and Tech (+3.85%) sectors.",
-      "player_stance": "BUY",
-      "stance_reason": "SET is strong green (+1.18%). Lessons dictate a firm BUY stance and follow the momentum.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "DELTA",
-          "action": "BUY",
-          "conf": 10,
-          "now": 88.5,
-          "entry": 88.25,
-          "tp": 92.5,
-          "vs": "RT 2.8x",
-          "why": "Top stock in strongest sector (ETRON)"
-        },
-        {
-          "sym": "KCE",
-          "action": "BUY",
-          "conf": 9,
-          "now": 47.25,
-          "entry": 47.0,
-          "tp": 49.5,
-          "vs": "RT 1.8x",
-          "why": "Follows DELTA in hot ETRON sector"
-        },
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 8,
-          "now": 19.3,
-          "entry": 19.2,
-          "tp": 20.0,
-          "vs": "RT 3.3x",
-          "why": "S7 Override: Strong RT despite weak sector"
-        },
-        {
-          "sym": "BTG",
-          "action": "BUY",
-          "conf": 7,
-          "now": 20.4,
-          "entry": 20.3,
-          "tp": 21.2,
-          "vs": "RT 5.3x (Massive)",
-          "why": "Huge volume spike in positive sector"
-        },
-        {
-          "sym": "CPF",
-          "action": "BUY",
-          "conf": 7,
-          "now": 23.1,
-          "entry": 23.0,
-          "tp": 24.0,
-          "vs": "RT 3.1x",
-          "why": "Strong RT, sector rotating into FOOD"
-        },
-        {
-          "sym": "AMATA",
-          "action": "WATCH",
-          "conf": 6,
-          "now": 24.5,
-          "entry": 24.2,
-          "tp": 25.5,
-          "vs": "RT 1.6x",
-          "why": "High RSI (79) needs pullback first"
-        },
-        {
-          "sym": "TRUE",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 8.65,
-          "entry": 8.6,
-          "tp": 8.9,
-          "vs": "RT 1.4x",
-          "why": "Borderline RT, good RSI, merits watch"
-        },
-        {
-          "sym": "UBE",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 1.07,
-          "entry": 1.06,
-          "tp": 1.12,
-          "vs": "RT 1.5x",
-          "why": "Turnaround play, but RSI still low"
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BULLISH",
-      "sentiment_reason": "SET +1.18% strong, TECH +3.85%, ETRON +5.46%, INSUR +2.57%, FOOD +0.66%",
-      "player_stance": "BUY",
-      "stance_reason": "SET green, sentiment bullish, commit per lesson 1, no flip-flop today",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "DELTA",
-          "action": "BUY",
-          "conf": 9,
-          "now": 26.7,
-          "entry": 26.5,
-          "tp": 30.0,
-          "sector": "ETRON",
-          "vs": "RT 2.8x sector +5.46%",
-          "why": "ETRON leader RT high momentum"
-        },
-        {
-          "sym": "KCE",
-          "action": "BUY",
-          "conf": 8,
-          "now": 37.0,
-          "entry": 36.5,
-          "tp": 42.0,
-          "sector": "ETRON",
-          "vs": "RT 1.8x sector +5.46%",
-          "why": "ETRON play RSI 60 safe"
-        },
-        {
-          "sym": "KTB",
-          "action": "WAIT",
-          "conf": 7,
-          "now": 10.2,
-          "entry": 10.0,
-          "tp": 12.0,
-          "sector": "BANK",
-          "vs": "RT 3.3x but BANK -0.36%",
-          "why": "Wait pullback sector weak"
-        },
-        {
-          "sym": "RBF",
-          "action": "WAIT",
-          "conf": 6,
-          "now": 43.3,
-          "entry": 42.0,
-          "tp": 50.0,
-          "sector": "FOOD",
-          "vs": "RSI 82 overbought pullback",
-          "why": "Wait dip RSI too hot"
-        },
-        {
-          "sym": "CCET",
-          "action": "WAIT",
-          "conf": 6,
-          "now": 78.3,
-          "entry": 75.0,
-          "tp": 90.0,
-          "sector": "ETRON",
-          "vs": "RT 0.7x low GAP 5.7%",
-          "why": "RT weak wait confirm"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260609-1132",
-    "last_update": "2026-06-09 11:32:21",
-    "gemini": {
-      "market_sentiment": "BULLISH",
-      "sentiment_reason": "SET up +1.1%, strongly led by a 5.17% rally in the electronics (ETRON) sector.",
-      "player_stance": "BUY",
-      "stance_reason": "Following Rule #1 from lessons: SET is strongly green (+1.1%), so maintain a clear BUY stance and avoid flip-flopping.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "DELTA",
-          "action": "BUY",
-          "conf": 9,
-          "now": 87.25,
-          "entry": 87.0,
-          "tp": 91.0,
-          "vs": "RT 4.1x",
-          "why": "ETRON leader, strong RT+RSI."
-        },
-        {
-          "sym": "KCE",
-          "action": "BUY",
-          "conf": 9,
-          "now": 46.75,
-          "entry": 46.5,
-          "tp": 48.5,
-          "vs": "RT 2.7x",
-          "why": "ETRON sector play, solid RT."
-        },
-        {
-          "sym": "BTG",
-          "action": "BUY",
-          "conf": 8,
-          "now": 20.2,
-          "entry": 20.2,
-          "tp": 21.2,
-          "vs": "RT 7.8x HUGE",
-          "why": "Massive RT spike, FOOD recovery."
-        },
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 8,
-          "now": 18.6,
-          "entry": 18.6,
-          "tp": 19.2,
-          "vs": "RT 4.9x",
-          "why": "S7 Override, huge RT inflow."
-        },
-        {
-          "sym": "CPF",
-          "action": "BUY",
-          "conf": 7,
-          "now": 23.6,
-          "entry": 23.5,
-          "tp": 24.5,
-          "vs": "RT 4.6x",
-          "why": "Strong RT, AGRO sector flow."
-        },
-        {
-          "sym": "TLI",
-          "action": "WATCH",
-          "conf": 7,
-          "now": 8.9,
-          "entry": 8.9,
-          "tp": 9.3,
-          "vs": "RT 0.0x",
-          "why": "INSUR strong, wait for RT data."
-        },
-        {
-          "sym": "AMATA",
-          "action": "WATCH",
-          "conf": 6,
-          "now": 23.7,
-          "entry": 23.5,
-          "tp": 24.5,
-          "vs": "RT 2.4x",
-          "why": "RSI at 80, wait for pullback."
-        },
-        {
-          "sym": "UBE",
-          "action": "WATCH",
-          "conf": 6,
-          "now": 1.05,
-          "entry": 1.06,
-          "tp": 1.12,
-          "vs": "RT 2.2x",
-          "why": "Good RT, wait for price breakout."
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BULLISH",
-      "sentiment_reason": "SET +1.1%, TECH +3.7%, ETRON +5.17%, INSUR +2.53%, COMM +0.51% strong green",
-      "player_stance": "BUY",
-      "stance_reason": "SET green, multiple sectors bullish, commit BUY stance per lesson 1 no flip-flop",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "DELTA",
-          "action": "BUY",
-          "conf": 9,
-          "now": 28.9,
-          "entry": 28.5,
-          "tp": 32.0,
-          "sector": "ETRON",
-          "vs": "RT 4.1x sector +5.17% momentum",
-          "why": "ETRON super surge RT high"
-        },
-        {
-          "sym": "KCE",
-          "action": "BUY",
-          "conf": 8,
-          "now": 38.5,
-          "entry": 38.0,
-          "tp": 42.0,
-          "sector": "ETRON",
-          "vs": "RT 2.7x ETRON +5.17% flow",
-          "why": "ETRON sector leader RT strong"
-        },
-        {
-          "sym": "BTG",
-          "action": "BUY",
-          "conf": 7,
-          "now": 4.8,
-          "entry": 4.8,
-          "tp": 5.3,
-          "sector": "FOOD",
-          "vs": "RT 7.8x FOOD +0.75% pullback",
-          "why": "RT extreme FOOD sector positive"
-        },
-        {
-          "sym": "KTB",
-          "action": "WAIT",
-          "conf": 6,
-          "now": 12.8,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "BANK",
-          "vs": "RT 4.9x but BANK -0.32%",
-          "why": "Wait BANK sector turn green"
-        },
-        {
-          "sym": "CPF",
-          "action": "WAIT",
-          "conf": 5,
-          "now": 4.8,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "FOOD",
-          "vs": "RT 4.6x RSI 48 low",
-          "why": "RSI too low wait bounce"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260609-1102",
-    "last_update": "2026-06-09 11:02:17",
-    "gemini": {
-      "market_sentiment": "BULLISH",
-      "sentiment_reason": "SET +1.05%, led by powerful buying in TECH/ETRON sectors.",
-      "player_stance": "BUY",
-      "stance_reason": "SET is strong green. Committing to BUY side per lessons to avoid flip-flop.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 9,
-          "now": 18.1,
-          "entry": 18.1,
-          "tp": 18.5,
-          "vs": "Highest RT on list",
-          "why": "RT 2.4x passes via Rule 4 (S7 override)."
-        },
-        {
-          "sym": "TIPH",
-          "action": "BUY",
-          "conf": 8,
-          "now": 45.0,
-          "entry": 45.0,
-          "tp": 46.5,
-          "vs": "INSUR sector +1.97%",
-          "why": "Meets all core rules: RT > 1.5x, S7+, RSI ok."
-        },
-        {
-          "sym": "BH",
-          "action": "BUY",
-          "conf": 8,
-          "now": 230.0,
-          "entry": 230.0,
-          "tp": 235.0,
-          "vs": "HELTH sector stable",
-          "why": "Strong RT 1.6x, neutral sector, good momentum signal."
-        },
-        {
-          "sym": "DELTA",
-          "action": "BUY",
-          "conf": 7,
-          "now": 82.5,
-          "entry": 82.25,
-          "tp": 85.0,
-          "vs": "ETRON sector leader",
-          "why": "Dominant sector flow (+4.91%) overrides slightly low RT (1.2x)."
-        },
-        {
-          "sym": "KCE",
-          "action": "WATCH",
-          "conf": 6,
-          "now": 46.25,
-          "entry": 46.0,
-          "tp": 48.0,
-          "vs": "ETRON sector +4.91%",
-          "why": "Strong sector momentum, but wait for RT > 1.5x."
-        },
-        {
-          "sym": "HANA",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 39.0,
-          "entry": 38.75,
-          "tp": 40.5,
-          "vs": "Follower in ETRON",
-          "why": "Strong sector, but RT is low (0.9x). Needs volume."
-        },
-        {
-          "sym": "RBF",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 12.2,
-          "entry": 12.0,
-          "tp": 12.8,
-          "vs": "Past super pick",
-          "why": "RSI > 80, wait for pullback. RT is still low."
-        },
-        {
-          "sym": "CCET",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 2.84,
-          "entry": 2.84,
-          "tp": 2.96,
-          "vs": "ETRON sector follower",
-          "why": "Strong sector but very low RT. High checklist score."
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BULLISH",
-      "sentiment_reason": "SET +1.05% TECH +3.46% ETRON +4.91% INSUR +1.97% strong momentum",
-      "player_stance": "BUY",
-      "stance_reason": "SET green + strong sector flow + bullish momentum — commit BUY stance all day",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "KCE",
-          "action": "BUY",
-          "conf": 8,
-          "now": 54.5,
-          "entry": 54.0,
-          "tp": 58.0,
-          "sector": "ETRON",
-          "vs": "ETRON +4.91% RT 1.1x RSI 59",
-          "why": "ETRON super strong RT confirmed"
-        },
-        {
-          "sym": "DELTA",
-          "action": "BUY",
-          "conf": 7,
-          "now": 113.5,
-          "entry": 112.0,
-          "tp": 120.0,
-          "sector": "ETRON",
-          "vs": "ETRON +4.91% RT 1.2x RSI 60",
-          "why": "ETRON leader RT confirmed momentum"
-        },
-        {
-          "sym": "KTB",
-          "action": "BUY",
-          "conf": 8,
-          "now": 23.4,
-          "entry": 23.3,
-          "tp": 24.5,
-          "sector": "BANK",
-          "vs": "RT 2.4x highest RSI 65",
-          "why": "RT explosion sector stable"
-        },
-        {
-          "sym": "BH",
-          "action": "WAIT",
-          "conf": 6,
-          "now": 24.1,
-          "entry": 23.8,
-          "tp": 25.5,
-          "sector": "HELTH",
-          "vs": "RT 1.6x strong RSI 54 safe",
-          "why": "wait pullback from RT spike"
-        },
-        {
-          "sym": "TIPH",
-          "action": "WAIT",
-          "conf": 5,
-          "now": 8.3,
-          "entry": 8.2,
-          "tp": 8.8,
-          "sector": "HELTH",
-          "vs": "RT 1.5x RSI 50 neutral",
-          "why": "RT good but score negative wait"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260609-1032",
-    "last_update": "2026-06-09 10:32:10",
-    "gemini": {
-      "market_sentiment": "BULLISH",
-      "sentiment_reason": "SET +1.09%, strongly led by the TECH/ETRON sector (+4.28%), indicating broad buying interest.",
-      "player_stance": "BUY",
-      "stance_reason": "Rule #1 applied: SET is green and sentiment is positive, so maintain a BUY stance and commit to the trend.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "DELTA",
-          "action": "BUY",
-          "conf": 9,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Strongest sector leader",
-          "why": "ETRON sector +4.28%, V-Shape DNA"
-        },
-        {
-          "sym": "CCET",
-          "action": "BUY",
-          "conf": 9,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "High score in lead sector",
-          "why": "ETRON sector +4.28%, RSI 63 optimal"
-        },
-        {
-          "sym": "KCE",
-          "action": "BUY",
-          "conf": 8,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "ETRON sector follower",
-          "why": "ETRON sector +4.28%, RSI 56 solid"
-        },
-        {
-          "sym": "RBF",
-          "action": "BUY",
-          "conf": 7,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Strong sector momentum",
-          "why": "FOOD sector +0.93%, RSI high (caution)"
-        },
-        {
-          "sym": "HANA",
-          "action": "BUY",
-          "conf": 7,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "ETRON sector laggard",
-          "why": "ETRON sector +4.28%, catch-up play"
-        },
-        {
-          "sym": "AOT",
-          "action": "BUY",
-          "conf": 7,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Transportation sector leader",
-          "why": "TRANS sector +0.48%, institutional stock"
-        },
-        {
-          "sym": "THAI",
-          "action": "BUY",
-          "conf": 6,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "High-beta transport play",
-          "why": "TRANS sector +0.48%, RSI 55 good"
-        },
-        {
-          "sym": "STECON",
-          "action": "BUY",
-          "conf": 6,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Stable sector, good RSI",
-          "why": "CONS sector +0.28%, safe momentum"
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BULLISH",
-      "sentiment_reason": "SET +1.09% strong, INSUR +2.98%, TECH +3.15%, ETRON +4.28% leading sectors",
-      "player_stance": "BUY",
-      "stance_reason": "SET green + strong sectors → commit BUY stance, no flip-flop per lesson 1",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "CCET",
-          "action": "BUY",
-          "conf": 9,
-          "now": 7.7,
-          "entry": 7.65,
-          "tp": 8.4,
-          "sector": "ETRON",
-          "vs": "ETRON +4.28% RT wait",
-          "why": "Score 95.7 RSI 63 sector leader ETRON surge"
-        },
-        {
-          "sym": "RBF",
-          "action": "BUY",
-          "conf": 8,
-          "now": 8.55,
-          "entry": 8.5,
-          "tp": 9.2,
-          "sector": "FOOD",
-          "vs": "FOOD +0.93% RT wait",
-          "why": "Score 47 RSI 82 high but FOOD momentum continue"
-        },
-        {
-          "sym": "DELTA",
-          "action": "BUY",
-          "conf": 7,
-          "now": 91.0,
-          "entry": 90.5,
-          "tp": 98.0,
-          "sector": "ETRON",
-          "vs": "ETRON +4.28% RT wait",
-          "why": "MSCI + ETRON surge beta 2.39 strong play"
-        },
-        {
-          "sym": "AOT",
-          "action": "WAIT",
-          "conf": 6,
-          "now": 74.0,
-          "entry": 73.5,
-          "tp": 78.0,
-          "sector": "TRANS",
-          "vs": "TRANS +0.48% price leader",
-          "why": "RSI 66 sector leader wait RT confirmation post-11am"
-        },
-        {
-          "sym": "EPG",
-          "action": "WAIT",
-          "conf": 5,
-          "now": 8.55,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "PKG",
-          "vs": "PKG -0.43% RSI 79",
-          "why": "Score 138 but RSI 79 overbought wait pullback per lesson"
-        }
-      ]
-    }
-  },
-  {
-    "tx_id": "20260609-1003",
-    "last_update": "2026-06-09 10:03:11",
-    "gemini": {
-      "market_sentiment": "BULLISH",
-      "sentiment_reason": "SET +0.89% with broad-based green sectors, led by a strong ETRON (+4.06%) rally.",
-      "player_stance": "BUY",
-      "stance_reason": "Lesson #1 applied: SET is green and sentiment is bullish, so commit to the BUY side for the day.",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "DELTA",
-          "action": "BUY",
-          "conf": 9,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Undisputed sector leader",
-          "why": "ETRON sector +4.06% strong"
-        },
-        {
-          "sym": "HANA",
-          "action": "BUY",
-          "conf": 8,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "ETRON beta play",
-          "why": "Follows strongest sector momentum"
-        },
-        {
-          "sym": "KCE",
-          "action": "BUY",
-          "conf": 8,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "ETRON beta play",
-          "why": "Follows strongest sector momentum"
-        },
-        {
-          "sym": "AOT",
-          "action": "BUY",
-          "conf": 7,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Tourism/Transport leader",
-          "why": "TRANS sector flow +0.97%"
-        },
-        {
-          "sym": "UBE",
-          "action": "BUY",
-          "conf": 7,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "RT momentum play",
-          "why": "RT 2.6x overrides low score"
-        },
-        {
-          "sym": "RBF",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "High score but overbought",
-          "why": "RSI > 80, wait for pullback"
-        },
-        {
-          "sym": "WHA",
-          "action": "WATCH",
-          "conf": 5,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Strong fundamental story",
-          "why": "Awaiting strong RT/flow confirmation"
-        },
-        {
-          "sym": "PTTEP",
-          "action": "WATCH",
-          "conf": 4,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "vs": "Meets basic RT/RSI rules",
-          "why": "Sector flow is near zero"
-        }
-      ]
-    },
-    "claude": {
-      "market_sentiment": "BULLISH",
-      "sentiment_reason": "SET +0.89% strong open, TECH +2.85%, ETRON +4.06%, broad sector green",
-      "player_stance": "BUY",
-      "stance_reason": "SET green + momentum sectors lead, commit BUY per lesson 1 no flip-flop",
-      "port_action": [],
-      "picks": [
-        {
-          "sym": "UBE",
-          "action": "BUY",
-          "conf": 7,
-          "now": 9.75,
-          "entry": 9.65,
-          "tp": 10.5,
-          "sector": "FOOD",
-          "vs": "RT 2.6x strong + RSI neutral 47",
-          "why": "High RT + low RSI recovery play"
-        },
-        {
-          "sym": "PTTEP",
-          "action": "BUY",
-          "conf": 6,
-          "now": 106.0,
-          "entry": 105.0,
-          "tp": 114.0,
-          "sector": "ENERG",
-          "vs": "RT 1.6x + RSI 50 neutral",
-          "why": "Energy momentum + RT above threshold"
-        },
-        {
-          "sym": "RBF",
-          "action": "WAIT",
-          "conf": 4,
-          "now": 8.4,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "FOOD",
-          "vs": "RT 1.3x below 1.5x threshold",
-          "why": "RT weak despite RSI 82 overbought"
-        },
-        {
-          "sym": "STGT",
-          "action": "WAIT",
-          "conf": 3,
-          "now": 2.12,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "AGRO",
-          "vs": "RT 1.2x + score 2.1 weak",
-          "why": "Low score low RT no catalyst"
-        },
-        {
-          "sym": "NONE",
-          "action": "WAIT",
-          "conf": 0,
-          "now": 0.0,
-          "entry": 0.0,
-          "tp": 0.0,
-          "sector": "TECH",
-          "vs": "Focus stocks lack TECH exposure",
-          "why": "TECH +2.85% but no universe picks"
         }
       ]
     }
