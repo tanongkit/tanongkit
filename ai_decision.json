@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260613-1602",
+    "last_update": "2026-06-13 16:02:14",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET up +1.28% with broad buying in key sectors like FINCIAL, SERVICE, TECH.",
+      "player_stance": "BUY",
+      "stance_reason": "Rule #1: SET is green and sentiment is up, so commit to BUY side for the day.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "CONS sector leader +4.36% flow.",
+          "why": "Strongest signal: RT+Sector+RSI all aligned."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Volume spike suggests active accumulation.",
+          "why": "High RT momentum, good RSI, strong Q1."
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "PROP sector showing +1.67% strength.",
+          "why": "RT + Sector flow + RSI all positive."
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Tourism sector rebound +1.83%.",
+          "why": "Lesson applied: RT+Sector flow > score."
+        },
+        {
+          "sym": "PTG",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RSI recovering, potential early entry.",
+          "why": "Good RT in strong COMM sector (+1.29%)."
+        },
+        {
+          "sym": "PTTGC",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "High risk contrarian, watch for reversal.",
+          "why": "Extreme RT 3.9x but sector/RSI weak."
+        },
+        {
+          "sym": "DELTA",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT below threshold, watch for breakout.",
+          "why": "Sector leader with positive ETRON flow."
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Watch for volume following DELTA.",
+          "why": "Secondary electronics play if sector runs."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28%, BANK +2.24%, FIN +1.97%, TRANS +3.43%, TOURISM +1.83% - broad strength",
+      "player_stance": "BUY",
+      "stance_reason": "Strong bullish momentum across key sectors, high RT plays available, end-of-week positioning",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 6.1,
+          "entry": 6.0,
+          "tp": 6.8,
+          "sector": "CONS",
+          "vs": "RT 2.5x, CONS sector +4.36%",
+          "why": "Sector leader, strong RT, momentum intact"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.34,
+          "entry": 3.32,
+          "tp": 3.65,
+          "sector": "ENERG",
+          "vs": "RT 2.1x, RSI 68 controlled",
+          "why": "ENERG stable, RT confirms buying flow"
+        },
+        {
+          "sym": "PTTGC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 47.5,
+          "entry": 47.25,
+          "tp": 51.0,
+          "sector": "PETRO",
+          "vs": "RT 3.9x mega, PETRO dip -2.14%",
+          "why": "Oversold bounce play, extreme RT pickup"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 29.75,
+          "entry": 29.5,
+          "tp": 32.5,
+          "sector": "PROP",
+          "vs": "RT 2.0x, PROP sector +1.67%",
+          "why": "Wait pullback, RSI 68 elevated zone"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 96.75,
+          "entry": 95.5,
+          "tp": 105.0,
+          "sector": "ETRON",
+          "vs": "RT 1.3x weak, ETRON +1.49%",
+          "why": "Rule 0 block, wait sub-95 entry"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260613-1502",
     "last_update": "2026-06-13 15:02:33",
     "gemini": {
