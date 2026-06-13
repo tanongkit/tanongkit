@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260613-2240",
+    "last_update": "2026-06-13 22:40:11",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28% with strong, broad-based rally in Banking, Construction, Services and Tech sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is strongly bullish. Following lesson to maintain BUY stance on green days and not flip-flop.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Volatile Swing",
+          "why": "Top sector (CONS +4.36%) + RT 2.5x"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Industrial Estate Leader",
+          "why": "Strong sector (PROP +1.67%) + RT 2.0x"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Channel Up",
+          "why": "Strong sector (TOURISM +1.83%) + RT 2.1x"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Volatile Swing",
+          "why": "High RT momentum (2.1x), sector is green"
+        },
+        {
+          "sym": "PTTGC",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Petrochem Swing",
+          "why": "Sector weak but RT spikes to 3.9x, contrarian"
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "V-Shape / Exponential",
+          "why": "Strong ETRON sector, needs RT to cross 1.5x"
+        },
+        {
+          "sym": "PTG",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Energy Retail",
+          "why": "High RT (2.0x), but RSI still low (47)"
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ETRON laggard",
+          "why": "Strong sector (ETRON +1.49%), waiting for RT"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28% FINCIAL +2.0% BANK +2.24% SERVICE +2.0% TRANS +3.43% CONS +4.36%",
+      "player_stance": "BUY",
+      "stance_reason": "Strong sector flow FINCIAL TRANS SERVICE bullish confirmation commit BUY stance all day",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 8.25,
+          "entry": 8.25,
+          "tp": 9.1,
+          "sector": "CONS",
+          "vs": "CONS +4.36% RT 2.5x",
+          "why": "Sector leader RT 2.5x RSI 69 CONS flow"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.36,
+          "entry": 3.36,
+          "tp": 3.7,
+          "sector": "ENERG",
+          "vs": "RT 2.1x RSI 68",
+          "why": "RT momentum ENERG +0.1% RSI safe zone"
+        },
+        {
+          "sym": "PTTGC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 54.75,
+          "entry": 54.75,
+          "tp": 58.0,
+          "sector": "PETRO",
+          "vs": "RT 3.9x RSI 40",
+          "why": "RT 3.9x RSI oversold wait GRM confirm"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 33.25,
+          "entry": 33.25,
+          "tp": 36.0,
+          "sector": "PROP",
+          "vs": "RT 2.0x PROP +1.67%",
+          "why": "RT good PROP flow wait vol confirm"
+        },
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 5.8,
+          "entry": 5.8,
+          "tp": 6.3,
+          "sector": "ETRON",
+          "vs": "RT 1.1x ETRON +1.49%",
+          "why": "RT weak ETRON flow wait 11:00 vol"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260613-1602",
     "last_update": "2026-06-13 16:02:14",
     "gemini": {
