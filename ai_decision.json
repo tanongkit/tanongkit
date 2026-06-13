@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260613-1032",
+    "last_update": "2026-06-13 10:32:08",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28%, broad-based buying in Banking, Construction, Tech sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong bullish market. Following lesson to commit to BUY side and avoid flip-flopping.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Strongest sector CONS +4.36%",
+          "why": "Top sector flow, RT>2x, ideal RSI."
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Property sector +1.67%",
+          "why": "Strong sector flow, RT>2x, ideal RSI."
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Tourism sector +1.83%",
+          "why": "Strong sector and RT momentum, despite low score."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Weak sector flow",
+          "why": "High RT>2x but ENERG sector is weak."
+        },
+        {
+          "sym": "DELTA",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT still < 1.5x",
+          "why": "Good sector, leader, wait for RT confirmation."
+        },
+        {
+          "sym": "CK",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Laggard vs STECON",
+          "why": "In strongest sector but RT is low, laggard play."
+        },
+        {
+          "sym": "CCET",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Low RT",
+          "why": "In strong ETRON sector, waiting for volume."
+        },
+        {
+          "sym": "PTTGC",
+          "action": "WATCH",
+          "conf": 3,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "High risk, PETRO -2.14%",
+          "why": "Extreme RT 3.9x conflicts with negative sector."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28% strong open, BANK +2.24%, FINCIAL +2.0%, SERVICE +2.0% green across",
+      "player_stance": "BUY",
+      "stance_reason": "SET bullish + broad sector green + past lesson: no flip-flop, commit BUY stance",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 7.05,
+          "entry": 7.05,
+          "tp": 7.75,
+          "sector": "CONS",
+          "vs": "RT 2.5x sector +4.36%",
+          "why": "top score RT surge sector leader"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.58,
+          "entry": 3.58,
+          "tp": 3.95,
+          "sector": "ENERG",
+          "vs": "RT 2.1x RSI 68 ok",
+          "why": "RT high sector stable momentum"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 25.75,
+          "entry": 26.0,
+          "tp": 28.5,
+          "sector": "PROP",
+          "vs": "RT 2.0x sector +1.67%",
+          "why": "wait pullback gap 5% threshold"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 95.0,
+          "entry": 95.0,
+          "tp": 105.0,
+          "sector": "ETRON",
+          "vs": "RT 1.3x sector +1.49%",
+          "why": "pre-11:00 RT low use score"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 48.5,
+          "entry": 48.0,
+          "tp": 53.0,
+          "sector": "TOURISM",
+          "vs": "RT 2.1x sector +1.83%",
+          "why": "gap -12.8% wait confirmation volume"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260613-1003",
     "last_update": "2026-06-13 10:03:06",
     "gemini": {
