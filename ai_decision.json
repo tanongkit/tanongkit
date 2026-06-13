@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260613-1402",
+    "last_update": "2026-06-13 14:02:23",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET up +1.28%, strong buying in Bank, Service, Tech, and Construction sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Lesson learned: Market is bullish (SET +1.28%), must commit to a BUY stance and avoid hesitation.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "รับเหมา Sector leader",
+          "why": "Sector +4.36%, RT 2.5x, RSI 69. Top pick."
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ท่องเที่ยวฟื้นตัว",
+          "why": "Sector +1.83%, RT 2.1x. Classic RT+Sector play."
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "นิคมฯ อสังหาฯ",
+          "why": "Sector +1.67%, RT 2.0x, RSI 68. Solid momentum."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "พลังงานทางเลือก",
+          "why": "Strong RT 2.1x overcomes neutral sector."
+        },
+        {
+          "sym": "PTTGC",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Petrochem Turnaround",
+          "why": "Contrarian: RT 3.9x suggests bottoming, RSI low."
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "อิเล็กทรอนิกส์ตัวนำ",
+          "why": "Sector +1.49%, RSI 63. RT 1.3x borderline ok."
+        },
+        {
+          "sym": "CK",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "รับเหมาตัวรอง",
+          "why": "Hottest sector (+4.36%) but needs RT>1.5x."
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "อิเล็กทรอนิกส์ PCB",
+          "why": "Strong sector (+1.49%) but needs RT>1.5x."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28% strong, FINCIAL +2.0%, BANK +2.24%, TRANS +3.43%, CONS +4.36% lead",
+      "player_stance": "BUY",
+      "stance_reason": "Broad sector rotation bullish, ต่อเนื่อง 3 วัน เขียว, ไม่ flip",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 6.6,
+          "entry": 6.6,
+          "tp": 7.5,
+          "sector": "CONS",
+          "vs": "RT 2.5x high",
+          "why": "CONS +4.36% best sector RT 2.5x RSI 69"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.4,
+          "entry": 3.4,
+          "tp": 3.8,
+          "sector": "ENERG",
+          "vs": "RT 2.1x solid",
+          "why": "ENERG stable RT 2.1x RSI 68 momentum"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 24.9,
+          "entry": 24.5,
+          "tp": 27.0,
+          "sector": "PROP",
+          "vs": "RT 2.0x wait",
+          "why": "PROP +1.67% RT 2.0x RSI 68 pullback"
+        },
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 6.7,
+          "entry": 6.5,
+          "tp": 7.2,
+          "sector": "ETRON",
+          "vs": "RT 1.1x low",
+          "why": "ETRON +1.49% but RT only 1.1x wait"
+        },
+        {
+          "sym": "PTTGC",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 48.25,
+          "entry": 47.5,
+          "tp": 52.0,
+          "sector": "PETRO",
+          "vs": "RT 3.9x high",
+          "why": "PETRO -2.14% sector weak need GRM check"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260613-1201",
     "last_update": "2026-06-13 12:01:44",
     "gemini": {
