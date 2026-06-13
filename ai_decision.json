@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260613-1502",
+    "last_update": "2026-06-13 15:02:33",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28%, broad-based buying in key sectors (CONS, TRANS, BANK, TECH).",
+      "player_stance": "BUY",
+      "stance_reason": "Market is bullish. Per lesson [0], commit to BUY side and do not flip-flop.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Best sector flow",
+          "why": "CONS sector +4.36% & RT 2.5x"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Tourism momentum",
+          "why": "TOURISM sector +1.83% & RT 2.1x"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Property strong",
+          "why": "PROP sector +1.67% & RT 2.0x"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Pure volume play",
+          "why": "High RT 2.1x, despite weak sector"
+        },
+        {
+          "sym": "PTTGC",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Contrarian Reversal",
+          "why": "Massive RT 3.9x, but PETRO sector -2.14%"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Market Leader",
+          "why": "ETRON sector +, wait for RT > 1.5x"
+        },
+        {
+          "sym": "KCE",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Sector play",
+          "why": "ETRON sector +, wait for RT confirmation"
+        },
+        {
+          "sym": "CCET",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Sector play",
+          "why": "ETRON sector +, needs more volume"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28% · BANK +2.24% · FIN +1.97% · SERVICE +2% · TRANS +3.43%",
+      "player_stance": "BUY",
+      "stance_reason": "SET bullish + ยืนฝั่ง BUY ทั้งวัน (ไม่ flip)",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 8.25,
+          "entry": 8.25,
+          "tp": 9.5,
+          "sector": "CONS +4.36%",
+          "vs": "RT 2.5x แรง",
+          "why": "CONS +4.36% RT 2.5x RSI 69 7/8 เข้าได้"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.16,
+          "entry": 3.16,
+          "tp": 3.6,
+          "sector": "ENERG +0.1%",
+          "vs": "RT 2.1x พอ",
+          "why": "RT 2.1x RSI 68 7/8 sector เขียว"
+        },
+        {
+          "sym": "PTTGC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 47.5,
+          "entry": 47.5,
+          "tp": 52.0,
+          "sector": "PETRO -2.14%",
+          "vs": "RT 3.9x สูง",
+          "why": "RT 3.9x แรง ถึง PETRO ลบ เทรด RT"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 28.0,
+          "entry": 27.0,
+          "tp": 30.0,
+          "sector": "PROP +1.67%",
+          "vs": "RT 2.0x ดี",
+          "why": "PROP +1.67% รอ dip ลงมาซื้อ"
+        },
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 5.05,
+          "entry": 4.9,
+          "tp": 5.5,
+          "sector": "ETRON +1.49%",
+          "vs": "RT 1.1x พอ",
+          "why": "RSI 66 ETRON +1.49% รอ pullback ดีกว่า"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260613-1432",
     "last_update": "2026-06-13 14:32:24",
     "gemini": {
