@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260614-1132",
+    "last_update": "2026-06-14 11:32:14",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28%. Widespread buying in Construction, Transport, Banking, and Tech.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is strongly bullish. Lessons learned dictate committing to a BUY stance and not flip-flopping.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "CONS sector",
+          "why": "Sector leader (+4.36%), RT 2.5x"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "TOURISM sector",
+          "why": "Strong sector (+1.83%) & RT (2.1x)"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "PROP sector",
+          "why": "Strong sector (+1.67%) & RT (2.0x)"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ENERG sector",
+          "why": "High RT (2.1x), sector is lagging"
+        },
+        {
+          "sym": "GPSC",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ENERG sector",
+          "why": "Meets criteria, RT > 1.5x"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ETRON sector",
+          "why": "Sector hot (+1.49%), wait for RT>1.5x"
+        },
+        {
+          "sym": "CK",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "CONS sector",
+          "why": "Top sector, laggard play, wait for RT"
+        },
+        {
+          "sym": "CCET",
+          "action": "WATCH",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ETRON sector",
+          "why": "Sector hot (+1.49%), wait for RT>1.5x"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28% · FINCIAL +2.0% · SERVICE +2.0% · TRANS +3.43% · broad green",
+      "player_stance": "BUY",
+      "stance_reason": "SET เขียว sector แรง follow lesson 2026-06-04 ยืน BUY ไม่ flip",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 3.48,
+          "entry": 3.48,
+          "tp": 3.9,
+          "sector": "CONS",
+          "vs": "RT 2.5x แรงสุด",
+          "why": "CONS +4.36% · RT 2.5x · RSI 69 OK · ผ่าน Rule"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.08,
+          "entry": 3.08,
+          "tp": 3.4,
+          "sector": "ENERG",
+          "vs": "RT 2.1x momentum",
+          "why": "ENERG +0.1% · RT 2.1x · RSI 68 OK · sector leader"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 24.1,
+          "entry": 24.3,
+          "tp": 26.0,
+          "sector": "PROP",
+          "vs": "รอ pullback",
+          "why": "RT 2.0x ดี แต่ gap 5.0% รอ consolidate ก่อน"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 39.0,
+          "entry": 39.5,
+          "tp": 42.0,
+          "sector": "TOURISM",
+          "vs": "RT 2.1x แต่ RSI เริ่มขึ้น",
+          "why": "TOURISM +1.83% · RT 2.1x · RSI 59 ยังต่ำ รอจังหวะ"
+        },
+        {
+          "sym": "GPSC",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 52.5,
+          "entry": 53.0,
+          "tp": 56.0,
+          "sector": "ENERG",
+          "vs": "RT 1.6x พอใช้",
+          "why": "ENERG sector · RT 1.6x · RSI 59 · รอ pullback หลัง 11:00"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260614-1102",
     "last_update": "2026-06-14 11:02:17",
     "gemini": {
