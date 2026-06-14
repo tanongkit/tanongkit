@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260614-1032",
+    "last_update": "2026-06-14 10:32:13",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28% with broad buying across BANK, FIN, CONS, SERVICE, TECH sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Lesson learned: In a clear bullish market, commit to the BUY side and avoid flip-flopping.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "GAP +58.9%",
+          "why": "Strongest sector (CONS), high RT."
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "GAP +5.0%",
+          "why": "Strong sector (PROP), high RT."
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Momentum",
+          "why": "Strong sector (TOURISM), high RT."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "GAP +14.7%",
+          "why": "High RT momentum, fair RSI."
+        },
+        {
+          "sym": "GPSC",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Momentum",
+          "why": "Meets all criteria, RT > 1.5x."
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "GAP +0.8%",
+          "why": "Sector leader, watch RT (1.3x)."
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "GAP +12.1%",
+          "why": "Strong sector (ETRON), low RT."
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Momentum",
+          "why": "Strongest sector, betting on rotation."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28% · FINCIAL +2.0% · SERVICE +2.0% · TRANS +3.43% strong flow",
+      "player_stance": "BUY",
+      "stance_reason": "Bullish market + strong sector flow → commit BUY no flip-flop",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 6.25,
+          "entry": 6.25,
+          "tp": 6.9,
+          "sector": "CONS",
+          "vs": "RT 2.5x sector +4.36%",
+          "why": "RT strong sector leader"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.6,
+          "entry": 3.6,
+          "tp": 3.96,
+          "sector": "ENERG",
+          "vs": "RT 2.1x RSI 68 momentum",
+          "why": "RT high sector stable"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 28.75,
+          "entry": 28.5,
+          "tp": 31.6,
+          "sector": "PROP",
+          "vs": "RT 2.0x sector +1.67%",
+          "why": "gap 5% wait pullback"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 92.0,
+          "entry": 91.0,
+          "tp": 100.0,
+          "sector": "ETRON",
+          "vs": "RT 1.3x sector +1.49%",
+          "why": "vol low pre-11:00 wait"
+        },
+        {
+          "sym": "PTTGC",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 50.0,
+          "entry": 49.5,
+          "tp": 54.5,
+          "sector": "PETRO",
+          "vs": "RT 3.9x but RSI 40",
+          "why": "need GRM+ confirmation first"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260614-1003",
     "last_update": "2026-06-14 10:03:29",
     "gemini": {
