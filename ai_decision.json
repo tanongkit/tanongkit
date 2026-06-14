@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260614-1402",
+    "last_update": "2026-06-14 14:02:29",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET up +1.28%, strong buying in CONS, TRANS, and BANK sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Strong market momentum and sector rotation. Committing to BUY side per lessons on bullish days.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 10,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "CK",
+          "why": "Top sector (CONS +4.36%), high RT, ideal RSI."
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ERW",
+          "why": "Strong TOURISM sector flow, high RT, good RSI."
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "WHA",
+          "why": "Strong PROP sector flow, high RT, good RSI."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "GPSC",
+          "why": "High RT momentum play, perfect RSI, strong checklist."
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "KCE",
+          "why": "Strong ETRON sector, good RSI. Watch for RT>1.5x."
+        },
+        {
+          "sym": "GPSC",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "GULF",
+          "why": "Meets RT/RSI criteria, but ENERG sector is lagging."
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "STECON",
+          "why": "In strongest sector but RT is too low. Wait."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "DELTA",
+          "why": "Strong sector but RT is lagging. Wait for volume."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28% · FINCIAL +2% · SERVICE +2% · TRANS +3.43% · TECH +1.53% แรง",
+      "player_stance": "BUY",
+      "stance_reason": "SET เขียว + หลายภาคบวก ให้ commit BUY ตาม lesson 06-04 ไม่ flip-flop",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 3.54,
+          "entry": 3.54,
+          "tp": 3.9,
+          "sector": "CONS",
+          "vs": "RT 2.5x สูงสุด + CONS +4.36% แรง",
+          "why": "sector leader + RT พุ่ง"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.06,
+          "entry": 4.06,
+          "tp": 4.4,
+          "sector": "ENERG",
+          "vs": "RT 2.1x + RSI 68 ยัง momentum ได้",
+          "why": "RT สูง + ภาคบวก"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 30.75,
+          "entry": 30.5,
+          "tp": 33.0,
+          "sector": "PROP",
+          "vs": "RT 2.0x ดี PROP +1.67% แต่ gap 5% ใกล้เกณฑ์",
+          "why": "รอ pullback หลัง gap 5%"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 85.5,
+          "entry": 84.0,
+          "tp": 92.0,
+          "sector": "ETRON",
+          "vs": "ETRON +1.49% แต่ RT 1.3x ต่ำ + ราคาแพง",
+          "why": "RT ยังไม่ฮอต รอดีกว่า"
+        },
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 13.2,
+          "entry": 13.0,
+          "tp": 14.5,
+          "sector": "ETRON",
+          "vs": "ETRON แรง RT 1.1x แต่ gap 12.1% สูง",
+          "why": "gap สูง รอ pullback ก่อน"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260614-1202",
     "last_update": "2026-06-14 12:02:22",
     "gemini": {
