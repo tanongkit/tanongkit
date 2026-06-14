@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260614-1501",
+    "last_update": "2026-06-14 15:01:59",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET up +1.28% with strong, broad-based buying across multiple key sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is strongly bullish (SET +20 pts). Lessons dictate maintaining a BUY stance and not flip-flopping.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "#1 sector flow",
+          "why": "CONS sector +4.36%, RT 2.5x, RSI 69. Prime setup."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "High RT momentum",
+          "why": "RT 2.1x, RSI 68, checklist 7/8. Meets all rules."
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "PROP sector momentum",
+          "why": "PROP sector +1.67%, RT 2.0x, RSI 68. Clear RT+sector play."
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Tourism RT play",
+          "why": "TOURISM sector +1.83%, RT 2.1x. Prioritizing RT over low score per lesson."
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ETRON sector leader",
+          "why": "ETRON sector +1.49%. RT is slightly below 1.5x but acceptable for a leader."
+        },
+        {
+          "sym": "GPSC",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ENERG with volume",
+          "why": "Meets all criteria (RT 1.6x, RSI 59, positive sector). Solid choice."
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ETRON laggard",
+          "why": "ETRON sector is strong (+1.49%). Following money flow despite low RT."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "ETRON laggard",
+          "why": "ETRON sector is strong (+1.49%). Following money flow, RT is low."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28% · BANK +2.24% · SERVICE +2.0% · TRANS +3.43% · broad green",
+      "player_stance": "BUY",
+      "stance_reason": "SET bullish + 8 sectors green + vol strong → commit BUY no flip",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 8.15,
+          "entry": 8.15,
+          "tp": 9.0,
+          "sector": "CONS",
+          "vs": "RT 2.5x · RSI 69 · CONS +4.36%",
+          "why": "RT+sector leader · momentum intact"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 3.38,
+          "entry": 3.38,
+          "tp": 3.7,
+          "sector": "ENERG",
+          "vs": "RT 2.1x · RSI 68 · ENERG +0.1%",
+          "why": "RT strong · sector neutral ok"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 29.25,
+          "entry": 29.25,
+          "tp": 31.5,
+          "sector": "PROP",
+          "vs": "RT 2.0x · RSI 68 · PROP +1.67%",
+          "why": "RT 2x + sector flow positive"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 85.0,
+          "entry": 83.0,
+          "tp": 90.0,
+          "sector": "ETRON",
+          "vs": "RT 1.3x · RSI 63 · ETRON +1.49%",
+          "why": "RT below 1.5x · wait retest 83"
+        },
+        {
+          "sym": "KCE",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 68.75,
+          "entry": 67.0,
+          "tp": 72.0,
+          "sector": "ETRON",
+          "vs": "RT 1.0x · RSI 58 · ETRON +1.49%",
+          "why": "RT too low · wait pullback entry"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260614-1431",
     "last_update": "2026-06-14 14:31:55",
     "gemini": {
