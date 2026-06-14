@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260614-2233",
+    "last_update": "2026-06-14 22:33:32",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28%, broad-based rally led by CONS, TRANS, BANK, and FIN sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "Market is clearly bullish. Following lesson to commit to the trend and not flip-flop.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 2.5x",
+          "why": "Strongest sector (CONS +4.36%) with high volume surge."
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 2.1x",
+          "why": "Strong sector momentum (TOURISM +1.83%) and solid RT."
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 2.0x",
+          "why": "Riding strong PROP sector (+1.67%) with high RT confirmation."
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 2.1x",
+          "why": "Meets all criteria with good volume; ENERG sector is positive."
+        },
+        {
+          "sym": "GPSC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 1.6x",
+          "why": "ENERG sector play, RT > 1.5x and good RSI."
+        },
+        {
+          "sym": "DELTA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 1.3x",
+          "why": "Hot sector (ETRON +1.49%) leader; watch for volume to break 1.5x."
+        },
+        {
+          "sym": "CCET",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 1.1x",
+          "why": "ETRON sector play, but lower confidence due to weak RT."
+        },
+        {
+          "sym": "KCE",
+          "action": "BUY",
+          "conf": 4,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "RT 1.0x",
+          "why": "ETRON sector play, on watch for volume increase."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +1.28% FINCIAL +2.0% SERVICE +2.0% TRANS +3.43% strong sectors up",
+      "player_stance": "BUY",
+      "stance_reason": "SET green + sentiment bullish ให้ commit BUY ตลอดวัน ไม่ flip",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 3.14,
+          "entry": 3.14,
+          "tp": 3.45,
+          "sector": "CONS",
+          "vs": "RT 2.5x sector +4.36%",
+          "why": "RT high sector strong"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 2.96,
+          "entry": 2.96,
+          "tp": 3.2,
+          "sector": "ENERG",
+          "vs": "RT 2.1x RSI 68",
+          "why": "momentum play energy up"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 7,
+          "now": 24.4,
+          "entry": 24.4,
+          "tp": 26.5,
+          "sector": "PROP",
+          "vs": "RT 2.0x sector +1.67%",
+          "why": "volume play property strong"
+        },
+        {
+          "sym": "PTTGC",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 45.25,
+          "entry": 46.0,
+          "tp": 48.0,
+          "sector": "PETRO",
+          "vs": "RT 3.9x sector -2.14%",
+          "why": "RT high but sector weak"
+        },
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 6.9,
+          "entry": 6.8,
+          "tp": 7.3,
+          "sector": "ETRON",
+          "vs": "RT 1.1x sector +1.49%",
+          "why": "wait pullback after +12% gap"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260614-1602",
     "last_update": "2026-06-14 16:02:02",
     "gemini": {
