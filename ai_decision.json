@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260615-1202",
+    "last_update": "2026-06-15 12:02:01",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "Strong sector rotation into Tourism, Construction, Finance, and Services.",
+      "player_stance": "BUY",
+      "stance_reason": "SET is green with strong sector leadership. Following lesson to maintain BUY stance on bullish days.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 42.25,
+          "entry": 42.0,
+          "tp": 44.5,
+          "vs": "RT 2.7x",
+          "why": "Top sector flow (Tourism), strong RT."
+        },
+        {
+          "sym": "MTC",
+          "action": "BUY",
+          "conf": 8,
+          "now": 43.25,
+          "entry": 42.75,
+          "tp": 45.0,
+          "vs": "RT 4.9x",
+          "why": "Excellent RT and strong Finance sector."
+        },
+        {
+          "sym": "BH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 232.0,
+          "entry": 231.0,
+          "tp": 240.0,
+          "vs": "RT 4.5x",
+          "why": "Excellent RT and strong Health sector."
+        },
+        {
+          "sym": "SCC",
+          "action": "BUY",
+          "conf": 8,
+          "now": 298.0,
+          "entry": 298.0,
+          "tp": 306.0,
+          "vs": "RT 3.6x",
+          "why": "Strong sector, RT, and good gap."
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 7,
+          "now": 10.8,
+          "entry": 10.7,
+          "tp": 11.4,
+          "vs": "RT 2.7x",
+          "why": "Strong Construction sector flow and RT."
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 7,
+          "now": 22.1,
+          "entry": 21.9,
+          "tp": 23.0,
+          "vs": "RT 2.0x",
+          "why": "Construction sector play, solid RT."
+        },
+        {
+          "sym": "AMATA",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 22.3,
+          "entry": 21.8,
+          "tp": 23.0,
+          "vs": "RT 2.4x",
+          "why": "High gap (+5.7%), wait for pullback."
+        },
+        {
+          "sym": "KSL",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 2.74,
+          "entry": 2.66,
+          "tp": 2.84,
+          "vs": "RT 15.2x",
+          "why": "Huge gap (+6.2%), very high risk."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.26%, TOURISM +3.26%, TRANS +1.86%, HELTH +1.23%, PROPCON +0.94% strong sector flows",
+      "player_stance": "BUY",
+      "stance_reason": "SET green, strong sector flows, high RT plays available, bullish momentum confirmed",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "BH",
+          "action": "BUY",
+          "conf": 9,
+          "now": 30.5,
+          "entry": 30.5,
+          "tp": 32.0,
+          "sector": "HELTH",
+          "vs": "RT 4.5x, sector +1.23%",
+          "why": "Highest RT, HELTH sector leader, gap 2.5% safe entry"
+        },
+        {
+          "sym": "MTC",
+          "action": "BUY",
+          "conf": 8,
+          "now": 37.0,
+          "entry": 37.0,
+          "tp": 39.0,
+          "sector": "FIN",
+          "vs": "RT 4.9x, FIN +1.81%",
+          "why": "Extreme RT, sector flow positive, RSI 54 room"
+        },
+        {
+          "sym": "SCC",
+          "action": "BUY",
+          "conf": 8,
+          "now": 431.0,
+          "entry": 431.0,
+          "tp": 445.0,
+          "sector": "CONMAT",
+          "vs": "RT 3.6x, CONMAT +1.5%",
+          "why": "High RT, sector leader, gap 1.7% safe"
+        },
+        {
+          "sym": "GPSC",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 71.25,
+          "entry": 70.5,
+          "tp": 74.0,
+          "sector": "ENERG",
+          "vs": "RT 3.3x, gap 2.4%",
+          "why": "Wait pullback from gap 2.4%, then enter"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 35.0,
+          "entry": 34.5,
+          "tp": 36.5,
+          "sector": "TOURISM",
+          "vs": "RT 2.7x, TOURISM +3.26%",
+          "why": "Gap 3.7% high, wait pullback despite strong sector"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260615-1132",
     "last_update": "2026-06-15 11:32:06",
     "gemini": {
