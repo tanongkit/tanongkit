@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260615-1502",
+    "last_update": "2026-06-15 15:02:15",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Rotational market. Strong sectors (Tourism, Health, Finance) vs weak sectors (Petro, Energy).",
+      "player_stance": "BUY",
+      "stance_reason": "SET index is slightly red, but strong sector rotation provides selective buying opportunities.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "BH",
+          "action": "BUY",
+          "conf": 9,
+          "now": 237.0,
+          "entry": 236.5,
+          "tp": 245.0,
+          "vs": "RT=4.1x",
+          "why": "HELTH sector leader, strong RT"
+        },
+        {
+          "sym": "MTC",
+          "action": "BUY",
+          "conf": 9,
+          "now": 47.5,
+          "entry": 47.25,
+          "tp": 49.5,
+          "vs": "RT=5.0x",
+          "why": "FIN sector strong, RT spike"
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 8,
+          "now": 24.0,
+          "entry": 23.9,
+          "tp": 25.0,
+          "vs": "RT=3.6x",
+          "why": "CONS sector positive, perfect checklist"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 8,
+          "now": 13.3,
+          "entry": 13.3,
+          "tp": 14.0,
+          "vs": "RT=2.4x",
+          "why": "CONS sector positive, good entry gap"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 41.75,
+          "entry": 41.25,
+          "tp": 43.5,
+          "vs": "RT=2.2x",
+          "why": "TOURISM sector leader, wait pullback"
+        },
+        {
+          "sym": "GPSC",
+          "action": "BUY",
+          "conf": 6,
+          "now": 51.25,
+          "entry": 51.0,
+          "tp": 53.0,
+          "vs": "RT=3.7x",
+          "why": "S7 override, counter-sector play"
+        },
+        {
+          "sym": "AMATA",
+          "action": "BUY",
+          "conf": 5,
+          "now": 23.8,
+          "entry": 23.7,
+          "tp": 24.5,
+          "vs": "RT=2.2x",
+          "why": "RSI high, but RT meets criteria"
+        },
+        {
+          "sym": "CPALL",
+          "action": "BUY",
+          "conf": 5,
+          "now": 55.0,
+          "entry": 55.0,
+          "tp": 56.5,
+          "vs": "RT=2.5x",
+          "why": "High RT but flat price/sector"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BEARISH",
+      "sentiment_reason": "SET -0.28% · PETRO -4.75% · INDUS -2.58% · TECH -0.93% · RESOURC -1.01%",
+      "player_stance": "WAIT",
+      "stance_reason": "SET แดง sector หลักลบ ไม่ commit BUY ตาม lesson · รอ pullback จาก gap สูง",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 8,
+          "now": 4.52,
+          "entry": 4.5,
+          "tp": 4.9,
+          "sector": "CONS",
+          "vs": "RT 3.6x เต็ม 8 rule",
+          "why": "CONS +0.75% · gap 2.1% พอดี · RSI 63 ดี"
+        },
+        {
+          "sym": "MTC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 38.5,
+          "entry": 38.25,
+          "tp": 42.0,
+          "sector": "FIN",
+          "vs": "RT 5.0x สูงสุด · RSI 55 ปลอดภัย",
+          "why": "FIN +1.56% · gap -45.9% ต่ำ · ซื้อได้"
+        },
+        {
+          "sym": "BH",
+          "action": "BUY",
+          "conf": 7,
+          "now": 19.5,
+          "entry": 19.3,
+          "tp": 21.0,
+          "sector": "HELTH",
+          "vs": "RT 4.1x · HELTH +1.23%",
+          "why": "gap 2.8% ระวัง เข้าครึ่ง · RSI 61"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 38.75,
+          "entry": 37.5,
+          "tp": 40.0,
+          "sector": "TOURISM",
+          "vs": "TOURISM +5.73% แรงสุด",
+          "why": "gap +5.1% สูงเกิน รอ pullback ก่อน"
+        },
+        {
+          "sym": "KSL",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 3.74,
+          "entry": 3.6,
+          "tp": 3.9,
+          "sector": "AGRI",
+          "vs": "RT 23.6x วิ่งเต็มที่",
+          "why": "gap +12.4% มากเกิน · อย่าไล่ราคา"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260615-1432",
     "last_update": "2026-06-15 14:32:15",
     "gemini": null,
