@@ -1,5 +1,74 @@
 [
   {
+    "tx_id": "20260615-1432",
+    "last_update": "2026-06-15 14:32:15",
+    "gemini": null,
+    "claude": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "SET flat -0.02% · TOURISM +5.12% strong · PETRO -4.76% weak · mixed sector flow",
+      "player_stance": "BUY",
+      "stance_reason": "Strong RT plays emerging · CK/MTC/BH/KSL breakout with RT>3x · selective entry on pullback",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "MTC",
+          "action": "BUY",
+          "conf": 9,
+          "now": 62.5,
+          "entry": 62.0,
+          "tp": 66.0,
+          "sector": "FIN",
+          "vs": "RT 5.0x RSI 55",
+          "why": "low RSI+strong RT+volume breakout"
+        },
+        {
+          "sym": "BH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 21.1,
+          "entry": 20.8,
+          "tp": 22.5,
+          "sector": "HELTH",
+          "vs": "RT 4.1x gap 3.1%",
+          "why": "HELTH sector +1.04% momentum"
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 8,
+          "now": 18.7,
+          "entry": 18.5,
+          "tp": 20.0,
+          "sector": "CONS",
+          "vs": "RT 3.6x 8/8 pass",
+          "why": "CONS sector +1.36% flow"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 39.25,
+          "entry": 38.5,
+          "tp": 41.0,
+          "sector": "TOURISM",
+          "vs": "gap +4.4% high",
+          "why": "wait pullback gap>4%"
+        },
+        {
+          "sym": "GPSC",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 69.0,
+          "entry": 68.0,
+          "tp": 72.0,
+          "sector": "ENERG",
+          "vs": "RT 3.7x gap 2.4%",
+          "why": "ENERG sector weak -0.78%"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260615-1402",
     "last_update": "2026-06-15 14:02:14",
     "gemini": {
