@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260615-1102",
+    "last_update": "2026-06-15 11:02:05",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET positive, strong rotation into Tourism, Construction, Transport, and Finance sectors.",
+      "player_stance": "BUY",
+      "stance_reason": "SET is green with broad sector strength. Following Lesson #1: commit to the bullish trend.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 9,
+          "now": 9.3,
+          "entry": 9.3,
+          "tp": 9.7,
+          "vs": "Low gap, easier entry.",
+          "why": "Strong Sector (TRANS), high RT, good entry gap."
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 42.25,
+          "entry": 42.0,
+          "tp": 43.75,
+          "vs": "High gap (+3.7%), risk of pullback.",
+          "why": "Top sector (TOURISM), high RT momentum."
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 8,
+          "now": 12.8,
+          "entry": 12.7,
+          "tp": 13.4,
+          "vs": "Volatile DNA, high gap (+2.9%).",
+          "why": "Top sector (CONS), RT strong, breakout."
+        },
+        {
+          "sym": "MTC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 49.5,
+          "entry": 49.25,
+          "tp": 51.5,
+          "vs": "Low score, pure momentum play.",
+          "why": "Strong Sector (FIN), very high RT (3.1x)."
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 7,
+          "now": 70.0,
+          "entry": 69.75,
+          "tp": 72.0,
+          "vs": "Pricey, but a sector leader.",
+          "why": "Strong Sector (TRANS), high RT, leader."
+        },
+        {
+          "sym": "BH",
+          "action": "BUY",
+          "conf": 7,
+          "now": 245.0,
+          "entry": 244.0,
+          "tp": 252.0,
+          "vs": "High ticket price, high beta.",
+          "why": "Highest RT on list (3.4x), good sector."
+        },
+        {
+          "sym": "HANA",
+          "action": "BUY",
+          "conf": 6,
+          "now": 48.75,
+          "entry": 48.5,
+          "tp": 50.5,
+          "vs": "Q1 miss, but sentiment turning.",
+          "why": "Sector (ETRON) positive, solid RT (1.9x)."
+        },
+        {
+          "sym": "BDMS",
+          "action": "BUY",
+          "conf": 6,
+          "now": 29.75,
+          "entry": 29.75,
+          "tp": 30.75,
+          "vs": "Lower RT than BH, safer play.",
+          "why": "Sector (HELTH) positive, RT > 1.5x."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.29% · TOURISM +3.34% · TRANS +1.69% · BANK +0.58% strong",
+      "player_stance": "BUY",
+      "stance_reason": "SET green + sentiment bullish → commit BUY no flip (lesson 06-04)",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 9,
+          "now": 82.0,
+          "entry": 82.0,
+          "tp": 86.5,
+          "sector": "TRANS",
+          "vs": "RT 2.4x sector +1.69%",
+          "why": "sector leader RT high ignore Rule0"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 54.25,
+          "entry": 54.25,
+          "tp": 57.0,
+          "sector": "TOURISM",
+          "vs": "RT 2.6x sector +3.34%",
+          "why": "gap 3.7% acceptable RT breakout"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 8,
+          "now": 18.9,
+          "entry": 18.9,
+          "tp": 20.0,
+          "sector": "TRANS",
+          "vs": "RT 2.8x sector +1.69%",
+          "why": "highest RT sector flow positive"
+        },
+        {
+          "sym": "GPSC",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 60.25,
+          "entry": 59.5,
+          "tp": 63.0,
+          "sector": "ENERG",
+          "vs": "gap 1.8% RT 2.6x",
+          "why": "gap acceptable wait minor pullback"
+        },
+        {
+          "sym": "BH",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 23.2,
+          "entry": 23.0,
+          "tp": 24.5,
+          "sector": "HELTH",
+          "vs": "RT 3.4x sector +0.83%",
+          "why": "gap low RT high wait entry"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260615-1032",
     "last_update": "2026-06-15 10:32:04",
     "gemini": {
