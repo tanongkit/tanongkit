@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260615-1132",
+    "last_update": "2026-06-15 11:32:06",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Sectors mixed. Tourism/Construction strong, but Petro/Industrials weak. SET is flat.",
+      "player_stance": "WAIT",
+      "stance_reason": "Market is not broadly bullish; shows rotation. Selectively picking stocks in strong sectors is key.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Volatile Swing DNA",
+          "why": "Leader in strongest sector (CONS +2.3%) + high RT"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Channel Up DNA",
+          "why": "Leader in strong sector (TOURISM +3.0%) + high RT"
+        },
+        {
+          "sym": "MTC",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Step Up DNA",
+          "why": "Extremely high RT (7.4x) in strong FIN sector (+1.2%)"
+        },
+        {
+          "sym": "BH",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Sector Leader",
+          "why": "Very high RT (6.7x) in positive HELTH sector"
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Sector Leader",
+          "why": "Strong sector flow (TRANS +2%) and high RT"
+        },
+        {
+          "sym": "SCC",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Market Leader",
+          "why": "Strong RT (5.4x) in related strong sector (CONMAT)"
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Follower play",
+          "why": "Follower in strongest CONS sector, good RT (3.0x)"
+        },
+        {
+          "sym": "KSL",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Extreme RT 22.7x",
+          "why": "Gap up too high (+6.2%), wait for pullback"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.14% FINCIAL +0.59% TOURISM +3% TRANS +2% broad sector green",
+      "player_stance": "BUY",
+      "stance_reason": "SET green + broad sector flow + RT active ให้ commit BUY ทั้งวัน ไม่ flip",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "BH",
+          "action": "BUY",
+          "conf": 9,
+          "now": 167.5,
+          "entry": 167.5,
+          "tp": 180.0,
+          "sector": "HELTH",
+          "vs": "RT 6.7x สูงสุด sector +0.89%",
+          "why": "gap 2% safe entry RT พุ่ง HELTH แรง"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 41.0,
+          "entry": 41.0,
+          "tp": 44.0,
+          "sector": "TOURISM",
+          "vs": "RT 4x TOURISM +3% แรงสุด",
+          "why": "gap 3.7% ระวัง เข้าครึ่ง sector leader"
+        },
+        {
+          "sym": "SCC",
+          "action": "BUY",
+          "conf": 8,
+          "now": 444.0,
+          "entry": 444.0,
+          "tp": 470.0,
+          "sector": "CONMAT",
+          "vs": "RT 5.4x CONMAT +1.18%",
+          "why": "gap 1.7% safe RT สูง sector บวก"
+        },
+        {
+          "sym": "AOT",
+          "action": "WAIT",
+          "conf": 6,
+          "now": 77.5,
+          "entry": 76.5,
+          "tp": 82.0,
+          "sector": "TRANS",
+          "vs": "RT 3.3x TRANS +2.01%",
+          "why": "gap 2.2% + ราคา >60 รอ pullback 76"
+        },
+        {
+          "sym": "AMATA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 15.7,
+          "entry": 15.2,
+          "tp": 17.0,
+          "sector": "PROPCON",
+          "vs": "RT 3.6x PROPCON +0.77%",
+          "why": "gap 5.7% เกินกฎ รอ pullback ก่อน"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260615-1102",
     "last_update": "2026-06-15 11:02:05",
     "gemini": {
