@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260615-1402",
+    "last_update": "2026-06-15 14:02:14",
+    "gemini": {
+      "market_sentiment": "NEUTRAL",
+      "sentiment_reason": "Sector rotation clear: Tourism/Construction strong, Petro/Industrials weak. Index flat.",
+      "player_stance": "WAIT",
+      "stance_reason": "SET is flat with strong rotation. Only enter leaders in strong sectors with low gaps.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Tourism leader",
+          "why": "Strong sector (TRANS), RT>1.5x, low entry gap"
+        },
+        {
+          "sym": "SCC",
+          "action": "BUY",
+          "conf": 9,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Construction material play",
+          "why": "Strong sector (CONMAT), high RT, low entry gap"
+        },
+        {
+          "sym": "MTC",
+          "action": "BUY",
+          "conf": 8,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Finance recovery",
+          "why": "Top sector (FIN), massive RT, strong momentum"
+        },
+        {
+          "sym": "BH",
+          "action": "BUY",
+          "conf": 7,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Medical tourism",
+          "why": "Strong sector (HELTH), high RT, good momentum"
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Mega-project contractor",
+          "why": "Top sector (CONS), high RT, but high gap"
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 6,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Contractor momentum",
+          "why": "Strong sector (CONS), RT>1.5x, watch gap"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 5,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Hotel reopening",
+          "why": "Strongest sector (TOURISM), high gap, wait for dip"
+        },
+        {
+          "sym": "KSL",
+          "action": "BUY",
+          "conf": 3,
+          "now": 0.0,
+          "entry": 0.0,
+          "tp": 0.0,
+          "vs": "Sugar price spike",
+          "why": "Extreme RT, but >10% gap, DO NOT CHASE, wait pullback"
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.13%, TOURISM +3.89%, HELTH +1.39%, TRANS +1.44%, CONMAT +1.26%, FIN +2.0%",
+      "player_stance": "BUY",
+      "stance_reason": "Bullish SET + strong sector rotation TOURISM/HEALTH/TRANS/CONMAT - commit BUY no flip",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "BH",
+          "action": "BUY",
+          "conf": 9,
+          "now": 143.5,
+          "entry": 143.5,
+          "tp": 152.0,
+          "sector": "HELTH",
+          "vs": "RT 3.8x, gap +3.1%",
+          "why": "HELTH +1.39%, RT 3.8x strong, RSI 59 safe"
+        },
+        {
+          "sym": "CENTEL",
+          "action": "BUY",
+          "conf": 8,
+          "now": 55.0,
+          "entry": 55.0,
+          "tp": 58.0,
+          "sector": "TOURISM",
+          "vs": "RT 2.2x, gap +4.4%",
+          "why": "TOURISM +3.89% leader, gap high half position"
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 9,
+          "now": 20.8,
+          "entry": 20.8,
+          "tp": 22.0,
+          "sector": "CONS",
+          "vs": "RT 3.4x, gap +4.3%",
+          "why": "CONS +2.18%, RT 3.4x strong, 8/8 perfect"
+        },
+        {
+          "sym": "SCC",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 393.0,
+          "entry": 388.0,
+          "tp": 410.0,
+          "sector": "CONMAT",
+          "vs": "RT 3.4x, gap low",
+          "why": "CONMAT +1.26%, wait gap <2% entry better"
+        },
+        {
+          "sym": "GPSC",
+          "action": "WAIT",
+          "conf": 7,
+          "now": 63.25,
+          "entry": 62.5,
+          "tp": 66.0,
+          "sector": "ENERG",
+          "vs": "RT 3.3x, gap +2.4%",
+          "why": "ENERG -0.47% weak sector, wait confirmation"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260615-1202",
     "last_update": "2026-06-15 12:02:01",
     "gemini": {
