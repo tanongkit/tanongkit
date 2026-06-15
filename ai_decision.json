@@ -1,5 +1,162 @@
 [
   {
+    "tx_id": "20260615-1032",
+    "last_update": "2026-06-15 10:32:04",
+    "gemini": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET green, led by strong Tourism, Construction, and Transportation sectors, offsetting Petro weakness.",
+      "player_stance": "BUY",
+      "stance_reason": "Following lesson: Market is green and sector sentiment is positive, so maintain a BUY stance and avoid flip-flopping.",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "EPG",
+          "action": "BUY",
+          "conf": 9,
+          "now": 11.3,
+          "entry": 11.3,
+          "tp": 11.8,
+          "vs": "vs PKG sector",
+          "why": "Highest score, strong sector, great gap."
+        },
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 8,
+          "now": 13.0,
+          "entry": 12.9,
+          "tp": 13.6,
+          "vs": "vs CONS sector",
+          "why": "Strongest sector flow, good score & RSI."
+        },
+        {
+          "sym": "AOT",
+          "action": "BUY",
+          "conf": 8,
+          "now": 63.25,
+          "entry": 63.0,
+          "tp": 65.0,
+          "vs": "vs TRANS sector",
+          "why": "Leader in strong sector, lesson allows."
+        },
+        {
+          "sym": "CK",
+          "action": "BUY",
+          "conf": 7,
+          "now": 22.1,
+          "entry": 22.1,
+          "tp": 22.8,
+          "vs": "vs CONS sector",
+          "why": "Strongest sector flow, acceptable gap."
+        },
+        {
+          "sym": "THAI",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 11.5,
+          "entry": 11.4,
+          "tp": 12.0,
+          "vs": "vs TRANS sector",
+          "why": "Strong sector, but low score. Wait RT."
+        },
+        {
+          "sym": "DELTA",
+          "action": "WATCH",
+          "conf": 6,
+          "now": 91.75,
+          "entry": 91.5,
+          "tp": 95.0,
+          "vs": "vs ETRON sector",
+          "why": "Positive sector, good RSI. Wait RT confirmation."
+        },
+        {
+          "sym": "BH",
+          "action": "WATCH",
+          "conf": 5,
+          "now": 245.0,
+          "entry": 244.0,
+          "tp": 250.0,
+          "vs": "vs HELTH sector",
+          "why": "Strong sector, but low score. Wait RT."
+        },
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 4,
+          "now": 4.82,
+          "entry": 4.7,
+          "tp": 4.9,
+          "vs": "vs ETRON sector",
+          "why": "Gap >5%, lesson says wait for pullback."
+        }
+      ]
+    },
+    "claude": {
+      "market_sentiment": "BULLISH",
+      "sentiment_reason": "SET +0.3%, SERVICE +1.29%, TOURISM +2.51%, TRANS +1.67%, HELTH +1.05% strong",
+      "player_stance": "BUY",
+      "stance_reason": "Bullish market with strong sector flow, commit to BUY side per lesson",
+      "port_action": [],
+      "picks": [
+        {
+          "sym": "STECON",
+          "action": "BUY",
+          "conf": 7,
+          "now": 28.5,
+          "entry": 28.0,
+          "tp": 32.0,
+          "sector": "CONS",
+          "vs": "gap +2.4% moderate",
+          "why": "score 54 RSI 69 sector +1.77% wait RT"
+        },
+        {
+          "sym": "GUNKUL",
+          "action": "BUY",
+          "conf": 7,
+          "now": 3.4,
+          "entry": 3.35,
+          "tp": 3.8,
+          "sector": "ENERG",
+          "vs": "gap +1.5% safe",
+          "why": "score 42 RSI 68 sector flow wait RT"
+        },
+        {
+          "sym": "CCET",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 36.0,
+          "entry": 35.0,
+          "tp": 40.0,
+          "sector": "ETRON",
+          "vs": "gap +5.2% hot",
+          "why": "wait pullback gap too high RSI 66"
+        },
+        {
+          "sym": "THAI",
+          "action": "BUY",
+          "conf": 6,
+          "now": 17.6,
+          "entry": 17.4,
+          "tp": 19.5,
+          "sector": "TRANS",
+          "vs": "gap +2.2% moderate",
+          "why": "TRANS +1.67% score 16 RSI 63 wait RT"
+        },
+        {
+          "sym": "DELTA",
+          "action": "WAIT",
+          "conf": 5,
+          "now": 59.5,
+          "entry": 58.0,
+          "tp": 65.0,
+          "sector": "ETRON",
+          "vs": "gap +2.2% moderate",
+          "why": "ETRON +0.86% wait RT confirmation RSI 63"
+        }
+      ]
+    }
+  },
+  {
     "tx_id": "20260615-1003",
     "last_update": "2026-06-15 10:03:07",
     "gemini": {
